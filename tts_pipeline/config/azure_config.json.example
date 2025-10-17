@@ -1,0 +1,10 @@
+{
+  "service": "azure",
+  "subscription_key": "YOUR_AZURE_SUBSCRIPTION_KEY_HERE",
+  "region": "eastus",
+  "voice": "en-US-AriaNeural",
+  "rate": "+0%",
+  "pitch": "+0Hz",
+  "output_format": "audio-24khz-160kbitrate-mono-mp3",
+  "description": "Azure Neural TTS configuration for high-quality voice synthesis"
+}

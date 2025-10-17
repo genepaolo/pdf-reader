@@ -1,0 +1,33 @@
+# 🚨 CRITICAL: PDF_TO_TXT FOLDER PROTECTION RULE 🚨
+
+## MANDATORY: Before modifying ANY files in pdf_to_txt/ folder
+
+**STOP** and follow this protocol:
+
+1. **READ FIRST**: Always read `pdf_to_txt/DO_NOT_MODIFY.md` before making ANY changes to pdf_to_text
+2. **ASK PERMISSION**: Request explicit user permission before modifying any files in pdf_to_text
+3. **EXPLAIN WHY**: Clearly explain why the change is necessary
+4. **WAIT FOR CONFIRMATION**: Do not proceed until user explicitly confirms
+
+## Protected Files:
+- pdf_to_txt/main.py
+- pdf_to_txt/pdf_converter_clean.py
+- pdf_to_txt/requirements.txt
+- pdf_to_txt/README.md
+- pdf_to_txt/tests/ (entire folder)
+
+## Current Status:
+- ✅ WORKING and PRODUCTION READY
+- ✅ All functionality tested and verified
+- ✅ Files are READ-ONLY protected
+- ✅ Complete backup available
+
+## To Make Changes:
+1. User must run: `python pdf_to_txt/protect_folder.py unprotect`
+2. Make changes
+3. User must run: `python pdf_to_txt/protect_folder.py` to re-protect
+
+## Emergency Recovery:
+- Backup available at: `pdf_to_txt_PROTECTED_BACKUP.zip`
+
+**VIOLATION OF THIS RULE WILL BREAK WORKING FUNCTIONALITY**

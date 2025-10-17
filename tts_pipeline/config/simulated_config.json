@@ -1,0 +1,6 @@
+{
+  "service": "simulated",
+  "voice": "default",
+  "processing_delay": 1,
+  "description": "Simulated TTS service for testing and development"
+}
