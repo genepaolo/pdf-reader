@@ -140,13 +140,14 @@ class ProgressTracker:
             self.logger.error(f"Could not save {file_path}: {e}")
             return False
     
-    def mark_chapter_completed(self, chapter_info: Dict[str, Any], audio_file_path: str) -> bool:
+    def mark_chapter_completed(self, chapter_info: Dict[str, Any], audio_file_path: str, dry_run: bool = False) -> bool:
         """
         Mark a chapter as successfully completed.
         
         Args:
             chapter_info: Chapter metadata from file organizer
             audio_file_path: Path to the generated audio file
+            dry_run: Whether this is a dry-run completion (not real processing)
             
         Returns:
             True if saved successfully, False otherwise
@@ -155,11 +156,13 @@ class ProgressTracker:
         
         # Check if already completed (O(1) lookup)
         if chapter_id not in self.completed_chapter_ids:
+            # New completion record
             completion_record = {
                 "timestamp": datetime.now().isoformat(),
                 "chapter_info": chapter_info,
                 "audio_file_path": audio_file_path,
-                "audio_file_size": Path(audio_file_path).stat().st_size if Path(audio_file_path).exists() else 0
+                "audio_file_size": Path(audio_file_path).stat().st_size if Path(audio_file_path).exists() else 0,
+                "dry_run": dry_run  # Mark whether this was a dry-run completion
             }
             
             # Add to efficient lookup structures (O(1) operations)
@@ -182,7 +185,46 @@ class ProgressTracker:
             self.metadata["total_failed"] = len(self.failed_chapter_records)
             self.metadata["last_updated"] = datetime.now().isoformat()
             
-            return self._save_progress()
+            self.logger.debug(f"About to save progress for {chapter_id}")
+            result = self._save_progress()
+            self.logger.debug(f"Save progress result for {chapter_id}: {result}")
+            return result
+        else:
+            # Chapter already completed - check if we need to replace dry-run with real completion
+            for i, record in enumerate(self.completed_chapter_records):
+                if self._get_chapter_id(record["chapter_info"]) == chapter_id:
+                    # If existing record is dry-run and new record is real, replace it
+                    if record.get("dry_run", False) and not dry_run:
+                        self.completed_chapter_records[i] = {
+                            "timestamp": datetime.now().isoformat(),
+                            "chapter_info": chapter_info,
+                            "audio_file_path": audio_file_path,
+                            "audio_file_size": Path(audio_file_path).stat().st_size if Path(audio_file_path).exists() else 0,
+                            "dry_run": dry_run
+                        }
+                        self.logger.info(f"Replaced dry-run completion with real completion for {chapter_info['filename']}")
+                    break
+            
+            # Remove from failed if it was there (O(1) operations)
+            if chapter_id in self.failed_chapter_ids:
+                self.failed_chapter_ids.remove(chapter_id)
+                # Clean up failure records (remove all failure records for this chapter)
+                self.failed_chapter_records = [r for r in self.failed_chapter_records 
+                                             if self._get_chapter_id(r["chapter_info"]) != chapter_id]
+                # Remove from failure counts
+                if chapter_id in self.chapter_failure_counts:
+                    del self.chapter_failure_counts[chapter_id]
+            
+            # Update metadata
+            self.metadata["last_completed_chapter"] = chapter_info["filename"]
+            self.metadata["total_completed"] = len(self.completed_chapter_records)
+            self.metadata["total_failed"] = len(self.failed_chapter_records)
+            self.metadata["last_updated"] = datetime.now().isoformat()
+            
+            self.logger.debug(f"About to save progress for {chapter_id}")
+            result = self._save_progress()
+            self.logger.debug(f"Save progress result for {chapter_id}: {result}")
+            return result
         
         return True  # Already completed
     
@@ -236,6 +278,61 @@ class ProgressTracker:
         """Check if a chapter has been completed successfully (O(1) lookup)."""
         chapter_id = self._get_chapter_id(chapter_info)
         return chapter_id in self.completed_chapter_ids
+    
+    def is_chapter_completed_real(self, chapter_info: Dict[str, Any]) -> bool:
+        """Check if a chapter has been completed with real processing (not dry-run)."""
+        chapter_id = self._get_chapter_id(chapter_info)
+        if chapter_id not in self.completed_chapter_ids:
+            return False
+        
+        # Find the completion record and check if it's not a dry-run
+        for record in self.completed_chapter_records:
+            if self._get_chapter_id(record["chapter_info"]) == chapter_id:
+                return not record.get("dry_run", False)
+        
+        return False
+    
+    def is_chapter_dry_run_completed(self, chapter_info: Dict[str, Any]) -> bool:
+        """Check if a chapter was completed only in dry-run mode."""
+        chapter_id = self._get_chapter_id(chapter_info)
+        if chapter_id not in self.completed_chapter_ids:
+            return False
+        
+        # Find the completion record and check if it's a dry-run
+        for record in self.completed_chapter_records:
+            if self._get_chapter_id(record["chapter_info"]) == chapter_id:
+                return record.get("dry_run", False)
+        
+        return False
+    
+    def clear_dry_run_data(self) -> bool:
+        """Clear all dry-run completion records to start fresh with real processing."""
+        try:
+            # Remove all dry-run completion records (including old records without dry_run field)
+            original_count = len(self.completed_chapter_records)
+            self.completed_chapter_records = [
+                record for record in self.completed_chapter_records 
+                if record.get("dry_run", False) == False  # Only keep records explicitly marked as real processing
+            ]
+            removed_count = original_count - len(self.completed_chapter_records)
+            
+            # Rebuild lookup structures
+            self.completed_chapter_ids.clear()
+            for record in self.completed_chapter_records:
+                chapter_id = self._get_chapter_id(record["chapter_info"])
+                self.completed_chapter_ids.add(chapter_id)
+            
+            # Update metadata
+            self.metadata["total_completed"] = len(self.completed_chapter_records)
+            self.metadata["last_updated"] = datetime.now().isoformat()
+            
+            if removed_count > 0:
+                self.logger.info(f"Cleared {removed_count} dry-run completion records")
+            
+            return self._save_progress()
+        except Exception as e:
+            self.logger.error(f"Error clearing dry-run data: {e}")
+            return False
     
     def is_chapter_failed(self, chapter_info: Dict[str, Any]) -> bool:
         """Check if a chapter has failed (and is not completed) (O(1) lookup)."""
@@ -315,10 +412,13 @@ class ProgressTracker:
         """Save all progress data to files."""
         success = True
         
+        self.logger.debug(f"Saving progress: {len(self.completed_chapter_records)} completed, {len(self.failed_chapter_records)} failed")
+        
         success &= self._save_json_file(self.progress_file, self.completed_chapter_records)
         success &= self._save_json_file(self.failed_file, self.failed_chapter_records)
         success &= self._save_json_file(self.metadata_file, self.metadata)
         
+        self.logger.debug(f"Save progress result: {success}")
         return success
     
     def reset_progress(self) -> bool:

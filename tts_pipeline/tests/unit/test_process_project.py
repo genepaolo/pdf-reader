@@ -91,13 +91,13 @@ class TestTTSProcessor:
     def test_get_next_chapter_to_process(self, mock_tracker_class, mock_organizer_class):
         """Test getting next chapter to process."""
         mock_tracker = mock_tracker_class.return_value
-        mock_tracker.is_chapter_completed.side_effect = [True, False, False]
+        mock_tracker.is_chapter_completed_real.side_effect = [True, False, False]
         
         processor = TTSProcessor(self.mock_project)
         next_chapter = processor.get_next_chapter_to_process(self.mock_chapters)
         
         assert next_chapter == self.mock_chapters[1]
-        assert mock_tracker.is_chapter_completed.call_count == 2
+        assert mock_tracker.is_chapter_completed_real.call_count == 2
     
     @patch('scripts.process_project.ChapterFileOrganizer')
     @patch('scripts.process_project.ProgressTracker')
@@ -166,6 +166,9 @@ class TestTTSProcessor:
         # Mock the discover_chapters method to return our test chapters
         mock_organizer.discover_chapters.return_value = self.mock_chapters
         
+        # Mock is_chapter_completed_real to return False so chapters aren't skipped
+        mock_tracker.is_chapter_completed_real.return_value = False
+        
         processor = TTSProcessor(self.mock_project, dry_run=True)
         result = processor.process_chapters(self.mock_chapters)
         
@@ -188,6 +191,9 @@ class TestTTSProcessor:
         """Test processing chapters with range filter."""
         mock_tracker = mock_tracker_class.return_value
         mock_random.return_value = 0.5  # Success
+        
+        # Mock is_chapter_completed_real to return False so chapters aren't skipped
+        mock_tracker.is_chapter_completed_real.return_value = False
         
         processor = TTSProcessor(self.mock_project, dry_run=True)
         result = processor.process_chapters(self.mock_chapters, start_chapter=2, end_chapter=2)
@@ -387,6 +393,9 @@ class TestIntegrationScenarios:
             {'filename': 'Chapter_2.txt', 'volume_number': 1, 'chapter_number': 2}
         ]
         mock_organizer.discover_chapters.return_value = chapters
+        
+        # Mock is_chapter_completed_real to return False so chapters aren't skipped
+        mock_tracker.is_chapter_completed_real.return_value = False
         
         # Simulate mixed success/failure
         mock_random.side_effect = [0.5, 0.95]  # First success, second failure

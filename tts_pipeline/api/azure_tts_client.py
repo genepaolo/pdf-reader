@@ -3,6 +3,10 @@ Azure Cognitive Services Text-to-Speech Client
 
 This module provides a client for Azure Cognitive Services TTS API,
 handling authentication, voice configuration, and audio generation.
+
+Supports both project-based and file-based configuration:
+- Project-based: Pass a Project object to use project-specific Azure settings
+- File-based: Pass a config file path or use default path for backward compatibility
 """
 
 import os
@@ -19,22 +23,38 @@ class AzureTTSClient:
     
     Handles authentication via environment variables, voice configuration,
     and audio generation with proper error handling.
+    
+    Supports both project-based and file-based configuration:
+    - Project-based: Initialize with Project object for project-specific settings
+    - File-based: Initialize with config file path for backward compatibility
     """
     
-    def __init__(self, config_path: Optional[str] = None):
+    def __init__(self, project_or_config_path=None):
         """
         Initialize Azure TTS client.
         
         Args:
-            config_path: Path to azure_config.json file. If None, uses default path.
+            project_or_config_path: Either a Project object or path to azure_config.json file.
+                                  If None, uses default path for backward compatibility.
         """
         self.logger = logging.getLogger(__name__)
         
-        # Load configuration
-        if config_path is None:
+        # Determine if we're using project-based or file-based configuration
+        if project_or_config_path is None:
+            # Backward compatibility: use default config path
             config_path = Path(__file__).parent.parent / "config" / "azure_config.json"
-        
-        self.config = self._load_config(config_path)
+            self.config = self._load_config(config_path)
+            self.logger.info("Using legacy file-based Azure configuration")
+        elif hasattr(project_or_config_path, 'get_azure_config'):
+            # Project-based configuration
+            self.project = project_or_config_path
+            self.config = self.project.get_azure_config()
+            self.logger.info(f"Using project-based Azure configuration for: {self.project.project_name}")
+        else:
+            # File-based configuration (backward compatibility)
+            config_path = project_or_config_path
+            self.config = self._load_config(config_path)
+            self.logger.info(f"Using file-based Azure configuration from: {config_path}")
         
         # Get Azure credentials from environment variables
         self.subscription_key = os.getenv('AZURE_TTS_SUBSCRIPTION_KEY')
@@ -161,7 +181,7 @@ class AzureTTSClient:
         Returns:
             Dictionary with voice configuration details
         """
-        return {
+        voice_info = {
             'voice_name': self.config['voice_name'],
             'language': self.config['language'],
             'gender': self.config['voice_gender'],
@@ -169,10 +189,48 @@ class AzureTTSClient:
             'rate': self.config['rate'],
             'pitch': self.config['pitch'],
             'max_text_length': self.config['max_text_length'],
+            'timeout_seconds': self.config['timeout_seconds'],
             'region': self.region,
             'endpoint': self.endpoint,
             'base_url': self.base_url
         }
+        
+        # Add project information if available
+        if hasattr(self, 'project'):
+            voice_info['project_name'] = self.project.project_name
+            voice_info['project_display_name'] = self.project.project_config.get('display_name', 'N/A')
+            voice_info['configuration_source'] = 'project'
+        else:
+            voice_info['configuration_source'] = 'file'
+        
+        return voice_info
+    
+    def get_project_name(self) -> Optional[str]:
+        """
+        Get the project name if using project-based configuration.
+        
+        Returns:
+            Project name if available, None otherwise
+        """
+        return getattr(self.project, 'project_name', None) if hasattr(self, 'project') else None
+    
+    def is_project_based(self) -> bool:
+        """
+        Check if this client is using project-based configuration.
+        
+        Returns:
+            True if using project-based config, False if using file-based config
+        """
+        return hasattr(self, 'project')
+    
+    def get_configuration_source(self) -> str:
+        """
+        Get the source of the configuration.
+        
+        Returns:
+            'project' if using project-based config, 'file' if using file-based config
+        """
+        return 'project' if self.is_project_based() else 'file'
     
     def test_connection(self) -> bool:
         """

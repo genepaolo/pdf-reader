@@ -73,9 +73,9 @@ class TTSProcessor:
         return chapters
     
     def get_next_chapter_to_process(self, chapters: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
-        """Get the next chapter that needs processing."""
+        """Get the next chapter that needs processing (ignores dry-run completions)."""
         for chapter in chapters:
-            if not self.progress_tracker.is_chapter_completed(chapter):
+            if not self.progress_tracker.is_chapter_completed_real(chapter):
                 return chapter
         return None
     
@@ -104,9 +104,10 @@ class TTSProcessor:
                 
                 if success:
                     self.logger.info(f"[DRY RUN] Successfully processed: {chapter_name}")
-                    self.progress_tracker.mark_chapter_completed(
-                        chapter, f"/mock/audio/{chapter_name.replace('.txt', '.mp3')}"
+                    result = self.progress_tracker.mark_chapter_completed(
+                        chapter, f"/mock/audio/{chapter_name.replace('.txt', '.mp3')}", dry_run=True
                     )
+                    self.logger.info(f"[DRY RUN] Mark completion result: {result}")
                     self.processed_count += 1
                     return True
                 else:
@@ -153,13 +154,25 @@ class TTSProcessor:
         self.logger.info(f"Processing {len(filtered_chapters)} chapters")
         
         # Process chapters
+        processed_count = 0
         for i, chapter in enumerate(filtered_chapters, 1):
-            self.logger.info(f"Progress: {i}/{len(filtered_chapters)} chapters")
+            # Skip chapters that have already been completed with real processing
+            if self.progress_tracker.is_chapter_completed_real(chapter):
+                self.logger.info(f"Skipping Chapter {chapter['chapter_number']} - already completed with real processing")
+                continue
+            
+            # Check if we've reached the max_chapters limit
+            if max_chapters and processed_count >= max_chapters:
+                self.logger.info(f"Reached max_chapters limit ({max_chapters}), stopping processing")
+                break
+                
+            self.logger.info(f"Progress: {processed_count + 1}/{max_chapters or len(filtered_chapters)} chapters")
             
             success = self.process_chapter(chapter)
+            processed_count += 1
             
             # Log progress every 10 chapters
-            if i % 10 == 0:
+            if processed_count % 10 == 0:
                 self._log_progress_summary()
         
         # Final summary
@@ -314,6 +327,12 @@ Examples:
     )
     
     parser.add_argument(
+        '--clear-dry-run',
+        action='store_true',
+        help='Clear all dry-run completion records to start fresh with real processing'
+    )
+    
+    parser.add_argument(
         '--resume',
         action='store_true',
         help='Resume processing from where it left off'
@@ -388,6 +407,26 @@ def main():
                         print(f"  - {project_name}: (invalid configuration)")
             else:
                 print("No projects found.")
+            return 0
+        
+        # Handle clear dry-run command
+        if args.clear_dry_run:
+            if not args.project:
+                logger.error("Project name is required for --clear-dry-run")
+                return 1
+            
+            project = pm.load_project(args.project)
+            if not project:
+                logger.error(f"Project '{args.project}' not found")
+                return 1
+            
+            processor = TTSProcessor(project)
+            if processor.progress_tracker.clear_dry_run_data():
+                logger.info("Successfully cleared all dry-run completion records")
+                logger.info("You can now start real processing from Chapter 1")
+            else:
+                logger.error("Failed to clear dry-run data")
+                return 1
             return 0
         
         # Validate project argument
