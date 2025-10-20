@@ -17,14 +17,21 @@ from datetime import datetime
 class ProjectManager:
     """Manages project configurations and provides project discovery functionality."""
     
-    def __init__(self, config_root: str = "./config/projects"):
+    def __init__(self, config_root: str = None):
         """
         Initialize the project manager.
         
         Args:
-            config_root: Path to the projects configuration directory
+            config_root: Path to the projects configuration directory. If None, uses default relative to this file.
         """
-        self.config_root = Path(config_root)
+        if config_root is None:
+            # Get the directory containing this file (utils/)
+            utils_dir = Path(__file__).parent
+            # Go up one level to tts_pipeline/, then to config/projects
+            self.config_root = utils_dir.parent / "config" / "projects"
+        else:
+            self.config_root = Path(config_root)
+        
         self.logger = logging.getLogger(__name__)
         
         # Ensure config root exists
@@ -133,7 +140,8 @@ class ProjectManager:
                 json.dump(project_config, f, indent=2)
             
             # Copy default configurations
-            defaults_path = Path("./config/defaults")
+            utils_dir = Path(__file__).parent
+            defaults_path = utils_dir.parent / "config" / "defaults"
             for config_file in ["azure_config.json", "processing_config.json", "video_config.json"]:
                 default_config_path = defaults_path / config_file
                 if default_config_path.exists():
@@ -218,7 +226,28 @@ class Project:
     def get_input_directory(self) -> Path:
         """Get input directory for this project."""
         input_dir = self.project_config.get("input_directory", "")
-        return Path(input_dir)
+        input_path = Path(input_dir)
+        
+        # If it's a relative path, resolve it relative to the project root
+        if not input_path.is_absolute():
+            # Use the current working directory as project root
+            project_root = Path.cwd()
+            
+            # Try the path as-is first
+            test_path = project_root / input_path
+            if test_path.exists():
+                return test_path.resolve()
+            
+            # If it doesn't exist, try going up one level (for tts_pipeline directory)
+            parent_root = project_root.parent
+            test_path = parent_root / input_path
+            if test_path.exists():
+                return test_path.resolve()
+            
+            # If neither exists, return the first attempt resolved
+            return (project_root / input_path).resolve()
+        
+        return input_path
     
     def get_output_directory(self) -> Path:
         """Get output directory for this project."""

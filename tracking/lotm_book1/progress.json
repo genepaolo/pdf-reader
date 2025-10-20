@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2025-10-20T05:31:31.626412",
+    "chapter_info": {
+      "filename": "Chapter_1_Crimson.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\extracted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_1_Crimson.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 1,
+      "chapter_title": "Crimson",
+      "file_size": 9965,
+      "is_readable": true
+    },
+    "audio_file_path": "/mock/audio/Chapter_1_Crimson.mp3",
+    "audio_file_size": 0
+  },
+  {
+    "timestamp": "2025-10-20T05:31:31.728519",
+    "chapter_info": {
+      "filename": "Chapter_2_Situation.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\extracted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_2_Situation.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 2,
+      "chapter_title": "Situation",
+      "file_size": 13380,
+      "is_readable": true
+    },
+    "audio_file_path": "/mock/audio/Chapter_2_Situation.mp3",
+    "audio_file_size": 0
+  }
+]

@@ -302,9 +302,10 @@ class TestProject:
         project = Project("test_project", project_dir)
         
         input_dir = project.get_input_directory()
-        # Use pathlib comparison to handle OS differences
-        expected_path = Path("../extracted_text/test_project")
-        assert input_dir == expected_path
+        # The method now resolves relative paths based on current working directory
+        # Since we're running from tts_pipeline/, "../extracted_text/test_project" resolves to parent/extracted_text/test_project
+        expected_path = Path("../extracted_text/test_project").resolve()
+        assert input_dir.resolve() == expected_path
     
     def test_get_output_directory(self, tmp_path):
         """Test getting output directory."""
