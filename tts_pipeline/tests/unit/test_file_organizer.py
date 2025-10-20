@@ -1,12 +1,13 @@
 """
 Unit tests for the file organizer component.
+Tests both legacy string-based initialization and new Project-based initialization.
 """
 
 import pytest
 import sys
 import os
 from pathlib import Path
-from unittest.mock import patch, mock_open
+from unittest.mock import patch, mock_open, MagicMock
 
 # Add the utils directory to the path
 sys.path.append(str(Path(__file__).parent.parent.parent / "utils"))
@@ -14,8 +15,8 @@ sys.path.append(str(Path(__file__).parent.parent.parent / "utils"))
 from file_organizer import ChapterFileOrganizer
 
 
-class TestFileOrganizer:
-    """Unit tests for ChapterFileOrganizer class."""
+class TestFileOrganizerLegacy:
+    """Unit tests for ChapterFileOrganizer class with legacy string-based initialization."""
     
     def test_initialization(self):
         """Test that ChapterFileOrganizer initializes correctly."""
@@ -234,6 +235,169 @@ class TestFileOrganizer:
             # Test getting non-existent volume
             volume_3_chapters = organizer.get_volume_chapters(3)
             assert len(volume_3_chapters) == 0
+
+
+class TestFileOrganizerProject:
+    """Unit tests for ChapterFileOrganizer class with Project-based initialization."""
+    
+    def setup_method(self):
+        """Set up mock Project object for testing."""
+        # Create a mock Project object
+        self.mock_project = MagicMock()
+        self.mock_project.project_name = "test_project"
+        self.mock_project.get_input_directory.return_value = Path("./test_input")
+        self.mock_project.get_processing_config.return_value = {
+            'chapter_pattern': r'Chapter_(\d+)_',
+            'volume_pattern': r'(\d+)___VOLUME_\d+___'
+        }
+    
+    def test_project_initialization(self):
+        """Test that ChapterFileOrganizer initializes correctly with Project object."""
+        organizer = ChapterFileOrganizer(self.mock_project)
+        
+        assert organizer.input_directory == Path("./test_input")
+        assert organizer.chapter_pattern.pattern == r"Chapter_(\d+)_"
+        assert organizer.volume_pattern.pattern == r"(\d+)___VOLUME_\d+___"
+        assert organizer.is_project_based() is True
+        assert organizer.get_project_name() == "test_project"
+    
+    def test_project_initialization_with_custom_patterns(self):
+        """Test Project initialization with custom patterns from config."""
+        # Update mock project with custom patterns
+        self.mock_project.get_processing_config.return_value = {
+            'chapter_pattern': r'Custom_Chapter_(\d+)\.txt$',
+            'volume_pattern': r'Vol_(\d+)_'
+        }
+        
+        organizer = ChapterFileOrganizer(self.mock_project)
+        
+        assert organizer.chapter_pattern.pattern == r"Custom_Chapter_(\d+)\.txt$"
+        assert organizer.volume_pattern.pattern == r"Vol_(\d+)_"
+        assert organizer.is_project_based() is True
+    
+    def test_project_utility_methods(self):
+        """Test Project-based utility methods."""
+        organizer = ChapterFileOrganizer(self.mock_project)
+        
+        # Test utility methods
+        assert organizer.is_project_based() is True
+        assert organizer.get_project_name() == "test_project"
+        
+        patterns_info = organizer.get_patterns_info()
+        assert patterns_info['initialization_mode'] == 'project'
+        assert patterns_info['chapter_pattern'] == r'Chapter_(\d+)_'
+        assert patterns_info['volume_pattern'] == r'(\d+)___VOLUME_\d+___'
+
+
+class TestFileOrganizerDualMode:
+    """Unit tests comparing legacy and Project-based initialization modes."""
+    
+    def test_legacy_vs_project_initialization(self):
+        """Test that both initialization modes work correctly."""
+        # Test legacy initialization
+        legacy_organizer = ChapterFileOrganizer("./test_input")
+        
+        # Create mock project for project initialization
+        mock_project = MagicMock()
+        mock_project.project_name = "test_project"
+        mock_project.get_input_directory.return_value = Path("./test_input")
+        mock_project.get_processing_config.return_value = {
+            'chapter_pattern': r'Chapter_(\d+)_',
+            'volume_pattern': r'(\d+)___VOLUME_\d+___'
+        }
+        
+        project_organizer = ChapterFileOrganizer(mock_project)
+        
+        # Both should have same input directory
+        assert legacy_organizer.input_directory == project_organizer.input_directory
+        
+        # Both should have same patterns (when project uses defaults)
+        assert legacy_organizer.chapter_pattern.pattern == project_organizer.chapter_pattern.pattern
+        assert legacy_organizer.volume_pattern.pattern == project_organizer.volume_pattern.pattern
+        
+        # But different initialization modes
+        assert legacy_organizer.is_project_based() is False
+        assert project_organizer.is_project_based() is True
+        
+        assert legacy_organizer.get_project_name() is None
+        assert project_organizer.get_project_name() == "test_project"
+    
+    def test_patterns_info_comparison(self):
+        """Test patterns info for both initialization modes."""
+        # Legacy mode
+        legacy_organizer = ChapterFileOrganizer("./test_input")
+        legacy_info = legacy_organizer.get_patterns_info()
+        
+        # Project mode
+        mock_project = MagicMock()
+        mock_project.project_name = "test_project"
+        mock_project.get_input_directory.return_value = Path("./test_input")
+        mock_project.get_processing_config.return_value = {
+            'chapter_pattern': r'Chapter_(\d+)_',
+            'volume_pattern': r'(\d+)___VOLUME_\d+___'
+        }
+        
+        project_organizer = ChapterFileOrganizer(mock_project)
+        project_info = project_organizer.get_patterns_info()
+        
+        # Same patterns, different modes
+        assert legacy_info['chapter_pattern'] == project_info['chapter_pattern']
+        assert legacy_info['volume_pattern'] == project_info['volume_pattern']
+        assert legacy_info['initialization_mode'] == 'legacy'
+        assert project_info['initialization_mode'] == 'project'
+    
+    def test_custom_patterns_project_mode(self):
+        """Test that Project mode uses custom patterns from config."""
+        # Create mock project with custom patterns
+        mock_project = MagicMock()
+        mock_project.project_name = "custom_project"
+        mock_project.get_input_directory.return_value = Path("./test_input")
+        mock_project.get_processing_config.return_value = {
+            'chapter_pattern': r'Custom_Chapter_(\d+)\.txt$',
+            'volume_pattern': r'Volume_(\d+)_'
+        }
+        
+        organizer = ChapterFileOrganizer(mock_project)
+        
+        assert organizer.chapter_pattern.pattern == r'Custom_Chapter_(\d+)\.txt$'
+        assert organizer.volume_pattern.pattern == r'Volume_(\d+)_'
+        assert organizer.is_project_based() is True
+        assert organizer.get_project_name() == "custom_project"
+        
+        patterns_info = organizer.get_patterns_info()
+        assert patterns_info['initialization_mode'] == 'project'
+        assert patterns_info['chapter_pattern'] == r'Custom_Chapter_(\d+)\.txt$'
+        assert patterns_info['volume_pattern'] == r'Volume_(\d+)_'
+
+
+class TestFileOrganizerBackwardCompatibility:
+    """Unit tests ensuring backward compatibility with existing code."""
+    
+    def test_existing_code_compatibility(self):
+        """Test that existing code using string initialization still works."""
+        # This is exactly how existing code would initialize the organizer
+        organizer = ChapterFileOrganizer(
+            "./test_input",
+            chapter_pattern=r"Chapter_(\d+)_",
+            volume_pattern=r"(\d+)___VOLUME_\d+___"
+        )
+        
+        # Should work exactly as before
+        assert organizer.input_directory == Path("./test_input")
+        assert organizer.chapter_pattern.pattern == r"Chapter_(\d+)_"
+        assert organizer.volume_pattern.pattern == r"(\d+)___VOLUME_\d+___"
+        assert organizer.is_project_based() is False
+        assert organizer.get_project_name() is None
+    
+    def test_existing_code_with_defaults(self):
+        """Test that existing code using only directory path still works."""
+        # This is how existing code might initialize with defaults
+        organizer = ChapterFileOrganizer("./test_input")
+        
+        # Should use default patterns
+        assert organizer.chapter_pattern.pattern == r"Chapter_(\d+)_"
+        assert organizer.volume_pattern.pattern == r"(\d+)___VOLUME_\d+___"
+        assert organizer.is_project_based() is False
 
 
 if __name__ == "__main__":
