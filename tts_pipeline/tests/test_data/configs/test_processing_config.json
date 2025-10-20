@@ -1,0 +1,14 @@
+{
+  "input_directory": "./test_input",
+  "output_directory": "./test_output",
+  "min_audio_duration_minutes": 5,
+  "max_text_length": 5000,
+  "retry_attempts": 3,
+  "retry_delay_seconds": 30,
+  "log_level": "INFO",
+  "chapter_pattern": "Chapter_\\d+_.*\\.txt$",
+  "volume_pattern": "\\d+___VOLUME_\\d+___.*",
+  "supported_audio_formats": ["mp3", "wav"],
+  "chunk_size": 5000,
+  "rate_limit_delay": 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "voice_name": "en-US-JennyNeural",
+  "output_format": "audio-24khz-160kbitrate-mono-mp3",
+  "rate": "+0%",
+  "pitch": "+0Hz",
+  "max_text_length": 5000,
+  "timeout_seconds": 300,
+  "language": "en-US",
+  "voice_gender": "male"
+}

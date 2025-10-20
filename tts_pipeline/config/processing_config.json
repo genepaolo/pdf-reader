@@ -1,0 +1,16 @@
+{
+  "input_directory": "../extracted_text/lotm_book1",
+  "output_directory": "./output",
+  "min_audio_duration_minutes": 5,
+  "max_text_length": 20000,
+  "retry_attempts": 3,
+  "retry_delay_seconds": 30,
+  "log_level": "INFO",
+  "chapter_pattern": "Chapter_\\d+_.*\\.txt$",
+  "volume_pattern": "\\d+___VOLUME_\\d+___.*",
+  "supported_audio_formats": ["mp3", "wav"],
+  "chunk_size": 20000,
+  "rate_limit_delay": 1.0,
+  "max_audio_duration_minutes": 20,
+  "expected_audio_duration_minutes": 15
+}

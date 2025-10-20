@@ -1,4 +1,4 @@
-# PDF to Text Converter
+# PDF to Text Converter (SPECIFICALLY FOR MY LORD OF THE MYSTERIES PDF)
 
 A Python tool for converting PDF files into organized text files by volumes and chapters.
 
