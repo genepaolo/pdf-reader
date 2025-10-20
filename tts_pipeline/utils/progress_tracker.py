@@ -2,46 +2,37 @@
 Progress tracker for TTS pipeline state management.
 Handles saving/loading progress, tracking completed chapters, and resume functionality.
 
-Supports both legacy string-based initialization and new Project-based initialization.
+Uses Project-based initialization for configuration management.
 """
 
 import json
 import os
 from datetime import datetime
 from pathlib import Path
-from typing import List, Dict, Optional, Any, Union
+from typing import List, Dict, Optional, Any
 import logging
 
 
 class ProgressTracker:
     """Tracks TTS processing progress and enables resume functionality."""
     
-    def __init__(self, tracking_source: Union[str, 'Project']):
+    def __init__(self, project: 'Project'):
         """
         Initialize the progress tracker.
         
         Args:
-            tracking_source: Either a string path to tracking directory OR a Project object
+            project: Project object containing configuration and metadata
         """
         self.logger = logging.getLogger(__name__)
         
-        # Handle both Project objects and string paths for backward compatibility
-        if hasattr(tracking_source, 'get_input_directory'):
-            # New Project-based initialization
-            self.project = tracking_source
-            self.tracking_directory = self._setup_project_tracking_directory()
-            
-            # Load tracking settings from project configuration
-            self.tracking_config = self._load_tracking_config()
-            
-            self.logger.info(f"Initialized with Project: {self.project.project_name}")
-        else:
-            # Legacy string-based initialization
-            self.project = None
-            self.tracking_directory = Path(tracking_source)
-            self.tracking_config = self._get_default_tracking_config()
-            
-            self.logger.info(f"Initialized with legacy tracking directory: {self.tracking_directory}")
+        # Project-based initialization
+        self.project = project
+        self.tracking_directory = self._setup_project_tracking_directory()
+        
+        # Load tracking settings from project configuration
+        self.tracking_config = self._load_tracking_config()
+        
+        self.logger.info(f"Initialized with Project: {self.project.project_name}")
         
         # Create tracking directory
         self.tracking_directory.mkdir(parents=True, exist_ok=True)
@@ -53,6 +44,22 @@ class ProgressTracker:
         
         # Load existing progress
         self._load_progress()
+    
+    def get_project_name(self) -> str:
+        """Get the project name."""
+        return self.project.project_name
+    
+    def get_tracking_config(self) -> Dict[str, Any]:
+        """Get the tracking configuration being used."""
+        return self.tracking_config.copy()
+    
+    def get_tracking_info(self) -> Dict[str, Any]:
+        """Get information about the tracking setup."""
+        return {
+            'tracking_directory': str(self.tracking_directory),
+            'project_name': self.project.project_name,
+            'tracking_config': self.get_tracking_config()
+        }
     
     def _setup_project_tracking_directory(self) -> Path:
         """Set up project-specific tracking directory."""
@@ -81,27 +88,6 @@ class ProgressTracker:
             'backup_interval_hours': 6,
             'error_categorization': True,
             'detailed_error_logging': True
-        }
-    
-    def is_project_based(self) -> bool:
-        """Check if this tracker was initialized with a Project object."""
-        return self.project is not None
-    
-    def get_project_name(self) -> Optional[str]:
-        """Get the project name if initialized with a Project object, otherwise None."""
-        return self.project.project_name if self.project else None
-    
-    def get_tracking_config(self) -> Dict[str, Any]:
-        """Get the tracking configuration being used."""
-        return self.tracking_config.copy()
-    
-    def get_tracking_info(self) -> Dict[str, Any]:
-        """Get information about the tracking setup."""
-        return {
-            'tracking_directory': str(self.tracking_directory),
-            'initialization_mode': 'project' if self.is_project_based() else 'legacy',
-            'project_name': self.get_project_name(),
-            'tracking_config': self.get_tracking_config()
         }
     
     def _load_progress(self) -> None:
