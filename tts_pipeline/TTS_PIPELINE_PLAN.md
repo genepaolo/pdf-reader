@@ -28,26 +28,35 @@ The TTS Pipeline will process extracted text files from the LOTM book series in 
 
 ## System Architecture
 
-### 1. Directory Structure
+### 1. Project-Based Directory Structure
 ```
 tts_pipeline/
 ├── config/
-│   ├── azure_config.json          # Azure AI settings (non-sensitive)
-│   └── processing_config.json     # Processing parameters
-├── tracking/
-│   ├── progress.json              # Current progress state
-│   ├── completed.json             # Successfully processed chapters
-│   ├── failed.json                # Failed chapters for retry
-│   └── metadata.json              # Chapter metadata and stats
-├── input/                         # Source text files (symlink to extracted_text)
-├── output/                        # Generated audio files
-├── logs/                          # Processing logs
+│   ├── projects/                   # Project-specific configurations
+│   │   ├── lotm_book1/            # Lord of the Mysteries Book 1
+│   │   │   ├── project.json       # Project metadata
+│   │   │   ├── azure_config.json  # Azure TTS settings
+│   │   │   ├── processing_config.json # Processing parameters
+│   │   │   └── video_config.json  # Video creation settings
+│   │   └── [other_projects]/      # Additional book series
+│   └── defaults/                  # Default configuration templates
+│       ├── azure_config.json
+│       ├── processing_config.json
+│       └── video_config.json
+├── tracking/                      # Project-specific progress tracking
+│   ├── lotm_book1/               # LOTM Book 1 progress
+│   │   ├── progress.json         # Current progress state
+│   │   ├── failed.json           # Failed chapters for retry
+│   │   └── metadata.json         # Chapter metadata and stats
+│   └── [other_projects]/         # Additional project tracking
 ├── api/
-│   ├── azure_tts_client.py        # Azure TTS integration
-│   └── base_tts_client.py         # Abstract base class for TTS providers
+│   └── azure_tts_client.py       # Azure TTS integration
+├── utils/
+│   ├── project_manager.py         # Project management system
+│   ├── file_organizer.py          # Chapter discovery and organization
+│   └── progress_tracker.py        # Progress tracking and state management
 ├── scripts/
-│   ├── chapter_processor.py       # Main processing script
-│   ├── audio_validator.py         # Audio validation
+│   └── process_project.py        # Main processing script with CLI
 │   └── config_manager.py          # Configuration management
 ├── utils/
 │   ├── file_organizer.py          # File discovery and organization
@@ -638,20 +647,26 @@ tts_pipeline/
 
 #### Command Line Interface
 ```bash
-# Process specific project
-python scripts/process_project.py --project lotm_book1
-
-# Process with specific chapter
-python scripts/process_project.py --project lotm_book1 --chapter "Chapter_1_Crimson.txt"
-
-# Process specific volume
-python scripts/process_project.py --project lotm_book1 --volume "1___VOLUME_1___CLOWN"
-
 # List available projects
 python scripts/process_project.py --list-projects
 
-# Create new project from template
-python scripts/process_project.py --create-project other_series
+# Test with dry-run (safe, no Azure billing)
+python scripts/process_project.py --project lotm_book1 --dry-run --max-chapters 5
+
+# Process specific chapter range
+python scripts/process_project.py --project lotm_book1 --chapters 1-10
+
+# Process single chapter
+python scripts/process_project.py --project lotm_book1 --chapters 5
+
+# Resume processing from where it left off
+python scripts/process_project.py --project lotm_book1 --resume
+
+# Retry only failed chapters
+python scripts/process_project.py --project lotm_book1 --retry-failed
+
+# Enable debug logging
+python scripts/process_project.py --project lotm_book1 --dry-run --log-level DEBUG
 ```
 
 #### Python API

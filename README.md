@@ -28,14 +28,17 @@ The TTS pipeline now features a **project-based configuration system** that allo
 # List all available projects
 python tts_pipeline/scripts/process_project.py --list-projects
 
-# Process specific project
-python tts_pipeline/scripts/process_project.py --project lotm_book1
+# Test with dry-run (safe, no Azure billing)
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --dry-run --max-chapters 5
 
-# Create new project from template
-python tts_pipeline/scripts/process_project.py --create-project harry_potter_book1
+# Process specific chapter range
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 1-10
 
-# Process specific chapter
-python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapter "Chapter_1_Crimson.txt"
+# Resume processing from where it left off
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --resume
+
+# Retry only failed chapters
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --retry-failed
 ```
 
 ### **Project Structure**
@@ -107,17 +110,23 @@ python pdf_to_txt/main.py path/to/file.pdf -o my_output_folder
 # List available projects
 python tts_pipeline/scripts/process_project.py --list-projects
 
-# Create new project
-python tts_pipeline/scripts/process_project.py --create-project my_book
+# Test with dry-run (safe, no Azure billing)
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --dry-run --max-chapters 3
 
-# Process entire project
-python tts_pipeline/scripts/process_project.py --project lotm_book1
+# Process specific chapter range
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 1-10
 
-# Process specific chapter
-python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapter "Chapter_1_Crimson.txt"
+# Process single chapter
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 5
 
-# Process specific volume
-python tts_pipeline/scripts/process_project.py --project lotm_book1 --volume "1___VOLUME_1___CLOWN"
+# Resume processing from where it left off
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --resume
+
+# Retry only failed chapters
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --retry-failed
+
+# Enable debug logging
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --dry-run --log-level DEBUG
 ```
 
 #### Configuration:
@@ -126,8 +135,8 @@ python tts_pipeline/scripts/process_project.py --project lotm_book1 --volume "1_
 echo "AZURE_TTS_SUBSCRIPTION_KEY=your_key_here" > .env
 echo "AZURE_TTS_REGION=your_region_here" >> .env
 
-# Test Azure connectivity
-python tts_pipeline/tests/test_azure_connectivity.py
+# Test Azure connectivity (integration test)
+python tts_pipeline/tests/integration/test_azure_tts_connectivity.py
 ```
 
 ### **Complete Pipeline Example**
@@ -137,16 +146,14 @@ python tts_pipeline/tests/test_azure_connectivity.py
 # Step 1: Convert PDF to organized text
 python pdf_to_txt/main.py lotm_book1.pdf -o extracted_text/lotm_book1
 
-# Step 2: Set up TTS project
-python tts_pipeline/scripts/process_project.py --create-project lotm_book1
+# Step 2: Test TTS pipeline (dry-run first!)
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --dry-run --max-chapters 3
 
-# Step 3: Configure project settings (edit config files)
-# - Set input directory: ../extracted_text/lotm_book1
-# - Set output directory: D:/lotm_book1_output
-# - Configure Azure TTS voice and settings
+# Step 3: Process specific chapters
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 1-10
 
-# Step 4: Process to audio and video
-python tts_pipeline/scripts/process_project.py --project lotm_book1
+# Step 4: Resume if interrupted
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --resume
 ```
 
 #### Python API:
