@@ -1,20 +1,25 @@
 """
 Unit tests for progress tracker functionality.
+Tests both legacy string-based initialization and new Project-based initialization.
 """
 
 import json
 import tempfile
 import os
+import sys
 from pathlib import Path
 from datetime import datetime
-from unittest.mock import patch, mock_open
+from unittest.mock import patch, mock_open, MagicMock
 import pytest
 
-from utils.progress_tracker import ProgressTracker
+# Add the utils directory to the path
+sys.path.append(str(Path(__file__).parent.parent.parent / "utils"))
+
+from progress_tracker import ProgressTracker
 
 
-class TestProgressTracker:
-    """Test cases for ProgressTracker class."""
+class TestProgressTrackerLegacy:
+    """Test cases for ProgressTracker class with legacy string-based initialization."""
     
     def test_initialization(self):
         """Test progress tracker initialization."""
@@ -447,3 +452,306 @@ class TestProgressTracker:
             assert tracker.completed_chapter_records == []
             assert tracker.failed_chapter_records == []
             assert tracker.metadata == {}
+
+
+class TestProgressTrackerProject:
+    """Test cases for ProgressTracker class with Project-based initialization."""
+    
+    def setup_method(self):
+        """Set up mock Project object for testing."""
+        # Create a mock Project object
+        self.mock_project = MagicMock()
+        self.mock_project.project_name = "test_project"
+        self.mock_project.get_processing_config.return_value = {
+            'tracking': {
+                'retry_attempts': 5,
+                'retry_delay_seconds': 60,
+                'track_audio_file_sizes': True,
+                'track_processing_times': True,
+                'auto_backup_progress': True,
+                'backup_interval_hours': 12,
+                'error_categorization': True,
+                'detailed_error_logging': True
+            }
+        }
+    
+    def test_project_initialization(self):
+        """Test progress tracker initialization with Project object."""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # Mock the tracking directory setup
+            with patch.object(ProgressTracker, '_setup_project_tracking_directory') as mock_setup:
+                mock_setup.return_value = Path(temp_dir)
+                
+                tracker = ProgressTracker(self.mock_project)
+                
+                assert tracker.tracking_directory == Path(temp_dir)
+                assert tracker.completed_chapter_records == []
+                assert tracker.failed_chapter_records == []
+                assert tracker.metadata == {}
+                assert tracker.is_project_based() is True
+                assert tracker.get_project_name() == "test_project"
+    
+    def test_project_initialization_with_custom_config(self):
+        """Test Project initialization with custom tracking configuration."""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # Update mock project with custom tracking config
+            self.mock_project.get_processing_config.return_value = {
+                'tracking': {
+                    'retry_attempts': 10,
+                    'retry_delay_seconds': 120,
+                    'track_audio_file_sizes': False,
+                    'auto_backup_progress': False
+                }
+            }
+            
+            with patch.object(ProgressTracker, '_setup_project_tracking_directory') as mock_setup:
+                mock_setup.return_value = Path(temp_dir)
+                
+                tracker = ProgressTracker(self.mock_project)
+                
+                config = tracker.get_tracking_config()
+                assert config['retry_attempts'] == 10
+                assert config['retry_delay_seconds'] == 120
+                assert config['track_audio_file_sizes'] is False
+                assert config['auto_backup_progress'] is False
+    
+    def test_project_utility_methods(self):
+        """Test Project-based utility methods."""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            with patch.object(ProgressTracker, '_setup_project_tracking_directory') as mock_setup:
+                mock_setup.return_value = Path(temp_dir)
+                
+                tracker = ProgressTracker(self.mock_project)
+                
+                # Test utility methods
+                assert tracker.is_project_based() is True
+                assert tracker.get_project_name() == "test_project"
+                
+                tracking_info = tracker.get_tracking_info()
+                assert tracking_info['initialization_mode'] == 'project'
+                assert tracking_info['project_name'] == 'test_project'
+                assert 'tracking_config' in tracking_info
+    
+    def test_project_folder_creation(self):
+        """Test that project-specific tracking folder is created."""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # Mock the project tracking directory setup
+            project_tracking_dir = Path(temp_dir) / "test_project"
+            
+            with patch.object(ProgressTracker, '_setup_project_tracking_directory') as mock_setup:
+                mock_setup.return_value = project_tracking_dir
+                
+                tracker = ProgressTracker(self.mock_project)
+                
+                # Verify the project-specific directory is used
+                assert tracker.tracking_directory == project_tracking_dir
+                assert tracker.tracking_directory.name == "test_project"
+    
+    def test_project_config_fallback(self):
+        """Test fallback to default config when project config fails."""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # Mock project to raise exception when getting config
+            self.mock_project.get_processing_config.side_effect = Exception("Config error")
+            
+            with patch.object(ProgressTracker, '_setup_project_tracking_directory') as mock_setup:
+                mock_setup.return_value = Path(temp_dir)
+                
+                tracker = ProgressTracker(self.mock_project)
+                
+                # Should fall back to default config
+                config = tracker.get_tracking_config()
+                assert config['retry_attempts'] == 3  # Default value
+                assert config['retry_delay_seconds'] == 30  # Default value
+
+
+class TestProgressTrackerDualMode:
+    """Unit tests comparing legacy and Project-based initialization modes."""
+    
+    def test_legacy_vs_project_initialization(self):
+        """Test that both initialization modes work correctly."""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # Test legacy initialization
+            legacy_tracker = ProgressTracker(temp_dir)
+            
+            # Create mock project for project initialization
+            mock_project = MagicMock()
+            mock_project.project_name = "test_project"
+            mock_project.get_processing_config.return_value = {
+                'tracking': {
+                    'retry_attempts': 3,
+                    'retry_delay_seconds': 30,
+                    'track_audio_file_sizes': True,
+                    'track_processing_times': True,
+                    'auto_backup_progress': False,
+                    'backup_interval_hours': 6,
+                    'error_categorization': True,
+                    'detailed_error_logging': True
+                }
+            }
+            
+            with patch.object(ProgressTracker, '_setup_project_tracking_directory') as mock_setup:
+                mock_setup.return_value = Path(temp_dir)
+                
+                project_tracker = ProgressTracker(mock_project)
+                
+                # Both should have same tracking directory (in this test)
+                assert legacy_tracker.tracking_directory == project_tracker.tracking_directory
+                
+                # But different initialization modes
+                assert legacy_tracker.is_project_based() is False
+                assert project_tracker.is_project_based() is True
+                
+                assert legacy_tracker.get_project_name() is None
+                assert project_tracker.get_project_name() == "test_project"
+    
+    def test_tracking_config_comparison(self):
+        """Test tracking config for both initialization modes."""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # Legacy mode
+            legacy_tracker = ProgressTracker(temp_dir)
+            legacy_config = legacy_tracker.get_tracking_config()
+            
+            # Project mode
+            mock_project = MagicMock()
+            mock_project.project_name = "test_project"
+            mock_project.get_processing_config.return_value = {
+                'tracking': {
+                    'retry_attempts': 3,
+                    'retry_delay_seconds': 30,
+                    'track_audio_file_sizes': True,
+                    'track_processing_times': True,
+                    'auto_backup_progress': False,
+                    'backup_interval_hours': 6,
+                    'error_categorization': True,
+                    'detailed_error_logging': True
+                }
+            }
+            
+            with patch.object(ProgressTracker, '_setup_project_tracking_directory') as mock_setup:
+                mock_setup.return_value = Path(temp_dir)
+                
+                project_tracker = ProgressTracker(mock_project)
+                project_config = project_tracker.get_tracking_config()
+                
+                # Same config values, different modes
+                assert legacy_config['retry_attempts'] == project_config['retry_attempts']
+                assert legacy_config['retry_delay_seconds'] == project_config['retry_delay_seconds']
+                
+                # Different initialization modes
+                legacy_info = legacy_tracker.get_tracking_info()
+                project_info = project_tracker.get_tracking_info()
+                
+                assert legacy_info['initialization_mode'] == 'legacy'
+                assert project_info['initialization_mode'] == 'project'
+    
+    def test_custom_config_project_mode(self):
+        """Test that Project mode uses custom config from project settings."""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # Create mock project with custom tracking config
+            mock_project = MagicMock()
+            mock_project.project_name = "custom_project"
+            mock_project.get_processing_config.return_value = {
+                'tracking': {
+                    'retry_attempts': 7,
+                    'retry_delay_seconds': 90,
+                    'track_audio_file_sizes': False,
+                    'auto_backup_progress': True,
+                    'backup_interval_hours': 24
+                }
+            }
+            
+            with patch.object(ProgressTracker, '_setup_project_tracking_directory') as mock_setup:
+                mock_setup.return_value = Path(temp_dir)
+                
+                tracker = ProgressTracker(mock_project)
+                
+                config = tracker.get_tracking_config()
+                assert config['retry_attempts'] == 7
+                assert config['retry_delay_seconds'] == 90
+                assert config['track_audio_file_sizes'] is False
+                assert config['auto_backup_progress'] is True
+                assert config['backup_interval_hours'] == 24
+                
+                assert tracker.is_project_based() is True
+                assert tracker.get_project_name() == "custom_project"
+                
+                tracking_info = tracker.get_tracking_info()
+                assert tracking_info['initialization_mode'] == 'project'
+                assert tracking_info['project_name'] == 'custom_project'
+
+
+class TestProgressTrackerBackwardCompatibility:
+    """Unit tests ensuring backward compatibility with existing code."""
+    
+    def test_existing_code_compatibility(self):
+        """Test that existing code using string initialization still works."""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # This is exactly how existing code would initialize the tracker
+            tracker = ProgressTracker(temp_dir)
+            
+            # Should work exactly as before
+            assert tracker.tracking_directory == Path(temp_dir)
+            assert tracker.is_project_based() is False
+            assert tracker.get_project_name() is None
+            
+            # Test basic functionality still works
+            chapter_info = {
+                "filename": "Chapter_1_Test.txt",
+                "volume_number": 1,
+                "chapter_number": 1
+            }
+            
+            result = tracker.mark_chapter_completed(chapter_info, "/path/to/audio.mp3")
+            assert result is True
+            assert len(tracker.completed_chapter_records) == 1
+    
+    def test_existing_code_with_defaults(self):
+        """Test that existing code using default tracking directory still works."""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # This is how existing code might initialize with defaults
+            tracker = ProgressTracker(temp_dir)
+            
+            # Should use default tracking config
+            config = tracker.get_tracking_config()
+            assert config['retry_attempts'] == 3
+            assert config['retry_delay_seconds'] == 30
+            assert tracker.is_project_based() is False
+    
+    def test_retry_configuration_usage(self):
+        """Test that retry configuration is used from tracking config."""
+        with tempfile.TemporaryDirectory() as temp_dir:
+            # Test legacy mode uses default config
+            legacy_tracker = ProgressTracker(temp_dir)
+            retry_chapters = legacy_tracker.get_failed_chapters_for_retry()
+            # Should use default max_retries (3)
+            
+            # Test project mode uses project config
+            mock_project = MagicMock()
+            mock_project.project_name = "test_project"
+            mock_project.get_processing_config.return_value = {
+                'tracking': {
+                    'retry_attempts': 5
+                }
+            }
+            
+            with patch.object(ProgressTracker, '_setup_project_tracking_directory') as mock_setup:
+                mock_setup.return_value = Path(temp_dir)
+                
+                project_tracker = ProgressTracker(mock_project)
+                
+                # Add a failed chapter
+                chapter_info = {
+                    "filename": "Chapter_1_Test.txt",
+                    "volume_number": 1,
+                    "chapter_number": 1
+                }
+                project_tracker.mark_chapter_failed(chapter_info, "Test error")
+                
+                # Should use project config max_retries (5)
+                retry_chapters = project_tracker.get_failed_chapters_for_retry()
+                assert len(retry_chapters) == 1  # Should be available for retry
+
+
+if __name__ == "__main__":
+    # Run the tests if this file is executed directly
+    pytest.main([__file__, "-v"])
