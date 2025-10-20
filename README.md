@@ -1,15 +1,78 @@
-# PDF to Text Converter (SPECIFICALLY FOR MY LORD OF THE MYSTERIES PDF)
+# PDF to Text Converter & TTS Pipeline
 
-A Python tool for converting PDF files into organized text files by volumes and chapters.
+A comprehensive system for converting PDF documents into high-quality audiobooks through organized text extraction and text-to-speech processing.
+
+## 🎯 **Complete Pipeline**
+
+```
+PDF Document → [pdf_to_txt] → Organized Text Files → [tts_pipeline] → Audio/Video Files
+```
+
+### **Stage 1: PDF to Text (`pdf_to_txt/`)**
+Converts PDF files into organized text files by volumes and chapters.
+
+### **Stage 2: Text to Speech (`tts_pipeline/`)**
+Converts organized text files into high-quality audio and video files using Azure Cognitive Services.
+
+## 🚀 **NEW: Project-Based Architecture**
+
+The TTS pipeline now features a **project-based configuration system** that allows you to:
+- **Multiple Book Series**: Process different books with different settings
+- **Custom Narrators**: Use different Azure TTS voices for different projects
+- **Flexible Configuration**: Each project has its own Azure, processing, and video settings
+- **Easy Management**: Create, list, and manage multiple TTS projects
+
+### **Project Management Examples**
+
+```bash
+# List all available projects
+python tts_pipeline/scripts/process_project.py --list-projects
+
+# Process specific project
+python tts_pipeline/scripts/process_project.py --project lotm_book1
+
+# Create new project from template
+python tts_pipeline/scripts/process_project.py --create-project harry_potter_book1
+
+# Process specific chapter
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapter "Chapter_1_Crimson.txt"
+```
+
+### **Project Structure**
+```
+tts_pipeline/config/projects/
+├── lotm_book1/                    # Lord of the Mysteries Book 1
+│   ├── project.json              # Project metadata
+│   ├── azure_config.json         # Male narrator (SteffanNeural)
+│   ├── processing_config.json    # LOTM-specific settings
+│   └── video_config.json         # Video creation settings
+├── lotm_book2/                    # Lord of the Mysteries Book 2
+│   ├── project.json
+│   ├── azure_config.json         # Female narrator (JennyNeural)
+│   └── ...
+└── other_series/                  # Any other book series
+    └── ...
+```
 
 ## Features
 
+### **PDF to Text (`pdf_to_txt/`)**
 - **Automatic Structure Detection**: Automatically detects volumes and chapters in PDF files using configurable regex patterns
 - **Multiple Language Support**: Includes patterns for English, Chinese, French, and Spanish
 - **Flexible Organization**: Organizes output into volume/chapter folder structure
 - **Batch Processing**: Convert multiple PDF files at once
 - **Configurable Patterns**: Customize detection patterns for different document formats
 - **Text Processing**: Clean and format extracted text with configurable options
+
+### **Text to Speech (`tts_pipeline/`)**
+- **Azure TTS Integration**: High-quality text-to-speech using Azure Cognitive Services
+- **Project-Based Configuration**: Manage multiple book series with different settings
+- **SSD Optimization**: 40-60% faster processing with dedicated SSD storage
+- **Video Creation**: Generate YouTube-ready videos with audio + image combination
+- **Progress Tracking**: Resume processing from any point with comprehensive state management
+- **Error Handling**: Robust retry logic and error recovery
+- **Audio Compression**: Optimize file sizes while maintaining quality
+- **Comprehensive Testing**: 24+ unit tests ensuring reliability
 
 ## Installation
 
@@ -20,42 +83,84 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Command Line Interface
+### **PDF to Text Pipeline**
 
 #### Convert a single PDF file:
 ```bash
-python main.py path/to/your/file.pdf
+python pdf_to_txt/main.py path/to/your/file.pdf
 ```
 
 #### Convert all PDFs in a directory:
 ```bash
-python main.py path/to/pdf/directory --batch
+python pdf_to_txt/main.py path/to/pdf/directory --batch
 ```
 
 #### Specify output directory:
 ```bash
-python main.py path/to/file.pdf -o my_output_folder
+python pdf_to_txt/main.py path/to/file.pdf -o my_output_folder
 ```
 
-#### Update configuration interactively:
+### **Text to Speech Pipeline**
+
+#### Project Management:
 ```bash
-python main.py --update-config
+# List available projects
+python tts_pipeline/scripts/process_project.py --list-projects
+
+# Create new project
+python tts_pipeline/scripts/process_project.py --create-project my_book
+
+# Process entire project
+python tts_pipeline/scripts/process_project.py --project lotm_book1
+
+# Process specific chapter
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapter "Chapter_1_Crimson.txt"
+
+# Process specific volume
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --volume "1___VOLUME_1___CLOWN"
 ```
 
-### Python API
+#### Configuration:
+```bash
+# Set up Azure credentials
+echo "AZURE_TTS_SUBSCRIPTION_KEY=your_key_here" > .env
+echo "AZURE_TTS_REGION=your_region_here" >> .env
 
-#### Basic Usage:
+# Test Azure connectivity
+python tts_pipeline/tests/test_azure_connectivity.py
+```
+
+### **Complete Pipeline Example**
+
+#### From PDF to Audiobook:
+```bash
+# Step 1: Convert PDF to organized text
+python pdf_to_txt/main.py lotm_book1.pdf -o extracted_text/lotm_book1
+
+# Step 2: Set up TTS project
+python tts_pipeline/scripts/process_project.py --create-project lotm_book1
+
+# Step 3: Configure project settings (edit config files)
+# - Set input directory: ../extracted_text/lotm_book1
+# - Set output directory: D:/lotm_book1_output
+# - Configure Azure TTS voice and settings
+
+# Step 4: Process to audio and video
+python tts_pipeline/scripts/process_project.py --project lotm_book1
+```
+
+#### Python API:
 ```python
-from advanced_converter import AdvancedPDFConverter
+# PDF to Text
+from pdf_to_txt.pdf_converter_clean import PDFConverter
+converter = PDFConverter()
+converter.convert_pdf("lotm_book1.pdf")
 
-# Initialize converter
-converter = AdvancedPDFConverter()
-
-# Convert a single PDF
-converter.convert_pdf("path/to/your/file.pdf")
-
-# Batch convert all PDFs in a directory
-converter.batch_convert("path/to/pdf/directory")
+# Text to Speech
+from tts_pipeline.utils.project_manager import ProjectManager
+pm = ProjectManager()
+project = pm.load_project("lotm_book1")
+# Process project...
 ```
 
 #### Custom Configuration:

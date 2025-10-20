@@ -2,32 +2,82 @@
 File organizer for discovering and sorting chapter files.
 Handles the discovery of chapter files from extracted text directories
 and organizes them in proper sequential order for TTS processing.
+
+Supports both legacy string-based initialization and new Project-based initialization.
 """
 
 import os
 import re
 from pathlib import Path
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional, Tuple, Union
 import logging
 
 
 class ChapterFileOrganizer:
     """Organizes and discovers chapter files for TTS processing."""
     
-    def __init__(self, input_directory: str, chapter_pattern: str = r"Chapter_(\d+)_", 
-                 volume_pattern: str = r"(\d+)___VOLUME_\d+___"):
+    def __init__(self, input_source: Union[str, 'Project'], chapter_pattern: str = None, 
+                 volume_pattern: str = None):
         """
         Initialize the file organizer.
         
         Args:
-            input_directory: Path to the directory containing chapter files
-            chapter_pattern: Regex pattern to extract chapter numbers
-            volume_pattern: Regex pattern to extract volume numbers
+            input_source: Either a string path to directory OR a Project object
+            chapter_pattern: Regex pattern to extract chapter numbers (optional if Project provided)
+            volume_pattern: Regex pattern to extract volume numbers (optional if Project provided)
         """
-        self.input_directory = Path(input_directory)
-        self.chapter_pattern = re.compile(chapter_pattern)
-        self.volume_pattern = re.compile(volume_pattern)
         self.logger = logging.getLogger(__name__)
+        
+        # Handle both Project objects and string paths for backward compatibility
+        if hasattr(input_source, 'get_input_directory'):
+            # New Project-based initialization
+            self.project = input_source
+            self.input_directory = self.project.get_input_directory()
+            
+            # Get patterns from project configuration
+            processing_config = self.project.get_processing_config()
+            self.chapter_pattern = re.compile(
+                processing_config.get('chapter_pattern', r"Chapter_(\d+)_")
+            )
+            self.volume_pattern = re.compile(
+                processing_config.get('volume_pattern', r"(\d+)___VOLUME_\d+___")
+            )
+            
+            self.logger.info(f"Initialized with Project: {self.project.project_name}")
+        else:
+            # Legacy string-based initialization
+            self.project = None
+            self.input_directory = Path(input_source)
+            
+            # Use provided patterns or defaults
+            self.chapter_pattern = re.compile(
+                chapter_pattern or r"Chapter_(\d+)_"
+            )
+            self.volume_pattern = re.compile(
+                volume_pattern or r"(\d+)___VOLUME_\d+___"
+            )
+            
+            self.logger.info(f"Initialized with legacy string path: {self.input_directory}")
+        
+        # Store original patterns for reference
+        self._chapter_pattern_str = self.chapter_pattern.pattern
+        self._volume_pattern_str = self.volume_pattern.pattern
+    
+    def is_project_based(self) -> bool:
+        """Check if this organizer was initialized with a Project object."""
+        return self.project is not None
+    
+    def get_project_name(self) -> Optional[str]:
+        """Get the project name if initialized with a Project object, otherwise None."""
+        return self.project.project_name if self.project else None
+    
+    def get_patterns_info(self) -> Dict[str, str]:
+        """Get information about the patterns being used."""
+        return {
+            'chapter_pattern': self._chapter_pattern_str,
+            'volume_pattern': self._volume_pattern_str,
+            'initialization_mode': 'project' if self.is_project_based() else 'legacy'
+        }
     
     def discover_chapters(self) -> List[Dict[str, any]]:
         """
