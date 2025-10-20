@@ -205,10 +205,68 @@ The client successfully integrates with our existing configuration system and pr
 
 ## Progress Summary
 
-- **Total Steps Planned:** 16
+- **Total Steps Planned:** 17
 - **Steps Completed:** 7 (plus comprehensive testing)
-- **Steps Remaining:** 9
-- **Completion Percentage:** 44% (foundation + core state management + Azure TTS client complete)
+- **Steps Remaining:** 10
+- **Completion Percentage:** 41% (foundation + core state management + Azure TTS client complete)
+
+## Next Step: Project-Based Architecture Implementation
+
+### Step 7: Implement Project-Based Configuration System (IN PROGRESS)
+
+**Objective:** Refactor the TTS pipeline to use a project-based configuration system that allows for multiple book series with different settings, narrators, and processing parameters.
+
+#### Planned Changes:
+
+1. **Create Project Management System**
+   - Create `utils/project_manager.py` with `ProjectManager` and `Project` classes
+   - Implement project loading, validation, and management functionality
+   - Add project discovery and listing capabilities
+
+2. **Create Project Entry Point**
+   - Create `scripts/process_project.py` as main entry point
+   - Add command-line argument parsing with `--project` flag
+   - Implement project-specific processing workflows
+
+3. **Refactor Existing Components**
+   - Update `utils/file_organizer.py` to accept Project objects
+   - Update `utils/progress_tracker.py` to use project-specific tracking
+   - Update `api/azure_tts_client.py` to use project configurations
+   - Update `api/video_creator.py` to use project configurations
+
+4. **Create Project Configuration Structure**
+   - Create `config/projects/` directory structure
+   - Create `config/defaults/` with template configurations
+   - Migrate existing configurations to project-based structure
+   - Add `project.json` metadata files
+
+5. **Update Test Infrastructure**
+   - Create test projects in `tests/test_data/projects/`
+   - Update unit tests to use project-based configurations
+   - Update integration tests for project workflows
+   - Add project manager tests
+
+#### Benefits:
+- **Flexibility**: Different narrators for different books
+- **Scalability**: Easy to add new projects without code changes
+- **Organization**: Clear separation of project configurations
+- **Maintainability**: Centralized project management
+- **Reusability**: Pipeline code remains generic and reusable
+
+#### Usage Examples:
+```bash
+# Process specific project
+python scripts/process_project.py --project lotm_book1
+
+# Process with specific chapter
+python scripts/process_project.py --project lotm_book1 --chapter "Chapter_1_Crimson.txt"
+
+# List available projects
+python scripts/process_project.py --list-projects
+
+# Create new project from template
+python scripts/process_project.py --create-project other_series
+```
 
 ## Key Achievements So Far
 

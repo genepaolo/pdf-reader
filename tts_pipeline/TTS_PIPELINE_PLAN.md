@@ -576,4 +576,114 @@ echo "*.env" >> ../.gitignore
 
 ---
 
-**Note**: This plan focuses on single-file processing as requested. The system is designed to be robust, resumable, and maintainable while ensuring high-quality audio output for each chapter.
+## Project-Based Configuration System
+
+### Overview
+The TTS pipeline uses a project-based configuration system that allows for multiple book series with different settings, narrators, and processing parameters. Each project is self-contained with its own configuration files and output directories.
+
+### Project Structure
+```
+tts_pipeline/
+├── config/
+│   ├── projects/                    # Project-specific configurations
+│   │   ├── lotm_book1/
+│   │   │   ├── project.json        # Project metadata and settings
+│   │   │   ├── azure_config.json   # Azure TTS configuration
+│   │   │   ├── processing_config.json
+│   │   │   └── video_config.json
+│   │   ├── lotm_book2/
+│   │   │   ├── project.json
+│   │   │   ├── azure_config.json   # Different narrator!
+│   │   │   ├── processing_config.json
+│   │   │   └── video_config.json
+│   │   └── other_series/
+│   │       └── ...
+│   └── defaults/                    # Default configuration templates
+│       ├── azure_config.json
+│       ├── processing_config.json
+│       └── video_config.json
+├── scripts/
+│   └── process_project.py          # Main entry point with --project flag
+├── utils/
+│   ├── project_manager.py          # Project configuration management
+│   ├── file_organizer.py           # Updated to use Project objects
+│   └── progress_tracker.py         # Updated to use Project objects
+└── api/
+    ├── azure_tts_client.py         # Updated to use project configs
+    └── video_creator.py            # Updated to use project configs
+```
+
+### Project Configuration (`project.json`)
+```json
+{
+  "project_name": "lotm_book1",
+  "display_name": "Lord of the Mysteries - Book 1",
+  "input_directory": "../extracted_text/lotm_book1",
+  "output_directory": "D:/lotm_book1_output",
+  "description": "Complete LOTM Book 1 with 2,134 chapters",
+  "metadata": {
+    "series": "Lord of the Mysteries",
+    "book_number": 1,
+    "total_volumes": 8,
+    "total_chapters": 2134,
+    "language": "en-US",
+    "genre": "fantasy"
+  },
+  "created_date": "2024-10-20",
+  "last_modified": "2024-10-20"
+}
+```
+
+### Usage Examples
+
+#### Command Line Interface
+```bash
+# Process specific project
+python scripts/process_project.py --project lotm_book1
+
+# Process with specific chapter
+python scripts/process_project.py --project lotm_book1 --chapter "Chapter_1_Crimson.txt"
+
+# Process specific volume
+python scripts/process_project.py --project lotm_book1 --volume "1___VOLUME_1___CLOWN"
+
+# List available projects
+python scripts/process_project.py --list-projects
+
+# Create new project from template
+python scripts/process_project.py --create-project other_series
+```
+
+#### Python API
+```python
+from utils.project_manager import ProjectManager
+
+# Load project configuration
+pm = ProjectManager()
+project = pm.load_project("lotm_book1")
+
+# Get project-specific configs
+azure_config = project.get_azure_config()
+processing_config = project.get_processing_config()
+video_config = project.get_video_config()
+
+# Process project
+project.process()
+```
+
+### Configuration Hierarchy
+1. **Project-specific config** (highest priority)
+2. **Default config** (fallback)
+3. **Environment variables** (override)
+4. **Command-line arguments** (highest override)
+
+### Benefits
+- **Flexibility**: Different narrators for different books
+- **Scalability**: Easy to add new projects
+- **Organization**: Clear separation of project configurations
+- **Maintainability**: Centralized project management
+- **Reusability**: Pipeline code remains generic
+
+---
+
+**Note**: This plan focuses on single-file processing as requested. The system is designed to be robust, resumable, and maintainable while ensuring high-quality audio output for each chapter. The project-based architecture makes it scalable for multiple book series with different configurations.
