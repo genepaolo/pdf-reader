@@ -1,0 +1,53 @@
+{
+  "input_directory": "../extracted_text/lotm_book1",
+  "output_directory": "D:/lotm_book1_output",
+  "temp_directory": "./temp",
+  "ssd_directory": "D:/lotm_book1_output",
+  "min_audio_duration_minutes": 5,
+  "max_audio_duration_minutes": 20,
+  "expected_audio_duration_minutes": 15,
+  "max_text_length": 20000,
+  "retry_attempts": 3,
+  "retry_delay_seconds": 30,
+  "log_level": "INFO",
+  "chapter_pattern": "Chapter_\\d+_.*\\.txt$",
+  "volume_pattern": "\\d+___VOLUME_\\d+___.*",
+  "supported_audio_formats": ["mp3", "wav"],
+  "chunk_size": 20000,
+  "rate_limit_delay": 1.0,
+  "storage": {
+    "use_dedicated_ssd": true,
+    "ssd_path": "D:/lotm_book1_output",
+    "temp_on_ssd": true,
+    "backup_enabled": false,
+    "preserve_hierarchy": true
+  },
+  "compression": {
+    "enabled": true,
+    "target_bitrate": "128k",
+    "target_sample_rate": "22050",
+    "quality_check": true,
+    "cleanup_temp": true
+  },
+  "video": {
+    "enabled": true,
+    "video_type": "still_image",
+    "default_image": "./assets/images/default_cover.jpg",
+    "output_directory": "D:/lotm_book1_output/video",
+    "temp_directory": "D:/lotm_book1_output/temp_processing/video_temp",
+    "ssd_optimized": true,
+    "format": {
+      "resolution": "1920x1080",
+      "video_codec": "libx264",
+      "audio_codec": "aac",
+      "audio_bitrate": "128k",
+      "pixel_format": "yuv420p"
+    },
+    "compression": {
+      "enabled": true,
+      "crf": 23,
+      "preset": "fast",
+      "optimize_streaming": true
+    }
+  }
+}

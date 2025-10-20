@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "video_type": "still_image",
+  "default_image": "./assets/images/default_cover.jpg",
+  "output_directory": "D:/{project_name}_output/video",
+  "temp_directory": "D:/{project_name}_output/temp_processing/video_temp",
+  "ssd_optimized": true,
+  "format": {
+    "resolution": "1920x1080",
+    "video_codec": "libx264",
+    "audio_codec": "aac",
+    "audio_bitrate": "128k",
+    "pixel_format": "yuv420p"
+  },
+  "compression": {
+    "enabled": true,
+    "crf": 23,
+    "preset": "fast",
+    "optimize_streaming": true
+  }
+}
