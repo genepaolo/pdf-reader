@@ -49,5 +49,15 @@
       "preset": "fast",
       "optimize_streaming": true
     }
+  },
+  "tracking": {
+    "retry_attempts": 3,
+    "retry_delay_seconds": 30,
+    "track_audio_file_sizes": true,
+    "track_processing_times": true,
+    "auto_backup_progress": true,
+    "backup_interval_hours": 6,
+    "error_categorization": true,
+    "detailed_error_logging": true
   }
 }

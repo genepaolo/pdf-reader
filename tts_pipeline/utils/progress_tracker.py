@@ -1,38 +1,108 @@
 """
 Progress tracker for TTS pipeline state management.
 Handles saving/loading progress, tracking completed chapters, and resume functionality.
+
+Supports both legacy string-based initialization and new Project-based initialization.
 """
 
 import json
 import os
 from datetime import datetime
 from pathlib import Path
-from typing import List, Dict, Optional, Any
+from typing import List, Dict, Optional, Any, Union
 import logging
 
 
 class ProgressTracker:
     """Tracks TTS processing progress and enables resume functionality."""
     
-    def __init__(self, tracking_directory: str = "./tracking"):
+    def __init__(self, tracking_source: Union[str, 'Project']):
         """
         Initialize the progress tracker.
         
         Args:
-            tracking_directory: Directory to store progress files
+            tracking_source: Either a string path to tracking directory OR a Project object
         """
-        self.tracking_directory = Path(tracking_directory)
-        self.tracking_directory.mkdir(exist_ok=True)
+        self.logger = logging.getLogger(__name__)
+        
+        # Handle both Project objects and string paths for backward compatibility
+        if hasattr(tracking_source, 'get_input_directory'):
+            # New Project-based initialization
+            self.project = tracking_source
+            self.tracking_directory = self._setup_project_tracking_directory()
+            
+            # Load tracking settings from project configuration
+            self.tracking_config = self._load_tracking_config()
+            
+            self.logger.info(f"Initialized with Project: {self.project.project_name}")
+        else:
+            # Legacy string-based initialization
+            self.project = None
+            self.tracking_directory = Path(tracking_source)
+            self.tracking_config = self._get_default_tracking_config()
+            
+            self.logger.info(f"Initialized with legacy tracking directory: {self.tracking_directory}")
+        
+        # Create tracking directory
+        self.tracking_directory.mkdir(parents=True, exist_ok=True)
         
         # Progress file paths
         self.progress_file = self.tracking_directory / "progress.json"
         self.failed_file = self.tracking_directory / "failed.json"
         self.metadata_file = self.tracking_directory / "metadata.json"
         
-        self.logger = logging.getLogger(__name__)
-        
         # Load existing progress
         self._load_progress()
+    
+    def _setup_project_tracking_directory(self) -> Path:
+        """Set up project-specific tracking directory."""
+        # Create tracking directory structure: tracking/{project_name}/
+        base_tracking_dir = Path("./tracking")
+        project_tracking_dir = base_tracking_dir / self.project.project_name
+        return project_tracking_dir
+    
+    def _load_tracking_config(self) -> Dict[str, Any]:
+        """Load tracking configuration from project config."""
+        try:
+            processing_config = self.project.get_processing_config()
+            return processing_config.get('tracking', self._get_default_tracking_config())
+        except Exception as e:
+            self.logger.warning(f"Could not load tracking config from project: {e}. Using defaults.")
+            return self._get_default_tracking_config()
+    
+    def _get_default_tracking_config(self) -> Dict[str, Any]:
+        """Get default tracking configuration."""
+        return {
+            'retry_attempts': 3,
+            'retry_delay_seconds': 30,
+            'track_audio_file_sizes': True,
+            'track_processing_times': True,
+            'auto_backup_progress': False,
+            'backup_interval_hours': 6,
+            'error_categorization': True,
+            'detailed_error_logging': True
+        }
+    
+    def is_project_based(self) -> bool:
+        """Check if this tracker was initialized with a Project object."""
+        return self.project is not None
+    
+    def get_project_name(self) -> Optional[str]:
+        """Get the project name if initialized with a Project object, otherwise None."""
+        return self.project.project_name if self.project else None
+    
+    def get_tracking_config(self) -> Dict[str, Any]:
+        """Get the tracking configuration being used."""
+        return self.tracking_config.copy()
+    
+    def get_tracking_info(self) -> Dict[str, Any]:
+        """Get information about the tracking setup."""
+        return {
+            'tracking_directory': str(self.tracking_directory),
+            'initialization_mode': 'project' if self.is_project_based() else 'legacy',
+            'project_name': self.get_project_name(),
+            'tracking_config': self.get_tracking_config()
+        }
     
     def _load_progress(self) -> None:
         """Load existing progress from files."""
@@ -206,16 +276,19 @@ class ProgressTracker:
         
         return None
     
-    def get_failed_chapters_for_retry(self, max_retries: int = 3) -> List[Dict[str, Any]]:
+    def get_failed_chapters_for_retry(self, max_retries: int = None) -> List[Dict[str, Any]]:
         """
         Get chapters that have failed but can be retried (O(n) with O(1) lookups).
         
         Args:
-            max_retries: Maximum number of retries allowed
+            max_retries: Maximum number of retries allowed (uses config default if None)
             
         Returns:
             List of chapters that can be retried
         """
+        # Use config default if not specified
+        if max_retries is None:
+            max_retries = self.tracking_config.get('retry_attempts', 3)
         retry_chapters = []
         
         # Use efficient lookup structures (O(1) per operation)
