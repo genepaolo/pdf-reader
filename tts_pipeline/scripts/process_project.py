@@ -35,6 +35,10 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from utils.project_manager import ProjectManager, Project
 from utils.file_organizer import ChapterFileOrganizer
 from utils.progress_tracker import ProgressTracker
+from api.azure_tts_client import AzureTTSClient
+from dotenv import load_dotenv
+
+load_dotenv()  # This loads the .env file
 
 
 class TTSProcessor:
@@ -55,6 +59,7 @@ class TTSProcessor:
         # Initialize components
         self.file_organizer = ChapterFileOrganizer(project)
         self.progress_tracker = ProgressTracker(project)
+        self.azure_client = AzureTTSClient(project)
         
         # Processing state
         self.start_time = None
@@ -118,10 +123,53 @@ class TTSProcessor:
                     self.failed_count += 1
                     return False
             else:
-                # TODO: Implement actual Azure TTS processing
+                # Real Azure TTS processing
                 self.logger.info(f"[REAL] Processing: {chapter_name}")
-                # This will be implemented in Step 10
-                raise NotImplementedError("Real processing not yet implemented")
+                
+                # Load chapter text content and split into chunks
+                text_chunks = self._load_chapter_text_chunks(chapter)
+                if not text_chunks:
+                    raise ValueError("Failed to load chapter text content")
+                
+                self.logger.info(f"Split chapter into {len(text_chunks)} chunks")
+                
+                # Generate output file path
+                output_path = self._generate_output_path(chapter)
+                
+                # Create output directory if it doesn't exist
+                output_path.parent.mkdir(parents=True, exist_ok=True)
+                
+                # Test Azure connection first
+                self.logger.info("Testing Azure TTS connection...")
+                if not self._test_azure_connection():
+                    raise ValueError("Azure TTS connection test failed - check credentials and network")
+                
+                self.logger.info("Azure TTS connection test passed - proceeding with synthesis")
+                
+                # Generate audio for each chunk and combine
+                self.logger.info(f"Generating audio for {chapter_name} -> {output_path}")
+                success = self._process_text_chunks(text_chunks, output_path, chapter_name)
+                
+                if success:
+                    # Verify audio file was created and has content
+                    if output_path.exists() and output_path.stat().st_size > 0:
+                        self.logger.info(f"Successfully generated audio: {output_path}")
+                        
+                        # Mark chapter as completed with real audio file
+                        result = self.progress_tracker.mark_chapter_completed(
+                            chapter, str(output_path), dry_run=False
+                        )
+                        
+                        if result:
+                            self.processed_count += 1
+                            return True
+                        else:
+                            self.logger.error(f"Failed to update progress tracking for {chapter_name}")
+                            return False
+                    else:
+                        raise ValueError(f"Audio file was not created or is empty: {output_path}")
+                else:
+                    raise ValueError("Azure TTS synthesis failed")
                 
         except Exception as e:
             self.logger.error(f"Error processing chapter {chapter_name}: {e}")
@@ -253,6 +301,275 @@ class TTSProcessor:
             'successful': successful,
             'failed': failed
         }
+    
+    def _load_chapter_text_chunks(self, chapter: Dict[str, Any]) -> List[str]:
+        """
+        Load text content from a chapter file and split into chunks.
+        
+        Args:
+            chapter: Chapter information dictionary
+            
+        Returns:
+            List of text chunks, or empty list if failed
+        """
+        try:
+            chapter_path = Path(chapter['file_path'])
+            if not chapter_path.exists():
+                self.logger.error(f"Chapter file does not exist: {chapter_path}")
+                return []
+            
+            with open(chapter_path, 'r', encoding='utf-8') as f:
+                text_content = f.read().strip()
+            
+            if not text_content:
+                self.logger.error(f"Chapter file is empty: {chapter_path}")
+                return []
+            
+            # Split text into chunks
+            chunks = self._split_text_into_chunks(text_content)
+            self.logger.info(f"Text length: {len(text_content)} characters, split into {len(chunks)} chunks")
+            for i, chunk in enumerate(chunks, 1):
+                self.logger.debug(f"Chunk {i}: {len(chunk)} characters")
+            return chunks
+            
+        except Exception as e:
+            self.logger.error(f"Failed to load chapter text from {chapter['filename']}: {e}")
+            return []
+    
+    def _split_text_into_chunks(self, text: str, max_chunk_size: int = 5000) -> List[str]:
+        """
+        Split text into chunks while preserving sentence boundaries.
+        
+        Args:
+            text: Full text to split
+            max_chunk_size: Maximum characters per chunk
+            
+        Returns:
+            List of text chunks
+        """
+        if len(text) <= max_chunk_size:
+            return [text]
+        
+        # Split into sentences first
+        sentences = text.split('. ')
+        
+        chunks = []
+        current_chunk = ""
+        
+        for sentence in sentences:
+            # Add the period back (except for the last sentence)
+            if sentence != sentences[-1]:
+                sentence += ". "
+            
+            # Check if adding this sentence would exceed the limit
+            if len(current_chunk + sentence) > max_chunk_size and current_chunk:
+                # Save current chunk and start new one
+                chunks.append(current_chunk.strip())
+                current_chunk = sentence
+            else:
+                # Add sentence to current chunk
+                current_chunk += sentence
+        
+        # Add the last chunk if it has content
+        if current_chunk.strip():
+            chunks.append(current_chunk.strip())
+        
+        return chunks
+    
+    def _process_text_chunks(self, text_chunks: List[str], output_path: Path, chapter_name: str) -> bool:
+        """
+        Process text chunks by generating audio for each and combining them.
+        
+        Args:
+            text_chunks: List of text chunks to process
+            output_path: Final output path for combined audio
+            chapter_name: Name of the chapter being processed
+            
+        Returns:
+            True if successful, False otherwise
+        """
+        try:
+            if len(text_chunks) == 1:
+                # Single chunk - process directly
+                self.logger.info(f"Processing single chunk for {chapter_name}")
+                return self.azure_client.synthesize_text(text_chunks[0], str(output_path))
+            
+            # Multiple chunks - process each and combine
+            temp_dir = output_path.parent / "temp"
+            temp_dir.mkdir(exist_ok=True)
+            
+            chunk_files = []
+            
+            for i, chunk in enumerate(text_chunks, 1):
+                chunk_filename = f"{output_path.stem}_part{i}.mp3"
+                chunk_path = temp_dir / chunk_filename
+                
+                self.logger.info(f"Processing chunk {i}/{len(text_chunks)} for {chapter_name}")
+                
+                # Retry logic for chunk processing
+                success = self._process_chunk_with_retry(chunk, str(chunk_path), chapter_name, i)
+                if not success:
+                    self.logger.error(f"Failed to process chunk {i} for {chapter_name} after retries")
+                    return False
+                
+                chunk_files.append(chunk_path)
+            
+            # Combine all chunk files
+            self.logger.info(f"Combining {len(chunk_files)} audio files for {chapter_name}")
+            success = self._combine_audio_files(chunk_files, output_path)
+            
+            # Clean up temporary files
+            for chunk_file in chunk_files:
+                try:
+                    chunk_file.unlink()
+                except Exception as e:
+                    self.logger.warning(f"Failed to delete temp file {chunk_file}: {e}")
+            
+            # Remove temp directory if empty
+            try:
+                temp_dir.rmdir()
+            except OSError:
+                pass  # Directory not empty or other error
+            
+            return success
+            
+        except Exception as e:
+            self.logger.error(f"Error processing text chunks for {chapter_name}: {e}")
+            return False
+    
+    def _process_chunk_with_retry(self, chunk_text: str, chunk_path: str, chapter_name: str, chunk_num: int, max_retries: int = 3) -> bool:
+        """
+        Process a single chunk with retry logic for connection issues.
+        
+        Args:
+            chunk_text: Text content for this chunk
+            chunk_path: Output path for this chunk
+            chapter_name: Name of the chapter
+            chunk_num: Chunk number for logging
+            max_retries: Maximum number of retry attempts
+            
+        Returns:
+            True if successful, False otherwise
+        """
+        for attempt in range(max_retries):
+            try:
+                if attempt > 0:
+                    self.logger.info(f"Retry attempt {attempt + 1}/{max_retries} for chunk {chunk_num} of {chapter_name}")
+                    # Wait before retry
+                    import time
+                    time.sleep(5 * attempt)  # Exponential backoff: 5, 10, 15 seconds
+                
+                success = self.azure_client.synthesize_text(chunk_text, chunk_path)
+                if success:
+                    self.logger.info(f"Successfully processed chunk {chunk_num} of {chapter_name}")
+                    return True
+                else:
+                    self.logger.warning(f"Chunk {chunk_num} synthesis failed on attempt {attempt + 1}")
+                    
+            except Exception as e:
+                self.logger.warning(f"Chunk {chunk_num} processing error on attempt {attempt + 1}: {e}")
+                if attempt == max_retries - 1:
+                    self.logger.error(f"All retry attempts failed for chunk {chunk_num} of {chapter_name}")
+                    return False
+        
+        return False
+
+    def _combine_audio_files(self, audio_files: List[Path], output_path: Path) -> bool:
+        """
+        Combine multiple audio files into a single file.
+        
+        Args:
+            audio_files: List of audio file paths to combine
+            output_path: Path for the combined output file
+            
+        Returns:
+            True if successful, False otherwise
+        """
+        try:
+            # Simple binary concatenation for MP3 files
+            with open(output_path, 'wb') as outfile:
+                for audio_file in audio_files:
+                    if audio_file.exists():
+                        with open(audio_file, 'rb') as infile:
+                            outfile.write(infile.read())
+                    else:
+                        self.logger.error(f"Audio file not found: {audio_file}")
+                        return False
+            
+            self.logger.info(f"Successfully combined {len(audio_files)} files into {output_path}")
+            return True
+            
+        except Exception as e:
+            self.logger.error(f"Failed to combine audio files: {e}")
+            return False
+
+    def _load_chapter_text(self, chapter: Dict[str, Any]) -> Optional[str]:
+        """
+        Load text content from a chapter file.
+        
+        Args:
+            chapter: Chapter information dictionary
+            
+        Returns:
+            Chapter text content or None if failed
+        """
+        try:
+            chapter_path = Path(chapter['file_path'])
+            if not chapter_path.exists():
+                self.logger.error(f"Chapter file does not exist: {chapter_path}")
+                return None
+            
+            with open(chapter_path, 'r', encoding='utf-8') as f:
+                text_content = f.read().strip()
+            
+            if not text_content:
+                self.logger.error(f"Chapter file is empty: {chapter_path}")
+                return None
+            
+            self.logger.debug(f"Loaded {len(text_content)} characters from {chapter['filename']}")
+            return text_content
+            
+        except Exception as e:
+            self.logger.error(f"Failed to load chapter text from {chapter['filename']}: {e}")
+            return None
+    
+    def _generate_output_path(self, chapter: Dict[str, Any]) -> Path:
+        """
+        Generate output file path for a chapter's audio file.
+        
+        Args:
+            chapter: Chapter information dictionary
+            
+        Returns:
+            Path object for the output audio file
+        """
+        # Get output directory from project configuration
+        processing_config = self.project.get_processing_config()
+        output_dir = Path(processing_config.get('output_directory', './output'))
+        
+        # Create chapter-specific subdirectory based on volume
+        volume_name = chapter.get('volume_name', 'unknown_volume')
+        chapter_subdir = output_dir / volume_name
+        
+        # Generate audio filename (replace .txt with .mp3)
+        audio_filename = chapter['filename'].replace('.txt', '.mp3')
+        
+        return chapter_subdir / audio_filename
+    
+    def _test_azure_connection(self) -> bool:
+        """
+        Test Azure TTS connection with a simple request.
+        
+        Returns:
+            True if connection is successful, False otherwise
+        """
+        try:
+            # Use the built-in connection test method
+            return self.azure_client.test_connection()
+                
+        except Exception as e:
+            self.logger.error(f"Azure TTS connection test error: {e}")
+            return False
 
 
 def setup_logging(level: str = "INFO", log_file: Optional[str] = None):

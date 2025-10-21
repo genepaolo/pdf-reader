@@ -198,3 +198,32 @@ The TTS pipeline has been successfully transformed into a **production-ready, pr
 
 *Last Updated: October 20, 2025*  
 *Status: Production Ready* ✅
+
+---
+
+## Next Session Plan: MP3 → MP4 → YouTube
+
+- Phase A: MP3 (now)
+  - Goal: Generate real Azure TTS MP3 for Chapter 1 to SSD output.
+  - Configure: `.env` (AZURE_TTS_SUBSCRIPTION_KEY, AZURE_TTS_REGION), project/output dirs, processing timeouts.
+  - Run: `python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 1`
+  - Accept: MP3 saved on SSD in proper hierarchy; tracking marks Chapter 1 as real completion; duration ≥ min threshold.
+
+- Phase B: MP4 via FFmpeg (image or loop clip)
+  - Implement `utils/video_creator.py` with:
+    - `create_video_from_image(audio_path, image_path, output_path, format_cfg, comp_cfg)`
+    - `create_video_from_clip(audio_path, loop_clip_path, output_path, format_cfg, comp_cfg)`
+  - Config: use `processing_config.video` (enabled, video_type, paths, format, compression).
+  - Tests: mock `subprocess.run` for success/failure; validate command composition.
+  - Smoke test using Chapter 1 MP3 and chosen background.
+
+- Phase C: YouTube Upload (later)
+  - Separate `youtube_uploader.py` using YouTube Data API v3; resumable uploads.
+  - Config: per-project defaults; dry-run mode for testing.
+
+- Integration (after MP3 verified):
+  - If `video.enabled`, call VideoCreator post-audio; store `video_file_path` in tracking.
+  - CLI overrides: `--make-video`, `--video-mode`.
+  - Error handling: audio can succeed even if video fails; log and allow retry-video.
+
+- Pre-reqs: ffmpeg installed and on PATH; SSD paths correct; tracking clean for real runs.

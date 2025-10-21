@@ -332,3 +332,32 @@ The TTS Pipeline has been successfully implemented as a **production-ready, proj
 
 *Last Updated: October 20, 2025*  
 *Status: Production Ready* ✅
+
+---
+
+## Next Session Plan: MP3 → MP4 → YouTube
+
+- Phase A: MP3 (immediate)
+  - Objective: Produce real Azure TTS MP3 for Chapter 1 to SSD.
+  - Steps: verify `.env`, confirm SSD paths in `project.json` and `processing_config.json`, run single-chapter processing.
+  - Acceptance: MP3 exists on SSD, tracking marks real completion, duration within configured limits.
+
+- Phase B: MP4 via FFmpeg (image or looped video)
+  - Add `utils/video_creator.py` with two entry points:
+    - `create_video_from_image(audio_path, image_path, output_path, format_cfg, comp_cfg)`
+    - `create_video_from_clip(audio_path, loop_clip_path, output_path, format_cfg, comp_cfg)`
+  - Use `processing_config.video` for: enabled, video_type, background asset path(s), output/temp directories, format (resolution, codecs, pixel format), compression (crf, preset, streaming opts).
+  - Testing: unit tests mocking `subprocess.run`; command composition and error paths.
+  - Manual: generate MP4 from Chapter 1 MP3 and chosen background.
+
+- Phase C: YouTube Upload (deferred)
+  - Standalone `youtube_uploader.py` using YouTube Data API v3 with resumable upload.
+  - Config file or env-based credentials; dry-run mode prints payload.
+
+- Pipeline Integration (post-Phase A)
+  - In `scripts/process_project.py`: if `video.enabled`, invoke VideoCreator after audio success; record `video_file_path` in tracking.
+  - CLI overrides: `--make-video true|false`, `--video-mode image|loop`.
+  - Failure policy: audio success is authoritative; video failure is logged and retriable.
+
+- Requirements
+  - ffmpeg available on PATH, SSD directories present, tracking clean for real runs.

@@ -1,8 +1,8 @@
 {
   "input_directory": "../extracted_text/lotm_book1",
-  "output_directory": "D:/lotm_book1_output",
+  "output_directory": "F:/PDFReader/lotm_book1_output",
   "temp_directory": "./temp",
-  "ssd_directory": "D:/lotm_book1_output",
+  "ssd_directory": "F:/PDFReader/lotm_book1_output",
   "min_audio_duration_minutes": 5,
   "max_audio_duration_minutes": 20,
   "expected_audio_duration_minutes": 15,
@@ -17,7 +17,7 @@
   "rate_limit_delay": 1.0,
   "storage": {
     "use_dedicated_ssd": true,
-    "ssd_path": "D:/lotm_book1_output",
+    "ssd_path": "F:/PDFReader/lotm_book1_output",
     "temp_on_ssd": true,
     "backup_enabled": false,
     "preserve_hierarchy": true
@@ -33,8 +33,8 @@
     "enabled": true,
     "video_type": "still_image",
     "default_image": "./assets/images/default_cover.jpg",
-    "output_directory": "D:/lotm_book1_output/video",
-    "temp_directory": "D:/lotm_book1_output/temp_processing/video_temp",
+    "output_directory": "F:/PDFReader/lotm_book1_output/video",
+    "temp_directory": "F:/PDFReader/lotm_book1_output/temp_processing/video_temp",
     "ssd_optimized": true,
     "format": {
       "resolution": "1920x1080",

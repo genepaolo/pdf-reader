@@ -1,18 +1,1 @@
-[
-  {
-    "timestamp": "2025-10-20T09:41:33.684059",
-    "chapter_info": {
-      "filename": "Chapter_3_Melissa.txt",
-      "file_path": "E:\\Documents\\Work\\pdf_reader\\extracted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_3_Melissa.txt",
-      "volume_number": 1,
-      "volume_name": "1___VOLUME_1___CLOWN",
-      "chapter_number": 3,
-      "chapter_title": "Melissa",
-      "file_size": 12903,
-      "is_readable": true
-    },
-    "error_message": "Simulated processing error",
-    "error_type": "dry_run_error",
-    "retry_count": 0
-  }
-]
+[]
