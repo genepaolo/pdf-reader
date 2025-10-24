@@ -1,0 +1,43 @@
+{
+  "project_name": "lotm_book1",
+  "portrait_mapping": {
+    "1-167": {
+      "image": "lotm_9_seer.jpg",
+      "description": "Seer - Chapters 1-167 (Volume 1: Clown)"
+    },
+    "168-294": {
+      "image": "lotm_8_clown.jpg", 
+      "description": "Clown - Chapters 168-294 (Volume 2: Faceless)"
+    },
+    "295-450": {
+      "image": "lotm_7_magician.jpg",
+      "description": "Magician - Chapters 295-450 (Volume 3: Traveler)"
+    },
+    "451-663": {
+      "image": "lotm_6_faceless.jpg",
+      "description": "Faceless - Chapters 451-663 (Volume 4: Undying)"
+    },
+    "664-945": {
+      "image": "lotm_5_marionettist.jpg",
+      "description": "Marionettist - Chapters 664-945 (Volume 5: Red Priest)"
+    },
+    "946-1137": {
+      "image": "lotm_4_bs.jpg",
+      "description": "BS - Chapters 946-1137 (Volume 6: Lightseeker)"
+    },
+    "1138-1351": {
+      "image": "lotm_3_soy.jpg",
+      "description": "SOY - Chapters 1138-1351 (Volume 7: The Hanged Man)"
+    },
+    "1352-1379": {
+      "image": "lotm_2_mi.jpg",
+      "description": "MI - Chapters 1352-1379 (Volume 7: The Hanged Man)"
+    },
+    "1380-1432": {
+      "image": "lotm_0_fool.jpg",
+      "description": "Fool - Chapters 1380-1432 (End of Volume 8)"
+    }
+  },
+  "default_image": "lotm_9_seer.jpg",
+  "fallback_image": "lotm_9_seer.jpg"
+}

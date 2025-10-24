@@ -1,5 +1,5 @@
 {
-  "input_directory": "../extracted_text/lotm_book1",
+  "input_directory": "../formatted_text/lotm_book1",
   "output_directory": "F:/PDFReader/lotm_book1_output",
   "temp_directory": "./temp",
   "ssd_directory": "F:/PDFReader/lotm_book1_output",

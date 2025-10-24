@@ -1,7 +1,7 @@
 {
   "project_name": "lotm_book1",
   "display_name": "Lord of the Mysteries - Book 1",
-  "input_directory": "extracted_text/lotm_book1",
+  "input_directory": "formatted_text/lotm_book1",
   "output_directory": "F:/PDFReader/lotm_book1_output",
   "description": "Complete LOTM Book 1 with 2,134 chapters across 8 volumes",
   "metadata": {

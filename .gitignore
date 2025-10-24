@@ -4,6 +4,7 @@ pdfs/
 
 # Extracted Text Output - Generated content
 extracted_text/
+formatted_text/
 *.txt
 
 # Archive Files
@@ -73,6 +74,12 @@ logs/
 temp/
 tmp/
 
+
+# FFmpeg binaries and documentation
+ffmpeg/
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
 
 #Security
 .env

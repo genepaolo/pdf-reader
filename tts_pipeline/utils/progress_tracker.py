@@ -92,9 +92,22 @@ class ProgressTracker:
     
     def _load_progress(self) -> None:
         """Load existing progress from files."""
-        self.completed_chapter_records = self._load_json_file(self.progress_file, [])
-        self.failed_chapter_records = self._load_json_file(self.failed_file, [])
+        # Load metadata first
         self.metadata = self._load_json_file(self.metadata_file, {})
+        
+        # Load progress data - handle both old format (array) and new format (dict)
+        progress_data = self._load_json_file(self.progress_file, [])
+        if isinstance(progress_data, dict):
+            # New format with metadata
+            self.completed_chapter_records = progress_data.get('completed_chapter_records', [])
+            # Update metadata from the file if available
+            if 'metadata' in progress_data:
+                self.metadata.update(progress_data['metadata'])
+        else:
+            # Old format (simple array)
+            self.completed_chapter_records = progress_data
+        
+        self.failed_chapter_records = self._load_json_file(self.failed_file, [])
         
         # Initialize efficient lookup structures
         self._initialize_efficient_structures()
@@ -140,9 +153,9 @@ class ProgressTracker:
             self.logger.error(f"Could not save {file_path}: {e}")
             return False
     
-    def mark_chapter_completed(self, chapter_info: Dict[str, Any], audio_file_path: str, dry_run: bool = False) -> bool:
+    def mark_audio_completed(self, chapter_info: Dict[str, Any], audio_file_path: str, dry_run: bool = False) -> bool:
         """
-        Mark a chapter as successfully completed.
+        Mark a chapter's audio as successfully completed.
         
         Args:
             chapter_info: Chapter metadata from file organizer
@@ -162,6 +175,8 @@ class ProgressTracker:
                 "chapter_info": chapter_info,
                 "audio_file_path": audio_file_path,
                 "audio_file_size": Path(audio_file_path).stat().st_size if Path(audio_file_path).exists() else 0,
+                "audio_completed": True,
+                "video_completed": False,  # Default to False, will be updated when video is created
                 "dry_run": dry_run  # Mark whether this was a dry-run completion
             }
             
@@ -200,6 +215,8 @@ class ProgressTracker:
                             "chapter_info": chapter_info,
                             "audio_file_path": audio_file_path,
                             "audio_file_size": Path(audio_file_path).stat().st_size if Path(audio_file_path).exists() else 0,
+                            "audio_completed": True,
+                            "video_completed": False,  # Default to False, will be updated when video is created
                             "dry_run": dry_run
                         }
                         self.logger.info(f"Replaced dry-run completion with real completion for {chapter_info['filename']}")
@@ -227,6 +244,87 @@ class ProgressTracker:
             return result
         
         return True  # Already completed
+    
+    def mark_video_completed(self, chapter_info: Dict[str, Any], video_file_path: str, dry_run: bool = False) -> bool:
+        """
+        Mark a chapter's video as successfully completed.
+        
+        Args:
+            chapter_info: Chapter metadata from file organizer
+            video_file_path: Path to the generated video file
+            dry_run: Whether this is a dry-run completion (not real processing)
+            
+        Returns:
+            True if saved successfully, False otherwise
+        """
+        chapter_id = self._get_chapter_id(chapter_info)
+        
+        # Find existing completion record
+        for record in self.completed_chapter_records:
+            if self._get_chapter_id(record["chapter_info"]) == chapter_id:
+                # Update existing record
+                record["video_file_path"] = video_file_path
+                record["video_file_size"] = Path(video_file_path).stat().st_size if Path(video_file_path).exists() else 0
+                record["video_completed"] = True
+                record["video_timestamp"] = datetime.now().isoformat()
+                self.logger.info(f"Updated video completion for {chapter_info['filename']}")
+                break
+        else:
+            # Chapter not found in completed records, create new record
+            # Check if audio file exists and should be marked as completed
+            audio_file_path = ""
+            audio_file_size = 0
+            audio_completed = False
+            
+            # Try to find the corresponding audio file using project config
+            try:
+                # Import here to avoid circular imports
+                from tts_pipeline.utils.project_manager import ProjectManager
+                
+                # Get project name from chapter info or use default
+                project_name = getattr(self, 'project_name', 'lotm_book1')
+                pm = ProjectManager()
+                project = pm.load_project(project_name)
+                
+                volume_name = chapter_info['volume_name']
+                audio_filename = chapter_info['filename'].replace('.txt', '.mp3')
+                audio_output_dir = Path(project.processing_config['output_directory'])
+                audio_path = audio_output_dir / volume_name / audio_filename
+                
+                if audio_path.exists() and audio_path.stat().st_size > 0:
+                    audio_file_path = str(audio_path)
+                    audio_file_size = audio_path.stat().st_size
+                    audio_completed = True
+                    self.logger.info(f"Found existing audio file for {chapter_info['filename']}: {audio_path}")
+                else:
+                    self.logger.warning(f"No audio file found for {chapter_info['filename']} at {audio_path}")
+                    
+            except Exception as e:
+                self.logger.warning(f"Could not check for audio file for {chapter_info['filename']}: {e}")
+                self.logger.warning(f"Creating video-only completion record for {chapter_info['filename']} - audio status unknown")
+            
+            completion_record = {
+                "timestamp": datetime.now().isoformat(),
+                "chapter_info": chapter_info,
+                "audio_file_path": audio_file_path,
+                "audio_file_size": audio_file_size,
+                "audio_completed": audio_completed,
+                "video_file_path": video_file_path,
+                "video_file_size": Path(video_file_path).stat().st_size if Path(video_file_path).exists() else 0,
+                "video_completed": True,
+                "video_timestamp": datetime.now().isoformat(),
+                "dry_run": dry_run
+            }
+            
+            # Add to efficient lookup structures
+            self.completed_chapter_ids.add(chapter_id)
+            self.completed_chapter_records.append(completion_record)
+            self.logger.info(f"Added new video completion record for {chapter_info['filename']}")
+        
+        # Update metadata
+        self.metadata["last_updated"] = datetime.now().isoformat()
+        
+        return self._save_progress()
     
     def mark_chapter_failed(self, chapter_info: Dict[str, Any], error_message: str, 
                            error_type: str = "unknown") -> bool:
@@ -267,7 +365,12 @@ class ProgressTracker:
     
     def _get_chapter_id(self, chapter_info: Dict[str, Any]) -> str:
         """Generate a unique ID for a chapter."""
-        return f"{chapter_info['volume_number']:02d}_{chapter_info['chapter_number']:03d}_{chapter_info['filename']}"
+        # Handle both old format (with volume_number/chapter_number) and new format (filename only)
+        if 'volume_number' in chapter_info and 'chapter_number' in chapter_info:
+            return f"{chapter_info['volume_number']:02d}_{chapter_info['chapter_number']:03d}_{chapter_info['filename']}"
+        else:
+            # New format - use filename as ID
+            return chapter_info['filename']
     
     def _get_retry_count(self, chapter_info: Dict[str, Any]) -> int:
         """Get the number of times this chapter has failed (O(1) lookup)."""

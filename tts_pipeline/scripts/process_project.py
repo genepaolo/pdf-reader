@@ -36,6 +36,7 @@ from utils.project_manager import ProjectManager, Project
 from utils.file_organizer import ChapterFileOrganizer
 from utils.progress_tracker import ProgressTracker
 from api.azure_tts_client import AzureTTSClient
+from api.video_processor import VideoProcessor
 from dotenv import load_dotenv
 
 load_dotenv()  # This loads the .env file
@@ -44,22 +45,31 @@ load_dotenv()  # This loads the .env file
 class TTSProcessor:
     """Main TTS processing class with project-based architecture."""
     
-    def __init__(self, project: Project, dry_run: bool = False):
+    def __init__(self, project: Project, dry_run: bool = False, create_videos: bool = False):
         """
         Initialize the TTS processor.
         
         Args:
             project: Project object containing configuration and metadata
             dry_run: If True, simulate processing without making actual API calls
+            create_videos: If True, create videos after audio generation
         """
         self.project = project
         self.dry_run = dry_run
+        self.create_videos = create_videos
         self.logger = logging.getLogger(__name__)
         
         # Initialize components
         self.file_organizer = ChapterFileOrganizer(project)
         self.progress_tracker = ProgressTracker(project)
         self.azure_client = AzureTTSClient(project)
+        
+        # Initialize video processor if video creation is enabled
+        if self.create_videos:
+            self.video_processor = VideoProcessor(project.processing_config)
+            if not self.video_processor.enabled:
+                self.logger.warning("Video creation requested but disabled in configuration")
+                self.create_videos = False
         
         # Processing state
         self.start_time = None
@@ -69,6 +79,8 @@ class TTSProcessor:
         self.logger.info(f"Initialized TTS processor for project: {project.project_name}")
         if dry_run:
             self.logger.info("DRY RUN MODE: No actual API calls will be made")
+        if self.create_videos:
+            self.logger.info("VIDEO CREATION ENABLED: Videos will be created after audio generation")
     
     def discover_chapters(self) -> List[Dict[str, Any]]:
         """Discover all chapters for the project."""
@@ -82,6 +94,31 @@ class TTSProcessor:
         for chapter in chapters:
             if not self.progress_tracker.is_chapter_completed_real(chapter):
                 return chapter
+        return None
+    
+    def _check_existing_audio(self, chapter: Dict[str, Any]) -> Optional[Path]:
+        """
+        Check if audio file already exists for a chapter.
+        
+        Args:
+            chapter: Chapter information dictionary
+            
+        Returns:
+            Path to existing audio file if it exists, None otherwise
+        """
+        chapter_name = chapter['filename']
+        volume_name = chapter['volume_name']
+        
+        # Generate expected audio file path
+        audio_filename = chapter_name.replace('.txt', '.mp3')
+        audio_output_dir = Path(self.project.processing_config['output_directory'])
+        audio_path = audio_output_dir / volume_name / audio_filename
+        
+        # Check if audio file exists and has content
+        if audio_path.exists() and audio_path.stat().st_size > 0:
+            self.logger.info(f"Found existing audio file: {audio_path}")
+            return audio_path
+        
         return None
     
     def process_chapter(self, chapter: Dict[str, Any]) -> bool:
@@ -109,54 +146,83 @@ class TTSProcessor:
                 
                 if success:
                     self.logger.info(f"[DRY RUN] Successfully processed: {chapter_name}")
-                    result = self.progress_tracker.mark_chapter_completed(
-                        chapter, f"/mock/audio/{chapter_name.replace('.txt', '.mp3')}", dry_run=True
-                    )
-                    self.logger.info(f"[DRY RUN] Mark completion result: {result}")
+                    # Only try to update progress if the tracker supports it
+                    if hasattr(self.progress_tracker, 'mark_audio_completed'):
+                        result = self.progress_tracker.mark_audio_completed(
+                            chapter, f"/mock/audio/{chapter_name.replace('.txt', '.mp3')}", dry_run=True
+                        )
+                        self.logger.info(f"[DRY RUN] Mark completion result: {result}")
+                    else:
+                        self.logger.info(f"[DRY RUN] Progress tracker doesn't support dry-run updates (file-based tracker)")
                     self.processed_count += 1
                     return True
                 else:
                     self.logger.warning(f"[DRY RUN] Failed to process: {chapter_name}")
-                    self.progress_tracker.mark_chapter_failed(
-                        chapter, "Simulated processing error", "dry_run_error"
-                    )
+                    # Only try to update progress if the tracker supports it
+                    if hasattr(self.progress_tracker, 'mark_chapter_failed'):
+                        self.progress_tracker.mark_chapter_failed(
+                            chapter, "Simulated processing error", "dry_run_error"
+                        )
+                    else:
+                        self.logger.info(f"[DRY RUN] Progress tracker doesn't support dry-run updates (file-based tracker)")
                     self.failed_count += 1
                     return False
             else:
                 # Real Azure TTS processing
                 self.logger.info(f"[REAL] Processing: {chapter_name}")
                 
-                # Load chapter text content and split into chunks
-                text_chunks = self._load_chapter_text_chunks(chapter)
-                if not text_chunks:
-                    raise ValueError("Failed to load chapter text content")
+                # Check if audio file already exists
+                existing_audio_path = self._check_existing_audio(chapter)
                 
-                self.logger.info(f"Split chapter into {len(text_chunks)} chunks")
+                if existing_audio_path:
+                    # Audio already exists, skip audio generation
+                    self.logger.info(f"Using existing audio file: {existing_audio_path}")
+                    output_path = existing_audio_path
+                else:
+                    # Generate new audio
+                    self.logger.info(f"Generating new audio for: {chapter_name}")
+                    
+                    # Load chapter text content and split into chunks
+                    text_chunks = self._load_chapter_text_chunks(chapter)
+                    if not text_chunks:
+                        raise ValueError("Failed to load chapter text content")
+                    
+                    self.logger.info(f"Split chapter into {len(text_chunks)} chunks")
+                    
+                    # Generate output file path
+                    output_path = self._generate_output_path(chapter)
+                    
+                    # Create output directory if it doesn't exist
+                    output_path.parent.mkdir(parents=True, exist_ok=True)
+                    
+                    # Test Azure connection first
+                    self.logger.info("Testing Azure TTS connection...")
+                    if not self._test_azure_connection():
+                        raise ValueError("Azure TTS connection test failed - check credentials and network")
+                    
+                    self.logger.info("Azure TTS connection test passed - proceeding with synthesis")
+                    
+                    # Generate audio for each chunk and combine
+                    self.logger.info(f"Generating audio for {chapter_name} -> {output_path}")
+                    success = self._process_text_chunks(text_chunks, output_path, chapter_name)
+                    
+                    if not success:
+                        raise ValueError("Azure TTS synthesis failed")
                 
-                # Generate output file path
-                output_path = self._generate_output_path(chapter)
-                
-                # Create output directory if it doesn't exist
-                output_path.parent.mkdir(parents=True, exist_ok=True)
-                
-                # Test Azure connection first
-                self.logger.info("Testing Azure TTS connection...")
-                if not self._test_azure_connection():
-                    raise ValueError("Azure TTS connection test failed - check credentials and network")
-                
-                self.logger.info("Azure TTS connection test passed - proceeding with synthesis")
-                
-                # Generate audio for each chunk and combine
-                self.logger.info(f"Generating audio for {chapter_name} -> {output_path}")
-                success = self._process_text_chunks(text_chunks, output_path, chapter_name)
-                
-                if success:
-                    # Verify audio file was created and has content
-                    if output_path.exists() and output_path.stat().st_size > 0:
-                        self.logger.info(f"Successfully generated audio: {output_path}")
-                        
-                        # Mark chapter as completed with real audio file
-                        result = self.progress_tracker.mark_chapter_completed(
+                # Verify audio file was created and has content
+                if output_path.exists() and output_path.stat().st_size > 0:
+                    self.logger.info(f"Audio file ready: {output_path}")
+                    
+                    # Create video if enabled
+                    video_success = True
+                    if self.create_videos and not self.dry_run:
+                        video_success = self._create_video_for_chapter(chapter, output_path)
+                    
+                    # Only mark as completed if both audio and video succeed
+                    if video_success:
+                        # Video creation already updated progress tracking via mark_video_completed
+                        # Now mark the overall chapter as completed
+                        result = self.progress_tracker.mark_audio_completed(
                             chapter, str(output_path), dry_run=False
                         )
                         
@@ -167,9 +233,12 @@ class TTSProcessor:
                             self.logger.error(f"Failed to update progress tracking for {chapter_name}")
                             return False
                     else:
-                        raise ValueError(f"Audio file was not created or is empty: {output_path}")
+                        # Video creation failed - keep audio file but don't mark as completed
+                        self.logger.error(f"Video creation failed for {chapter_name}")
+                        self.logger.info(f"Audio file preserved for retry: {output_path}")
+                        return False
                 else:
-                    raise ValueError("Azure TTS synthesis failed")
+                    raise ValueError(f"Audio file was not created or is empty: {output_path}")
                 
         except Exception as e:
             self.logger.error(f"Error processing chapter {chapter_name}: {e}")
@@ -474,6 +543,62 @@ class TTSProcessor:
         
         return False
 
+    def _create_video_for_chapter(self, chapter: Dict[str, Any], audio_path: Path) -> bool:
+        """
+        Create a video for a chapter after audio generation.
+        
+        Args:
+            chapter: Chapter information dictionary
+            audio_path: Path to the generated audio file
+            
+        Returns:
+            True if video creation succeeded, False otherwise
+        """
+        try:
+            chapter_name = chapter['filename']
+            self.logger.info(f"Creating video for chapter: {chapter_name}")
+            
+            # Generate video output path
+            video_filename = chapter_name.replace('.txt', '.mp4')
+            volume_name = chapter['volume_name']
+            video_output_dir = Path(self.project.processing_config['video']['output_directory'])
+            video_path = video_output_dir / volume_name / video_filename
+            
+            # Create output directory
+            video_path.parent.mkdir(parents=True, exist_ok=True)
+            
+            # Create the video
+            success = self.video_processor.create_video(
+                str(audio_path),
+                str(video_path),
+                video_type=self.video_processor.video_type,
+                chapter_info=chapter
+            )
+            
+            if success:
+                # Validate the created video
+                if self.video_processor.validate_video(str(video_path)):
+                    self.logger.info(f"Successfully created video: {video_path}")
+                    
+                    # Update progress tracking with video completion
+                    try:
+                        self.progress_tracker.mark_video_completed(chapter, str(video_path))
+                        self.logger.info(f"Updated progress tracking for video: {chapter_name}")
+                    except Exception as e:
+                        self.logger.warning(f"Failed to update progress tracking for video {chapter_name}: {e}")
+                    
+                    return True
+                else:
+                    self.logger.error(f"Video validation failed: {video_path}")
+                    return False
+            else:
+                self.logger.error(f"Failed to create video: {video_path}")
+                return False
+                
+        except Exception as e:
+            self.logger.error(f"Error creating video for chapter {chapter_name}: {e}")
+            return False
+
     def _combine_audio_files(self, audio_files: List[Path], output_path: Path) -> bool:
         """
         Combine multiple audio files into a single file.
@@ -672,6 +797,12 @@ Examples:
         help='Maximum number of chapters to process'
     )
     
+    parser.add_argument(
+        '--create-videos',
+        action='store_true',
+        help='Create videos after audio generation (requires video config)'
+    )
+    
     # Logging options
     parser.add_argument(
         '--log-level',
@@ -764,7 +895,7 @@ def main():
         logger.info(f"Display name: {project.project_config.get('display_name', 'N/A')}")
         
         # Initialize processor
-        processor = TTSProcessor(project, dry_run=args.dry_run)
+        processor = TTSProcessor(project, dry_run=args.dry_run, create_videos=args.create_videos)
         
         # Discover chapters
         chapters = processor.discover_chapters()

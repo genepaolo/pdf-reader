@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "timestamp": "2025-10-24T10:53:30.413315",
+    "chapter_info": {
+      "filename": "Chapter_7_Code_Names.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_7_Code_Names.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 7,
+      "chapter_title": "Code Names",
+      "file_size": 12734,
+      "is_readable": true
+    },
+    "error_message": "Simulated processing error",
+    "error_type": "dry_run_error",
+    "retry_count": 0
+  }
+]

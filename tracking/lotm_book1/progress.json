@@ -1,1 +1,851 @@
-[]
+[
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_10_The_Norm.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_10_The_Norm.mp3",
+    "audio_file_size": 14359680,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_10_The_Norm.mp4",
+    "video_file_size": 451600368,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_11_Real_Culinary_Skills.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_11_Real_Culinary_Skills.mp3",
+    "audio_file_size": 14642400,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_11_Real_Culinary_Skills.mp4",
+    "video_file_size": 329297682,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_12_Here_Again.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_12_Here_Again.mp3",
+    "audio_file_size": 13878240,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_12_Here_Again.mp4",
+    "video_file_size": 311769138,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_13_Nighthawk.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_13_Nighthawk.mp3",
+    "audio_file_size": 13654560,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_13_Nighthawk.mp4",
+    "video_file_size": 306817046,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_14_The_Medium.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_14_The_Medium.mp3",
+    "audio_file_size": 17914560,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_14_The_Medium.mp4",
+    "video_file_size": 402636374,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_15_The_Invitation.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_15_The_Invitation.mp3",
+    "audio_file_size": 13221120,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_15_The_Invitation.mp4",
+    "video_file_size": 297356630,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_16_Rat-Baiting_With_Dogs.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_16_Rat-Baiting_With_Dogs.mp3",
+    "audio_file_size": 22509120,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_16_Rat-Baiting_With_Dogs.mp4",
+    "video_file_size": 506097810,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_17_Special_Operations_Department.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_17_Special_Operations_Department.mp3",
+    "audio_file_size": 15429120,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_17_Special_Operations_Department.mp4",
+    "video_file_size": 346848786,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_18_Origin_And_Cause.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_18_Origin_And_Cause.mp3",
+    "audio_file_size": 15889440,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_18_Origin_And_Cause.mp4",
+    "video_file_size": 357195802,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_19_Sealed_Artifacts.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_19_Sealed_Artifacts.mp3",
+    "audio_file_size": 16966080,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_19_Sealed_Artifacts.mp4",
+    "video_file_size": 381484666,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_1_Crimson.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_1_Crimson.mp3",
+    "audio_file_size": 12385920,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_1_Crimson.mp4",
+    "video_file_size": 604113617,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_20_The_Forgetful_Dunn.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_20_The_Forgetful_Dunn.mp3",
+    "audio_file_size": 20101440,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_20_The_Forgetful_Dunn.mp4",
+    "video_file_size": 452107410,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_21_An_Old_Friend_In_A_Different_W.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_21_An_Old_Friend_In_A_Different_W.mp3",
+    "audio_file_size": 15126720,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_21_An_Old_Friend_In_A_Different_W.mp4",
+    "video_file_size": 340098546,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_22_Starting_Sequence.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_22_Starting_Sequence.mp3",
+    "audio_file_size": 13392960,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_22_Starting_Sequence.mp4",
+    "video_file_size": 300967314,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_23_Side_Arm.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_23_Side_Arm.mp3",
+    "audio_file_size": 15558240,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_23_Side_Arm.mp4",
+    "video_file_size": 349557042,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_24_Penny-Pincher.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_24_Penny-Pincher.mp3",
+    "audio_file_size": 16133760,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_24_Penny-Pincher.mp4",
+    "video_file_size": 362598394,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_25_Cathedral.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_25_Cathedral.mp3",
+    "audio_file_size": 15838560,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_25_Cathedral.mp4",
+    "video_file_size": 355855354,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_26_Practice.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_26_Practice.mp3",
+    "audio_file_size": 16491360,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_26_Practice.mp4",
+    "video_file_size": 370693402,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_27_Siblings__Dinner.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_27_Siblings__Dinner.mp3",
+    "audio_file_size": 14745120,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_27_Siblings__Dinner.mp4",
+    "video_file_size": 331549690,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_28_Secret_Order.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_28_Secret_Order.mp3",
+    "audio_file_size": 13643040,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_28_Secret_Order.mp4",
+    "video_file_size": 306805526,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_29__Jobs__And_Rentals_Are_Serious.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_29__Jobs__And_Rentals_Are_Serious.mp3",
+    "audio_file_size": 15273120,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_29__Jobs__And_Rentals_Are_Serious.mp4",
+    "video_file_size": 343253942,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_2_Situation.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_2_Situation.mp3",
+    "audio_file_size": 16114080,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_2_Situation.mp4",
+    "video_file_size": 362148854,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_30_Brand_New_Beginning.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_30_Brand_New_Beginning.mp3",
+    "audio_file_size": 16975200,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_30_Brand_New_Beginning.mp4",
+    "video_file_size": 381493786,
+    "video_timestamp": "2025-10-24T10:32:00.400451"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400451",
+    "chapter_info": {
+      "filename": "Chapter_31_Potion.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_31_Potion.mp3",
+    "audio_file_size": 17666880,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_31_Potion.mp4",
+    "video_file_size": 397230422,
+    "video_timestamp": "2025-10-24T10:32:00.400968"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400968",
+    "chapter_info": {
+      "filename": "Chapter_32_Spirit_Vision.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_32_Spirit_Vision.mp3",
+    "audio_file_size": 20205600,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_32_Spirit_Vision.mp4",
+    "video_file_size": 454360858,
+    "video_timestamp": "2025-10-24T10:32:00.400968"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.400968",
+    "chapter_info": {
+      "filename": "Chapter_33_Switch.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_33_Switch.mp3",
+    "audio_file_size": 14634720,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_33_Switch.mp4",
+    "video_file_size": 328860154,
+    "video_timestamp": "2025-10-24T10:32:00.400968"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.401022",
+    "chapter_info": {
+      "filename": "Chapter_34_Advance_Payment.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_34_Advance_Payment.mp3",
+    "audio_file_size": 14210880,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_34_Advance_Payment.mp4",
+    "video_file_size": 319409338,
+    "video_timestamp": "2025-10-24T10:32:00.401022"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.401022",
+    "chapter_info": {
+      "filename": "Chapter_35_Exchange_Of_Information.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_35_Exchange_Of_Information.mp3",
+    "audio_file_size": 13836480,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_35_Exchange_Of_Information.mp4",
+    "video_file_size": 310867670,
+    "video_timestamp": "2025-10-24T10:32:00.401022"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.401022",
+    "chapter_info": {
+      "filename": "Chapter_3_Melissa.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_3_Melissa.mp3",
+    "audio_file_size": 15941280,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_3_Melissa.mp4",
+    "video_file_size": 358537210,
+    "video_timestamp": "2025-10-24T10:32:00.401022"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.401022",
+    "chapter_info": {
+      "filename": "Chapter_4_Divination.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_4_Divination.mp3",
+    "audio_file_size": 18860640,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_4_Divination.mp4",
+    "video_file_size": 424215542,
+    "video_timestamp": "2025-10-24T10:32:00.401022"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.401022",
+    "chapter_info": {
+      "filename": "Chapter_5_Ritual.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_5_Ritual.mp3",
+    "audio_file_size": 17737440,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_5_Ritual.mp4",
+    "video_file_size": 398590550,
+    "video_timestamp": "2025-10-24T10:32:00.401022"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.401022",
+    "chapter_info": {
+      "filename": "Chapter_6_Beyonder.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_6_Beyonder.mp3",
+    "audio_file_size": 16056960,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_6_Beyonder.mp4",
+    "video_file_size": 505132099,
+    "video_timestamp": "2025-10-24T10:32:00.401022"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.401022",
+    "chapter_info": {
+      "filename": "Chapter_7_Code_Names.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_7_Code_Names.mp3",
+    "audio_file_size": 15533760,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_7_Code_Names.mp4",
+    "video_file_size": 488753661,
+    "video_timestamp": "2025-10-24T10:32:00.401022"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.401022",
+    "chapter_info": {
+      "filename": "Chapter_8_A_New_Era.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_8_A_New_Era.mp3",
+    "audio_file_size": 19822560,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_8_A_New_Era.mp4",
+    "video_file_size": 624153110,
+    "video_timestamp": "2025-10-24T10:32:00.401022"
+  },
+  {
+    "timestamp": "2025-10-24T10:32:00.401022",
+    "chapter_info": {
+      "filename": "Chapter_9_The_Notebook.txt",
+      "volume_name": "1___VOLUME_1___CLOWN"
+    },
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_9_The_Notebook.mp3",
+    "audio_file_size": 17244000,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_9_The_Notebook.mp4",
+    "video_file_size": 542908159,
+    "video_timestamp": "2025-10-24T10:32:00.401022"
+  },
+  {
+    "timestamp": "2025-10-24T10:45:22.612674",
+    "chapter_info": {
+      "filename": "Chapter_1_Crimson.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_1_Crimson.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 1,
+      "chapter_title": "Crimson",
+      "file_size": 9816,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_1_Crimson.mp3",
+    "audio_file_size": 12385920,
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_1_Crimson.mp4",
+    "video_file_size": 604113617
+  },
+  {
+    "timestamp": "2025-10-24T10:45:22.616170",
+    "chapter_info": {
+      "filename": "Chapter_2_Situation.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_2_Situation.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 2,
+      "chapter_title": "Situation",
+      "file_size": 13199,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_2_Situation.mp3",
+    "audio_file_size": 16114080,
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_2_Situation.mp4",
+    "video_file_size": 362148854
+  },
+  {
+    "timestamp": "2025-10-24T10:45:22.736692",
+    "chapter_info": {
+      "filename": "Chapter_3_Melissa.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_3_Melissa.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 3,
+      "chapter_title": "Melissa",
+      "file_size": 12728,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_3_Melissa.mp3",
+    "audio_file_size": 15941280,
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_3_Melissa.mp4",
+    "video_file_size": 358537210
+  },
+  {
+    "timestamp": "2025-10-24T10:51:55.893970",
+    "chapter_info": {
+      "filename": "Chapter_4_Divination.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_4_Divination.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 4,
+      "chapter_title": "Divination",
+      "file_size": 15130,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_4_Divination.mp3",
+    "audio_file_size": 18860640,
+    "audio_completed": true,
+    "video_completed": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T10:51:56.008341",
+    "chapter_info": {
+      "filename": "Chapter_5_Ritual.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_5_Ritual.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 5,
+      "chapter_title": "Ritual",
+      "file_size": 14472,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_5_Ritual.mp3",
+    "audio_file_size": 17737440,
+    "audio_completed": true,
+    "video_completed": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T10:51:56.122461",
+    "chapter_info": {
+      "filename": "Chapter_6_Beyonder.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_6_Beyonder.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 6,
+      "chapter_title": "Beyonder",
+      "file_size": 12986,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_6_Beyonder.mp3",
+    "audio_file_size": 16056960,
+    "audio_completed": true,
+    "video_completed": false,
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T10:55:33.331480",
+    "chapter_info": {
+      "filename": "Chapter_36_A_Simple_Question.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_36_A_Simple_Question.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 36,
+      "chapter_title": "A Simple Question",
+      "file_size": 12065,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_36_A_Simple_Question.mp3",
+    "audio_file_size": 14784000,
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_36_A_Simple_Question.mp4",
+    "video_file_size": 332448278,
+    "video_timestamp": "2025-10-24T11:10:41.233339"
+  },
+  {
+    "timestamp": "2025-10-24T10:58:33.478655",
+    "chapter_info": {
+      "filename": "Chapter_37_The_Club.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_37_The_Club.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 37,
+      "chapter_title": "The Club",
+      "file_size": 10517,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_37_The_Club.mp3",
+    "audio_file_size": 13154880,
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_37_The_Club.mp4",
+    "video_file_size": 295570962,
+    "video_timestamp": "2025-10-24T11:10:22.947381"
+  },
+  {
+    "timestamp": "2025-10-24T10:59:13.479767",
+    "chapter_info": {
+      "filename": "Chapter_38_Novice_Hobbyist.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_38_Novice_Hobbyist.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 38,
+      "chapter_title": "Novice Hobbyist",
+      "file_size": 10913,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_38_Novice_Hobbyist.mp3",
+    "audio_file_size": 13899360,
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_38_Novice_Hobbyist.mp4",
+    "video_file_size": 312220118,
+    "video_timestamp": "2025-10-24T11:10:31.572887"
+  },
+  {
+    "timestamp": "2025-10-24T10:59:56.219311",
+    "chapter_info": {
+      "filename": "Chapter_39_Interesting_Trick.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_39_Interesting_Trick.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 39,
+      "chapter_title": "Interesting Trick",
+      "file_size": 11510,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_39_Interesting_Trick.mp3",
+    "audio_file_size": 14444160,
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_39_Interesting_Trick.mp4",
+    "video_file_size": 324800890,
+    "video_timestamp": "2025-10-24T11:10:28.833262"
+  },
+  {
+    "timestamp": "2025-10-24T11:03:12.762174",
+    "chapter_info": {
+      "filename": "Chapter_40_Mysticism_Curriculum.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_40_Mysticism_Curriculum.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 40,
+      "chapter_title": "Mysticism Curriculum",
+      "file_size": 11941,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_40_Mysticism_Curriculum.mp3",
+    "audio_file_size": 14934240,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_40_Mysticism_Curriculum.mp4",
+    "video_file_size": 335607514,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T11:03:12.762174",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T11:05:38.803206",
+    "chapter_info": {
+      "filename": "Chapter_41_Audrey_and_Her_Susie.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_41_Audrey_and_Her_Susie.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 41,
+      "chapter_title": "Audrey and Her Susie",
+      "file_size": 11746,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_41_Audrey_and_Her_Susie.mp3",
+    "audio_file_size": 14893920,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_41_Audrey_and_Her_Susie.mp4",
+    "video_file_size": 334707474,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T11:05:38.803206",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T11:08:16.885626",
+    "chapter_info": {
+      "filename": "Chapter_42_Butler_Klee.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_42_Butler_Klee.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 42,
+      "chapter_title": "Butler Klee",
+      "file_size": 12103,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_42_Butler_Klee.mp3",
+    "audio_file_size": 15174720,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_42_Butler_Klee.mp4",
+    "video_file_size": 341006266,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T11:08:16.885626",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T11:18:55.854118",
+    "chapter_info": {
+      "filename": "Chapter_43_Search.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_43_Search.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 43,
+      "chapter_title": "Search",
+      "file_size": 11319,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_43_Search.mp3",
+    "audio_file_size": 14256000,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_43_Search.mp4",
+    "video_file_size": 320314166,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T11:18:55.854118",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T11:21:39.486397",
+    "chapter_info": {
+      "filename": "Chapter_44_Fate.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_44_Fate.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 44,
+      "chapter_title": "Fate",
+      "file_size": 12722,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_44_Fate.mp3",
+    "audio_file_size": 16024320,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_44_Fate.mp4",
+    "video_file_size": 360339666,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T11:21:39.486397",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T11:23:53.891576",
+    "chapter_info": {
+      "filename": "Chapter_45_Returning.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_45_Returning.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 45,
+      "chapter_title": "Returning",
+      "file_size": 10710,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_45_Returning.mp3",
+    "audio_file_size": 13451040,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_45_Returning.mp4",
+    "video_file_size": 302314962,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T11:23:53.891576",
+    "dry_run": false
+  }
+]
