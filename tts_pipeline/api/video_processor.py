@@ -63,7 +63,15 @@ class VideoProcessor:
         self.output_dir = Path(self.video_config.get('output_directory', './video_output'))
         self.temp_dir = Path(self.video_config.get('temp_directory', './temp_video'))
         self.video_type = self.video_config.get('video_type', 'still_image')
-        self.default_image = self.video_config.get('default_image', './assets/images/default_cover.jpg')
+        
+        # Resolve default image path relative to project
+        default_image_path = self.video_config.get('default_image', './assets/images/default_cover.jpg')
+        if not Path(default_image_path).is_absolute():
+            # Try to resolve relative to project root
+            project_root = Path(__file__).parent.parent.parent  # Go up to project root
+            self.default_image = project_root / default_image_path
+        else:
+            self.default_image = default_image_path
         
         # Format settings
         self.format_config = self.video_config.get('format', {})
@@ -319,9 +327,10 @@ class VideoProcessor:
     def _find_video_background(self) -> Optional[Path]:
         """Find a video file to use as animated background."""
         # Look for video files in assets/videos directory
+        project_root = Path(__file__).parent.parent.parent  # Go up to project root
         video_dirs = [
-            Path('./assets/videos'),
-            Path('./tts_pipeline/assets/videos'),
+            project_root / 'assets' / 'videos',
+            project_root / 'tts_pipeline' / 'assets' / 'videos',
             Path(self.default_image).parent.parent / 'videos',
         ]
         
@@ -571,7 +580,8 @@ class VideoProcessor:
             portrait_image = self._find_portrait_for_chapter(chapter_number, portrait_mapping)
             if portrait_image:
                 # Try pre-resized image first (much faster)
-                resized_dir = Path('./tts_pipeline/assets/images/resized')
+                project_root = Path(__file__).parent.parent.parent  # Go up to project root
+                resized_dir = project_root / 'tts_pipeline' / 'assets' / 'images' / 'resized'
                 resized_filename = f"{Path(portrait_image).stem}_1920x1080{Path(portrait_image).suffix}"
                 resized_path = resized_dir / resized_filename
                 
@@ -580,7 +590,7 @@ class VideoProcessor:
                     return str(resized_path)
                 
                 # Fallback to original image
-                assets_dir = Path('./tts_pipeline/assets/images')
+                assets_dir = project_root / 'tts_pipeline' / 'assets' / 'images'
                 full_path = assets_dir / portrait_image
                 if full_path.exists():
                     self.logger.warning(f"Using original portrait (not pre-resized): {portrait_image}")
@@ -619,10 +629,15 @@ class VideoProcessor:
         """Load portrait mapping configuration from JSON file."""
         try:
             # Look for portrait mapping in project config directory
+            project_root = Path(__file__).parent.parent.parent  # Go up to project root
+            
+            # Try to get project name from config if available
+            project_name = self.config.get('project_name', 'lotm_book1')
+            
             config_paths = [
-                Path('./tts_pipeline/config/projects/lotm_book1/portrait_mapping.json'),
-                Path('./config/projects/lotm_book1/portrait_mapping.json'),
-                Path('./portrait_mapping.json')
+                project_root / 'tts_pipeline' / 'config' / 'projects' / project_name / 'portrait_mapping.json',
+                project_root / 'config' / 'projects' / project_name / 'portrait_mapping.json',
+                project_root / 'portrait_mapping.json'
             ]
             
             for config_path in config_paths:
@@ -706,13 +721,14 @@ def main():
             config = json.load(f)
     else:
         # Default configuration
+        project_root = Path(__file__).parent.parent.parent  # Go up to project root
         config = {
             'project_name': 'test',
             'video': {
                 'enabled': True,
                 'video_type': args.type,
-                'output_directory': './test_video_output',
-                'temp_directory': './test_video_temp',
+                'output_directory': str(project_root / 'test_video_output'),
+                'temp_directory': str(project_root / 'test_video_temp'),
                 'format': {
                     'resolution': '1920x1080',
                     'video_codec': 'libx264',

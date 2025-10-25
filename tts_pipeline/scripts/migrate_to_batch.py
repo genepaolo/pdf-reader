@@ -73,10 +73,10 @@ class BatchMigrationManager:
             results['single_threaded_valid'] = single_valid
             
             if single_valid:
-                self.logger.info("✓ Single-threaded configuration is valid")
+                self.logger.info("[OK] Single-threaded configuration is valid")
             else:
                 results['issues'].append("Single-threaded configuration has issues")
-                self.logger.warning("✗ Single-threaded configuration has issues")
+                self.logger.warning("[ERROR] Single-threaded configuration has issues")
                 
         except Exception as e:
             results['issues'].append(f"Error validating single-threaded config: {e}")
@@ -88,10 +88,10 @@ class BatchMigrationManager:
             results['batch_valid'] = batch_valid
             
             if batch_valid:
-                self.logger.info("✓ Batch configuration is valid")
+                self.logger.info("[OK] Batch configuration is valid")
             else:
                 results['issues'].append("Batch configuration has issues")
-                self.logger.warning("✗ Batch configuration has issues")
+                self.logger.warning("[ERROR] Batch configuration has issues")
                 
         except Exception as e:
             results['issues'].append(f"Error validating batch config: {e}")
@@ -119,9 +119,9 @@ class BatchMigrationManager:
         results['overall_valid'] = results['single_threaded_valid'] and results['batch_valid'] and len(results['issues']) == 0
         
         if results['overall_valid']:
-            self.logger.info("✓ Project is ready for batch processing migration")
+            self.logger.info("[OK] Project is ready for batch processing migration")
         else:
-            self.logger.warning("✗ Project has configuration issues that need to be resolved")
+            self.logger.warning("[ERROR] Project has configuration issues that need to be resolved")
         
         return results
     
@@ -216,11 +216,11 @@ class BatchMigrationManager:
             }
             
             # Save updated configuration
-            config_path = Path(self.project.project_dir) / 'processing_config.json'
+            config_path = self.project.config_path / 'processing_config.json'
             with open(config_path, 'w', encoding='utf-8') as f:
                 json.dump(processing_config, f, indent=2)
             
-            self.logger.info("✓ Batch configuration created successfully")
+            self.logger.info("[OK] Batch configuration created successfully")
             return True
             
         except Exception as e:
@@ -269,7 +269,7 @@ class BatchMigrationManager:
             self.logger.info("Step 3: Testing batch client creation...")
             try:
                 batch_client = AzureTTSFactory.create_client(self.project, 'batch')
-                self.logger.info(f"✓ Batch client created: {type(batch_client).__name__}")
+                self.logger.info(f"[OK] Batch client created: {type(batch_client).__name__}")
                 results['steps_completed'].append("Batch client creation test")
             except Exception as e:
                 results['errors'].append(f"Failed to create batch client: {e}")
@@ -283,7 +283,7 @@ class BatchMigrationManager:
             
             # Migration completed successfully
             results['success'] = True
-            self.logger.info("✓ Migration to batch processing completed successfully")
+            self.logger.info("[OK] Migration to batch processing completed successfully")
             
         except Exception as e:
             results['errors'].append(f"Migration failed: {e}")
@@ -318,7 +318,7 @@ class BatchMigrationManager:
             self.logger.info("Step 2: Testing single-threaded client creation...")
             try:
                 single_client = AzureTTSFactory.create_client(self.project, 'single')
-                self.logger.info(f"✓ Single-threaded client created: {type(single_client).__name__}")
+                self.logger.info(f"[OK] Single-threaded client created: {type(single_client).__name__}")
                 results['steps_completed'].append("Single-threaded client creation test")
             except Exception as e:
                 results['errors'].append(f"Failed to create single-threaded client: {e}")
@@ -327,7 +327,7 @@ class BatchMigrationManager:
             
             # Rollback completed successfully
             results['success'] = True
-            self.logger.info("✓ Rollback to single-threaded processing completed successfully")
+            self.logger.info("[OK] Rollback to single-threaded processing completed successfully")
             
         except Exception as e:
             results['errors'].append(f"Rollback failed: {e}")
@@ -377,7 +377,7 @@ class BatchMigrationManager:
             results['test_results'] = test_results
             results['success'] = True
             
-            self.logger.info("✓ Batch processing test completed successfully")
+            self.logger.info("[OK] Batch processing test completed successfully")
             
         except Exception as e:
             results['errors'].append(f"Test failed: {e}")
@@ -488,9 +488,9 @@ Examples:
             validation = migration_manager.validate_configuration()
             
             print(f"Project: {validation['project_name']}")
-            print(f"Single-threaded valid: {'✓' if validation['single_threaded_valid'] else '✗'}")
-            print(f"Batch valid: {'✓' if validation['batch_valid'] else '✗'}")
-            print(f"Overall valid: {'✓' if validation['overall_valid'] else '✗'}")
+            print(f"Single-threaded valid: {'[OK]' if validation['single_threaded_valid'] else '[ERROR]'}")
+            print(f"Batch valid: {'[OK]' if validation['batch_valid'] else '[ERROR]'}")
+            print(f"Overall valid: {'[OK]' if validation['overall_valid'] else '[ERROR]'}")
             
             if validation['issues']:
                 print("\nIssues:")
@@ -539,17 +539,17 @@ Examples:
             migration = migration_manager.migrate_to_batch()
             
             print(f"Project: {migration['project_name']}")
-            print(f"Success: {'✓' if migration['success'] else '✗'}")
+            print(f"Success: {'[OK]' if migration['success'] else '[ERROR]'}")
             
             if migration['steps_completed']:
                 print("\nSteps completed:")
                 for step in migration['steps_completed']:
-                    print(f"  ✓ {step}")
+                    print(f"  [OK] {step}")
             
             if migration['errors']:
                 print("\nErrors:")
                 for error in migration['errors']:
-                    print(f"  ✗ {error}")
+                    print(f"  [ERROR] {error}")
             
             print()
         
@@ -561,12 +561,12 @@ Examples:
             
             print(f"Project: {test['project_name']}")
             print(f"Test chapters: {test['test_chapters']}")
-            print(f"Success: {'✓' if test['success'] else '✗'}")
+            print(f"Success: {'[OK]' if test['success'] else '[ERROR]'}")
             
             if test['errors']:
                 print("\nErrors:")
                 for error in test['errors']:
-                    print(f"  ✗ {error}")
+                    print(f"  [ERROR] {error}")
             
             print()
         
@@ -577,17 +577,17 @@ Examples:
             rollback = migration_manager.rollback_to_single()
             
             print(f"Project: {rollback['project_name']}")
-            print(f"Success: {'✓' if rollback['success'] else '✗'}")
+            print(f"Success: {'[OK]' if rollback['success'] else '[ERROR]'}")
             
             if rollback['steps_completed']:
                 print("\nSteps completed:")
                 for step in rollback['steps_completed']:
-                    print(f"  ✓ {step}")
+                    print(f"  [OK] {step}")
             
             if rollback['errors']:
                 print("\nErrors:")
                 for error in rollback['errors']:
-                    print(f"  ✗ {error}")
+                    print(f"  [ERROR] {error}")
             
             print()
         

@@ -307,8 +307,8 @@ class BatchAzureTTSClient:
         self.azure_config = project.get_azure_config()
         
         # Initialize batch job manager
-        subscription_key = os.getenv('AZURE_SPEECH_KEY')
-        region = os.getenv('AZURE_SPEECH_REGION')
+        subscription_key = os.getenv('AZURE_TTS_SUBSCRIPTION_KEY')
+        region = os.getenv('AZURE_TTS_REGION')
         
         if not subscription_key or not region:
             raise ValueError("Azure Speech credentials not found in environment variables")
@@ -497,7 +497,8 @@ class BatchAzureTTSClient:
     def _load_chapter_text(self, chapter: Dict[str, Any]) -> Optional[str]:
         """Load text content for a chapter."""
         try:
-            chapter_path = Path(self.project.processing_config['input_directory']) / chapter['filename']
+            # Use the file_path from the chapter dictionary (includes volume directory)
+            chapter_path = Path(chapter['file_path'])
             
             if not chapter_path.exists():
                 self.logger.error(f"Chapter file not found: {chapter_path}")

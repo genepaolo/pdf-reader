@@ -12,7 +12,10 @@
   "log_level": "INFO",
   "chapter_pattern": "Chapter_(\\d+)_",
   "volume_pattern": "(\\d+)___VOLUME_\\d+___",
-  "supported_audio_formats": ["mp3", "wav"],
+  "supported_audio_formats": [
+    "mp3",
+    "wav"
+  ],
   "chunk_size": 20000,
   "rate_limit_delay": 1.0,
   "storage": {
@@ -59,5 +62,27 @@
     "backup_interval_hours": 6,
     "error_categorization": true,
     "detailed_error_logging": true
+  },
+  "azure_processing": {
+    "mode": "batch",
+    "batch_size": 100,
+    "max_concurrent_batches": 3,
+    "batch_timeout_minutes": 60,
+    "fallback_to_single": true,
+    "retry_failed_batches": true,
+    "max_batch_retries": 2
+  },
+  "batch_optimization": {
+    "preload_chapter_texts": true,
+    "validate_text_length": true,
+    "compress_batch_requests": true,
+    "parallel_download": true,
+    "cleanup_temp_files": true
+  },
+  "monitoring": {
+    "log_batch_progress": true,
+    "track_batch_performance": true,
+    "alert_on_failures": true,
+    "save_batch_logs": true
   }
 }
