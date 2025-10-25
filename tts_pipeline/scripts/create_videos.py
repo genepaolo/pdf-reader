@@ -45,7 +45,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from utils.project_manager import ProjectManager, Project
 from utils.file_organizer import ChapterFileOrganizer
-from utils.progress_tracker import ProgressTracker
+from utils.file_based_progress_tracker import FileBasedProgressTracker
 from api.video_processor import VideoProcessor
 
 
@@ -90,7 +90,7 @@ class VideoCreator:
         
         # Initialize components
         self.file_organizer = ChapterFileOrganizer(project)
-        self.progress_tracker = ProgressTracker(project)
+        self.progress_tracker = FileBasedProgressTracker(project)
         
         # Initialize video processor
         self.video_processor = VideoProcessor(project.processing_config)
@@ -206,7 +206,7 @@ class VideoCreator:
                     
                     # Update progress tracking
                     try:
-                        progress_tracker = ProgressTracker(self.project)
+                        progress_tracker = FileBasedProgressTracker(self.project)
                         progress_tracker.mark_video_completed(chapter, str(video_path))
                         self.logger.info(f"Updated progress tracking for: {chapter_name}")
                     except Exception as e:

@@ -1057,5 +1057,293 @@
     "video_completed": true,
     "video_timestamp": "2025-10-24T14:50:15.420354",
     "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T22:33:45.912223",
+    "chapter_info": {
+      "filename": "Chapter_56_Escape_from_the_Sea.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_56_Escape_from_the_Sea.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 56,
+      "chapter_title": "Escape from the Sea",
+      "file_size": 10635,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_56_Escape_from_the_Sea.mp3",
+    "audio_file_size": 13312320,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_56_Escape_from_the_Sea.mp4",
+    "video_file_size": 299167258,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T22:33:45.912223",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T22:36:00.120635",
+    "chapter_info": {
+      "filename": "Chapter_57_Organization_and_Summary.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_57_Organization_and_Summary.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 57,
+      "chapter_title": "Organization and Summary",
+      "file_size": 11811,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_57_Organization_and_Summary.mp3",
+    "audio_file_size": 14350560,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_57_Organization_and_Summary.mp4",
+    "video_file_size": 322558002,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T22:36:00.120635",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T22:38:24.660615",
+    "chapter_info": {
+      "filename": "Chapter_58_A_Train_of_Thought.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_58_A_Train_of_Thought.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 58,
+      "chapter_title": "A Train of Thought",
+      "file_size": 12196,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_58_A_Train_of_Thought.mp3",
+    "audio_file_size": 14982240,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_58_A_Train_of_Thought.mp4",
+    "video_file_size": 336945082,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T22:38:24.660615",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T22:40:52.931337",
+    "chapter_info": {
+      "filename": "Chapter_59_Roselle_s_Origins.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_59_Roselle_s_Origins.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 59,
+      "chapter_title": "Roselle s Origins",
+      "file_size": 11520,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_59_Roselle_s_Origins.mp3",
+    "audio_file_size": 14420160,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_59_Roselle_s_Origins.mp4",
+    "video_file_size": 324347030,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T22:40:52.931337",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T22:43:18.632481",
+    "chapter_info": {
+      "filename": "Chapter_60_Second_Blasphemy_Slate.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_60_Second_Blasphemy_Slate.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 60,
+      "chapter_title": "Second Blasphemy Slate",
+      "file_size": 11516,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_60_Second_Blasphemy_Slate.mp3",
+    "audio_file_size": 14255040,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_60_Second_Blasphemy_Slate.mp4",
+    "video_file_size": 320313206,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T22:43:18.632481",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T22:45:37.542282",
+    "chapter_info": {
+      "filename": "Chapter_61_Strange_Symbol.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_61_Strange_Symbol.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 61,
+      "chapter_title": "Strange Symbol",
+      "file_size": 11523,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_61_Strange_Symbol.mp3",
+    "audio_file_size": 14332800,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_61_Strange_Symbol.mp4",
+    "video_file_size": 322110394,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T22:45:37.542282",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T22:48:00.768144",
+    "chapter_info": {
+      "filename": "Chapter_62_The_Seer_s_Suggestion.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_62_The_Seer_s_Suggestion.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 62,
+      "chapter_title": "The Seer s Suggestion",
+      "file_size": 11551,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_62_The_Seer_s_Suggestion.mp3",
+    "audio_file_size": 14811840,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_62_The_Seer_s_Suggestion.mp4",
+    "video_file_size": 332905978,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T22:48:00.768144",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T22:50:19.805300",
+    "chapter_info": {
+      "filename": "Chapter_63_Dream_Interpretation.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_63_Dream_Interpretation.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 63,
+      "chapter_title": "Dream Interpretation",
+      "file_size": 11198,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_63_Dream_Interpretation.mp3",
+    "audio_file_size": 14236800,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_63_Dream_Interpretation.mp4",
+    "video_file_size": 319865106,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T22:50:19.805300",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T22:52:49.201312",
+    "chapter_info": {
+      "filename": "Chapter_64_Instigator.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_64_Instigator.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 64,
+      "chapter_title": "Instigator",
+      "file_size": 12320,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_64_Instigator.mp3",
+    "audio_file_size": 15508320,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_64_Instigator.mp4",
+    "video_file_size": 348647414,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T22:52:49.201312",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-25T03:34:52.591544",
+    "chapter_info": {
+      "filename": "Chapter_66_Demoness_Sect.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_66_Demoness_Sect.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 66,
+      "chapter_title": "Demoness Sect",
+      "file_size": 12322,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_66_Demoness_Sect.mp3",
+    "audio_file_size": 15487200,
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_66_Demoness_Sect.mp4",
+    "video_file_size": 348196434,
+    "video_timestamp": "2025-10-25T03:45:00.150352"
+  },
+  {
+    "timestamp": "2025-10-25T03:35:28.303339",
+    "chapter_info": {
+      "filename": "Chapter_67_Response.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_67_Response.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 67,
+      "chapter_title": "Response",
+      "file_size": 11147,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_67_Response.mp3",
+    "audio_file_size": 14200800,
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_67_Response.mp4",
+    "video_file_size": 319399258,
+    "video_timestamp": "2025-10-25T03:44:39.436708"
+  },
+  {
+    "timestamp": "2025-10-25T03:36:03.985963",
+    "chapter_info": {
+      "filename": "Chapter_68_Monster.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_68_Monster.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 68,
+      "chapter_title": "Monster",
+      "file_size": 11232,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_68_Monster.mp3",
+    "audio_file_size": 14126880,
+    "audio_completed": true,
+    "video_completed": true,
+    "dry_run": false,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_68_Monster.mp4",
+    "video_file_size": 317605910,
+    "video_timestamp": "2025-10-25T03:44:50.594446"
+  },
+  {
+    "timestamp": "2025-10-24T22:57:23.142076",
+    "chapter_info": {
+      "filename": "Chapter_69_Protection_Amulet.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_69_Protection_Amulet.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 69,
+      "chapter_title": "Protection Amulet",
+      "file_size": 12995,
+      "is_readable": true
+    },
+    "audio_file_path": "/mock/audio/Chapter_69_Protection_Amulet.mp3",
+    "audio_file_size": 0,
+    "audio_completed": true,
+    "video_completed": false,
+    "dry_run": true
+  },
+  {
+    "timestamp": "2025-10-24T22:57:23.251719",
+    "chapter_info": {
+      "filename": "Chapter_70_2-049_s_Arrival.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_70_2-049_s_Arrival.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 70,
+      "chapter_title": "2-049 s Arrival",
+      "file_size": 11482,
+      "is_readable": true
+    },
+    "audio_file_path": "/mock/audio/Chapter_70_2-049_s_Arrival.mp3",
+    "audio_file_size": 0,
+    "audio_completed": true,
+    "video_completed": false,
+    "dry_run": true
   }
 ]
