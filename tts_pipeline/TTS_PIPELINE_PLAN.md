@@ -335,7 +335,14 @@ python tts_pipeline/scripts/prepare_portrait_images.py
 - **Audio Compression**: Storage optimization
 - **Cloud Storage**: Azure Blob integration
 
-### **Phase 2: Multi-Provider Support**
+### **Phase 2: Batch Synthesis API** 🚀 **IN PROGRESS**
+- **Azure Batch Synthesis**: 24x faster processing with same cost ✅ **PLANNED**
+- **Parallel Batch Processing**: Process 100 chapters per API call ✅ **PLANNED**
+- **Migration Strategy**: Safe transition from single-threaded to batch ✅ **PLANNED**
+- **Performance Target**: 30 minutes for 1,432 chapters (vs 12 hours) ✅ **PLANNED**
+- **Cost Optimization**: Same $4/month for 24x better performance ✅ **PLANNED**
+
+### **Phase 3: Multi-Provider Support**
 - **Google TTS**: Alternative TTS provider
 - **AWS Polly**: Additional cloud provider
 - **Local TTS**: Offline processing option

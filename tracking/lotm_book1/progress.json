@@ -847,5 +847,215 @@
     "video_completed": true,
     "video_timestamp": "2025-10-24T11:23:53.891576",
     "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T14:29:18.036222",
+    "chapter_info": {
+      "filename": "Chapter_46_Portrait.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_46_Portrait.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 46,
+      "chapter_title": "Portrait",
+      "file_size": 12277,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_46_Portrait.mp3",
+    "audio_file_size": 15419520,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_46_Portrait.mp4",
+    "video_file_size": 346409338,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T14:29:18.036222",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T14:31:51.483109",
+    "chapter_info": {
+      "filename": "Chapter_47_Old_Neil_s_Lack_of_Money.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_47_Old_Neil_s_Lack_of_Money.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 47,
+      "chapter_title": "Old Neil s Lack of Money",
+      "file_size": 12487,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_47_Old_Neil_s_Lack_of_Money.mp3",
+    "audio_file_size": 15720960,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_47_Old_Neil_s_Lack_of_Money.mp4",
+    "video_file_size": 353588466,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T14:31:51.483109",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T14:34:12.105795",
+    "chapter_info": {
+      "filename": "Chapter_48_Hanass_Vincent.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_48_Hanass_Vincent.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 48,
+      "chapter_title": "Hanass Vincent",
+      "file_size": 11493,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_48_Hanass_Vincent.mp3",
+    "audio_file_size": 14407200,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_48_Hanass_Vincent.mp4",
+    "video_file_size": 323904210,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T14:34:12.105795",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T14:36:25.113148",
+    "chapter_info": {
+      "filename": "Chapter_49_Divination_Art.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_49_Divination_Art.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 49,
+      "chapter_title": "Divination Art",
+      "file_size": 11028,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_49_Divination_Art.mp3",
+    "audio_file_size": 13741440,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_49_Divination_Art.mp4",
+    "video_file_size": 309053202,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T14:36:25.113148",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T14:38:48.851600",
+    "chapter_info": {
+      "filename": "Chapter_50_Old_Neil_s_Method_of_Repayment.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_50_Old_Neil_s_Method_of_Repayment.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 50,
+      "chapter_title": "Old Neil s Method of Repayment",
+      "file_size": 11445,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_50_Old_Neil_s_Method_of_Repayment.mp3",
+    "audio_file_size": 14381760,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_50_Old_Neil_s_Method_of_Repayment.mp4",
+    "video_file_size": 323448922,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T14:38:48.851600",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T14:41:15.157984",
+    "chapter_info": {
+      "filename": "Chapter_51_The_Grounded_Ritualistic_Magic.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_51_The_Grounded_Ritualistic_Magic.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 51,
+      "chapter_title": "The Grounded Ritualistic Magic",
+      "file_size": 12010,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_51_The_Grounded_Ritualistic_Magic.mp3",
+    "audio_file_size": 15205440,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_51_The_Grounded_Ritualistic_Magic.mp4",
+    "video_file_size": 341896694,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T14:41:15.157984",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T14:43:38.405445",
+    "chapter_info": {
+      "filename": "Chapter_52_Spectator.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_52_Spectator.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 52,
+      "chapter_title": "Spectator",
+      "file_size": 11295,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_52_Spectator.mp3",
+    "audio_file_size": 14400960,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_52_Spectator.mp4",
+    "video_file_size": 323897970,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T14:43:38.405445",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T14:45:41.307330",
+    "chapter_info": {
+      "filename": "Chapter_53_Listener.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_53_Listener.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 53,
+      "chapter_title": "Listener",
+      "file_size": 9938,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_53_Listener.mp3",
+    "audio_file_size": 12609600,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_53_Listener.mp4",
+    "video_file_size": 283419570,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T14:45:41.307330",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T14:47:56.912149",
+    "chapter_info": {
+      "filename": "Chapter_54_The_First_Divination_Requester.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_54_The_First_Divination_Requester.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 54,
+      "chapter_title": "The First Divination Requester",
+      "file_size": 10873,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_54_The_First_Divination_Requester.mp3",
+    "audio_file_size": 13800480,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_54_The_First_Divination_Requester.mp4",
+    "video_file_size": 310401798,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T14:47:56.913084",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2025-10-24T14:50:15.420354",
+    "chapter_info": {
+      "filename": "Chapter_55_Revelation.txt",
+      "file_path": "E:\\Documents\\Work\\pdf_reader\\formatted_text\\lotm_book1\\1___VOLUME_1___CLOWN\\Chapter_55_Revelation.txt",
+      "volume_number": 1,
+      "volume_name": "1___VOLUME_1___CLOWN",
+      "chapter_number": 55,
+      "chapter_title": "Revelation",
+      "file_size": 10869,
+      "is_readable": true
+    },
+    "audio_file_path": "F:\\PDFReader\\lotm_book1_output\\1___VOLUME_1___CLOWN\\Chapter_55_Revelation.mp3",
+    "audio_file_size": 14279520,
+    "audio_completed": true,
+    "video_file_path": "F:\\PDFReader\\lotm_book1_output\\video\\1___VOLUME_1___CLOWN\\Chapter_55_Revelation.mp4",
+    "video_file_size": 320767546,
+    "video_completed": true,
+    "video_timestamp": "2025-10-24T14:50:15.420354",
+    "dry_run": false
   }
 ]
