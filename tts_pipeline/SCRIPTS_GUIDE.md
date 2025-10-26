@@ -1,8 +1,33 @@
 # TTS Pipeline Scripts Documentation
 
-## 📋 Overview
+## 🚀 Quick Reference - Most Common Commands
 
-This document provides comprehensive documentation for all scripts in the TTS Pipeline system, including usage examples, command-line options, and practical scenarios.
+### **Continue Processing from Where You Left Off** ⭐ **RECOMMENDED**
+```bash
+# Process next 50 chapters with videos (BEST WAY - auto-detects where you left off)
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --continue 50 --create-videos
+
+# Process next 100 chapters with videos
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --continue 100 --create-videos
+
+# Process next 20 chapters (audio only)
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --continue 20
+```
+
+### **Process Specific Chapter Ranges**
+```bash
+# Process chapters 103-152 with videos
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 103-152 --create-videos
+
+# Process single chapter
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 103 --create-videos
+```
+
+### **Check Project Status**
+```bash
+# Check current progress
+python tts_pipeline/scripts/check_project_status_v2.py --project lotm_book1
+```
 
 ---
 
@@ -40,13 +65,11 @@ Required:
   --project PROJECT_NAME    Project name to process
 
 Optional:
-  --chapters RANGE         Chapter range (e.g., "1", "1-10", "5-15")
-  --max-chapters N         Maximum number of chapters to process
-  --dry-run               Test mode (no actual API calls)
+  --continue N            ⭐ Process next N chapters from where you left off (auto-detects progress)
+  --chapters RANGE        Chapter range (e.g., "1", "1-10", "5-15")
   --create-videos         Create videos after audio generation
-  --retry-failed          Retry previously failed chapters
-  --clear-dry-run         Clear dry-run data and start fresh
-  --list-projects         List all available projects
+  --dry-run               Test mode (no actual API calls)
+  --batch-size SIZE       Override batch size configuration
   --log-level LEVEL       Set logging level (DEBUG, INFO, WARNING, ERROR)
 ```
 
@@ -64,10 +87,16 @@ python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 1
 python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 11-20
 ```
 
-**Resume After Interruption**
+**Resume After Interruption** ⭐ **USE THIS**
 ```bash
-# Simply run without chapter range to resume
-python tts_pipeline/scripts/process_project.py --project lotm_book1
+# Process next 50 chapters with videos (RECOMMENDED - auto-detects where you left off)
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --continue 50 --create-videos
+
+# Process next 100 chapters with videos
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --continue 100 --create-videos
+
+# Process next 20 chapters (audio only)
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --continue 20
 ```
 
 **Batch Processing with Videos**
@@ -184,8 +213,8 @@ for chapter in chapters_1_to_1432:
 # Check status using file-based tracking
 python tts_pipeline/scripts/check_project_status_v2.py --project lotm_book1
 
-# Process next chapters (automatically uses file-based detection)
-python tts_pipeline/scripts/process_next_chapters.py --project lotm_book1 --count 10
+# Process specific chapter ranges (automatically uses file-based detection)
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 103-152 --create-videos
 
 # Show next 5 chapters that need processing
 python tts_pipeline/scripts/check_project_status_v2.py --project lotm_book1 --next 5
@@ -354,78 +383,6 @@ This is a sentence that was broken across multiple lines because of page boundar
 This is another paragraph with more broken sentences.
 ```
 
-### **6. `process_next_chapters.py`**
-**Process the next X chapters starting from where you left off**
-
-#### **Purpose**
-- Process a specific number of chapters starting from the next unprocessed chapter
-- Useful for batch processing without specifying exact chapter ranges
-- Automatically skips already completed chapters
-
-#### **Usage**
-```bash
-# Process next 10 chapters
-python tts_pipeline/scripts/process_next_chapters.py --project lotm_book1 --count 10
-
-# Process next 5 chapters with video creation
-python tts_pipeline/scripts/process_next_chapters.py --project lotm_book1 --count 5 --create-videos
-
-# Preview what would be processed
-python tts_pipeline/scripts/process_next_chapters.py --project lotm_book1 --count 10 --preview
-```
-
-#### **Command Line Options**
-```bash
-python tts_pipeline/scripts/process_next_chapters.py [OPTIONS]
-
-Required:
-  --project PROJECT_NAME    Project name to process
-  --count N                Number of chapters to process
-
-Optional:
-  --create-videos         Create videos after audio generation
-  --dry-run              Test mode (no actual API calls)
-  --preview              Show what would be processed without processing
-  --log-level LEVEL      Set logging level
-```
-
----
-
-### **7. `process_until_chapter.py`**
-**Process chapters until reaching a specific chapter number**
-
-#### **Purpose**
-- Process chapters starting from where you left off until reaching a target chapter
-- Useful for processing up to a certain point without going beyond it
-- Automatically skips already completed chapters
-
-#### **Usage**
-```bash
-# Process until chapter 50
-python tts_pipeline/scripts/process_until_chapter.py --project lotm_book1 --until 50
-
-# Process until chapter 100 with video creation
-python tts_pipeline/scripts/process_until_chapter.py --project lotm_book1 --until 100 --create-videos
-
-# Preview what would be processed
-python tts_pipeline/scripts/process_until_chapter.py --project lotm_book1 --until 30 --preview
-```
-
-#### **Command Line Options**
-```bash
-python tts_pipeline/scripts/process_until_chapter.py [OPTIONS]
-
-Required:
-  --project PROJECT_NAME    Project name to process
-  --until N                Process until this chapter number (inclusive)
-
-Optional:
-  --create-videos         Create videos after audio generation
-  --dry-run              Test mode (no actual API calls)
-  --preview              Show what would be processed without processing
-  --log-level LEVEL      Set logging level
-```
-
 ---
 
 ---
@@ -491,14 +448,14 @@ python tts_pipeline/scripts/create_videos.py --project lotm_book1 --chapters 1-1
 
 ### **Batch Processing with Specific Counts**
 ```bash
-# Process next 20 chapters from where you left off
-python tts_pipeline/scripts/process_next_chapters.py --project lotm_book1 --count 20
+# Process next 50 chapters from where you left off (RECOMMENDED)
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --continue 50 --create-videos
 
-# Process until chapter 50 (from where you left off)
-python tts_pipeline/scripts/process_until_chapter.py --project lotm_book1 --until 50
+# Process specific chapter ranges
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 103-152 --create-videos
 
-# Process next 10 chapters with videos (RECOMMENDED)
-python tts_pipeline/scripts/process_next_chapters.py --project lotm_book1 --count 10 --create-videos
+# Process next 100 chapters with videos
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --continue 100 --create-videos
 ```
 
 ### **Resuming After Interruption**
@@ -518,8 +475,8 @@ python tts_pipeline/scripts/create_videos.py --project lotm_book1 --chapters 11-
 # Process 50 chapters with automatic video creation
 python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 1-50 --create-videos
 
-# OR use the more efficient approach:
-python tts_pipeline/scripts/process_next_chapters.py --project lotm_book1 --count 50 --create-videos
+# Process specific chapter ranges with videos
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 103-152 --create-videos
 ```
 
 ### **Performance Optimization**

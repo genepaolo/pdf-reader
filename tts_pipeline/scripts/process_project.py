@@ -98,7 +98,9 @@ class AzureTTSProcessor:
         next_chapters = []
         
         for chapter in chapters:
-            if not self.progress_tracker.is_chapter_completed_real(chapter):
+            # Check if chapter is completed using FileBasedProgressTracker
+            chapter_filename = chapter.get('filename', '')
+            if not self.progress_tracker.is_chapter_completed(chapter_filename, 'both'):
                 next_chapters.append(chapter)
                 if len(next_chapters) >= count:
                     break
@@ -426,6 +428,13 @@ Examples:
     )
     
     parser.add_argument(
+        '--continue',
+        type=int,
+        dest='continue_count',
+        help='Process next N chapters starting from where you left off (uses file-based progress tracking)'
+    )
+    
+    parser.add_argument(
         '--create-videos',
         action='store_true',
         help='Create videos after audio generation'
@@ -496,7 +505,24 @@ Examples:
         start_chapter = None
         end_chapter = None
         
-        if args.chapters:
+        # Handle --continue flag (process next N chapters from where we left off)
+        if args.continue_count:
+            logging.info(f"Continue mode: Processing next {args.continue_count} chapters from where we left off")
+            next_chapters = processor.get_next_chapters_to_process(chapters, args.continue_count)
+            
+            if not next_chapters:
+                logging.info("All chapters are already completed!")
+                return 0
+            
+            logging.info(f"Found {len(next_chapters)} chapters to process, starting from {next_chapters[0]['filename']}")
+            
+            # Use these specific chapters for processing
+            chapters = next_chapters
+            start_chapter = None
+            end_chapter = None
+            max_chapters = None
+        
+        elif args.chapters:
             if '-' in args.chapters:
                 start_chapter, end_chapter = map(int, args.chapters.split('-'))
             else:
@@ -507,6 +533,7 @@ Examples:
             "chapters": args.chapters,
             "batch_size": args.batch_size,
             "max_chapters": args.max_chapters,
+            "continue_count": args.continue_count,
             "create_videos": args.create_videos,
             "dry_run": args.dry_run
         }
@@ -521,11 +548,18 @@ Examples:
             # Process chapters
             logging.info(f"Starting Azure TTS processing for project: {args.project}")
             
+            # Determine max_chapters based on arguments
+            max_chapters = None
+            if args.continue_count:
+                max_chapters = args.continue_count
+            elif args.max_chapters:
+                max_chapters = args.max_chapters
+            
             results = processor.process_chapters_batch(
                 chapters=chapters,
                 start_chapter=start_chapter,
                 end_chapter=end_chapter,
-                max_chapters=args.max_chapters
+                max_chapters=max_chapters
             )
         finally:
             # Always release the lock
