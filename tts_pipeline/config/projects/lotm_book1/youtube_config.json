@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "channel_id": "from_env",
+  "oauth2_credentials": "from_env",
+  "upload_settings": {
+    "privacy": "unlisted",
+    "category": "Entertainment",
+    "default_tags": ["audiobook", "lotm", "fantasy", "chinese-novel"],
+    "upload_rate": 6,
+    "rate_unit": "per_hour"
+  },
+  "metadata": {
+    "title_template": "LOTM Chapter {chapter_number} {chapter_title}",
+    "description_template": "Chapter {chapter_number} of {book_title}\n\nVolume {volume_number}: {volume_name}\n\n📚 {book_title}\n📖 Chapter: {chapter_number}\n📗 Volume: {volume_name}\n\n🎧 If you enjoy the content and audio, I'd love your support! Like, comment, share and sub if you'd like more.\n\n☕ Lord of the Bread wouldn't mind coffee either ❤️: https://buymeacoffee.com/breadmoretti\n\n#audiobook #lotm #fantasy"
+  },
+  "playlists": {
+    "name_template": "LOTM - Volume {volume_number}: {volume_name}",
+    "description_template": "Volume {volume_number} of Lord of the Mysteries: {volume_name}\n\nComplete audiobook chapter-by-chapter narrations.",
+    "privacy": "public",
+    "create_per_volume": true
+  }
+}
+

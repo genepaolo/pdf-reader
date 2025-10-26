@@ -14,6 +14,50 @@ Converts PDF files into organized text files by volumes and chapters.
 ### **Stage 2: Text to Speech (`tts_pipeline/`)**
 Converts organized text files into high-quality audio and video files using Azure Cognitive Services.
 
+### **Stage 3: YouTube Upload** 🎬
+Manually upload videos to YouTube using generated CSV for batch uploads.
+
+---
+
+## 🎬 **YouTube Upload Workflow**
+
+### **Manual Upload (⭐ Recommended)**
+
+Due to YouTube API quota restrictions (10,000 units/day with 1,600 per upload), **manual upload is strongly recommended** for bulk video uploads. The system generates a formatted text file with all metadata ready for copy/paste.
+
+```bash
+# Generate formatted upload queue with all video metadata
+python generate_upload_csv.py
+
+# This creates: youtube_upload_queue.txt
+# - Contains all 311 videos ready to upload
+# - Formatted for easy copy/paste
+# - No API quota limits
+```
+
+**Manual Upload Workflow:**
+1. Open `youtube_upload_queue.txt` in your editor
+2. Navigate to a chapter (separated by dashes)
+3. Copy Title → paste in YouTube Studio
+4. Copy Description → paste in YouTube Studio  
+5. Set Privacy to "Unlisted"
+6. Upload video from your video files
+
+**Time Estimate:**
+- Manual: Upload as fast as you can (no daily limits)
+- Automatic: ~62 days for all 311 videos (5/day quota limit)
+
+### **Automatic Upload (Alternative)**
+
+If you prefer automated uploads, the system supports automatic upload with rate limiting:
+
+```bash
+# Upload 5 videos per day (stays under API quota)
+python upload_queue.py --yes --limit=5
+```
+
+**Note:** Automated uploads are rate-limited to ~5-6 videos per day due to YouTube API restrictions (1,600 quota units per upload vs 10,000 daily limit).
+
 ---
 
 ## 🚀 **NEW: Project-Based Architecture** ✅
@@ -128,6 +172,14 @@ python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 1
 #### **Step 4: Resume if Interrupted**
 ```bash
 python tts_pipeline/scripts/process_project.py --project lotm_book1
+```
+
+#### **Step 5: Generate YouTube Upload CSV**
+```bash
+# Generate CSV for manual YouTube uploads
+python generate_upload_csv.py
+
+# Open youtube_upload_queue.csv to track your uploads
 ```
 
 ### **Project Management Commands**
@@ -311,5 +363,5 @@ This project is open source and available under the MIT License.
 
 ---
 
-*Last Updated: October 20, 2025*  
+*Last Updated: October 26, 2025*  
 *Status: Production Ready* ✅

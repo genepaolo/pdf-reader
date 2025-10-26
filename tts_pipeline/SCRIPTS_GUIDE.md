@@ -29,6 +29,16 @@ python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 1
 python tts_pipeline/scripts/check_project_status_v2.py --project lotm_book1
 ```
 
+### **Upload Videos to YouTube**
+```bash
+# Upload with automatic resume (skips already uploaded videos)
+python upload_queue.py --limit=10 --yes        # Upload 10 videos
+python upload_queue.py --yes                   # Upload all remaining videos
+
+# Test single chapter upload
+python upload_test.py                          # Test Chapter 1 upload
+```
+
 ---
 
 ## 🚀 Main Processing Scripts
@@ -429,6 +439,115 @@ python tts_pipeline/scripts/setup_ffmpeg_path.py
 
 ---
 
+## 🎥 YouTube Upload Scripts
+
+### **1. `upload_test.py`**
+**Test script for single video upload with full verification**
+
+#### **Purpose**
+- Test YouTube upload functionality
+- Verify video uploads to correct playlist
+- Check duplicate detection
+- Verify playlist assignment
+
+#### **Usage**
+```bash
+# Test Chapter 1 upload
+python upload_test.py
+```
+
+#### **What It Does**
+1. Checks if video is already uploaded (skips if found)
+2. Creates/get playlist for the volume
+3. Uploads video to YouTube
+4. Adds video to playlist automatically
+5. Verifies playlist assignment
+
+---
+
+### **2. `upload_queue.py`** ⭐ **RECOMMENDED**
+**Queue-based upload script with automatic resume**
+
+#### **Purpose**
+- Upload multiple videos with automatic resume
+- Respect rate limits (6 uploads/hour)
+- Add videos to correct playlists
+- Track progress automatically
+
+#### **How Resume Works**
+The script automatically determines where to resume by checking the `youtube_progress.json` file:
+
+```python
+# System checks file-based progress
+uploaded_videos = {
+    "Chapter_1_Crimson.mp4": {
+        "video_id": "5_XXKMBXrFc",
+        "upload_time": "2025-10-26T09:05:32",
+        "playlist_id": "PLV2gvMHy77hp38Ft0ocxCzJESWShZqMr3"
+    }
+}
+
+# Only uploads videos NOT in this list
+videos_to_upload = [v for v in all_videos if v['filename'] not in uploaded_videos]
+```
+
+#### **Usage**
+```bash
+# Upload with limit (recommended for testing)
+python upload_queue.py --limit=10 --yes        # Upload 10 videos
+python upload_queue.py --limit=50 --yes        # Upload 50 videos
+
+# Upload all remaining videos (auto-resumes from last upload)
+python upload_queue.py --yes
+
+# Interactive mode (asks for confirmation)
+python upload_queue.py
+```
+
+#### **Features**
+- ✅ **Automatic Resume**: Skips already uploaded videos
+- ✅ **Rate Limiting**: Respects YouTube's 6 uploads/hour limit
+- ✅ **Playlist Management**: Creates and adds videos to volume playlists
+- ✅ **Progress Tracking**: Saves state after each upload
+- ✅ **Error Handling**: Continues on failures, tracks them separately
+- ✅ **Verification**: Checks that videos are in correct playlists
+
+#### **Progress Tracking**
+Progress is saved to: `F:\PDFReader\lotm_book1_output\youtube_progress.json`
+
+```json
+{
+  "uploaded_videos": {
+    "Chapter_1_Crimson.mp4": {
+      "video_id": "5_XXKMBXrFc",
+      "upload_time": "2025-10-26T09:05:32",
+      "playlist_id": "PLV2gvMHy77hp38Ft0ocxCzJESWShZqMr3"
+    }
+  },
+  "total_uploaded": 1
+}
+```
+
+#### **Example Workflow**
+```bash
+# 1. Check what needs uploading
+python upload_queue.py                    # Shows pending videos
+
+# 2. Upload in batches (respects rate limit)
+python upload_queue.py --limit=10 --yes   # Upload 10 videos (~3-4 hours)
+python upload_queue.py --limit=10 --yes   # Upload next 10
+# ... repeat until all uploaded
+
+# 3. Or upload all at once (will take ~52 hours for 314 videos at 1 per 10 min)
+python upload_queue.py --yes
+
+# 4. Script automatically resumes if interrupted
+# Just run again and it continues from last upload
+python upload_queue.py --yes
+```
+
+---
+
 ## 📊 Common Workflows
 
 ### **Starting a New Project**
@@ -488,6 +607,35 @@ python tts_pipeline/scripts/prepare_portrait_images.py
 python tts_pipeline/scripts/create_videos.py --project lotm_book1 --chapters 1-30
 # Result: ~30 seconds per video instead of 3-4 minutes
 ```
+
+### **YouTube Upload Workflow** ⭐ **NEW**
+```bash
+# Complete workflow from text to YouTube
+
+# 1. Process text and create videos
+python tts_pipeline/scripts/process_project.py --project lotm_book1 --chapters 1-100 --create-videos
+
+# 2. Test upload (verify one video works)
+python upload_test.py
+
+# 3. Upload in batches with automatic resume
+python upload_queue.py --limit=10 --yes   # Upload 10 videos (~3-4 hours)
+python upload_queue.py --limit=10 --yes   # Upload next 10
+
+# 4. Continue until all uploaded
+# Script automatically resumes from last upload
+python upload_queue.py --yes
+
+# If interrupted, just run again - it resumes automatically!
+python upload_queue.py --yes
+```
+
+#### **How Resume Works**
+- Progress is tracked in `F:\PDFReader\lotm_book1_output\youtube_progress.json`
+- Script checks which videos are already uploaded
+- Automatically skips uploaded videos
+- Continues from next video that needs uploading
+- Rate limiting is respected (6 uploads/hour)
 
 ---
 
