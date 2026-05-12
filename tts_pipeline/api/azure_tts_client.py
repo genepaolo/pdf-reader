@@ -33,6 +33,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
 from dotenv import load_dotenv
 
+from utils.tts_pronunciation import apply_pronunciation_substitutions
+
 # Load environment variables from .env file
 load_dotenv()
 
@@ -383,6 +385,12 @@ class AzureTTSClient:
         self.batch_size = project.processing_config.get('batch_size', 100)
         self.max_concurrent_batches = project.processing_config.get('max_concurrent_batches', 3)
         self.batch_timeout_minutes = project.processing_config.get('batch_timeout_minutes', 60)
+        self._pronunciation_substitutions = (project.processing_config or {}).get(
+            "pronunciation_substitutions"
+        )
+        self._pronunciation_disable_defaults = bool(
+            (project.processing_config or {}).get("pronunciation_disable_defaults", False)
+        )
         
         # No fallback client needed - we only support batch processing
         # self.fallback_client = AzureTTSClient(project)  # Removed to prevent recursion
@@ -473,8 +481,9 @@ class AzureTTSClient:
                 chapter = chapter_map[i]
                 chapter_name = chapter['filename']
                 
-                # Determine volume directory (directly in output directory)
-                volume_dir = self._get_volume_directory(chapter_name, output_dir)
+                # Mirror input layout: use discovered volume folder name (project-specific).
+                # Fallback keeps legacy LOTM book1 chapter-range mapping for callers without volume_name.
+                volume_dir = self._get_output_volume_directory(chapter, output_dir)
                 volume_dir.mkdir(parents=True, exist_ok=True)
                 
                 # Create final audio file path
@@ -496,9 +505,21 @@ class AzureTTSClient:
         
         return processed_files
     
-    def _get_volume_directory(self, chapter_name: str, output_dir: Path) -> Path:
+    def _get_output_volume_directory(self, chapter: Dict[str, Any], output_dir: Path) -> Path:
         """
-        Determine the volume directory for a chapter based on its name.
+        Resolve the output subdirectory for a chapter's audio file.
+
+        Prefer ``volume_name`` from chapter discovery (matches ``formatted_text`` / project layout).
+        """
+        volume_name = chapter.get('volume_name')
+        if volume_name:
+            return output_dir / volume_name
+        chapter_name = chapter.get('filename', '')
+        return self._get_volume_directory_legacy_lotm_book1(chapter_name, output_dir)
+
+    def _get_volume_directory_legacy_lotm_book1(self, chapter_name: str, output_dir: Path) -> Path:
+        """
+        Legacy LOTM book1 layout: map global chapter index to ``N___VOLUME_N___TITLE`` folders.
         
         Args:
             chapter_name: Name of the chapter file
@@ -743,6 +764,12 @@ class AzureTTSClient:
             
             with open(chapter_path, 'r', encoding='utf-8') as f:
                 text = f.read().strip()
+
+            text = apply_pronunciation_substitutions(
+                text,
+                self._pronunciation_substitutions,
+                disable_defaults=self._pronunciation_disable_defaults,
+            )
             
             # Validate text length
             max_length = self.azure_config.get('max_text_length', 20000)

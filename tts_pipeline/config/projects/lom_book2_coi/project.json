@@ -1,0 +1,17 @@
+{
+  "project_name": "lom_book2_coi",
+  "display_name": "Lord of Mysteries 2 — Circle of Inevitability",
+  "input_directory": "formatted_text/lom_book2_coi",
+  "output_directory": "D:/PDFReader/lom_book2_coi_output",
+  "description": "COI TTS from EPUB-derived formatted_text (Volume_N_Name / Chapter_N_title.txt)",
+  "metadata": {
+    "series": "Lord of Mysteries 2",
+    "book_number": 2,
+    "total_volumes": 8,
+    "total_chapters": 1180,
+    "language": "en-US",
+    "genre": "fantasy"
+  },
+  "created_date": "2026-05-12",
+  "last_modified": "2026-05-12"
+}

@@ -1,0 +1,13 @@
+{
+  "comment": "Circle of Inevitability: global chapter index from EPUB TOC (e.g. '736: …'). Parts 1–2 unchanged; part titles/ranges updated per project mapper (vol 4 ends 735; vol 8 ends 1179). Chapters beyond 1179 still assign to part 8 via converter fallback.",
+  "volumes": [
+    {"number": 1, "title": "Nightmare", "first_chapter": 1, "last_chapter": 109},
+    {"number": 2, "title": "Light_Chaser", "first_chapter": 110, "last_chapter": 263},
+    {"number": 3, "title": "Conspirer", "first_chapter": 264, "last_chapter": 494},
+    {"number": 4, "title": "Sinner", "first_chapter": 495, "last_chapter": 735},
+    {"number": 5, "title": "Demoness", "first_chapter": 736, "last_chapter": 884},
+    {"number": 6, "title": "Dream_Weaver", "first_chapter": 885, "last_chapter": 1034},
+    {"number": 7, "title": "Second_Law", "first_chapter": 1035, "last_chapter": 1115},
+    {"number": 8, "title": "Eternal_Aeon", "first_chapter": 1116, "last_chapter": 1179}
+  ]
+}

@@ -1,0 +1,14 @@
+---
+description: Reload CLAUDE.md at the start of every user message, not only session start.
+alwaysApply: true
+---
+
+# CLAUDE.md First
+
+At the start of **every user message** (each assistant turn) in this repository, before running tools or making substantive changes:
+
+1. Read `CLAUDE.md` from the repository root (re-read even if you read it earlier in the conversation).
+2. Apply its constraints, environment guidance, active project scope, and workflow (including progress-log updates after runs that change outputs or uploads).
+3. You do not need to paste a long summary of `CLAUDE.md` on every turn unless the user asked for it or the task depends on it; still follow it.
+
+If `CLAUDE.md` is missing or unreadable, say so explicitly and ask for next steps.

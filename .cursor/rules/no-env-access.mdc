@@ -1,0 +1,18 @@
+---
+description: Prevent AI access to .env files and credential secrets.
+alwaysApply: true
+---
+
+# No Secret File Access
+
+The AI must not read, open, parse, or request contents from secret files.
+
+Forbidden targets include:
+- `.env`
+- `.env.*`
+- Any file that contains API keys, tokens, passwords, client secrets, or private credentials
+
+Behavior requirements:
+1. Never use tools to read secret files.
+2. Never print, summarize, or infer secret values.
+3. If a task would require secret access, stop and ask the user for a non-secret alternative.

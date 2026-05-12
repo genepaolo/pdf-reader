@@ -196,10 +196,9 @@ class AzureTTSProcessor:
         
         self.logger.info(f"[DRY RUN] Would create {num_batches} batches of size {batch_size}")
         
-        # Simulate success/failure
-        import random
-        successful = int(len(chapters) * 0.95)  # 95% success rate
-        failed = len(chapters) - successful
+        # Dry-run: assume all chapters would succeed (avoids int(N*0.95)==0 for small N)
+        successful = len(chapters)
+        failed = 0
         
         self.processed_count = successful
         self.failed_count = failed
