@@ -12,6 +12,11 @@ from pathlib import Path
 from typing import List, Dict, Optional, Tuple
 import logging
 
+from tts_pipeline.utils.chapter_title import (
+    read_chapter_title_from_file,
+    title_from_filename_fallback,
+)
+
 
 class ChapterFileOrganizer:
     """Organizes and discovers chapter files for TTS processing."""
@@ -150,23 +155,32 @@ class ChapterFileOrganizer:
             'volume_number': volume_number,
             'volume_name': volume_name,
             'chapter_number': chapter_number,
-            'chapter_title': self._extract_chapter_title(filename),
+            'chapter_title': self._extract_chapter_title(
+                filename, file_path=file_path, chapter_number=chapter_number
+            ),
             'file_size': file_path.stat().st_size,
             'is_readable': True
         }
     
-    def _extract_chapter_title(self, filename: str) -> str:
-        """Extract chapter title from filename."""
-        # Remove file extension
-        name_without_ext = Path(filename).stem
-        
-        # Try to extract title after chapter number
-        match = self.chapter_pattern.search(name_without_ext)
-        if match:
-            title_part = name_without_ext[match.end():]
-            return title_part.replace('_', ' ').strip()
-        
-        return name_without_ext
+    def _extract_chapter_title(
+        self,
+        filename: str,
+        file_path: Optional[Path] = None,
+        chapter_number: Optional[int] = None,
+    ) -> str:
+        """Extract chapter title from formatted text header, not the filename."""
+        if file_path is not None:
+            title = read_chapter_title_from_file(file_path, chapter_number)
+            if title:
+                return title
+
+        fallback = title_from_filename_fallback(
+            filename, chapter_number or 0, self.chapter_pattern
+        )
+        if fallback:
+            return fallback
+
+        return Path(filename).stem
     
     def _validate_chapter_file(self, file_path: Path) -> bool:
         """Validate that a chapter file is readable and contains text."""

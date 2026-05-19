@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "channel_id": "from_env",
+  "oauth2_credentials": "from_env",
+  "upload_settings": {
+    "privacy": "unlisted",
+    "made_for_kids": false,
+    "category": "Entertainment",
+    "default_tags": [
+      "audiobook",
+      "lotm",
+      "fantasy",
+      "webnovel",
+      "mystery",
+      "supernatural",
+      "lordofthemysteries",
+      "circleofinevitability",
+      "cuttlefish"
+    ],
+    "upload_rate": 6,
+    "rate_unit": "per_hour"
+  },
+  "metadata": {
+    "title_template": "LOM2 COI Chapter {chapter_number} {chapter_title}",
+    "description_template": "📚 Lord of Mysteries 2: Circle of Inevitability\n\n🎧 If you enjoy the content and audio, I'd love your support! Like, comment, share and sub if you'd like more.\n\n☕ Lord of the Bread wouldn't mind coffee either ❤️: https://buymeacoffee.com/breadmoretti\n\n🎨 Artwork by: https://www.instagram.com/krusierweasley/\n\n#audiobook #lotm #fantasy #webnovel #mystery #supernatural #lordofthemysteries #circleofinevitability #cuttlefish"
+  },
+  "playlists": {
+    "name_template": "LOTM 2 - Volume {volume_number}: {volume_name}",
+    "description_template": "Volume {volume_number} of Lord of Mysteries 2 — Circle of Inevitability: {volume_name}\n\nComplete audiobook chapter-by-chapter narrations.",
+    "privacy": "public",
+    "create_per_volume": true
+  }
+}

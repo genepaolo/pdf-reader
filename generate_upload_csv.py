@@ -4,6 +4,7 @@ Generate CSV file for manual YouTube uploads
 """
 
 import sys
+import argparse
 import csv
 from pathlib import Path
 from dotenv import load_dotenv
@@ -18,13 +19,19 @@ from tts_pipeline.api.youtube_uploader import YouTubeUploader
 import json
 import os
 
-print("Generating upload CSV...")
+parser = argparse.ArgumentParser(description="Generate upload metadata text file")
+parser.add_argument('--project', default='lom_book2_coi')
+args = parser.parse_args()
+
+project_name = args.project
+
+print(f"Generating upload CSV for {project_name}...")
 
 # Load project and config
 project_manager = ProjectManager()
-project = project_manager.load_project("lotm_book1")
+project = project_manager.load_project(project_name)
 
-config_path = Path("tts_pipeline/config/projects/lotm_book1/youtube_config.json")
+config_path = Path(f"tts_pipeline/config/projects/{project_name}/youtube_config.json")
 with open(config_path, 'r', encoding='utf-8') as f:
     config = json.load(f)
 
@@ -52,20 +59,13 @@ with open(txt_file, 'w', encoding='utf-8') as f:
         # Generate metadata
         metadata = uploader.generate_metadata(video)
         
-        # Write chapter info in the format from template (simplified)
         f.write(f"\n{'='*80}\n")
         f.write(f"CHAPTER {video['chapter_number']}: {video['chapter_title']}\n")
         f.write(f"{'='*80}\n")
-        f.write(f"Lord of the Mysteries\n")
-        f.write(f"Volume {video['volume_number']}:{video['volume_name']}\n")
-        f.write(f"Chapter {video['chapter_number']}: {video['chapter_title']}\n")
-        f.write(f"\n")
-        f.write(f"\n")
-        f.write(f"🎧 If you enjoy the content and audio, I'd love your support! Like, comment, share and sub if you'd like more.\n")
-        f.write(f"\n")
-        f.write(f"☕ Lord of the Bread wouldn't mind coffee either ❤️: https://buymeacoffee.com/breadmoretti\n")
-        f.write(f"\n")
-        f.write(f"#audiobook #lotm #fantasy\n")
+        f.write(f"Title: {metadata['title']}\n")
+        f.write(f"Volume {video['volume_number']}: {video['volume_name']}\n")
+        f.write(f"\nDescription:\n")
+        f.write(f"{metadata['description']}\n")
         
         # Add separator between chapters
         if i < len(videos_to_upload) - 1:

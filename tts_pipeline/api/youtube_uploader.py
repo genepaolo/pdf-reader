@@ -17,6 +17,8 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
+from tts_pipeline.utils.chapter_title import resolve_chapter_title
+
 
 class YouTubeUploader:
     """Main class for YouTube video uploads."""
@@ -119,19 +121,34 @@ class YouTubeUploader:
             return None
         
         chapter_number = int(match.group(1))
-        chapter_title = match.group(2).replace("_", " ")
-        
+
         # Extract volume from parent directory
-        volume_dir = video_path.parent.name  # e.g., "1___VOLUME_1___CLOWN"
+        volume_dir = video_path.parent.name
+        volume_number = 1
+        volume_name = "Unknown"
+
+        # Book1 format: "1___VOLUME_1___CLOWN"
         volume_match = re.match(r"(\d+)___VOLUME_\d+___(.+)", volume_dir)
-        
         if volume_match:
             volume_number = int(volume_match.group(1))
             volume_name = volume_match.group(2)
         else:
-            volume_number = 1
-            volume_name = "Unknown"
-        
+            # Book2 format: "Volume_1_Nightmare"
+            volume_match = re.match(r"Volume_(\d+)_(.+)", volume_dir)
+            if volume_match:
+                volume_number = int(volume_match.group(1))
+                volume_name = volume_match.group(2)
+
+        processing = self.project.get_processing_config()
+        chapter_title = resolve_chapter_title(
+            input_directory=self.project.get_input_directory(),
+            chapter_number=chapter_number,
+            volume_number=volume_number,
+            chapter_pattern=processing.get("chapter_pattern", r"Chapter_(\d+)_"),
+            volume_pattern=processing.get("volume_pattern", r"(\d+)___VOLUME_\d+___"),
+            filename_fallback=video_path.name,
+        )
+
         return {
             "filename": video_path.name,
             "filepath": str(video_path),
@@ -223,7 +240,8 @@ class YouTubeUploader:
             "description": description,
             "tags": tags,
             "categoryId": "24",  # Entertainment
-            "privacyStatus": self.config["upload_settings"]["privacy"]
+            "privacyStatus": self.config["upload_settings"]["privacy"],
+            "madeForKids": self.config["upload_settings"].get("made_for_kids", False)
         }
     
     def get_playlist_id(self, volume_number: int, volume_name: str) -> Optional[str]:
@@ -598,7 +616,8 @@ class YouTubeUploader:
                         'categoryId': metadata['categoryId']
                     },
                     'status': {
-                        'privacyStatus': metadata['privacyStatus']
+                        'privacyStatus': metadata['privacyStatus'],
+                        'selfDeclaredMadeForKids': metadata.get('madeForKids', False)
                     }
                 },
                 media_body=media

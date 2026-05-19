@@ -12,6 +12,7 @@ Uploads multiple videos to YouTube with:
 
 import sys
 import time
+import argparse
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -25,15 +26,24 @@ from tts_pipeline.api.youtube_uploader import YouTubeUploader
 import json
 import os
 
+# Parse --project argument (default: lom_book2_coi)
+parser = argparse.ArgumentParser(add_help=False)
+parser.add_argument('--project', default='lom_book2_coi')
+parser.add_argument('--limit', type=int, default=None)
+parser.add_argument('--yes', '-y', action='store_true')
+known_args, _ = parser.parse_known_args()
+
+project_name = known_args.project
+
 print("=" * 80)
-print("YOUTUBE UPLOAD QUEUE")
+print(f"YOUTUBE UPLOAD QUEUE — {project_name}")
 print("=" * 80)
 
 # Load project and config
 project_manager = ProjectManager()
-project = project_manager.load_project("lotm_book1")
+project = project_manager.load_project(project_name)
 
-config_path = Path("tts_pipeline/config/projects/lotm_book1/youtube_config.json")
+config_path = Path(f"tts_pipeline/config/projects/{project_name}/youtube_config.json")
 with open(config_path, 'r', encoding='utf-8') as f:
     config = json.load(f)
 
@@ -96,14 +106,7 @@ if len(videos_to_upload) == 0:
     print("All videos are already uploaded!")
     sys.exit(0)
 
-# Check for limit flag
-limit = None
-for arg in sys.argv:
-    if arg.startswith('--limit='):
-        limit = int(arg.split('=')[1])
-    elif arg == '--limit':
-        # Will be handled by next arg, just mark that we should look for it
-        pass
+limit = known_args.limit
 
 # Handle limit=0 (just verification, no upload)
 if limit == 0:
@@ -128,8 +131,7 @@ if len(videos_to_upload) > 10:
     print(f"  ... and {len(videos_to_upload) - 10} more")
 print()
 
-# Check for auto-confirm flag
-auto_confirm = '--yes' in sys.argv or '-y' in sys.argv
+auto_confirm = known_args.yes
 
 if not auto_confirm:
     # Confirm upload
