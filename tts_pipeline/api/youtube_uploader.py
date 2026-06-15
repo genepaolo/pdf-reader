@@ -13,6 +13,7 @@ from datetime import datetime, timedelta
 import time
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
+from google.auth.exceptions import RefreshError
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
@@ -257,6 +258,14 @@ class YouTubeUploader:
         """
         if not self.config.get("playlists", {}).get("create_per_volume", False):
             return None
+
+        playlist_ids = self.config.get("playlists", {}).get("playlist_ids", {})
+        configured_id = playlist_ids.get(str(volume_number)) or playlist_ids.get(volume_number)
+        if configured_id:
+            self.logger.info(
+                f"Using configured playlist for volume {volume_number}: {configured_id}"
+            )
+            return configured_id
         
         if not self.youtube_service:
             self.authenticate()
@@ -559,20 +568,28 @@ class YouTubeUploader:
         if token_file.exists():
             creds = Credentials.from_authorized_user_file(str(token_file), self.SCOPES)
         
-        # If there are no (valid) credentials, get them
+        # If there are no (valid) credentials, refresh or re-authorize
         if not creds or not creds.valid:
+            refreshed = False
             if creds and creds.expired and creds.refresh_token:
-                creds.refresh(Request())
-            else:
+                try:
+                    creds.refresh(Request())
+                    refreshed = True
+                except RefreshError:
+                    self.logger.warning("OAuth token expired or revoked; re-authorization required")
+                    creds = None
+                    if token_file.exists():
+                        token_file.unlink()
+
+            if not refreshed:
                 if not self.credentials_path.exists():
                     self.logger.error(f"Credentials file not found: {self.credentials_path}")
                     raise FileNotFoundError(f"Credentials file not found: {self.credentials_path}")
-                
+
                 flow = InstalledAppFlow.from_client_secrets_file(
                     str(self.credentials_path), self.SCOPES)
                 creds = flow.run_local_server(port=0)
-            
-            # Save credentials for next run
+
             with open(token_file, 'w') as token:
                 token.write(creds.to_json())
         

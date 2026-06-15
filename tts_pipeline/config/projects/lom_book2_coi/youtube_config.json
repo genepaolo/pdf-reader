@@ -25,9 +25,12 @@
     "description_template": "📚 Lord of Mysteries 2: Circle of Inevitability\n\n🎧 If you enjoy the content and audio, I'd love your support! Like, comment, share and sub if you'd like more.\n\n☕ Lord of the Bread wouldn't mind coffee either ❤️: https://buymeacoffee.com/breadmoretti\n\n🎨 Artwork by: https://www.instagram.com/krusierweasley/\n\n#audiobook #lotm #fantasy #webnovel #mystery #supernatural #lordofthemysteries #circleofinevitability #cuttlefish"
   },
   "playlists": {
-    "name_template": "LOTM 2 - Volume {volume_number}: {volume_name}",
+    "name_template": "LOM2 COI - Volume {volume_number}: {volume_name}",
     "description_template": "Volume {volume_number} of Lord of Mysteries 2 — Circle of Inevitability: {volume_name}\n\nComplete audiobook chapter-by-chapter narrations.",
     "privacy": "public",
-    "create_per_volume": true
+    "create_per_volume": true,
+    "playlist_ids": {
+      "2": "PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s"
+    }
   }
 }

@@ -22,23 +22,47 @@
 - After every run command that affects outputs/uploads, update "Current Progress Log" in this file immediately.
 - Use the YouTube API to read most recent uploads when upload status needs verification or refresh.
 
-## Commands and What They Do
-- `python tts_pipeline/scripts/process_project.py --list-projects`
-  - Lists available TTS projects.
+## The 3-Step Workflow (audio → video → upload)
+> Always run from the repository root (`pdf-reader`). Default project is `lom_book2_coi`, so the examples omit it where the script defaults to it. Replace `N-M` with the chapter range you want.
+
+### Step 1 — Create AUDIO (Azure TTS)  → `D:/PDFReader/lom_book2_coi_output/Volume_*/*.mp3`
 - `python tts_pipeline/scripts/process_project.py --project lom_book2_coi --dry-run --max-chapters 5`
-  - Runs a safe validation pass without Azure billing.
-- `python tts_pipeline/scripts/process_project.py --project lom_book2_coi --chapters 1-10`
-  - Processes a chapter range for the selected project.
-- `python tts_pipeline/scripts/process_project.py --project lom_book2_coi --chapters 601`
-  - Processes a single chapter (same as `601-601`).
+  - **Safe validation pass** (no Azure billing). Run this first when unsure.
+- `python tts_pipeline/scripts/process_project.py --project lom_book2_coi --chapters N-M`
+  - Generate audio for a chapter range. Single chapter = `--chapters 604`.
+- `python tts_pipeline/scripts/process_project.py --project lom_book2_coi --continue 10`
+  - Generate audio for the **next 10 chapters** from where you left off (file-based tracking).
 - `python tts_pipeline/scripts/process_project.py --project lom_book2_coi`
-  - Resumes/continues normal project processing.
-- `python generate_upload_csv.py --project lom_book2_coi`
-  - Generates manual YouTube upload metadata text file for a project.
-- `python upload_queue.py --project lom_book2_coi --yes --limit=5`
-  - Attempts quota-safe automated YouTube uploads for a project. YouTube titles use the **`Chapter N: <title>`** line from each project’s formatted source text (`input_directory` in `project.json`), not the video filename—so apostrophes and long titles stay correct for any project.
+  - Resume/continue normal processing.
+
+### Step 2 — Create VIDEO (from existing audio)  → `D:/PDFReader/lom_book2_coi_output/video/Volume_*/*.mp4`
+- `python tts_pipeline/scripts/create_videos.py --project lom_book2_coi --chapters N-M`
+  - **Standalone video creation** from already-generated `.mp3` files. Use this to clear the video backlog (audio is ahead of video).
+- `python tts_pipeline/scripts/create_videos.py --project lom_book2_coi --chapters N --preview`
+  - Preview settings for one chapter without writing files.
+- `python tts_pipeline/scripts/create_videos.py --project lom_book2_coi --resume`
+  - Resume an interrupted video batch.
+- **One-shot audio+video:** add `--create-videos` to the Step 1 command to make the video right after each chapter's audio:
+  - `python tts_pipeline/scripts/process_project.py --project lom_book2_coi --chapters N-M --create-videos`
+
+### Step 3 — UPLOAD to YouTube  → tracker `D:/PDFReader/lom_book2_coi_output/youtube_progress.json`
+> **Run only ONE upload job at a time** (two = duplicate uploads). Quota-safe pace ≈ 6 uploads/hour (~10 min apart).
+- `python upload_queue.py --project lom_book2_coi --limit=0`
+  - Auth + tracker check only (no uploads). Use to confirm OAuth and see the next pending chapter.
+- `python upload_queue.py --project lom_book2_coi --yes --limit=1`
+  - Upload the **next single** pending chapter (use when fixing a gap).
+- `python upload_queue.py --project lom_book2_coi --yes --limit=10`
+  - Upload the **next 10** pending chapters in order.
+- **OAuth:** if prompted, complete Google sign-in in the browser (creates/refreshes `token.json` in repo root). Nothing appears in YouTube Studio until auth finishes.
+- YouTube titles come from the **`Chapter N: <title>`** line in the formatted source text (`input_directory`), not the video filename.
+- Config: `tts_pipeline/config/projects/lom_book2_coi/youtube_config.json`
+
+### (Setup only) — Extract EPUB → formatted text
 - `python epub_to_text/main.py "<path>.epub" -p "lom_book2_coi" -o "formatted_text"`
   - Extracts EPUB to `formatted_text/<project>/Volume_#/…/Chapter_#_….txt` for TTS. Each file begins with two header lines for TTS pauses: `Lord of Mysteries 2: Circle of Inevitability` then `Chapter N: <title>`. Leading body echoes of the title (including nav-style `N Title` / `N: Title` lines) are dropped so they are not read twice by TTS.
+
+### Utility
+- `python tts_pipeline/scripts/process_project.py --list-projects` — list available TTS projects.
 
 ## Tracking (Audio, Video, Uploads)
 - Do not use `tracking/*.json` for progress status updates.
@@ -53,6 +77,17 @@
 - `processing_config.json` uses `volume_pattern` `Volume_(\\d+)_` so chapter discovery matches `formatted_text/lom_book2_coi/Volume_N_Name/Chapter_N_*.txt` (not the book1 `N___VOLUME_N___` layout).
 - Azure voice file: copy `azure_config.json.example` to `azure_config.json` in that folder (real `azure_config.json` is gitignored under `tts_pipeline/`). Set `AZURE_TTS_SUBSCRIPTION_KEY` and `AZURE_TTS_REGION` in the environment (do not commit secrets).
 
+## YouTube uploads (`lom_book2_coi`)
+
+- **Cwd:** repository root (`pdf-reader`).
+- **One job at a time** — never run two `upload_queue.py` processes (causes duplicate uploads).
+- **Volume 2 playlist (canonical):** [LOM2 COI - Volume 2: Lightseeker](https://www.youtube.com/playlist?list=PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s) — playlist ID `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s` (set in `youtube_config.json` → `playlists.playlist_ids["2"]`).
+- **Video folder for vol. 2:** `D:/PDFReader/lom_book2_coi_output/video/Volume_2_Lightseeker/` (`volume_name` = `Lightseeker` for playlist title formatting).
+- **Do not use** wrong auto-created playlist `PLV2gvMHy77hrh1HeiBECpJ61Smbgg5_S6` (from old `LOTM 2 - Volume …` name template).
+  - ✅ **Fixed:** `get_playlist_id()` now returns the configured `playlists.playlist_ids["2"]` when `create_per_volume` is true, so new Volume-2 uploads (ch. 241+) go to the correct Lightseeker playlist. (Commit the working-copy changes to `youtube_uploader.py` + `youtube_config.json`.)
+  - ⚠️ **Cleanup left:** the 30 chapters already uploaded to the wrong playlist (incl. 236–240) must be **moved manually** in YouTube Studio — code change does not relocate existing videos.
+- **Tracker:** `D:/PDFReader/lom_book2_coi_output/youtube_progress.json`
+
 ## Path and Environment Conventions
 - Active local output root base is `D:/PDFReader/`.
 - Optional local convention for portability:
@@ -61,15 +96,27 @@
 - Per-project outputs should append project-specific folders (example: `D:/PDFReader/lom_book2_coi_output`).
 - Note: current runtime uses project config files for output paths; keep `.env` and config aligned unless code is updated to consume `LOCAL_OUTPUT_ROOT`.
 
+## Repo Audit (done 2026-06-14)
+- **Deleted** (dead/orphan, recover from git if ever needed): `tts_pipeline/api/azure_tts_client_old.py`, `upload_test.py`, `tts_pipeline/scripts/fix_progress_tracking_v2.py`, `tts_pipeline/scripts/check_project_status_v2.py`.
+- **Kept:** `tts_pipeline/scripts/check_project_status.py` (the referenced status check) and `generate_upload_csv.py` (manual-upload fallback).
+- Stale docs still to reconcile with this file: `tts_pipeline/TTS_PROGRESS.md`, `tts_pipeline/SCRIPTS_GUIDE.md`, root `README.md`.
+
 ## Current Progress Log
 Update this section during/after processing runs.
 
-### lom_book2_coi
+### lom_book2_coi — verified against disk + tracker on 2026-06-14
 - Output folder: `D:/PDFReader/lom_book2_coi_output`
-- Audio files created: `603`
-- Last TTS run: `2026-05-12` — chapter `603` (`Volume_4_Sinner/Chapter_603_Organs_Again.mp3`, batch synthesis ~34s)
-- Video files created: `351`
-- Uploaded videos: `212` (chapters 1–212 per `youtube_progress.json`)
-- Most recent upload timestamp: `2026-05-13T03:44:45.244074`
-- Most recent uploaded file: `Chapter_212_Actor.mp4` (`https://youtube.com/watch?v=whM3ONkAW80`)
+- **Pipeline position (each stage feeds the next):**
+  | Stage | Files done | Highest chapter | Next action |
+  |---|---|---|---|
+  | Audio (`.mp3`) | 603 | 603 | generate ch. **604+** |
+  | Video (`.mp4`) | 351 | 350 | create ch. **351+** (audio is ~253 ch. ahead) |
+  | Upload | 240 | 240 (no gaps) | upload ch. **241** |
+- **Audio:** 603 files (V1=109, V2=154, V3=231, V4=109). Last run `2026-05-12` — ch. `603` (`Volume_4_Sinner/Chapter_603_Organs_Again.mp3`).
+- **Video:** 351 files through ch. 350 (V1=110, V2=154, V3=87, V4=**0**). Big backlog: ch. 351–603 have audio but no video; `Volume_4_Sinner` has none yet.
+- **Uploads:** 240 entries, chapters **1–240 fully uploaded with NO gaps** (the old "241/242 gap" note was stale; ch. 239 was the last gap, filled 2026-06-03, and ch. 240 was already up).
+- **Next to upload:** chapter `241` (then 242, 243 …). Videos already exist through ch. 350, so ~110 chapters (241–350) are ready to upload right now.
+- Most recent upload: `2026-06-03T00:28:12` — `Chapter_239_Fighting_Fire.mp4` (`https://youtube.com/watch?v=SxI6DJIVPAY`). Ch. 240 (`Chapter_240_Bewitchment`, vid `5ngcc_9v6lY`) was uploaded earlier, on 2026-05-27.
+- **Playlist note:** the latest uploads (236–240) went to the WRONG playlist `PLV2gvMHy77hrh1HeiBECpJ61Smbgg5_S6`; verify config before the next batch (see YouTube uploads section).
+- Notes: ch. **230–232** may have duplicate uploads on channel from overlapping runs. Ch. 215 title may still need a manual fix on YouTube.
 - EPUB formatted chapters (repo): `1180` `.txt` files under `formatted_text/lom_book2_coi` in **8** volume folders (from `epub_to_text/lom_book2_coi/epub/Circle of Inevitability.epub` + `epub_to_text/lom_book2_coi/volume_map.json`)
