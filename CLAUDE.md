@@ -101,6 +101,15 @@
 - **Kept:** `tts_pipeline/scripts/check_project_status.py` (the referenced status check) and `generate_upload_csv.py` (manual-upload fallback).
 - Stale docs still to reconcile with this file: `tts_pipeline/TTS_PROGRESS.md`, `tts_pipeline/SCRIPTS_GUIDE.md`, root `README.md`.
 
+## Upload Readiness (next session) — checked 2026-06-15
+**You can upload immediately — just run Step 3.** Prereqs verified:
+- ✅ No upload process running (safe to start one).
+- ✅ `token.json` present & fresh (used 2026-06-14) — OAuth should not re-prompt; if it does, finish the browser sign-in.
+- ✅ Videos for ch. **251–350 all exist** (100 ready). Next pending = **251**.
+- **Command:** `python upload_queue.py --project lom_book2_coi --yes --limit=10` (uploads 251–260). Optional pre-check: `--limit=0`.
+- ⚠️ **Volume boundary at ch. 264:** ch. 251–263 → Volume 2 (Lightseeker, pinned). Ch. **264+ → Volume 3 (Conspirer)**, which is NOT pinned, so the first ch.264 upload will **auto-create** a `"LOM2 COI - Volume 3: Conspirer"` playlist (intended). **After that upload, capture the new playlist ID into** `youtube_config.json → playlists.playlist_ids["3"]` so later vol-3 uploads reuse it instead of re-searching by name.
+- After any batch, update the progress table below (and "next to upload").
+
 ## Current Progress Log
 Update this section during/after processing runs.
 
