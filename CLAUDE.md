@@ -111,12 +111,12 @@ Update this section during/after processing runs.
   |---|---|---|---|
   | Audio (`.mp3`) | 603 | 603 | generate ch. **604+** |
   | Video (`.mp4`) | 351 | 350 | create ch. **351+** (audio is ~253 ch. ahead) |
-  | Upload | 240 | 240 (no gaps) | upload ch. **241** |
+  | Upload | 250 | 250 (no gaps) | upload ch. **251** |
 - **Audio:** 603 files (V1=109, V2=154, V3=231, V4=109). Last run `2026-05-12` — ch. `603` (`Volume_4_Sinner/Chapter_603_Organs_Again.mp3`).
 - **Video:** 351 files through ch. 350 (V1=110, V2=154, V3=87, V4=**0**). Big backlog: ch. 351–603 have audio but no video; `Volume_4_Sinner` has none yet.
-- **Uploads:** 240 entries, chapters **1–240 fully uploaded with NO gaps** (the old "241/242 gap" note was stale; ch. 239 was the last gap, filled 2026-06-03, and ch. 240 was already up).
-- **Next to upload:** chapter `241` (then 242, 243 …). Videos already exist through ch. 350, so ~110 chapters (241–350) are ready to upload right now.
-- Most recent upload: `2026-06-03T00:28:12` — `Chapter_239_Fighting_Fire.mp4` (`https://youtube.com/watch?v=SxI6DJIVPAY`). Ch. 240 (`Chapter_240_Bewitchment`, vid `5ngcc_9v6lY`) was uploaded earlier, on 2026-05-27.
-- **Playlist note:** the latest uploads (236–240) went to the WRONG playlist `PLV2gvMHy77hrh1HeiBECpJ61Smbgg5_S6`; verify config before the next batch (see YouTube uploads section).
+- **Uploads:** 250 entries, chapters **1–250 fully uploaded with NO gaps**.
+- **Next to upload:** chapter `251` (then 252, 253 …). Videos exist through ch. 350, so ~100 chapters (251–350) are ready to upload right now.
+- Most recent upload: `2026-06-15T01:08:34` — `Chapter_250_Condolence_Banquet.mp4` (Lightseeker playlist). Batch of ch. **241–250** uploaded 2026-06-14→15, all correctly routed to the canonical Lightseeker playlist `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s` (playlist fix confirmed working).
+- **Playlist note:** the older uploads **236–240** (and 25 earlier ones) are still on the WRONG playlist `PLV2gvMHy77hrh1HeiBECpJ61Smbgg5_S6` — move them manually in YouTube Studio. Everything from 241 on is correct.
 - Notes: ch. **230–232** may have duplicate uploads on channel from overlapping runs. Ch. 215 title may still need a manual fix on YouTube.
 - EPUB formatted chapters (repo): `1180` `.txt` files under `formatted_text/lom_book2_coi` in **8** volume folders (from `epub_to_text/lom_book2_coi/epub/Circle of Inevitability.epub` + `epub_to_text/lom_book2_coi/volume_map.json`)
