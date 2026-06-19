@@ -57,6 +57,21 @@
 - YouTube titles come from the **`Chapter N: <title>`** line in the formatted source text (`input_directory`), not the video filename.
 - Config: `tts_pipeline/config/projects/lom_book2_coi/youtube_config.json`
 
+### Step 4 — END SCREENS (next-chapter links)  → run AFTER a fully successful upload
+> Standing rule: **whenever the user asks to upload videos, once the whole batch has uploaded successfully (Step 3 reports `Failed: 0`), proceed to add end screens.** If ANY video in the batch failed to upload, do NOT run this step — fix the upload first. Tool: `youtube_endscreen.py` (drives YouTube Studio UI via Playwright; end screens are not in the Data API).
+- **Range rule (include the previous boundary chapter):** for an uploaded batch of chapters **N–M**, run end screens on **sources `(N-1)` through `(M-1)`**. This makes the previous last chapter `(N-1)` link to the first new chapter `N`, and each new chapter link to the next. The newest chapter `M` is intentionally **left until the next batch** (its target `M+1` isn't uploaded yet).
+  - **Example:** user uploads the next 10 = **261–270** → run end screens on **260–269** (`260→261`, `261→262`, … `269→270`). Chapter **270** waits for the following batch.
+- **Command:** `python youtube_endscreen.py --project lom_book2_coi --chapters (N-1)-(M-1) --connect-port 9222 --yes`
+  - e.g. after uploading 261–270: `python youtube_endscreen.py --project lom_book2_coi --chapters 260-269 --connect-port 9222 --yes`
+  - Pre-check offline first (no browser): add `--plan-only`. Verify one before a big batch: `--chapters (N-1)-(N-1)` then `--dry-run`.
+- **Style (matches the manual videos ch.249 and below):** Subscribe element left-middle + next-chapter Video element right-middle. Implemented by importing the layout from `--style-from 249` (default) and retargeting the video element. Don't change unless the user asks.
+- **Login / browser prereq (Google blocks automated sign-in):** the tool ATTACHES to a real Chrome on `--connect-port 9222`. Start it first; the logged-in profile persists at `%USERPROFILE%\yt-studio-login` (account = **breadmoretti@gmail.com**, which manages the channel — NOT paolo.gene).
+  - Launch: `& "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="%USERPROFILE%\yt-studio-login" "https://studio.youtube.com/"`
+  - If that profile is ever logged out / missing: sign in FIRST in a normal Chrome with a custom `--user-data-dir` and **no** debug port (Google allows it), then relaunch the same dir WITH the port. (App-Bound Encryption blocks copying a logged-in profile; a Playwright-launched browser is blocked at sign-in.)
+- **Safety guard:** unlisted-only — the tool reads `privacyStatus` via the Data API and skips public/private videos. If the boundary chapter `(N-1)` is already **public**, include it explicitly with `--allow-public-chapters (N-1)`.
+- **Idempotent:** videos that already have an end screen are skipped (no duplicates); rebuilding one requires clearing it manually first.
+- Tool lives on branch `feature/youtube-endscreens` (merge to master to use it from the main branch).
+
 ### (Setup only) — Extract EPUB → formatted text
 - `python epub_to_text/main.py "<path>.epub" -p "lom_book2_coi" -o "formatted_text"`
   - Extracts EPUB to `formatted_text/<project>/Volume_#/…/Chapter_#_….txt` for TTS. Each file begins with two header lines for TTS pauses: `Lord of Mysteries 2: Circle of Inevitability` then `Chapter N: <title>`. Leading body echoes of the title (including nav-style `N Title` / `N: Title` lines) are dropped so they are not read twice by TTS.
@@ -120,12 +135,12 @@ Update this section during/after processing runs.
   |---|---|---|---|
   | Audio (`.mp3`) | 603 | 603 | generate ch. **604+** |
   | Video (`.mp4`) | 351 | 350 | create ch. **351+** (audio is ~253 ch. ahead) |
-  | Upload | 250 | 250 (no gaps) | upload ch. **251** |
+  | Upload | 260 | 260 (no gaps) | upload ch. **261** |
 - **Audio:** 603 files (V1=109, V2=154, V3=231, V4=109). Last run `2026-05-12` — ch. `603` (`Volume_4_Sinner/Chapter_603_Organs_Again.mp3`).
 - **Video:** 351 files through ch. 350 (V1=110, V2=154, V3=87, V4=**0**). Big backlog: ch. 351–603 have audio but no video; `Volume_4_Sinner` has none yet.
-- **Uploads:** 250 entries, chapters **1–250 fully uploaded with NO gaps**.
-- **Next to upload:** chapter `251` (then 252, 253 …). Videos exist through ch. 350, so ~100 chapters (251–350) are ready to upload right now.
-- Most recent upload: `2026-06-15T01:08:34` — `Chapter_250_Condolence_Banquet.mp4` (Lightseeker playlist). Batch of ch. **241–250** uploaded 2026-06-14→15, all correctly routed to the canonical Lightseeker playlist `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s` (playlist fix confirmed working).
+- **Uploads:** 260 entries, chapters **1–260 fully uploaded with NO gaps**.
+- **Next to upload:** chapter `261` (then 262, 263 …). Videos exist through ch. 350, so ~90 chapters (261–350) are ready to upload right now. ⚠️ Volume boundary at ch. 264: ch. 261–263 → Volume 2 (Lightseeker); ch. **264+ → Volume 3 (Conspirer)** which auto-creates a new playlist — capture that ID into `youtube_config.json → playlists.playlist_ids["3"]` after the first ch.264 upload.
+- Most recent upload: `2026-06-18` — batch of ch. **251–260** uploaded (10/10 success, 0 failed), all routed to the canonical Lightseeker playlist `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s`. Video IDs: 251 `NAcRnOcfezM`, 252 `7aAfZhRt5kU`, 253 `Qn_If9Ocw9U`, 254 `N92STG7KL5k`, 255 `OtMSCWY4Ro8`, 256 `NIgL_FPrWsU`, 257 `FsHhzue1ZBo`, 258 `slJubVTzF3I`, 259 `emfmO9UGyWo`, 260 `XVJw7wvQiXE`. (Each logged a benign "Video may not be in playlist" warning — verify playlist membership in YouTube Studio if needed.)
 - **Playlist note:** the older uploads **236–240** (and 25 earlier ones) are still on the WRONG playlist `PLV2gvMHy77hrh1HeiBECpJ61Smbgg5_S6` — move them manually in YouTube Studio. Everything from 241 on is correct.
 - Notes: ch. **230–232** may have duplicate uploads on channel from overlapping runs. Ch. 215 title may still need a manual fix on YouTube.
 - EPUB formatted chapters (repo): `1180` `.txt` files under `formatted_text/lom_book2_coi` in **8** volume folders (from `epub_to_text/lom_book2_coi/epub/Circle of Inevitability.epub` + `epub_to_text/lom_book2_coi/volume_map.json`)
