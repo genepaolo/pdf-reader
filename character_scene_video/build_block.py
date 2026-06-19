@@ -12,7 +12,7 @@ Output: timelines/block_01_ch001-050.md (chapter-by-chapter, reviewable) + .json
 Usage: python build_block.py [first_chapter last_chapter]   (default 1 50)
 """
 from __future__ import annotations
-import csv, glob, json, sys
+import csv, glob, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -138,9 +138,10 @@ def main():
                 images = list(prev_images)
             cont_prev = idx == 0 and continues
             dur = DUR[ch] * cc / tot
-            rows.append({"start": hms(offset), "duration": hms(dur), "present_cast": cast,
-                         "images": images, "missing_images": missing, "layout": layout,
-                         "continues_prev": cont_prev, "text_anchor": s.get("text_anchor", "")})
+            rows.append({"start": hms(offset), "end": hms(offset + dur), "duration": hms(dur),
+                         "present_cast": cast, "images": images, "missing_images": missing,
+                         "layout": layout, "continues_prev": cont_prev,
+                         "text_anchor": s.get("text_anchor", "")})
             prev_images = images
             for label in cast:
                 key = "Klein Moretti (protagonist)" if label.startswith("Klein") else label
@@ -149,28 +150,40 @@ def main():
             offset += dur
         chapters_out.append({"chapter": ch, "title": title_of(ch), "scenes": rows})
 
-    # ---- write markdown ----
+    # ---- write markdown (skim-friendly: per-scene blocks, inline portrait status) ----
+    INLINE = {"have": "✅", "need": "❌", "minor": "➖", "background": ""}
+
+    def slug(s):
+        return re.sub(r"\s+", "-", re.sub(r"[^\w\s-]", "", s.lower()).strip())
+
+    def cast_line(r):
+        parts = []
+        for label in r["present_cast"]:
+            m = INLINE[classify(label)]
+            parts.append(f"{label} {m}".strip())
+        return " · ".join(parts) if parts else "—"
+
+    L = [f"# Scene Timeline — Block 1 (chapters {first}-{last})", "",
+         f"**Total** {hms(offset)} · **{sum(len(c['scenes']) for c in chapters_out)} scenes** · "
+         f"{len(chapters_out)} chapters &nbsp;|&nbsp; durations are char-share ESTIMATES (until forced "
+         f"alignment) &nbsp;|&nbsp; `↳` = scene continues from the previous chapter.", "",
+         "**Portrait status:**  ✅ has one · ❌ wiki character, none yet (your call) · ➖ minor (no wiki "
+         "page) · unnamed extras shown plain.", "",
+         "**Jump to chapter:** " + " · ".join(
+             f"[{c['chapter']}](#chapter-{c['chapter']}-{slug(c['title'])})" for c in chapters_out), "",
+         "---", ""]
+    for c in chapters_out:
+        cont = "  _↳ continues from Ch " + str(c["chapter"] - 1) + "_" if (
+            c["scenes"] and c["scenes"][0]["continues_prev"]) else ""
+        L += [f"## Chapter {c['chapter']}: {c['title']}{cont}", ""]
+        for i, r in enumerate(c["scenes"], 1):
+            tag = "↳ " if r["continues_prev"] else ""
+            L.append(f"**S{i}** &nbsp; `{r['start']} → {r['end']}` &nbsp;·&nbsp; {r['duration']} &nbsp; {tag}{cast_line(r)}  ")
+            L.append(f"> {r['text_anchor']}")
+            L.append("")
+    # ---- consolidated character index ----
     STATUS = {"have": "✅", "need": "❌ get image (wiki char)", "minor": "➖ minor (no wiki page)",
               "background": "· unnamed"}
-    L = [f"# Scene Timeline — Block 1 (chapters {first}-{last})", "",
-         f"_Content pass, full-cast tracking. Durations are char-share ESTIMATES (placeholder until forced "
-         f"alignment). Base persona flips Klein (Beginning) -> Klein Moretti at ch{NIGHTHAWKS_ANCHOR} "
-         f"(Nighthawks contract). Review chapter-by-chapter; correct any cast/persona; missing wiki "
-         f"characters are listed at the bottom._", "",
-         f"**Total:** {hms(offset)}  ·  **scenes:** {sum(len(c['scenes']) for c in chapters_out)}  ·  "
-         f"**chapters:** {len(chapters_out)}", ""]
-    for c in chapters_out:
-        L.append(f"## Chapter {c['chapter']}: {c['title']}")
-        if c["scenes"] and c["scenes"][0]["continues_prev"]:
-            L.append(f"_↳ continues the scene from Chapter {c['chapter']-1} (cast carries over)_")
-        L += ["", "| Start | Dur | Present cast | Image(s) | Missing |", "|---|---|---|---|---|"]
-        for r in c["scenes"]:
-            miss = ", ".join(r["missing_images"]) or "—"
-            anchor = "↳ " if r["continues_prev"] else ""
-            L.append(f"| {r['start']} | {r['duration']} | {anchor}{', '.join(r['present_cast'])} | "
-                     f"{', '.join(r['images'])} | {miss} |")
-        L.append("")
-    # ---- consolidated character index ----
     L += ["## Character index (whole batch)", "", "| Character | Status | Scenes |", "|---|---|---|"]
     for name in sorted(index, key=lambda n: (-index[n]["scenes"], n)):
         L.append(f"| {name} | {STATUS[index[name]['status']]} | {index[name]['scenes']} |")
