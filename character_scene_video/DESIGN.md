@@ -206,9 +206,53 @@ become Sherlock, Tarot Club founding, The World intro, Gehrman Sparrow creation)
 
 ---
 
-## 10. Milestones
+## 10. Scene Timeline artifact (per batch) — the review deliverable
 
-**The Scene Timeline is built and human-verified BEFORE any video is rendered.**
+**Requirement:** for each batch of chapters we produce one timeline that lists, scene by scene, **how long
+each scene runs** and **which characters/images are shown**. This is the artifact you verify before any
+video is rendered.
+
+**Granularity.** One timeline per **video batch** (50 chapters ≈ 10 hr; book1 = 29 batches). A **scene** is a
+contiguous span over which the on-screen cast is stable — a new scene begins when the present character set
+changes (someone enters/leaves) or at a clear location/POV shift. Scene *boundaries* come from Claude's text
+tagging; each scene's *length* comes from forced-aligning that span's text against the audio.
+
+**Two paired files per batch:**
+- `character_scene_video/timelines/block_NN_chAAA-BBB.json` — machine format that drives rendering.
+- `character_scene_video/timelines/block_NN_chAAA-BBB.md` — human-readable table for your review.
+
+**JSON schema (per scene):**
+```jsonc
+{
+  "batch": 1,
+  "chapters": "1-50",
+  "video_duration": "10:52:18",          // sum of all scene durations in the batch
+  "scenes": [
+    {
+      "id": "ch1.s1",
+      "chapter": 1,
+      "start": "00:00:00.0",             // batch-relative (maps onto the concatenated video)
+      "end":   "00:01:48.3",
+      "duration": "00:01:48.3",          // <-- the scene length
+      "characters": ["Klein (as Zhou Mingrui)"],
+      "images": ["Zhou Mingrui.jpg"],    // resolved via character_map + Klein persona + Tarot override
+      "layout": "single",                // single | row(N) | grid(N)
+      "text_anchor": "Painful! How painful! My head hurts so badly!"  // first words, so you can locate it
+    }
+  ]
+}
+```
+
+**Human-readable `.md` row per scene:** `start | duration | ch | characters | images`. A reviewer reads top to
+bottom, spot-checks the image choices against the text_anchor, and edits any wrong cast/persona. Corrections
+feed back into `character_map.json` (aliases/anchors) or a per-scene override before rendering.
+
+> Until forced alignment is wired up (M3), scene *durations* are placeholders; scene *content* (cast + images)
+> can be reviewed first from the text alone.
+
+## 11. Milestones
+
+**The per-batch Scene Timeline (§10) is built and human-verified BEFORE any video is rendered.**
 
 1. **M0 (done):** scrape + filter assets (30 portraits), verify EPUB integrity, write this doc.
 2. **M1 — Source + map:**
@@ -216,17 +260,15 @@ become Sherlock, Tarot Club founding, The World intro, Gehrman Sparrow creation)
      numbering, UTF-8. Required a `volume_map.json` (book1's TOC has "Book" in 3 chapter titles that the
      no-map path mis-ate as volume headers) and a converter fix: added `--series-title` so book1 files say
      "Lord of Mysteries" not the hardcoded book2 title.
-   - ⬜ Curate `character_map.json` (aliases + Klein persona cluster).
-   - ⬜ Verify the five event-anchor chapters (§3). **Keyword first-occurrences (candidates, need context
-     read to pin the actual event):** `Tarot Club` ch 7 · `Nighthawk` ch 6 (org named; membership later) ·
-     `Sherlock Moriarty` ch 215 (Vol 2 start / move to Backlund) · `Gehrman Sparrow` ch 483 (Vol 3 start) ·
-     `Dwayne Dantès` ch 732 · `Merlin Hermes` ch 1290. "The World" identity is not keyword-findable (generic
-     phrase) — needs a context read mid-Vol 2.
-3. **M2 — Scene Timeline (REVIEW GATE):** generate the per-chapter Scene Timeline — for each scene, the
-   characters present and Klein's resolved persona portrait — as a **human-readable artifact you manually
-   verify/correct.** No audio/video work yet; this validates the character logic first. Start with a small
-   sample (e.g. ch 1–5 + a Tarot Club chapter + a known Gehrman/Sherlock chapter) so you can sanity-check the
-   persona rules before generating all 1,432.
+   - ✅ Drafted `character_map.json` (30 chars + images; Klein persona cluster; conservative empty aliases).
+   - 🔶 Event anchors — **3 of 5 pinned with citations:** Zhou→Klein(Beginning) ch 1 line 93 · Sherlock
+     ch 215 line 79 · Gehrman created ch 483 line 47. **Still open:** Nighthawks induction (ch 16 is only
+     *contemplation*; real join ~ch 13–20) and The World introduction (mid-Vol 2, context read). Tarot Club
+     first gathering ~ch 7 (Fool override) to confirm.
+3. **M2 — Scene Timeline per batch (REVIEW GATE):** produce the §10 artifact for a batch — every scene with
+   its **duration** and **character images**, as a human-readable table you verify/correct. Validate the
+   character/persona logic first on a small sample (ch 1–5 + a Tarot Club chapter + a Gehrman/Sherlock
+   chapter) before generating all 29 batches.
 4. **M3 — Timing:** forced-align the verified-timeline chapters → attach timestamps to each scene.
 5. **M4 — PoC video:** render Chapter 1 end-to-end (composite → switching frames → mux audio); you review.
 6. **M5 — Block #1:** scale to chapters 1–50 → one ~10.9 hr video + `0:00 Chapter N` description.

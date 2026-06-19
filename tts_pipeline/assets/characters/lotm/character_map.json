@@ -1,0 +1,64 @@
+{
+  "_status": "DRAFT — structure + Klein persona rules from DESIGN.md §3. Anchor chapters are null (to be pinned during the Scene Timeline, M2). Non-Klein 'aliases' are empty and to be populated/verified; do not assume canon.",
+  "image_dir": "tts_pipeline/assets/characters/lotm",
+
+  "protagonist": {
+    "_note": "All portraits below depict the protagonist (Klein). Per-scene resolution order: (1) if the scene is a Tarot Club context -> context_override.tarot_club; (2) if the text uses an explicit alias -> alias_to_image; (3) otherwise the base_persona_timeline by chapter; (4) 'The World' identity uses the_world_identity rules.",
+
+    "base_persona_timeline": [
+      { "order": 0, "trigger": "very beginning, until the name 'Klein' is first mentioned", "image": "Zhou Mingrui.jpg", "anchor_chapter": 1, "anchor_within_chapter": "ch 1 lines 3-92 (before the name 'Klein' appears)", "_verified": "ch1 line 93 is first 'Klein Moretti' mention" },
+      { "order": 1, "trigger": "the name 'Klein' is first mentioned (within ch 1)", "image": "Klein Moretti (Beginning of the Series).jpg", "anchor_chapter": 1, "anchor_within_chapter": "from ch 1 line 93: 'Klein Moretti, a citizen of the Northern Continent's Loen Kingdom...'", "_verified": true },
+      { "order": 2, "trigger": "joins the Nighthawks", "image": "Klein Moretti.jpg", "anchor_chapter": null, "_candidate": "ch 16 line 91 is Klein still only *contemplating* joining; actual induction not yet pinned (needs context read ~ch 13-20)" },
+      { "order": 3, "trigger": "moves city / becomes Sherlock Moriarty", "image": "Sherlock Moriarty.jpg", "anchor_chapter": 215, "_verified": "ch215 (Mrs. Sammer) line 79: 'Sherlock Moriarty. You can call me Sherlock.' Klein had long thought of a fake name." }
+    ],
+
+    "context_override": {
+      "tarot_club": "The Fool.jpg",
+      "_note": "Any scene framed in the Tarot Club / above the gray fog -> The Fool, regardless of base persona.",
+      "_candidate_first_tarot_club": "ch 7"
+    },
+
+    "alias_to_image": {
+      "The Fool": "The Fool.jpg",
+      "Sherlock Moriarty": "Sherlock Moriarty.jpg",
+      "Gehrman Sparrow": "Gehrman Sparrow.jpg",
+      "Dwayne Dantès": "Dwayne Dantès.jpg",
+      "Merlin Hermes": "Merlin Hermes.jpg"
+    },
+
+    "the_world_identity": {
+      "_note": "'The World' is an alternate identity of Klein introduced ~middle of Volume 2. Not keyword-findable; pin by context read.",
+      "image_before_gehrman_created": "Sherlock Moriarty.jpg",
+      "image_after_gehrman_created": "Gehrman Sparrow.jpg",
+      "introduced_anchor_chapter": null,
+      "gehrman_created_anchor_chapter": 483,
+      "_verified_gehrman_created": "ch483 (New Identity) line 47: '...In accordance with Klein's wishes, his name was Gehrman Sparrow.'",
+      "_introduced_note": "The World's introduction mid-Vol 2 still needs a context read to pin."
+    }
+  },
+
+  "characters": {
+    "Amon": { "image": "Amon.jpg", "aliases": [], "_note": "distinct entity, NOT Klein" },
+    "True Creator": { "image": "True Creator.jpg", "aliases": [], "_note": "distinct entity, NOT Klein" },
+    "Bernadette Gustav": { "image": "Bernadette Gustav.jpg", "aliases": [] },
+    "Cattleya": { "image": "Cattleya.jpg", "aliases": [] },
+    "Colin Iliad": { "image": "Colin Iliad.jpg", "aliases": [] },
+    "Cynthia": { "image": "Cynthia.jpg", "aliases": [] },
+    "Danitz": { "image": "Danitz.jpg", "aliases": [] },
+    "Derrick Berg": { "image": "Derrick Berg.jpg", "aliases": [] },
+    "Dunn Smith": { "image": "Dunn Smith.jpg", "aliases": [] },
+    "Edwina Edwards": { "image": "Edwina Edwards.jpg", "aliases": [] },
+    "Emlyn White": { "image": "Emlyn White.jpg", "aliases": [] },
+    "Evernight Goddess": { "image": "Evernight Goddess.jpg", "aliases": [] },
+    "Fors Wall": { "image": "Fors Wall.jpg", "aliases": [] },
+    "Frank Lee": { "image": "Frank Lee.jpg", "aliases": [] },
+    "Ince Zangwill": { "image": "Ince Zangwill.jpg", "aliases": [] },
+    "Leonard Mitchell": { "image": "Leonard Mitchell.jpg", "aliases": [] },
+    "Ouroboros": { "image": "Ouroboros.jpg", "aliases": [] },
+    "Reinette Tinekerr": { "image": "Reinette Tinekerr.jpg", "aliases": [] },
+    "Sharron Cropped": { "image": "Sharron Cropped.jpg", "aliases": [], "_note": "filename literally contains 'Cropped' but is the only official image; kept as-is per decision" },
+    "Trissy": { "image": "Trissy.jpg", "aliases": [] },
+    "Wil Auceptin": { "image": "Wil Auceptin.jpg", "aliases": [] },
+    "Xio Derecha": { "image": "Xio Derecha.jpg", "aliases": [] }
+  }
+}
