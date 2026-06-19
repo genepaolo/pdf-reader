@@ -155,15 +155,25 @@ Stages 1–5 are per-chapter and idempotent: re-running only reprocesses missing
 
 ## 6. Frame composition rules (scene-presence)
 
-- Portraits are tall (~1:2.2). Scale each to a common height (e.g. 980 px) on a 1920×1080 canvas.
-- Layout by count: 1 → centered; 2–4 → single row; 5–8 → two rows; 9+ (rare, big Tarot gatherings) → grid,
-  cap at a max (e.g. 9) and/or shrink. Optional name caption under each.
+- **Open roster.** 35 characters currently have portraits (wiki-wide scrape). The roster is *open* — drop in
+  a portrait for any character/name and add one `character_map.json` entry (see `_adding_images` there). The
+  per-batch character index (§10) lists who still lacks an image so you know what to find.
+- **Row viability.** Portraits vary in aspect/resolution. The compositor normalizes each to a common height
+  (e.g. 980 px) and even horizontal spacing on the 1920×1080 canvas, so mixed sources sit together cleanly.
+  Images flagged `row_viable=false` in `_manifest.json` (landscape banners / very low-res, e.g. the
+  670×360 `Klein` banner) are **excluded from group scenes**; ideally portraits are tall, full-body/bust, on a
+  clean or transparent background.
+- **Layout by count:** 1 → centered; 2–4 → single row; 5–8 → two rows; 9+ (big Tarot gatherings) → grid,
+  cap at a max (e.g. 9) and/or shrink.
+- **No name captions** (confirmed) — portraits only.
 - **Cache key = sorted set of portrait filenames** → identical groups reuse one rendered PNG (huge speedup
   across 281 hrs).
-- **No name captions** (confirmed) — portraits only.
-- **Fallback (CONFIRMED):** scene with no portrait-bearing character / narration-only → show **Klein's
-  current persona portrait** (per §3 A–C), i.e. the default-default is whatever guise Klein is in at that
-  point in the story (`Klein Moretti` if ambiguous). We do NOT fall back to a neutral background.
+- **Fallback = HOLD PREVIOUS FRAME (CONFIRMED).** When a scene has no portrait-bearing character present
+  (e.g. a POV cutaway to a character who has no portrait, or pure narration), **keep the previous frame on
+  screen** rather than forcing Klein in. Only if there is no previous frame (very start) default to Klein's
+  current persona. This prevents falsely implying Klein is in a scene he's absent from. (Note: with Audrey
+  Hall and Alger Wilson now in the roster, several former "cutaway → Klein" cases resolve to the actual
+  character instead.)
 
 ---
 
@@ -185,8 +195,8 @@ description so YouTube auto-generates chapter markers.
    Scene-presence (chosen) is the robust option; still needs spot-checking.
 3. **Alignment drift** on long chapters — mitigated by chunking and aligning to *known* text.
 4. **Compute** — aligning + rendering 281 hrs is heavy but local, GPU-accelerated, and incremental.
-5. **Asset gaps** — only 30 characters have art; many minor characters will never appear. Confirm the default
-   fallback visual.
+5. **Asset gaps** — 35 characters have art; many minor characters have none. Mitigated by the open roster
+   (add images anytime) + full-cast tracking (§10 lists who's missing) + hold-previous-frame fallback.
 
 ---
 
@@ -194,10 +204,13 @@ description so YouTube auto-generates chapter markers.
 
 - **Timing:** forced alignment (aeneas) on existing audio. ✔
 - **Display:** scene-presence. ✔
-- **Assets:** only `<Name> Official.jpg|png` (30 portraits); no Crop/Cropped/Full. ✔
+- **Assets:** `<Name> Official.jpg|png` only (no Crop/Cropped/Full), discovered **wiki-wide** (the category
+  was incomplete) → **35 character portraits**. Roster is open; user supplies more over time. ✔
 - **Klein personas:** rules in §3 confirmed; Amon & True Creator are separate; Merlin Hermes = Klein. ✔
 - **`Sharron Cropped`:** keep the key as-is (it is not actually cropped). ✔
-- **Fallback frame:** Klein's current persona portrait (default `Klein Moretti`). ✔
+- **Fallback frame:** **hold previous frame** when no portrait-bearing character is present (not Klein). ✔
+- **Multi-character rows:** normalize to common height; exclude `row_viable=false` images (e.g. Klein banner). ✔
+- **Full-cast tracking:** every scene logs all present characters + a per-batch "needs image" list. ✔
 - **Name captions:** none. ✔
 - **EPUB integrity:** verified — 1,432 chapters (1–1432), no gaps/dupes/empties, clean prose. ✔
 
@@ -221,6 +234,11 @@ tagging; each scene's *length* comes from forced-aligning that span's text again
 - `character_scene_video/timelines/block_NN_chAAA-BBB.json` — machine format that drives rendering.
 - `character_scene_video/timelines/block_NN_chAAA-BBB.md` — human-readable table for your review.
 
+**Track the FULL cast, not just who has a portrait.** Every scene records *all* named characters/titles
+physically present — including ones with no image yet — so each batch yields a complete character inventory
+and a "needs an image" list. You can then supply missing images over time (per `character_map.json
+_adding_images`), and re-rendering picks them up.
+
 **JSON schema (per scene):**
 ```jsonc
 {
@@ -234,18 +252,25 @@ tagging; each scene's *length* comes from forced-aligning that span's text again
       "start": "00:00:00.0",             // batch-relative (maps onto the concatenated video)
       "end":   "00:01:48.3",
       "duration": "00:01:48.3",          // <-- the scene length
-      "characters": ["Klein (as Zhou Mingrui)"],
-      "images": ["Zhou Mingrui.jpg"],    // resolved via character_map + Klein persona + Tarot override
-      "layout": "single",                // single | row(N) | grid(N)
+      "present_cast": ["Klein (as Zhou Mingrui)"],  // EVERY named character present this scene
+      "images": ["Zhou Mingrui.jpg"],    // resolved portraits (subset of present_cast that has art)
+      "missing_images": [],              // present_cast members with NO portrait yet (you can supply later)
+      "layout": "single",                // single | row(N) | grid(N) | hold-previous
       "text_anchor": "Painful! How painful! My head hurts so badly!"  // first words, so you can locate it
     }
-  ]
+  ],
+  "characters_index": {                  // batch rollup, auto-generated from present_cast
+    "Klein": { "has_image": true,  "scenes": 14 },
+    "Melissa": { "has_image": false, "scenes": 1 }   // <-- shows up on the "needs an image" list
+  }
 }
 ```
 
-**Human-readable `.md` row per scene:** `start | duration | ch | characters | images`. A reviewer reads top to
-bottom, spot-checks the image choices against the text_anchor, and edits any wrong cast/persona. Corrections
-feed back into `character_map.json` (aliases/anchors) or a per-scene override before rendering.
+**Human-readable `.md` row per scene:** `start | duration | ch | present cast | images | missing`. Plus a
+**character index** table at the bottom: every name seen in the batch, scene count, and ✅/❌ for portrait
+availability — that ❌ list is your shopping list of images to find. A reviewer reads top to bottom,
+spot-checks image choices against the text_anchor, and edits any wrong cast/persona. Corrections feed back
+into `character_map.json` (add image / aliases / anchors) or a per-scene override before rendering.
 
 > Until forced alignment is wired up (M3), scene *durations* are placeholders; scene *content* (cast + images)
 > can be reviewed first from the text alone.

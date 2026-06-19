@@ -1,6 +1,16 @@
 {
-  "_status": "DRAFT — structure + Klein persona rules from DESIGN.md §3. Anchor chapters are null (to be pinned during the Scene Timeline, M2). Non-Klein 'aliases' are empty and to be populated/verified; do not assume canon.",
+  "_status": "DRAFT — 35 characters have official portraits (wiki-wide scrape; see _manifest.json). Klein persona rules per DESIGN.md §3. Some anchors null (pin during Scene Timeline). Most non-Klein 'aliases' empty and to be verified; do not assume canon.",
   "image_dir": "tts_pipeline/assets/characters/lotm",
+
+  "_adding_images": {
+    "_note": "This roster is OPEN — add a portrait for ANY character/name (even minor ones) whenever an image is found. The per-batch Scene Timeline tracks every named character present and lists which ones lack a portrait (see DESIGN.md §10).",
+    "how_to_add": [
+      "1. Put the image file in image_dir (prefer a tall, full-body or bust portrait on a clean/transparent background so it composes in a multi-character row).",
+      "2. Add an entry under 'characters': \"<Canonical Name>\": { \"image\": \"<file>\", \"aliases\": [\"...\"] }.",
+      "3. Re-run the affected batch's timeline; the character now resolves to that image.",
+      "Viability: landscape banners / very low-res images are flagged 'row_viable=false' in _manifest.json and are skipped in group (row) scenes."
+    ]
+  },
 
   "protagonist": {
     "_note": "All portraits below depict the protagonist (Klein). Per-scene resolution order: (1) if the scene is a Tarot Club context -> context_override.tarot_club; (2) if the text uses an explicit alias -> alias_to_image; (3) otherwise the base_persona_timeline by chapter; (4) 'The World' identity uses the_world_identity rules.",
@@ -40,6 +50,10 @@
   "characters": {
     "Amon": { "image": "Amon.jpg", "aliases": [], "_note": "distinct entity, NOT Klein" },
     "True Creator": { "image": "True Creator.jpg", "aliases": [], "_note": "distinct entity, NOT Klein" },
+    "Alger Wilson": { "image": "Alger Wilson.jpg", "aliases": ["The Hanged Man"], "_note": "Tarot Club; clean Official.jpg was gallery-only (not in category). Tarot seat alias to verify." },
+    "Audrey Hall": { "image": "Audrey Hall.jpg", "aliases": ["Justice"], "_note": "Tarot Club; clean Official.jpg was gallery-only (not in category). Tarot seat alias to verify." },
+    "Daly Simone": { "image": "Daly Simone.jpg", "aliases": [] },
+    "Roselle Gustav": { "image": "Roselle Gustav.jpg", "aliases": ["Emperor Roselle", "Roselle"], "_note": "historical transmigrator/Emperor; aliases to verify" },
     "Bernadette Gustav": { "image": "Bernadette Gustav.jpg", "aliases": [] },
     "Cattleya": { "image": "Cattleya.jpg", "aliases": [] },
     "Colin Iliad": { "image": "Colin Iliad.jpg", "aliases": [] },

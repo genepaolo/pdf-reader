@@ -27,11 +27,27 @@ import urllib.request
 from pathlib import Path
 
 API = "https://lordofthemysteries.fandom.com/api.php"
-CATEGORY = "Category:Official_Character_Images"
 UA = "LOTM-fan-project/1.0 (character-scene-video asset scraper)"
 
-# Exactly "<Name> Official.<ext>" — excludes "... Official Crop/Cropped/Full.<ext>" and bare names.
-OFFICIAL_RE = re.compile(r"^File:(?P<name>.+) Official\.(?P<ext>jpg|jpeg|png)$", re.IGNORECASE)
+# allimages returns `name` with UNDERSCORES, e.g. "Audrey_Hall_Official.jpg".
+# Keep exactly "<Name>_Official.<ext>"; drop the Crop/Cropped/Full variants. We enumerate
+# wiki-wide (NOT just Category:Official_Character_Images) because that category is incomplete —
+# some clean Official.jpg files live only on a character's gallery page (e.g. Audrey Hall, Alger Wilson).
+OFFICIAL_RE = re.compile(r"^(?P<name>.+)_Official\.(?P<ext>jpg|jpeg|png)$", re.IGNORECASE)
+VARIANT_RE = re.compile(r"_Official_(Crop|Cropped|Full)\.", re.IGNORECASE)
+
+# Wiki-wide discovery also matches place/concept "Official" images (not characters). These are
+# tagged kind="place" so the character roster can skip them (but they remain available, e.g. as
+# location backdrops).
+PLACES = {
+    "Divination Club", "Forsaken Land of the Gods", "Giant King's Court", "Giant King’s Court",
+    "Hornacis Mountain Range", "Inverted Mausoleum", "Liveseyd", "Mind World", "Sefirah Castle",
+    "Spirit World", "Spirit World Appearance", "Tingen City",
+}
+
+# Images whose dimensions are unusable as a standing portrait in a multi-character row
+# (e.g. landscape banners). Tagged not row-viable so the compositor skips them in group scenes.
+NON_PORTRAIT = {"Klein"}  # "Klein Official.jpg" is a 670x360 banner, not a standing portrait
 
 DEST = Path(__file__).resolve().parent.parent / "tts_pipeline" / "assets" / "characters" / "lotm"
 
@@ -44,56 +60,40 @@ def _get(params: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-def list_category_files() -> list[str]:
-    titles: list[str] = []
+def discover_official_portraits() -> list[dict]:
+    """Enumerate ALL files wiki-wide and keep the clean `<Name> Official.<ext>` ones, tagging each
+    character vs place and whether it is viable in a multi-character row (portrait-ish aspect)."""
+    out: list[dict] = []
     cont: str | None = None
     while True:
-        params = {
-            "action": "query",
-            "list": "categorymembers",
-            "cmtitle": CATEGORY,
-            "cmtype": "file",
-            "cmlimit": "500",
-        }
+        params = {"action": "query", "list": "allimages", "ailimit": "500",
+                  "aiprop": "url|size|mime", "aisort": "name"}
         if cont:
-            params["cmcontinue"] = cont
+            params["aicontinue"] = cont
         data = _get(params)
-        titles += [m["title"] for m in data["query"]["categorymembers"]]
-        cont = data.get("continue", {}).get("cmcontinue")
+        for img in data["query"]["allimages"]:
+            fname = img["name"]  # underscores
+            if VARIANT_RE.search(fname):
+                continue
+            m = OFFICIAL_RE.match(fname)
+            if not m:
+                continue
+            name = m.group("name").replace("_", " ")
+            w, h = img.get("width") or 0, img.get("height") or 0
+            row_viable = name not in NON_PORTRAIT and h >= w  # portrait-ish, tall enough for a row
+            out.append({
+                "title": f"File:{fname}",
+                "name": name,
+                "kind": "place" if name in PLACES else "character",
+                "row_viable": bool(row_viable),
+                "url": img["url"],
+                "width": img.get("width"),
+                "height": img.get("height"),
+                "mime": img.get("mime"),
+            })
+        cont = data.get("continue", {}).get("aicontinue")
         if not cont:
             break
-    return titles
-
-
-def resolve_image_urls(titles: list[str]) -> list[dict]:
-    out: list[dict] = []
-    # API caps titles per request; chunk to be safe.
-    for i in range(0, len(titles), 50):
-        chunk = titles[i : i + 50]
-        data = _get(
-            {
-                "action": "query",
-                "prop": "imageinfo",
-                "iiprop": "url|size|mime",
-                "titles": "|".join(chunk),
-            }
-        )
-        for page in data["query"]["pages"].values():
-            info = page.get("imageinfo")
-            if not info:
-                continue
-            ii = info[0]
-            m = OFFICIAL_RE.match(page["title"])
-            out.append(
-                {
-                    "title": page["title"],
-                    "name": m.group("name") if m else page["title"],
-                    "url": ii["url"],
-                    "width": ii.get("width"),
-                    "height": ii.get("height"),
-                    "mime": ii.get("mime"),
-                }
-            )
     return out
 
 
@@ -107,24 +107,30 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--force", action="store_true", help="Re-download even if the file exists")
     ap.add_argument("--list-only", action="store_true", help="Print the selected set; download nothing")
+    ap.add_argument("--include-places", action="store_true",
+                    help="Also download place/concept Official images (default: characters only)")
     args = ap.parse_args()
 
-    all_titles = list_category_files()
-    selected = [t for t in all_titles if OFFICIAL_RE.match(t)]
-    print(f"Category files: {len(all_titles)}  ->  Official portraits selected: {len(selected)}")
+    found = sorted(discover_official_portraits(), key=lambda m: m["name"].lower())
+    chars = [m for m in found if m["kind"] == "character"]
+    places = [m for m in found if m["kind"] == "place"]
+    print(f"Wiki-wide Official portraits: {len(found)}  "
+          f"(characters: {len(chars)}, places: {len(places)})")
 
-    manifest = sorted(resolve_image_urls(selected), key=lambda m: m["name"].lower())
+    to_download = found if args.include_places else chars
 
     if args.list_only:
-        for m in manifest:
-            print(f"  {m['name']:40} {m['width']}x{m['height']} {m['mime']}")
+        for m in to_download:
+            flag = "" if m["row_viable"] else "  [NOT row-viable]"
+            print(f"  {m['name']:34} {m['kind']:9} {m['width']}x{m['height']}{flag}")
         return
 
     DEST.mkdir(parents=True, exist_ok=True)
-    (DEST / "_manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False), "utf-8")
+    # Manifest is the full source-of-truth record (characters + places); downloads are filtered.
+    (DEST / "_manifest.json").write_text(json.dumps(found, indent=2, ensure_ascii=False), "utf-8")
 
     downloaded = skipped = failed = 0
-    for m in manifest:
+    for m in to_download:
         out_path = DEST / safe_filename(m["name"], m["mime"])
         if out_path.exists() and not args.force:
             skipped += 1
