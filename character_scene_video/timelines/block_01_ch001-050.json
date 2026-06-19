@@ -377,14 +377,14 @@
           "present_cast": [
             "Audrey Hall",
             "Annie",
-            "Count Hall"
+            "Earl Hall"
           ],
           "images": [
             "Audrey Hall.jpg"
           ],
           "missing_images": [
             "Annie",
-            "Count Hall"
+            "Earl Hall"
           ],
           "layout": "single",
           "text_anchor": "Empress Borough, Backlund, capital of the Loen Kingdom."
@@ -394,7 +394,7 @@
           "duration": "0:07:12",
           "present_cast": [
             "Audrey Hall",
-            "Count Hall",
+            "Earl Hall",
             "Aguesid Negan",
             "George III"
           ],
@@ -402,7 +402,7 @@
             "Audrey Hall.jpg"
           ],
           "missing_images": [
-            "Count Hall",
+            "Earl Hall",
             "Aguesid Negan",
             "George III"
           ],
@@ -1015,13 +1015,13 @@
           "duration": "0:10:37",
           "present_cast": [
             "Klein Moretti",
-            "Rozanne Bansa"
+            "Rozanne"
           ],
           "images": [
             "Klein Moretti.jpg"
           ],
           "missing_images": [
-            "Rozanne Bansa"
+            "Rozanne"
           ],
           "layout": "single",
           "text_anchor": "After he went up the stairs and returned to"
@@ -2205,7 +2205,7 @@
           "duration": "0:02:44",
           "present_cast": [
             "Klein Moretti",
-            "Rozanne Bengun",
+            "Rozanne",
             "Bredt",
             "Klee"
           ],
@@ -2213,7 +2213,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [
-            "Rozanne Bengun",
+            "Rozanne",
             "Bredt",
             "Klee"
           ],
@@ -2231,7 +2231,7 @@
           "duration": "0:03:08",
           "present_cast": [
             "Klein Moretti",
-            "Rozanne Bengun",
+            "Rozanne",
             "Bredt",
             "Klee"
           ],
@@ -2239,7 +2239,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [
-            "Rozanne Bengun",
+            "Rozanne",
             "Bredt",
             "Klee"
           ],
@@ -2251,14 +2251,14 @@
           "duration": "0:04:35",
           "present_cast": [
             "Klein Moretti",
-            "Rozanne Bengun",
+            "Rozanne",
             "Klee"
           ],
           "images": [
             "Klein Moretti.jpg"
           ],
           "missing_images": [
-            "Rozanne Bengun",
+            "Rozanne",
             "Klee"
           ],
           "layout": "single",
@@ -2270,7 +2270,7 @@
           "present_cast": [
             "Klein Moretti",
             "Leonard Mitchell",
-            "Rozanne Bengun",
+            "Rozanne",
             "Klee"
           ],
           "images": [
@@ -2278,7 +2278,7 @@
             "Leonard Mitchell.jpg"
           ],
           "missing_images": [
-            "Rozanne Bengun",
+            "Rozanne",
             "Klee"
           ],
           "layout": "row(2)",
@@ -2560,7 +2560,7 @@
           "duration": "0:10:35",
           "present_cast": [
             "Klein Moretti",
-            "Corpse Collector Frye",
+            "Frye",
             "Dunn Smith",
             "Leonard Mitchell",
             "Old Neil",
@@ -2573,7 +2573,7 @@
             "Leonard Mitchell.jpg"
           ],
           "missing_images": [
-            "Corpse Collector Frye",
+            "Frye",
             "Old Neil",
             "[Patrolling Policeman]",
             "[Police Corporal]"
@@ -2764,13 +2764,13 @@
           "duration": "0:01:09",
           "present_cast": [
             "Klein Moretti",
-            "Sleepless Royale Reideen"
+            "Royale Reideen"
           ],
           "images": [
             "Klein Moretti.jpg"
           ],
           "missing_images": [
-            "Sleepless Royale Reideen"
+            "Royale Reideen"
           ],
           "layout": "single",
           "text_anchor": "The next morning was a Sunday morning. Klein finished"
@@ -2849,8 +2849,8 @@
       "status": "need",
       "scenes": 2
     },
-    "Count Hall": {
-      "status": "minor",
+    "Earl Hall": {
+      "status": "need",
       "scenes": 2
     },
     "Aguesid Negan": {
@@ -2911,7 +2911,7 @@
     },
     "Rozanne": {
       "status": "need",
-      "scenes": 8
+      "scenes": 13
     },
     "Leonard Mitchell": {
       "status": "have",
@@ -2924,10 +2924,6 @@
     "Old Neil": {
       "status": "need",
       "scenes": 15
-    },
-    "Rozanne Bansa": {
-      "status": "minor",
-      "scenes": 1
     },
     "[Wilker shop salesperson]": {
       "status": "background",
@@ -2997,10 +2993,6 @@
       "status": "minor",
       "scenes": 1
     },
-    "Rozanne Bengun": {
-      "status": "minor",
-      "scenes": 4
-    },
     "Klee": {
       "status": "minor",
       "scenes": 6
@@ -3035,11 +3027,7 @@
     },
     "Frye": {
       "status": "need",
-      "scenes": 2
-    },
-    "Corpse Collector Frye": {
-      "status": "minor",
-      "scenes": 1
+      "scenes": 3
     },
     "[Patrolling Policeman]": {
       "status": "background",
@@ -3061,8 +3049,8 @@
       "status": "minor",
       "scenes": 3
     },
-    "Sleepless Royale Reideen": {
-      "status": "minor",
+    "Royale Reideen": {
+      "status": "need",
       "scenes": 1
     }
   }

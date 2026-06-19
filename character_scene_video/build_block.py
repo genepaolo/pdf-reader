@@ -56,6 +56,7 @@ def load_durations():
 
 AVAIL = load_images()
 REGISTRY = set(json.loads((HERE / "character_registry.json").read_text(encoding="utf-8"))["characters"])
+ALIASES = json.loads((HERE / "name_aliases.json").read_text(encoding="utf-8"))["aliases"]
 DUR = load_durations()
 
 
@@ -89,6 +90,7 @@ def resolve(scene, chapter):
         label, img = PERSONA[persona]
         cast.append(label); images.append(img)
     for name in scene.get("other_characters", []):
+        name = ALIASES.get(name, name)          # canonicalize (merge invented surnames/title prefixes)
         cast.append(name)
         (images.append(AVAIL[name]) if name in AVAIL else missing.append(name))
     if not images:
