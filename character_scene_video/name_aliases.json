@@ -7,8 +7,8 @@
     "Sleepless Royale Reideen": "Royale Reideen",
     "Count Hall": "Earl Hall"
   },
-  "_exclude_note": "Not people — dropped from casts/needs-image list (animals, objects mistagged as characters).",
-  "exclude": ["Susie"],
+  "_exclude_note": "Not people — dropped from casts/needs-image list (objects/non-character mistags). NOTE: Susie is a real recurring character (Audrey's dog, later a Beyonder) — NOT excluded.",
+  "exclude": [],
   "_verified_present_note": "Tags the verifier flags as 'wrong scene' (name not in those exact lines) but a human confirmed the character IS present — named in an adjacent scene or by relation/description. Suppressed so verify only surfaces NEW issues.",
   "verified_present": [
     {"chapter": 8,  "scene": 3, "name": "Count Hall",      "why": "present as 'her father' (Audrey takes his arm, L161)"},

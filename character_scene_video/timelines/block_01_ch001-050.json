@@ -376,13 +376,15 @@
           "duration": "0:04:06",
           "present_cast": [
             "Audrey Hall",
-            "Annie"
+            "Annie",
+            "Earl Hall"
           ],
           "images": [
             "Audrey Hall.jpg"
           ],
           "missing_images": [
-            "Annie"
+            "Annie",
+            "Earl Hall"
           ],
           "layout": "single",
           "text_anchor": "Empress Borough, Backlund, capital of the Loen Kingdom."
@@ -2156,13 +2158,15 @@
           "duration": "0:03:13",
           "present_cast": [
             "Audrey Hall",
-            "Annie"
+            "Annie",
+            "Susie"
           ],
           "images": [
             "Audrey Hall.jpg"
           ],
           "missing_images": [
-            "Annie"
+            "Annie",
+            "Susie"
           ],
           "layout": "single",
           "text_anchor": "In a private chemistry laboratory equipped with apparatus and items."
@@ -2843,7 +2847,7 @@
     },
     "Earl Hall": {
       "status": "need",
-      "scenes": 1
+      "scenes": 2
     },
     "Aguesid Negan": {
       "status": "need",
@@ -2976,6 +2980,10 @@
     "Bredt": {
       "status": "need",
       "scenes": 4
+    },
+    "Susie": {
+      "status": "need",
+      "scenes": 1
     },
     "Sainz": {
       "status": "minor",
