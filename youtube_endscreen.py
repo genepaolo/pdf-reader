@@ -131,20 +131,22 @@ def build_plan(chapter_map: dict, lo: int, hi: int) -> list:
     return plan
 
 
-def fetch_privacy(uploader: YouTubeUploader, video_ids: list) -> dict:
-    """video_id -> privacyStatus via Data API (batches of 50)."""
+def fetch_meta(uploader: YouTubeUploader, video_ids: list) -> dict:
+    """video_id -> {'privacy': str, 'title': str} via Data API (batches of 50)."""
     if not uploader.youtube_service:
         uploader.authenticate()
     result = {}
-    for i in range(0, len(video_ids), 50):
-        batch = [v for v in video_ids[i:i + 50] if v]
-        if not batch:
-            continue
+    ids = [v for v in video_ids if v]
+    for i in range(0, len(ids), 50):
+        batch = ids[i:i + 50]
         resp = uploader.youtube_service.videos().list(
-            part="status", id=",".join(batch)
+            part="status,snippet", id=",".join(batch)
         ).execute()
         for item in resp.get("items", []):
-            result[item["id"]] = item.get("status", {}).get("privacyStatus")
+            result[item["id"]] = {
+                "privacy": item.get("status", {}).get("privacyStatus"),
+                "title": item.get("snippet", {}).get("title", ""),
+            }
     return result
 
 
@@ -152,86 +154,96 @@ def fetch_privacy(uploader: YouTubeUploader, video_ids: list) -> dict:
 # Browser automation (Playwright). Selectors are best-effort and verified live
 # on the first run (which is why --dry-run pauses on video #1).
 # --------------------------------------------------------------------------- #
+def _dismiss_welcome(page):
+    """Dismiss the first-run video-editor 'Get started' promo if it appears."""
+    for label in ("Get started", "Got it", "No thanks"):
+        b = page.get_by_role("button", name=label, exact=True)
+        if b.count() > 0:
+            try:
+                b.first.click(timeout=4000)
+                page.wait_for_timeout(1500)
+                return
+            except Exception:
+                pass
+
+
+def _pick_result_card(page, target_chapter: int, target_title: str):
+    """
+    Return the result card locator matching the target, or None.
+    Matches on 'Chapter <n>' with a digit boundary (so 252 != 1252/2520).
+    """
+    cards = page.locator("ytcp-entity-card")
+    n = cards.count()
+    pat = re.compile(rf"Chapter\s*0*{target_chapter}(?!\d)")
+    for i in range(n):
+        try:
+            txt = (cards.nth(i).inner_text() or "").strip()
+        except Exception:
+            continue
+        if pat.search(txt):
+            return cards.nth(i)
+    return None
+
+
 def add_end_screen(page, source_video_id: str, target_video_id: str,
-                   target_title: str, dry_run: bool, log) -> bool:
+                   target_title: str, target_chapter: int,
+                   dry_run: bool, log) -> bool:
     """
-    Navigate to the end-screen editor for source_video_id and add a single
-    'specific video' element pointing at target_video_id.
+    Open the video Editor for source_video_id and add one end-screen 'Video'
+    element pointing at the target video (the next chapter).
 
-    Returns True if it believes it succeeded (or, in dry-run, reached the Save
-    step). Raises/returns False on trouble so the caller can decide.
+    Verified flow (Studio, 2026-06):
+      /video/<id>/editor -> dismiss 'Get started' -> #add-endscreen-icon-button
+      -> menu item 'Video' -> #choose-video radio -> #search-yours -> click the
+      matching result card -> #save-button.
+
+    Returns True on success (or, in dry_run, on reaching the Save step).
     """
-    import re as _re
+    url = f"{STUDIO}/video/{source_video_id}/editor"
+    log(f"    open editor: {url}")
+    page.goto(url, wait_until="domcontentloaded")
+    page.wait_for_timeout(7000)
+    _dismiss_welcome(page)
 
-    # The end-screen editor lives under the video's editor. Studio has used a
-    # couple of path shapes over time; try the dedicated one, fall back to the
-    # editor tab.
-    candidates = [
-        f"{STUDIO}/video/{source_video_id}/end-screens",
-        f"{STUDIO}/video/{source_video_id}/editor",
-    ]
-    loaded = False
-    for url in candidates:
-        log(f"    navigating: {url}")
-        page.goto(url, wait_until="domcontentloaded")
-        page.wait_for_timeout(3500)
-        if "/end-screens" in page.url or page.get_by_text(
-            _re.compile("end screen", _re.I)).count() > 0:
-            loaded = True
-            break
-    if not loaded:
-        log("    [WARN] could not confirm end-screen editor loaded")
+    # If an end screen already exists, the icon opens edit mode instead of the
+    # type menu; either way clicking it then choosing 'Video' adds an element.
+    log("    add end screen -> Video")
+    page.locator("#add-endscreen-icon-button").first.click(timeout=20000)
+    page.wait_for_timeout(2000)
+    page.locator("tp-yt-paper-item", has_text=re.compile(r"^\s*Video\s*$")).first.click(timeout=10000)
+    page.wait_for_timeout(3500)
 
-    # ADD ELEMENT
-    add_btn = page.get_by_role("button", name=_re.compile(r"add element", _re.I))
-    if add_btn.count() == 0:
-        add_btn = page.get_by_text(_re.compile(r"^\s*add element\s*$", _re.I))
-    add_btn.first.click()
+    log("    choose specific video")
+    page.locator("#choose-video").first.click(timeout=10000)
+    page.wait_for_timeout(3000)
+
+    query = target_title or f"Chapter {target_chapter}"
+    log(f"    search: {query!r}")
+    box = page.locator("#search-yours")
+    box.first.fill(query)
     page.wait_for_timeout(1200)
+    page.keyboard.press("Enter")
+    page.wait_for_timeout(4500)
 
-    # Choose "Video" from the element-type menu.
-    page.get_by_text(_re.compile(r"^\s*video\s*$", _re.I)).first.click()
-    page.wait_for_timeout(1200)
+    card = _pick_result_card(page, target_chapter, target_title)
+    if card is None:
+        log(f"    [WARN] no result matched 'Chapter {target_chapter}'. "
+            "Leaving picker open for inspection.")
+        return False
+    log(f"    select target: Chapter {target_chapter}")
+    card.click()
+    page.wait_for_timeout(2500)
 
-    # Prefer "specific video" if a sub-menu appears.
-    specific = page.get_by_text(_re.compile(r"specific video|choose a video", _re.I))
-    if specific.count() > 0:
-        specific.first.click()
-        page.wait_for_timeout(1500)
-
-    # In the picker, search by the target video id (most precise) then title.
-    search = page.get_by_role("textbox").filter(
-        has_text=_re.compile("", _re.I))
-    try:
-        box = page.get_by_placeholder(_re.compile(r"search", _re.I))
-        if box.count() == 0:
-            box = search
-        box.first.fill(target_video_id)
-        page.wait_for_timeout(2000)
-    except Exception:
-        log("    [WARN] could not find a search box in the picker")
-
-    # Click the first result.
-    result = page.get_by_text(_re.compile(_re.escape(target_title[:20]), _re.I))
-    if result.count() == 0:
-        # fall back: click first selectable thumbnail/result row
-        result = page.locator("ytcp-video-row, #video-list-item, ytcp-entity-card")
-    if result.count() > 0:
-        result.first.click()
-        page.wait_for_timeout(1500)
-    else:
-        log("    [WARN] no picker result matched; manual selection may be needed")
-
-    save_btn = page.get_by_role("button", name=_re.compile(r"^\s*save\s*$", _re.I))
     if dry_run:
-        log("    [DRY-RUN] reached Save step — NOT clicking Save.")
+        log("    [DRY-RUN] target selected, end screen staged — NOT clicking Save.")
         return True
 
+    save_btn = page.locator("#save-button")
     if save_btn.count() == 0:
         log("    [WARN] Save button not found")
         return False
-    save_btn.first.click()
-    page.wait_for_timeout(3000)
+    save_btn.first.click(timeout=10000)
+    page.wait_for_timeout(4000)
     log("    [OK] Save clicked")
     return True
 
@@ -286,6 +298,10 @@ def run_browser(plan_eligible: list, args, log):
             )
             page = ctx.pages[0] if ctx.pages else ctx.new_page()
 
+        # Auto-accept "Leave site? Changes may not be saved" prompts so moving
+        # between videos never blocks.
+        page.on("dialog", lambda d: d.accept())
+
         # Make sure we're logged in.
         page.goto(f"{STUDIO}/", wait_until="domcontentloaded")
         page.wait_for_timeout(4000)
@@ -325,11 +341,11 @@ def run_browser(plan_eligible: list, args, log):
             tc = item["target_chapter"]
             svid = item["source"]["video_id"]
             tvid = item["target"]["video_id"]
-            ttitle = item["target"]["filename"]
+            ttitle = item["target"].get("title") or item["target"]["filename"]
             log(f"\n[{i}/{len(plan_eligible)}] Chapter {sc} (id {svid}) "
                 f"-> link Chapter {tc} (id {tvid})")
             try:
-                ok = add_end_screen(page, svid, tvid, ttitle, args.dry_run, log)
+                ok = add_end_screen(page, svid, tvid, ttitle, tc, args.dry_run, log)
                 processed += 1 if ok else 0
             except Exception as e:
                 log(f"    [ERROR] {e}")
@@ -418,12 +434,15 @@ def main():
     lo, hi = parse_range(args.chapters)
     plan = build_plan(chapter_map, lo, hi)
 
-    # Resolve privacy for all source video ids via the Data API.
+    # Resolve privacy + exact titles for sources and targets via the Data API.
     uploader = YouTubeUploader(project, config)
-    src_ids = [p["source"]["video_id"] for p in plan
-               if p["source"] and p["source"].get("video_id")]
-    log("\nReading privacy status from YouTube Data API (token.json)...")
-    privacy = fetch_privacy(uploader, src_ids)
+    all_ids = []
+    for p in plan:
+        for side in ("source", "target"):
+            if p[side] and p[side].get("video_id"):
+                all_ids.append(p[side]["video_id"])
+    log("\nReading privacy + titles from YouTube Data API (token.json)...")
+    meta = fetch_meta(uploader, all_ids)
 
     # Build the eligible list applying the UNLISTED-ONLY guard.
     eligible = []
@@ -435,7 +454,9 @@ def main():
             log(f"{sc:>5}  ->  {tc:>5}  {'-':<9}  SKIP: {item['skip_reason']}")
             continue
         svid = item["source"]["video_id"]
-        status = privacy.get(svid, "unknown")
+        status = (meta.get(svid) or {}).get("privacy", "unknown")
+        # attach the target's real YouTube title for accurate searching
+        item["target"]["title"] = (meta.get(item["target"]["video_id"]) or {}).get("title", "")
         if status == "unlisted":
             eligible.append(item)
             log(f"{sc:>5}  ->  {tc:>5}  {status:<9}  ELIGIBLE")
