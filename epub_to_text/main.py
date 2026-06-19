@@ -51,6 +51,11 @@ def main() -> None:
         default=None,
         help="JSON file with chapter ranges per volume (default: volume_map.json beside EPUB or parent folder)",
     )
+    parser.add_argument(
+        "--series-title",
+        default=None,
+        help="Series title written as line 1 of each chapter file (default: 'Lord of Mysteries 2: Circle of Inevitability')",
+    )
     args = parser.parse_args()
 
     if not validate_input_file(args.epub_path):
@@ -63,6 +68,7 @@ def main() -> None:
             project_name=args.project_name,
             inspect_only=args.inspect_only,
             volume_map_path=args.volume_map,
+            series_title=args.series_title,
         )
     except Exception as exc:
         print(f"ERROR: Conversion failed: {exc}")

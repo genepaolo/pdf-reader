@@ -1,0 +1,14 @@
+{
+  "_comment": "Book1 (Lord of Mysteries) 8-volume layout + Side Stories. Ranges derived from existing audio folders in D:/PDFReader/lotm_book1_output. Global chapter numbers match the EPUB TOC leading 'N:' indices.",
+  "volumes": [
+    { "number": 1, "title": "Clown",          "first_chapter": 1,    "last_chapter": 213 },
+    { "number": 2, "title": "Faceless",        "first_chapter": 214,  "last_chapter": 482 },
+    { "number": 3, "title": "Traveler",        "first_chapter": 483,  "last_chapter": 732 },
+    { "number": 4, "title": "Undying",         "first_chapter": 733,  "last_chapter": 946 },
+    { "number": 5, "title": "Red Priest",      "first_chapter": 947,  "last_chapter": 1150 },
+    { "number": 6, "title": "Lightseeker",     "first_chapter": 1151, "last_chapter": 1266 },
+    { "number": 7, "title": "The Hanged Man",  "first_chapter": 1267, "last_chapter": 1353 },
+    { "number": 8, "title": "Fool",            "first_chapter": 1354, "last_chapter": 1394 },
+    { "number": 9, "title": "Side Stories",    "first_chapter": 1395, "last_chapter": 1432 }
+  ]
+}

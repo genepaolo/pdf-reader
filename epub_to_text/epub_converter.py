@@ -165,6 +165,7 @@ class EpubConverter:
         project_name: Optional[str] = None,
         inspect_only: bool = False,
         volume_map_path: Optional[str] = None,
+        series_title: Optional[str] = None,
     ) -> None:
         epub_file = Path(epub_path)
         if not project_name:
@@ -188,7 +189,7 @@ class EpubConverter:
             if inspect_only:
                 return
 
-            self._write_output(project_name, chapters, zf)
+            self._write_output(project_name, chapters, zf, series_title or SERIES_TITLE)
 
     def _load_volume_map(self, epub_file: Path, explicit: Optional[str]) -> Optional[List[dict]]:
         path = self._resolve_volume_map_path(epub_file, explicit)
@@ -475,7 +476,7 @@ class EpubConverter:
         t = self._normalize_text(title).lower()
         return t in {"information", "cover", "copyright", "metadata", "title page"}
 
-    def _write_output(self, project_name: str, chapters: List[Chapter], zf: zipfile.ZipFile) -> None:
+    def _write_output(self, project_name: str, chapters: List[Chapter], zf: zipfile.ZipFile, series_title: str = SERIES_TITLE) -> None:
         project_dir = self.output_dir / self._safe_name(project_name)
         project_dir.mkdir(parents=True, exist_ok=True)
 
@@ -489,7 +490,7 @@ class EpubConverter:
 
             chapter_text = self._extract_chapter_text(zf, chapter.href, chapter)
             with open(chapter_path, "w", encoding="utf-8") as f:
-                f.write(f"{SERIES_TITLE}\n")
+                f.write(f"{series_title}\n")
                 f.write(f"{_chapter_header_line(chapter)}\n")
                 f.write(f"{chapter_text}\n")
 
