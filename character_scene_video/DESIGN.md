@@ -275,6 +275,21 @@ into `character_map.json` (add image / aliases / anchors) or a per-scene overrid
 > Until forced alignment is wired up (M3), scene *durations* are placeholders; scene *content* (cast + images)
 > can be reviewed first from the text alone.
 
+### Cross-chapter scene continuity (option A)
+Narrative scenes routinely flow *across* chapter boundaries (in block 1, **42 of 49** boundaries continue;
+only 7 are hard breaks — POV/location/time jumps). Chapters remain the production unit (per-chapter audio,
+**per-chapter forced alignment**, YouTube markers), but the *image* must not reset or drop carried cast at a
+continuing cut. Mechanism:
+- `continuity.json` records, per boundary N→N+1, `continues` + `carried_others` (non-protagonist characters
+  present at the cut). Detected by readers over end-of-N / start-of-N+1 (text-literal names).
+- The builder **overlays** carried cast onto the next chapter's first scene (union, so nobody is dropped) and
+  marks it `continues_prev` (shown as `↳`). Continuity is an overlay — raw scene tags are untouched, so the
+  verifier still grounds every tag.
+- `hold-previous` frames now carry the **actual previous image** forward (concrete, not a literal string).
+
+Forced alignment stays **per-chapter** (each side of a spanning scene aligns within its own chapter; combine
+by cumulative offset). Easier to debug/re-run one chapter than a 10-hour block.
+
 ## 11. Milestones
 
 **The per-batch Scene Timeline (§10) is built and human-verified BEFORE any video is rendered.**

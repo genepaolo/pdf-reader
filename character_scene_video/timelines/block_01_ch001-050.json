@@ -18,6 +18,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Painful! How painful! My head hurts so badly!"
         },
         {
@@ -31,6 +32,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Klein Moretti, a citizen of the Northern Continent's Loen"
         }
       ]
@@ -50,6 +52,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "Tap! Tap! Tap! Zhou Mingrui reeled back in fear"
         },
         {
@@ -63,6 +66,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Yes, I should clean up the blood stains"
         },
         {
@@ -76,6 +80,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "After Zhou Mingrui was done with his linen"
         }
       ]
@@ -95,6 +100,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "After confirming his plan, Zhou Mingrui immediately felt"
         },
         {
@@ -111,6 +117,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "At that moment, there was a commotion inside"
         },
         {
@@ -124,6 +131,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Watching his sister close the door and leave"
         }
       ]
@@ -143,6 +151,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "Returning to his chair again, he heard the"
         },
         {
@@ -161,6 +170,7 @@
             "[deadpan woman]"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "The corridor during the day remained dim as"
         },
         {
@@ -177,6 +187,7 @@
             "Wendy Smyrin"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Zhou Mingrui overtook her and turned into another"
         },
         {
@@ -193,6 +204,7 @@
             "[painted-face fortune-teller woman]"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "There was a municipal square at the intersection"
         }
       ]
@@ -207,16 +219,19 @@
           "present_cast": [
             "Klein (Beginning)",
             "[painted-face animal-trainer woman]",
-            "[real fortune-teller woman]"
+            "[real fortune-teller woman]",
+            "[fortune-teller]"
           ],
           "images": [
             "Klein Moretti (Beginning of the Series).jpg"
           ],
           "missing_images": [
             "[painted-face animal-trainer woman]",
-            "[real fortune-teller woman]"
+            "[real fortune-teller woman]",
+            "[fortune-teller]"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "Free? Free things cost the most! Zhou Mingrui"
         },
         {
@@ -230,6 +245,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Zhou Mingrui very quickly put this matter behind"
         },
         {
@@ -243,6 +259,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "A gray fog appeared over his eyes-haziness"
         },
         {
@@ -256,6 +273,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "In the Loen Kingdom's capital, Backlund. Inside a"
         },
         {
@@ -269,6 +287,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "In the Sonia Sea, a three-masted sailboat that"
         },
         {
@@ -286,6 +305,7 @@
           ],
           "missing_images": [],
           "layout": "row(3)",
+          "continues_prev": false,
           "text_anchor": "In the fog of gray mist, Audrey Hall"
         }
       ]
@@ -309,6 +329,7 @@
           ],
           "missing_images": [],
           "layout": "row(3)",
+          "continues_prev": true,
           "text_anchor": "Not only did they speak the same Loen language,"
         }
       ]
@@ -332,6 +353,7 @@
           ],
           "missing_images": [],
           "layout": "row(3)",
+          "continues_prev": true,
           "text_anchor": "“You can address me as The Fool.”"
         },
         {
@@ -345,6 +367,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "He was still standing in the middle of his apartment."
         }
       ]
@@ -369,6 +392,7 @@
             "[Ghost ship \"captain\"]"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Whoosh! Howling wind accompanied a downpour."
         },
         {
@@ -387,6 +411,7 @@
             "Earl Hall"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Empress Borough, Backlund, capital of the Loen Kingdom."
         },
         {
@@ -407,6 +432,7 @@
             "George III"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "The Royal Navy base, Pritz Harbor, Oak Island."
         }
       ]
@@ -426,6 +452,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "After half an hour of rest, Zhou Mingrui, who now"
         }
       ]
@@ -454,6 +481,7 @@
             "[Young green-eyed inspector]"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "“Who is it?” Klein was thinking about the mysterious"
         }
       ]
@@ -473,6 +501,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "The norm is for everyone to die together? Very glad"
         },
         {
@@ -489,6 +518,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "After more than forty minutes, some not-so-brisk but rhythmic"
         }
       ]
@@ -511,6 +541,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "Melissa, can you not rub my nose in it"
         },
         {
@@ -526,6 +557,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Knock! Knock! Knock! Poundings on the door roused Klein"
         },
         {
@@ -539,6 +571,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Sat up? Klein looked around, confused. He noticed"
         },
         {
@@ -554,6 +587,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "He opened the door and walked along the dark corridor"
         }
       ]
@@ -575,6 +609,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": true,
           "text_anchor": "Plop! Klein could not help but take a step back"
         },
         {
@@ -593,6 +628,7 @@
             "[carriage driver]"
           ],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "In such a tranquil setting, Dunn Smith opened his mouth"
         }
       ]
@@ -614,6 +650,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": true,
           "text_anchor": "A true medium... Klein repeated this description inwardly"
         },
         {
@@ -631,6 +668,7 @@
           ],
           "missing_images": [],
           "layout": "row(3)",
+          "continues_prev": false,
           "text_anchor": "Dunn turned the doorknob, pushed the door open and said"
         },
         {
@@ -646,6 +684,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Congratulations. You can return home now. But do remember"
         }
       ]
@@ -667,6 +706,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": true,
           "text_anchor": "A wave of tumultuous emotions rose up in Klein's heart"
         },
         {
@@ -680,6 +720,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "He took out his pocket watch. Click, he pressed"
         }
       ]
@@ -699,6 +740,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "Phew, I finally got through the round with the medium"
         },
         {
@@ -715,6 +757,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "In a similar state of mind, he opened the door to his"
         },
         {
@@ -728,6 +771,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Last night's dinner was too good, she ate too much"
         },
         {
@@ -744,6 +788,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "At this moment, Melissa, who had gotten out of bed again"
         },
         {
@@ -762,6 +807,7 @@
             "[Fare collector]"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Besik Street was a little far, and Klein was afraid"
         },
         {
@@ -782,6 +828,7 @@
             "[Short man in brown beret]"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Klein reached out his right hand and gave a forceful push"
         }
       ]
@@ -804,6 +851,7 @@
             "Rozanne"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "Upon seeing the signboard, Klein felt surprised yet found it"
         },
         {
@@ -822,6 +870,7 @@
             "Rozanne"
           ],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Okay. Klein quickly followed behind. In his mind, he pondered"
         },
         {
@@ -837,6 +886,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "The room Rozanne was referring to was just in front"
         }
       ]
@@ -858,6 +908,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": true,
           "text_anchor": "Upon hearing Klein's question, Dunn looked out of the window"
         }
       ]
@@ -879,6 +930,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": true,
           "text_anchor": "We are guardians, but also a bunch of miserable wretches"
         }
       ]
@@ -900,6 +952,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": true,
           "text_anchor": "Okay. Klein bowed slightly as he wore his short top hat"
         },
         {
@@ -918,6 +971,7 @@
             "Rozanne"
           ],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Dunn returned to the table's side and pulled at a few"
         },
         {
@@ -936,6 +990,7 @@
             "Mrs. Orianna"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Captain has always been this way. He often forgets things"
         },
         {
@@ -952,6 +1007,7 @@
             "Old Neil"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "He did a turn at a cross-junction and headed right"
         }
       ]
@@ -974,6 +1030,7 @@
             "Old Neil"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "In that instant, Klein even believed that he had"
         },
         {
@@ -989,6 +1046,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Rozanne had apparently mentioned something... The Sleepless? Just as"
         },
         {
@@ -1002,6 +1060,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Indeed, there's nothing special about him..."
         }
       ]
@@ -1024,6 +1083,7 @@
             "Rozanne"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "After he went up the stairs and returned to"
         },
         {
@@ -1037,6 +1097,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "As he walked down the stairs, Klein suddenly stopped"
         }
       ]
@@ -1061,6 +1122,7 @@
             "[Wilker shop cashier]"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "As Klein walked down Zouteland and while taking in"
         },
         {
@@ -1074,6 +1136,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "After closing the door, he counted the eleven pounds"
         },
         {
@@ -1090,6 +1153,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Melissa with her soft, black hair entered. Her nose"
         }
       ]
@@ -1112,6 +1176,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "The sky outside was gradually dyed golden as Klein"
         },
         {
@@ -1125,6 +1190,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "A river tore through the land, with cedar"
         },
         {
@@ -1145,6 +1211,7 @@
             "Azik Eggers"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Knock! Knock! Knock! He knocked lightly on the half-closed"
         }
       ]
@@ -1171,6 +1238,7 @@
             "Harvin Stone"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "While Azik muttered to himself, he subconsciously shot a"
         },
         {
@@ -1184,6 +1252,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "With his back against the sun, he lifted up"
         },
         {
@@ -1200,6 +1269,7 @@
             "[Cathedral bishop]"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "But he did not enter that street. Instead, he"
         },
         {
@@ -1216,6 +1286,7 @@
             "[Cathedral bishop]"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Klein took out the 'Seventh Unit, Special Operations Department'"
         },
         {
@@ -1232,6 +1303,7 @@
             "[Black-robed priest]"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "The secret door closed silently as a middle-aged, black-robed"
         }
       ]
@@ -1245,15 +1317,18 @@
           "duration": "0:01:31",
           "present_cast": [
             "Klein Moretti",
-            "[Middle-aged priest]"
+            "[Middle-aged priest]",
+            "[priest]"
           ],
           "images": [
             "Klein Moretti.jpg"
           ],
           "missing_images": [
-            "[Middle-aged priest]"
+            "[Middle-aged priest]",
+            "[priest]"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "Tap! Tap! Tap! The sound of footsteps echoed through"
         },
         {
@@ -1270,6 +1345,7 @@
             "Rozanne"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Seeing doors that were tightly shut or half-closed, he"
         },
         {
@@ -1285,6 +1361,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Come in. Dunn Smith's deep and gentle voice sounded."
         },
         {
@@ -1301,6 +1378,7 @@
             "[Middle-aged priest]"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "He turned left at the intersection, and bathed in"
         },
         {
@@ -1317,6 +1395,7 @@
             "Benson Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "The feeling of being spied upon vanished without a"
         }
       ]
@@ -1339,6 +1418,7 @@
             "Benson Moretti"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "It's simply sharp and incisive... Klein burst out in"
         },
         {
@@ -1352,6 +1432,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "After some idle chatter between the brothers, the remnants"
         },
         {
@@ -1370,6 +1451,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "In the evening, Benson and Melissa sat in front"
         },
         {
@@ -1385,6 +1467,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Klein felt groggy as he stared at the darkness"
         }
       ]
@@ -1398,15 +1481,18 @@
           "duration": "0:05:14",
           "present_cast": [
             "Klein Moretti",
-            "[Secret Order intruder]"
+            "[Secret Order intruder]",
+            "[intruder]"
           ],
           "images": [
             "Klein Moretti.jpg"
           ],
           "missing_images": [
-            "[Secret Order intruder]"
+            "[Secret Order intruder]",
+            "[intruder]"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "Badump! Badump! Badump! Klein's heart began beating rapidly."
         },
         {
@@ -1422,6 +1508,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "He uneasily waited for a full ten minutes."
         }
       ]
@@ -1443,6 +1530,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": true,
           "text_anchor": "Klein tried his best to remain his usual self"
         },
         {
@@ -1456,6 +1544,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Although he was constantly hoping to become a Beyonder"
         },
         {
@@ -1474,6 +1563,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "He got out of bed and headed to the"
         },
         {
@@ -1494,6 +1584,7 @@
             "Scarter"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "The person who served them was a middle-aged man"
         }
       ]
@@ -1520,6 +1611,7 @@
             "Scarter"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "2, 4, and 6 Daffodil Street were terrace"
         },
         {
@@ -1538,6 +1630,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "It feels like a dream... After a while, Melissa"
         },
         {
@@ -1556,6 +1649,7 @@
             "Mr. Franky"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "The siblings made do with rye bread at home"
         },
         {
@@ -1574,6 +1668,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "With the problem of the previous contract resolved, the"
         },
         {
@@ -1592,6 +1687,7 @@
             "Rozanne"
           ],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "The next morning. Klein stood before a full-length mirror"
         }
       ]
@@ -1613,6 +1709,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": true,
           "text_anchor": "Dunn Smith stared at Klein with his gray eyes"
         },
         {
@@ -1629,6 +1726,7 @@
             "Old Neil"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "The room had long tables. There were test tubes,"
         }
       ]
@@ -1651,6 +1749,7 @@
             "Old Neil"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "Klein looked at dark-blue gelatinous liquid, finding it hard"
         }
       ]
@@ -1673,6 +1772,7 @@
             "Old Neil"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "The moment Old Neil finished his sentence, the illusory"
         },
         {
@@ -1688,6 +1788,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "At that moment, Dunn Smith came from behind"
         },
         {
@@ -1701,6 +1802,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "After entering Blackthorn Security Company, he greeted Rozanne"
         },
         {
@@ -1714,6 +1816,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Tick-tock. Tick-tock. One minute before three,"
         }
       ]
@@ -1733,6 +1836,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "In an underground basement without any windows, the burly"
         },
         {
@@ -1746,6 +1850,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Backlund, Empress Borough, Inside the Hall family's luxurious"
         },
         {
@@ -1763,6 +1868,7 @@
           ],
           "missing_images": [],
           "layout": "row(3)",
+          "continues_prev": false,
           "text_anchor": "Above the gray fog stood a majestic divine"
         }
       ]
@@ -1786,6 +1892,7 @@
           ],
           "missing_images": [],
           "layout": "row(3)",
+          "continues_prev": true,
           "text_anchor": "Roselle Gustav's secret diary? Emperor Roselle? Indeed, only"
         }
       ]
@@ -1809,6 +1916,7 @@
           ],
           "missing_images": [],
           "layout": "row(3)",
+          "continues_prev": true,
           "text_anchor": "While Audrey recalled the conversation between her father and elder"
         },
         {
@@ -1822,6 +1930,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Above the gray fog, in the opulent palace where"
         },
         {
@@ -1835,6 +1944,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Backlund, Empress Borough. Audrey Hall looked at herself in"
         },
         {
@@ -1848,6 +1958,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "In an underground basement lit only by a flickering"
         }
       ]
@@ -1867,6 +1978,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Under the scorching afternoon sun, Klein left his house."
         },
         {
@@ -1883,6 +1995,7 @@
             "Wendy Smyrin"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Lad. Oh Klein turned his head curiously and found"
         },
         {
@@ -1896,6 +2009,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "There were far fewer street side hawkers in the"
         },
         {
@@ -1912,6 +2026,7 @@
             "[Divination Club female attendant]"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Amid his mixed thoughts, Klein went across the street"
         }
       ]
@@ -1934,6 +2049,7 @@
             "[Divination Club female attendant]"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "Upon hearing Klein's question, the beautiful lady with elegantly"
         },
         {
@@ -1950,6 +2066,7 @@
             "Glacis"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Topaz Room. I like topaz. Glacis appeared by"
         },
         {
@@ -1959,12 +2076,13 @@
             "Glacis"
           ],
           "images": [
-            "(hold previous frame)"
+            "Klein Moretti.jpg"
           ],
           "missing_images": [
             "Glacis"
           ],
           "layout": "hold-previous",
+          "continues_prev": false,
           "text_anchor": "Why? asked Glacis in surprise. Are you cursing me"
         },
         {
@@ -1978,6 +2096,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "After leaving the Divination Club, Klein had an additional"
         },
         {
@@ -1993,6 +2112,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "He pushed open the door to Blackthorn Security Company"
         }
       ]
@@ -2014,6 +2134,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": true,
           "text_anchor": "In fact, I do not know if the notebook"
         },
         {
@@ -2032,6 +2153,7 @@
             "Bredt"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Down the stairs, Klein followed the gas lamp-illuminated corridor"
         },
         {
@@ -2045,6 +2167,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Bang! Bang! Bang! Klein repeated the process gripping the"
         },
         {
@@ -2061,6 +2184,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Just as Klein was planning to head to the"
         },
         {
@@ -2079,6 +2203,7 @@
             "Rozanne"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "The next morning, after ensuring that Melissa took a"
         },
         {
@@ -2095,6 +2220,7 @@
             "Old Neil"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "What will we be learning today? asked Klein curiously."
         }
       ]
@@ -2117,6 +2243,7 @@
             "Old Neil"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "An interesting trick? Klein asked out of extreme curiosity."
         }
       ]
@@ -2129,13 +2256,17 @@
           "start": "8:48:59",
           "duration": "0:03:12",
           "present_cast": [
-            "Klein Moretti"
+            "Klein Moretti",
+            "Old Neil"
           ],
           "images": [
             "Klein Moretti.jpg"
           ],
-          "missing_images": [],
+          "missing_images": [
+            "Old Neil"
+          ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "After pouring away the coffee and returning to the armory"
         },
         {
@@ -2151,6 +2282,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Dunn was waiting for lunch to be delivered."
         },
         {
@@ -2169,6 +2301,7 @@
             "Susie"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "In a private chemistry laboratory equipped with apparatus and items."
         },
         {
@@ -2185,6 +2318,7 @@
             "Sainz"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "In the seas beyond the Pritz Harbor, there was an island"
         },
         {
@@ -2198,6 +2332,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Meanwhile, Audrey finished her second concoction in a panic-stricken state."
         },
         {
@@ -2216,6 +2351,7 @@
             "Bredt"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Friday. A storm befell Tingen. The heavy rain pounded"
         }
       ]
@@ -2231,7 +2367,8 @@
             "Klein Moretti",
             "Rozanne",
             "Bredt",
-            "Klee"
+            "Klee",
+            "[lanky man]"
           ],
           "images": [
             "Klein Moretti.jpg"
@@ -2239,9 +2376,11 @@
           "missing_images": [
             "Rozanne",
             "Bredt",
-            "Klee"
+            "Klee",
+            "[lanky man]"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "A mission request… You probably came to the wrong place"
         },
         {
@@ -2258,6 +2397,7 @@
             "Rozanne"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "After everything was done, Klein, who did not bring his umbrella"
         },
         {
@@ -2278,6 +2418,7 @@
             "Klee"
           ],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "At that moment, the black-haired and green-eyed Leonard Mitchell walked out"
         }
       ]
@@ -2302,6 +2443,7 @@
             "Klee"
           ],
           "layout": "row(2)",
+          "continues_prev": true,
           "text_anchor": "While looking at Klein, Leonard smiled and nodded."
         },
         {
@@ -2320,6 +2462,7 @@
             "Klee"
           ],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "The carriage's interior was rather spacious. It was lined"
         },
         {
@@ -2338,6 +2481,7 @@
             "[Hired carriage driver]"
           ],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Unlike public carriages, private-hire carriages were either four-wheeled"
         },
         {
@@ -2353,6 +2497,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Klein was afraid of drenching his formal suit, so he jogged"
         }
       ]
@@ -2379,6 +2524,7 @@
             "[Food-delivery accomplice]"
           ],
           "layout": "row(2)",
+          "continues_prev": true,
           "text_anchor": "Leonard's singing sounded like a lullaby as it lightly resounded"
         },
         {
@@ -2399,6 +2545,7 @@
             "[Kidnappers]"
           ],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "With a gun and cane in each hand, Klein entered"
         },
         {
@@ -2417,6 +2564,7 @@
             "[Patrolling policemen]"
           ],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Klein held back his laughter and walked out into the streets."
         },
         {
@@ -2432,6 +2580,7 @@
           ],
           "missing_images": [],
           "layout": "row(2)",
+          "continues_prev": false,
           "text_anchor": "Almost five minutes later, a few carriages rushed"
         },
         {
@@ -2445,6 +2594,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "After returning to Zouteland Street, Klein did not wait"
         }
       ]
@@ -2464,6 +2614,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "The Antigonus notebook is in the apartment across"
         },
         {
@@ -2482,6 +2633,7 @@
             "[Ticketing officer]"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "He was just about to seek out an expensive for-hire carriage"
         },
         {
@@ -2499,6 +2651,7 @@
           ],
           "missing_images": [],
           "layout": "row(3)",
+          "continues_prev": false,
           "text_anchor": "Klein pressed his hat with his left hand and briskly jumped off"
         },
         {
@@ -2521,6 +2674,7 @@
             "Frye"
           ],
           "layout": "row(3)",
+          "continues_prev": false,
           "text_anchor": "Dunn nodded slightly as he instructed with a solemn expression"
         },
         {
@@ -2543,6 +2697,7 @@
             "Frye"
           ],
           "layout": "row(3)",
+          "continues_prev": false,
           "text_anchor": "Let's go up. Klein, you and Old Neil walk behind."
         }
       ]
@@ -2575,6 +2730,7 @@
             "[Police Corporal]"
           ],
           "layout": "row(3)",
+          "continues_prev": true,
           "text_anchor": "Eugh! Eugh! Klein squatted there, vomiting involuntarily."
         },
         {
@@ -2591,6 +2747,7 @@
             "Old Neil"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "After the neighbors confirmed that the portrait was indeed Ray"
         }
       ]
@@ -2613,6 +2770,7 @@
             "Old Neil"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "Old Neil rubbed his temples and said, I believe"
         },
         {
@@ -2631,6 +2789,7 @@
             "Mrs. Orianna"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "The elegant Mrs. Orianna with her fashionably coiled hair"
         },
         {
@@ -2644,6 +2803,7 @@
           ],
           "missing_images": [],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "When Captain Dunn did not return at noon, Klein"
         }
       ]
@@ -2666,6 +2826,7 @@
             "Angelica Barrehart"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "In the Divination Club situated at the second floor"
         },
         {
@@ -2686,6 +2847,7 @@
             "Angelica Barrehart"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "But that's only for ordinary people Klein silently tagged"
         }
       ]
@@ -2710,6 +2872,7 @@
             "Edward Steve"
           ],
           "layout": "single",
+          "continues_prev": true,
           "text_anchor": "As a Seer who had just stepped through the gates"
         },
         {
@@ -2721,7 +2884,7 @@
             "Angelica Barrehart"
           ],
           "images": [
-            "(hold previous frame)"
+            "Klein Moretti.jpg"
           ],
           "missing_images": [
             "Edward Steve",
@@ -2729,6 +2892,7 @@
             "Angelica Barrehart"
           ],
           "layout": "hold-previous",
+          "continues_prev": false,
           "text_anchor": "At half past five, Edward Steve put on his coat"
         }
       ]
@@ -2753,6 +2917,7 @@
             "Melissa Moretti"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "Half past seven in the evening, around the Moretti"
         },
         {
@@ -2769,6 +2934,7 @@
             "Royale Reideen"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "The next morning was a Sunday morning. Klein finished"
         },
         {
@@ -2787,6 +2953,7 @@
             "Bredt"
           ],
           "layout": "single",
+          "continues_prev": false,
           "text_anchor": "After taking a left band, he quickly met Old"
         }
       ]
@@ -2822,6 +2989,10 @@
       "scenes": 1
     },
     "[real fortune-teller woman]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[fortune-teller]": {
       "status": "background",
       "scenes": 1
     },
@@ -2919,7 +3090,7 @@
     },
     "Old Neil": {
       "status": "need",
-      "scenes": 15
+      "scenes": 16
     },
     "[Wilker shop salesperson]": {
       "status": "background",
@@ -2953,11 +3124,19 @@
       "status": "background",
       "scenes": 2
     },
+    "[priest]": {
+      "status": "background",
+      "scenes": 1
+    },
     "Benson Moretti": {
       "status": "need",
       "scenes": 10
     },
     "[Secret Order intruder]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[intruder]": {
       "status": "background",
       "scenes": 1
     },
@@ -2992,6 +3171,10 @@
     "Klee": {
       "status": "minor",
       "scenes": 4
+    },
+    "[lanky man]": {
+      "status": "background",
+      "scenes": 1
     },
     "[Hired carriage driver]": {
       "status": "background",

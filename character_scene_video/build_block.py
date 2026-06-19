@@ -59,6 +59,7 @@ REGISTRY = set(json.loads((HERE / "character_registry.json").read_text(encoding=
 _AL = json.loads((HERE / "name_aliases.json").read_text(encoding="utf-8"))
 ALIASES = _AL["aliases"]
 EXCLUDE = set(_AL.get("exclude", []))
+CONT = json.loads((HERE / "continuity.json").read_text(encoding="utf-8"))["boundaries"]
 DUR = load_durations()
 
 
@@ -83,7 +84,7 @@ def hms(sec):
     return f"{sec//3600:d}:{(sec%3600)//60:02d}:{sec%60:02d}"
 
 
-def resolve(scene, chapter):
+def resolve(scene, chapter, carried=()):
     persona = scene.get("protagonist_persona")
     if persona == "Klein (Beginning)" and chapter >= NIGHTHAWKS_ANCHOR:
         persona = "Klein Moretti"
@@ -91,10 +92,16 @@ def resolve(scene, chapter):
     if scene.get("protagonist_present") and persona:
         label, img = PERSONA[persona]
         cast.append(label); images.append(img)
-    for name in scene.get("other_characters", []):
+    others = list(scene.get("other_characters", []))
+    for nm in carried:                           # carry cast across a continuing chapter boundary
+        if nm not in others:
+            others.append(nm)
+    seen = set()
+    for name in others:
         name = ALIASES.get(name, name)          # canonicalize (merge invented surnames/title prefixes)
-        if name in EXCLUDE:                      # drop non-people (e.g. the dog Susie)
+        if name in EXCLUDE or name in seen:      # drop non-people (e.g. dog Susie) / dedupe
             continue
+        seen.add(name)
         cast.append(name)
         (images.append(AVAIL[name]) if name in AVAIL else missing.append(name))
     if not images:
@@ -113,7 +120,7 @@ def classify(label):
 
 def main():
     first, last = (int(sys.argv[1]), int(sys.argv[2])) if len(sys.argv) > 2 else (1, 50)
-    offset, index, chapters_out = 0.0, {}, []
+    offset, index, chapters_out, prev_images = 0.0, {}, [], []
     for ch in range(first, last + 1):
         sf = SCENES_DIR / f"ch_{ch}.json"
         if not sf.exists():
@@ -121,13 +128,20 @@ def main():
         specs = json.loads(sf.read_text(encoding="utf-8"))["scenes"]
         counts = [max(1, body_chars(ch, s["line_start"], s["line_end"])) for s in specs]
         tot = sum(counts)
+        cont = CONT.get(str(ch - 1), {})
+        continues = cont.get("continues", False)
+        carried = cont.get("carried_others", []) if continues else []
         rows = []
-        for s, cc in zip(specs, counts):
-            cast, images, missing, layout = resolve(s, ch)
+        for idx, (s, cc) in enumerate(zip(specs, counts)):
+            cast, images, missing, layout = resolve(s, ch, carried if idx == 0 else ())
+            if layout == "hold-previous" and prev_images:   # carry the actual previous frame
+                images = list(prev_images)
+            cont_prev = idx == 0 and continues
             dur = DUR[ch] * cc / tot
             rows.append({"start": hms(offset), "duration": hms(dur), "present_cast": cast,
                          "images": images, "missing_images": missing, "layout": layout,
-                         "text_anchor": s.get("text_anchor", "")})
+                         "continues_prev": cont_prev, "text_anchor": s.get("text_anchor", "")})
+            prev_images = images
             for label in cast:
                 key = "Klein Moretti (protagonist)" if label.startswith("Klein") else label
                 e = index.setdefault(key, {"status": classify(label), "scenes": 0})
@@ -146,11 +160,14 @@ def main():
          f"**Total:** {hms(offset)}  ·  **scenes:** {sum(len(c['scenes']) for c in chapters_out)}  ·  "
          f"**chapters:** {len(chapters_out)}", ""]
     for c in chapters_out:
-        L += [f"## Chapter {c['chapter']}: {c['title']}", "",
-              "| Start | Dur | Present cast | Image(s) | Missing |", "|---|---|---|---|---|"]
+        L.append(f"## Chapter {c['chapter']}: {c['title']}")
+        if c["scenes"] and c["scenes"][0]["continues_prev"]:
+            L.append(f"_↳ continues the scene from Chapter {c['chapter']-1} (cast carries over)_")
+        L += ["", "| Start | Dur | Present cast | Image(s) | Missing |", "|---|---|---|---|---|"]
         for r in c["scenes"]:
             miss = ", ".join(r["missing_images"]) or "—"
-            L.append(f"| {r['start']} | {r['duration']} | {', '.join(r['present_cast'])} | "
+            anchor = "↳ " if r["continues_prev"] else ""
+            L.append(f"| {r['start']} | {r['duration']} | {anchor}{', '.join(r['present_cast'])} | "
                      f"{', '.join(r['images'])} | {miss} |")
         L.append("")
     # ---- consolidated character index ----
