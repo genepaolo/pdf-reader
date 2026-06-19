@@ -28,18 +28,20 @@ _Content pass, full-cast tracking. Durations are char-share ESTIMATES (placehold
 
 ## Character index (this batch)
 
-| Character | Portrait | Scenes |
+| Character | Status | Scenes |
 |---|---|---|
-| Klein Moretti (protagonist) | ✅ | 17 |
-| Alger Wilson | ✅ | 2 |
-| Audrey Hall | ✅ | 2 |
-| Melissa Moretti | ❌ needs image | 1 |
-| Wendy Smyrin | ❌ needs image | 1 |
-| [Justice (unidentified)] | ❌ needs image | 1 |
-| [The Hanged Man (unidentified)] | ❌ needs image | 1 |
-| [ch6 not tagged in sample] | ❌ needs image | 1 |
-| [circus fortune-teller] | ❌ needs image | 1 |
-| [fortune-teller] | ❌ needs image | 1 |
-| [real fortune-teller] | ❌ needs image | 1 |
+| Klein Moretti (protagonist) | ✅ have | 17 |
+| Alger Wilson | ✅ have | 2 |
+| Audrey Hall | ✅ have | 2 |
+| Melissa Moretti | ❌ get image (wiki char) | 1 |
+| Wendy Smyrin | ❌ get image (wiki char) | 1 |
+| [Justice (unidentified)] | · unnamed extra | 1 |
+| [The Hanged Man (unidentified)] | · unnamed extra | 1 |
+| [ch6 not tagged in sample] | · unnamed extra | 1 |
+| [circus fortune-teller] | · unnamed extra | 1 |
+| [fortune-teller] | · unnamed extra | 1 |
+| [real fortune-teller] | · unnamed extra | 1 |
 
-**Needs an image (8):** Melissa Moretti, Wendy Smyrin, [Justice (unidentified)], [The Hanged Man (unidentified)], [ch6 not tagged in sample], [circus fortune-teller], [fortune-teller], [real fortune-teller]
+**🎯 Get an image — important characters with a wiki page (2):** Melissa Moretti, Wendy Smyrin
+**Minor named (no wiki page, optional) (0):** none
+**Unnamed background figures:** 6 (not expected to have portraits)

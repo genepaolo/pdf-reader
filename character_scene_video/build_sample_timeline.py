@@ -118,6 +118,10 @@ def hms(sec: float) -> str:
 
 
 AVAIL = load_images()
+# 384 Book 1 characters with their own wiki article — the "important" bar.
+REGISTRY = set(json.loads(
+    (Path(__file__).resolve().parent / "character_registry.json").read_text(encoding="utf-8")
+)["characters"])
 
 
 def resolve(present, persona, others):
@@ -153,9 +157,17 @@ def build(chapters, offset0=0.0):
                          "present_cast": cast, "images": images, "missing_images": missing,
                          "layout": layout, "text_anchor": anchor})
             for label in cast:
-                key = "Klein Moretti (protagonist)" if label.startswith("Klein") else label
-                has = key.startswith("Klein") or (label in AVAIL)
-                e = index.setdefault(key, {"has_image": has, "scenes": 0})
+                if label.startswith("Klein"):
+                    key, status = "Klein Moretti (protagonist)", "have"
+                elif label in AVAIL:
+                    key, status = label, "have"
+                elif label.startswith("["):
+                    key, status = label, "background"      # unnamed extra
+                elif label in REGISTRY:
+                    key, status = label, "need"            # important: has a wiki page, no portrait
+                else:
+                    key, status = label, "minor"           # named but no wiki page
+                e = index.setdefault(key, {"status": status, "scenes": 0})
                 e["scenes"] += 1
             offset += dur
     return rows, offset, index
@@ -170,13 +182,20 @@ def write_md(path, title, note, rows, total, index):
         miss = ", ".join(r["missing_images"]) or "—"
         L.append(f"| {r['start']} | {r['duration']} | {r['chapter']} | "
                  f"{', '.join(r['present_cast'])} | {', '.join(r['images'])} | {miss} |")
+    STATUS = {"have": "✅ have", "need": "❌ get image (wiki char)",
+              "minor": "➖ minor (no wiki page)", "background": "· unnamed extra"}
     L += ["", "## Character index (this batch)", "",
-          "| Character | Portrait | Scenes |", "|---|---|---|"]
+          "| Character | Status | Scenes |", "|---|---|---|"]
     for name in sorted(index, key=lambda n: (-index[n]["scenes"], n)):
-        mark = "✅" if index[name]["has_image"] else "❌ needs image"
-        L.append(f"| {name} | {mark} | {index[name]['scenes']} |")
-    need = [n for n in index if not index[n]["has_image"]]
-    L += ["", f"**Needs an image ({len(need)}):** " + (", ".join(sorted(need)) or "none")]
+        L.append(f"| {name} | {STATUS[index[name]['status']]} | {index[name]['scenes']} |")
+    need = sorted(n for n in index if index[n]["status"] == "need")
+    minor = sorted(n for n in index if index[n]["status"] == "minor")
+    bg = sum(1 for n in index if index[n]["status"] == "background")
+    L += ["",
+          f"**🎯 Get an image — important characters with a wiki page ({len(need)}):** "
+          + (", ".join(need) or "none"),
+          f"**Minor named (no wiki page, optional) ({len(minor)}):** " + (", ".join(minor) or "none"),
+          f"**Unnamed background figures:** {bg} (not expected to have portraits)"]
     path.write_text("\n".join(L) + "\n", encoding="utf-8")
 
 
@@ -195,6 +214,7 @@ write_md(OUT / "ch215_sherlock_SAMPLE.md",
          "Scene Timeline — SAMPLE (chapter 215, 'Mrs. Sammer' — Sherlock persona)",
          "_Standalone illustration. Offsets are chapter-relative._", rows2, end2, idx2)
 
-print(f"Block 1 sample: {len(rows1)} scenes, {hms(end1)}; index {len(idx1)} characters "
-      f"({sum(1 for e in idx1.values() if not e['has_image'])} need images)")
-print(f"Ch215 sample: {len(rows2)} scenes, {hms(end2)}; index {len(idx2)} characters")
+print(f"Block 1 sample: {len(rows1)} scenes, {hms(end1)}; "
+      f"{sum(1 for e in idx1.values() if e['status']=='need')} wiki chars need images")
+print(f"Ch215 sample: {len(rows2)} scenes, {hms(end2)}; "
+      f"{sum(1 for e in idx2.values() if e['status']=='need')} wiki chars need images")

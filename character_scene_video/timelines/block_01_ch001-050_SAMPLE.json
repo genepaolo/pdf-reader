@@ -297,47 +297,47 @@
   ],
   "characters_index": {
     "Klein Moretti (protagonist)": {
-      "has_image": true,
+      "status": "have",
       "scenes": 17
     },
     "Melissa Moretti": {
-      "has_image": false,
+      "status": "need",
       "scenes": 1
     },
     "Wendy Smyrin": {
-      "has_image": false,
+      "status": "need",
       "scenes": 1
     },
     "[fortune-teller]": {
-      "has_image": false,
+      "status": "background",
       "scenes": 1
     },
     "[circus fortune-teller]": {
-      "has_image": false,
+      "status": "background",
       "scenes": 1
     },
     "[real fortune-teller]": {
-      "has_image": false,
+      "status": "background",
       "scenes": 1
     },
     "Audrey Hall": {
-      "has_image": true,
+      "status": "have",
       "scenes": 2
     },
     "Alger Wilson": {
-      "has_image": true,
+      "status": "have",
       "scenes": 2
     },
     "[ch6 not tagged in sample]": {
-      "has_image": false,
+      "status": "background",
       "scenes": 1
     },
     "[Justice (unidentified)]": {
-      "has_image": false,
+      "status": "background",
       "scenes": 1
     },
     "[The Hanged Man (unidentified)]": {
-      "has_image": false,
+      "status": "background",
       "scenes": 1
     }
   }

@@ -17,15 +17,17 @@ _Standalone illustration. Offsets are chapter-relative._
 
 ## Character index (this batch)
 
-| Character | Portrait | Scenes |
+| Character | Status | Scenes |
 |---|---|---|
-| Klein Moretti (protagonist) | ✅ | 8 |
-| Julianne | ❌ needs image | 3 |
-| Stelyn Sammer | ❌ needs image | 3 |
-| Luke Sammer | ❌ needs image | 1 |
-| [highlander pursuers] | ❌ needs image | 1 |
-| [male servant] | ❌ needs image | 1 |
-| [teenage boy fugitive] | ❌ needs image | 1 |
-| [train conductor] | ❌ needs image | 1 |
+| Klein Moretti (protagonist) | ✅ have | 8 |
+| Julianne | ➖ minor (no wiki page) | 3 |
+| Stelyn Sammer | ❌ get image (wiki char) | 3 |
+| Luke Sammer | ❌ get image (wiki char) | 1 |
+| [highlander pursuers] | · unnamed extra | 1 |
+| [male servant] | · unnamed extra | 1 |
+| [teenage boy fugitive] | · unnamed extra | 1 |
+| [train conductor] | · unnamed extra | 1 |
 
-**Needs an image (7):** Julianne, Luke Sammer, Stelyn Sammer, [highlander pursuers], [male servant], [teenage boy fugitive], [train conductor]
+**🎯 Get an image — important characters with a wiki page (2):** Luke Sammer, Stelyn Sammer
+**Minor named (no wiki page, optional) (1):** Julianne
+**Unnamed background figures:** 4 (not expected to have portraits)
