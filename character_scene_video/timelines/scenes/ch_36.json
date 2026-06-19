@@ -1,0 +1,6 @@
+{"chapter": 36, "scenes": [
+  {"line_start": 3, "line_end": 69, "protagonist_present": true, "protagonist_persona": "The Fool", "other_characters": ["Audrey Hall", "Alger Wilson"], "setting": "Tarot Club gathering above the gray fog", "text_anchor": "While Audrey recalled the conversation between her father and elder"},
+  {"line_start": 71, "line_end": 115, "protagonist_present": true, "protagonist_persona": "Klein (Beginning)", "other_characters": [], "setting": "Above the gray fog, then Klein's room in the real world", "text_anchor": "Above the gray fog, in the opulent palace where"},
+  {"line_start": 119, "line_end": 147, "protagonist_present": false, "protagonist_persona": null, "other_characters": ["Audrey Hall"], "setting": "Audrey's room in Backlund, Empress Borough", "text_anchor": "Backlund, Empress Borough. Audrey Hall looked at herself in"},
+  {"line_start": 151, "line_end": 163, "protagonist_present": false, "protagonist_persona": null, "other_characters": ["Alger Wilson"], "setting": "Alger's candlelit underground basement", "text_anchor": "In an underground basement lit only by a flickering"}
+]}

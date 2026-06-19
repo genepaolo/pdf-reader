@@ -1,0 +1,3069 @@
+{
+  "batch": 1,
+  "chapters": "1-50",
+  "total": "10:52:09",
+  "chapters_detail": [
+    {
+      "chapter": 1,
+      "title": "Crimson",
+      "scenes": [
+        {
+          "start": "0:00:00",
+          "duration": "0:06:16",
+          "present_cast": [
+            "Klein (as Zhou Mingrui)"
+          ],
+          "images": [
+            "Zhou Mingrui.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Painful! How painful! My head hurts so badly!"
+        },
+        {
+          "start": "0:06:16",
+          "duration": "0:04:05",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Klein Moretti, a citizen of the Northern Continent's Loen"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "Situation",
+      "scenes": [
+        {
+          "start": "0:10:21",
+          "duration": "0:06:02",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Tap! Tap! Tap! Zhou Mingrui reeled back in fear"
+        },
+        {
+          "start": "0:16:23",
+          "duration": "0:02:07",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Yes, I should clean up the blood stains"
+        },
+        {
+          "start": "0:18:30",
+          "duration": "0:05:19",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "After Zhou Mingrui was done with his linen"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "Melissa",
+      "scenes": [
+        {
+          "start": "0:23:49",
+          "duration": "0:02:05",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "After confirming his plan, Zhou Mingrui immediately felt"
+        },
+        {
+          "start": "0:25:54",
+          "duration": "0:11:12",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "At that moment, there was a commotion inside"
+        },
+        {
+          "start": "0:37:06",
+          "duration": "0:00:02",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Watching his sister close the door and leave"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "title": "Divination",
+      "scenes": [
+        {
+          "start": "0:37:08",
+          "duration": "0:04:46",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Returning to his chair again, he heard the"
+        },
+        {
+          "start": "0:41:54",
+          "duration": "0:02:48",
+          "present_cast": [
+            "Klein (Beginning)",
+            "[vagrant accordionist]",
+            "[deadpan woman]"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "[vagrant accordionist]",
+            "[deadpan woman]"
+          ],
+          "layout": "single",
+          "text_anchor": "The corridor during the day remained dim as"
+        },
+        {
+          "start": "0:44:42",
+          "duration": "0:04:34",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Wendy Smyrin"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "Wendy Smyrin"
+          ],
+          "layout": "single",
+          "text_anchor": "Zhou Mingrui overtook her and turned into another"
+        },
+        {
+          "start": "0:49:15",
+          "duration": "0:03:38",
+          "present_cast": [
+            "Klein (Beginning)",
+            "[painted-face fortune-teller woman]"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "[painted-face fortune-teller woman]"
+          ],
+          "layout": "single",
+          "text_anchor": "There was a municipal square at the intersection"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "title": "Ritual",
+      "scenes": [
+        {
+          "start": "0:52:54",
+          "duration": "0:06:53",
+          "present_cast": [
+            "Klein (Beginning)",
+            "[painted-face animal-trainer woman]",
+            "[real fortune-teller woman]"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "[painted-face animal-trainer woman]",
+            "[real fortune-teller woman]"
+          ],
+          "layout": "single",
+          "text_anchor": "Free? Free things cost the most! Zhou Mingrui"
+        },
+        {
+          "start": "0:59:47",
+          "duration": "0:04:29",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Zhou Mingrui very quickly put this matter behind"
+        },
+        {
+          "start": "1:04:16",
+          "duration": "0:01:14",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "A gray fog appeared over his eyes-haziness"
+        },
+        {
+          "start": "1:05:30",
+          "duration": "0:00:52",
+          "present_cast": [
+            "Audrey Hall"
+          ],
+          "images": [
+            "Audrey Hall.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "In the Loen Kingdom's capital, Backlund. Inside a"
+        },
+        {
+          "start": "1:06:22",
+          "duration": "0:00:43",
+          "present_cast": [
+            "Alger Wilson"
+          ],
+          "images": [
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "In the Sonia Sea, a three-masted sailboat that"
+        },
+        {
+          "start": "1:07:05",
+          "duration": "0:00:39",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "text_anchor": "In the fog of gray mist, Audrey Hall"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "title": "Beyonder",
+      "scenes": [
+        {
+          "start": "1:07:44",
+          "duration": "0:13:25",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "text_anchor": "Not only did they speak the same Loen language,"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "title": "Call Sign",
+      "scenes": [
+        {
+          "start": "1:21:09",
+          "duration": "0:10:42",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "text_anchor": "“You can address me as The Fool.”"
+        },
+        {
+          "start": "1:31:51",
+          "duration": "0:02:16",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "He was still standing in the middle of his apartment."
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "title": "A New Era",
+      "scenes": [
+        {
+          "start": "1:34:07",
+          "duration": "0:05:17",
+          "present_cast": [
+            "Alger Wilson",
+            "[Blond Storm Beyonder sailor]",
+            "[Ghost ship \"captain\"]"
+          ],
+          "images": [
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [
+            "[Blond Storm Beyonder sailor]",
+            "[Ghost ship \"captain\"]"
+          ],
+          "layout": "single",
+          "text_anchor": "Whoosh! Howling wind accompanied a downpour."
+        },
+        {
+          "start": "1:39:24",
+          "duration": "0:04:06",
+          "present_cast": [
+            "Audrey Hall",
+            "Annie",
+            "Count Hall"
+          ],
+          "images": [
+            "Audrey Hall.jpg"
+          ],
+          "missing_images": [
+            "Annie",
+            "Count Hall"
+          ],
+          "layout": "single",
+          "text_anchor": "Empress Borough, Backlund, capital of the Loen Kingdom."
+        },
+        {
+          "start": "1:43:30",
+          "duration": "0:07:12",
+          "present_cast": [
+            "Audrey Hall",
+            "Count Hall",
+            "Aguesid Negan",
+            "George III"
+          ],
+          "images": [
+            "Audrey Hall.jpg"
+          ],
+          "missing_images": [
+            "Count Hall",
+            "Aguesid Negan",
+            "George III"
+          ],
+          "layout": "single",
+          "text_anchor": "The Royal Navy base, Pritz Harbor, Oak Island."
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "title": "The Notebook",
+      "scenes": [
+        {
+          "start": "1:50:42",
+          "duration": "0:14:23",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "After half an hour of rest, Zhou Mingrui, who now"
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "title": "The Norm",
+      "scenes": [
+        {
+          "start": "2:05:05",
+          "duration": "0:11:58",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Bitsch Mountbatten",
+            "[Dignified middle-aged inspector]",
+            "[Gray-eyed inspector]",
+            "[Young green-eyed inspector]"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "Bitsch Mountbatten",
+            "[Dignified middle-aged inspector]",
+            "[Gray-eyed inspector]",
+            "[Young green-eyed inspector]"
+          ],
+          "layout": "single",
+          "text_anchor": "“Who is it?” Klein was thinking about the mysterious"
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "title": "Real Culinary Skills",
+      "scenes": [
+        {
+          "start": "2:17:03",
+          "duration": "0:06:58",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "The norm is for everyone to die together? Very glad"
+        },
+        {
+          "start": "2:24:01",
+          "duration": "0:05:16",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "After more than forty minutes, some not-so-brisk but rhythmic"
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "title": "Here Again",
+      "scenes": [
+        {
+          "start": "2:29:17",
+          "duration": "0:00:50",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "Melissa, can you not rub my nose in it"
+        },
+        {
+          "start": "2:30:07",
+          "duration": "0:09:30",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Knock! Knock! Knock! Poundings on the door roused Klein"
+        },
+        {
+          "start": "2:39:37",
+          "duration": "0:00:42",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Sat up? Klein looked around, confused. He noticed"
+        },
+        {
+          "start": "2:40:20",
+          "duration": "0:00:32",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "He opened the door and walked along the dark corridor"
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "title": "Nighthawk",
+      "scenes": [
+        {
+          "start": "2:40:52",
+          "duration": "0:06:03",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Plop! Klein could not help but take a step back"
+        },
+        {
+          "start": "2:46:54",
+          "duration": "0:05:20",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Dunn Smith",
+            "[carriage driver]"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [
+            "[carriage driver]"
+          ],
+          "layout": "row(2)",
+          "text_anchor": "In such a tranquil setting, Dunn Smith opened his mouth"
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "title": "The Medium",
+      "scenes": [
+        {
+          "start": "2:52:15",
+          "duration": "0:02:25",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "A true medium... Klein repeated this description inwardly"
+        },
+        {
+          "start": "2:54:40",
+          "duration": "0:09:42",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Dunn Smith",
+            "Daly Simone"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Dunn Smith.jpg",
+            "Daly Simone.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "text_anchor": "Dunn turned the doorknob, pushed the door open and said"
+        },
+        {
+          "start": "3:04:22",
+          "duration": "0:02:50",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Congratulations. You can return home now. But do remember"
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "title": "The Invitation",
+      "scenes": [
+        {
+          "start": "3:07:13",
+          "duration": "0:10:23",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "A wave of tumultuous emotions rose up in Klein's heart"
+        },
+        {
+          "start": "3:17:36",
+          "duration": "0:00:40",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "He took out his pocket watch. Click, he pressed"
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "title": "Rat-baiting With Dogs",
+      "scenes": [
+        {
+          "start": "3:18:15",
+          "duration": "0:00:40",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Phew, I finally got through the round with the medium"
+        },
+        {
+          "start": "3:18:55",
+          "duration": "0:04:14",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "In a similar state of mind, he opened the door to his"
+        },
+        {
+          "start": "3:23:09",
+          "duration": "0:04:21",
+          "present_cast": [
+            "Klein (Beginning)"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Last night's dinner was too good, she ate too much"
+        },
+        {
+          "start": "3:27:31",
+          "duration": "0:01:12",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "At this moment, Melissa, who had gotten out of bed again"
+        },
+        {
+          "start": "3:28:43",
+          "duration": "0:02:46",
+          "present_cast": [
+            "Klein (Beginning)",
+            "[Carriage driver]",
+            "[Fare collector]"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "[Carriage driver]",
+            "[Fare collector]"
+          ],
+          "layout": "single",
+          "text_anchor": "Besik Street was a little far, and Klein was afraid"
+        },
+        {
+          "start": "3:31:28",
+          "duration": "0:05:37",
+          "present_cast": [
+            "Klein (Beginning)",
+            "Mr. Wright",
+            "[Bartender]",
+            "[Short man in brown beret]"
+          ],
+          "images": [
+            "Klein Moretti (Beginning of the Series).jpg"
+          ],
+          "missing_images": [
+            "Mr. Wright",
+            "[Bartender]",
+            "[Short man in brown beret]"
+          ],
+          "layout": "single",
+          "text_anchor": "Klein reached out his right hand and gave a forceful push"
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "title": "Special Operations Department",
+      "scenes": [
+        {
+          "start": "3:37:06",
+          "duration": "0:02:46",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Rozanne"
+          ],
+          "layout": "single",
+          "text_anchor": "Upon seeing the signboard, Klein felt surprised yet found it"
+        },
+        {
+          "start": "3:39:52",
+          "duration": "0:05:04",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "Rozanne"
+          ],
+          "layout": "row(2)",
+          "text_anchor": "Okay. Klein quickly followed behind. In his mind, he pondered"
+        },
+        {
+          "start": "3:44:56",
+          "duration": "0:05:03",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "The room Rozanne was referring to was just in front"
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "title": "Origin and Cause",
+      "scenes": [
+        {
+          "start": "3:49:59",
+          "duration": "0:13:17",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Upon hearing Klein's question, Dunn looked out of the window"
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "title": "Sealed Artifacts",
+      "scenes": [
+        {
+          "start": "4:03:16",
+          "duration": "0:14:11",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "We are guardians, but also a bunch of miserable wretches"
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "title": "The Forgetful Dunn",
+      "scenes": [
+        {
+          "start": "4:17:27",
+          "duration": "0:03:32",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Okay. Klein bowed slightly as he wore his short top hat"
+        },
+        {
+          "start": "4:20:59",
+          "duration": "0:04:07",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [
+            "Rozanne"
+          ],
+          "layout": "row(2)",
+          "text_anchor": "Dunn returned to the table's side and pulled at a few"
+        },
+        {
+          "start": "4:25:06",
+          "duration": "0:04:45",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne",
+            "Mrs. Orianna"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Rozanne",
+            "Mrs. Orianna"
+          ],
+          "layout": "single",
+          "text_anchor": "Captain has always been this way. He often forgets things"
+        },
+        {
+          "start": "4:29:51",
+          "duration": "0:04:23",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil"
+          ],
+          "layout": "single",
+          "text_anchor": "He did a turn at a cross-junction and headed right"
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "title": "An Old Friend In A Different World",
+      "scenes": [
+        {
+          "start": "4:34:14",
+          "duration": "0:10:43",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil"
+          ],
+          "layout": "single",
+          "text_anchor": "In that instant, Klein even believed that he had"
+        },
+        {
+          "start": "4:44:57",
+          "duration": "0:01:51",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Rozanne had apparently mentioned something... The Sleepless? Just as"
+        },
+        {
+          "start": "4:46:48",
+          "duration": "0:00:03",
+          "present_cast": [
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Indeed, there's nothing special about him..."
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "title": "Starting Sequence",
+      "scenes": [
+        {
+          "start": "4:46:51",
+          "duration": "0:10:37",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne Bansa"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Rozanne Bansa"
+          ],
+          "layout": "single",
+          "text_anchor": "After he went up the stairs and returned to"
+        },
+        {
+          "start": "4:57:28",
+          "duration": "0:00:34",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "As he walked down the stairs, Klein suddenly stopped"
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "title": "Side Arm",
+      "scenes": [
+        {
+          "start": "4:58:02",
+          "duration": "0:08:44",
+          "present_cast": [
+            "Klein Moretti",
+            "[Wilker shop salesperson]",
+            "[Wilker shop cashier]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[Wilker shop salesperson]",
+            "[Wilker shop cashier]"
+          ],
+          "layout": "single",
+          "text_anchor": "As Klein walked down Zouteland and while taking in"
+        },
+        {
+          "start": "5:06:46",
+          "duration": "0:01:22",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "After closing the door, he counted the eleven pounds"
+        },
+        {
+          "start": "5:08:08",
+          "duration": "0:02:54",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "Melissa with her soft, black hair entered. Her nose"
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "title": "Penny-pincher",
+      "scenes": [
+        {
+          "start": "5:11:02",
+          "duration": "0:07:37",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "The sky outside was gradually dyed golden as Klein"
+        },
+        {
+          "start": "5:18:39",
+          "duration": "0:01:37",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "A river tore through the land, with cedar"
+        },
+        {
+          "start": "5:20:17",
+          "duration": "0:04:15",
+          "present_cast": [
+            "Klein Moretti",
+            "Harvin Stone",
+            "Quentin Cohen",
+            "Azik Eggers"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Harvin Stone",
+            "Quentin Cohen",
+            "Azik Eggers"
+          ],
+          "layout": "single",
+          "text_anchor": "Knock! Knock! Knock! He knocked lightly on the half-closed"
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "title": "Cathedral",
+      "scenes": [
+        {
+          "start": "5:24:32",
+          "duration": "0:02:17",
+          "present_cast": [
+            "Klein Moretti",
+            "Azik Eggers",
+            "Quentin Cohen",
+            "Harvin Stone"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Azik Eggers",
+            "Quentin Cohen",
+            "Harvin Stone"
+          ],
+          "layout": "single",
+          "text_anchor": "While Azik muttered to himself, he subconsciously shot a"
+        },
+        {
+          "start": "5:26:49",
+          "duration": "0:06:00",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "With his back against the sun, he lifted up"
+        },
+        {
+          "start": "5:32:50",
+          "duration": "0:03:18",
+          "present_cast": [
+            "Klein Moretti",
+            "[Cathedral bishop]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[Cathedral bishop]"
+          ],
+          "layout": "single",
+          "text_anchor": "But he did not enter that street. Instead, he"
+        },
+        {
+          "start": "5:36:08",
+          "duration": "0:01:05",
+          "present_cast": [
+            "Klein Moretti",
+            "[Cathedral bishop]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[Cathedral bishop]"
+          ],
+          "layout": "single",
+          "text_anchor": "Klein took out the 'Seventh Unit, Special Operations Department'"
+        },
+        {
+          "start": "5:37:13",
+          "duration": "0:00:34",
+          "present_cast": [
+            "Klein Moretti",
+            "[Black-robed priest]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[Black-robed priest]"
+          ],
+          "layout": "single",
+          "text_anchor": "The secret door closed silently as a middle-aged, black-robed"
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "title": "Practice",
+      "scenes": [
+        {
+          "start": "5:37:47",
+          "duration": "0:01:31",
+          "present_cast": [
+            "Klein Moretti",
+            "[Middle-aged priest]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[Middle-aged priest]"
+          ],
+          "layout": "single",
+          "text_anchor": "Tap! Tap! Tap! The sound of footsteps echoed through"
+        },
+        {
+          "start": "5:39:17",
+          "duration": "0:01:19",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Rozanne"
+          ],
+          "layout": "single",
+          "text_anchor": "Seeing doors that were tightly shut or half-closed, he"
+        },
+        {
+          "start": "5:40:36",
+          "duration": "0:02:11",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Come in. Dunn Smith's deep and gentle voice sounded."
+        },
+        {
+          "start": "5:42:47",
+          "duration": "0:05:54",
+          "present_cast": [
+            "Klein Moretti",
+            "[Middle-aged priest]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[Middle-aged priest]"
+          ],
+          "layout": "single",
+          "text_anchor": "He turned left at the intersection, and bathed in"
+        },
+        {
+          "start": "5:48:41",
+          "duration": "0:02:52",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Benson Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "The feeling of being spied upon vanished without a"
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "title": "Siblings' Dinner",
+      "scenes": [
+        {
+          "start": "5:51:33",
+          "duration": "0:03:31",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Benson Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "It's simply sharp and incisive... Klein burst out in"
+        },
+        {
+          "start": "5:55:04",
+          "duration": "0:01:43",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "After some idle chatter between the brothers, the remnants"
+        },
+        {
+          "start": "5:56:47",
+          "duration": "0:06:09",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "In the evening, Benson and Melissa sat in front"
+        },
+        {
+          "start": "6:02:56",
+          "duration": "0:00:57",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Klein felt groggy as he stared at the darkness"
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "title": "Secret Order",
+      "scenes": [
+        {
+          "start": "6:03:53",
+          "duration": "0:05:14",
+          "present_cast": [
+            "Klein Moretti",
+            "[Secret Order intruder]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[Secret Order intruder]"
+          ],
+          "layout": "single",
+          "text_anchor": "Badump! Badump! Badump! Klein's heart began beating rapidly."
+        },
+        {
+          "start": "6:09:07",
+          "duration": "0:06:10",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "He uneasily waited for a full ten minutes."
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "title": "Jobs and Rentals Are Serious Business",
+      "scenes": [
+        {
+          "start": "6:15:17",
+          "duration": "0:02:06",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Klein tried his best to remain his usual self"
+        },
+        {
+          "start": "6:17:23",
+          "duration": "0:01:48",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Although he was constantly hoping to become a Beyonder"
+        },
+        {
+          "start": "6:19:10",
+          "duration": "0:07:28",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "He got out of bed and headed to the"
+        },
+        {
+          "start": "6:26:39",
+          "duration": "0:01:22",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Melissa Moretti",
+            "Scarter"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Benson Moretti",
+            "Melissa Moretti",
+            "Scarter"
+          ],
+          "layout": "single",
+          "text_anchor": "The person who served them was a middle-aged man"
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "title": "Brand New Beginning",
+      "scenes": [
+        {
+          "start": "6:28:01",
+          "duration": "0:07:25",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Melissa Moretti",
+            "Scarter"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Benson Moretti",
+            "Melissa Moretti",
+            "Scarter"
+          ],
+          "layout": "single",
+          "text_anchor": "2, 4, and 6 Daffodil Street were terrace"
+        },
+        {
+          "start": "6:35:25",
+          "duration": "0:00:39",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "It feels like a dream... After a while, Melissa"
+        },
+        {
+          "start": "6:36:04",
+          "duration": "0:02:28",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Mr. Franky"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Benson Moretti",
+            "Mr. Franky"
+          ],
+          "layout": "single",
+          "text_anchor": "The siblings made do with rye bread at home"
+        },
+        {
+          "start": "6:38:32",
+          "duration": "0:01:30",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "With the problem of the previous contract resolved, the"
+        },
+        {
+          "start": "6:40:02",
+          "duration": "0:02:09",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [
+            "Rozanne"
+          ],
+          "layout": "row(2)",
+          "text_anchor": "The next morning. Klein stood before a full-length mirror"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "title": "Potion",
+      "scenes": [
+        {
+          "start": "6:42:11",
+          "duration": "0:06:31",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Dunn Smith stared at Klein with his gray eyes"
+        },
+        {
+          "start": "6:48:42",
+          "duration": "0:08:15",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil"
+          ],
+          "layout": "single",
+          "text_anchor": "The room had long tables. There were test tubes,"
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "title": "Spirit Vision",
+      "scenes": [
+        {
+          "start": "6:56:57",
+          "duration": "0:16:52",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil"
+          ],
+          "layout": "single",
+          "text_anchor": "Klein looked at dark-blue gelatinous liquid, finding it hard"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "title": "Switch",
+      "scenes": [
+        {
+          "start": "7:13:49",
+          "duration": "0:07:04",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil"
+          ],
+          "layout": "single",
+          "text_anchor": "The moment Old Neil finished his sentence, the illusory"
+        },
+        {
+          "start": "7:20:53",
+          "duration": "0:00:48",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "At that moment, Dunn Smith came from behind"
+        },
+        {
+          "start": "7:21:41",
+          "duration": "0:02:49",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "After entering Blackthorn Security Company, he greeted Rozanne"
+        },
+        {
+          "start": "7:24:30",
+          "duration": "0:01:33",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Tick-tock. Tick-tock. One minute before three,"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "title": "Advance Payment",
+      "scenes": [
+        {
+          "start": "7:26:04",
+          "duration": "0:01:16",
+          "present_cast": [
+            "Alger Wilson"
+          ],
+          "images": [
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "In an underground basement without any windows, the burly"
+        },
+        {
+          "start": "7:27:19",
+          "duration": "0:00:50",
+          "present_cast": [
+            "Audrey Hall"
+          ],
+          "images": [
+            "Audrey Hall.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Backlund, Empress Borough, Inside the Hall family's luxurious"
+        },
+        {
+          "start": "7:28:10",
+          "duration": "0:09:46",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "text_anchor": "Above the gray fog stood a majestic divine"
+        }
+      ]
+    },
+    {
+      "chapter": 35,
+      "title": "Exchange of Information",
+      "scenes": [
+        {
+          "start": "7:37:56",
+          "duration": "0:11:33",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "text_anchor": "Roselle Gustav's secret diary? Emperor Roselle? Indeed, only"
+        }
+      ]
+    },
+    {
+      "chapter": 36,
+      "title": "A Simple Question",
+      "scenes": [
+        {
+          "start": "7:49:29",
+          "duration": "0:06:03",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "text_anchor": "While Audrey recalled the conversation between her father and elder"
+        },
+        {
+          "start": "7:55:32",
+          "duration": "0:03:44",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Above the gray fog, in the opulent palace where"
+        },
+        {
+          "start": "7:59:16",
+          "duration": "0:01:58",
+          "present_cast": [
+            "Audrey Hall"
+          ],
+          "images": [
+            "Audrey Hall.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Backlund, Empress Borough. Audrey Hall looked at herself in"
+        },
+        {
+          "start": "8:01:14",
+          "duration": "0:00:35",
+          "present_cast": [
+            "Alger Wilson"
+          ],
+          "images": [
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "In an underground basement lit only by a flickering"
+        }
+      ]
+    },
+    {
+      "chapter": 37,
+      "title": "The Club",
+      "scenes": [
+        {
+          "start": "8:01:49",
+          "duration": "0:02:20",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Under the scorching afternoon sun, Klein left his house."
+        },
+        {
+          "start": "8:04:09",
+          "duration": "0:02:04",
+          "present_cast": [
+            "Klein Moretti",
+            "Wendy Smyrin"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Wendy Smyrin"
+          ],
+          "layout": "single",
+          "text_anchor": "Lad. Oh Klein turned his head curiously and found"
+        },
+        {
+          "start": "8:06:14",
+          "duration": "0:05:08",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "There were far fewer street side hawkers in the"
+        },
+        {
+          "start": "8:11:22",
+          "duration": "0:01:28",
+          "present_cast": [
+            "Klein Moretti",
+            "[Divination Club female attendant]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[Divination Club female attendant]"
+          ],
+          "layout": "single",
+          "text_anchor": "Amid his mixed thoughts, Klein went across the street"
+        }
+      ]
+    },
+    {
+      "chapter": 38,
+      "title": "Novice Hobbyist",
+      "scenes": [
+        {
+          "start": "8:12:49",
+          "duration": "0:02:36",
+          "present_cast": [
+            "Klein Moretti",
+            "[Divination Club female attendant]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[Divination Club female attendant]"
+          ],
+          "layout": "single",
+          "text_anchor": "Upon hearing Klein's question, the beautiful lady with elegantly"
+        },
+        {
+          "start": "8:15:25",
+          "duration": "0:06:14",
+          "present_cast": [
+            "Klein Moretti",
+            "Glacis"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Glacis"
+          ],
+          "layout": "single",
+          "text_anchor": "Topaz Room. I like topaz. Glacis appeared by"
+        },
+        {
+          "start": "8:21:39",
+          "duration": "0:00:59",
+          "present_cast": [
+            "Glacis"
+          ],
+          "images": [
+            "(hold previous frame)"
+          ],
+          "missing_images": [
+            "Glacis"
+          ],
+          "layout": "hold-previous",
+          "text_anchor": "Why? asked Glacis in surprise. Are you cursing me"
+        },
+        {
+          "start": "8:22:38",
+          "duration": "0:00:37",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "After leaving the Divination Club, Klein had an additional"
+        },
+        {
+          "start": "8:23:16",
+          "duration": "0:01:11",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "He pushed open the door to Blackthorn Security Company"
+        }
+      ]
+    },
+    {
+      "chapter": 39,
+      "title": "Interesting Trick",
+      "scenes": [
+        {
+          "start": "8:24:26",
+          "duration": "0:03:28",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "In fact, I do not know if the notebook"
+        },
+        {
+          "start": "8:27:54",
+          "duration": "0:03:06",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne",
+            "Bredt"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Rozanne",
+            "Bredt"
+          ],
+          "layout": "single",
+          "text_anchor": "Down the stairs, Klein followed the gas lamp-illuminated corridor"
+        },
+        {
+          "start": "8:31:01",
+          "duration": "0:00:40",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Bang! Bang! Bang! Klein repeated the process gripping the"
+        },
+        {
+          "start": "8:31:41",
+          "duration": "0:03:25",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "Just as Klein was planning to head to the"
+        },
+        {
+          "start": "8:35:05",
+          "duration": "0:01:06",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil",
+            "Rozanne"
+          ],
+          "layout": "single",
+          "text_anchor": "The next morning, after ensuring that Melissa took a"
+        },
+        {
+          "start": "8:36:12",
+          "duration": "0:00:19",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil"
+          ],
+          "layout": "single",
+          "text_anchor": "What will we be learning today? asked Klein curiously."
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "title": "Mysticism Curriculum",
+      "scenes": [
+        {
+          "start": "8:36:31",
+          "duration": "0:12:28",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil"
+          ],
+          "layout": "single",
+          "text_anchor": "An interesting trick? Klein asked out of extreme curiosity."
+        }
+      ]
+    },
+    {
+      "chapter": 41,
+      "title": "Audrey and Her Susie",
+      "scenes": [
+        {
+          "start": "8:48:59",
+          "duration": "0:03:12",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "After pouring away the coffee and returning to the armory"
+        },
+        {
+          "start": "8:52:11",
+          "duration": "0:01:55",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Dunn was waiting for lunch to be delivered."
+        },
+        {
+          "start": "8:54:06",
+          "duration": "0:03:13",
+          "present_cast": [
+            "Audrey Hall",
+            "Annie",
+            "Susie"
+          ],
+          "images": [
+            "Audrey Hall.jpg"
+          ],
+          "missing_images": [
+            "Annie",
+            "Susie"
+          ],
+          "layout": "single",
+          "text_anchor": "In a private chemistry laboratory equipped with apparatus and items."
+        },
+        {
+          "start": "8:57:19",
+          "duration": "0:01:08",
+          "present_cast": [
+            "Alger Wilson",
+            "Sainz"
+          ],
+          "images": [
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [
+            "Sainz"
+          ],
+          "layout": "single",
+          "text_anchor": "In the seas beyond the Pritz Harbor, there was an island"
+        },
+        {
+          "start": "8:58:27",
+          "duration": "0:00:15",
+          "present_cast": [
+            "Audrey Hall"
+          ],
+          "images": [
+            "Audrey Hall.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "Meanwhile, Audrey finished her second concoction in a panic-stricken state."
+        },
+        {
+          "start": "8:58:42",
+          "duration": "0:02:44",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne Bengun",
+            "Bredt",
+            "Klee"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Rozanne Bengun",
+            "Bredt",
+            "Klee"
+          ],
+          "layout": "single",
+          "text_anchor": "Friday. A storm befell Tingen. The heavy rain pounded"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "title": "Butler Klee",
+      "scenes": [
+        {
+          "start": "9:01:26",
+          "duration": "0:03:08",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne Bengun",
+            "Bredt",
+            "Klee"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Rozanne Bengun",
+            "Bredt",
+            "Klee"
+          ],
+          "layout": "single",
+          "text_anchor": "A mission request… You probably came to the wrong place"
+        },
+        {
+          "start": "9:04:33",
+          "duration": "0:04:35",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne Bengun",
+            "Klee"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Rozanne Bengun",
+            "Klee"
+          ],
+          "layout": "single",
+          "text_anchor": "After everything was done, Klein, who did not bring his umbrella"
+        },
+        {
+          "start": "9:09:08",
+          "duration": "0:04:58",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "Rozanne Bengun",
+            "Klee"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "Rozanne Bengun",
+            "Klee"
+          ],
+          "layout": "row(2)",
+          "text_anchor": "At that moment, the black-haired and green-eyed Leonard Mitchell walked out"
+        }
+      ]
+    },
+    {
+      "chapter": 43,
+      "title": "Search",
+      "scenes": [
+        {
+          "start": "9:14:06",
+          "duration": "0:02:32",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "Klee"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "Klee"
+          ],
+          "layout": "row(2)",
+          "text_anchor": "While looking at Klein, Leonard smiled and nodded."
+        },
+        {
+          "start": "9:16:38",
+          "duration": "0:02:35",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "Klee"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "Klee"
+          ],
+          "layout": "row(2)",
+          "text_anchor": "The carriage's interior was rather spacious. It was lined"
+        },
+        {
+          "start": "9:19:13",
+          "duration": "0:04:53",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "[Hired carriage driver]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "[Hired carriage driver]"
+          ],
+          "layout": "row(2)",
+          "text_anchor": "Unlike public carriages, private-hire carriages were either four-wheeled"
+        },
+        {
+          "start": "9:24:06",
+          "duration": "0:01:55",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Klein was afraid of drenching his formal suit, so he jogged"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "title": "Fate",
+      "scenes": [
+        {
+          "start": "9:26:01",
+          "duration": "0:04:55",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "[Kidnappers]",
+            "[Food-delivery accomplice]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "[Kidnappers]",
+            "[Food-delivery accomplice]"
+          ],
+          "layout": "row(2)",
+          "text_anchor": "Leonard's singing sounded like a lullaby as it lightly resounded"
+        },
+        {
+          "start": "9:30:56",
+          "duration": "0:01:55",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "Elliott Vickroy",
+            "[Kidnappers]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "Elliott Vickroy",
+            "[Kidnappers]"
+          ],
+          "layout": "row(2)",
+          "text_anchor": "With a gun and cane in each hand, Klein entered"
+        },
+        {
+          "start": "9:32:51",
+          "duration": "0:01:15",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "[Patrolling policemen]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "[Patrolling policemen]"
+          ],
+          "layout": "row(2)",
+          "text_anchor": "Klein held back his laughter and walked out into the streets."
+        },
+        {
+          "start": "9:34:06",
+          "duration": "0:03:05",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "text_anchor": "Almost five minutes later, a few carriages rushed"
+        },
+        {
+          "start": "9:37:11",
+          "duration": "0:02:11",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "After returning to Zouteland Street, Klein did not wait"
+        }
+      ]
+    },
+    {
+      "chapter": 45,
+      "title": "Returning",
+      "scenes": [
+        {
+          "start": "9:39:22",
+          "duration": "0:01:55",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "The Antigonus notebook is in the apartment across"
+        },
+        {
+          "start": "9:41:17",
+          "duration": "0:02:28",
+          "present_cast": [
+            "Klein Moretti",
+            "[Public carriage driver]",
+            "[Ticketing officer]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[Public carriage driver]",
+            "[Ticketing officer]"
+          ],
+          "layout": "single",
+          "text_anchor": "He was just about to seek out an expensive for-hire carriage"
+        },
+        {
+          "start": "9:43:45",
+          "duration": "0:02:01",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "text_anchor": "Klein pressed his hat with his left hand and briskly jumped off"
+        },
+        {
+          "start": "9:45:46",
+          "duration": "0:02:16",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Old Neil",
+            "Frye"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "Old Neil",
+            "Frye"
+          ],
+          "layout": "row(3)",
+          "text_anchor": "Dunn nodded slightly as he instructed with a solemn expression"
+        },
+        {
+          "start": "9:48:01",
+          "duration": "0:02:35",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Old Neil",
+            "Frye"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "Old Neil",
+            "Frye"
+          ],
+          "layout": "row(3)",
+          "text_anchor": "Let's go up. Klein, you and Old Neil walk behind."
+        }
+      ]
+    },
+    {
+      "chapter": 46,
+      "title": "Portrait",
+      "scenes": [
+        {
+          "start": "9:50:36",
+          "duration": "0:10:35",
+          "present_cast": [
+            "Klein Moretti",
+            "Corpse Collector Frye",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Old Neil",
+            "[Patrolling Policeman]",
+            "[Police Corporal]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "Corpse Collector Frye",
+            "Old Neil",
+            "[Patrolling Policeman]",
+            "[Police Corporal]"
+          ],
+          "layout": "row(3)",
+          "text_anchor": "Eugh! Eugh! Klein squatted there, vomiting involuntarily."
+        },
+        {
+          "start": "10:01:12",
+          "duration": "0:02:16",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil"
+          ],
+          "layout": "single",
+          "text_anchor": "After the neighbors confirmed that the portrait was indeed Ray"
+        }
+      ]
+    },
+    {
+      "chapter": 47,
+      "title": "Old Neil's Lack of Money",
+      "scenes": [
+        {
+          "start": "10:03:28",
+          "duration": "0:02:53",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil"
+          ],
+          "layout": "single",
+          "text_anchor": "Old Neil rubbed his temples and said, I believe"
+        },
+        {
+          "start": "10:06:21",
+          "duration": "0:09:50",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil",
+            "Mrs. Orianna"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil",
+            "Mrs. Orianna"
+          ],
+          "layout": "single",
+          "text_anchor": "The elegant Mrs. Orianna with her fashionably coiled hair"
+        },
+        {
+          "start": "10:16:11",
+          "duration": "0:00:26",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "text_anchor": "When Captain Dunn did not return at noon, Klein"
+        }
+      ]
+    },
+    {
+      "chapter": 48,
+      "title": "Hanass Vincent",
+      "scenes": [
+        {
+          "start": "10:16:37",
+          "duration": "0:06:02",
+          "present_cast": [
+            "Klein Moretti",
+            "Angelica Barrehart"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Angelica Barrehart"
+          ],
+          "layout": "single",
+          "text_anchor": "In the Divination Club situated at the second floor"
+        },
+        {
+          "start": "10:22:39",
+          "duration": "0:06:01",
+          "present_cast": [
+            "Klein Moretti",
+            "Hanass Vincent",
+            "Edward Steve",
+            "Angelica Barrehart"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Hanass Vincent",
+            "Edward Steve",
+            "Angelica Barrehart"
+          ],
+          "layout": "single",
+          "text_anchor": "But that's only for ordinary people Klein silently tagged"
+        }
+      ]
+    },
+    {
+      "chapter": 49,
+      "title": "Divination Art",
+      "scenes": [
+        {
+          "start": "10:28:39",
+          "duration": "0:09:02",
+          "present_cast": [
+            "Klein Moretti",
+            "Hanass Vincent",
+            "Edward Steve"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Hanass Vincent",
+            "Edward Steve"
+          ],
+          "layout": "single",
+          "text_anchor": "As a Seer who had just stepped through the gates"
+        },
+        {
+          "start": "10:37:41",
+          "duration": "0:02:27",
+          "present_cast": [
+            "Edward Steve",
+            "Glacis",
+            "Angelica Barrehart"
+          ],
+          "images": [
+            "(hold previous frame)"
+          ],
+          "missing_images": [
+            "Edward Steve",
+            "Glacis",
+            "Angelica Barrehart"
+          ],
+          "layout": "hold-previous",
+          "text_anchor": "At half past five, Edward Steve put on his coat"
+        }
+      ]
+    },
+    {
+      "chapter": 50,
+      "title": "Old Neil's Method of Repayment",
+      "scenes": [
+        {
+          "start": "10:40:08",
+          "duration": "0:08:30",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "layout": "single",
+          "text_anchor": "Half past seven in the evening, around the Moretti"
+        },
+        {
+          "start": "10:48:38",
+          "duration": "0:01:09",
+          "present_cast": [
+            "Klein Moretti",
+            "Sleepless Royale Reideen"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Sleepless Royale Reideen"
+          ],
+          "layout": "single",
+          "text_anchor": "The next morning was a Sunday morning. Klein finished"
+        },
+        {
+          "start": "10:49:47",
+          "duration": "0:02:22",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil",
+            "Bredt"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Old Neil",
+            "Bredt"
+          ],
+          "layout": "single",
+          "text_anchor": "After taking a left band, he quickly met Old"
+        }
+      ]
+    }
+  ],
+  "characters_index": {
+    "Klein Moretti (protagonist)": {
+      "status": "have",
+      "scenes": 141
+    },
+    "Melissa Moretti": {
+      "status": "need",
+      "scenes": 15
+    },
+    "[vagrant accordionist]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[deadpan woman]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Wendy Smyrin": {
+      "status": "need",
+      "scenes": 2
+    },
+    "[painted-face fortune-teller woman]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[painted-face animal-trainer woman]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[real fortune-teller woman]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Audrey Hall": {
+      "status": "have",
+      "scenes": 13
+    },
+    "Alger Wilson": {
+      "status": "have",
+      "scenes": 11
+    },
+    "[Blond Storm Beyonder sailor]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Ghost ship \"captain\"]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Annie": {
+      "status": "need",
+      "scenes": 2
+    },
+    "Count Hall": {
+      "status": "minor",
+      "scenes": 2
+    },
+    "Aguesid Negan": {
+      "status": "need",
+      "scenes": 1
+    },
+    "George III": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Bitsch Mountbatten": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "[Dignified middle-aged inspector]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Gray-eyed inspector]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Young green-eyed inspector]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Dunn Smith": {
+      "status": "have",
+      "scenes": 25
+    },
+    "[carriage driver]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Daly Simone": {
+      "status": "have",
+      "scenes": 1
+    },
+    "[Carriage driver]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Fare collector]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Mr. Wright": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "[Bartender]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Short man in brown beret]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Rozanne": {
+      "status": "need",
+      "scenes": 8
+    },
+    "Leonard Mitchell": {
+      "status": "have",
+      "scenes": 18
+    },
+    "Mrs. Orianna": {
+      "status": "minor",
+      "scenes": 2
+    },
+    "Old Neil": {
+      "status": "need",
+      "scenes": 15
+    },
+    "Rozanne Bansa": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "[Wilker shop salesperson]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Wilker shop cashier]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Harvin Stone": {
+      "status": "minor",
+      "scenes": 2
+    },
+    "Quentin Cohen": {
+      "status": "need",
+      "scenes": 2
+    },
+    "Azik Eggers": {
+      "status": "need",
+      "scenes": 2
+    },
+    "[Cathedral bishop]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "[Black-robed priest]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Middle-aged priest]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "Benson Moretti": {
+      "status": "need",
+      "scenes": 10
+    },
+    "[Secret Order intruder]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Scarter": {
+      "status": "minor",
+      "scenes": 2
+    },
+    "Mr. Franky": {
+      "status": "need",
+      "scenes": 1
+    },
+    "[Divination Club female attendant]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "Glacis": {
+      "status": "need",
+      "scenes": 3
+    },
+    "Bredt": {
+      "status": "need",
+      "scenes": 4
+    },
+    "Susie": {
+      "status": "need",
+      "scenes": 1
+    },
+    "Sainz": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Rozanne Bengun": {
+      "status": "minor",
+      "scenes": 4
+    },
+    "Klee": {
+      "status": "minor",
+      "scenes": 6
+    },
+    "[Hired carriage driver]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Kidnappers]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "[Food-delivery accomplice]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Elliott Vickroy": {
+      "status": "need",
+      "scenes": 1
+    },
+    "[Patrolling policemen]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Public carriage driver]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Ticketing officer]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Frye": {
+      "status": "need",
+      "scenes": 2
+    },
+    "Corpse Collector Frye": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "[Patrolling Policeman]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Police Corporal]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Angelica Barrehart": {
+      "status": "need",
+      "scenes": 3
+    },
+    "Hanass Vincent": {
+      "status": "need",
+      "scenes": 2
+    },
+    "Edward Steve": {
+      "status": "minor",
+      "scenes": 3
+    },
+    "Sleepless Royale Reideen": {
+      "status": "minor",
+      "scenes": 1
+    }
+  }
+}
