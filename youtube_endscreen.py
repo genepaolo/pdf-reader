@@ -38,9 +38,23 @@ FIRST-TIME SETUP
 ----------------
   pip install playwright
   playwright install chromium
-The first browser launch uses a persistent profile (default: .yt_studio_profile/,
-gitignored). Log into the Google account that owns the channel ONCE in that
-window; later runs reuse the session.
+
+LOGGING IN (IMPORTANT)
+----------------------
+Google blocks sign-in from a Playwright-launched browser ("this browser or app
+may not be secure" -> accounts.google.com/.../signin/rejected). So the reliable
+path is to sign in with your OWN Chrome and let this script ATTACH to it:
+
+  1. Close all Chrome windows, then launch a dedicated debuggable Chrome:
+       & "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" \
+         --remote-debugging-port=9222 \
+         --user-data-dir="%USERPROFILE%\\yt-studio-chrome"
+  2. In that window, sign into the Google account that owns the channel and open
+     studio.youtube.com once (normal Chrome -> Google allows the login).
+  3. Run this script with --connect-port 9222. It attaches to that Chrome; the
+     login persists in the yt-studio-chrome profile for future runs.
+
+The fallback --plan-only mode needs no browser at all.
 """
 
 import sys
@@ -230,27 +244,81 @@ def run_browser(plan_eligible: list, args, log):
         log("        pip install playwright && playwright install chromium")
         return 1
 
+    # screenshots go here regardless of how the browser is obtained
     profile_dir = Path(args.profile_dir).resolve()
     profile_dir.mkdir(parents=True, exist_ok=True)
-    log(f"Using browser profile: {profile_dir}")
-    log("(First time: log into the channel's Google account in the window, once.)")
+
+    interactive = sys.stdin.isatty()
+    if not interactive:
+        log("(Non-interactive run: will stop after the first video for inspection.)")
 
     processed = 0
     with sync_playwright() as p:
-        ctx = p.chromium.launch_persistent_context(
-            user_data_dir=str(profile_dir),
-            headless=args.headless,
-            args=["--start-maximized"],
-            no_viewport=True,
-        )
-        page = ctx.pages[0] if ctx.pages else ctx.new_page()
+        owns_browser = True
+        if args.connect_port:
+            # Connect to a REAL Chrome the user launched with
+            # --remote-debugging-port. This is the reliable way past Google's
+            # automation login block: the user signs in normally in that Chrome,
+            # and we just attach to it.
+            endpoint = f"http://localhost:{args.connect_port}"
+            log(f"Connecting to your Chrome over CDP at {endpoint} ...")
+            try:
+                browser = p.chromium.connect_over_cdp(endpoint)
+            except Exception as e:
+                log(f"[ABORT] Could not connect to Chrome on port {args.connect_port}.")
+                log(f"        {e}")
+                log("        Start Chrome first (all other Chrome windows closed):")
+                log('        & "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" '
+                    f'--remote-debugging-port={args.connect_port} '
+                    '--user-data-dir="%USERPROFILE%\\yt-studio-chrome"')
+                return 1
+            ctx = browser.contexts[0] if browser.contexts else browser.new_context()
+            page = ctx.pages[0] if ctx.pages else ctx.new_page()
+            owns_browser = False
+        else:
+            log(f"Using browser profile: {profile_dir}")
+            log("(First time: log into the channel's Google account in the window, once.)")
+            ctx = p.chromium.launch_persistent_context(
+                user_data_dir=str(profile_dir),
+                headless=args.headless,
+                args=["--start-maximized"],
+                no_viewport=True,
+            )
+            page = ctx.pages[0] if ctx.pages else ctx.new_page()
 
         # Make sure we're logged in.
         page.goto(f"{STUDIO}/", wait_until="domcontentloaded")
         page.wait_for_timeout(4000)
-        if "accounts.google" in page.url or "signin" in page.url.lower():
-            log("[ACTION NEEDED] Please complete Google sign-in in the browser window.")
-            input("    Press Enter here once you are logged into YouTube Studio... ")
+
+        def logged_in():
+            u = page.url
+            return ("accounts.google" not in u
+                    and "signin" not in u.lower()
+                    and "studio.youtube.com" in u)
+
+        if not logged_in():
+            if not owns_browser:
+                log("[ABORT] The connected Chrome is not signed into YouTube Studio yet.")
+                log("        Sign into the channel's Google account in that Chrome window, "
+                    "then re-run this command.")
+                return 1
+            log("[ACTION NEEDED] Log into the channel's Google account in the browser window.")
+            if interactive:
+                input("    Press Enter here once you are logged into YouTube Studio... ")
+            else:
+                waited = 0
+                while waited < args.login_timeout and not logged_in():
+                    page.wait_for_timeout(5000)
+                    waited += 5
+                    if waited % 20 == 0:
+                        log(f"    ...waiting for login ({waited}s/{args.login_timeout}s) "
+                            f"— current url: {page.url}")
+                if not logged_in():
+                    log("[ABORT] Not logged in within timeout. Re-run when ready to sign in "
+                        "(the login is saved after the first time).")
+                    ctx.close()
+                    return 1
+        log("[OK] Logged into YouTube Studio.")
 
         for i, item in enumerate(plan_eligible, 1):
             sc = item["source_chapter"]
@@ -275,15 +343,29 @@ def run_browser(plan_eligible: list, args, log):
             # Pause after the FIRST video unless --yes, so the human can watch
             # and confirm before the batch continues unattended.
             if i == 1 and not args.yes:
-                log("\n--- Paused after the first video so you can verify it. ---")
-                resp = input("    Continue with the rest? (yes/no): ").strip().lower()
-                if resp not in ("y", "yes"):
-                    log("Stopping after first video by request.")
+                try:
+                    page.screenshot(path=str(profile_dir / "first_video_result.png"))
+                    log(f"    screenshot: {profile_dir / 'first_video_result.png'}")
+                except Exception:
+                    pass
+                if interactive:
+                    log("\n--- Paused after the first video so you can verify it. ---")
+                    resp = input("    Continue with the rest? (yes/no): ").strip().lower()
+                    if resp not in ("y", "yes"):
+                        log("Stopping after first video by request.")
+                        break
+                else:
+                    log("\n--- Non-interactive: stopping after the first video for "
+                        "inspection. Re-run with --yes to process the whole batch. ---")
+                    page.wait_for_timeout(3000)
                     break
 
-        if not args.headless:
-            input("\nDone. Press Enter to close the browser... ")
-        ctx.close()
+        if owns_browser:
+            if not args.headless and interactive:
+                input("\nDone. Press Enter to close the browser... ")
+            ctx.close()
+        else:
+            log("(Left your Chrome window open.)")
     log(f"\nProcessed {processed} video(s).")
     return 0
 
@@ -306,6 +388,12 @@ def main():
                     help="Do not pause after the first video.")
     ap.add_argument("--profile-dir", default=DEFAULT_PROFILE_DIR,
                     help=f"Persistent browser profile dir (default: {DEFAULT_PROFILE_DIR}).")
+    ap.add_argument("--login-timeout", type=int, default=240,
+                    help="Seconds to wait for sign-in when run non-interactively (default 240).")
+    ap.add_argument("--connect-port", type=int, default=None,
+                    help="Attach to a real Chrome already running with "
+                         "--remote-debugging-port=PORT (recommended; avoids Google's "
+                         "automation login block). E.g. --connect-port 9222.")
     args = ap.parse_args()
 
     def log(msg=""):
