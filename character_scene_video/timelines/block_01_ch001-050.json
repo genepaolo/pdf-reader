@@ -376,15 +376,13 @@
           "duration": "0:04:06",
           "present_cast": [
             "Audrey Hall",
-            "Annie",
-            "Earl Hall"
+            "Annie"
           ],
           "images": [
             "Audrey Hall.jpg"
           ],
           "missing_images": [
-            "Annie",
-            "Earl Hall"
+            "Annie"
           ],
           "layout": "single",
           "text_anchor": "Empress Borough, Backlund, capital of the Loen Kingdom."
@@ -2158,15 +2156,13 @@
           "duration": "0:03:13",
           "present_cast": [
             "Audrey Hall",
-            "Annie",
-            "Susie"
+            "Annie"
           ],
           "images": [
             "Audrey Hall.jpg"
           ],
           "missing_images": [
-            "Annie",
-            "Susie"
+            "Annie"
           ],
           "layout": "single",
           "text_anchor": "In a private chemistry laboratory equipped with apparatus and items."
@@ -2206,16 +2202,14 @@
           "present_cast": [
             "Klein Moretti",
             "Rozanne",
-            "Bredt",
-            "Klee"
+            "Bredt"
           ],
           "images": [
             "Klein Moretti.jpg"
           ],
           "missing_images": [
             "Rozanne",
-            "Bredt",
-            "Klee"
+            "Bredt"
           ],
           "layout": "single",
           "text_anchor": "Friday. A storm befell Tingen. The heavy rain pounded"
@@ -2251,15 +2245,13 @@
           "duration": "0:04:35",
           "present_cast": [
             "Klein Moretti",
-            "Rozanne",
-            "Klee"
+            "Rozanne"
           ],
           "images": [
             "Klein Moretti.jpg"
           ],
           "missing_images": [
-            "Rozanne",
-            "Klee"
+            "Rozanne"
           ],
           "layout": "single",
           "text_anchor": "After everything was done, Klein, who did not bring his umbrella"
@@ -2851,7 +2843,7 @@
     },
     "Earl Hall": {
       "status": "need",
-      "scenes": 2
+      "scenes": 1
     },
     "Aguesid Negan": {
       "status": "need",
@@ -2985,17 +2977,13 @@
       "status": "need",
       "scenes": 4
     },
-    "Susie": {
-      "status": "need",
-      "scenes": 1
-    },
     "Sainz": {
       "status": "minor",
       "scenes": 1
     },
     "Klee": {
       "status": "minor",
-      "scenes": 6
+      "scenes": 4
     },
     "[Hired carriage driver]": {
       "status": "background",

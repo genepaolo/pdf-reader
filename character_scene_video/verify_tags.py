@@ -20,7 +20,10 @@ HERE = Path(__file__).resolve().parent
 FT = ROOT / "formatted_text" / "lotm_book1" / "Volume_1_Clown"
 SCENES = HERE / "timelines" / "scenes"
 REGISTRY = set(json.loads((HERE / "character_registry.json").read_text(encoding="utf-8"))["characters"])
-ALIASES = json.loads((HERE / "name_aliases.json").read_text(encoding="utf-8"))["aliases"]
+_AL = json.loads((HERE / "name_aliases.json").read_text(encoding="utf-8"))
+ALIASES = _AL["aliases"]
+EXCLUDE = set(_AL.get("exclude", []))
+VERIFIED = {(v["chapter"], v["scene"], v["name"]) for v in _AL.get("verified_present", [])}
 
 
 def chapter_lines(n):
@@ -34,7 +37,7 @@ def scene_text(lines, ls, le):
 
 def main():
     first, last = (int(sys.argv[1]), int(sys.argv[2])) if len(sys.argv) > 2 else (1, 50)
-    grounded = canon = invented = notfound = skipped = 0
+    grounded = canon = invented = notfound = skipped = verified = 0
     problems = []
     for n in range(first, last + 1):
         sf = SCENES / f"ch_{n}.json"
@@ -48,12 +51,18 @@ def main():
                     skipped += 1
                     continue
                 name = ALIASES.get(raw, raw)            # apply canonical alias map
+                if name in EXCLUDE:                     # non-people (e.g. dog Susie)
+                    skipped += 1
+                    continue
                 if name.lower() in txt:
                     grounded += 1
                     continue
                 toks = [t for t in re.findall(r"[A-Za-z']+", name) if len(t) > 2]
                 hit = [t for t in toks if t.lower() in txt]
                 if not hit:
+                    if (n, si, raw) in VERIFIED:
+                        verified += 1            # human-confirmed present (named adjacently)
+                        continue
                     notfound += 1
                     problems.append((n, si, raw, "WRONG SCENE", "name absent from these lines"))
                 elif name in REGISTRY:
@@ -61,13 +70,14 @@ def main():
                 else:
                     invented += 1
                     problems.append((n, si, raw, "INVENTED NAME", f"only {hit} in text; '{name}' not a known character"))
-    total = grounded + canon + invented + notfound
+    total = grounded + canon + verified + invented + notfound
     print(f"Named tags checked: {total}  (+{skipped} bracketed skipped)")
     print(f"  [OK] grounded (full name in source):              {grounded}")
     print(f"  [OK] canonicalized (short form -> registry char): {canon}")
+    print(f"  [OK] verified-present (human-confirmed, named adjacent): {verified}")
     print(f"  [BAD] INVENTED name (not a known character):      {invented}")
     print(f"  [BAD] WRONG SCENE (name not in those lines):      {notfound}")
-    print(f"  => {grounded + canon}/{total} grounded or canonical; {invented + notfound} to fix")
+    print(f"  => {grounded + canon + verified}/{total} grounded/canonical/verified; {invented + notfound} to fix")
     if problems:
         print("\nPROBLEMS TO FIX:")
         for n, si, name, kind, why in problems:
