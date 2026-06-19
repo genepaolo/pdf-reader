@@ -167,37 +167,49 @@ def _dismiss_welcome(page):
                 pass
 
 
-def _pick_result_card(page, target_chapter: int, target_title: str):
-    """
-    Return the result card locator matching the target, or None.
-    Matches on 'Chapter <n>' with a digit boundary (so 252 != 1252/2520).
-    """
-    cards = page.locator("ytcp-entity-card")
-    n = cards.count()
-    pat = re.compile(rf"Chapter\s*0*{target_chapter}(?!\d)")
-    for i in range(n):
+def _fill_visible(page, selector: str, text: str) -> bool:
+    """Fill the first VISIBLE match (Studio leaves stale hidden inputs around)."""
+    loc = page.locator(selector)
+    for i in range(loc.count()):
         try:
-            txt = (cards.nth(i).inner_text() or "").strip()
+            if loc.nth(i).is_visible():
+                loc.nth(i).fill(text)
+                return True
         except Exception:
-            continue
-        if pat.search(txt):
-            return cards.nth(i)
-    return None
+            pass
+    return False
 
 
-def add_end_screen(page, source_video_id: str, target_video_id: str,
-                   target_title: str, target_chapter: int,
-                   dry_run: bool, log) -> bool:
+def _click_result_card(page, chapter: int) -> bool:
+    """Click the search-result card matching 'Chapter <n>' (digit boundary)."""
+    cards = page.locator("ytcp-entity-card")
+    pat = re.compile(rf"Chapter\s*0*{chapter}(?!\d)")
+    for i in range(cards.count()):
+        try:
+            if pat.search(cards.nth(i).inner_text() or ""):
+                cards.nth(i).click()
+                return True
+        except Exception:
+            pass
+    return False
+
+
+def add_end_screen(page, target_chapter: int, target_title: str,
+                   source_video_id: str, style_chapter: int,
+                   dry_run: bool, log, replace: bool = False):
     """
-    Open the video Editor for source_video_id and add one end-screen 'Video'
-    element pointing at the target video (the next chapter).
+    Build a channel-style end screen on source_video_id: a Subscribe element
+    (left-middle) plus a Video element (right-middle) linking to target_chapter.
 
-    Verified flow (Studio, 2026-06):
+    Strategy (verified Studio 2026-06): import the whole layout from a reference
+    video (style_chapter, e.g. 249, which already has subscribe-left/video-right),
+    then retarget the imported Video element to the next chapter.
       /video/<id>/editor -> dismiss 'Get started' -> #add-endscreen-icon-button
-      -> menu item 'Video' -> #choose-video radio -> #search-yours -> click the
-      matching result card -> #save-button.
+      -> 'Apply template' (#text-item-0) -> 'Import from video' -> pick reference
+      -> select Video element row -> pencil -> search/pick target -> #save-button.
 
-    Returns True on success (or, in dry_run, on reaching the Save step).
+    Returns True on success, False on failure, None if skipped (already has an
+    end screen and replace is False).
     """
     url = f"{STUDIO}/video/{source_video_id}/editor"
     log(f"    open editor: {url}")
@@ -205,37 +217,69 @@ def add_end_screen(page, source_video_id: str, target_video_id: str,
     page.wait_for_timeout(7000)
     _dismiss_welcome(page)
 
-    # If an end screen already exists, the icon opens edit mode instead of the
-    # type menu; either way clicking it then choosing 'Video' adds an element.
-    log("    add end screen -> Video")
+    fresh = page.locator("#add-endscreen-icon-button").count() > 0
+    if not fresh and not replace:
+        log("    [SKIP] already has an end screen (use --replace to rebuild).")
+        return None
+    if not fresh:
+        log("    [WARN] already has an end screen; --replace rebuild not supported "
+            "yet — skipping to avoid duplicates.")
+        return None
+
+    # Open end-screen editor + template gallery (where 'Import from video' lives).
     page.locator("#add-endscreen-icon-button").first.click(timeout=20000)
     page.wait_for_timeout(2000)
-    page.locator("tp-yt-paper-item", has_text=re.compile(r"^\s*Video\s*$")).first.click(timeout=10000)
-    page.wait_for_timeout(3500)
-
-    log("    choose specific video")
-    page.locator("#choose-video").first.click(timeout=10000)
+    page.locator("#text-item-0").first.click(timeout=10000)  # 'Apply template'
     page.wait_for_timeout(3000)
 
-    query = target_title or f"Chapter {target_chapter}"
-    log(f"    search: {query!r}")
-    box = page.locator("#search-yours")
-    box.first.fill(query)
+    log(f"    import layout from Chapter {style_chapter}")
+    page.get_by_role("button", name="Import from video", exact=True).first.click(timeout=10000)
+    page.wait_for_timeout(3500)
+    _fill_visible(page, "#search-yours", f"Chapter {style_chapter}")
+    page.wait_for_timeout(1200)
+    page.keyboard.press("Enter")
+    page.wait_for_timeout(4000)
+    if not _click_result_card(page, style_chapter):
+        log(f"    [WARN] could not find reference video 'Chapter {style_chapter}'")
+        return False
+    page.wait_for_timeout(6000)
+
+    # Retarget the imported Video element to the next chapter.
+    log(f"    retarget video element -> Chapter {target_chapter}")
+    vrow = page.locator("div#element", has_text=re.compile(r"^\s*Video:", re.I))
+    if vrow.count() == 0:
+        log("    [WARN] no video element present after import")
+        return False
+    vrow.first.dispatch_event("click")
+    page.wait_for_timeout(3000)
+    cv = page.locator("#choose-video").first.bounding_box()
+    if not cv:
+        log("    [WARN] video element settings did not open")
+        return False
+    # The 'change video' pencil sits at the right edge of the choose-video row.
+    page.mouse.click(cv["x"] + cv["width"] - 22, cv["y"] + cv["height"] / 2)
+    page.wait_for_timeout(3500)
+    if not _fill_visible(page, "#search-yours", target_title or f"Chapter {target_chapter}"):
+        log("    [WARN] retarget search box not found")
+        return False
     page.wait_for_timeout(1200)
     page.keyboard.press("Enter")
     page.wait_for_timeout(4500)
-
-    card = _pick_result_card(page, target_chapter, target_title)
-    if card is None:
-        log(f"    [WARN] no result matched 'Chapter {target_chapter}'. "
-            "Leaving picker open for inspection.")
+    if not _click_result_card(page, target_chapter):
+        log(f"    [WARN] no result matched 'Chapter {target_chapter}'")
         return False
-    log(f"    select target: Chapter {target_chapter}")
-    card.click()
     page.wait_for_timeout(2500)
 
+    # Confirm the element now references the intended target.
+    vrow = page.locator("div#element", has_text=re.compile(r"^\s*Video:", re.I))
+    row_txt = (vrow.first.inner_text() or "") if vrow.count() else ""
+    if not re.search(rf"Chapter\s*0*{target_chapter}(?!\d)", row_txt):
+        log(f"    [WARN] video element shows {row_txt!r}, expected Chapter {target_chapter}")
+        return False
+    log(f"    video element confirmed -> {row_txt.strip()}")
+
     if dry_run:
-        log("    [DRY-RUN] target selected, end screen staged — NOT clicking Save.")
+        log("    [DRY-RUN] layout staged (subscribe + next-video) — NOT clicking Save.")
         return True
 
     save_btn = page.locator("#save-button")
@@ -243,7 +287,7 @@ def add_end_screen(page, source_video_id: str, target_video_id: str,
         log("    [WARN] Save button not found")
         return False
     save_btn.first.click(timeout=10000)
-    page.wait_for_timeout(4000)
+    page.wait_for_timeout(4500)
     log("    [OK] Save clicked")
     return True
 
@@ -345,8 +389,10 @@ def run_browser(plan_eligible: list, args, log):
             log(f"\n[{i}/{len(plan_eligible)}] Chapter {sc} (id {svid}) "
                 f"-> link Chapter {tc} (id {tvid})")
             try:
-                ok = add_end_screen(page, svid, tvid, ttitle, tc, args.dry_run, log)
-                processed += 1 if ok else 0
+                ok = add_end_screen(page, tc, ttitle, svid, args.style_from,
+                                    args.dry_run, log, replace=args.replace)
+                if ok:
+                    processed += 1
             except Exception as e:
                 log(f"    [ERROR] {e}")
                 shot = profile_dir / f"error_ch{sc}.png"
@@ -410,7 +456,22 @@ def main():
                     help="Attach to a real Chrome already running with "
                          "--remote-debugging-port=PORT (recommended; avoids Google's "
                          "automation login block). E.g. --connect-port 9222.")
+    ap.add_argument("--style-from", type=int, default=249,
+                    help="Reference chapter whose end-screen layout (subscribe + "
+                         "video) is imported and reused (default 249).")
+    ap.add_argument("--replace", action="store_true",
+                    help="(Reserved) rebuild videos that already have an end screen. "
+                         "Not yet supported; such videos are skipped.")
+    ap.add_argument("--allow-public-chapters", default="",
+                    help="Comma-separated chapters allowed to be edited even though "
+                         "they are public (overrides the unlisted-only guard for "
+                         "ONLY these). E.g. --allow-public-chapters 250")
     args = ap.parse_args()
+
+    allow_public = set()
+    for tok in str(args.allow_public_chapters).replace(" ", "").split(","):
+        if tok.isdigit():
+            allow_public.add(int(tok))
 
     def log(msg=""):
         print(msg, flush=True)
@@ -460,6 +521,9 @@ def main():
         if status == "unlisted":
             eligible.append(item)
             log(f"{sc:>5}  ->  {tc:>5}  {status:<9}  ELIGIBLE")
+        elif sc in allow_public:
+            eligible.append(item)
+            log(f"{sc:>5}  ->  {tc:>5}  {status:<9}  ELIGIBLE (public, allowed by override)")
         else:
             log(f"{sc:>5}  ->  {tc:>5}  {status:<9}  SKIP (guard: not unlisted)")
 
