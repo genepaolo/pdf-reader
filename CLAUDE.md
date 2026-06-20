@@ -22,6 +22,24 @@
 - After every run command that affects outputs/uploads, update "Current Progress Log" in this file immediately.
 - Use the YouTube API to read most recent uploads when upload status needs verification or refresh.
 
+## character_scene_video (Book 1 — separate workstream)
+> NOT part of the `lom_book2_coi` audio/video/upload pipeline below. This is the per-scene character-portrait
+> video work for **Book 1 (LOTM)**. Merged to `master` 2026-06-19 (branch `feature/book1-character-scene-videos`).
+- **What it is:** tags every scene with who's present + setting, resolves portraits, and builds per-block scene
+  timelines. Full design + decisions in `character_scene_video/DESIGN.md`; session handoff in `character_scene_video/STATUS.md`.
+- **Block 1 (ch1-50) status:** 156 scenes tagged; verifier **168/168, 0 to fix**; portrait decisions DONE —
+  23 have portraits, 2 declined (`character_scene_video/portrait_decisions.json`). Durations are still
+  char-share ESTIMATES (no forced alignment yet).
+- **Rebuild / verify (run from repo root):**
+  - `python character_scene_video/build_block.py 1 50`
+  - `python character_scene_video/verify_tags.py 1 50`            # must report 0 to fix
+  - `python character_scene_video/build_character_report.py 1 50`
+  - `python character_scene_video/fetch_named_portraits.py`       # re-download non-Official portraits (binaries gitignored)
+- **Next steps:**
+  1. Stand up **aeneas** forced alignment → replace estimated durations with real per-chapter timestamps.
+  2. Build the **compositor** (row/grid portrait frames; gray-fog Fool+Audrey+Alger is the first multi-portrait test).
+  3. **Tag Block 2 (ch51-100)** using the text-literal tagging guide + auto-verify + continuity from the start.
+
 ## The 3-Step Workflow (audio → video → upload)
 > Always run from the repository root (`pdf-reader`). Default project is `lom_book2_coi`, so the examples omit it where the script defaults to it. Replace `N-M` with the chapter range you want.
 
