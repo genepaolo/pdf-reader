@@ -1,0 +1,8 @@
+{"chapter": 41, "scenes": [
+  {"line_start": 3, "line_end": 33, "protagonist_present": true, "protagonist_persona": "Klein (Beginning)", "other_characters": [], "setting": "Blackthorn Security Company offices, Tingen", "text_anchor": "After pouring away the coffee and returning to the armory"},
+  {"line_start": 35, "line_end": 63, "protagonist_present": true, "protagonist_persona": "Klein (Beginning)", "other_characters": ["Dunn Smith"], "setting": "Dunn Smith's office, Blackthorn Security Company", "text_anchor": "Dunn was waiting for lunch to be delivered."},
+  {"line_start": 65, "line_end": 115, "protagonist_present": false, "protagonist_persona": null, "other_characters": ["Audrey Hall", "Annie", "Susie"], "setting": "Audrey's private chemistry laboratory", "text_anchor": "In a private chemistry laboratory equipped with apparatus and items."},
+  {"line_start": 119, "line_end": 131, "protagonist_present": false, "protagonist_persona": null, "other_characters": ["Alger Wilson", "Sainz"], "setting": "Storm-enveloped island harbor, the Blue Avenger", "text_anchor": "In the seas beyond the Pritz Harbor, there was an island"},
+  {"line_start": 133, "line_end": 137, "protagonist_present": false, "protagonist_persona": null, "other_characters": ["Audrey Hall"], "setting": "Audrey's private chemistry laboratory", "text_anchor": "Meanwhile, Audrey finished her second concoction in a panic-stricken state."},
+  {"line_start": 141, "line_end": 171, "protagonist_present": true, "protagonist_persona": "Klein (Beginning)", "other_characters": ["Rozanne Bengun", "Bredt"], "setting": "Blackthorn Security Company reception hall (Klee does not appear until ch42)", "text_anchor": "Friday. A storm befell Tingen. The heavy rain pounded"}
+]}

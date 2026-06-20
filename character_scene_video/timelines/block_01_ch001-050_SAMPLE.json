@@ -1,0 +1,344 @@
+{
+  "batch": 1,
+  "chapters_sampled": "1-7",
+  "scenes": [
+    {
+      "chapter": 1,
+      "start": "0:00:00",
+      "duration": "0:06:16",
+      "present_cast": [
+        "Klein (as Zhou Mingrui)"
+      ],
+      "images": [
+        "Zhou Mingrui.jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "Painful! How painful! My head hurts so badly!"
+    },
+    {
+      "chapter": 1,
+      "start": "0:06:16",
+      "duration": "0:04:05",
+      "present_cast": [
+        "Klein (Beginning)"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "Klein Moretti, a citizen of the Northern Continent's Loen Kingdom..."
+    },
+    {
+      "chapter": 2,
+      "start": "0:10:21",
+      "duration": "0:13:28",
+      "present_cast": [
+        "Klein (Beginning)"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "Tap! Tap! Tap! Zhou Mingrui reeled back in fear"
+    },
+    {
+      "chapter": 3,
+      "start": "0:23:49",
+      "duration": "0:02:12",
+      "present_cast": [
+        "Klein (Beginning)"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "After confirming his plan, Zhou Mingrui immediately felt"
+    },
+    {
+      "chapter": 3,
+      "start": "0:26:01",
+      "duration": "0:11:07",
+      "present_cast": [
+        "Klein (Beginning)",
+        "Melissa Moretti"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [
+        "Melissa Moretti"
+      ],
+      "layout": "single",
+      "text_anchor": "Melissa is awake... She's really as punctual"
+    },
+    {
+      "chapter": 4,
+      "start": "0:37:08",
+      "duration": "0:04:46",
+      "present_cast": [
+        "Klein (Beginning)"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "Returning to his chair again, he heard the faraway"
+    },
+    {
+      "chapter": 4,
+      "start": "0:41:54",
+      "duration": "0:02:48",
+      "present_cast": [
+        "Klein (Beginning)"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "The corridor during the day remained dim"
+    },
+    {
+      "chapter": 4,
+      "start": "0:44:42",
+      "duration": "0:04:34",
+      "present_cast": [
+        "Klein (Beginning)",
+        "Wendy Smyrin"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [
+        "Wendy Smyrin"
+      ],
+      "layout": "single",
+      "text_anchor": "Smyrin Bakery, buying rye bread"
+    },
+    {
+      "chapter": 4,
+      "start": "0:49:15",
+      "duration": "0:00:29",
+      "present_cast": [
+        "Klein (Beginning)"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "There was a municipal square at the intersection"
+    },
+    {
+      "chapter": 4,
+      "start": "0:49:45",
+      "duration": "0:03:09",
+      "present_cast": [
+        "Klein (Beginning)",
+        "[fortune-teller]"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [
+        "[fortune-teller]"
+      ],
+      "layout": "single",
+      "text_anchor": "the tarot fortune-teller offers a reading"
+    },
+    {
+      "chapter": 5,
+      "start": "0:52:54",
+      "duration": "0:06:53",
+      "present_cast": [
+        "Klein (Beginning)",
+        "[circus fortune-teller]",
+        "[real fortune-teller]"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [
+        "[circus fortune-teller]",
+        "[real fortune-teller]"
+      ],
+      "layout": "single",
+      "text_anchor": "Free? Free things cost the most!"
+    },
+    {
+      "chapter": 5,
+      "start": "0:59:47",
+      "duration": "0:00:47",
+      "present_cast": [
+        "Klein (Beginning)"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "Zhou Mingrui very quickly put this matter behind him."
+    },
+    {
+      "chapter": 5,
+      "start": "1:00:34",
+      "duration": "0:04:57",
+      "present_cast": [
+        "Klein (Beginning)"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "the luck-enhancement ritual; pulled into the gray fog"
+    },
+    {
+      "chapter": 5,
+      "start": "1:05:30",
+      "duration": "0:00:52",
+      "present_cast": [
+        "Audrey Hall"
+      ],
+      "images": [
+        "Audrey Hall.jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "In the Loen Kingdom's capital, Backlund. Inside a luxurious"
+    },
+    {
+      "chapter": 5,
+      "start": "1:06:22",
+      "duration": "0:00:43",
+      "present_cast": [
+        "Alger Wilson"
+      ],
+      "images": [
+        "Alger Wilson.jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "In the Sonia Sea, a three-masted sailboat"
+    },
+    {
+      "chapter": 5,
+      "start": "1:07:05",
+      "duration": "0:00:39",
+      "present_cast": [
+        "Klein (as The Fool)",
+        "Audrey Hall",
+        "Alger Wilson"
+      ],
+      "images": [
+        "The Fool.jpg",
+        "Audrey Hall.jpg",
+        "Alger Wilson.jpg"
+      ],
+      "missing_images": [],
+      "layout": "row(3)",
+      "text_anchor": "In the fog of gray mist, Audrey Hall regained"
+    },
+    {
+      "chapter": 6,
+      "start": "1:07:44",
+      "duration": "0:13:25",
+      "present_cast": [
+        "Klein (Beginning)",
+        "[ch6 not tagged in sample]"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [
+        "[ch6 not tagged in sample]"
+      ],
+      "layout": "single",
+      "text_anchor": "(chapter 6 omitted; placeholder so offsets stay honest)"
+    },
+    {
+      "chapter": 7,
+      "start": "1:21:09",
+      "duration": "0:10:32",
+      "present_cast": [
+        "Klein (as The Fool)",
+        "[Justice (unidentified)]",
+        "[The Hanged Man (unidentified)]"
+      ],
+      "images": [
+        "The Fool.jpg"
+      ],
+      "missing_images": [
+        "[Justice (unidentified)]",
+        "[The Hanged Man (unidentified)]"
+      ],
+      "layout": "single",
+      "text_anchor": "You can address me as The Fool"
+    },
+    {
+      "chapter": 7,
+      "start": "1:31:41",
+      "duration": "0:02:26",
+      "present_cast": [
+        "Klein (Beginning)"
+      ],
+      "images": [
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "missing_images": [],
+      "layout": "single",
+      "text_anchor": "As for Zhou Mingrui, he felt himself turning heavy"
+    }
+  ],
+  "characters_index": {
+    "Klein Moretti (protagonist)": {
+      "status": "have",
+      "scenes": 17
+    },
+    "Melissa Moretti": {
+      "status": "need",
+      "scenes": 1
+    },
+    "Wendy Smyrin": {
+      "status": "need",
+      "scenes": 1
+    },
+    "[fortune-teller]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[circus fortune-teller]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[real fortune-teller]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Audrey Hall": {
+      "status": "have",
+      "scenes": 2
+    },
+    "Alger Wilson": {
+      "status": "have",
+      "scenes": 2
+    },
+    "[ch6 not tagged in sample]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Justice (unidentified)]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[The Hanged Man (unidentified)]": {
+      "status": "background",
+      "scenes": 1
+    }
+  }
+}

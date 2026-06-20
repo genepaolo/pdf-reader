@@ -1,0 +1,20 @@
+{
+  "_note": "Human yes/no decisions on the ❌ wiki characters (the 'NEEDS decision' list in character_report_block01.md). 'yes' -> source a portrait and add an entry to character_map.json. 'no' -> do NOT source art; the character keeps appearing in scenes but is intentionally portrait-less. Once wired into build_character_report.py, 'no' characters drop out of the ❌ 'NEEDS decision' bucket so they aren't re-asked.",
+  "decisions": {
+    "Bredt": "no",
+    "Angelica Barrehart": "yes",
+    "Frye": "yes",
+    "Glacis": "yes",
+    "Annie": "yes",
+    "Earl Hall": "yes",
+    "Azik Eggers": "yes",
+    "Quentin Cohen": "yes",
+    "Wendy Smyrin": "yes",
+    "Aguesid Negan": "yes",
+    "Hanass Vincent": "yes",
+    "Susie": "yes",
+    "Royale Reideen": "yes",
+    "Mr. Franky": "no",
+    "Elliott Vickroy": "yes"
+  }
+}

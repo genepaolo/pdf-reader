@@ -1,0 +1,6 @@
+{"chapter": 12, "scenes": [
+  {"line_start": 3, "line_end": 11, "protagonist_present": true, "protagonist_persona": "Klein (Beginning)", "other_characters": ["Melissa Moretti"], "setting": "Klein's room at night, studying beside Melissa before bed", "text_anchor": "Melissa, can you not rub my nose in it"},
+  {"line_start": 13, "line_end": 151, "protagonist_present": true, "protagonist_persona": "Klein (Beginning)", "other_characters": ["Dunn Smith"], "setting": "Klein's nightmare: Dunn Smith arrives, then a carriage flight that ends with Dunn revealed as the driver", "text_anchor": "Knock! Knock! Knock! Poundings on the door roused Klein"},
+  {"line_start": 152, "line_end": 162, "protagonist_present": true, "protagonist_persona": "Klein (Beginning)", "other_characters": [], "setting": "Klein wakes alone in his room under the crimson moon", "text_anchor": "Sat up? Klein looked around, confused. He noticed"},
+  {"line_start": 163, "line_end": 174, "protagonist_present": true, "protagonist_persona": "Klein (Beginning)", "other_characters": ["Dunn Smith"], "setting": "The dark apartment corridor where Klein sees Dunn Smith's silhouette at the window", "text_anchor": "He opened the door and walked along the dark corridor"}
+]}

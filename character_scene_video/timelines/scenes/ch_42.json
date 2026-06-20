@@ -1,0 +1,5 @@
+{"chapter": 42, "scenes": [
+  {"line_start": 3, "line_end": 35, "protagonist_present": true, "protagonist_persona": "Klein (Beginning)", "other_characters": ["Rozanne Bengun", "Bredt", "Klee"], "setting": "Blackthorn Security Company reception hall", "text_anchor": "A mission request… You probably came to the wrong place"},
+  {"line_start": 37, "line_end": 101, "protagonist_present": true, "protagonist_persona": "Klein (Beginning)", "other_characters": ["Rozanne Bengun"], "setting": "Blackthorn Security Company reception hall — Klein reads the paper alone (Klee had left after being turned away)", "text_anchor": "After everything was done, Klein, who did not bring his umbrella"},
+  {"line_start": 103, "line_end": 178, "protagonist_present": true, "protagonist_persona": "Klein (Beginning)", "other_characters": ["Leonard Mitchell", "Rozanne Bengun", "Klee"], "setting": "Blackthorn Security Company reception hall", "text_anchor": "At that moment, the black-haired and green-eyed Leonard Mitchell walked out"}
+]}
