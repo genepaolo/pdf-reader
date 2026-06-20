@@ -1,27 +1,20 @@
 # Character Participation — Block 1 (chapters 1-50)
 
-_Every character that appears, with portrait status + grounded context (the scene settings they're in) so you can decide who needs art. ✅ = has a portrait now · ❌ = wiki character, no portrait (your call) · ➖ = minor, no wiki page · · = unnamed extra. Counts include cross-chapter carry._
+_Every character that appears, with portrait status + grounded context (the scene settings they're in) so you can decide who needs art. ✅ = has a portrait now · ❌ = wiki character, no portrait (your call) · 🚫 = decided NO portrait · ➖ = minor, no wiki page · · = unnamed extra. Counts include cross-chapter carry._
 
-## ✅ portrait (6)
+## ✅ portrait (23)
 
 | Character | Scenes | Chapters | Context (where they appear) |
 |---|---|---|---|
 | Klein (protagonist) | 141 | 1–50 (49) | Klein's rented apartment room at night, under the crims / Klein's rented apartment room, inspecting the desk, … |
 | Dunn Smith | 25 | 12–46 (18) | Klein's nightmare: Dunn Smith arrives, then a carriage  / The dark apartment corridor where Klein sees Dunn Sm… |
 | Leonard Mitchell | 18 | 17–46 (9) | Corridor and underground stone staircase toward Chanis  / the stairwell/stairs |
-| Audrey Hall | 13 | 5–41 (8) | A luxurious villa in Backlund's royal district, Audrey  / Above the gray fog, where Zhou Mingrui, Audrey Hall … |
-| Alger Wilson | 11 | 5–41 (8) | A storm-tossed three-masted sailboat on the Sonia Sea,  / Above the gray fog, where Zhou Mingrui, Audrey Hall … |
-| Daly Simone | 1 | 14 | Welch's candlelit living room where the Spirit Medium D |
-
-## ❌ NEEDS decision (wiki char) (19)
-
-| Character | Scenes | Chapters | Context (where they appear) |
-|---|---|---|---|
 | Old Neil | 16 | 20–50 (12) | Old Neil's cramped archive room; he shows Klein Roselle / Old Neil's office/storeroom in the Church |
 | Melissa Moretti | 15 | 3–50 (11) | Klein's apartment room, morning, sharing tea and bread  / Klein's room as Melissa returns home and they share … |
+| Audrey Hall | 13 | 5–41 (8) | A luxurious villa in Backlund's royal district, Audrey  / Above the gray fog, where Zhou Mingrui, Audrey Hall … |
 | Rozanne | 13 | 17–42 (8) | Blackthorn Security Company reception office, Klein wak / Corridor and underground stone staircase toward Chan… |
+| Alger Wilson | 11 | 5–41 (8) | A storm-tossed three-masted sailboat on the Sonia Sea,  / Above the gray fog, where Zhou Mingrui, Audrey Hall … |
 | Benson Moretti | 10 | 26–50 (5) | Klein's apartment on Iron Cross Street / Klein's apartment, evening siblings' dinner |
-| Bredt | 4 | 39,41,42,50 | Blackthorn Security Company armory and archives / Blackthorn Security Company reception hall (Klee does n |
 | Angelica Barrehart | 3 | 48,49 | Divination Club reception, 13 Howes Street, North Borou / Divination Club meeting room during the astrolabe cl… |
 | Frye | 3 | 45,46 | Nighthawks' two-wheeled carriage driving to the buildin / Third-floor apartment opposite the kidnappers' room |
 | Glacis | 3 | 38,49 | Topaz Room divination room / Topaz Room, after Klein leaves |
@@ -32,10 +25,17 @@ _Every character that appears, with portrait status + grounded context (the scen
 | Quentin Cohen | 2 | 24,25 | Harvin Stone's office in Tingen University's administra / Harvin Stone's office in Tingen University |
 | Wendy Smyrin | 2 | 4,37 | Smyrin Bakery, buying eight pounds of rye bread from Mr / Smyrin Bakery entrance |
 | Aguesid Negan | 1 | 8 | Royal Navy base, Pritz Harbor, Oak Island — the ironcla |
+| Daly Simone | 1 | 14 | Welch's candlelit living room where the Spirit Medium D |
 | Elliott Vickroy | 1 | 44 | Kidnappers' room with the rescued hostage |
-| Mr. Franky | 1 | 30 | Mr. Franky's room in the Iron Cross Street apartment |
 | Royale Reideen | 1 | 50 | Blackthorn Security Company basement corridor, Sunday m |
 | Susie | 1 | 41 | Audrey's private chemistry laboratory |
+
+## 🚫 declined — no portrait (by decision) (2)
+
+| Character | Scenes | Chapters | Context (where they appear) |
+|---|---|---|---|
+| Bredt | 4 | 39,41,42,50 | Blackthorn Security Company armory and archives / Blackthorn Security Company reception hall (Klee does n |
+| Mr. Franky | 1 | 30 | Mr. Franky's room in the Iron Cross Street apartment |
 
 ## ➖ minor (no wiki page) (9)
 

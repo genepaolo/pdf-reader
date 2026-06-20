@@ -20,6 +20,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 3,
+          "line_end": 92,
+          "setting": "Klein's rented apartment room at night, under the crimson moon",
           "text_anchor": "Painful! How painful! My head hurts so badly!"
         },
         {
@@ -35,6 +38,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 93,
+          "line_end": 146,
+          "setting": "Klein's rented apartment room, inspecting the desk, notebook, revolver and mirror",
           "text_anchor": "Klein Moretti, a citizen of the Northern Continent's Loen"
         }
       ]
@@ -56,6 +62,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 73,
+          "setting": "Klein's apartment room, lighting the gas lamp and inspecting his healing wound",
           "text_anchor": "Tap! Tap! Tap! Zhou Mingrui reeled back in fear"
         },
         {
@@ -71,6 +80,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 74,
+          "line_end": 95,
+          "setting": "Second-floor communal bathroom, washing blood from his face and shirt",
           "text_anchor": "Yes, I should clean up the blood stains"
         },
         {
@@ -86,6 +98,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 96,
+          "line_end": 153,
+          "setting": "Klein's apartment room, cleaning the scene and recalling the luck enhancement ritual",
           "text_anchor": "After Zhou Mingrui was done with his linen"
         }
       ]
@@ -107,6 +122,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 20,
+          "setting": "Klein's apartment room at dawn, alone reviewing Klein's memory fragments",
           "text_anchor": "After confirming his plan, Zhou Mingrui immediately felt"
         },
         {
@@ -118,13 +136,15 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti (Beginning of the Series).jpg"
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 21,
+          "line_end": 137,
+          "setting": "Klein's apartment room, morning, sharing tea and bread as Melissa prepares for school",
           "text_anchor": "At that moment, there was a commotion inside"
         },
         {
@@ -140,6 +160,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 138,
+          "line_end": 139,
+          "setting": "Klein's apartment room after Melissa leaves, alone turning to the luck ritual",
           "text_anchor": "Watching his sister close the door and leave"
         }
       ]
@@ -161,6 +184,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 63,
+          "setting": "Klein's apartment room, dressing, retrieving savings and the revolver before going out",
           "text_anchor": "Returning to his chair again, he heard the"
         },
         {
@@ -181,6 +207,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 64,
+          "line_end": 100,
+          "setting": "Crowded low-income street in Tingen, hawkers and beggar children, on the way to the bakery",
           "text_anchor": "The corridor during the day remained dim as"
         },
         {
@@ -192,13 +221,15 @@
             "Wendy Smyrin"
           ],
           "images": [
-            "Klein Moretti (Beginning of the Series).jpg"
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Wendy Smyrin.jpg"
           ],
-          "missing_images": [
-            "Wendy Smyrin"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 101,
+          "line_end": 153,
+          "setting": "Smyrin Bakery, buying eight pounds of rye bread from Mrs. Smyrin",
           "text_anchor": "Zhou Mingrui overtook her and turned into another"
         },
         {
@@ -217,6 +248,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 154,
+          "line_end": 204,
+          "setting": "Municipal square at Iron Cross and Daffodil Street, a circus tent where a painted-face woman offers tarot divination",
           "text_anchor": "There was a municipal square at the intersection"
         }
       ]
@@ -245,6 +279,9 @@
           ],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 91,
+          "setting": "Inside the dim circus divination tent, a tarot reading interrupted when the real fortune-teller bursts in",
           "text_anchor": "Free? Free things cost the most! Zhou Mingrui"
         },
         {
@@ -260,6 +297,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 92,
+          "line_end": 151,
+          "setting": "Klein's apartment room that evening, buying ingredients then performing the luck enhancement ritual alone",
           "text_anchor": "Zhou Mingrui very quickly put this matter behind"
         },
         {
@@ -275,6 +315,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 152,
+          "line_end": 169,
+          "setting": "The gray fog above, an endless mist dotted with crimson stars, Zhou Mingrui drifting alone",
           "text_anchor": "A gray fog appeared over his eyes-haziness"
         },
         {
@@ -290,6 +333,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 170,
+          "line_end": 186,
+          "setting": "A luxurious villa in Backlund's royal district, Audrey Hall before her cracked bronze mirror",
           "text_anchor": "In the Loen Kingdom's capital, Backlund. Inside a"
         },
         {
@@ -305,6 +351,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 187,
+          "line_end": 199,
+          "setting": "A storm-tossed three-masted sailboat on the Sonia Sea, Alger Wilson on deck",
           "text_anchor": "In the Sonia Sea, a three-masted sailboat that"
         },
         {
@@ -324,6 +373,9 @@
           "missing_images": [],
           "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 200,
+          "line_end": 212,
+          "setting": "Above the gray fog, where Zhou Mingrui, Audrey Hall and Alger Wilson first encounter one another",
           "text_anchor": "In the fog of gray mist, Audrey Hall"
         }
       ]
@@ -349,6 +401,9 @@
           "missing_images": [],
           "layout": "row(3)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 149,
+          "setting": "Above the gray fog — the Gathering; the giant palace and bronze long table materialize",
           "text_anchor": "Not only did they speak the same Loen language,"
         }
       ]
@@ -374,6 +429,9 @@
           "missing_images": [],
           "layout": "row(3)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 135,
+          "setting": "Above the gray fog — the Gathering at the bronze long table; call signs chosen and Tarot Club founded",
           "text_anchor": "“You can address me as The Fool.”"
         },
         {
@@ -389,6 +447,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 137,
+          "line_end": 168,
+          "setting": "Klein's rented apartment, Tingen — back in the real world after the connection breaks",
           "text_anchor": "He was still standing in the middle of his apartment."
         }
       ]
@@ -415,6 +476,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 3,
+          "line_end": 85,
+          "setting": "The Tudor-era ghost ship at sea during a storm — deck and the captain's cabin",
           "text_anchor": "Whoosh! Howling wind accompanied a downpour."
         },
         {
@@ -427,14 +491,16 @@
             "Earl Hall"
           ],
           "images": [
-            "Audrey Hall.jpg"
+            "Audrey Hall.jpg",
+            "Annie.png",
+            "Earl Hall.png"
           ],
-          "missing_images": [
-            "Annie",
-            "Earl Hall"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 89,
+          "line_end": 157,
+          "setting": "Audrey's bedroom, Empress Borough, Backlund — maidservants dress her, then Count Hall (her father) arrives at the door to escort her to the ceremony (L143-155)",
           "text_anchor": "Empress Borough, Backlund, capital of the Loen Kingdom."
         },
         {
@@ -448,15 +514,18 @@
             "George III"
           ],
           "images": [
-            "Audrey Hall.jpg"
+            "Audrey Hall.jpg",
+            "Earl Hall.png",
+            "Aguesid Negan.jpg"
           ],
           "missing_images": [
-            "Earl Hall",
-            "Aguesid Negan",
             "George III"
           ],
-          "layout": "single",
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 159,
+          "line_end": 248,
+          "setting": "Royal Navy base, Pritz Harbor, Oak Island — the ironclad warship unveiling ceremony",
           "text_anchor": "The Royal Navy base, Pritz Harbor, Oak Island."
         }
       ]
@@ -478,6 +547,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 3,
+          "line_end": 172,
+          "setting": "Klein's rented apartment, Tingen — resting, cooking, and reading the original Klein's notebook; ends on a knock at the door",
           "text_anchor": "After half an hour of rest, Zhou Mingrui, who now"
         }
       ]
@@ -508,6 +580,9 @@
           ],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 166,
+          "setting": "Klein's rented apartment, Tingen — four policemen question Klein about the deaths of Welch and Naya",
           "text_anchor": "“Who is it?” Klein was thinking about the mysterious"
         }
       ]
@@ -529,6 +604,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 85,
+          "setting": "Klein's rented room in the Moretti apartment, afternoon into evening",
           "text_anchor": "The norm is for everyone to die together? Very glad"
         },
         {
@@ -540,13 +618,15 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti (Beginning of the Series).jpg"
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 87,
+          "line_end": 164,
+          "setting": "Klein's room as Melissa returns home and they share the stewed mutton",
           "text_anchor": "After more than forty minutes, some not-so-brisk but rhythmic"
         }
       ]
@@ -564,13 +644,15 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti (Beginning of the Series).jpg"
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 11,
+          "setting": "Klein's room at night, studying beside Melissa before bed",
           "text_anchor": "Melissa, can you not rub my nose in it"
         },
         {
@@ -588,6 +670,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 13,
+          "line_end": 151,
+          "setting": "Klein's nightmare: Dunn Smith arrives, then a carriage flight that ends with Dunn revealed as the driver",
           "text_anchor": "Knock! Knock! Knock! Poundings on the door roused Klein"
         },
         {
@@ -603,6 +688,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 152,
+          "line_end": 162,
+          "setting": "Klein wakes alone in his room under the crimson moon",
           "text_anchor": "Sat up? Klein looked around, confused. He noticed"
         },
         {
@@ -620,6 +708,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 163,
+          "line_end": 174,
+          "setting": "The dark apartment corridor where Klein sees Dunn Smith's silhouette at the window",
           "text_anchor": "He opened the door and walked along the dark corridor"
         }
       ]
@@ -643,6 +734,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 91,
+          "setting": "The dim apartment corridor where Dunn Smith reveals himself as a Nighthawk and Klein agrees to come",
           "text_anchor": "Plop! Klein could not help but take a step back"
         },
         {
@@ -663,6 +757,9 @@
           ],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 92,
+          "line_end": 154,
+          "setting": "Inside the four-wheeled police carriage riding through the night toward Welch's place",
           "text_anchor": "In such a tranquil setting, Dunn Smith opened his mouth"
         }
       ]
@@ -686,6 +783,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 31,
+          "setting": "The garden and pathway of Welch's rented house where Klein feels unseen spirits watching",
           "text_anchor": "A true medium... Klein repeated this description inwardly"
         },
         {
@@ -705,6 +805,9 @@
           "missing_images": [],
           "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 32,
+          "line_end": 145,
+          "setting": "Welch's candlelit living room where the Spirit Medium Daly examines Klein",
           "text_anchor": "Dunn turned the doorknob, pushed the door open and said"
         },
         {
@@ -722,6 +825,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 147,
+          "line_end": 188,
+          "setting": "The doorway and carriage outside Welch's house as Dunn floats the idea of Klein joining the Nighthawks",
           "text_anchor": "Congratulations. You can return home now. But do remember"
         }
       ]
@@ -745,6 +851,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 117,
+          "setting": "Inside the carriage riding back to Iron Cross Street where Dunn formally invites Klein to join as civilian staff",
           "text_anchor": "A wave of tumultuous emotions rose up in Klein's heart"
         },
         {
@@ -760,6 +869,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 119,
+          "line_end": 128,
+          "setting": "The quiet pre-dawn street outside Klein's apartment after the carriage departs",
           "text_anchor": "He took out his pocket watch. Click, he pressed"
         }
       ]
@@ -781,6 +893,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 9,
+          "setting": "Night, outside and inside Klein's apartment building stairwell",
           "text_anchor": "Phew, I finally got through the round with the medium"
         },
         {
@@ -792,13 +907,15 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti (Beginning of the Series).jpg"
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 11,
+          "line_end": 69,
+          "setting": "Klein's room at night, Melissa with her clockwork puppet",
           "text_anchor": "In a similar state of mind, he opened the door to his"
         },
         {
@@ -814,6 +931,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 71,
+          "line_end": 117,
+          "setting": "Klein's desk overnight, weighing the Nighthawks offer alone",
           "text_anchor": "Last night's dinner was too good, she ate too much"
         },
         {
@@ -825,13 +945,15 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti (Beginning of the Series).jpg"
+            "Klein Moretti (Beginning of the Series).jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 119,
+          "line_end": 133,
+          "setting": "Klein's room at dawn, Melissa wakes and leaves for the bathroom",
           "text_anchor": "At this moment, Melissa, who had gotten out of bed again"
         },
         {
@@ -852,6 +974,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 135,
+          "line_end": 169,
+          "setting": "Public horse carriage from Iron Cross Street toward Besik/Champagne Street",
           "text_anchor": "Besik Street was a little far, and Klein was afraid"
         },
         {
@@ -874,6 +999,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 171,
+          "line_end": 265,
+          "setting": "The dog-and-rat pub on Besik Street with the hound logo",
           "text_anchor": "Klein reached out his right hand and gave a forceful push"
         }
       ]
@@ -891,13 +1019,15 @@
             "Rozanne"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Rozanne.png"
           ],
-          "missing_images": [
-            "Rozanne"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 37,
+          "setting": "Blackthorn Security Company reception office, Klein wakes the dozing Rozanne",
           "text_anchor": "Upon seeing the signboard, Klein felt surprised yet found it"
         },
         {
@@ -911,13 +1041,15 @@
           ],
           "images": [
             "Klein Moretti.jpg",
+            "Rozanne.png",
             "Leonard Mitchell.jpg"
           ],
-          "missing_images": [
-            "Rozanne"
-          ],
-          "layout": "row(2)",
+          "missing_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 39,
+          "line_end": 95,
+          "setting": "Corridor and underground stone staircase toward Chanis Gate; Leonard glimpsed typing",
           "text_anchor": "Okay. Klein quickly followed behind. In his mind, he pondered"
         },
         {
@@ -935,6 +1067,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 97,
+          "line_end": 152,
+          "setting": "The Keeper room before Chanis Gate; Klein signs the Nighthawks contract",
           "text_anchor": "The room Rozanne was referring to was just in front"
         }
       ]
@@ -958,6 +1093,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 113,
+          "setting": "The Keeper room before Chanis Gate; Dunn explains the creation myth, Sequences, and losing control",
           "text_anchor": "Upon hearing Klein's question, Dunn looked out of the window"
         }
       ]
@@ -981,6 +1119,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 120,
+          "setting": "The Keeper room before Chanis Gate; Dunn explains civilian duties, Sealed Artifacts, and Ince Zangwill",
           "text_anchor": "We are guardians, but also a bunch of miserable wretches"
         }
       ]
@@ -1004,6 +1145,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 47,
+          "setting": "The Keeper room; the forgetful Dunn repeatedly recalls instructions about pay and gear",
           "text_anchor": "Okay. Klein bowed slightly as he wore his short top hat"
         },
         {
@@ -1017,13 +1161,15 @@
           ],
           "images": [
             "Klein Moretti.jpg",
-            "Dunn Smith.jpg"
+            "Dunn Smith.jpg",
+            "Rozanne.png"
           ],
-          "missing_images": [
-            "Rozanne"
-          ],
-          "layout": "row(2)",
+          "missing_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 49,
+          "line_end": 113,
+          "setting": "The Keeper room; Rozanne is summoned while Dunn adds more notes about bullets and the shooting range",
           "text_anchor": "Dunn returned to the table's side and pulled at a few"
         },
         {
@@ -1036,14 +1182,17 @@
             "Mrs. Orianna"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Rozanne.png"
           ],
           "missing_images": [
-            "Rozanne",
             "Mrs. Orianna"
           ],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 115,
+          "line_end": 163,
+          "setting": "Mrs. Orianna's accounting office upstairs; Klein receives his twelve-pound advance",
           "text_anchor": "Captain has always been this way. He often forgets things"
         },
         {
@@ -1055,13 +1204,15 @@
             "Old Neil"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
-          "missing_images": [
-            "Old Neil"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 165,
+          "line_end": 234,
+          "setting": "Old Neil's cramped archive room; he shows Klein Roselle's diary written in Chinese",
           "text_anchor": "He did a turn at a cross-junction and headed right"
         }
       ]
@@ -1079,13 +1230,15 @@
             "Old Neil"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
-          "missing_images": [
-            "Old Neil"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 109,
+          "setting": "Old Neil's office/storeroom in the Church",
           "text_anchor": "In that instant, Klein even believed that he had"
         },
         {
@@ -1103,6 +1256,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 111,
+          "line_end": 131,
+          "setting": "the stairwell/stairs",
           "text_anchor": "Rozanne had apparently mentioned something... The Sleepless? Just as"
         },
         {
@@ -1118,6 +1274,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 133,
+          "line_end": 136,
+          "setting": "the sunlit stairwell ground",
           "text_anchor": "Indeed, there's nothing special about him..."
         }
       ]
@@ -1135,13 +1294,15 @@
             "Rozanne"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Rozanne.png"
           ],
-          "missing_images": [
-            "Rozanne"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 97,
+          "setting": "the reception hall of the Church/Nighthawks office",
           "text_anchor": "After he went up the stairs and returned to"
         },
         {
@@ -1157,6 +1318,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 99,
+          "line_end": 105,
+          "setting": "the stairs leaving the office",
           "text_anchor": "As he walked down the stairs, Klein suddenly stopped"
         }
       ]
@@ -1183,6 +1347,9 @@
           ],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 87,
+          "setting": "Wilker Clothing and Hats shop on the street",
           "text_anchor": "As Klein walked down Zouteland and while taking in"
         },
         {
@@ -1198,6 +1365,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 89,
+          "line_end": 103,
+          "setting": "Klein's rented apartment",
           "text_anchor": "After closing the door, he counted the eleven pounds"
         },
         {
@@ -1209,13 +1379,15 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 105,
+          "line_end": 146,
+          "setting": "Klein's rented apartment",
           "text_anchor": "Melissa with her soft, black hair entered. Her nose"
         }
       ]
@@ -1233,13 +1405,15 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 67,
+          "setting": "Klein's rented apartment",
           "text_anchor": "The sky outside was gradually dyed golden as Klein"
         },
         {
@@ -1255,6 +1429,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 69,
+          "line_end": 89,
+          "setting": "Tingen University grounds by the Khoy River",
           "text_anchor": "A river tore through the land, with cedar"
         },
         {
@@ -1268,15 +1445,18 @@
             "Azik Eggers"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Quentin Cohen.jpg",
+            "Azik Eggers.jpg"
           ],
           "missing_images": [
-            "Harvin Stone",
-            "Quentin Cohen",
-            "Azik Eggers"
+            "Harvin Stone"
           ],
-          "layout": "single",
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 91,
+          "line_end": 134,
+          "setting": "Harvin Stone's office in Tingen University's administrative block",
           "text_anchor": "Knock! Knock! Knock! He knocked lightly on the half-closed"
         }
       ]
@@ -1296,15 +1476,18 @@
             "Harvin Stone"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Azik Eggers.jpg",
+            "Quentin Cohen.jpg"
           ],
           "missing_images": [
-            "Azik Eggers",
-            "Quentin Cohen",
             "Harvin Stone"
           ],
-          "layout": "single",
+          "layout": "row(3)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 31,
+          "setting": "Harvin Stone's office in Tingen University",
           "text_anchor": "While Azik muttered to himself, he subconsciously shot a"
         },
         {
@@ -1320,6 +1503,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 33,
+          "line_end": 109,
+          "setting": "boulevard by the Khoy River and a public carriage to Champagne Street",
           "text_anchor": "With his back against the sun, he lifted up"
         },
         {
@@ -1338,6 +1524,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 111,
+          "line_end": 161,
+          "setting": "Saint Selena Cathedral prayer hall",
           "text_anchor": "But he did not enter that street. Instead, he"
         },
         {
@@ -1356,6 +1545,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 163,
+          "line_end": 175,
+          "setting": "the confessional booth of Saint Selena Cathedral",
           "text_anchor": "Klein took out the 'Seventh Unit, Special Operations Department'"
         },
         {
@@ -1374,6 +1566,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 177,
+          "line_end": 187,
+          "setting": "the secret passage behind the cathedral altar",
           "text_anchor": "The secret door closed silently as a middle-aged, black-robed"
         }
       ]
@@ -1400,6 +1595,9 @@
           ],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 23,
+          "setting": "Underground passageway and stone stairwell beneath Saint Selena Cathedral",
           "text_anchor": "Tap! Tap! Tap! The sound of footsteps echoed through"
         },
         {
@@ -1411,13 +1609,15 @@
             "Rozanne"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Rozanne.png"
           ],
-          "missing_images": [
-            "Rozanne"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 25,
+          "line_end": 41,
+          "setting": "Reception area of Blackthorn Security Company",
           "text_anchor": "Seeing doors that were tightly shut or half-closed, he"
         },
         {
@@ -1435,6 +1635,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 43,
+          "line_end": 71,
+          "setting": "Dunn Smith's office in Blackthorn Security Company",
           "text_anchor": "Come in. Dunn Smith's deep and gentle voice sounded."
         },
         {
@@ -1453,6 +1656,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 73,
+          "line_end": 137,
+          "setting": "Cathedral passageway, then Zouteland Shooting Club underground range and the streets",
           "text_anchor": "He turned left at the intersection, and bathed in"
         },
         {
@@ -1464,13 +1670,15 @@
             "Benson Moretti"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg"
           ],
-          "missing_images": [
-            "Benson Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 139,
+          "line_end": 170,
+          "setting": "Klein's apartment on Iron Cross Street",
           "text_anchor": "The feeling of being spied upon vanished without a"
         }
       ]
@@ -1488,13 +1696,15 @@
             "Benson Moretti"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg"
           ],
-          "missing_images": [
-            "Benson Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 37,
+          "setting": "Klein's apartment on Iron Cross Street",
           "text_anchor": "It's simply sharp and incisive... Klein burst out in"
         },
         {
@@ -1510,6 +1720,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 39,
+          "line_end": 51,
+          "setting": "Apartment and Lettuce and Meat market, Klein running errands alone",
           "text_anchor": "After some idle chatter between the brothers, the remnants"
         },
         {
@@ -1522,14 +1735,16 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Benson Moretti",
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 53,
+          "line_end": 129,
+          "setting": "Klein's apartment, evening siblings' dinner",
           "text_anchor": "In the evening, Benson and Melissa sat in front"
         },
         {
@@ -1547,6 +1762,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 131,
+          "line_end": 144,
+          "setting": "Klein's dream while asleep, then his bunk in the apartment",
           "text_anchor": "Klein felt groggy as he stared at the darkness"
         }
       ]
@@ -1573,6 +1791,9 @@
           ],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 75,
+          "setting": "Klein's bedroom in the apartment at night, confronting the intruder",
           "text_anchor": "Badump! Badump! Badump! Klein's heart began beating rapidly."
         },
         {
@@ -1590,6 +1811,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 77,
+          "line_end": 130,
+          "setting": "End of the apartment corridor in the crimson moonlight",
           "text_anchor": "He uneasily waited for a full ten minutes."
         }
       ]
@@ -1613,6 +1837,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 19,
+          "setting": "End of the apartment corridor in the crimson moonlight",
           "text_anchor": "Klein tried his best to remain his usual self"
         },
         {
@@ -1628,6 +1855,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 21,
+          "line_end": 33,
+          "setting": "Klein's bed in the apartment, alone through the night",
           "text_anchor": "Although he was constantly hoping to become a Beyonder"
         },
         {
@@ -1640,14 +1870,16 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Benson Moretti",
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 35,
+          "line_end": 113,
+          "setting": "Apartment and walk down Daffodil Street toward the housing company",
           "text_anchor": "He got out of bed and headed to the"
         },
         {
@@ -1661,15 +1893,18 @@
             "Scarter"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
           ],
           "missing_images": [
-            "Benson Moretti",
-            "Melissa Moretti",
             "Scarter"
           ],
-          "layout": "single",
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 115,
+          "line_end": 134,
+          "setting": "Tingen City Housing Improvement Company office",
           "text_anchor": "The person who served them was a middle-aged man"
         }
       ]
@@ -1689,15 +1924,18 @@
             "Scarter"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
           ],
           "missing_images": [
-            "Benson Moretti",
-            "Melissa Moretti",
             "Scarter"
           ],
-          "layout": "single",
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 3,
+          "line_end": 73,
+          "setting": "Terrace house viewing at 2 Daffodil Street",
           "text_anchor": "2, 4, and 6 Daffodil Street were terrace"
         },
         {
@@ -1710,14 +1948,16 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Benson Moretti",
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 75,
+          "line_end": 84,
+          "setting": "Outside the door of 2 Daffodil Street",
           "text_anchor": "It feels like a dream... After a while, Melissa"
         },
         {
@@ -1730,14 +1970,17 @@
             "Mr. Franky"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg"
           ],
           "missing_images": [
-            "Benson Moretti",
             "Mr. Franky"
           ],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 86,
+          "line_end": 117,
+          "setting": "Mr. Franky's room in the Iron Cross Street apartment",
           "text_anchor": "The siblings made do with rye bread at home"
         },
         {
@@ -1750,14 +1993,16 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Benson Moretti",
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 119,
+          "line_end": 133,
+          "setting": "New home at 2 Daffodil Street, moving in",
           "text_anchor": "With the problem of the previous contract resolved, the"
         },
         {
@@ -1771,13 +2016,15 @@
           ],
           "images": [
             "Klein Moretti.jpg",
-            "Dunn Smith.jpg"
+            "Dunn Smith.jpg",
+            "Rozanne.png"
           ],
-          "missing_images": [
-            "Rozanne"
-          ],
-          "layout": "row(2)",
+          "missing_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 135,
+          "line_end": 174,
+          "setting": "Blackthorn Security Company, Rozanne's reception then Dunn Smith's office",
           "text_anchor": "The next morning. Klein stood before a full-length mirror"
         }
       ]
@@ -1801,6 +2048,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 63,
+          "setting": "Underground stairwell and passage beneath the Church, descending to the Nighthawk alchemy room",
           "text_anchor": "Dunn Smith stared at Klein with his gray eyes"
         },
         {
@@ -1812,13 +2062,15 @@
             "Old Neil"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
-          "missing_images": [
-            "Old Neil"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 65,
+          "line_end": 159,
+          "setting": "The Nighthawk team's alchemy room, where Old Neil concocts the Seer potion",
           "text_anchor": "The room had long tables. There were test tubes,"
         }
       ]
@@ -1836,13 +2088,15 @@
             "Old Neil"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
-          "missing_images": [
-            "Old Neil"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 188,
+          "setting": "The Nighthawk alchemy room, where Klein drinks the Seer potion and learns Cogitation and Spirit Vision from Old Neil",
           "text_anchor": "Klein looked at dark-blue gelatinous liquid, finding it hard"
         }
       ]
@@ -1860,13 +2114,15 @@
             "Old Neil"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
-          "missing_images": [
-            "Old Neil"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 81,
+          "setting": "The Nighthawk alchemy room, where Klein finishes learning Spirit Vision and the tap switch from Old Neil",
           "text_anchor": "The moment Old Neil finished his sentence, the illusory"
         },
         {
@@ -1884,6 +2140,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 83,
+          "line_end": 92,
+          "setting": "The underground stairwell beneath the Church as Klein heads up and Dunn warns him",
           "text_anchor": "At that moment, Dunn Smith came from behind"
         },
         {
@@ -1899,6 +2158,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 93,
+          "line_end": 131,
+          "setting": "Klein's home on Daffodil Street, where he rests, wakes, and prepares for the Tarot gathering",
           "text_anchor": "After entering Blackthorn Security Company, he greeted Rozanne"
         },
         {
@@ -1914,6 +2176,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 133,
+          "line_end": 154,
+          "setting": "Above the gray fog, the divine palace where Klein takes the Seat of Honor to begin the Tarot Club gathering",
           "text_anchor": "Tick-tock. Tick-tock. One minute before three,"
         }
       ]
@@ -1935,6 +2200,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 3,
+          "line_end": 20,
+          "setting": "Alger Wilson's windowless underground basement, where he prepares to join the Gathering",
           "text_anchor": "In an underground basement without any windows, the burly"
         },
         {
@@ -1950,6 +2218,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 23,
+          "line_end": 34,
+          "setting": "Audrey's room in the Hall family mansion in Backlund, Empress Borough, as she prepares to join the Gathering",
           "text_anchor": "Backlund, Empress Borough, Inside the Hall family's luxurious"
         },
         {
@@ -1969,6 +2240,9 @@
           "missing_images": [],
           "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 37,
+          "line_end": 143,
+          "setting": "Above the gray fog, the divine hall of the Tarot Club where The Fool, Justice, and The Hanged Man meet",
           "text_anchor": "Above the gray fog stood a majestic divine"
         }
       ]
@@ -1994,6 +2268,9 @@
           "missing_images": [],
           "layout": "row(3)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 176,
+          "setting": "Above the gray fog, the divine hall of the Tarot Club where The Fool, Justice, and The Hanged Man exchange information",
           "text_anchor": "Roselle Gustav's secret diary? Emperor Roselle? Indeed, only"
         }
       ]
@@ -2019,6 +2296,9 @@
           "missing_images": [],
           "layout": "row(3)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 69,
+          "setting": "Tarot Club gathering above the gray fog",
           "text_anchor": "While Audrey recalled the conversation between her father and elder"
         },
         {
@@ -2034,6 +2314,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 71,
+          "line_end": 115,
+          "setting": "Above the gray fog, then Klein's room in the real world",
           "text_anchor": "Above the gray fog, in the opulent palace where"
         },
         {
@@ -2049,6 +2332,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 119,
+          "line_end": 147,
+          "setting": "Audrey's room in Backlund, Empress Borough",
           "text_anchor": "Backlund, Empress Borough. Audrey Hall looked at herself in"
         },
         {
@@ -2064,6 +2350,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 151,
+          "line_end": 163,
+          "setting": "Alger's candlelit underground basement",
           "text_anchor": "In an underground basement lit only by a flickering"
         }
       ]
@@ -2085,6 +2374,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 3,
+          "line_end": 27,
+          "setting": "Streets toward Iron Cross Street, Tingen",
           "text_anchor": "Under the scorching afternoon sun, Klein left his house."
         },
         {
@@ -2096,13 +2388,15 @@
             "Wendy Smyrin"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Wendy Smyrin.jpg"
           ],
-          "missing_images": [
-            "Wendy Smyrin"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 29,
+          "line_end": 61,
+          "setting": "Smyrin Bakery entrance",
           "text_anchor": "Lad. Oh Klein turned his head curiously and found"
         },
         {
@@ -2118,6 +2412,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 63,
+          "line_end": 139,
+          "setting": "Iron Cross Street apartment and route to Welch's place",
           "text_anchor": "There were far fewer street side hawkers in the"
         },
         {
@@ -2136,6 +2433,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 141,
+          "line_end": 156,
+          "setting": "Divination Club main foyer",
           "text_anchor": "Amid his mixed thoughts, Klein went across the street"
         }
       ]
@@ -2160,6 +2460,9 @@
           ],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 33,
+          "setting": "Divination Club reception hall",
           "text_anchor": "Upon hearing Klein's question, the beautiful lady with elegantly"
         },
         {
@@ -2171,13 +2474,15 @@
             "Glacis"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Glacis.jpg"
           ],
-          "missing_images": [
-            "Glacis"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 35,
+          "line_end": 123,
+          "setting": "Topaz Room divination room",
           "text_anchor": "Topaz Room. I like topaz. Glacis appeared by"
         },
         {
@@ -2188,13 +2493,14 @@
             "Glacis"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Glacis.jpg"
           ],
-          "missing_images": [
-            "Glacis"
-          ],
-          "layout": "hold-previous",
+          "missing_images": [],
+          "layout": "single",
           "continues_prev": false,
+          "line_start": 125,
+          "line_end": 143,
+          "setting": "Topaz Room, after Klein leaves",
           "text_anchor": "Why? asked Glacis in surprise. Are you cursing me"
         },
         {
@@ -2210,6 +2516,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 147,
+          "line_end": 153,
+          "setting": "Leaving the Divination Club, public carriage to Zouteland Street",
           "text_anchor": "After leaving the Divination Club, Klein had an additional"
         },
         {
@@ -2227,6 +2536,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 155,
+          "line_end": 174,
+          "setting": "Blackthorn Security Company reception counter",
           "text_anchor": "He pushed open the door to Blackthorn Security Company"
         }
       ]
@@ -2250,6 +2562,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 33,
+          "setting": "Blackthorn Security Company reception counter",
           "text_anchor": "In fact, I do not know if the notebook"
         },
         {
@@ -2262,14 +2577,17 @@
             "Bredt"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Rozanne.png"
           ],
           "missing_images": [
-            "Rozanne",
             "Bredt"
           ],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 37,
+          "line_end": 73,
+          "setting": "Blackthorn Security Company armory and archives",
           "text_anchor": "Down the stairs, Klein followed the gas lamp-illuminated corridor"
         },
         {
@@ -2285,6 +2603,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 75,
+          "line_end": 83,
+          "setting": "Shooting Club range",
           "text_anchor": "Bang! Bang! Bang! Klein repeated the process gripping the"
         },
         {
@@ -2296,13 +2617,15 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 85,
+          "line_end": 117,
+          "setting": "Klein's home",
           "text_anchor": "Just as Klein was planning to head to the"
         },
         {
@@ -2315,14 +2638,16 @@
             "Rozanne"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg",
+            "Rozanne.png"
           ],
-          "missing_images": [
-            "Old Neil",
-            "Rozanne"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 121,
+          "line_end": 137,
+          "setting": "Blackthorn Security Company reception desk and stairs to armory",
           "text_anchor": "The next morning, after ensuring that Melissa took a"
         },
         {
@@ -2334,13 +2659,15 @@
             "Old Neil"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
-          "missing_images": [
-            "Old Neil"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 139,
+          "line_end": 144,
+          "setting": "Blackthorn Security Company armory",
           "text_anchor": "What will we be learning today? asked Klein curiously."
         }
       ]
@@ -2358,13 +2685,15 @@
             "Old Neil"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
-          "missing_images": [
-            "Old Neil"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 137,
+          "setting": "Blackthorn Security Company armory",
           "text_anchor": "An interesting trick? Klein asked out of extreme curiosity."
         }
       ]
@@ -2382,13 +2711,15 @@
             "Old Neil"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
-          "missing_images": [
-            "Old Neil"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 33,
+          "setting": "Blackthorn Security Company offices, Tingen",
           "text_anchor": "After pouring away the coffee and returning to the armory"
         },
         {
@@ -2406,6 +2737,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 35,
+          "line_end": 63,
+          "setting": "Dunn Smith's office, Blackthorn Security Company",
           "text_anchor": "Dunn was waiting for lunch to be delivered."
         },
         {
@@ -2418,14 +2752,16 @@
             "Susie"
           ],
           "images": [
-            "Audrey Hall.jpg"
+            "Audrey Hall.jpg",
+            "Annie.png",
+            "Susie.jpg"
           ],
-          "missing_images": [
-            "Annie",
-            "Susie"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 65,
+          "line_end": 115,
+          "setting": "Audrey's private chemistry laboratory",
           "text_anchor": "In a private chemistry laboratory equipped with apparatus and items."
         },
         {
@@ -2444,6 +2780,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 119,
+          "line_end": 131,
+          "setting": "Storm-enveloped island harbor, the Blue Avenger",
           "text_anchor": "In the seas beyond the Pritz Harbor, there was an island"
         },
         {
@@ -2459,6 +2798,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 133,
+          "line_end": 137,
+          "setting": "Audrey's private chemistry laboratory",
           "text_anchor": "Meanwhile, Audrey finished her second concoction in a panic-stricken state."
         },
         {
@@ -2471,14 +2813,17 @@
             "Bredt"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Rozanne.png"
           ],
           "missing_images": [
-            "Rozanne",
             "Bredt"
           ],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 141,
+          "line_end": 171,
+          "setting": "Blackthorn Security Company reception hall (Klee does not appear until ch42)",
           "text_anchor": "Friday. A storm befell Tingen. The heavy rain pounded"
         }
       ]
@@ -2499,16 +2844,19 @@
             "[lanky man]"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Rozanne.png"
           ],
           "missing_images": [
-            "Rozanne",
             "Bredt",
             "Klee",
             "[lanky man]"
           ],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 35,
+          "setting": "Blackthorn Security Company reception hall",
           "text_anchor": "A mission request… You probably came to the wrong place"
         },
         {
@@ -2520,13 +2868,15 @@
             "Rozanne"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Rozanne.png"
           ],
-          "missing_images": [
-            "Rozanne"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 37,
+          "line_end": 101,
+          "setting": "Blackthorn Security Company reception hall — Klein reads the paper alone (Klee had left after being turned away)",
           "text_anchor": "After everything was done, Klein, who did not bring his umbrella"
         },
         {
@@ -2541,14 +2891,17 @@
           ],
           "images": [
             "Klein Moretti.jpg",
-            "Leonard Mitchell.jpg"
+            "Leonard Mitchell.jpg",
+            "Rozanne.png"
           ],
           "missing_images": [
-            "Rozanne",
             "Klee"
           ],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 103,
+          "line_end": 178,
+          "setting": "Blackthorn Security Company reception hall",
           "text_anchor": "At that moment, the black-haired and green-eyed Leonard Mitchell walked out"
         }
       ]
@@ -2575,6 +2928,9 @@
           ],
           "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 41,
+          "setting": "Blackthorn Security Company reception hall",
           "text_anchor": "While looking at Klein, Leonard smiled and nodded."
         },
         {
@@ -2595,6 +2951,9 @@
           ],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 43,
+          "line_end": 75,
+          "setting": "Carriage near Vickroy's residence, Tingen",
           "text_anchor": "The carriage's interior was rather spacious. It was lined"
         },
         {
@@ -2615,6 +2974,9 @@
           ],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 77,
+          "line_end": 143,
+          "setting": "Two-wheeled hired carriage tracing Elliott through Tingen streets",
           "text_anchor": "Unlike public carriages, private-hire carriages were either four-wheeled"
         },
         {
@@ -2632,6 +2994,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 145,
+          "line_end": 186,
+          "setting": "Stairwell of the three-story building, third floor",
           "text_anchor": "Klein was afraid of drenching his formal suit, so he jogged"
         }
       ]
@@ -2660,6 +3025,9 @@
           ],
           "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 79,
+          "setting": "Third-floor landing and kidnappers' room of the building",
           "text_anchor": "Leonard's singing sounded like a lullaby as it lightly resounded"
         },
         {
@@ -2674,14 +3042,17 @@
           ],
           "images": [
             "Klein Moretti.jpg",
-            "Leonard Mitchell.jpg"
+            "Leonard Mitchell.jpg",
+            "Elliott Vickroy.jpg"
           ],
           "missing_images": [
-            "Elliott Vickroy",
             "[Kidnappers]"
           ],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 81,
+          "line_end": 101,
+          "setting": "Kidnappers' room with the rescued hostage",
           "text_anchor": "With a gun and cane in each hand, Klein entered"
         },
         {
@@ -2702,6 +3073,9 @@
           ],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 103,
+          "line_end": 117,
+          "setting": "Streets and kidnappers' room",
           "text_anchor": "Klein held back his laughter and walked out into the streets."
         },
         {
@@ -2719,6 +3093,9 @@
           "missing_images": [],
           "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 119,
+          "line_end": 165,
+          "setting": "Two-wheeled carriage leaving the scene, Tingen",
           "text_anchor": "Almost five minutes later, a few carriages rushed"
         },
         {
@@ -2734,6 +3111,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 169,
+          "line_end": 210,
+          "setting": "Klein's rented bedroom on Daffodil/Minsk Street, Tingen",
           "text_anchor": "After returning to Zouteland Street, Klein did not wait"
         }
       ]
@@ -2755,6 +3135,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 25,
+          "setting": "Klein's rented bedroom and the dark street outside, Tingen",
           "text_anchor": "The Antigonus notebook is in the apartment across"
         },
         {
@@ -2775,6 +3158,9 @@
           ],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 27,
+          "line_end": 61,
+          "setting": "Early-morning public carriage to Zouteland Street",
           "text_anchor": "He was just about to seek out an expensive for-hire carriage"
         },
         {
@@ -2794,6 +3180,9 @@
           "missing_images": [],
           "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 63,
+          "line_end": 93,
+          "setting": "Blackthorn Security Company offices",
           "text_anchor": "Klein pressed his hat with his left hand and briskly jumped off"
         },
         {
@@ -2810,14 +3199,16 @@
           "images": [
             "Klein Moretti.jpg",
             "Dunn Smith.jpg",
-            "Leonard Mitchell.jpg"
+            "Leonard Mitchell.jpg",
+            "Old Neil.jpg",
+            "Frye.jpg"
           ],
-          "missing_images": [
-            "Old Neil",
-            "Frye"
-          ],
-          "layout": "row(3)",
+          "missing_images": [],
+          "layout": "grid(5)",
           "continues_prev": false,
+          "line_start": 95,
+          "line_end": 119,
+          "setting": "Nighthawks' two-wheeled carriage driving to the building",
           "text_anchor": "Dunn nodded slightly as he instructed with a solemn expression"
         },
         {
@@ -2834,14 +3225,16 @@
           "images": [
             "Klein Moretti.jpg",
             "Dunn Smith.jpg",
-            "Leonard Mitchell.jpg"
+            "Leonard Mitchell.jpg",
+            "Old Neil.jpg",
+            "Frye.jpg"
           ],
-          "missing_images": [
-            "Old Neil",
-            "Frye"
-          ],
-          "layout": "row(3)",
+          "missing_images": [],
+          "layout": "grid(5)",
           "continues_prev": false,
+          "line_start": 121,
+          "line_end": 162,
+          "setting": "Third-floor apartment opposite the kidnappers' room",
           "text_anchor": "Let's go up. Klein, you and Old Neil walk behind."
         }
       ]
@@ -2865,17 +3258,20 @@
           ],
           "images": [
             "Klein Moretti.jpg",
+            "Frye.jpg",
             "Dunn Smith.jpg",
-            "Leonard Mitchell.jpg"
+            "Leonard Mitchell.jpg",
+            "Old Neil.jpg"
           ],
           "missing_images": [
-            "Frye",
-            "Old Neil",
             "[Patrolling Policeman]",
             "[Police Corporal]"
           ],
-          "layout": "row(3)",
+          "layout": "grid(5)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 151,
+          "setting": "Katy Bieber's decomposing apartment on the third floor, Tingen City",
           "text_anchor": "Eugh! Eugh! Klein squatted there, vomiting involuntarily."
         },
         {
@@ -2887,13 +3283,15 @@
             "Old Neil"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
-          "missing_images": [
-            "Old Neil"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 153,
+          "line_end": 178,
+          "setting": "Blackthorn Security Company reception, returning from the scene",
           "text_anchor": "After the neighbors confirmed that the portrait was indeed Ray"
         }
       ]
@@ -2911,13 +3309,15 @@
             "Old Neil"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
-          "missing_images": [
-            "Old Neil"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 29,
+          "setting": "Blackthorn Security Company reception hall",
           "text_anchor": "Old Neil rubbed his temples and said, I believe"
         },
         {
@@ -2930,14 +3330,17 @@
             "Mrs. Orianna"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
           "missing_images": [
-            "Old Neil",
             "Mrs. Orianna"
           ],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 31,
+          "line_end": 133,
+          "setting": "Blackthorn Security Company reception hall, Orianna arrives",
           "text_anchor": "The elegant Mrs. Orianna with her fashionably coiled hair"
         },
         {
@@ -2953,6 +3356,9 @@
           "missing_images": [],
           "layout": "single",
           "continues_prev": false,
+          "line_start": 135,
+          "line_end": 140,
+          "setting": "Streets of Tingen City, roaming alone",
           "text_anchor": "When Captain Dunn did not return at noon, Klein"
         }
       ]
@@ -2970,13 +3376,15 @@
             "Angelica Barrehart"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Angelica Barrehart.jpg"
           ],
-          "missing_images": [
-            "Angelica Barrehart"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 3,
+          "line_end": 77,
+          "setting": "Divination Club reception, 13 Howes Street, North Borough of Tingen City",
           "text_anchor": "In the Divination Club situated at the second floor"
         },
         {
@@ -2990,15 +3398,18 @@
             "Angelica Barrehart"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Hanass Vincent.jpg",
+            "Angelica Barrehart.jpg"
           ],
           "missing_images": [
-            "Hanass Vincent",
-            "Edward Steve",
-            "Angelica Barrehart"
+            "Edward Steve"
           ],
-          "layout": "single",
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 79,
+          "line_end": 162,
+          "setting": "Divination Club meeting room during the astrolabe class",
           "text_anchor": "But that's only for ordinary people Klein silently tagged"
         }
       ]
@@ -3017,14 +3428,17 @@
             "Edward Steve"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Hanass Vincent.jpg"
           ],
           "missing_images": [
-            "Hanass Vincent",
             "Edward Steve"
           ],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": true,
+          "line_start": 3,
+          "line_end": 69,
+          "setting": "Divination Club meeting room, magic mirror divination class",
           "text_anchor": "As a Seer who had just stepped through the gates"
         },
         {
@@ -3037,15 +3451,17 @@
             "Angelica Barrehart"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Glacis.jpg",
+            "Angelica Barrehart.jpg"
           ],
           "missing_images": [
-            "Edward Steve",
-            "Glacis",
-            "Angelica Barrehart"
+            "Edward Steve"
           ],
-          "layout": "hold-previous",
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 71,
+          "line_end": 102,
+          "setting": "Divination Club entrance, after Klein has left",
           "text_anchor": "At half past five, Edward Steve put on his coat"
         }
       ]
@@ -3064,14 +3480,16 @@
             "Melissa Moretti"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
           ],
-          "missing_images": [
-            "Benson Moretti",
-            "Melissa Moretti"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
+          "line_start": 3,
+          "line_end": 119,
+          "setting": "Moretti family dining table, 2 Daffodil Street, evening",
           "text_anchor": "Half past seven in the evening, around the Moretti"
         },
         {
@@ -3083,13 +3501,15 @@
             "Royale Reideen"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Royale Reideen.png"
           ],
-          "missing_images": [
-            "Royale Reideen"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 121,
+          "line_end": 139,
+          "setting": "Blackthorn Security Company basement corridor, Sunday morning",
           "text_anchor": "The next morning was a Sunday morning. Klein finished"
         },
         {
@@ -3102,14 +3522,17 @@
             "Bredt"
           ],
           "images": [
-            "Klein Moretti.jpg"
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
           ],
           "missing_images": [
-            "Old Neil",
             "Bredt"
           ],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
+          "line_start": 141,
+          "line_end": 178,
+          "setting": "Blackthorn armory then Old Neil's bungalow in the North Borough suburbs",
           "text_anchor": "After taking a left band, he quickly met Old"
         }
       ]
@@ -3121,7 +3544,7 @@
       "scenes": 141
     },
     "Melissa Moretti": {
-      "status": "need",
+      "status": "have",
       "scenes": 15
     },
     "[vagrant accordionist]": {
@@ -3133,7 +3556,7 @@
       "scenes": 1
     },
     "Wendy Smyrin": {
-      "status": "need",
+      "status": "have",
       "scenes": 2
     },
     "[painted-face fortune-teller woman]": {
@@ -3169,15 +3592,15 @@
       "scenes": 1
     },
     "Annie": {
-      "status": "need",
+      "status": "have",
       "scenes": 2
     },
     "Earl Hall": {
-      "status": "need",
+      "status": "have",
       "scenes": 2
     },
     "Aguesid Negan": {
-      "status": "need",
+      "status": "have",
       "scenes": 1
     },
     "George III": {
@@ -3233,7 +3656,7 @@
       "scenes": 1
     },
     "Rozanne": {
-      "status": "need",
+      "status": "have",
       "scenes": 13
     },
     "Leonard Mitchell": {
@@ -3245,7 +3668,7 @@
       "scenes": 2
     },
     "Old Neil": {
-      "status": "need",
+      "status": "have",
       "scenes": 16
     },
     "[Wilker shop salesperson]": {
@@ -3261,11 +3684,11 @@
       "scenes": 2
     },
     "Quentin Cohen": {
-      "status": "need",
+      "status": "have",
       "scenes": 2
     },
     "Azik Eggers": {
-      "status": "need",
+      "status": "have",
       "scenes": 2
     },
     "[Cathedral bishop]": {
@@ -3285,7 +3708,7 @@
       "scenes": 1
     },
     "Benson Moretti": {
-      "status": "need",
+      "status": "have",
       "scenes": 10
     },
     "[Secret Order intruder]": {
@@ -3301,7 +3724,7 @@
       "scenes": 2
     },
     "Mr. Franky": {
-      "status": "need",
+      "status": "declined",
       "scenes": 1
     },
     "[Divination Club female attendant]": {
@@ -3309,15 +3732,15 @@
       "scenes": 2
     },
     "Glacis": {
-      "status": "need",
+      "status": "have",
       "scenes": 3
     },
     "Bredt": {
-      "status": "need",
+      "status": "declined",
       "scenes": 4
     },
     "Susie": {
-      "status": "need",
+      "status": "have",
       "scenes": 1
     },
     "Sainz": {
@@ -3345,7 +3768,7 @@
       "scenes": 1
     },
     "Elliott Vickroy": {
-      "status": "need",
+      "status": "have",
       "scenes": 1
     },
     "[Patrolling policemen]": {
@@ -3361,7 +3784,7 @@
       "scenes": 1
     },
     "Frye": {
-      "status": "need",
+      "status": "have",
       "scenes": 3
     },
     "[Patrolling Policeman]": {
@@ -3373,11 +3796,11 @@
       "scenes": 1
     },
     "Angelica Barrehart": {
-      "status": "need",
+      "status": "have",
       "scenes": 3
     },
     "Hanass Vincent": {
-      "status": "need",
+      "status": "have",
       "scenes": 2
     },
     "Edward Steve": {
@@ -3385,7 +3808,7 @@
       "scenes": 3
     },
     "Royale Reideen": {
-      "status": "need",
+      "status": "have",
       "scenes": 1
     }
   }

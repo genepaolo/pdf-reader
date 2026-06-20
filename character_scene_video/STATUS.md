@@ -24,10 +24,18 @@
 | **Scene timeline** | `timelines/block_01_ch001-050.md` | Chapter-by-chapter, scene-by-scene: start · duration · present cast · images · missing. `↳` marks continuations. |
 | **Scene character participation** | `timelines/character_report_block01.md` | **The "who needs a portrait" view** — every character, portrait status, scene count, chapters, and grounded context. |
 
-**Portrait decision is YOURS.** The report sorts by frequency + flags wiki-vs-minor so you can judge importance
-fast. Current: **6 have portraits** (Klein, Dunn Smith, Leonard Mitchell, Audrey Hall, Alger Wilson, Daly Simone);
-**19 wiki characters need a decision** (top: Old Neil 16 scenes, Melissa Moretti 15, Rozanne 13, Benson Moretti 10);
-9 minor (no wiki page); 34 unnamed extras.
+**Portrait decisions for Block 1 are DONE** (recorded in `portrait_decisions.json`). Current report:
+`have:23  need:0  declined:2  minor:9  unnamed:34`.
+- **23 have portraits** — the original 6 (Klein, Dunn Smith, Leonard Mitchell, Audrey Hall, Alger Wilson, Daly Simone),
+  the 4 added earlier (Old Neil, Melissa, Rozanne, Benson), plus the **13 just decided yes**: Angelica Barrehart,
+  Frye, Glacis, Annie, Earl Hall, Azik Eggers, Quentin Cohen, Wendy Smyrin, Aguesid Negan, Hanass Vincent, Susie,
+  Royale Reideen, Elliott Vickroy.
+- **2 declined** (🚫 no portrait, by decision): Bredt, Mr. Franky.
+- 9 minor (no wiki page); 34 unnamed extras — left as-is.
+
+Sourcing: 12 of the 13 yeses are wiki picks fetched via `fetch_named_portraits.py` (File: titles all validated,
+0 failed). **Azik Eggers** is a manual crop of `Azik_Eggers_Official_Full.webp` (1000x5950 → top 1000x2224); source +
+crop box noted in its `character_map.json` entry. Portrait binaries stay gitignored/regenerable.
 
 ## Key decisions locked
 - Timing = **per-chapter forced alignment** (aeneas), combine by cumulative offset. (Not yet run — durations are
@@ -48,11 +56,11 @@ To correct a scene: edit `timelines/scenes/ch_<N>.json`; to merge/rename a chara
 to mark a confirmed presence the verifier flags: `verified_present` in `name_aliases.json`.
 
 ## Open threads / next steps
-1. **You review** `character_report_block01.md` + the timeline; tell me portrait decisions + any scene fixes.
-2. **Source portraits** for the chosen characters (drop file in `assets/characters/lotm/` + one `character_map.json` entry).
-3. **Stand up aeneas** → replace estimated durations with real per-chapter timestamps.
-4. **Build the compositor** (row/grid frames; gray-fog Fool+Audrey+Alger is the first real multi-portrait test).
-5. **Tag Block 2 (ch51–100)** — will use the text-literal guide + auto-verify + continuity from the start.
+1. ✅ **Portrait decisions done** (`portrait_decisions.json`): 13 yes (sourced), 2 declined. Report shows need:0.
+   Remaining content review is optional (scene fixes / any new portraits later — roster stays open).
+2. **Stand up aeneas** → replace estimated durations with real per-chapter timestamps.
+3. **Build the compositor** (row/grid frames; gray-fog Fool+Audrey+Alger is the first real multi-portrait test).
+4. **Tag Block 2 (ch51–100)** — will use the text-literal guide + auto-verify + continuity from the start.
 
 ## File map (character_scene_video/)
 - `DESIGN.md` — full design + decisions + milestones (+ §10 timeline schema, continuity, alignment).
@@ -62,4 +70,6 @@ to mark a confirmed presence the verifier flags: `verified_present` in `name_ali
 - `build_block.py` → `timelines/block_01_*.md/.json` (the timeline; applies personas, aliases, continuity).
 - `build_character_report.py` → `timelines/character_report_block01.md` (participation/decision view).
 - `verify_tags.py` — source-grounding gate.
+- `fetch_named_portraits.py` — downloads human-chosen non-Official wiki portraits (File: title → `<Canonical>.<ext>`).
+- `portrait_decisions.json` — yes/no portrait ledger; build scripts read it (yes→sourced, no→🚫 declined bucket).
 - `timelines/scenes/ch_*.json` — raw per-chapter scene tags (source of truth for content).

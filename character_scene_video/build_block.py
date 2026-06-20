@@ -20,6 +20,7 @@ HERE = Path(__file__).resolve().parent
 FT = ROOT / "formatted_text" / "lotm_book1" / "Volume_1_Clown"
 SCENES_DIR = HERE / "timelines" / "scenes"
 MANIFEST = ROOT / "tts_pipeline" / "assets" / "characters" / "lotm" / "_manifest.json"
+CHAR_MAP = ROOT / "tts_pipeline" / "assets" / "characters" / "lotm" / "character_map.json"
 DUR_CSV = Path("D:/PDFReader/lotm_book1_output/_durations.csv")
 OUT = HERE / "timelines"
 
@@ -43,6 +44,12 @@ def load_images():
         if m["kind"] != "character" or m["name"] in PERSONA_IMG_NAMES or not m["row_viable"]:
             continue
         avail[m["name"]] = f"{m['name']}.{'png' if m['mime']=='image/png' else 'jpg'}"
+    # character_map.json is the committed source of truth for manual portrait picks (characters
+    # with no `<Name> Official.<ext>` file, so absent from the regenerable manifest). It overrides
+    # the manifest. Skip entries explicitly flagged row_viable=false (e.g. landscape banners).
+    for name, entry in json.loads(CHAR_MAP.read_text(encoding="utf-8")).get("characters", {}).items():
+        if entry.get("image") and entry.get("row_viable", True):
+            avail[name] = entry["image"]
     return avail
 
 
@@ -60,6 +67,8 @@ _AL = json.loads((HERE / "name_aliases.json").read_text(encoding="utf-8"))
 ALIASES = _AL["aliases"]
 EXCLUDE = set(_AL.get("exclude", []))
 CONT = json.loads((HERE / "continuity.json").read_text(encoding="utf-8"))["boundaries"]
+_DEC = HERE / "portrait_decisions.json"
+DECISIONS = json.loads(_DEC.read_text(encoding="utf-8"))["decisions"] if _DEC.exists() else {}
 DUR = load_durations()
 
 
@@ -115,7 +124,9 @@ def classify(label):
         return "have"
     if label.startswith("["):
         return "background"
-    return "need" if label in REGISTRY else "minor"
+    if label not in REGISTRY:
+        return "minor"
+    return "declined" if DECISIONS.get(label) == "no" else "need"
 
 
 def main():
@@ -141,6 +152,8 @@ def main():
             rows.append({"start": hms(offset), "end": hms(offset + dur), "duration": hms(dur),
                          "present_cast": cast, "images": images, "missing_images": missing,
                          "layout": layout, "continues_prev": cont_prev,
+                         "line_start": s["line_start"], "line_end": s["line_end"],
+                         "setting": s.get("setting", ""),
                          "text_anchor": s.get("text_anchor", "")})
             prev_images = images
             for label in cast:
@@ -151,7 +164,7 @@ def main():
         chapters_out.append({"chapter": ch, "title": title_of(ch), "scenes": rows})
 
     # ---- write markdown (skim-friendly: per-scene blocks, inline portrait status) ----
-    INLINE = {"have": "✅", "need": "❌", "minor": "➖", "background": ""}
+    INLINE = {"have": "✅", "need": "❌", "declined": "🚫", "minor": "➖", "background": ""}
 
     def slug(s):
         return re.sub(r"\s+", "-", re.sub(r"[^\w\s-]", "", s.lower()).strip())
@@ -178,19 +191,22 @@ def main():
         L += [f"## Chapter {c['chapter']}: {c['title']}{cont}", ""]
         for i, r in enumerate(c["scenes"], 1):
             tag = "↳ " if r["continues_prev"] else ""
-            L.append(f"**S{i}** &nbsp; `{r['start']} → {r['end']}` &nbsp;·&nbsp; {r['duration']} &nbsp; {tag}{cast_line(r)}  ")
+            L.append(f"**S{i}** &nbsp; `{r['start']} → {r['end']}` &nbsp;·&nbsp; {r['duration']} &nbsp;·&nbsp; `L{r['line_start']}–{r['line_end']}` &nbsp; {tag}{cast_line(r)}  ")
+            L.append(f"_{r['setting']}_  ")
             L.append(f"> {r['text_anchor']}")
             L.append("")
     # ---- consolidated character index ----
-    STATUS = {"have": "✅", "need": "❌ get image (wiki char)", "minor": "➖ minor (no wiki page)",
-              "background": "· unnamed"}
+    STATUS = {"have": "✅", "need": "❌ get image (wiki char)", "declined": "🚫 no portrait (by decision)",
+              "minor": "➖ minor (no wiki page)", "background": "· unnamed"}
     L += ["## Character index (whole batch)", "", "| Character | Status | Scenes |", "|---|---|---|"]
     for name in sorted(index, key=lambda n: (-index[n]["scenes"], n)):
         L.append(f"| {name} | {STATUS[index[name]['status']]} | {index[name]['scenes']} |")
     need = sorted(n for n in index if index[n]["status"] == "need")
+    declined = sorted(n for n in index if index[n]["status"] == "declined")
     minor = sorted(n for n in index if index[n]["status"] == "minor")
     bg = sum(1 for n in index if index[n]["status"] == "background")
     L += ["", f"**🎯 Get an image — wiki characters with no portrait ({len(need)}):** " + (", ".join(need) or "none"),
+          f"**🚫 Declined — no portrait by decision ({len(declined)}):** " + (", ".join(declined) or "none"),
           f"**Minor named (no wiki page) ({len(minor)}):** " + (", ".join(minor) or "none"),
           f"**Unnamed background figures:** {bg}"]
     (OUT / f"block_01_ch{first:03d}-{last:03d}.md").write_text("\n".join(L) + "\n", encoding="utf-8")
