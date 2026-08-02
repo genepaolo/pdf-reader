@@ -103,3 +103,6 @@ token.json
 # Generated YouTube Upload Files
 youtube_upload_queue.csv
 youtube_upload_queue.txt
+
+# character_scene_video: composited frame cache (regenerable from portraits + timeline)
+character_scene_video/frames/

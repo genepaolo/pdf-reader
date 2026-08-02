@@ -6,7 +6,8 @@ Build a full per-batch Scene Timeline from per-chapter scene JSONs (timelines/sc
   "Klein Moretti" from the Nighthawks-induction anchor onward (NIGHTHAWKS_ANCHOR).
 - Images resolved from _manifest.json; non-portrait characters cross-referenced against the
   384-character registry -> "get image" (wiki char) vs minor vs unnamed background.
-- Durations are char-share ESTIMATES x each chapter's audio duration (placeholder until alignment).
+- Durations come from forced alignment (align/ch_<N>.json) when present, so scene boundaries sit on
+  real audio timestamps; chapters with no alignment fall back to char-share estimates and say so.
 
 Output: timelines/block_01_ch001-050.md (chapter-by-chapter, reviewable) + .json
 Usage: python build_block.py [first_chapter last_chapter]   (default 1 50)
@@ -14,6 +15,9 @@ Usage: python build_block.py [first_chapter last_chapter]   (default 1 50)
 from __future__ import annotations
 import csv, glob, json, re, sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from align_chapter import load as align_load, scene_span  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 HERE = Path(__file__).resolve().parent
@@ -139,6 +143,21 @@ def main():
         specs = json.loads(sf.read_text(encoding="utf-8"))["scenes"]
         counts = [max(1, body_chars(ch, s["line_start"], s["line_end"])) for s in specs]
         tot = sum(counts)
+        # real timings from forced alignment when we have them, else char-share estimates
+        arec = align_load(ch)
+        ch_dur = arec["duration"] if arec else DUR[ch]
+        starts = None
+        if arec:
+            spans = [scene_span(arec, s["line_start"], s["line_end"]) for s in specs]
+            if all(spans):
+                # tile the chapter: a scene runs until the next one starts, so the first scene
+                # also covers the title read-in and no frame is ever undefined
+                starts = [0.0] + [sp[0] for sp in spans[1:]]
+                ends = starts[1:] + [ch_dur]
+                if any(e <= s for s, e in zip(starts, ends)):
+                    starts = None            # non-monotonic tags; fall back rather than emit junk
+        timing = "aligned" if starts else "estimated"
+        ch_offset = 0.0
         cont = CONT.get(str(ch - 1), {})
         continues = cont.get("continues", False)
         carried = cont.get("carried_others", []) if continues else []
@@ -148,20 +167,30 @@ def main():
             if layout == "hold-previous" and prev_images:   # carry the actual previous frame
                 images = list(prev_images)
             cont_prev = idx == 0 and continues
-            dur = DUR[ch] * cc / tot
+            if starts:
+                ch_start, ch_end = starts[idx], ends[idx]
+            else:
+                ch_start = ch_offset
+                ch_end = ch_offset + ch_dur * cc / tot
+            dur = ch_end - ch_start
+            ch_offset = ch_end
             rows.append({"start": hms(offset), "end": hms(offset + dur), "duration": hms(dur),
                          "present_cast": cast, "images": images, "missing_images": missing,
                          "layout": layout, "continues_prev": cont_prev,
                          "line_start": s["line_start"], "line_end": s["line_end"],
                          "setting": s.get("setting", ""),
-                         "text_anchor": s.get("text_anchor", "")})
+                         "text_anchor": s.get("text_anchor", ""),
+                         "timing": timing,
+                         "chapter_start": round(ch_start, 3), "chapter_end": round(ch_end, 3),
+                         "batch_start": round(offset, 3), "batch_end": round(offset + dur, 3)})
             prev_images = images
             for label in cast:
                 key = "Klein Moretti (protagonist)" if label.startswith("Klein") else label
                 e = index.setdefault(key, {"status": classify(label), "scenes": 0})
                 e["scenes"] += 1
             offset += dur
-        chapters_out.append({"chapter": ch, "title": title_of(ch), "scenes": rows})
+        chapters_out.append({"chapter": ch, "title": title_of(ch), "scenes": rows,
+                             "timing": timing, "audio_duration": round(ch_dur, 3)})
 
     # ---- write markdown (skim-friendly: per-scene blocks, inline portrait status) ----
     INLINE = {"have": "✅", "need": "❌", "declined": "🚫", "minor": "➖", "background": ""}
@@ -176,10 +205,12 @@ def main():
             parts.append(f"{label} {m}".strip())
         return " · ".join(parts) if parts else "—"
 
+    n_aligned = sum(1 for c in chapters_out if c["timing"] == "aligned")
     L = [f"# Scene Timeline — Block 1 (chapters {first}-{last})", "",
          f"**Total** {hms(offset)} · **{sum(len(c['scenes']) for c in chapters_out)} scenes** · "
-         f"{len(chapters_out)} chapters &nbsp;|&nbsp; durations are char-share ESTIMATES (until forced "
-         f"alignment) &nbsp;|&nbsp; `↳` = scene continues from the previous chapter.", "",
+         f"{len(chapters_out)} chapters &nbsp;|&nbsp; {n_aligned}/{len(chapters_out)} chapters timed by "
+         f"forced alignment{'' if n_aligned == len(chapters_out) else ' (rest are char-share estimates)'}"
+         f" &nbsp;|&nbsp; `↳` = scene continues from the previous chapter.", "",
          "**Portrait status:**  ✅ has one · ❌ wiki character, none yet (your call) · ➖ minor (no wiki "
          "page) · unnamed extras shown plain.", "",
          "**Jump to chapter:** " + " · ".join(

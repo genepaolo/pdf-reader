@@ -30,16 +30,28 @@
 - **What it is:** tags every scene with who's present + setting, resolves portraits, and builds per-block scene
   timelines. Full design + decisions in `character_scene_video/DESIGN.md`; session handoff in `character_scene_video/STATUS.md`.
 - **Block 1 (ch1-50) status:** 156 scenes tagged; verifier **168/168, 0 to fix**; portrait decisions DONE —
-  23 have portraits, 2 declined (`character_scene_video/portrait_decisions.json`). Durations are still
-  char-share ESTIMATES (no forced alignment yet).
+  23 have portraits, 2 declined (`character_scene_video/portrait_decisions.json`). **Timing is now REAL**
+  (forced alignment, 2026-08-01) and a chapter video has been rendered and checked end to end.
+- **Run these with `py -3.12`, not `python`.**
 - **Rebuild / verify (run from repo root):**
-  - `python character_scene_video/build_block.py 1 50`
-  - `python character_scene_video/verify_tags.py 1 50`            # must report 0 to fix
-  - `python character_scene_video/build_character_report.py 1 50`
-  - `python character_scene_video/fetch_named_portraits.py`       # re-download non-Official portraits (binaries gitignored)
+  - `py -3.12 character_scene_video/align_chapter.py 1 50`        # text<->audio alignment -> align/ch_N.json
+  - `py -3.12 character_scene_video/verify_alignment.py 1 50`     # timing gate, must say PASS
+  - `py -3.12 character_scene_video/build_block.py 1 50`          # timeline (consumes align/)
+  - `py -3.12 character_scene_video/verify_tags.py 1 50`          # must report 0 to fix
+  - `py -3.12 character_scene_video/build_character_report.py 1 50`
+  - `py -3.12 character_scene_video/compose_frames.py --block --contact-sheet`   # frames + review sheet
+  - `py -3.12 character_scene_video/render_chapter.py 1 5`        # per-chapter mp4 (`--preview` = plan only)
+  - `py -3.12 character_scene_video/fetch_named_portraits.py`     # re-download non-Official portraits (binaries gitignored)
+- **Alignment approach:** NOT aeneas/WhisperX. The audio is Azure TTS of known text, so we match the text's
+  sentence sequence to the audio's ffmpeg-detected pause sequence with a DP. No new deps. Over ch1-50:
+  100% of boundaries matched, 0 structural errors, 0.87% rate outliers, median 14.07 chars/sec.
+  Note 47/50 book-1 MP3s read the chapter title **twice** (they predate the `epub_to_text` echo fix);
+  `has_title_echo()` handles it.
 - **Next steps:**
-  1. Stand up **aeneas** forced alignment → replace estimated durations with real per-chapter timestamps.
-  2. Build the **compositor** (row/grid portrait frames; gray-fog Fool+Audrey+Alger is the first multi-portrait test).
+  1. ⛔ **Decide portrait source quality before rendering the block** — see `frames/_contact_sheet.png`.
+     Old Neil's image is a **Tencent-watermarked poster**, Susie is a **dog photo**, and several picks are
+     anime screenshots mixed in with the official character cards. This is the visible weak point.
+  2. Render **block 1** (ch1-50 → one ~10.9 hr video + `0:00 Chapter N` description). **Not started.**
   3. **Tag Block 2 (ch51-100)** using the text-literal tagging guide + auto-verify + continuity from the start.
 
 ## The 3-Step Workflow (audio → video → upload)
@@ -148,20 +160,26 @@
 ## Current Progress Log
 Update this section during/after processing runs.
 
-### lom_book2_coi — verified against disk + tracker on 2026-06-14; uploads/endscreens updated 2026-06-24
+### lom_book2_coi — verified against disk + tracker on 2026-06-14; uploads updated 2026-07-27
 - Output folder: `D:/PDFReader/lom_book2_coi_output`
 - **Pipeline position (each stage feeds the next):**
   | Stage | Files done | Highest chapter | Next action |
   |---|---|---|---|
   | Audio (`.mp3`) | 603 | 603 | generate ch. **604+** |
   | Video (`.mp4`) | 351 | 350 | create ch. **351+** (audio is ~253 ch. ahead) |
-  | Upload | 270 | 270 (no gaps) | upload ch. **271** |
+  | Upload | 320 | 320 (no gaps) | upload ch. **321** |
 - **Audio:** 603 files (V1=109, V2=154, V3=231, V4=109). Last run `2026-05-12` — ch. `603` (`Volume_4_Sinner/Chapter_603_Organs_Again.mp3`).
 - **Video:** 351 files through ch. 350 (V1=110, V2=154, V3=87, V4=**0**). Big backlog: ch. 351–603 have audio but no video; `Volume_4_Sinner` has none yet.
-- **Uploads:** 270 entries, chapters **1–270 fully uploaded with NO gaps**.
-- **Next to upload:** chapter `271` (then 272, 273 …). Videos exist through ch. 350, so ch. 271–350 are ready now. Volume boundary at ch. 264 already crossed: ch. **264+ → Volume 3 (Conspirer)** playlist `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM` — **now captured** into `youtube_config.json → playlists.playlist_ids["3"]` (2026-06-24), so 271+ vol-3 uploads reuse it by ID.
-- **Most recent upload:** `2026-06-23` — batch of ch. **261–270** uploaded (10/10 success, 0 failed). Routing: 261–263 → Lightseeker (vol 2) `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s`; **264–270 → new Conspirer (vol 3)** `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM` (auto-created as expected). Video IDs: 261 `YVEZbu_IPf0`, 262 `C8XrjhNtqAI`, 263 `RMnN_VrdpE0`, 264 `tUv_7-grqIg`, 265 `PLxBjzH81FA`, 266 `9WeeSg22tmw`, 267 `WOITsMEYBAg`, 268 `hPcRen55wTA`, 269 `bHlTkTn453U`, 270 `pM3dCbRE3XI`.
-- **End screens:** done through ch. **269→270** on `2026-06-24` (ran `youtube_endscreen.py` on sources 260–269, 10/10 saved, 0 fail; ch. 260 was public so included via `--allow-public-chapters 260`). The 261–270 batch's end-screen step had been **missed** right after upload and was completed in this session. ⏭ **Dangling:** ch. **270** has no end screen yet (its target 271 not uploaded) — it gets linked next batch when end screens run on sources 270–279.
+- **Uploads:** 320 entries, chapters **1–320 fully uploaded with NO gaps**.
+- **Next to upload:** chapter `321` (then 322, 323 …). Videos exist through ch. 350, so ch. 321–350 are ready now (30 pending). All vol-3 (ch. 264+) → Conspirer playlist `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM` (captured in `youtube_config.json → playlists.playlist_ids["3"]`), reused by ID.
+- ⚠️ **Run scripts with `py -3.12`, not `python`.** On this machine `python` on PATH resolves to Python **3.11**, which is missing `dotenv` / `google-api-python-client` (upload fails instantly with `ModuleNotFoundError: No module named 'dotenv'`). Python 3.12 has all deps installed.
+- **Most recent upload:** `2026-08-01` — batch of ch. **311–320** uploaded (10/10 success, 0 failed), all → Conspirer (vol 3) `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`. OAuth did not re-prompt (token still valid). Video IDs: 311 `PdWsDc4dhqs`, 312 `nKT1wRbxmNE`, 313 `dKqFmR8Nwcw`, 314 `ARa4_aM5sAs`, 315 `j9F2gG6TYig`, 316 `RFFXoJ_QXRw`, 317 `qDxXfNi8Z5M`, 318 `5uSTJMOHE9A`, 319 `XIDIbxfDKSc`, 320 `Tg9IGjYuv9k`. ⚠️ Each logged `[WARNING] Video may not be in playlist` (known API-listing quirk, not data loss).
+- Prior upload: `2026-07-27` — batch of ch. **301–310** uploaded (10/10 success, 0 failed), all → Conspirer (vol 3) `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`. OAuth did not re-prompt (token still valid). Video IDs: 301 `G_2tv8KSvto`, 302 `bKz6_mblDGg`, 303 `mnP7Za9rwx8`, 304 `dyBz8LTl-Sg`, 305 `5GBVNYC59jg`, 306 `kmM3yFbY-dY`, 307 `yDdkmrJOV24`, 308 `kuT_ZMJMx5k`, 309 `-aegIdIbNqQ`, 310 `aDUVMLIoAnc`. ⚠️ Each logged `[WARNING] Video may not be in playlist` (known API-listing quirk, not data loss).
+- Prior upload: `2026-07-15` — batch of ch. **291–300** uploaded (10/10 success, 0 failed), all → Conspirer (vol 3) `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`. OAuth had expired; the browser re-auth completed to the correct account **Bread Moretti** (breadmoretti@gmail.com, channel `UClJ5WR0BWcxbhGdVWzUbbOw`), fresh `token.json` written. Verified via API that this channel hosts the COI videos (ch280/290) — the tracker "10/290 match" warning is just the channel-listing call returning a recent slice (~34 videos), NOT a wrong channel. Note: the Bread Moretti channel also hosts Book-1 LOTM videos (ch.1258–1380), which is why they appear as "not in tracker". Video IDs: 291 `0WRvmsGcBzc`, 292 `NZHdsj8Hbgk`, 293 `mUAtDMkBTac`, 294 `ZY1ggCSrQvA`, 295 `pbtdmEesBlk`, 296 `cNBuTBvVTr8`, 297 `4aiF39LZLoY`, 298 `ltTyYfXYV_E`, 299 `aHuEBRLVg_o`, 300 `llD35lv4-Cg`. ⚠️ Each logged `[WARNING] Video may not be in playlist` (known API-listing quirk, not data loss).
+- Prior upload: `2026-07-12` — batch of ch. **281–290** uploaded (10/10 success, 0 failed), all → Conspirer (vol 3) `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`. OAuth did not re-prompt (token still valid). Video IDs: 281 `tx8R21VZufc`, 282 `WyN3NZWoLdA`, 283 `j6bQcQ0Df-Y`, 284 `gtDYxSXJ38c`, 285 `HL0b8C1MiDs`, 286 `TuLXbXbCnQw`, 287 `EU2bahxk7-4`, 288 `YLQeagnUzsk`, 289 `ihFfI6zfJls`, 290 `_kfm_TJcZZU`. ⚠️ Each upload logged `[WARNING] Video may not be in playlist` — spot-check Conspirer playlist membership in Studio (known API-listing quirk, not data loss).
+- Prior upload: `2026-07-06` — batch of ch. **271–280** uploaded (10/10 success, 0 failed), all → Conspirer (vol 3) `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`. OAuth token had expired; re-authed via browser (breadmoretti@gmail.com), fresh `token.json` written. Video IDs: 271 `uE4bn3LcI7k`, 272 `B_KD7cFnB3w`, 273 `YrC7PbS8bXo`, 274 `SvTQxXcSBpQ`, 275 `4d7vNCvBUo0`, 276 `4mF7EJxFl08`, 277 `qYHW8tFFJok`, 278 `j7ZFvBCXnFk`, 279 `z0b_61_B1w8`, 280 `jsW1kmuZ_HY`.
+- Prior upload: `2026-06-23` — batch of ch. **261–270** uploaded (10/10 success, 0 failed). Routing: 261–263 → Lightseeker (vol 2) `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s`; **264–270 → new Conspirer (vol 3)** `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM` (auto-created as expected). Video IDs: 261 `YVEZbu_IPf0`, 262 `C8XrjhNtqAI`, 263 `RMnN_VrdpE0`, 264 `tUv_7-grqIg`, 265 `PLxBjzH81FA`, 266 `9WeeSg22tmw`, 267 `WOITsMEYBAg`, 268 `hPcRen55wTA`, 269 `bHlTkTn453U`, 270 `pM3dCbRE3XI`.
+- **End screens:** done through ch. **299→300** on `2026-07-15` (ran `youtube_endscreen.py` on sources 290–299, 10/10 saved, 0 fail; all sources unlisted so no `--allow-public-chapters` needed). This also resolved the previously-dangling 290→291 link. ⏭ **Dangling:** ch. **300** has no end screen yet (its target 301 not uploaded) — it gets linked next batch when end screens run on sources 300–309. Prior runs: sources 280–289 on `2026-07-12` (289→290; ch. 280 was public, included via `--allow-public-chapters 280`); sources 270–279 on `2026-07-06` (279→280); sources 260–269 on `2026-06-24` (269→270).
 - Earlier batch: `2026-06-18` — ch. **251–260** uploaded (10/10, 0 failed), all to Lightseeker `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s`. IDs: 251 `NAcRnOcfezM`, 252 `7aAfZhRt5kU`, 253 `Qn_If9Ocw9U`, 254 `N92STG7KL5k`, 255 `OtMSCWY4Ro8`, 256 `NIgL_FPrWsU`, 257 `FsHhzue1ZBo`, 258 `slJubVTzF3I`, 259 `emfmO9UGyWo`, 260 `XVJw7wvQiXE`.
 - **Playlist note:** the older uploads **236–240** (and 25 earlier ones) are still on the WRONG playlist `PLV2gvMHy77hrh1HeiBECpJ61Smbgg5_S6` — move them manually in YouTube Studio. Everything from 241 on is correct.
 - Notes: ch. **230–232** may have duplicate uploads on channel from overlapping runs. Ch. 215 title may still need a manual fix on YouTube.
