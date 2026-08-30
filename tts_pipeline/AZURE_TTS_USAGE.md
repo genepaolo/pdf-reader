@@ -1,74 +1,46 @@
-# Azure TTS Client Usage Examples
+# Azure TTS Usage
 
-## Environment Variables
+The pipeline uses the Azure **Batch Synthesis** API exclusively (the old
+single-request client and its `AzureTTSClient(config_path=...)` constructor
+were removed in the 2025 batch migration).
 
-The Azure TTS client supports two ways to configure the endpoint:
+## Credentials (environment)
 
-### Option 1: Region-based (Default)
-```bash
-# .env file
-AZURE_TTS_SUBSCRIPTION_KEY=your-subscription-key-here
-AZURE_TTS_REGION=westus  # Optional, defaults to 'westus'
+```
+AZURE_TTS_SUBSCRIPTION_KEY=<key>
+AZURE_TTS_REGION=<region, e.g. eastus>
 ```
 
-### Option 2: Custom Endpoint (Your case)
-```bash
-# .env file
-AZURE_TTS_SUBSCRIPTION_KEY=your-subscription-key-here
-AZURE_ENDPOINT=https://your-custom-endpoint.cognitiveservices.azure.com
-```
+Set them in `.env` at the repo root (loaded automatically by the scripts).
+The client raises `ValueError` at construction if either is missing.
 
-## Usage Examples
+## Voice settings (per project)
 
-### Basic Usage
+`tts_pipeline/config/projects/<project>/azure_config.json` (gitignored —
+copy `azure_config.json.example`): `voice_name`, `language`, `rate`, `pitch`.
+
+## Programmatic use
+
 ```python
-from tts_pipeline.api.azure_tts_client import AzureTTSClient
+# entry points put tts_pipeline/ on sys.path
+from utils.project_manager import ProjectManager
+from api.azure_tts_factory import AzureTTSFactory
 
-# Initialize client (will use AZURE_ENDPOINT if set, otherwise region-based)
-client = AzureTTSClient()
-
-# Test connection
-if client.test_connection():
-    print("✅ Azure TTS connection successful!")
-    
-    # Get voice info
-    voice_info = client.get_voice_info()
-    print(f"Using endpoint: {voice_info['base_url']}")
-    print(f"Voice: {voice_info['voice_name']}")
-    
-    # Convert text to speech
-    success = client.synthesize_text(
-        text="Hello, this is a test of Azure TTS!",
-        output_path="output/test_audio.mp3"
-    )
-    
-    if success:
-        print("✅ Audio file generated successfully!")
-    else:
-        print("❌ Failed to generate audio file")
-else:
-    print("❌ Azure TTS connection failed")
+project = ProjectManager().load_project("lom_book2_coi")
+client = AzureTTSFactory.create_client(project)   # AzureTTSClient(project)
+results = client.process_chapters_batch(chapters) # chapters from ChapterFileOrganizer
 ```
 
-### With Custom Config
-```python
-# Use a different config file
-client = AzureTTSClient(config_path="path/to/custom_azure_config.json")
+Batch knobs in `processing_config.json`: `azure_processing.batch_size`,
+`max_concurrent_batches`, `batch_timeout_minutes`; optional
+`pronunciation_substitutions` / `pronunciation_disable_defaults`.
+
+## Normal operation
+
+Don't call the client directly — use the script:
+
+```bash
+py -3.12 tts_pipeline/scripts/process_project.py --project <p> --chapters N-M
 ```
 
-## Environment Variable Priority
-
-1. **AZURE_ENDPOINT** - If set, uses this custom endpoint
-2. **AZURE_TTS_REGION** - If AZURE_ENDPOINT not set, uses region-based URL
-3. **Default region** - If neither set, defaults to 'westus'
-
-## Your Setup
-
-Since you have `AZURE_ENDPOINT` in your `.env` file, the client will:
-- Use your custom endpoint instead of the region-based URL
-- Automatically strip any trailing slashes from the endpoint
-- Append `/cognitiveservices/v1` to create the synthesis URL
-
-Example:
-- Your endpoint: `https://my-endpoint.cognitiveservices.azure.com`
-- Synthesis URL: `https://my-endpoint.cognitiveservices.azure.com/cognitiveservices/v1`
+`--dry-run` validates discovery/config without hitting Azure (no billing).

@@ -1,5 +1,5 @@
 {
-  "input_directory": "../formatted_text/lotm_book1",
+  "input_directory": "formatted_text/lotm_book1",
   "output_directory": "D:/PDFReader/lotm_book1_output",
   "temp_directory": "./temp",
   "ssd_directory": "D:/PDFReader/lotm_book1_output",
@@ -11,7 +11,7 @@
   "retry_delay_seconds": 30,
   "log_level": "INFO",
   "chapter_pattern": "Chapter_(\\d+)_",
-  "volume_pattern": "(\\d+)___VOLUME_\\d+___",
+  "volume_pattern": "Volume_(\\d+)_",
   "supported_audio_formats": [
     "mp3",
     "wav"

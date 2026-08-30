@@ -16,10 +16,14 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-# Ensure we can import from the project root
-project_root = Path(__file__).parent.parent
-if str(project_root) not in sys.path:
-    sys.path.insert(0, str(project_root))
+# Import layout: modules inside tts_pipeline import each other as `utils.X` /
+# `api.X` / `scripts.X`, so tts_pipeline/ must be on sys.path (repo root is
+# added too for the root-level entry points). Some older tests import modules
+# by bare name (`from file_organizer import ...`), so utils/ is also added.
+_tts_pipeline = Path(__file__).parent.parent
+for _p in (_tts_pipeline.parent, _tts_pipeline, _tts_pipeline / "utils"):
+    if str(_p) not in sys.path:
+        sys.path.insert(0, str(_p))
 
 
 @pytest.fixture

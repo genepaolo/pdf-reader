@@ -21,7 +21,6 @@ EPUB_NS = {"opf": "http://www.idpf.org/2007/opf"}
 XHTML_NS = {"xhtml": "http://www.w3.org/1999/xhtml"}
 NCX_NS = {"ncx": "http://www.daisy.org/z3986/2005/ncx/"}
 
-SERIES_TITLE = "Lord of Mysteries 2: Circle of Inevitability"
 
 
 class _EpubBodyTextExtractor(HTMLParser):
@@ -189,7 +188,24 @@ class EpubConverter:
             if inspect_only:
                 return
 
-            self._write_output(project_name, chapters, zf, series_title or SERIES_TITLE)
+            # Series title priority: explicit --series-title, then the EPUB's
+            # own dc:title metadata. No hardcoded book default — this tool is
+            # shared across projects.
+            effective_title = series_title or self._read_metadata_title(opf_root)
+            if not effective_title:
+                raise ValueError(
+                    "EPUB has no dc:title metadata; pass --series-title explicitly."
+                )
+            print(f"Series title (line 1 of every chapter file): {effective_title}")
+            self._write_output(project_name, chapters, zf, effective_title)
+
+    @staticmethod
+    def _read_metadata_title(opf_root: ET.Element) -> Optional[str]:
+        """Read dc:title from OPF metadata, if present."""
+        el = opf_root.find(".//{http://purl.org/dc/elements/1.1/}title")
+        if el is not None and el.text and el.text.strip():
+            return el.text.strip()
+        return None
 
     def _load_volume_map(self, epub_file: Path, explicit: Optional[str]) -> Optional[List[dict]]:
         path = self._resolve_volume_map_path(epub_file, explicit)
@@ -476,7 +492,7 @@ class EpubConverter:
         t = self._normalize_text(title).lower()
         return t in {"information", "cover", "copyright", "metadata", "title page"}
 
-    def _write_output(self, project_name: str, chapters: List[Chapter], zf: zipfile.ZipFile, series_title: str = SERIES_TITLE) -> None:
+    def _write_output(self, project_name: str, chapters: List[Chapter], zf: zipfile.ZipFile, series_title: str = "") -> None:
         project_dir = self.output_dir / self._safe_name(project_name)
         project_dir.mkdir(parents=True, exist_ok=True)
 

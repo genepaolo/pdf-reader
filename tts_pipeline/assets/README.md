@@ -1,82 +1,27 @@
-# Video Assets Setup
-
-This directory contains video assets for the TTS pipeline.
-
-## Default Background Image
-
-The `default_cover.jpg` file should be a high-quality image suitable for YouTube videos:
-- Resolution: 1920x1080 or higher
-- Format: JPG or PNG
-- Content: Book cover, series artwork, or generic fantasy background
-- File size: Under 5MB for efficient processing
-
-## Custom Background Images
-
-You can place custom background images here and reference them in:
-- Manual video creation: `--background-image ./assets/images/custom_bg.jpg`
-- Project configuration: Update `default_image` in video config
-
-## Recommended Image Types
-
-1. **Book Covers**: Official book covers work great
-2. **Series Artwork**: Character art or scene illustrations
-3. **Generic Backgrounds**: Abstract patterns or textures
-4. **Chapter-Specific**: Different images per volume/chapter
-
-## Usage Examples
-
-```bash
-# Use default image
-python scripts/create_videos.py --project lotm_book1 --chapters 1-5
-
-# Use custom background
-python scripts/create_videos.py --project lotm_book1 --chapters 1-5 --background-image ./assets/images/lotm_cover.jpg
-
-# Create animated background videos
-python scripts/create_videos.py --project lotm_book1 --chapters 1-3 --video-type animated_background
-```
-
-## File Organization
+# tts_pipeline assets
 
 ```
 assets/
-├── images/
-│   ├── lotm_*.jpg                 # LOTM character portraits
-│   ├── resized/                   # Pre-resized images (1920x1080)
-│   └── lotm_cover.jpg             # LOTM specific cover
-├── videos/
-│   └── lotm.mp4                   # Animated background video
-└── README.md                      # This file
+├── projects/                  # PER-PROJECT video background art (see projects/README.md)
+│   ├── lotm_book1/            #   book1 Sequence cards + cover (+ legacy animated bg)
+│   └── lom_book2_coi/         #   COI volume art (v1–v3 recovered; v4–8 pending dropoff)
+└── characters/                # Book-1 character portraits for the separate
+                               # character_scene_video workstream (gitignored binaries)
 ```
 
-## 🔧 FFmpeg Setup
+- **Add / change chapter art:** drop images into
+  `projects/<project>/dropoff/` and run
+  `py -3.12 tts_pipeline/scripts/prepare_backgrounds.py --project <project>`.
+  Full flow in [projects/README.md](projects/README.md).
+- Which image a chapter gets is decided by
+  `config/projects/<project>/portrait_mapping.json` — the renderer uses the
+  `resized/*_1920x1080.*` copies.
+- The old shared `assets/images/` + `assets/videos/` dirs were reorganized
+  into `assets/projects/<project>/backgrounds/` on 2026-08-10 (the code still
+  checks the old location as a legacy fallback).
 
-### **Automatic Setup (Recommended)**
-FFmpeg is automatically detected and set up by the system:
+## FFmpeg
 
-```bash
-# FFmpeg is auto-detected when needed
-python tts_pipeline/scripts/create_videos.py --project lotm_book1 --chapters 1-5
-```
-
-### **Manual Setup**
-If you need to install FFmpeg manually:
-
-```bash
-# Windows (Chocolatey)
-choco install ffmpeg
-
-# macOS (Homebrew)  
-brew install ffmpeg
-
-# Linux (apt)
-sudo apt install ffmpeg
-```
-
-### **Project-Local FFmpeg**
-- **Location**: `ffmpeg/` directory in project root
-- **Auto-detection**: Scripts automatically find and use local FFmpeg
-- **Not committed**: FFmpeg binaries are in `.gitignore`
-- **Cross-platform**: Works on Windows, Linux, macOS
-
-
+Video creation needs ffmpeg on PATH (or a project-local `ffmpeg/` dir —
+auto-detected by `scripts/setup_ffmpeg_path.py`). Windows install:
+`choco install ffmpeg`.

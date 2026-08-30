@@ -18,7 +18,7 @@ from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
-from tts_pipeline.utils.chapter_title import resolve_chapter_title
+from utils.chapter_title import resolve_chapter_title
 
 
 class YouTubeUploader:

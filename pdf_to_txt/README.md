@@ -1,3 +1,7 @@
+> **LEGACY STAGE.** Text extraction now comes from EPUBs via
+> `epub_to_text/` (better structure + volume maps). This module is kept for
+> reference only and is not part of the current pipeline.
+
 # PDF to Text Converter - Volume-by-Volume Processing
 
 ## Overview

@@ -7,17 +7,13 @@ instead of maintaining a complex database. This approach is more reliable and
 self-healing since it always reflects the actual state of files.
 """
 
-import sys
 import os
 from pathlib import Path
 from typing import Dict, Any, List, Optional, Tuple
 from datetime import datetime
 
-# Add the project root to the Python path
-sys.path.append('.')
-
-from tts_pipeline.utils.project_manager import ProjectManager
-from tts_pipeline.utils.file_organizer import ChapterFileOrganizer
+from utils.project_manager import ProjectManager
+from utils.file_organizer import ChapterFileOrganizer
 
 
 class FileBasedProgressTracker:

@@ -1,0 +1,64 @@
+{
+  "project_name": "lom_book2_coi",
+  "_comment": "Physical-edition part structure (user 2026-08-20): V1=2 parts, V2=2 parts, V3=3 parts, V4=1 part for now, V5-8=1 part each. Per user instruction, multi-part volumes are split EVENLY by chapter count and images assigned by their sequential physical-book names (coi_v1..coi_v8 = Tianwen Kadokawa books 1-8). (FYI: the only externally documented split is V1 at ch.75, the Webnovel free/VIP boundary — adjust ranges here if exact physical boundaries ever matter.) The old single-volume recovered images (coi_v1_nightmare/coi_v2_lightseeker/coi_v3_conspirer, extracted 2026-08-10 from rendered videos) remain in backgrounds/ as historical fallbacks. Art workflow: dropoff/ -> prepare_backgrounds.py -> edit here.",
+  "portrait_mapping": {
+    "1-55": {
+      "image": "coi_v1_nightmare_1.jpg",
+      "description": "Vol 1 Nightmare — Part 1 (梦魇·上, CN book 1). Even split of 1-109."
+    },
+    "56-109": {
+      "image": "coi_v2_nightmare_2.jpg",
+      "description": "Vol 1 Nightmare — Part 2 (梦魇·下, CN book 2)."
+    },
+    "110-186": {
+      "image": "coi_v3_lightchaser_1.jpg",
+      "description": "Vol 2 Lightseeker — Part 1 (逐光者·上, CN book 3). Even split of 110-263."
+    },
+    "187-263": {
+      "image": "coi_v4_lightchaser_2.jpg",
+      "description": "Vol 2 Lightseeker — Part 2 (逐光者·下, CN book 4)."
+    },
+    "264-340": {
+      "image": "coi_v5_conspirator_1.jpg",
+      "description": "Vol 3 Conspirer — Part 1 (阴谋家·上, CN book 5). Even split of 264-494."
+    },
+    "341-417": {
+      "image": "coi_v6_conspirator_2.jpg",
+      "description": "Vol 3 Conspirer — Part 2 (阴谋家·中, CN book 6)."
+    },
+    "418-494": {
+      "image": "coi_v7_conspirator_3.jpg",
+      "description": "Vol 3 Conspirer — Part 3 (阴谋家·下, CN book 7)."
+    },
+    "495-575": {
+      "image": "coi_v8_sinner_1.jpg",
+      "description": "Vol 4 Sinner — Part 1 (罪人·上, CN book 8). Even 3-way split of 495-735 (241 ch = 81+80+80)."
+    },
+    "576-655": {
+      "image": "coi_v9_sinner_2.jpg",
+      "description": "Vol 4 Sinner — Part 2 (罪人·中, CN book 9)."
+    },
+    "656-735": {
+      "image": "coi_v10_sinner_3.jpeg",
+      "description": "Vol 4 Sinner — Part 3 (罪人·下, CN book 10)."
+    },
+    "736-884": {
+      "image": "coi_v11_demoness_1.jpg",
+      "description": "Vol 5 Demoness — single part for now (CN book 11; split if more physical parts appear)."
+    },
+    "885-1034": {
+      "image": null,
+      "description": "Vol 6 Dream Weaver — single part. TODO: no art yet."
+    },
+    "1035-1115": {
+      "image": null,
+      "description": "Vol 7 Second Law — single part. TODO: no art yet."
+    },
+    "1116-1179": {
+      "image": null,
+      "description": "Vol 8 Eternal Aeon — single part. TODO: no art yet."
+    }
+  },
+  "default_image": null,
+  "fallback_image": null
+}

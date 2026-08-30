@@ -121,15 +121,34 @@ class VideoCreator:
             volume_name = chapter['volume_name']
             
             # Try different possible locations
-            possible_paths = [
-                Path(self.project.processing_config['output_directory']) / volume_name / chapter_name,
-                Path(self.project.processing_config.get('ssd_directory', './output')) / volume_name / chapter_name,
+            base_dirs = [
+                Path(self.project.processing_config['output_directory']),
+                Path(self.project.processing_config.get('ssd_directory', './output')),
             ]
-            
-            for path in possible_paths:
+
+            for base in base_dirs:
+                path = base / volume_name / chapter_name
                 if path.exists():
                     return path
-            
+
+            # Fallback: audio filenames can drift from the text filenames
+            # (older runs sanitized special chars to '_' and truncated long
+            # titles), so match by chapter number instead of exact name.
+            chapter_number = chapter.get('chapter_number')
+            if chapter_number is not None:
+                for base in base_dirs:
+                    vol_dir = base / volume_name
+                    if not vol_dir.is_dir():
+                        continue
+                    matches = sorted(vol_dir.glob(f"Chapter_{chapter_number}_*.mp3"))
+                    if matches:
+                        if len(matches) > 1:
+                            self.logger.warning(
+                                f"Multiple audio files match chapter {chapter_number} "
+                                f"in {vol_dir}; using {matches[0].name}"
+                            )
+                        return matches[0]
+
             self.logger.warning(f"No audio file found for chapter: {chapter['filename']}")
             return None
             
@@ -203,15 +222,8 @@ class VideoCreator:
                 # Validate the created video
                 if self.video_processor.validate_video(str(video_path)):
                     self.logger.info(f"Successfully created and validated video: {video_path}")
-                    
-                    # Update progress tracking
-                    try:
-                        progress_tracker = FileBasedProgressTracker(self.project)
-                        progress_tracker.mark_video_completed(chapter, str(video_path))
-                        self.logger.info(f"Updated progress tracking for: {chapter_name}")
-                    except Exception as e:
-                        self.logger.warning(f"Failed to update progress tracking for {chapter_name}: {e}")
-                    
+                    # No explicit tracking update: FileBasedProgressTracker
+                    # derives progress from the files on disk.
                     self.processed_count += 1
                     return True
                 else:

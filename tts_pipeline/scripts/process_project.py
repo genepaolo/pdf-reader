@@ -405,8 +405,13 @@ Examples:
     
     parser.add_argument(
         '--project', '-p',
-        required=True,
         help='Project name to process'
+    )
+
+    parser.add_argument(
+        '--list-projects',
+        action='store_true',
+        help='List available projects and exit'
     )
     
     parser.add_argument(
@@ -467,10 +472,24 @@ Examples:
     )
     
     try:
-        # Load project
         project_manager = ProjectManager()
+
+        if args.list_projects:
+            projects = project_manager.list_projects()
+            if projects:
+                print("Available projects:")
+                for name in projects:
+                    print(f"  - {name}")
+            else:
+                print("No projects found.")
+            return 0
+
+        if not args.project:
+            parser.error("--project is required (or use --list-projects)")
+
+        # Load project
         project = project_manager.load_project(args.project)
-        
+
         if not project:
             logging.error(f"Project not found: {args.project}")
             return 1

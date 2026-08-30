@@ -208,7 +208,11 @@ class Project:
         config_file = self.config_path / "processing_config.json"
         try:
             with open(config_file, "r") as f:
-                return json.load(f)
+                config = json.load(f)
+            # Consumers of this dict (e.g. VideoProcessor) need to know which
+            # project they belong to for project-scoped assets/mappings.
+            config.setdefault("project_name", self.project_name)
+            return config
         except Exception as e:
             self.logger.error(f"Failed to load processing config: {e}")
             return {}

@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import List, Dict, Optional, Tuple
 import logging
 
-from tts_pipeline.utils.chapter_title import (
+from utils.chapter_title import (
     read_chapter_title_from_file,
     title_from_filename_fallback,
 )

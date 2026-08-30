@@ -54,7 +54,7 @@ def main() -> None:
     parser.add_argument(
         "--series-title",
         default=None,
-        help="Series title written as line 1 of each chapter file (default: 'Lord of Mysteries 2: Circle of Inevitability')",
+        help="Series title written as line 1 of each chapter file (default: the EPUB's dc:title metadata)",
     )
     args = parser.parse_args()
 

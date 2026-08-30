@@ -214,17 +214,16 @@ class VideoProcessor:
             if duration is None:
                 return False
             
-            # Build FFmpeg command with GPU hardware acceleration (optimized for pre-resized images)
+            # Build FFmpeg command (optimized for pre-resized still images).
+            # Encoder is probed at first use: hardware if the machine has it,
+            # otherwise libx264 — at -r 1 the CPU cost is negligible anyway.
             cmd = [
                 'ffmpeg',
                 '-y',  # Overwrite output file
                 '-loop', '1',  # Loop the image
                 '-i', str(image_path),  # Input image (already 1920x1080)
                 '-i', str(audio_file),  # Input audio
-                '-c:v', 'h264_nvenc',  # NVIDIA GPU hardware acceleration
-                '-preset', 'p1',  # Fastest NVENC preset
-                '-rc', 'vbr',  # Variable bitrate for efficiency
-                '-cq', '18',  # Constant quality (18 = high quality)
+                *self._encoder_args(),
                 '-c:a', 'copy',  # Copy audio without re-encoding (preserves quality)
                 '-pix_fmt', 'yuv420p',  # Pixel format for compatibility
                 '-shortest',  # End when shortest input ends
@@ -324,11 +323,52 @@ class VideoProcessor:
             self.logger.error(f"Error creating animated background video: {e}")
             return False
     
+    # Encoder preference order with per-encoder quality args. NVENC (NVIDIA),
+    # AMF (AMD), QSV (Intel), then software x264. An encoder can be listed by
+    # `ffmpeg -encoders` yet fail at runtime (e.g. nvenc without an NVIDIA
+    # driver), so selection does a real tiny encode, not a listing check.
+    _ENCODER_CANDIDATES = [
+        ('h264_nvenc', ['-c:v', 'h264_nvenc', '-preset', 'p1', '-rc', 'vbr', '-cq', '18']),
+        ('h264_amf',   ['-c:v', 'h264_amf', '-quality', 'speed', '-rc', 'cqp', '-qp_i', '18', '-qp_p', '18']),
+        ('h264_qsv',   ['-c:v', 'h264_qsv', '-global_quality', '18']),
+        ('libx264',    ['-c:v', 'libx264', '-preset', 'fast', '-crf', '18']),
+    ]
+
+    def _encoder_args(self) -> list:
+        """Return ffmpeg args for the first H.264 encoder that actually works here."""
+        if getattr(self, '_selected_encoder_args', None) is not None:
+            return self._selected_encoder_args
+
+        for name, args in self._ENCODER_CANDIDATES:
+            probe = [
+                'ffmpeg', '-y', '-v', 'error',
+                '-f', 'lavfi', '-i', 'color=c=black:s=256x256:r=1',
+                '-frames:v', '1', *args, '-f', 'null', '-',
+            ]
+            try:
+                result = subprocess.run(probe, capture_output=True, text=True, timeout=60)
+            except Exception:
+                continue
+            if result.returncode == 0:
+                self.logger.info(f"Selected video encoder: {name}")
+                self._selected_encoder_args = args
+                return args
+            self.logger.debug(f"Encoder {name} unavailable: {result.stderr.strip()[:200]}")
+
+        # Last resort — let ffmpeg's default H.264 path try (will error loudly).
+        self.logger.warning("No probed H.264 encoder worked; falling back to libx264 args")
+        self._selected_encoder_args = self._ENCODER_CANDIDATES[-1][1]
+        return self._selected_encoder_args
+
     def _find_video_background(self) -> Optional[Path]:
         """Find a video file to use as animated background."""
-        # Look for video files in assets/videos directory
+        # Prefer the project's own backgrounds dir; legacy shared dirs kept as fallback.
         project_root = Path(__file__).parent.parent.parent  # Go up to project root
-        video_dirs = [
+        video_dirs = []
+        project_name = self.config.get('project_name')
+        if project_name:
+            video_dirs.append(project_root / 'tts_pipeline' / 'assets' / 'projects' / project_name / 'backgrounds')
+        video_dirs += [
             project_root / 'assets' / 'videos',
             project_root / 'tts_pipeline' / 'assets' / 'videos',
             Path(self.default_image).parent.parent / 'videos',
@@ -579,25 +619,34 @@ class VideoProcessor:
             # Find the appropriate portrait for this chapter
             portrait_image = self._find_portrait_for_chapter(chapter_number, portrait_mapping)
             if portrait_image:
-                # Try pre-resized image first (much faster)
-                project_root = Path(__file__).parent.parent.parent  # Go up to project root
-                resized_dir = project_root / 'tts_pipeline' / 'assets' / 'images' / 'resized'
+                # Search order per candidate dir: pre-resized 1920x1080 copy first
+                # (much faster for ffmpeg), then the original file.
+                project_root = Path(__file__).parent.parent.parent  # Go up to repo root
+                project_name = self.config.get('project_name')
                 resized_filename = f"{Path(portrait_image).stem}_1920x1080{Path(portrait_image).suffix}"
-                resized_path = resized_dir / resized_filename
-                
-                if resized_path.exists():
-                    self.logger.debug(f"Using pre-resized portrait: {resized_filename}")
-                    return str(resized_path)
-                
-                # Fallback to original image
-                assets_dir = project_root / 'tts_pipeline' / 'assets' / 'images'
-                full_path = assets_dir / portrait_image
-                if full_path.exists():
-                    self.logger.warning(f"Using original portrait (not pre-resized): {portrait_image}")
-                    return str(full_path)
-                else:
-                    self.logger.warning(f"Portrait image not found: {full_path}")
-            
+
+                asset_dirs = []
+                if project_name:
+                    # Canonical, project-scoped location
+                    asset_dirs.append(project_root / 'tts_pipeline' / 'assets' / 'projects' / project_name / 'backgrounds')
+                # Legacy shared location (pre-reorg book1 layout)
+                asset_dirs.append(project_root / 'tts_pipeline' / 'assets' / 'images')
+
+                for assets_dir in asset_dirs:
+                    resized_path = assets_dir / 'resized' / resized_filename
+                    if resized_path.exists():
+                        self.logger.debug(f"Using pre-resized portrait: {resized_path}")
+                        return str(resized_path)
+                    full_path = assets_dir / portrait_image
+                    if full_path.exists():
+                        self.logger.warning(f"Using original portrait (not pre-resized): {full_path}")
+                        return str(full_path)
+
+                self.logger.warning(
+                    f"Portrait image '{portrait_image}' not found in: "
+                    + ", ".join(str(d) for d in asset_dirs)
+                )
+
             return None
             
         except Exception as e:
@@ -630,14 +679,21 @@ class VideoProcessor:
         try:
             # Look for portrait mapping in project config directory
             project_root = Path(__file__).parent.parent.parent  # Go up to project root
-            
-            # Try to get project name from config if available
-            project_name = self.config.get('project_name', 'lotm_book1')
-            
+
+            # Project name is injected by Project._load_processing_config().
+            # No cross-project default: silently borrowing another project's
+            # mapping stamps the wrong art onto every chapter.
+            project_name = self.config.get('project_name')
+            if not project_name:
+                self.logger.warning(
+                    "No project_name in processing config; cannot resolve a "
+                    "portrait mapping (refusing to guess another project's)."
+                )
+                return None
+
             config_paths = [
                 project_root / 'tts_pipeline' / 'config' / 'projects' / project_name / 'portrait_mapping.json',
                 project_root / 'config' / 'projects' / project_name / 'portrait_mapping.json',
-                project_root / 'portrait_mapping.json'
             ]
             
             for config_path in config_paths:
@@ -664,7 +720,13 @@ class VideoProcessor:
                     if portrait_image:
                         self.logger.debug(f"Chapter {chapter_number} maps to {portrait_image} (range: {range_str})")
                         return portrait_image
-            
+                    # Explicit null entry: the range is known but art hasn't been supplied yet.
+                    self.logger.warning(
+                        f"Chapter {chapter_number} is in range {range_str} but its mapping has no image yet "
+                        f"({config.get('description', 'no description')}). "
+                        f"Drop art in tts_pipeline/assets/projects/<project>/dropoff/ and update portrait_mapping.json."
+                    )
+
             # Fallback to default image
             fallback = portrait_mapping.get('fallback_image')
             if fallback:
