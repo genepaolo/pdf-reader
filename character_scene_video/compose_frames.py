@@ -5,21 +5,20 @@ Frames are cached by the sorted set of portrait filenames, so the ~10 000 scenes
 collapse to a few hundred renders. Layout follows DESIGN.md section 6: normalise every portrait to a
 common height, space them evenly on a 1920x1080 canvas, no name captions.
 
-    py -3.12 character_scene_video/compose_frames.py --block            # all frames for block 1
+    py -3.12 character_scene_video/compose_frames.py --block            # all frames used by built blocks
     py -3.12 character_scene_video/compose_frames.py --contact-sheet     # one PNG to eyeball
+    (add --project NAME for a non-default project)
 """
 import argparse
 import hashlib
 import json
+import sys
 from pathlib import Path
 
 from PIL import Image, ImageDraw
 
-HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent
-PORTRAITS = ROOT / "tts_pipeline" / "assets" / "characters" / "lotm"
-FRAMES = HERE / "frames"
-BLOCK_JSON = HERE / "timelines" / "block_01_ch001-050.json"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import charvid_project  # noqa: E402
 
 W, H = 1920, 1080
 MARGIN_X, MARGIN_Y = 70, 55
@@ -63,8 +62,9 @@ def _fit_row(imgs, avail_w, avail_h):
     return [(im, max(1, round(h * a)), max(1, round(h))) for im, a in zip(imgs, aspects)]
 
 
-def compose(filenames):
-    """-> PIL image for this exact set of portraits."""
+def compose(filenames, P):
+    """-> PIL image for this exact set of portraits. A missing portrait file is a hard error --
+    silently dropping a character from the frame is exactly the wrong-art failure mode."""
     global _BG
     if _BG is None:
         _BG = background()
@@ -73,9 +73,11 @@ def compose(filenames):
     names = list(filenames)[:MAX_PER_FRAME]
     imgs = []
     for fn in names:
-        p = PORTRAITS / fn
-        if p.exists():
-            imgs.append(Image.open(p).convert("RGB"))
+        p = P.portraits / fn
+        if not p.exists():
+            raise FileNotFoundError(
+                f"portrait missing: {p} -- fix character_map.json/_manifest.json or re-fetch portraits")
+        imgs.append(Image.open(p).convert("RGB"))
     if not imgs:
         return canvas
 
@@ -114,41 +116,42 @@ def key_for(filenames):
     return digest, names
 
 
-def frame_path(filenames):
+def frame_path(filenames, P):
     digest, _ = key_for(filenames)
-    return FRAMES / f"{digest}.png"
+    return P.frames / f"{digest}.png"
 
 
-def ensure(filenames):
+def ensure(filenames, P):
     """Render (once) and return the cached frame path."""
-    out = frame_path(filenames)
+    out = frame_path(filenames, P)
     if not out.exists():
-        FRAMES.mkdir(exist_ok=True)
-        compose(sorted(set(filenames))).save(out, optimize=True)
+        P.frames.mkdir(exist_ok=True)
+        compose(sorted(set(filenames)), P).save(out, optimize=True)
     return out
 
 
-def block_sets():
-    """Every distinct portrait set used by the block-1 timeline."""
-    data = json.loads(BLOCK_JSON.read_text(encoding="utf-8"))
+def block_sets(P):
+    """Every distinct portrait set used by any built block timeline of this project."""
     sets = {}
-    for c in data["chapters_detail"]:
-        for s in c["scenes"]:
-            imgs = [i for i in s["images"] if not i.startswith("(")]
-            if imgs:
-                d, names = key_for(imgs)
-                sets[d] = names
+    for bj in P.block_jsons():
+        data = json.loads(bj.read_text(encoding="utf-8"))
+        for c in data["chapters_detail"]:
+            for s in c["scenes"]:
+                imgs = [i for i in s["images"] if not i.startswith("(")]
+                if imgs:
+                    d, names = key_for(imgs)
+                    sets[d] = names
     return sets
 
 
-def contact_sheet(sets, out):
+def contact_sheet(sets, out, P):
     """One PNG showing every distinct frame, for a quick human check."""
     cols = 4
     tw, th = 480, 270
     rows = (len(sets) + cols - 1) // cols
     sheet = Image.new("RGB", (cols * tw, rows * th), (0, 0, 0))
     for i, names in enumerate(sets.values()):
-        thumb = compose(names).resize((tw, th), Image.LANCZOS)
+        thumb = compose(names, P).resize((tw, th), Image.LANCZOS)
         sheet.paste(thumb, ((i % cols) * tw, (i // cols) * th))
     sheet.save(out)
     return out
@@ -156,25 +159,28 @@ def contact_sheet(sets, out):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--block", action="store_true", help="render every frame used by block 1")
-    ap.add_argument("--contact-sheet", metavar="PATH", nargs="?", const=str(HERE / "frames" / "_contact_sheet.png"))
+    ap.add_argument("--project", default=None)
+    ap.add_argument("--block", action="store_true", help="render every frame used by built blocks")
+    ap.add_argument("--contact-sheet", metavar="PATH", nargs="?", const="")
     a = ap.parse_args()
+    P = charvid_project.load(a.project)
 
-    sets = block_sets()
-    print(f"distinct portrait sets in block 1: {len(sets)}")
+    sets = block_sets(P)
+    print(f"distinct portrait sets across built blocks: {len(sets)}")
     by_size = {}
     for names in sets.values():
         by_size[len(names)] = by_size.get(len(names), 0) + 1
     print("  by cast size: " + ", ".join(f"{k}->{v}" for k, v in sorted(by_size.items())))
 
     if a.block:
-        FRAMES.mkdir(exist_ok=True)
+        P.frames.mkdir(exist_ok=True)
         for names in sets.values():
-            ensure(names)
-        print(f"frames written to {FRAMES}")
-    if a.contact_sheet:
-        FRAMES.mkdir(exist_ok=True)
-        print("contact sheet ->", contact_sheet(sets, a.contact_sheet))
+            ensure(names, P)
+        print(f"frames written to {P.frames}")
+    if a.contact_sheet is not None:
+        P.frames.mkdir(exist_ok=True)
+        out = a.contact_sheet or str(P.frames / "_contact_sheet.png")
+        print("contact sheet ->", contact_sheet(sets, out, P))
 
 
 if __name__ == "__main__":

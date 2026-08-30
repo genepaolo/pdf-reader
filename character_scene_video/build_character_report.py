@@ -7,30 +7,32 @@ grounded CONTEXT (the scene settings they appear in) so you can judge importance
 source a portrait — WITHOUT re-reading the chapters. Uses the same canonicalization as build_block
 (aliases, exclude, continuity carry).
 
-Output: timelines/character_report_block01.md
-Usage: python build_character_report.py [first last]   (default 1 50)
+Output: projects/<name>/timelines/character_report_blockNN.md
+Usage: py -3.12 build_character_report.py [first last] [--project NAME]   (default 1 50)
 """
 from __future__ import annotations
 import json, sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-HERE = Path(__file__).resolve().parent
-SCENES = HERE / "timelines" / "scenes"
-ASSET_DIR = ROOT / "tts_pipeline" / "assets" / "characters" / "lotm"
-MAN = json.loads((ASSET_DIR / "_manifest.json").read_text(encoding="utf-8"))
-CHAR_MAP = json.loads((ASSET_DIR / "character_map.json").read_text(encoding="utf-8"))
-REGISTRY = set(json.loads((HERE / "character_registry.json").read_text(encoding="utf-8"))["characters"])
-_AL = json.loads((HERE / "name_aliases.json").read_text(encoding="utf-8"))
-ALIASES, EXCLUDE = _AL["aliases"], set(_AL.get("exclude", []))
-CONT = json.loads((HERE / "continuity.json").read_text(encoding="utf-8"))["boundaries"]
-_DEC = HERE / "portrait_decisions.json"
-DECISIONS = json.loads(_DEC.read_text(encoding="utf-8"))["decisions"] if _DEC.exists() else {}
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from charvid_project import pop_project_arg  # noqa: E402
 
-PERSONA_IMG = {"Zhou Mingrui", "Klein Moretti", "Klein Moretti (Beginning of the Series)", "The Fool",
-               "Sherlock Moriarty", "Gehrman Sparrow", "Dwayne Dantès", "Merlin Hermes"}
+P, _rest = pop_project_arg(sys.argv[1:])
+SCENES = P.scenes_dir
+REGISTRY = set(json.loads(P.registry_file.read_text(encoding="utf-8"))["characters"])
+_AL = json.loads(P.aliases_file.read_text(encoding="utf-8"))
+ALIASES, EXCLUDE = _AL["aliases"], set(_AL.get("exclude", []))
+CONT = json.loads(P.continuity_file.read_text(encoding="utf-8"))["boundaries"]
+DECISIONS = (json.loads(P.decisions_file.read_text(encoding="utf-8"))["decisions"]
+             if P.decisions_file.exists() else {})
+
+PERSONA_IMG = set(P.persona.get("image_names", []))
+_man_f = P.portraits / "_manifest.json"
+MAN = json.loads(_man_f.read_text(encoding="utf-8")) if _man_f.exists() else []
 AVAIL = {m["name"] for m in MAN if m["kind"] == "character" and m["name"] not in PERSONA_IMG and m["row_viable"]}
 # character_map.json = committed source of truth for manual portrait picks (no Official.jpg).
+_cm_f = P.portraits / "character_map.json"
+CHAR_MAP = json.loads(_cm_f.read_text(encoding="utf-8")) if _cm_f.exists() else {}
 AVAIL |= {n for n, e in CHAR_MAP.get("characters", {}).items() if e.get("image") and e.get("row_viable", True)}
 
 
@@ -47,7 +49,8 @@ def status(name):
 
 
 def main():
-    first, last = (int(sys.argv[1]), int(sys.argv[2])) if len(sys.argv) > 2 else (1, 50)
+    first, last = (int(_rest[0]), int(_rest[1])) if len(_rest) > 1 else (1, 50)
+    block_no = P.block_no(first)
     chars = {}  # name -> {chapters:set, settings:list, scenes:int}
 
     def add(name, ch, setting):
@@ -87,7 +90,7 @@ def main():
         out = " / ".join(s[:55] for s in settings[:2])
         return (out[:110] + "…") if len(out) > 110 else (out or "—")
 
-    L = [f"# Character Participation — Block 1 (chapters {first}-{last})", "",
+    L = [f"# Character Participation — Block {block_no} (chapters {first}-{last})", "",
          "_Every character that appears, with portrait status + grounded context (the scene settings they're "
          "in) so you can decide who needs art. ✅ = has a portrait now · ❌ = wiki character, no portrait "
          "(your call) · 🚫 = decided NO portrait · ➖ = minor, no wiki page · · = unnamed extra. "
@@ -105,7 +108,7 @@ def main():
         L.append("")
 
     need = [n for n, d in rows if status(n) == "need"]
-    (HERE / "timelines" / "character_report_block01.md").write_text("\n".join(L) + "\n", encoding="utf-8")
+    (P.timelines / f"character_report_block{block_no:02d}.md").write_text("\n".join(L) + "\n", encoding="utf-8")
     print(f"Characters: {len(chars)}  |  have:{sum(1 for n in chars if status(n)=='have')} "
           f"need:{len(need)} declined:{sum(1 for n in chars if status(n)=='declined')} "
           f"minor:{sum(1 for n in chars if status(n)=='minor')} "

@@ -32,7 +32,7 @@ PORTRAITS: dict[str, str] = {
     "Melissa Moretti": "File:Melissa Moretti Donghua.jpg",
     "Benson Moretti": "File:EP 2 - Benson (cropped).jpg",
     "Rozanne": "File:EP 2 - Rozanne Adelaide (cropped).png",
-    "Old Neil": "File:Old Neil Character File.jpg",
+    # "Old Neil": user-supplied donghua still (2026-08-26) -- manual file, do not re-fetch
     "Angelica Barrehart": "File:EP 4 - Angelica (cropped).jpg",
     "Frye": "File:EP 3 - Frye (cropped).jpg",
     "Glacis": "File:EP 4 - Glacis (cropped).jpg",
@@ -42,7 +42,7 @@ PORTRAITS: dict[str, str] = {
     "Wendy Smyrin": "File:Wendy Smyrin Manhua 2020.jpg",
     "Aguesid Negan": "File:Aguesid-manhua.jpeg",
     "Hanass Vincent": "File:EP 4 - Hanass (cropped).jpg",
-    "Susie": "File:EP 4 - Susie (cropped).jpg",
+    # "Susie": user-supplied fan art (2026-08-26) -- manual file, do not re-fetch
     "Royale Reideen": "File:EP 2 - Royale Reideen (cropped).png",
     "Elliott Vickroy": "File:EP 2 - Elliott (cropped).jpg",
 }

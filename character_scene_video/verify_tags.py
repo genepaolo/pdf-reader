@@ -9,49 +9,75 @@ source lines. Flags:
   NOT FOUND   — no part of the name appears in the scene's lines (wrong scene / invented).
 Bracketed descriptive tags like "[carriage driver]" are skipped (they are not literal names).
 
-Run: python verify_tags.py [first last]   (default 1 50)
+This gate proves PRECISION (every tag is real). It cannot prove RECALL (someone present but
+never tagged passes silently) — `--recall` adds a triage sweep for that: portrait-bearing
+characters whose name appears in a scene's text but was not tagged. Mentions land on that list
+too (by design — "presence vs mention" needs a human), so recall hits are candidates to review,
+never auto-failures, and they do not affect the exit code.
+
+Run: py -3.12 verify_tags.py [first last] [--project NAME] [--recall]
+Exit code: 0 when nothing to fix, 1 otherwise.
 """
 from __future__ import annotations
-import glob, json, re, sys
+import json, re, sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-HERE = Path(__file__).resolve().parent
-FT = ROOT / "formatted_text" / "lotm_book1" / "Volume_1_Clown"
-SCENES = HERE / "timelines" / "scenes"
-REGISTRY = set(json.loads((HERE / "character_registry.json").read_text(encoding="utf-8"))["characters"])
-_AL = json.loads((HERE / "name_aliases.json").read_text(encoding="utf-8"))
-ALIASES = _AL["aliases"]
-EXCLUDE = set(_AL.get("exclude", []))
-VERIFIED = {(v["chapter"], v["scene"], v["name"]) for v in _AL.get("verified_present", [])}
-
-
-def chapter_lines(n):
-    hits = sorted(FT.glob(f"Chapter_{n}_*.txt"))
-    return hits[0].read_text(encoding="utf-8").splitlines() if hits else []
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from charvid_project import pop_project_arg  # noqa: E402
 
 
 def scene_text(lines, ls, le):
     return " ".join(lines[i-1] for i in range(ls, min(le, len(lines))+1) if 1 <= i <= len(lines)).lower()
 
 
+def portrait_names(P):
+    """Characters that have art (manifest + manual map picks), minus the protagonist cluster."""
+    persona_imgs = set(P.persona.get("image_names", []))
+    names = set()
+    man = P.portraits / "_manifest.json"
+    if man.exists():
+        for m in json.loads(man.read_text(encoding="utf-8")):
+            if m.get("kind") == "character" and m.get("row_viable"):
+                names.add(m["name"])
+    cm = P.portraits / "character_map.json"
+    if cm.exists():
+        for n, e in json.loads(cm.read_text(encoding="utf-8")).get("characters", {}).items():
+            if e.get("image"):
+                names.add(n)
+    return names - persona_imgs
+
+
 def main():
-    first, last = (int(sys.argv[1]), int(sys.argv[2])) if len(sys.argv) > 2 else (1, 50)
+    P, rest = pop_project_arg(sys.argv[1:])
+    recall = "--recall" in rest
+    nums = [a for a in rest if not a.startswith("-")]
+    first, last = (int(nums[0]), int(nums[1])) if len(nums) > 1 else (1, 50)
+
+    REGISTRY = set(json.loads(P.registry_file.read_text(encoding="utf-8"))["characters"])
+    _AL = json.loads(P.aliases_file.read_text(encoding="utf-8"))
+    ALIASES = _AL["aliases"]
+    EXCLUDE = set(_AL.get("exclude", []))
+    VERIFIED = {(v["chapter"], v["scene"], v["name"]) for v in _AL.get("verified_present", [])}
+    SWEEP = portrait_names(P) if recall else set()
+
     grounded = canon = invented = notfound = skipped = verified = 0
-    problems = []
+    problems, recall_hits = [], []
     for n in range(first, last + 1):
-        sf = SCENES / f"ch_{n}.json"
+        sf = P.scenes_dir / f"ch_{n}.json"
         if not sf.exists():
             continue
-        lines = chapter_lines(n)
+        cf = P.chapter_text(n)
+        lines = cf.read_text(encoding="utf-8").splitlines() if cf else []
         for si, s in enumerate(json.loads(sf.read_text(encoding="utf-8"))["scenes"], 1):
             txt = scene_text(lines, s["line_start"], s["line_end"])
+            tagged = set()
             for raw in s.get("other_characters", []):
                 if raw.startswith("["):
                     skipped += 1
                     continue
                 name = ALIASES.get(raw, raw)            # apply canonical alias map
-                if name in EXCLUDE:                     # non-people (e.g. dog Susie)
+                tagged.add(name)
+                if name in EXCLUDE:                     # non-people by decision
                     skipped += 1
                     continue
                 if name.lower() in txt:
@@ -70,6 +96,12 @@ def main():
                 else:
                     invented += 1
                     problems.append((n, si, raw, "INVENTED NAME", f"only {hit} in text; '{name}' not a known character"))
+            if recall:
+                for nm in SWEEP:
+                    if nm in tagged or nm in EXCLUDE:
+                        continue
+                    if re.search(rf"\b{re.escape(nm.lower())}\b", txt):
+                        recall_hits.append((n, si, nm))
     total = grounded + canon + verified + invented + notfound
     print(f"Named tags checked: {total}  (+{skipped} bracketed skipped)")
     print(f"  [OK] grounded (full name in source):              {grounded}")
@@ -82,6 +114,13 @@ def main():
         print("\nPROBLEMS TO FIX:")
         for n, si, name, kind, why in problems:
             print(f"  ch{n} s{si}: {name!r} - {kind} ({why})")
+    if recall:
+        print(f"\nRECALL SWEEP (portrait characters named in scene text but NOT tagged): {len(recall_hits)}")
+        print("  These are triage candidates — each is either an untagged PRESENCE (fix the scene"
+              " tags) or a mere MENTION (correct to leave untagged). Human call per line.")
+        for n, si, nm in recall_hits:
+            print(f"  ch{n} s{si}: {nm}")
+    sys.exit(1 if problems else 0)
 
 
 if __name__ == "__main__":

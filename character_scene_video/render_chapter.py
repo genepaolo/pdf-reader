@@ -9,6 +9,7 @@ at scene boundaries, so extra frames would be identical.
     py -3.12 character_scene_video/render_chapter.py 1 --preview
     py -3.12 character_scene_video/render_chapter.py 1
     py -3.12 character_scene_video/render_chapter.py 1 5        # a range
+    (add --project NAME for a non-default project)
 """
 import argparse
 import json
@@ -20,14 +21,49 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 from align_chapter import find_files                      # noqa: E402
 from compose_frames import ensure, frame_path             # noqa: E402
+import charvid_project                                    # noqa: E402
 
-BLOCK_JSON = HERE / "timelines" / "block_01_ch001-050.json"
-OUT_ROOT = Path("D:/PDFReader/lotm_book1_output/character_video")
 FPS = 1
 CQ = "26"          # nvenc quality level
 CRF = "23"         # libx264 equivalent, matches the existing book-1 video_config
 
 _ENCODER = None
+_BLOCK_CACHE = {}
+
+# chapter label overlay (top-left): optional circular channel badge + chapter number.
+# Per-project override via project.json "chapter_label":
+#   {"enabled": true, "template": "#{ch}", "fontsize": 48,
+#    "badge": "tts_pipeline/assets/channel/badge_circle.png", "badge_size": 76}
+FONT_CANDIDATES = [Path("C:/Windows/Fonts/arialbd.ttf"),      # Arial Bold
+                   Path("C:/Windows/Fonts/segoeuib.ttf")]     # Segoe UI Bold fallback
+LABEL_X, LABEL_Y = 40, 26                                     # top-left anchor
+
+
+def label_filter(ch, P):
+    """-> (drawtext filter, badge path or None). Text vertically centres on the badge."""
+    cfg = P.cfg.get("chapter_label", {})
+    if not cfg.get("enabled", True):
+        return None, None
+    font = next((f for f in FONT_CANDIDATES if f.exists()), None)
+    if font is None:
+        print(f"ch{ch}: WARNING no bold font found, rendering without chapter label")
+        return None, None
+    fontfile = font.as_posix().replace(":", chr(92) + ":")
+    text = cfg.get("template", "#{ch}").format(ch=ch)
+    text = text.replace(chr(92), "").replace(":", chr(92) + ":").replace("'", "")
+    size = cfg.get("fontsize", 48)
+    badge = P._abs(cfg["badge"]) if cfg.get("badge") else None
+    if badge is not None and not badge.exists():
+        print(f"ch{ch}: WARNING badge {badge} missing, label without badge")
+        badge = None
+    if badge is not None:
+        bs = cfg.get("badge_size", 76)
+        tx, ty = LABEL_X + bs + 14, f"{LABEL_Y + bs // 2}-th/2"   # centre text on badge centre
+    else:
+        tx, ty = LABEL_X, LABEL_Y + 8
+    draw = (f"drawtext=fontfile='{fontfile}':text='{text}':fontsize={size}:fontcolor=white:"
+            f"x={tx}:y={ty}:shadowcolor=black@0.6:shadowx=2:shadowy=2")
+    return draw, badge
 
 
 def video_encoder():
@@ -49,56 +85,64 @@ def encoder_args():
     return ["-c:v", "libx264", "-preset", "veryfast", "-crf", CRF, "-tune", "stillimage"]
 
 
-def chapter_scenes(ch):
-    data = json.loads(BLOCK_JSON.read_text(encoding="utf-8"))
-    for c in data["chapters_detail"]:
+def chapter_scenes(ch, P):
+    bj = P.block_json_for(ch)
+    if bj is None:
+        return None
+    if bj not in _BLOCK_CACHE:
+        _BLOCK_CACHE[bj] = json.loads(bj.read_text(encoding="utf-8"))
+    for c in _BLOCK_CACHE[bj]["chapters_detail"]:
         if c["chapter"] == ch:
             return c
     return None
 
 
-def plan(ch):
-    """-> (list of (frame_path, duration), chapter record). Consecutive identical frames merge."""
-    rec = chapter_scenes(ch)
+def plan(ch, P):
+    """-> (list of (frame_path, duration), chapter record). Consecutive identical frames merge.
+    Time before the first frame (a leading hold-previous with nothing to hold) is billed to the
+    first real frame, so the visual track always covers the full audio."""
+    rec = chapter_scenes(ch, P)
     if not rec:
         return None, None
-    steps = []
+    steps, lead = [], 0.0
     for s in rec["scenes"]:
         imgs = [i for i in s["images"] if not i.startswith("(")]
-        if not imgs:
-            if not steps:
-                continue                      # nothing to hold yet; skip until we have a frame
-            steps[-1][1] += s["chapter_end"] - s["chapter_start"]
-            continue
-        fp = frame_path(imgs)
         dur = s["chapter_end"] - s["chapter_start"]
+        if not imgs:
+            if steps:
+                steps[-1][1] += dur           # hold: extend the previous frame
+            else:
+                lead += dur                   # no frame yet: bill to the first real frame
+            continue
+        fp = frame_path(imgs, P)
         if steps and steps[-1][0] == fp:
-            steps[-1][1] += dur               # same cast as previous scene -> one continuous shot
+            steps[-1][1] += dur + lead        # same cast as previous scene -> one continuous shot
         else:
-            steps.append([fp, dur, imgs])
+            steps.append([fp, dur + lead, imgs])
+        lead = 0.0
     return steps, rec
 
 
-def render(ch, force=False):
-    steps, rec = plan(ch)
+def render(ch, P, force=False):
+    steps, rec = plan(ch, P)
     if not steps:
         print(f"ch{ch}: no scenes/frames")
         return None
-    _, mp3 = find_files(ch)
+    _, mp3 = find_files(ch, P)
     if not mp3:
         print(f"ch{ch}: no audio")
         return None
 
     for _, _, imgs in steps:
-        ensure(imgs)
+        ensure(imgs, P)
 
-    OUT_ROOT.mkdir(parents=True, exist_ok=True)
-    out = OUT_ROOT / f"Chapter_{ch}.mp4"
+    out = P.chapter_video(ch)          # <video_out>/<Volume_dir>/Chapter_N.mp4
+    out.parent.mkdir(parents=True, exist_ok=True)
     if out.exists() and not force:
         print(f"ch{ch}: exists, skipping ({out})")
         return out
 
-    listing = OUT_ROOT / f"_concat_ch{ch}.txt"
+    listing = out.parent / f"_concat_ch{ch}.txt"
     lines = []
     for fp, dur, _ in steps:
         lines.append(f"file '{fp.as_posix()}'")
@@ -107,10 +151,21 @@ def render(ch, force=False):
     lines.append(f"file '{steps[-1][0].as_posix()}'")
     listing.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
+    draw, badge = label_filter(ch, P)
+    inputs = ["-f", "concat", "-safe", "0", "-i", str(listing), "-i", str(mp3)]
+    if draw and badge:
+        # badge is input 2; overlay it, then draw the chapter number beside it
+        inputs += ["-i", str(badge)]
+        vmaps = ["-filter_complex",
+                 f"[0:v][2:v]overlay={LABEL_X}:{LABEL_Y}[v1];[v1]{draw}[vout]",
+                 "-map", "[vout]", "-map", "1:a"]
+    elif draw:
+        vmaps = ["-map", "0:v", "-map", "1:a", "-vf", draw]
+    else:
+        vmaps = ["-map", "0:v", "-map", "1:a"]
     cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
-           "-f", "concat", "-safe", "0", "-i", str(listing),
-           "-i", str(mp3),
-           "-map", "0:v", "-map", "1:a",
+           *inputs,
+           *vmaps,
            *encoder_args(),
            "-pix_fmt", "yuv420p", "-r", str(FPS),
            "-c:a", "copy", "-movflags", "+faststart", "-shortest", str(out)]
@@ -134,13 +189,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("first", type=int)
     ap.add_argument("last", type=int, nargs="?")
+    ap.add_argument("--project", default=None)
     ap.add_argument("--preview", action="store_true", help="show the cut plan, render nothing")
     ap.add_argument("--force", action="store_true")
     a = ap.parse_args()
+    P = charvid_project.load(a.project)
     last = a.last or a.first
 
     for ch in range(a.first, last + 1):
-        steps, rec = plan(ch)
+        steps, rec = plan(ch, P)
         if not steps:
             print(f"ch{ch}: nothing to do")
             continue
@@ -152,7 +209,7 @@ def main():
                 print(f"   {t:8.1f}s +{dur:7.1f}s  {', '.join(i.rsplit('.',1)[0] for i in imgs)}")
                 t += dur
             continue
-        out = render(ch, force=a.force)
+        out = render(ch, P, force=a.force)
         if out:
             dur, size = probe(out)
             exp = rec["audio_duration"]

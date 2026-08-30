@@ -6,7 +6,7 @@ circular. This checks something the matcher never optimises for: the implied spe
 Azure TTS reads at a near-constant chars/sec, so if lines were mapped to the wrong audio the
 implied rate for those lines goes wildly out of range even though every anchor is a real pause.
 
-    py -3.12 character_scene_video/verify_alignment.py 1 50
+    py -3.12 character_scene_video/verify_alignment.py 1 50 [--project NAME]
 """
 import json
 import re
@@ -15,10 +15,9 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-ALIGN = HERE / "align"
-SCENES = HERE / "timelines" / "scenes"
 sys.path.insert(0, str(HERE))
 from align_chapter import find_files, speakable, scene_span  # noqa: E402
+from charvid_project import pop_project_arg                  # noqa: E402
 
 # an outlier line is one whose implied rate is this many times off the chapter median
 RATE_TOL = 3.0
@@ -26,12 +25,12 @@ RATE_TOL = 3.0
 OUTLIER_BUDGET = 0.02
 
 
-def check(ch):
-    f = ALIGN / f"ch_{ch}.json"
+def check(ch, P):
+    f = P.align_dir / f"ch_{ch}.json"
     if not f.exists():
         return {"chapter": ch, "fatal": ["no alignment file"]}
     a = json.loads(f.read_text(encoding="utf-8"))
-    txt, _ = find_files(ch)
+    txt, _ = find_files(ch, P)
     lines = txt.read_text(encoding="utf-8").split("\n")
     fatal, warn = [], []
 
@@ -57,7 +56,7 @@ def check(ch):
         fatal.append(f"line-set mismatch (missing {len(miss)}, extra {len(extra)})")
 
     # 3. every scene must resolve to a real, forward-going span
-    sc = json.loads((SCENES / f"ch_{ch}.json").read_text(encoding="utf-8"))["scenes"]
+    sc = json.loads((P.scenes_dir / f"ch_{ch}.json").read_text(encoding="utf-8"))["scenes"]
     rec = {"lines": times}
     prev = None
     for s in sc:
@@ -89,9 +88,10 @@ def check(ch):
 
 
 def main():
-    a = int(sys.argv[1])
-    b = int(sys.argv[2]) if len(sys.argv) > 2 else a
-    recs = [check(c) for c in range(a, b + 1)]
+    P, rest = pop_project_arg(sys.argv[1:])
+    a = int(rest[0])
+    b = int(rest[1]) if len(rest) > 1 else a
+    recs = [check(c, P) for c in range(a, b + 1)]
     meds = [r["median_rate"] for r in recs if r.get("median_rate")]
     n_fatal = sum(len(r["fatal"]) for r in recs)
     n_out = sum(len(r.get("outliers", [])) for r in recs)

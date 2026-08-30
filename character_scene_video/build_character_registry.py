@@ -18,7 +18,7 @@ API = "https://lordofthemysteries.fandom.com/api.php"
 UA = "LOTM-fan-project/1.0 (character registry)"
 HERE = Path(__file__).resolve().parent
 MANIFEST = HERE.parent / "tts_pipeline" / "assets" / "characters" / "lotm" / "_manifest.json"
-OUT = HERE / "character_registry.json"
+OUT = HERE / "projects" / "lotm_book1" / "character_registry.json"  # book1 wiki tool; other projects supply their own registry
 
 # All these portraits depict the protagonist; attribute them to his category entries.
 PROTAGONIST_PERSONAS = {

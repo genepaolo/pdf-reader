@@ -10,7 +10,7 @@ monotonically with a DP that tolerates a few extra/missing gaps.
 Output: align/ch_<N>.json -- start/end seconds for every non-empty LINE of the source text
 (line numbers are 1-based and match the line_start/line_end in timelines/scenes/ch_<N>.json).
 
-    py -3.12 character_scene_video/align_chapter.py 1 50
+    py -3.12 character_scene_video/align_chapter.py 1 50 [--project NAME]
 """
 import json
 import re
@@ -18,11 +18,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent
-TEXT_ROOT = ROOT / "formatted_text" / "lotm_book1"
-AUDIO_ROOT = Path("D:/PDFReader/lotm_book1_output")
-OUT_DIR = HERE / "align"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from charvid_project import pop_project_arg  # noqa: E402
 
 # silencedetect settings. Pauses are bimodal (clause ~0.2-0.5s, sentence ~0.7-1.0s), but
 # pre-filtering to the long mode is a mistake: the two modes overlap, and every real boundary
@@ -49,10 +46,8 @@ REPAIR_PASSES = 6
 SENT_END = re.compile(r'(?<=[.!?\u2026])["\u201d\u2019\')\]]*\s+')
 
 
-def find_files(ch):
-    txt = next(iter(sorted(TEXT_ROOT.glob(f"*/Chapter_{ch}_*.txt"))), None)
-    mp3 = next(iter(sorted(AUDIO_ROOT.glob(f"*/Chapter_{ch}_*.mp3"))), None)
-    return txt, mp3
+def find_files(ch, P):
+    return P.chapter_text(ch), P.chapter_audio(ch)
 
 
 def split_units(txt_path, title_echo=False):
@@ -62,7 +57,7 @@ def split_units(txt_path, title_echo=False):
     body echo of the chapter title, so the audio reads the bare title a second time between the
     "Chapter N: X" header and the body. The text no longer contains it. When set, we insert that
     extra spoken unit (billed to header line 2, which no scene references) so the sentence
-    sequence matches what the voice actually said. process() tries both and keeps the better fit.
+    sequence matches what the voice actually said. process() decides per chapter via has_title_echo().
     """
     lines = txt_path.read_text(encoding="utf-8").split("\n")
     units = []
@@ -251,8 +246,10 @@ def _find_squeezed(units, bounds, total, silences):
         if k == 0:
             continue
         d, n = e - s, speakable(text)
-        # a line needing seconds of speech cannot fit in a sub-0.6s sliver
-        if d < 0.6 and n / max(d, 0.01) > 45 and n > 30:
+        # a line needing seconds of speech cannot fit in a sub-0.6s sliver; and NO line fits in
+        # ~nothing (e.g. a boundary matched to the file's trailing silence squeezes the final
+        # short line to zero -- too short for the rate test above to catch)
+        if (d < 0.6 and n / max(d, 0.01) > 45 and n > 30) or d < 0.05:
             bad.append(k - 1)          # the boundary that opened this unit is the bad one
     return bad
 
@@ -391,9 +388,9 @@ def has_title_echo(txt_path, silences, total):
     return d_echo <= d_body
 
 
-def load(ch):
+def load(ch, P):
     """Load a chapter's alignment record, or None."""
-    f = OUT_DIR / f"ch_{ch}.json"
+    f = P.align_dir / f"ch_{ch}.json"
     if not f.exists():
         return None
     rec = json.loads(f.read_text(encoding="utf-8"))
@@ -416,8 +413,8 @@ def scene_span(rec, line_start, line_end):
     return [rec["lines"][lo][0], rec["lines"][hi][1]]
 
 
-def process(ch, verbose=True):
-    txt, mp3 = find_files(ch)
+def process(ch, P, verbose=True):
+    txt, mp3 = find_files(ch, P)
     if not txt or not mp3:
         return {"chapter": ch, "error": f"missing {'text' if not txt else 'audio'}"}
     silences, total = detect_silences(mp3)
@@ -443,8 +440,8 @@ def process(ch, verbose=True):
         "fit_score": round(score, 4),
         "lines": {str(k): [round(v[0], 3), round(v[1], 3)] for k, v in sorted(per.items())},
     }
-    OUT_DIR.mkdir(exist_ok=True)
-    (OUT_DIR / f"ch_{ch}.json").write_text(json.dumps(rec, indent=1), encoding="utf-8")
+    P.align_dir.mkdir(exist_ok=True)
+    (P.align_dir / f"ch_{ch}.json").write_text(json.dumps(rec, indent=1), encoding="utf-8")
     if verbose:
         flag = "" if matched_frac >= 0.97 else "   <-- LOW"
         print(f"ch{ch:>4}  {total/60:6.2f}min  units={len(units):<4} gaps={ng:<4} "
@@ -453,9 +450,10 @@ def process(ch, verbose=True):
 
 
 def main():
-    a = int(sys.argv[1])
-    b = int(sys.argv[2]) if len(sys.argv) > 2 else a
-    recs = [process(c) for c in range(a, b + 1)]
+    P, rest = pop_project_arg(sys.argv[1:])
+    a = int(rest[0])
+    b = int(rest[1]) if len(rest) > 1 else a
+    recs = [process(c, P) for c in range(a, b + 1)]
     ok = [r for r in recs if "error" not in r]
     bad = [r for r in recs if "error" in r]
     low = [r for r in ok if r["match_rate"] < 0.97]

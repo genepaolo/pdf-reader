@@ -1,0 +1,20 @@
+{
+  "_readme": "Copy this folder to projects/<name>/ and fill in. Paths are repo-relative or absolute. See charvid_project.py for the full new-book checklist.",
+  "text_root": "formatted_text/<project>",
+  "audio_root": "D:/PDFReader/<project>_output",
+  "durations_csv": null,
+  "portraits_dir": "tts_pipeline/assets/characters/<project>",
+  "video_out_dir": "D:/PDFReader/<project>_output/character_video",
+  "block_size": 50,
+  "series_title": "<Series Title for video descriptions>",
+  "persona": {
+    "_readme": "Protagonist persona cluster. map: tag -> [display label, portrait file]. base_flips: chapter-anchored progression of the DEFAULT persona (applied in order). image_names: portrait files reserved for the protagonist (excluded from the general roster). Leave map/base_flips empty if the protagonist has one fixed portrait.",
+    "protagonist_prefix": "<Protagonist first name, used to group persona labels in reports>",
+    "index_label": "<Protagonist> (protagonist)",
+    "map": {},
+    "image_names": [],
+    "base_flips": []
+  },
+  "default_image": null,
+  "_default_image_note": "Optional filename (in portraits_dir) shown when a scene's cast has NO portraits. Unset -> the previous frame is held instead."
+}

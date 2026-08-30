@@ -1,0 +1,20 @@
+{
+  "_comment": "Per-volume YouTube upload metadata for make_upload_pack.py. Each part MUST be under YouTube's 12-hour cap (verify with build_block_video.py --plan); part numbers come from list order. See projects/lotm_book1/upload_meta.json for a filled-in example.",
+  "search_title": "<Series Name> Audiobook",
+  "usp_line": "Every scene shows WHO IS PRESENT: the character portraits on screen change as people enter and leave each scene — follow along and never lose track of the cast.",
+  "bridge_line": "<one line connecting an adaptation/searched topic to this video>",
+  "credit_line": "Narration: professional-grade neural TTS. Novel by <author>. Portrait art from <sources>.",
+  "also_line": "<one line pointing at the channel's other series>",
+  "hashtags": "#<Series> #Audiobook",
+  "tags": "<comma-separated search tags shared by every volume>",
+  "volumes": {
+    "1": {
+      "name": "<Volume Name>",
+      "next_teaser": "Volume 2: <Name>",
+      "extra_tags": "<volume-specific tags>",
+      "parts": [
+        {"first": 1, "last": 50, "hook": "<non-spoiler story hook for this part>"}
+      ]
+    }
+  }
+}
