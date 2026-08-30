@@ -2,185 +2,300 @@
 
 ## Active Project Scope
 - Current active project is `lom_book2_coi`.
-- Unless explicitly stated otherwise, all commands and status updates for:
-  - audio generation
-  - video generation
-  - YouTube uploads
-  refer only to `lom_book2_coi`.
+- Unless explicitly stated otherwise, all commands and status updates for audio generation,
+  video generation, and YouTube uploads refer only to `lom_book2_coi`.
+- **Second workstream:** `character_scene_video` (Book 1 per-scene portrait videos) — see its
+  section below. **Next session there: Volume 2 portrait decisions (tagging is done).**
 
 ## Agent context (how this file is loaded)
-- **Cursor:** `.cursor/rules/claude-context.mdc` has `alwaysApply: true` and requires every assistant turn to read `CLAUDE.md` from the repo root before tools or substantive changes. Do not rely on memory from earlier turns—re-read each message.
-- **To set up on another machine or repo:** (1) add `CLAUDE.md` at the repository root with project scope, commands, and progress log; (2) add `.cursor/rules/claude-context.mdc` (or equivalent) with `alwaysApply: true` pointing at that file; (3) keep the progress log updated after pipeline runs.
-- **Claude Code / other tools:** If they do not auto-load this file, paste or `@`-reference `CLAUDE.md` at session start and after large progress changes.
+- **Cursor:** `.cursor/rules/claude-context.mdc` (`alwaysApply: true`) requires reading `CLAUDE.md` before tools or substantive changes — re-read each message, don't rely on memory.
+- **Claude Code / other tools:** if not auto-loaded, `@`-reference this file at session start.
+- **Setup elsewhere:** repo-root `CLAUDE.md` + an always-apply rule pointing at it; keep the progress log updated after pipeline runs.
 
 ## Instructions
-- Read this file at the start of **each user message** (see **Agent context** above), not only the first message in a session.
+- Read this file at the start of **each user message**.
 - Do not read `.env` or secret credential files.
-- Keep changes scoped to the requested task.
-- Prefer dry-run before full processing when touching pipeline behavior.
+- Keep changes scoped to the requested task; prefer dry-run before full processing.
 - If deleting files/folders, ask for permission first.
-- After every run command that affects outputs/uploads, update "Current Progress Log" in this file immediately.
-- Use the YouTube API to read most recent uploads when upload status needs verification or refresh.
+- After every run that affects outputs/uploads, update "Current Progress Log" here immediately.
+- Use the YouTube API to verify recent uploads when status needs confirmation.
+- ⚠️ **Run all scripts with `py -3.12`, not `python`** (PATH `python` = 3.11, missing `dotenv`/`google-api-python-client`).
+
+---
 
 ## character_scene_video (Book 1 — separate workstream)
-> NOT part of the `lom_book2_coi` audio/video/upload pipeline below. This is the per-scene character-portrait
-> video work for **Book 1 (LOTM)**. Merged to `master` 2026-06-19; branch `feature/book1-character-scene-videos`
-> and its `pdf-reader-charvid` worktree were deleted 2026-06-23 (work all in `master`). The downloaded portrait
-> binaries from that worktree were preserved into the main repo at `tts_pipeline/assets/characters/lotm/` (gitignored).
-- **What it is:** tags every scene with who's present + setting, resolves portraits, and builds per-block scene
-  timelines. Full design + decisions in `character_scene_video/DESIGN.md`; session handoff in `character_scene_video/STATUS.md`.
-- **Block 1 (ch1-50) status:** 156 scenes tagged; verifier **168/168, 0 to fix**; portrait decisions DONE —
-  23 have portraits, 2 declined (`character_scene_video/portrait_decisions.json`). **Timing is now REAL**
-  (forced alignment, 2026-08-01) and a chapter video has been rendered and checked end to end.
-- **Run these with `py -3.12`, not `python`.**
-- **Rebuild / verify (run from repo root):**
-  - `py -3.12 character_scene_video/align_chapter.py 1 50`        # text<->audio alignment -> align/ch_N.json
-  - `py -3.12 character_scene_video/verify_alignment.py 1 50`     # timing gate, must say PASS
-  - `py -3.12 character_scene_video/build_block.py 1 50`          # timeline (consumes align/)
-  - `py -3.12 character_scene_video/verify_tags.py 1 50`          # must report 0 to fix
-  - `py -3.12 character_scene_video/build_character_report.py 1 50`
-  - `py -3.12 character_scene_video/compose_frames.py --block --contact-sheet`   # frames + review sheet
-  - `py -3.12 character_scene_video/render_chapter.py 1 5`        # per-chapter mp4 (`--preview` = plan only)
-  - `py -3.12 character_scene_video/fetch_named_portraits.py`     # re-download non-Official portraits (binaries gitignored)
-- **Alignment approach:** NOT aeneas/WhisperX. The audio is Azure TTS of known text, so we match the text's
-  sentence sequence to the audio's ffmpeg-detected pause sequence with a DP. No new deps. Over ch1-50:
-  100% of boundaries matched, 0 structural errors, 0.87% rate outliers, median 14.07 chars/sec.
-  Note 47/50 book-1 MP3s read the chapter title **twice** (they predate the `epub_to_text` echo fix);
-  `has_title_echo()` handles it.
-- **Next steps:**
-  1. ⛔ **Decide portrait source quality before rendering the block** — see `frames/_contact_sheet.png`.
-     Old Neil's image is a **Tencent-watermarked poster**, Susie is a **dog photo**, and several picks are
-     anime screenshots mixed in with the official character cards. This is the visible weak point.
-  2. Render **block 1** (ch1-50 → one ~10.9 hr video + `0:00 Chapter N` description). **Not started.**
-  3. **Tag Block 2 (ch51-100)** using the text-literal tagging guide + auto-verify + continuity from the start.
+> NOT part of the `lom_book2_coi` pipeline. Per-scene character-portrait videos for **Book 1 (LOTM)**:
+> tags every scene with who's present + setting, resolves portraits, renders per-chapter videos with
+> scene-synced portrait rows. Design: `character_scene_video/DESIGN.md`. Session handoff + full block
+> history: `character_scene_video/STATUS.md`. All on `master`.
 
-## The 3-Step Workflow (audio → video → upload)
-> Always run from the repository root (`pdf-reader`). Default project is `lom_book2_coi`, so the examples omit it where the script defaults to it. Replace `N-M` with the chapter range you want.
+### Current state (2026-08-28)
+- ✅ **VOLUME 1 CONTENT COMPLETE:** ch1–213 tagged, verified, rendered (0 gaps, verified on disk).
+- **12 h cap is ENFORCED by YouTube** (43 h single upload rejected 2026-08-28). Volume 1 uploads as
+  **4 parts**, all built + packed in `D:/PDFReader/lotm_book1_output/character_video/Volume_1_Clown/`:
+  ch1–50 (10:52:07) / 51–100 (10:07:56) / 101–157 (11:08:29) / 158–213 (11:10:03).
+- ✅ **VOLUME 1 UPLOADED 2026-08-28, all 4 parts public** (verified via API + Studio 2026-08-29):
+  P1 `sQ94crQVoAQ` / P2 `AfBLteZ9nfU` / P3 `Qi3hZkRr_j0` / P4 `8lha69vkmCE`; all in playlist
+  `PLQD_MWrZYC-I` ("…Large Audiobook — Volume 1: The Clown") AND the per-chapter
+  "LOTM - Volume 1: CLOWN" playlist. Day-1 analytics (impressions/CTR/views/uniques):
+  P1 1.4K/1.7%/101/24 · P2 849/1.3%/33/12 · P3 207/1.0%/9/3 · P4 1.7K/0.9%/59/21; traffic
+  ~50–89% Browse. **CTR test assets ready 2026-08-29 — see
+  `character_scene_video/CTR_TEST_PLAN_VOL1.md`**: 3 thumbnail variants in
+  `<Volume_dir>/thumbnails/thumb_vol01_p1_var{A_row,B_faces,C_strip}.jpg` + paste-ready
+  description line-1s + title options. Sequencing: thumbnail Test & Compare on P1 first,
+  description line 1 on all parts now, title change only after the thumbnail test. **Done
+  2026-08-29:** thumbnail Test & Compare started + line-1 rewrites applied by user (verified via
+  API); cross-link line prepended via API to the top-25-viewed Vol-1 per-chapter videos
+  (casual wording, links `watch?v=sQ94crQVoAQ&list=PLQD_MWrZYC-I` so autoplay chains parts;
+  script idempotent in session scratchpad `crosslink_batch.py`). **End screens verified via
+  Studio 2026-08-29: P1→P2→P3 chained ✅, P4 has NONE ❌** — add manually (Vol-1 playlist +
+  subscribe now; swap to Vol-2 P1 when live). **First vertical Short built 2026-08-29:**
+  `<Volume_dir>/shorts/short_accidental_god_v1.mp4` (69 s, ch1+6+7 "accidental god" comedy
+  compilation; commentary captions carry the humor over the monotone TTS; beats timed via
+  `align/ch_N.json` lines; build script + upload notes + next-Short candidates in the same
+  folder — upload manually, set Related Video → P1). **Community post PUBLISHED 2026-08-29**
+  (posted by Claude via CDP/Studio; text matched the channel's casual voice — see the existing
+  posts before drafting another — with the P1 video card attached; reusable CDP driver:
+  scratchpad `cdp.py`, "Create post" opens the composer on www.youtube.com, not Studio).
+  Still TODO: upload the Short, P4 end screen, manual pinned comments on the top ~5 chapter videos.
+- **Volume 2 (ch214–482, `Volume_2_Faceless`) TAGGING COMPLETE (2026-08-28):** Blocks 5–10
+  (ch214–482) tagged + verified (176+145+125+159+143+68 scenes, ~54:11 total; tags 208/208,
+  197/197, 182/182, 220/220, 217/217, 102/102; alignment PASS all). Sharron (Miss Bodyguard,
+  ch244+) mapped to her existing wiki card. **Portrait decisions COMPLETE 2026-08-28 — need:0 in
+  all six blocks** (10 installed, everyone else answered 'no for now'; see the ledger below).
+  ⏭ **Next for Vol 2: frames → render → pack** (new tagging would be Vol 3, ch483+).
+- **`Hero Bandit` persona added 2026-08-29** (`project.json` → `persona.map`, image
+  `Hero Bandit.png`, label "Klein (as the Hero Bandit)"): Klein's black-armour/black-crown Dark
+  Emperor form, which the papers name in ch382. Tagged on the 12 scenes where he is actually in it —
+  ch377 s3, ch378 s1–2, ch379 s1, ch380 s1–5 (the Capim raid) and ch426 s3–4 + ch427 s1 (the Devil
+  in the sewer). NOT a disguise-identity like Sherlock: it becomes a real alias only later
+  (Vol 3 ch717, Dwayne Dantès in Vol 4). `image_names` also reserves Dwayne Dantès + Merlin Hermes,
+  but neither has a `map` entry yet — adding one without an image would KeyError in `build_block`.
+  The ch215 persona flip
+  (Klein → Sherlock Moriarty) is configured in `project.json` `base_flips`; ~ch214+ MP3s
+  post-date the title-echo fix (alignment's `has_title_echo()` handles either case).
+- Portrait ledger: Vol 1 have:32 need:0. Vol 2 in progress — 2026-08-28: `Will Auceptin` rekeyed in
+  `character_map.json` (wiki spells it `Wil`, one L) + **9 installs from user-supplied art**
+  (Aaron Ceres, Jurgen Cooper, Stelyn Sammer, Maric, Talim Dumont, Utravsky, Mike Joseph,
+  Ikanser Bernard, Lanevus) + **Edessak Augustus and Old Kohler 2026-08-29** (37 names left in
+  `_no_for_now`; their chapters were re-rendered and the affected upload parts re-concatenated).
+  **Depiction/stand-in convention adopted 2026-08-29** (user decision): resemblance art and joke
+  stand-ins are allowed for characters with no official art, marked with a small white * in the
+  image's top-right corner (`character_scene_video/mark_depiction.py <image>` stamps it at install)
+  and disclosed once in the series `credit_line` in `upload_meta.json` ("Portraits marked with a
+  small * are artist depictions or playful stand-ins"). First three: **Steve** (resemblance,
+  black coat + red cloak lining), **Jason** (cartoon zombie -- wiki literally says he looks like a
+  zombie), **Tyre** (werewolf under the moon). Susie + Mr. A's older fan art stays unmarked
+  ("obviously for fun", grandfathered). ch347-350 re-rendered, part 3 re-concatenated, packs
+  regenerated for both volumes.
+  **`Darkwill` identified 2026-08-29** (user): the plump 'Apothecary'/Beast Tamer from Eye of
+  Wisdom's gatherings, previously the bracketed `[fat-faced man]` — retagged to `Darkwill` in his
+  13 scenes (ch239-335) with `verified_present` entries (name never on-page there), portrait
+  installed (art with his owl, used as-is 648x900), blocks 5-7 rebuilt (213/202/186, 0 to fix),
+  chapters re-rendered, parts 1-3 re-concatenated (durations unchanged).
+  **`Kohler` -> `Old Kohler` alias added 2026-08-29** — the text says plain "Kohler", so the report
+  had been mis-filing a 20-scene / 89-min recurring character as ➖ minor and never asked about him;
+  standing rule + the Eye-of-Wisdom code-name rule (gathering scenes tag `Eye of Wisdom`, detective
+  scenes tag `Isengard Stanton`, NEVER aliased together) are documented in `TAGGING_GUIDE.md`. Sources are Chinese/Thai cover scans, page photos and donghua stills;
+  covers are hand-cropped to head/shoulders so the title, volume number and publisher logos stay out
+  of frame. Aaron Ceres was re-supplied at 1210x1730 and the first cover crop superseded (old file
+  parked in the session scratchpad, not deleted). Jurgen Cooper is low-res 190x267 — replace if a
+  bigger source appears.
+  **The other 38 Vol-2 wiki characters are recorded 'no' (2026-08-28) for lack of art, NOT because
+  they're unwanted** — tracked in `portrait_decisions.json` → `_no_for_now` (names + scene weight)
+  with the wiki's physical descriptions in
+  `projects/lotm_book1/timelines/portrait_wanted_descriptions.md`, so lookalike art can be slotted
+  in later (install → flip to `yes` → rerun `build_block.py` + `compose_frames.py`).
+  Hard-declined: Kaslana/Kaspars Kalinin (2026-08-28) +
+  Gawain/Jack/Naya/Mr. Franky/Bredt/Grimm/Edwards
+  (+ minor never-asked bucket). New-art installs use the clipboard-grab flow (visually verify each
+  capture before install); manual portraits are flagged in `character_map.json` so wiki re-fetches
+  can't clobber them.
 
-### Step 1 — Create AUDIO (Azure TTS)  → `D:/PDFReader/lom_book2_coi_output/Volume_*/*.mp3`
-- `python tts_pipeline/scripts/process_project.py --project lom_book2_coi --dry-run --max-chapters 5`
-  - **Safe validation pass** (no Azure billing). Run this first when unsure.
-- `python tts_pipeline/scripts/process_project.py --project lom_book2_coi --chapters N-M`
-  - Generate audio for a chapter range. Single chapter = `--chapters 604`.
-- `python tts_pipeline/scripts/process_project.py --project lom_book2_coi --continue 10`
-  - Generate audio for the **next 10 chapters** from where you left off (file-based tracking).
-- `python tts_pipeline/scripts/process_project.py --project lom_book2_coi`
-  - Resume/continue normal processing.
+### Engine layout (generalized; run everything with `py -3.12` from repo root)
+- Shared engine + per-project config: `character_scene_video/projects/<name>/project.json`
+  (template in `projects/_TEMPLATE/`). All scripts take `--project` (default `lotm_book1`).
+  Per-project data (scene tags, align, timelines, aliases, continuity, portrait decisions, frames)
+  lives in `character_scene_video/projects/<name>/`.
+- **Output is BY VOLUME:** everything renders/concats into `<video_out_dir>/<Volume_dir>/`
+  (e.g. `.../character_video/Volume_1_Clown/`); the volume folder is derived automatically from the
+  text layout by `charvid_project` helpers. `build_block_video.py` refuses ranges that cross a
+  volume boundary. Thumbnails go in `<Volume_dir>/thumbnails/`.
+- Upload-pack config (part ranges, story hooks, tags, pitch lines) lives per project in
+  `projects/<name>/upload_meta.json` (template in `_TEMPLATE/`).
+- Alignment is NOT aeneas/WhisperX: Azure-TTS audio of known text, matched sentence-sequence ↔
+  ffmpeg-pause-sequence with a DP. No extra deps.
 
-### Step 2 — Create VIDEO (from existing audio)  → `D:/PDFReader/lom_book2_coi_output/video/Volume_*/*.mp4`
-- `python tts_pipeline/scripts/create_videos.py --project lom_book2_coi --chapters N-M`
-  - **Standalone video creation** from already-generated `.mp3` files. Use this to clear the video backlog (audio is ahead of video).
-- `python tts_pipeline/scripts/create_videos.py --project lom_book2_coi --chapters N --preview`
-  - Preview settings for one chapter without writing files.
-- `python tts_pipeline/scripts/create_videos.py --project lom_book2_coi --resume`
-  - Resume an interrupted video batch.
-- **One-shot audio+video:** add `--create-videos` to the Step 1 command to make the video right after each chapter's audio:
-  - `python tts_pipeline/scripts/process_project.py --project lom_book2_coi --chapters N-M --create-videos`
+### BLOCK RECIPE (replace A B with the chapter range, e.g. 214 263)
+Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
+1. **Tag scenes**: read each chapter, write `projects/lotm_book1/timelines/scenes/ch_N.json` per
+   `TAGGING_GUIDE.md` (text-literal names); add boundary entries to `continuity.json` (incl.
+   boundary A-1); new aliases → `name_aliases.json`.
+   ⚠️ **Dream/vision/memory figures are NOT present** — never in `other_characters`; note them in
+   `setting` as "(visions only: …)".
+   ⚠️ **Roselle diary-reading interludes** (standing rule, all blocks): whenever Klein/The Fool
+   READS diary pages, split the scene around the reading — break scene = protagonist + Roselle
+   Gustav + anyone named in the pages (everyone else physically present dropped); resume scene
+   after. Carry Roselle in `continuity.json` across chapter breaks; whitelist via
+   `verified_present` if "Roselle" isn't in the line span; splitting renumbers scenes → update
+   existing `verified_present` indexes. Does NOT apply to diary discussion without reading, the
+   Antigonus diary, or recollections/quotes. Full rule in `TAGGING_GUIDE.md`.
+2. **Portrait decisions**: after step 5, `build_character_report.py A B` → record yes/no in
+   `portrait_decisions.json`; source images (`fetch_named_portraits.py` or user-supplied). After
+   ANY portrait change: rerun `build_block.py`, THEN `compose_frames.py`.
+3. `py -3.12 character_scene_video/align_chapter.py A B`
+4. `py -3.12 character_scene_video/verify_alignment.py A B`     # must PASS
+5. `py -3.12 character_scene_video/build_block.py A B`
+6. `py -3.12 character_scene_video/verify_tags.py A B`          # must be 0 to fix
+7. `py -3.12 character_scene_video/compose_frames.py --block --contact-sheet`  # eyeball new frames
+8. `py -3.12 character_scene_video/render_chapter.py A B`       # `--preview` first; spot-check
+   ⚠ **re-renders MUST pass `--force`** — without it the script SKIPS existing MP4s while still
+   printing a normal-looking per-chapter summary (timeline cuts, not the file). Bit us 2026-08-29:
+   six portrait installs looked rendered but weren't until a `--force` sweep. Verify with an
+   ffmpeg frame grab, not the log.
+9. `py -3.12 character_scene_video/build_block_video.py A B --plan` then without `--plan`
+   → `<Volume_dir>/Block_NN_chAAA-BBB.mp4` + `_description.txt` (keep each upload part < 12 h;
+   warns past 11.9 h; must not cross a volume boundary)
+10. Upload prep: add the volume's parts + hooks to `projects/<name>/upload_meta.json`, then
+    `py -3.12 character_scene_video/make_upload_pack.py --volume V` and
+    `py -3.12 character_scene_video/make_thumbnail.py V --name "<Vol Name>" --part K --range "A-B" --hours H`
 
-### Step 3 — UPLOAD to YouTube  → tracker `D:/PDFReader/lom_book2_coi_output/youtube_progress.json`
-> **Run only ONE upload job at a time** (two = duplicate uploads). Quota-safe pace ≈ 6 uploads/hour (~10 min apart).
-- `python upload_queue.py --project lom_book2_coi --limit=0`
-  - Auth + tracker check only (no uploads). Use to confirm OAuth and see the next pending chapter.
-- `python upload_queue.py --project lom_book2_coi --yes --limit=1`
-  - Upload the **next single** pending chapter (use when fixing a gap).
-- `python upload_queue.py --project lom_book2_coi --yes --limit=10`
-  - Upload the **next 10** pending chapters in order.
-- **OAuth:** if prompted, complete Google sign-in in the browser (creates/refreshes `token.json` in repo root). Nothing appears in YouTube Studio until auth finishes.
-- YouTube titles come from the **`Chapter N: <title>`** line in the formatted source text (`input_directory`), not the video filename.
+---
+
+## The 3-Step Workflow — `lom_book2_coi` (audio → video → upload)
+> Run from repo root (`pdf-reader`). Replace `N-M` with the chapter range.
+
+### Step 1 — AUDIO (Azure TTS) → `D:/PDFReader/lom_book2_coi_output/Volume_*/*.mp3`
+- Safe validation: `py -3.12 tts_pipeline/scripts/process_project.py --project lom_book2_coi --dry-run --max-chapters 5`
+- Range: `py -3.12 tts_pipeline/scripts/process_project.py --project lom_book2_coi --chapters N-M`
+- Next 10 from where we left off: `... --continue 10` · Resume: no extra flag
+- One-shot audio+video: add `--create-videos`
+
+### Step 2 — VIDEO → `D:/PDFReader/lom_book2_coi_output/video/Volume_*/*.mp4`
+- `py -3.12 tts_pipeline/scripts/create_videos.py --project lom_book2_coi --chapters N-M`
+- Preview one: `... --chapters N --preview` (⚠️ preview does NOT validate audio/art — simulated success)
+- Resume: `... --resume`
+- Encoder auto-probes at first use (this machine: AMD RX 9070 XT → `h264_amf`).
+- Audio filenames may drift from text filenames (old runs sanitized `'`/`,`/`!` and truncated);
+  `create_videos.py` falls back to chapter-number matching — uploader titles come from text files,
+  so drifted names are cosmetic.
+
+### Step 3 — UPLOAD → tracker `D:/PDFReader/lom_book2_coi_output/youtube_progress.json`
+> **ONE upload job at a time** (two = duplicates). Quota-safe pace ≈ 6/hour (~10 min apart; the script paces itself).
+- Auth/tracker check only: `py -3.12 upload_queue.py --project lom_book2_coi --limit=0`
+- Next single: `... --yes --limit=1` · Next 10: `... --yes --limit=10`
+- OAuth: complete browser sign-in as **breadmoretti@gmail.com** if prompted (`token.json` in repo root).
+- Titles come from the `Chapter N: <title>` line in the formatted source text, not filenames.
 - Config: `tts_pipeline/config/projects/lom_book2_coi/youtube_config.json`
+- ⚠️ The script has NO retry — if a chapter fails mid-batch it continues and leaves a hole; fix the
+  gap in order before the next batch (delete out-of-order later uploads only with user approval).
+- ⚠️ A pre-check snapshot goes stale during a long batch — re-check discovery after the run.
+- ⚠️ Per-upload `Video may not be in playlist` warnings are a known API-listing quirk, not data loss.
 
-### Step 4 — END SCREENS (next-chapter links)  → run AFTER a fully successful upload
-> Standing rule: **whenever the user asks to upload videos, once the whole batch has uploaded successfully (Step 3 reports `Failed: 0`), proceed to add end screens.** If ANY video in the batch failed to upload, do NOT run this step — fix the upload first. Tool: `youtube_endscreen.py` (drives YouTube Studio UI via Playwright; end screens are not in the Data API).
-- **Range rule (include the previous boundary chapter):** for an uploaded batch of chapters **N–M**, run end screens on **sources `(N-1)` through `(M-1)`**. This makes the previous last chapter `(N-1)` link to the first new chapter `N`, and each new chapter link to the next. The newest chapter `M` is intentionally **left until the next batch** (its target `M+1` isn't uploaded yet).
-  - **Example:** user uploads the next 10 = **261–270** → run end screens on **260–269** (`260→261`, `261→262`, … `269→270`). Chapter **270** waits for the following batch.
-- **Command:** `python youtube_endscreen.py --project lom_book2_coi --chapters (N-1)-(M-1) --connect-port 9222 --yes`
-  - e.g. after uploading 261–270: `python youtube_endscreen.py --project lom_book2_coi --chapters 260-269 --connect-port 9222 --yes`
-  - Pre-check offline first (no browser): add `--plan-only`. Verify one before a big batch: `--chapters (N-1)-(N-1)` then `--dry-run`.
-- **Style (matches the manual videos ch.249 and below):** Subscribe element left-middle + next-chapter Video element right-middle. Implemented by importing the layout from `--style-from 249` (default) and retargeting the video element. Don't change unless the user asks.
-- **Login / browser prereq (Google blocks automated sign-in):** the tool ATTACHES to a real Chrome on `--connect-port 9222`. Start it first; the logged-in profile persists at `%USERPROFILE%\yt-studio-login` (account = **breadmoretti@gmail.com**, which manages the channel — NOT paolo.gene).
-  - Launch: `& "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="%USERPROFILE%\yt-studio-login" "https://studio.youtube.com/"`
-  - If that profile is ever logged out / missing: sign in FIRST in a normal Chrome with a custom `--user-data-dir` and **no** debug port (Google allows it), then relaunch the same dir WITH the port. (App-Bound Encryption blocks copying a logged-in profile; a Playwright-launched browser is blocked at sign-in.)
-- **Safety guard:** unlisted-only — the tool reads `privacyStatus` via the Data API and skips public/private videos. If the boundary chapter `(N-1)` is already **public**, include it explicitly with `--allow-public-chapters (N-1)`.
-- **Idempotent:** videos that already have an end screen are skipped (no duplicates); rebuilding one requires clearing it manually first.
-- Tool is on `master` (`youtube_endscreen.py`); the old `feature/youtube-endscreens` branch was merged and deleted 2026-06-23.
+### Step 4 — END SCREENS (run AFTER a fully successful upload batch; skip if ANY upload failed)
+> Standing rule: after Step 3 reports `Failed: 0`, add end screens. Tool: `youtube_endscreen.py`
+> (Playwright driving Studio UI; idempotent — already-done videos are skipped; `--replace` not implemented).
+- **Range rule:** for uploaded batch N–M, run sources **(N-1)–(M-1)** (boundary chapter links to the
+  first new one; newest chapter M waits for the next batch).
+- `py -3.12 youtube_endscreen.py --project lom_book2_coi --chapters (N-1)-(M-1) --connect-port 9222 --yes`
+  (`--plan-only` = offline pre-check; style imported from ch249 via `--style-from`, don't change)
+- **Chrome prereq:** attaches to real Chrome on port 9222; profile `%USERPROFILE%\yt-studio-login`
+  (logged in as breadmoretti). **Assume Chrome is down between runs** — always
+  `curl http://127.0.0.1:9222/json/version` first; if silent, relaunch:
+  `& "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="%USERPROFILE%\yt-studio-login" "https://studio.youtube.com/"`
+  (If logged out: sign in first in a normal Chrome with that user-data-dir and NO debug port, then relaunch with the port.)
+- **Unlisted-only guard:** public videos are skipped; chapters go public within ~days of upload, so
+  run end screens promptly, else include via `--allow-public-chapters 320` (comma-separated list).
+- ⚠️ Don't pipe the tool's output through `tail` (truncates the log); re-running is the safe verify.
 
-### (Setup only) — Extract EPUB → formatted text
-- `python epub_to_text/main.py "<path>.epub" -p "lom_book2_coi" -o "formatted_text"`
-  - Extracts EPUB to `formatted_text/<project>/Volume_#/…/Chapter_#_….txt` for TTS. Each file begins with two header lines for TTS pauses: `Lord of Mysteries 2: Circle of Inevitability` then `Chapter N: <title>`. Leading body echoes of the title (including nav-style `N Title` / `N: Title` lines) are dropped so they are not read twice by TTS.
+### Chapter background art (per-project)
+> `tts_pipeline/config/projects/<project>/portrait_mapping.json` maps chapter-range → filename;
+> images in `tts_pipeline/assets/projects/<project>/backgrounds/` (+ `resized/`).
+- Add art: drop in `.../dropoff/` → `py -3.12 tts_pipeline/scripts/prepare_backgrounds.py --project <project>`
+  → edit `portrait_mapping.json` → `... --status` to verify (exit 0 = all mapped).
+- `null` ranges fail loudly at render; never use `--background-image` overrides for production.
+- **`lom_book2_coi` mapping (physical-edition parts):** boundaries
+  1-55 / 56-109 / 110-186 / 187-263 / 264-340 / 341-417 / 418-494 / 495-575 / 576-655 / 656-735 / 736-884
+  (`coi_v1..coi_v11`; `coi_v10_sinner_3` is `.jpeg`). ✅ mapped through ch884 — **ch885+ has NO art yet.**
+- `lotm_book1` mapping complete.
 
-### Utility
-- `python tts_pipeline/scripts/process_project.py --list-projects` — list available TTS projects.
+### Setup / utility
+- EPUB → text: `py -3.12 epub_to_text/main.py "<path>.epub" -p "<project>" -o "formatted_text"`
+  (two header lines per file for TTS pauses; drops body title echoes).
+- List projects: `py -3.12 tts_pipeline/scripts/process_project.py --list-projects`
+- Tests: `cd tts_pipeline && py -3.12 -m pytest tests/ -q` (66 passed as of 2026-08-10).
 
-## Tracking (Audio, Video, Uploads)
-- Do not use `tracking/*.json` for progress status updates.
-- Keep progress status directly in this file under "Current Progress Log".
-- Use local output folder as source of truth for created audio/video counts:
-  - `D:/PDFReader/lom_book2_coi_output`
-- Use YouTube API (or `youtube_progress.json` when reconciling) for most recent uploaded video.
+## Config & path conventions
+- Output root: `D:/PDFReader/` (per-project: `D:/PDFReader/<project>_output`).
+- `process_project.py` must run with cwd = repo root (paths resolve under the repo).
+- COI config dir: `tts_pipeline/config/projects/lom_book2_coi/` (`volume_pattern` = `Volume_(\\d+)_`).
+- Azure: copy `azure_config.json.example` → `azure_config.json` (gitignored); set
+  `AZURE_TTS_SUBSCRIPTION_KEY` / `AZURE_TTS_REGION` in env; never commit secrets.
+- Naming quirks (don't "fix"): book1 audio on disk keeps legacy `N___VOLUME_N___` folders;
+  COI text says `Volume_2_Light_Chaser` but outputs use `Volume_2_Lightseeker`.
+- Repo audits 2026-06-14 + 2026-08-10 (import fixes, asset reorg, doc sync, dead-file deletions)
+  are recorded in git history and the synced docs (`README.md`, `ARCHITECTURE.md`, `SCRIPTS_GUIDE.md`).
 
-## TTS project `lom_book2_coi`
-- Run `process_project.py` with **current working directory = repository root** (`pdf-reader`). `project.json` uses `input_directory` `formatted_text/lom_book2_coi` so paths resolve under the repo (not `../formatted_text`, which points outside the repo when cwd is the root).
-- Config directory: `tts_pipeline/config/projects/lom_book2_coi/` (`project.json`, `processing_config.json`, `video_config.json`).
-- `processing_config.json` uses `volume_pattern` `Volume_(\\d+)_` so chapter discovery matches `formatted_text/lom_book2_coi/Volume_N_Name/Chapter_N_*.txt` (not the book1 `N___VOLUME_N___` layout).
-- Azure voice file: copy `azure_config.json.example` to `azure_config.json` in that folder (real `azure_config.json` is gitignored under `tts_pipeline/`). Set `AZURE_TTS_SUBSCRIPTION_KEY` and `AZURE_TTS_REGION` in the environment (do not commit secrets).
+## Tracking
+- Progress status lives HERE (below), not in `tracking/*.json`.
+- Source of truth for created audio/video: the output folder on D:. For uploads: YouTube API /
+  `youtube_progress.json`.
 
-## YouTube uploads (`lom_book2_coi`)
-
-- **Cwd:** repository root (`pdf-reader`).
-- **One job at a time** — never run two `upload_queue.py` processes (causes duplicate uploads).
-- **Volume 2 playlist (canonical):** [LOM2 COI - Volume 2: Lightseeker](https://www.youtube.com/playlist?list=PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s) — playlist ID `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s` (set in `youtube_config.json` → `playlists.playlist_ids["2"]`).
-- **Video folder for vol. 2:** `D:/PDFReader/lom_book2_coi_output/video/Volume_2_Lightseeker/` (`volume_name` = `Lightseeker` for playlist title formatting).
-- **Do not use** wrong auto-created playlist `PLV2gvMHy77hrh1HeiBECpJ61Smbgg5_S6` (from old `LOTM 2 - Volume …` name template).
-  - ✅ **Fixed:** `get_playlist_id()` now returns the configured `playlists.playlist_ids["2"]` when `create_per_volume` is true, so new Volume-2 uploads (ch. 241+) go to the correct Lightseeker playlist. (Commit the working-copy changes to `youtube_uploader.py` + `youtube_config.json`.)
-  - ⚠️ **Cleanup left:** the 30 chapters already uploaded to the wrong playlist (incl. 236–240) must be **moved manually** in YouTube Studio — code change does not relocate existing videos.
-- **Tracker:** `D:/PDFReader/lom_book2_coi_output/youtube_progress.json`
-
-## Path and Environment Conventions
-- Active local output root base is `D:/PDFReader/`.
-- Optional local convention for portability:
-  - `.env` key name: `LOCAL_OUTPUT_ROOT`
-  - Example value: `D:/PDFReader/`
-- Per-project outputs should append project-specific folders (example: `D:/PDFReader/lom_book2_coi_output`).
-- Note: current runtime uses project config files for output paths; keep `.env` and config aligned unless code is updated to consume `LOCAL_OUTPUT_ROOT`.
-
-## Repo Audit (done 2026-06-14)
-- **Deleted** (dead/orphan, recover from git if ever needed): `tts_pipeline/api/azure_tts_client_old.py`, `upload_test.py`, `tts_pipeline/scripts/fix_progress_tracking_v2.py`, `tts_pipeline/scripts/check_project_status_v2.py`.
-- **Kept:** `tts_pipeline/scripts/check_project_status.py` (the referenced status check) and `generate_upload_csv.py` (manual-upload fallback).
-- Stale docs still to reconcile with this file: `tts_pipeline/TTS_PROGRESS.md`, `tts_pipeline/SCRIPTS_GUIDE.md`, root `README.md`.
-
-## Upload Readiness (next session) — checked 2026-06-15
-**You can upload immediately — just run Step 3.** Prereqs verified:
-- ✅ No upload process running (safe to start one).
-- ✅ `token.json` present & fresh (used 2026-06-14) — OAuth should not re-prompt; if it does, finish the browser sign-in.
-- ✅ Videos for ch. **251–350 all exist** (100 ready). Next pending = **251**.
-- **Command:** `python upload_queue.py --project lom_book2_coi --yes --limit=10` (uploads 251–260). Optional pre-check: `--limit=0`.
-- ⚠️ **Volume boundary at ch. 264:** ch. 251–263 → Volume 2 (Lightseeker, pinned). Ch. **264+ → Volume 3 (Conspirer)**, which is NOT pinned, so the first ch.264 upload will **auto-create** a `"LOM2 COI - Volume 3: Conspirer"` playlist (intended). **After that upload, capture the new playlist ID into** `youtube_config.json → playlists.playlist_ids["3"]` so later vol-3 uploads reuse it instead of re-searching by name.
-- After any batch, update the progress table below (and "next to upload").
+## YouTube (`lom_book2_coi`)
+- Channel account: **breadmoretti@gmail.com** (NOT paolo.gene).
+- Playlists (reused by ID from `youtube_config.json → playlists.playlist_ids`):
+  V2 Lightseeker `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s` · V3 Conspirer `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`.
+- ⚠️ Old wrong playlist `PLV2gvMHy77hrh1HeiBECpJ61Smbgg5_S6`: 30 early uploads (incl. 236–240) still
+  need MANUAL moving in Studio; everything from 241 on is correct.
+- Old one-off issues: ch230–232 may have duplicate uploads; ch215 title may need a manual fix.
 
 ## Current Progress Log
-Update this section during/after processing runs.
 
-### lom_book2_coi — verified against disk + tracker on 2026-06-14; uploads updated 2026-07-27
-- Output folder: `D:/PDFReader/lom_book2_coi_output`
-- **Pipeline position (each stage feeds the next):**
-  | Stage | Files done | Highest chapter | Next action |
-  |---|---|---|---|
-  | Audio (`.mp3`) | 603 | 603 | generate ch. **604+** |
-  | Video (`.mp4`) | 351 | 350 | create ch. **351+** (audio is ~253 ch. ahead) |
-  | Upload | 320 | 320 (no gaps) | upload ch. **321** |
-- **Audio:** 603 files (V1=109, V2=154, V3=231, V4=109). Last run `2026-05-12` — ch. `603` (`Volume_4_Sinner/Chapter_603_Organs_Again.mp3`).
-- **Video:** 351 files through ch. 350 (V1=110, V2=154, V3=87, V4=**0**). Big backlog: ch. 351–603 have audio but no video; `Volume_4_Sinner` has none yet.
-- **Uploads:** 320 entries, chapters **1–320 fully uploaded with NO gaps**.
-- **Next to upload:** chapter `321` (then 322, 323 …). Videos exist through ch. 350, so ch. 321–350 are ready now (30 pending). All vol-3 (ch. 264+) → Conspirer playlist `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM` (captured in `youtube_config.json → playlists.playlist_ids["3"]`), reused by ID.
-- ⚠️ **Run scripts with `py -3.12`, not `python`.** On this machine `python` on PATH resolves to Python **3.11**, which is missing `dotenv` / `google-api-python-client` (upload fails instantly with `ModuleNotFoundError: No module named 'dotenv'`). Python 3.12 has all deps installed.
-- **Most recent upload:** `2026-08-01` — batch of ch. **311–320** uploaded (10/10 success, 0 failed), all → Conspirer (vol 3) `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`. OAuth did not re-prompt (token still valid). Video IDs: 311 `PdWsDc4dhqs`, 312 `nKT1wRbxmNE`, 313 `dKqFmR8Nwcw`, 314 `ARa4_aM5sAs`, 315 `j9F2gG6TYig`, 316 `RFFXoJ_QXRw`, 317 `qDxXfNi8Z5M`, 318 `5uSTJMOHE9A`, 319 `XIDIbxfDKSc`, 320 `Tg9IGjYuv9k`. ⚠️ Each logged `[WARNING] Video may not be in playlist` (known API-listing quirk, not data loss).
-- Prior upload: `2026-07-27` — batch of ch. **301–310** uploaded (10/10 success, 0 failed), all → Conspirer (vol 3) `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`. OAuth did not re-prompt (token still valid). Video IDs: 301 `G_2tv8KSvto`, 302 `bKz6_mblDGg`, 303 `mnP7Za9rwx8`, 304 `dyBz8LTl-Sg`, 305 `5GBVNYC59jg`, 306 `kmM3yFbY-dY`, 307 `yDdkmrJOV24`, 308 `kuT_ZMJMx5k`, 309 `-aegIdIbNqQ`, 310 `aDUVMLIoAnc`. ⚠️ Each logged `[WARNING] Video may not be in playlist` (known API-listing quirk, not data loss).
-- Prior upload: `2026-07-15` — batch of ch. **291–300** uploaded (10/10 success, 0 failed), all → Conspirer (vol 3) `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`. OAuth had expired; the browser re-auth completed to the correct account **Bread Moretti** (breadmoretti@gmail.com, channel `UClJ5WR0BWcxbhGdVWzUbbOw`), fresh `token.json` written. Verified via API that this channel hosts the COI videos (ch280/290) — the tracker "10/290 match" warning is just the channel-listing call returning a recent slice (~34 videos), NOT a wrong channel. Note: the Bread Moretti channel also hosts Book-1 LOTM videos (ch.1258–1380), which is why they appear as "not in tracker". Video IDs: 291 `0WRvmsGcBzc`, 292 `NZHdsj8Hbgk`, 293 `mUAtDMkBTac`, 294 `ZY1ggCSrQvA`, 295 `pbtdmEesBlk`, 296 `cNBuTBvVTr8`, 297 `4aiF39LZLoY`, 298 `ltTyYfXYV_E`, 299 `aHuEBRLVg_o`, 300 `llD35lv4-Cg`. ⚠️ Each logged `[WARNING] Video may not be in playlist` (known API-listing quirk, not data loss).
-- Prior upload: `2026-07-12` — batch of ch. **281–290** uploaded (10/10 success, 0 failed), all → Conspirer (vol 3) `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`. OAuth did not re-prompt (token still valid). Video IDs: 281 `tx8R21VZufc`, 282 `WyN3NZWoLdA`, 283 `j6bQcQ0Df-Y`, 284 `gtDYxSXJ38c`, 285 `HL0b8C1MiDs`, 286 `TuLXbXbCnQw`, 287 `EU2bahxk7-4`, 288 `YLQeagnUzsk`, 289 `ihFfI6zfJls`, 290 `_kfm_TJcZZU`. ⚠️ Each upload logged `[WARNING] Video may not be in playlist` — spot-check Conspirer playlist membership in Studio (known API-listing quirk, not data loss).
-- Prior upload: `2026-07-06` — batch of ch. **271–280** uploaded (10/10 success, 0 failed), all → Conspirer (vol 3) `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`. OAuth token had expired; re-authed via browser (breadmoretti@gmail.com), fresh `token.json` written. Video IDs: 271 `uE4bn3LcI7k`, 272 `B_KD7cFnB3w`, 273 `YrC7PbS8bXo`, 274 `SvTQxXcSBpQ`, 275 `4d7vNCvBUo0`, 276 `4mF7EJxFl08`, 277 `qYHW8tFFJok`, 278 `j7ZFvBCXnFk`, 279 `z0b_61_B1w8`, 280 `jsW1kmuZ_HY`.
-- Prior upload: `2026-06-23` — batch of ch. **261–270** uploaded (10/10 success, 0 failed). Routing: 261–263 → Lightseeker (vol 2) `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s`; **264–270 → new Conspirer (vol 3)** `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM` (auto-created as expected). Video IDs: 261 `YVEZbu_IPf0`, 262 `C8XrjhNtqAI`, 263 `RMnN_VrdpE0`, 264 `tUv_7-grqIg`, 265 `PLxBjzH81FA`, 266 `9WeeSg22tmw`, 267 `WOITsMEYBAg`, 268 `hPcRen55wTA`, 269 `bHlTkTn453U`, 270 `pM3dCbRE3XI`.
-- **End screens:** done through ch. **299→300** on `2026-07-15` (ran `youtube_endscreen.py` on sources 290–299, 10/10 saved, 0 fail; all sources unlisted so no `--allow-public-chapters` needed). This also resolved the previously-dangling 290→291 link. ⏭ **Dangling:** ch. **300** has no end screen yet (its target 301 not uploaded) — it gets linked next batch when end screens run on sources 300–309. Prior runs: sources 280–289 on `2026-07-12` (289→290; ch. 280 was public, included via `--allow-public-chapters 280`); sources 270–279 on `2026-07-06` (279→280); sources 260–269 on `2026-06-24` (269→270).
-- Earlier batch: `2026-06-18` — ch. **251–260** uploaded (10/10, 0 failed), all to Lightseeker `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s`. IDs: 251 `NAcRnOcfezM`, 252 `7aAfZhRt5kU`, 253 `Qn_If9Ocw9U`, 254 `N92STG7KL5k`, 255 `OtMSCWY4Ro8`, 256 `NIgL_FPrWsU`, 257 `FsHhzue1ZBo`, 258 `slJubVTzF3I`, 259 `emfmO9UGyWo`, 260 `XVJw7wvQiXE`.
-- **Playlist note:** the older uploads **236–240** (and 25 earlier ones) are still on the WRONG playlist `PLV2gvMHy77hrh1HeiBECpJ61Smbgg5_S6` — move them manually in YouTube Studio. Everything from 241 on is correct.
-- Notes: ch. **230–232** may have duplicate uploads on channel from overlapping runs. Ch. 215 title may still need a manual fix on YouTube.
-- EPUB formatted chapters (repo): `1180` `.txt` files under `formatted_text/lom_book2_coi` in **8** volume folders (from `epub_to_text/lom_book2_coi/epub/Circle of Inevitability.epub` + `epub_to_text/lom_book2_coi/volume_map.json`)
+### lom_book2_coi (uploads updated 2026-08-21)
+| Stage | Done | Highest | Next action |
+|---|---|---|---|
+| Audio (`.mp3`) | 603 | 603 | generate ch. **604+** |
+| Video (`.mp4`) | 601 files (through 600, contiguous 1–600) | 600 | create ch. **601–603**, then wait for audio |
+| Upload | 360 (1–360, no gaps) | 360 | upload ch. **361** (240 pending; all vol-3+ ranges routed by ID) |
+
+- Most recent upload: 2026-08-21, ch. **351–360** (10/10, → Conspirer; drifted-filename ch357 worked end to end).
+- End screens: done through **359→360** (2026-08-21). ⏭ **Dangling: ch360** — include as source in the
+  next batch (sources 360–369 after uploading 361–370).
+- Volume boundaries: ch264+ → vol 3 (Conspirer). Ch885+ needs background art before video creation.
+- Disk: ~1.17 TB free on D:; ~672 MB/video average.
+- EPUB source: 1180 formatted chapters in 8 volume folders under `formatted_text/lom_book2_coi`.
+- Per-batch video IDs and dated batch history: `youtube_progress.json` + git history of this file.
+
+### character_scene_video (2026-08-29)
+- Volume 1 (ch1–213): rendered complete; **all 4 parts UPLOADED + PUBLIC 2026-08-28** (IDs and
+  day-1 analytics in the "Current state" section above). Obsolete 43 h `Block_01_ch001-213.mp4`
+  still on disk (delete only with user approval).
+- Optional leftover: user spot-check of the 29 block-3 Tarot-gathering scenes (list generated 2026-08-27).
+- **VOLUME 2 TAGGING COMPLETE 2026-08-28: Blocks 5–10 (ch214–482) TAGGED + VERIFIED**
+  (176/145/125/159/143/68 scenes, ~54:11 total; verify_tags 208/208, 197/197, 182/182, 220/220,
+  217/217, 102/102; alignment PASS all). Frames + render deferred per user.
+- **Vol 2 portrait round started 2026-08-28:** Will Auceptin spelling fix + **Aaron Ceres, Jurgen
+  Cooper, Stelyn Sammer, Maric, Talim Dumont, Utravsky, Mike Joseph, Ikanser Bernard, Lanevus** installed
+  (user-supplied cover/illustration art via clipboard; Aaron Ceres re-supplied at higher res, cover
+  crop superseded); **Kaslana + Kaspars Kalinin hard-declined**. The remaining **38 got 'no for
+  now'** (no art found) — recorded in `portrait_decisions.json` → `_no_for_now` with scene weight,
+  and their wiki physical descriptions collected in
+  `timelines/portrait_wanted_descriptions.md` so the user can hunt lookalike art; flipping one to
+  `yes` after installing art + rerunning `build_block.py`/`compose_frames.py` is all it takes.
+- **PORTRAIT DECISIONS DONE — all six Vol-2 blocks rebuilt + verified 2026-08-28: need:0 everywhere,
+  verify_tags 208/198/182/220/217/102, 0 to fix.**
+- **2026-08-29 — FRAMES DONE:** `compose_frames.py --block --contact-sheet` composed the 83 new
+  portrait sets (212 distinct sets across Book 1; 218 PNGs + `_contact_sheet.png` in
+  `projects/lotm_book1/frames/`); all 1,529 scenes across every block resolve to a frame on disk
+  (0 missing).
+- **2026-08-29 — VOLUME 2 IS BUILT AND PACKED.** `render_chapter.py 214 482` rendered all 269
+  chapters (0 missing, 0 undersized), then `build_block_video.py` concatenated **five upload
+  parts** into `character_video/Volume_2_Faceless/`, all ~1 h 10 m under the 12 h cap:
+  ch214–266 (10:49:10) / 267–320 (10:53:01) / 321–374 (10:50:06) / 375–428 (10:46:40) /
+  429–482 (10:51:58), ~805 MB each, 54:11 total. Split computed as a balanced 5-way min-max over
+  the aligned audio durations, cut points nudged onto story beats (The World's Commission / Action /
+  Artificial Sleepwalking just before Capim's dinner / The Scapegoat). `make_upload_pack.py
+  --volume 2` + `make_thumbnail.py` wrote per-part description/pinned/tags files and
+  `thumbnails/thumb_vol02_p1..5.jpg`; `playlist_vol02.txt` and
+  `character_scene_video/YOUTUBE_UPLOAD_PLAN_VOL2.md` are written too.
+  ⏭ **NEXT ACTION: manual Studio upload of Volume 1's 4 parts, then Volume 2's 5 parts.**
