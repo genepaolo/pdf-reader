@@ -1,0 +1,23 @@
+{
+ "chapter": 309,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Utravsky"],
+   "setting": "Back in the real cathedral, Utravsky weeps like a newborn: reward time — Klein passes on the blood-syringe relic and takes the Master Key (opens locks and unreal passageways; side effect: getting randomly lost, promptly demonstrated) plus the Apothecary formula",
+   "text_anchor": "“I want the Master Key.”"
+  },
+  {
+   "line_start": 137,
+   "line_end": 157,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Stelyn Sammer", "Luke Sammer"],
+   "setting": "Sunday morning: a letter posted to Isengard about the four-year-old case, then the dressed-up Sammers share the news — Mary made the Pollution Council, chaired by Sir Ders Shaw with Hibbert Hall as First Secretary",
+   "text_anchor": "“The Chairman of the council is Sir Ders Shaw and the First Secretary is Mr. Hibbert Hall.”"
+  }
+ ]
+}

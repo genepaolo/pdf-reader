@@ -1,0 +1,32 @@
+{
+ "chapter": 351,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 29,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Past midnight home: the goatskin Book of Secrets found in the wardrobe, every dangerous spoil thrown above the fog, and an exhausted Magician asleep in ten seconds",
+   "text_anchor": "“Book of Secrets. “Klarman.”"
+  },
+  {
+   "line_start": 33,
+   "line_end": 87,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Ikanser Bernard", "[Machinery Hivemind members]"],
+   "setting": "At the scrubbed battlefield, deacon Ikanser Bernard consults the mirror Arrodes: blurred visions of the top-hatted bower, the cloaked man, the transparent-faced woman — then the mirror demands its reciprocal question: 'What's your sexual orientation?'",
+   "text_anchor": "“Respected Arrodes, my question is ‘Who were the participants in the incident that just happened here?'”"
+  },
+  {
+   "line_start": 89,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Six a.m. above the fog (visions only: Tyre's werewolf feats; the Poison Bottle's random horrors and amber antidote): the spoils are appraised, and the Book of Secrets opens on its creed — 'We worship the moon, not the Evernight Goddess.'",
+   "text_anchor": "“We worship the moon, not the Evernight Goddess.”"
+  }
+ ]
+}

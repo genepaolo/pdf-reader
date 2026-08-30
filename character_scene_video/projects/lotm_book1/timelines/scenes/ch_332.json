@@ -1,0 +1,41 @@
+{
+ "chapter": 332,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 75,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Sharron", "Maric"],
+   "setting": "Shaman King Klarman's Book of Secrets described — mysticism enough to make an expert of anyone; Klein asks for a day, swears secrecy on Rosago's Notary Certificate under Sharron's seal of light, and steps off the zombie-driven carriage",
+   "text_anchor": "“I promise I won't tell anyone what I just learned from Miss Sharron and Mr. Maric.”"
+  },
+  {
+   "line_start": 77,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Decoy divinations downstairs, the real ones at 4 a.m. above the fog (Dark Emperor card politely flipped face-down): accept, considerable but survivable danger — 'Then, let's have a grand performance.'",
+   "text_anchor": "Then, let's have a grand performance."
+  },
+  {
+   "line_start": 119,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Sharron"],
+   "setting": "Nine o'clock, an empty living room: Klein accepts aloud to the oriel window and asks for preparation days; a bodiless voice answers 'Okay. After you've finished preparing, you can pay the bar a visit.'",
+   "text_anchor": "“After you've finished preparing, you can pay the bar a visit.”"
+  },
+  {
+   "line_start": 143,
+   "line_end": 171,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Fors Wall", "Xio Derecha", "Glaint", "Susie"],
+   "setting": "Glaint's study: a Psychology Alchemists-adjacent gathering is on for this afternoon in North Borough; Glaint tags along, proud owner of the Apothecary formula — sold to him by Fors at a tidy 70-pound markup",
+   "text_anchor": "“Oh, Fors sold it to me. 300 pounds."
+  }
+ ]
+}

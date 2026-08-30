@@ -1,0 +1,32 @@
+{
+ "chapter": 328,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 31,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "A careful loop back to the kill site: no trace, no memory in the passersby — only the boundary-feel of a Sealed Artifact spanning at least a block; the 'never perform unprepared' rule stirs the potion's characteristics",
+   "text_anchor": "There was nothing out of the ordinary about his target area."
+  },
+  {
+   "line_start": 33,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Jurgen Cooper"],
+   "setting": "Dinner ambush at Jurgen's: with Doris hospitalized, the lawyer's own blackened cooking must be survived politely ('the white bread isn't bad' — 'That was bought from Dodge bakery'); Klein is hired at two soli a visit to feed Brody, who promptly turns his back on him",
+   "text_anchor": "“That was bought from Dodge bakery.”"
+  },
+  {
+   "line_start": 123,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Home to a stampless letter: Isengard confirms the murderer found and killed — half the bounty coming; with Backlund easing, Klein plans to seek Sharron and Maric's mysticism books through Kaspars",
+   "text_anchor": "“… I'm very pleased to inform you that the murderer has been found and killed on the spot."
+  }
+ ]
+}

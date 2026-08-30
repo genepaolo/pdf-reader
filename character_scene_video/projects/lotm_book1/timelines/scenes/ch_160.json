@@ -1,0 +1,41 @@
+{
+ "chapter": 160,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 57,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Kenley White", "Royale Reideen", "Dunn Smith"],
+   "setting": "Break-room cards on Tuesday: Dunn brings word of Morse Town's hauntings — Klein angles his way onto the mission and gets 3-0782 approved",
+   "text_anchor": "Tuesday morning."
+  },
+  {
+   "line_start": 59,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Kenley White"],
+   "setting": "Basement stairway: Leonard warns Klein off 'discovering his secret'; Kenley brings up the Mutated Sun Sacred Emblem",
+   "text_anchor": "There was no one there, and it was extremely quiet."
+  },
+  {
+   "line_start": 81,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Kenley White"],
+   "setting": "Three-hour carriage ride to Morse Town, arriving over golden wheat fields at the turn of the Bumper Harvest constellation",
+   "text_anchor": "Then, the three of them left the Blackthorn Security Company"
+  },
+  {
+   "line_start": 107,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Kenley White", "Siur", "[townsfolk]"],
+   "setting": "Morse Town square: Priest Siur greets the 'professionals' while Leonard flourishes garlic for the crowd's benefit",
+   "text_anchor": "At that moment, a middle-aged man in a black priest's gown walked over."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "chapter": 255,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 57,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Doragu Gale",
+    "Erica Taylor"
+   ],
+   "setting": "Inside the linen cupboard, reading the affair by aura colors: silk stockings, ignition — then the Spectral Camera's contained flash catches Doragu and Erica mid-tumble, and Klein rolls out with a silent bow toward the bed",
+   "text_anchor": "“Erica, I brought you a present,”"
+  },
+  {
+   "line_start": 59,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "Back in his own lounge: Miss Bodyguard's hand emerges from the camera lens; invited to breakfast, she notes she can go without eating for two weeks and vanishes into the mirror",
+   "text_anchor": "At that moment, a hand suddenly stretched out from the camera lens."
+  },
+  {
+   "line_start": 81,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres"
+   ],
+   "setting": "Club cafeteria breakfast with surgeon Aaron Ceres: the assassination headline, Parliament's pollution bills (good news for Mary's council ambitions), and Aaron's streak of unlucky failed surgeries",
+   "text_anchor": "“Good morning, Dr. Ceres.”"
+  },
+  {
+   "line_start": 137,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "300 pounds handed to Miss Bodyguard, photos developing — and an evening plan to work more Beyonder circles at the Bravehearts Bar while her protection lasts",
+   "text_anchor": "went to withdraw 500 pounds in cash, and gave 300 pounds to Miss Bodyguard"
+  }
+ ]
+}

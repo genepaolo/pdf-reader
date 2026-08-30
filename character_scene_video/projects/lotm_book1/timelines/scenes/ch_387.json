@@ -1,0 +1,39 @@
+{
+ "chapter": 387,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 65,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Alone after seeing Aaron out: the paper crane, luster-less yet touched by fate, is the dream's medium — instilled either through the spirit world itself or as a seed in his subconscious; a lecture-in-thought on the spirit world's timeless sea, then divination shows no danger and breakfast is finished cold",
+   "text_anchor": "Therefore, Klein suspected that the medium which instilled the dream into Dr. Aaron was the paper crane!"
+  },
+  {
+   "line_start": 69,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler"
+   ],
+   "setting": "Old Kohler's crowded third-floor room: most of his pay goes on information, the rest saved against old age — talk of a Single Elder Aid Policy — and a quiet request to stop mentioning the volunteer search. 'No one will laugh at your kindness.'",
+   "text_anchor": "“Most of the money is for gathering information for you.”"
+  },
+  {
+   "line_start": 95,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler",
+    "Daisy",
+    "Liv",
+    "Freja"
+   ],
+   "setting": "Liv's house again: Daisy back at the iron among dripping laundry, the vocabulary book returned, two pounds passed off as a reporter's advance and pressed on them as 'a rule' — then a hasty exit and a low verdict on the street: 'There has never been a savior…'",
+   "text_anchor": "“There has never been a savior…”"
+  }
+ ]
+}

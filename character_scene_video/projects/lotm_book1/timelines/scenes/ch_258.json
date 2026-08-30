@@ -1,0 +1,41 @@
+{
+ "chapter": 258,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "Rental carriage through the drizzle: Miss Bodyguard warns that Eye of Wisdom sensed her — then smells rich blood; a disemboweled woman lies at an alley mouth, and she names the culprits before vanishing: the Blood Sanctify Sect",
+   "text_anchor": "“That Eye of Wisdom sensed my presence.”"
+  },
+  {
+   "line_start": 73,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Stelyn",
+    "Faxine",
+    "Sharron"
+   ],
+   "setting": "Saturday errands: word to Stelyn for Mary, the photos picked up, ten pounds of bail reclaimed (with an awkward glimpse of the real Sergeant Faxine), and the bodyguard's final 600 pounds paid in full",
+   "text_anchor": "he also saw the real Sergeant Faxine and felt a little uncomfortable"
+  },
+  {
+   "line_start": 87,
+   "line_end": 167,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Millet Carter",
+    "Sharron"
+   ],
+   "setting": "A new client over hot water: old Millet Carter of Midseashire found a secret door in his Williams Street basement opening onto a vast underground structure — 50 pounds to explore it quietly; coin and bodyguard's intuition both say take it",
+   "text_anchor": "“Millet Carter,” the old gentleman answered simply."
+  }
+ ]
+}

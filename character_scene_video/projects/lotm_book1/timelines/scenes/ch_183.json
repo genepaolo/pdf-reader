@@ -1,0 +1,32 @@
+{
+ "chapter": 183,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Benson", "Melissa", "Bella"],
+   "setting": "Study-hall evening at home: the lamps dim as Daly's tongue-fingered messenger delivers her full lesson on mediumship with the living — read behind a newspaper",
+   "text_anchor": "After dinner, Klein engaged in small talk before reclining on the sofa."
+  },
+  {
+   "line_start": 111,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Night: the Flaring Sun Charm retrieved from above the fog; no reply from Azik yet",
+   "text_anchor": "That night, Klein once again tried the ritual for summoning himself"
+  },
+  {
+   "line_start": 119,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Tuesday morning: back at Blackthorn, knocking on the Captain's door",
+   "text_anchor": "The following day, Tuesday morning."
+  }
+ ]
+}

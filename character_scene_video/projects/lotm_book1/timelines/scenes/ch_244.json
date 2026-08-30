@@ -1,0 +1,59 @@
+{
+ "chapter": 244,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Xio Derecha", "Fors Wall", "Glaint"],
+   "setting": "Glaint's study: Audrey clarifies the job — find a Beyonder who CAN kill Bakerland; 4000 pounds for the deed, 500 for the brokering, 200 even on failure",
+   "text_anchor": "“What?” Fors touched her earlobes, wondering if she had heard wrongly."
+  },
+  {
+   "line_start": 35,
+   "line_end": 75,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall", "Mr. A", "[Mr. A's attendant]"],
+   "setting": "Mr. A's house at three o'clock: the hooded host accepts the assassination — for a High-Sequence formula (Unshadowed, Cataclysmic Interrer, Prophet or Manipulator) or 10,000 gold pounds",
+   "text_anchor": "“Assassinate the Intis ambassador to the Loen Kingdom, Bakerland Jean Madan.”"
+  },
+  {
+   "line_start": 77,
+   "line_end": 77,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall", "Susie"],
+   "setting": "Evening handoff: Mr. A's terms passed to the familiar large golden retriever at a predetermined spot",
+   "text_anchor": "the two of them met the familiar large golden retriever at a predetermined location"
+  },
+  {
+   "line_start": 79,
+   "line_end": 85,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall"],
+   "setting": "Audrey, relieved it is only 10,000 pounds, plans a discreet 8000-pound loan and writes back: option two — 2000 in advance, 8000 on completion",
+   "text_anchor": "When Audrey finished reading the note"
+  },
+  {
+   "line_start": 89,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Mary Gale", "Stelyn Sammer"],
+   "setting": "Tea-time report at 15 Minsk Street: the mistress is Erica Taylor of 126 New Year's Street; Mary will sponsor 'famous detective' Moriarty into the Quelaag Club to get the material evidence",
+   "text_anchor": "Klein saw Mary Gale again at tea time."
+  },
+  {
+   "line_start": 111,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Kaspars Kalinin", "Maric"],
+   "setting": "Bravehearts Bar after dinner: a zombie-less Maric relays that a friend — stronger than him, short on money — will bodyguard Klein for three days at 1000 pounds",
+   "text_anchor": "“Does that job of yours still stand?”"
+  }
+ ]
+}

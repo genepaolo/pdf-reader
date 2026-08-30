@@ -1,0 +1,32 @@
+{
+ "chapter": 344,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Talim Dumont"],
+   "setting": "At the club: Talim's darker follow-up — 'do you know rare people with strange abilities?' — is swallowed unanswered, and Mike Joseph's bodyguard job is teased for the day after tomorrow",
+   "text_anchor": "“Sherlock, do you know—do you know rare people who have strange abilities and are very powerful?”"
+  },
+  {
+   "line_start": 43,
+   "line_end": 59,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Fors Wall"],
+   "setting": "In a sealed club lounge above the fog: Fors's 450 pounds pass the illusory door, and the Trickmaster formula settles into her mind — years of searching over",
+   "text_anchor": "“Sequence 8. Trickmaster."
+  },
+  {
+   "line_start": 61,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Eye of Wisdom", "[hooded woman weapon seller]", "[hooded Beyonders]"],
+   "setting": "Spending lavishly at Wednesday's gathering: the Briber formula sold for 900 cash (the Holy Sunbird whip declined), then 2000 pounds down for Eye of Wisdom's Grade 2 Sealed Artifact — the Sun Brooch 'Midsummer', nemesis of the undead, price of perpetual heat",
+   "text_anchor": "“2,000 pounds. I want that Sun Brooch.”"
+  }
+ ]
+}

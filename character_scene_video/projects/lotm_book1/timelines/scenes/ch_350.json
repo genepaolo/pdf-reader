@@ -1,0 +1,23 @@
+{
+ "chapter": 350,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 173,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Steve", "Sharron", "Maric", "Tyre"],
+   "setting": "The finish: eight holy bullets into one cheekbone, Sharron possessing the charred Steve to pulp his own head, her blood-vine devouring his fleeing phantom, and one final snapped-finger firework shredding what remained; Tyre dies twisting off his own head, spoils are split (Poison Bottle and fang to Klein), and the Book of Secrets already waits in his room",
+   "text_anchor": "“I still have lots of fireworks which I haven't released.”"
+  },
+  {
+   "line_start": 175,
+   "line_end": 211,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[worshippers]"],
+   "setting": "Match-to-match Flaming Jumps out of the dock, paint wiped, cane retrieved — and a serene alibi in Lever Cathedral's third pew while the Machinery Hivemind frowns over a scrubbed battlefield",
+   "text_anchor": "Klein sat in the third pew along the aisle."
+  }
+ ]
+}

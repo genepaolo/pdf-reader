@@ -1,0 +1,52 @@
+{
+ "chapter": 382,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "Xio Derecha"
+   ],
+   "setting": "The rented study: Xio relays the golden-masked man's mission and the tarot-strewn corpse; Fors's writer instinct interprets 'Judgment' as verdict — then freezes: tarot cards… the Tarot Club exists in the real world?",
+   "text_anchor": "It couldn’t be one of us, could it?"
+  },
+  {
+   "line_start": 39,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Eye of Wisdom"
+   ],
+   "setting": "Eye of Wisdom's candlelit gathering: everything hisses murder — the flame staring, the chair about to explode, the mask about to cave into his brain — visions of harm that vanish at the door; Klein's guess: the Rose School's High-Sequence Beyonder is invisibly watching the Bravehearts Bar area for Wraith Steve's killers",
+   "text_anchor": "He felt the flickering candle flame staring at him."
+  },
+  {
+   "line_start": 103,
+   "line_end": 119,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Ace Snake",
+    "[Mandated Punisher captain]"
+   ],
+   "setting": "Holy Wind Cathedral debrief: every Beyonder means of investigation failed, even the Cardinal's own; his notebook gains its watch-list — 'Capim, human trafficking, tarot card ritual, strange specter without a high Sequence, concealed plot'",
+   "text_anchor": "find that Sequence 6 or 5 specter"
+  },
+  {
+   "line_start": 123,
+   "line_end": 143,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Count Hall"
+   ],
+   "setting": "Breakfast at Count Hall's villa: the papers christen the killer 'the Hero Bandit Dark Emperor' after ancient Solomon's rulers — black armor, black crown, rescued girls, tarot cards — and Audrey's eyes light up: she knows Mr. Fool's Card of Blasphemy",
+   "text_anchor": "“The Hero Bandit Dark Emperor."
+  }
+ ]
+}

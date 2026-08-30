@@ -1,0 +1,41 @@
+{
+ "chapter": 408,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Dorian Gray",
+    "Fors Wall"
+   ],
+   "setting": "A curtained office and then the Four-Winged Bird: the crystal ball's astrolabe shows Fors bringing optimistic change to the Abraham family, so Dorian probes over an indignant fried fish about Aulisa's notebooks and offers himself as her mysticism correspondent",
+   "text_anchor": "“I hope that one day, we will also possess mysterious and extraordinary powers.”"
+  },
+  {
+   "line_start": 51,
+   "line_end": 103,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Soest",
+    "Daly",
+    "Leonard Mitchell"
+   ],
+   "setting": "Saint Samuel Cathedral's archives: Daly, happily retired to the files and to corpses, tells Soest's team that Beyonders are hunting a cult of 'The Fool' — and Leonard makes the leap nobody else will: The Fool is the first Major Arcana card, and there have been two tarot rituals",
+   "text_anchor": "“The Fool is the first card in a deck of tarot cards, the most important Major Arcana card!”"
+  },
+  {
+   "line_start": 107,
+   "line_end": 149,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Talim Dumont"
+   ],
+   "setting": "Quelaag Club: a preoccupied Talim relays an important figure's interest in the great detective; Klein declines to meet anyone from high society on principle — and is offered instead the commission that puts a target on him anyway: find the organization that leaves tarot cards",
+   "text_anchor": "The important figure is very interested in the organization that uses tarot cards."
+  }
+ ]
+}

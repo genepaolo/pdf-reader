@@ -1,0 +1,32 @@
+{
+ "chapter": 194,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Rozanne", "[Mrs. Maynard]", "[Maynard's sister]"],
+   "setting": "The commission signed: two weeks tailing Madam Sharon for up to 250 pounds — and Dunn hands the whole job to Klein as tailing practice",
+   "text_anchor": "Madam Sharon? Dunn obviously knew of Baron Khoy's widow"
+  },
+  {
+   "line_start": 89,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Preparation days: a subcontracted triad watches Sharon's routine; Azik's one-line letter confirms he killed Qilangos and took the Creeping Hunger",
+   "text_anchor": "Based on Leonard's guidance, Klein wasn't in a hurry"
+  },
+  {
+   "line_start": 113,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Osna Street by night: over the wall, up the pipe, tarot-card lockpicking into Madam Sharon's aphrodisiac-scented bedroom",
+   "text_anchor": "Gas street lamps illuminated the straight Osna Street at night"
+  }
+ ]
+}

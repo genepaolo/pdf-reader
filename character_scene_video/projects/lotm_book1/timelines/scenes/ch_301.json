@@ -1,0 +1,41 @@
+{
+ "chapter": 301,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["[bald tattooed man in black robes]", "[dancing youths]"],
+   "setting": "The 'resurrection' works — then goes wrong: the corpse sits up, mauls a boy's neck, ignores Kapusky Reid's whistle-commands 'in the name of Death', and sprints into the forest",
+   "text_anchor": "“I command you to return in the name of Death!”"
+  },
+  {
+   "line_start": 51,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "In the trees, Klein reels the corpse in with Azik's whistle and dead matchsticks: Air Bullets stagger it, snapped-finger flames melt it like a candle, and a Flaming Jump dodges its final claw",
+   "text_anchor": "Klein kept snapping his fingers, causing red flames to appear on the ground"
+  },
+  {
+   "line_start": 99,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[dancing youths]"],
+   "setting": "An illusion-painted clown steps from the woods: the fled ringleader is named — ancient-Feysac teacher Kapusky Reid — the youths are sworn to silence on pain of death, and the 'gatekeeper of hell' vanishes into conjured mist",
+   "text_anchor": "“I'm just a gatekeeper of hell.”"
+  },
+  {
+   "line_start": 143,
+   "line_end": 197,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Stuart", "Adol", "Kaslana", "Rogo Colloman"],
+   "setting": "Back over the fence, the rusty-marked paper double dismissed, a quiet watch till daybreak: Adol wakes cured, Rogo pledges 300 pounds to the Church, and Kaslana's suspicious questions meet a perfectly cut steak",
+   "text_anchor": "“Does Adol waking up and going to the washroom count?”"
+  }
+ ]
+}

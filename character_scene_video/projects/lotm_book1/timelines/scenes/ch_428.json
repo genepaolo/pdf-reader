@@ -1,0 +1,37 @@
+{
+ "chapter": 428,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 61,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Aguesid Negan",
+    "Count Hall"
+   ],
+   "setting": "The Prime Minister's residence: grief set aside for statecraft — with the true instigator untraceable, Aguesid and Earl Hall pick the Aurora Order as the public culprit (Feysac to be blamed later), use the hunt to purge Backlund, and note that Snake is always late at crucial moments",
+   "text_anchor": "“The Aurora Order isn’t a bad target…"
+  },
+  {
+   "line_start": 65,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Carlson"
+   ],
+   "setting": "Out of the club bathroom turning over the Twilight Hermit Order — an order that murders to steer history toward the Creator's return — when Carlson brings word that the Devil is dead, the protection lifted, a thousand-pound reward coming, and an invitation to informally serve the Machinery Hivemind",
+   "text_anchor": "“Patrick Jason Beria has been killed."
+  },
+  {
+   "line_start": 115,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Home by gaslight with Stanton's admiring letter in hand — 'the best young man at deduction that I've ever met' — and under that applause the last of the potion disintegrates: in the final month of 1349, the Magician is fully digested",
+   "text_anchor": "his Magician potion was finally digested"
+  }
+ ]
+}

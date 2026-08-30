@@ -1,0 +1,32 @@
+{
+ "chapter": 269,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 99,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint", "Xio Derecha", "Fors Wall", "Susie"],
+   "setting": "An empty horse track outside Empress Borough: valiant riding-clothes Audrey hands Xio and Fors a satchel of Lanevus wanted portraits (with her own disguise-variant sketches) for 100 pounds; Fors has a lead on the Psychology Alchemists through a new gathering",
+   "text_anchor": "“Formerly used name: Lanevus, wanted swindler.”"
+  },
+  {
+   "line_start": 103,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Late Tuesday start: a note on the door ('Owner is out...') to keep Millet Carter believing his fifty pounds are hard at work, then off to a planned day of leisure",
+   "text_anchor": "“Owner is out and will be back after five in the afternoon.”"
+  },
+  {
+   "line_start": 125,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Talim Dumont"],
+   "setting": "Quelaag Club: Talim Dumont drops the Gale divorce news with a knowing smile — then sounds Klein out about marksmanship and fighting for a troubled friend",
+   "text_anchor": "“Good morning. Mary and Doragu are getting a divorce.”"
+  }
+ ]
+}

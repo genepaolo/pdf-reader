@@ -1,0 +1,50 @@
+{
+ "chapter": 171,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Bella"],
+   "setting": "Home at noon: the new maid Bella caught reading the newspaper; Klein grants her lamp and old papers, and orders a small celebration tea",
+   "text_anchor": "After leaving Azik's house, Klein took a public carriage back to Daffodil Street."
+  },
+  {
+   "line_start": 49,
+   "line_end": 69,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Locked bedroom: careful Cogitation over the new potion — Old Neil's end has made 'losing control' terrifyingly real",
+   "text_anchor": "After locking the door to his room, Klein sat on the edge of his bed"
+  },
+  {
+   "line_start": 73,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Gawain"],
+   "setting": "Gawain's training field: six months of knight progress in forty minutes — the teacher doesn't ask why, just adds weapons training",
+   "text_anchor": "Three in the afternoon, on a crude training field."
+  },
+  {
+   "line_start": 101,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office on Sunday: promotion to inspector and a raise to ten pounds a week — Backlund-bungalow math ensues",
+   "text_anchor": "On Sunday morning, Klein entered the Blackthorn Security Company"
+  },
+  {
+   "line_start": 125,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Chanis Gate duty: Dunn brings a case — parliamentary representative Maynard found dead; a mediumship ritual is needed",
+   "text_anchor": "Before it was ten, he suddenly heard someone approaching Chanis Gate."
+  }
+ ]
+}

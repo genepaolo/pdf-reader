@@ -1,0 +1,49 @@
+{
+ "chapter": 471,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Trissy"
+   ],
+   "setting": "Goosebumps and cold sweat: what interferes with the fog is no Sealed Artifact but the Primordial Demoness stirring inside her; Trissy offers pleasure in exchange for reporting her to the authorities, promises to draw off the pursuit, and wipes herself out of the carriage — leaving Klein trembling and certain he must act",
+   "text_anchor": "The symbol of the apocalypse, the Primordial Demoness!"
+  },
+  {
+   "line_start": 49,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Prepared like a Magician: split matches carry him out of the carriage and deep into the withered forest, where Azik's copper whistle summons the bone messenger with a one-word note — 'Help!' — a prayer-shaped report is pushed to Miss Justice, and then the sky fills with falling meteors",
+   "text_anchor": "several meteors burning with raging flames falling from the sky"
+  },
+  {
+   "line_start": 97,
+   "line_end": 101,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "[one-eyed man]"
+   ],
+   "setting": "The quill records it in the yellowing notebook: the Dallask meteor shower arrived two days early, and part of it just happened to land on the forest where Sherlock Moriarty was hiding. Yes, just happened",
+   "text_anchor": "“Yes, just happened!”"
+  },
+  {
+   "line_start": 105,
+   "line_end": 139,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Escalante",
+    "Susie"
+   ],
+   "setting": "Mid-lesson, the report reaches Justice — a Demoness of Pleasure at the prince's side, renamed Cheek, the Primordial Demoness's true name — and Audrey's composure collapses; she ends the class and walks to her mother's living room with a plan and a weight on her shoulders",
+   "text_anchor": "The true name of the Primordial Demoness… The Primordial Demoness!"
+  }
+ ]
+}

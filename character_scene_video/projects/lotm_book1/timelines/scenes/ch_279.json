@@ -1,0 +1,32 @@
+{
+ "chapter": 279,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Sharron", "[zombie assistants]"],
+   "setting": "The Fourth Epoch hall goes dark for good: Sharron rigs the charges with wordless professionalism (and lights the fuse 'in passing'), the blast seals the entrance under boulders, and Azik's whistle stays calm — the evil spirit remains bound",
+   "text_anchor": "Sharron finished setting up the explosives and, in passing, lit the fuse."
+  },
+  {
+   "line_start": 65,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Millet Carter", "[zombie assistants]"],
+   "setting": "Back in the basement: the 'it just collapsed' story lands perfectly; Millet Carter pays the balance partly in gold coins from his watch-chain box, and the three zombies stroll off unescorted",
+   "text_anchor": "“That underground structure is too old, it hasn't been repaired in a long time."
+  },
+  {
+   "line_start": 119,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[two police constables]"],
+   "setting": "Evening stroll home: a police dog smells the day's gunpowder — Klein hands over his revolver with an 'I found it and was turning it in' smile and demands Lawyer Jurgen Cooper be present for any body search",
+   "text_anchor": "the police dog suddenly growled at him and barked endlessly"
+  }
+ ]
+}

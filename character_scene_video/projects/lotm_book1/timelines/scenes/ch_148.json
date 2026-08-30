@@ -1,0 +1,32 @@
+{
+ "chapter": 148,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Daly Simone"],
+   "setting": "Sealed bedroom: Daly, via the spirit face, confirms the Church hides the acting method behind oaths, teaches the pray-to-yourself messenger ritual, and reveals she's now a Sequence 6 Spirit Guide",
+   "text_anchor": "Klein's reply made Daly chuckle."
+  },
+  {
+   "line_start": 103,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne"],
+   "setting": "Blackthorn reception: the new clerk has arrived — Rozanne's night shifts and her skin are saved",
+   "text_anchor": "On the second day, Klein arrived at the Blackthorn Security Company"
+  },
+  {
+   "line_start": 113,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office: a braced Captain hears Klein has something to report",
+   "text_anchor": "After they chatted for a while, Klein walked through the partition"
+  }
+ ]
+}

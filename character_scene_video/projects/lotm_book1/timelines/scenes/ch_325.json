@@ -1,0 +1,32 @@
+{
+ "chapter": 325,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Isengard's letter confirms the sweep worked: the missing strays, and the suspect boy from four years ago who kept a large black dog no one saw again after his 'death'; Klein replies humbly and hands the hunt to the officials",
+   "text_anchor": "he was quite fond of animals, especially a large black dog."
+  },
+  {
+   "line_start": 45,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Talim Dumont"],
+   "setting": "A quiet Wednesday at the Quelaag Club: Talim's guarded 'I have a friend in love with someone he shouldn't be' consultation ends in confidentiality — with both agreeing best-seller romances read nothing like real people",
+   "text_anchor": "“I have a friend who has fallen in love with someone he shouldn't have."
+  },
+  {
+   "line_start": 107,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Talim Dumont", "Aaron Ceres"],
+   "setting": "Lunch with a crutch-bound Aaron Ceres: botched operations, a train accident, burglary, broken leg — the surgeon begs for a 'capable fortune-teller', and Klein hears echoes of the Misfortune Cloth Puppet",
+   "text_anchor": "“Do you think someone has cursed me?”"
+  }
+ ]
+}

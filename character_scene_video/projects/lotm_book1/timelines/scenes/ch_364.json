@@ -1,0 +1,49 @@
+{
+ "chapter": 364,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Over a finished newspaper, the Magician's remaining rules take shape: performances may need feedback, and above all initiative — so the first 'active performance' is chosen: freeing the vampire Emlyn White from Father Utravsky",
+   "text_anchor": "a Magician who takes the initiative to challenge fate"
+  },
+  {
+   "line_start": 41,
+   "line_end": 85,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Colin Iliad",
+    "[black shadow]"
+   ],
+   "setting": "Dark room atop the City of Silver's spire: Colin Iliad debriefs a metal-voiced shadow watching Derrick — the muttering, the sleep-ritual with elements of a secret deed — and orders continued observation; the disaster prophecy weighs on him",
+   "text_anchor": "“By your will, Your Excellency.”"
+  },
+  {
+   "line_start": 87,
+   "line_end": 101,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg"
+   ],
+   "setting": "In the Berg household, Derrick coughs until a finger-length translucent worm falls out — twelve transparent rings, seemingly dead — and he is finally free of Amon's influence",
+   "text_anchor": "There were a total of twelve."
+  },
+  {
+   "line_start": 105,
+   "line_end": 151,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Leonard Mitchell",
+    "Crestet Cesimir"
+   ],
+   "setting": "Cathedral of Serenity, Winter County (visions only: Dunn Smith and Klein Moretti, whom Leonard's worsening memory keeps 'seeing' by the stairs): Red Gloves class — deacon Crestet Cesimir teaches how High-Sequence Beyonders deceive, ending on the 'Parasite' — and Leonard's smile fades",
+   "text_anchor": "“In reality, the Beyonders with Parasites will only become nutrients for the Parasite"
+  }
+ ]
+}

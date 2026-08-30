@@ -1,0 +1,59 @@
+{
+ "chapter": 230,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 21,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall", "Mr. A", "[Mr. A's attendant]"],
+   "setting": "Mr. A's hooded gathering in an unremarkable Empress Borough house: the Sheriff formula still chalked at 450 pounds — Xio finally has the money",
+   "text_anchor": "Xio and Fors took a seat at random and examined the writing on the blackboard."
+  },
+  {
+   "line_start": 23,
+   "line_end": 39,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "[hooded seller]"],
+   "setting": "First-floor study, both parties robed and hooded: cash for the Sheriff potion formula — main ingredients a pair of Terror Demon Worm's eyes and a Silver War Bear's right palm",
+   "text_anchor": "“This is the formula to the Sheriff potion. Where's my money?”"
+  },
+  {
+   "line_start": 41,
+   "line_end": 47,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall", "Mr. A"],
+   "setting": "Back beside Fors, Xio posts a 30-pound exorcism request on the blackboard against the evil spirit she fears is haunting her",
+   "text_anchor": "Back in the living room, she sat beside Fors."
+  },
+  {
+   "line_start": 49,
+   "line_end": 95,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall", "[white-masked Sun believer]"],
+   "setting": "A white-masked believer of the Eternal Blazing Sun performs the purification — warm tidal light engulfs Xio and Fors like a hot spring",
+   "text_anchor": "There was a man wearing a white mask inside."
+  },
+  {
+   "line_start": 97,
+   "line_end": 119,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[thieves and drunkards]", "[sergeant]"],
+   "setting": "Rice Police Station bench among thieves and drunkards: an unexplained warmth touches Klein's marked hand (the Sun purification, harmlessly diverted) before the sergeant summons him to interrogation",
+   "text_anchor": "Klein was sitting on a low bench with a group of thieves and drunkards."
+  },
+  {
+   "line_start": 121,
+   "line_end": 177,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[interrogator]", "[sergeant]"],
+   "setting": "Interrogation room: a Sequence 7 Interrogator of the Arbiter pathway whips Klein's mind — he identifies the ambassador's photo, keeps his story straight, and walks out drained to news that Lawyer Jurgen has come to bail him",
+   "text_anchor": "“I ask, you answer.”"
+  }
+ ]
+}

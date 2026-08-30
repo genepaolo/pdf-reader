@@ -1,0 +1,68 @@
+{
+ "chapter": 254,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Count Hall",
+    "Hibbert Hall",
+    "[dining maidservant]"
+   ],
+   "setting": "Breakfast at Count Hall's villa: father and brother Hibbert debate the Aurora Order's motive over the newspaper while Audrey hides her astonished delight — Mr. A delivered overnight",
+   "text_anchor": "“They assassinated the Intis Ambassador, Bakerland."
+  },
+  {
+   "line_start": 53,
+   "line_end": 79,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Xio Derecha",
+    "Fors Wall"
+   ],
+   "setting": "Hillston Borough: Xio and Fors stare at the headline, dreading the final 8000-pound handoff — until Mr. A's message spares them: deposit it in anonymous accounts, don't come",
+   "text_anchor": "“… This was done by Mr. A, wasn't it?”"
+  },
+  {
+   "line_start": 83,
+   "line_end": 113,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Mr. A",
+    "[black-robed man]"
+   ],
+   "setting": "A temple-wide basement before a chained, vertical-eyed hanged-man statue: Mr. A prays for chaos to welcome his Lord's return, then coughs up squirming blood-colored fragments — and licks them back in",
+   "text_anchor": "In front of him was a three-meter statue of a man hanging upside down"
+  },
+  {
+   "line_start": 117,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Erica Taylor",
+    "[red-vested attendant]"
+   ],
+   "setting": "The Quelaag Club: Klein tails mistress Erica Taylor in, takes a street-facing lounge two doors down, and puzzles over how to hide an exaggerated camera flash",
+   "text_anchor": "he and Erica Taylor's room was separated by two rooms"
+  },
+  {
+   "line_start": 141,
+   "line_end": 167,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron",
+    "Erica Taylor",
+    "Doragu Gale"
+   ],
+   "setting": "Miss Bodyguard fuses into the camera lens — a Spectral Camera with a contained flash; when Doragu arrives, Klein tarot-cards Erica's door and folds himself into the linen cupboard",
+   "text_anchor": "She lowered her body and leaned over, slowly fusing into the camera's lens!"
+  }
+ ]
+}

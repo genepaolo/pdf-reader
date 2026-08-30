@@ -1,0 +1,23 @@
+{
+ "chapter": 297,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the fog (visions only: Fors writhing amid overturned furniture): a non-member's agonized prayer arrives; the ravings threading it carry no malice — so Klein extends his spirituality to pull the supplicant in",
+   "text_anchor": "at the end of the ancient, mottled bronze table, by the side of The Fool's seat was a clear radiance rippling out"
+  },
+  {
+   "line_start": 45,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Fors Wall"],
+   "setting": "Fors wakes above the gray fog: her chair's symbol blooms into endless doors (Mr. Door's ravings, Klein realizes); 'that's because you're too weak' — the fix is raising her life's natural order; invited to Monday gatherings, she cuts the deck and draws The Magician",
+   "text_anchor": "“The Magician!”"
+  }
+ ]
+}

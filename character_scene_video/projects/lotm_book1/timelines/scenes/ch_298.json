@@ -1,0 +1,50 @@
+{
+ "chapter": 298,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 7,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Fors Wall"],
+   "setting": "Fors wakes on her living-room floor under the blood-red disk, alive, un-lost, hair grown long — hugging her knees over a life now completely changed",
+   "text_anchor": "I'm not dead, I didn't lose control…"
+  },
+  {
+   "line_start": 11,
+   "line_end": 27,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the fog: the layered-door symbol on Fors's chair sets Klein wondering whether the full-moon ravings are Mr. Door's — a mystery for higher Sequences to solve",
+   "text_anchor": "Klein looked at the chair which had the symbol of a layered door on its back."
+  },
+  {
+   "line_start": 31,
+   "line_end": 43,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Fors Wall", "Xio Derecha"],
+   "setting": "Dawn at the St. George apartment: Fors deflects Xio's worry with bluster — 'it doesn't affect me at all. Toast a piece of bread for me too!'",
+   "text_anchor": "“But it doesn't affect me at all."
+  },
+  {
+   "line_start": 47,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Morning papers scream of the Killer Demon's true 11th murder on Blood Moon night; the Ernst ad signals tomorrow's gathering, plans are laid, and three crude paper figurines get cut for the new Magician",
+   "text_anchor": "“Night of the Bloody Moon, the Killer Demon strikes again!”"
+  },
+  {
+   "line_start": 101,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Rogo Colloman", "[two attendants]"],
+   "setting": "A sweating jewelry magnate at the door: Rogo Colloman hires Klein for ten pounds to guard his son Adol — who fell in with lunatics and swears they want him dead — until tomorrow afternoon",
+   "text_anchor": "“I'm Rogo Colloman, a jewelry businessman.”"
+  }
+ ]
+}

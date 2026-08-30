@@ -1,0 +1,41 @@
+{
+ "chapter": 289,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 39,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint", "Susie"],
+   "setting": "Audrey pictures the tarot-strewn corpse — a tussle at the level of deities won by a 'simple mission' — while Glaint gushes about the style and Susie shifts guiltily at 'only a dog'",
+   "text_anchor": "It's our Tarot Club! Audrey answered silently"
+  },
+  {
+   "line_start": 43,
+   "line_end": 111,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Daly", "Crestet Cesimir", "Aiur Harson", "[Nighthawk deacons and captains]"],
+   "setting": "Beneath Saint Samuel Cathedral: Daly rages at being left out of the Lanevus op; the investigation pins the killer as a card-throwing Clown of the 'Secret Order'; Cesimir orders vigilance against Aurora Order reprisals and flags East Borough as an evil-god hotbed for the Council of Cardinals",
+   "text_anchor": "“Why wasn't I informed of this matter?"
+  },
+  {
+   "line_start": 115,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "A slept-in morning, groceries, and rare afternoon sun: the avenged detective lazes in his splendid mood until a quarter to three",
+   "text_anchor": "Klein slept in and didn't wake up until it was late."
+  },
+  {
+   "line_start": 123,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick", "[The World]"],
+   "setting": "The Tarot Club convenes: Justice probes with a pointed 'simple mission completed' — and Mr. Fool sighs about East Borough's hotbeds for an evil god's descent, to Alger's bafflement",
+   "text_anchor": "“The ‘simple' mission you entrusted has been completed.”"
+  }
+ ]
+}

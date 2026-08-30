@@ -1,0 +1,23 @@
+{
+ "chapter": 84,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 55,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Benson"],
+   "setting": "Before leaving home: Klein gifts his hand-carved disaster-warding amulets to Melissa and Benson",
+   "text_anchor": "Seeing the unconvinced look his sister's face"
+  },
+  {
+   "line_start": 57,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Selena", "Mr. Wood", "Elizabeth", "Chris", "Melissa", "Benson"],
+   "setting": "Selena's birthday banquet at the Wood house: Elizabeth turns out to be the amulet girl from the market — then a strange fluctuation upstairs",
+   "text_anchor": "Following that, the siblings tidied themselves up"
+  }
+ ]
+}

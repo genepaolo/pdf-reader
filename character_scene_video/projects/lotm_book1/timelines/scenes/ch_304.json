@@ -1,0 +1,60 @@
+{
+ "chapter": 304,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 59,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kapusky Reid"
+   ],
+   "setting": "Over the feather-filled grave: thoughts of angels and Azik's coffin dream; Klein pockets three feathers and confiscates the copper whistle from the terrified teacher, extracting Spirit Dance lore before slipping away",
+   "text_anchor": "“Don't blow that copper whistle again.”"
+  },
+  {
+   "line_start": 61,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: the white-haired, red-spotted corpse tearing feather-winged out of its grave and walking into the darkness): divination brands Kapusky's whistle dangerous to use — for now",
+   "text_anchor": "White feathers sprouted from the back of the corpse…"
+  },
+  {
+   "line_start": 89,
+   "line_end": 113,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Darkwill",
+    "Susie"
+   ],
+   "setting": "Empress Borough woods at dawn: the Apothecary — actually a Sequence 8 Beast Tamer, it turns out — ponders how a Beast Tamer acts, locks eyes with a certain large golden retriever, and Susie bolts",
+   "text_anchor": "“Then, will my Sequence 7 be able to tame and use humans?"
+  },
+  {
+   "line_start": 117,
+   "line_end": 145,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Susie",
+    "Audrey Hall"
+   ],
+   "setting": "The piano room: Susie reports meeting her 'natural enemy' with scary eyes; Audrey grounds her from the woods and laments the serial killings canceling tonight's gathering",
+   "text_anchor": "“I feel that he is my natural enemy!”"
+  },
+  {
+   "line_start": 149,
+   "line_end": 187,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Isengard Stanton"
+   ],
+   "setting": "Saturday breakfast of childhood-style flatbread interrupted: Isengard Stanton proposes a partnership — hunt the serial killer together for the police's 2000-pound reward",
+   "text_anchor": "“The police has already offered a reward of 2,000 pounds.”"
+  }
+ ]
+}

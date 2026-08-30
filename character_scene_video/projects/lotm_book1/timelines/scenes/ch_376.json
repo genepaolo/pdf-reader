@@ -1,0 +1,48 @@
+{
+ "chapter": 376,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "[birthmarked henchman]"
+   ],
+   "setting": "Playing the great being in a reversed secret deed, The Fool questions the henchman's light-projection (visions only: Mr. Harras and his command-eyes, Belize cleaning a high-pressure steam rifle, cruel-smiled Ma'am Katy, Capim and Mr. Parker, Deputy Chief Vardera among guests abusing captive girls): at least four Beyonders, a Confinement seal on the basement, and the villa's layout",
+   "text_anchor": "“What kind of powerful people are in Capim’s villa?”"
+  },
+  {
+   "line_start": 131,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[birthmarked henchman]"
+   ],
+   "setting": "Back in the cheap hotel beside the unconscious henchman, plans are weighed: 'Perhaps, I don't need a helper… Picking the right time is very important.'",
+   "text_anchor": "Perhaps, I don’t need a helper…"
+  },
+  {
+   "line_start": 141,
+   "line_end": 157,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[birthmarked henchman]",
+    "[Zmanger highlanders]"
+   ],
+   "setting": "East Borough, Zmanger territory: the possessed henchman picks a knife brawl with ferocious highlanders and takes a dagger to the artery — the kidnapper dies by 'his own' provocation, and the transparent figure inside him vanishes",
+   "text_anchor": "It went right into his arteries."
+  },
+  {
+   "line_start": 159,
+   "line_end": 167,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Checked out and homeward, then above the gray fog for one crucial line of ink: 'Capim's dinner time today.'",
+   "text_anchor": "“Capim’s dinner time today.”"
+  }
+ ]
+}

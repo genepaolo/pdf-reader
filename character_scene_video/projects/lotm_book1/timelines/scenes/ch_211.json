@@ -1,0 +1,59 @@
+{
+ "chapter": 211,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 69,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Leonard Mitchell", "Seeka Tron"],
+   "setting": "The guardroom after: the found telegram — 'Beware of Ince Zangwill. Beware of Sealed Artifact 0-08' — and Leonard vows to join the Red Gloves for revenge",
+   "text_anchor": "In the basement of Saint Selena Cathedral, in the guardroom outside Chanis Gate."
+  },
+  {
+   "line_start": 73,
+   "line_end": 99,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Melissa", "Benson", "Bella", "Leonard Mitchell"],
+   "setting": "The doorbell at 2 Daffodil Street: Leonard tells Melissa her brother died a hero — the three 'Return of the Count' tickets fall to the floor",
+   "text_anchor": "At 2 Daffodil Street, Melissa sat on the sofa"
+  },
+  {
+   "line_start": 103,
+   "line_end": 131,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Leonard Mitchell", "Melissa", "Benson"],
+   "setting": "The Moretti living room: 6000 pounds of compensation no one hears; Benson runs the tap in the bathroom until his red eyes can't be hidden",
+   "text_anchor": "Sitting in the Moretti family's living room"
+  },
+  {
+   "line_start": 135,
+   "line_end": 169,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Melissa", "Benson", "Elizabeth", "Selena", "Leonard Mitchell", "Frye", "Bredt"],
+   "setting": "Raphael Cemetery: Klein's funeral after Dunn's — Melissa buries the copper whistle with him; the epitaph reads best brother, best brother, best colleague; alone at last, she weeps 'Stupid!'",
+   "text_anchor": "A few days later, in a corner of the Raphael Cemetery."
+  },
+  {
+   "line_start": 173,
+   "line_end": 177,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Azik Eggers"],
+   "setting": "Night at the grave: Azik lays white flowers — 'I was ten minutes late. But I think I know who it was' — and leaves the copper whistle buried",
+   "text_anchor": "Night time, at the Raphael Cemetery."
+  },
+  {
+   "line_start": 181,
+   "line_end": 191,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "The stone slab shifts — a pale hand rises from the soil: Klein sits up in his coffin, his missing heart slowly squirming back together",
+   "text_anchor": "Suddenly, the stone slab sealing the grave was flipped open."
+  }
+ ]
+}

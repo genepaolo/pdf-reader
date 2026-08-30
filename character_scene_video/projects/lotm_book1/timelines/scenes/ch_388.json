@@ -1,0 +1,42 @@
+{
+ "chapter": 388,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 27,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler"
+   ],
+   "setting": "Walking the potholed East Borough street: the transmigrator's revolution thought-experiment runs aground on demigods, Sealed Artifacts and the Law of Beyonder Characteristics Conservation — only the threat of an evil god's descent seems to improve the poor's lot. 'What wonderful irony.'",
+   "text_anchor": "What wonderful irony."
+  },
+  {
+   "line_start": 31,
+   "line_end": 65,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Escalante",
+    "Susie"
+   ],
+   "setting": "Count Hall's study: Audrey's played curiosity earns the invitation she wanted — a secret seminar on psychology and mysticism, the outer door of the Psychology Alchemists; alone with the mirror she spins a court step: 'Audrey, you're great!' — and promises to bring Susie along",
+   "text_anchor": "“Audrey, you’re great!”"
+  },
+  {
+   "line_start": 69,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres",
+    "Will Auceptin",
+    "[Aaron's wife]"
+   ],
+   "setting": "Saturday night at 3 Burningham Road: Master Key through the wall, a Slumber Charm on the doctor's wife, then the Dream Charm's black flame — into the barren plain, the wheel-covered silver serpent that could bite its own tail, the impossible tower, and the one-legged boy screaming with the Wheel of Fortune card gripped in his hand",
+   "text_anchor": "It was the Wheel of Fortune card."
+  }
+ ]
+}

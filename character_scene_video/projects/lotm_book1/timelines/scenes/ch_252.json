@@ -1,0 +1,47 @@
+{
+ "chapter": 252,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 61,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "Cleanup: touching the tainted black eye shows the world laced with black threads; Miss Bodyguard sinks into Rosago's headless corpse, regrows a cracked-glass head, scours the scene spotless, and walks the body out into the night",
+   "text_anchor": "She slowly sank in and fused with the corpse!"
+  },
+  {
+   "line_start": 63,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Alone on the sofa, adrenaline draining: a coin toss — 'Bakerland is already dead' — lands heads. Positive. The whole affair is finally over",
+   "text_anchor": "Klein fished out a coin and, with recited with a suppressed tone, “Bakerland is already dead.”"
+  },
+  {
+   "line_start": 101,
+   "line_end": 119,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "[two Intis military officials]"
+   ],
+   "setting": "The embassy: two military officials read the corpse — disease, isolation, flesh-blood magic, an obliterating blow — and reach the same word at once: Shepherd. The Aurora Order will take the blame",
+   "text_anchor": "two military officials were squatting beside Bakerland's body"
+  },
+  {
+   "line_start": 123,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "The bodyguard reappears in the oriel window: clothes handled; she will collect the 900 pounds herself — and, contract-abiding to a fault, insists on protecting him the full three days, name withheld",
+   "text_anchor": "“I promised to protect you for three days, not just once.”"
+  }
+ ]
+}

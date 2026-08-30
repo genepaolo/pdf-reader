@@ -1,0 +1,32 @@
+{
+ "chapter": 86,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Selena's bedroom: Klein builds his first true altar — suspension-style ritualistic magic to the Evernight Goddess",
+   "text_anchor": "Suspension-style ritualistic magic referred to the termination"
+  },
+  {
+   "line_start": 97,
+   "line_end": 119,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Elizabeth", "Selena", "Melissa"],
+   "setting": "The second-floor living room: Elizabeth's terrible acting as she lures Selena out, under Melissa's narrowing eyes",
+   "text_anchor": "In the living room on the second floor."
+  },
+  {
+   "line_start": 123,
+   "line_end": 213,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Elizabeth", "Selena"],
+   "setting": "The exorcism: Selena pulled into the sealed room, claws out, the mirror shatters, and the Goddess's power burns the dark green corruption away",
+   "text_anchor": "Selena's bedroom entrance."
+  }
+ ]
+}

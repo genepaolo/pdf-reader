@@ -1,0 +1,32 @@
+{
+ "chapter": 159,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 29,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav"],
+   "setting": "Diary-reading interlude: the Churches' strange potion policy hides a secret — and Roselle fears his Industrial Revolution creates 'the conditions necessary for the Evil God to descend'",
+   "text_anchor": "Messy Chinese sentences were scribbled on the yellowish-brown goatskin."
+  },
+  {
+   "line_start": 31,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick"],
+   "setting": "Gathering resumes: Qilangos hunts an item that could crown a fifth Pirate King; his habits catalogued for Audrey's search; Klein ponders 'sacrificing' items to himself",
+   "text_anchor": "You can start your discussion freely now."
+  },
+  {
+   "line_start": 119,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Back in the sunlit bedroom: two goals this week — pass the examination, and make Flaring Sun Charms; Azik's staged incident should surface tomorrow",
+   "text_anchor": "When he returned to his room, he dispelled the wall of spirituality"
+  }
+ ]
+}

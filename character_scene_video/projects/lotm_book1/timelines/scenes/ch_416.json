@@ -1,0 +1,29 @@
+{
+ "chapter": 416,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Isengard Stanton",
+    "Kaslana",
+    "[Desire Apostle]"
+   ],
+   "setting": "The black-wrapped Desire Apostle pours from the ceiling — and two hidden trump cards cancel out: Klein's Damage Transfer and Stanton's mimicked healing both mend the 'broken' spine at once, so the Devil bolts through the wall untouched. Two rights make a wrong",
+   "text_anchor": "The Magician’s most miraculous Beyonder power: Damage Transfer!"
+  },
+  {
+   "line_start": 125,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Ikanser Bernard"
+   ],
+   "setting": "Upstairs, where the Devil sat calmly at his desk all along: notebooks burned before the officials arrive, then Ikanser Bernard of the Church of the God of Steam and Machinery questions the silver mirror Arrodes — which shows high cheekbones and cold blue eyes under the black liquid",
+   "text_anchor": "“Honorable Arrodes, my question is: ‘What did the Devil who was previously sitting here look like?’”"
+  }
+ ]
+}

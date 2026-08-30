@@ -1,0 +1,44 @@
+{
+ "chapter": 385,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 31,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Darc Regence",
+    "Lovia"
+   ],
+   "setting": "The City of Silver's quarantine training field behind Dark Amber: Derrick greets his old patrol partner Darc Regence through the wall — but the cheerful Gladiator answers with a flawless, wrong smile, and a camping-in-ruins chill runs through Derrick",
+   "text_anchor": "Looking at his smile without any faults, Derrick suddenly felt a chill run through his body."
+  },
+  {
+   "line_start": 35,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres",
+    "Mike Joseph",
+    "Talim Dumont"
+   ],
+   "setting": "Two pounds agreed, then an afternoon of Roselle's Upgrade at the club ('This is life!'); after Mike leaves, Talim finally tells the gossip — an illustrious young gentleman in love with a commoner, resolved when the considerate lady agreed to leave him",
+   "text_anchor": "“Love, do you get it? Love!"
+  },
+  {
+   "line_start": 97,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres",
+    "[maid]",
+    "[old gentleman tenant]"
+   ],
+   "setting": "66 Dalton Street after dinner: Will Auceptin's family moved out two days post-discharge, everything left behind already taken by 'the previous group of people' — the Nighthawks; Aaron makes peace with his doubts, and mentions the ring-shaped tumor that had wrapped the boy's left calf",
+   "text_anchor": "“but they were all taken away by the previous group of people!”"
+  }
+ ]
+}

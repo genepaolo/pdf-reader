@@ -1,0 +1,50 @@
+{
+ "chapter": 172,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 29,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Chanis Gate handover: Maynard died last night — Klein is only 'providing assistance'; Dunn takes the guard shift",
+   "text_anchor": "How long has the Member of Parliament been dead for?"
+  },
+  {
+   "line_start": 31,
+   "line_end": 65,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Tolle"],
+   "setting": "New two-star inspector uniform, then the reception hall: reunion with the bear-like Inspector Tolle and clown-combination banter",
+   "text_anchor": "Klein walked upstairs, but he wasn't in a hurry"
+  },
+  {
+   "line_start": 67,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Tolle"],
+   "setting": "Police carriage briefing: Maynard found naked in a guest room after a party; his party-leader wife is racing back from Backlund",
+   "text_anchor": "They casually chatted until they got onto the police carriage."
+  },
+  {
+   "line_start": 89,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Tolle", "[police]", "[guests]"],
+   "setting": "Maynard's Golden Indus bungalow: past the streamers and statement-taking, up to the crimson guest-room door",
+   "text_anchor": "Klein put on his peak hat with its police badge"
+  },
+  {
+   "line_start": 109,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Maynard"],
+   "setting": "The locked guest room (visions only: Maynard's final tryst with an ageless delicate woman): the ritual yields her portrait — then the corpse clears its throat and sits up",
+   "text_anchor": "He walked to the side of the bed and saw that the crimson bedsheets were abnormally messy."
+  }
+ ]
+}

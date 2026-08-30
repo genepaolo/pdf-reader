@@ -1,0 +1,50 @@
+{
+ "chapter": 132,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 31,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Susie"],
+   "setting": "Audrey's locked room: Susie reports the Count's parliamentary talk — no Balam revenge war, civil-service reform instead — and earns a dog biscuit",
+   "text_anchor": "She found an excuse for her maidservant to leave them alone temporarily."
+  },
+  {
+   "line_start": 35,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Ademisaul"],
+   "setting": "Underground market on Sunday: the shivering Ademisaul raves of a dream full of corpses — himself among them — and screams at Klein's approach",
+   "text_anchor": "On Sunday, Klein didn't wake up until the afternoon"
+  },
+  {
+   "line_start": 81,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Divination Club meeting room over Sibe black tea: the famous eight-pence Seer weighs his principles against his poverty",
+   "text_anchor": "After getting on a public carriage, Klein didn't head to the Blackthorn Security Company"
+  },
+  {
+   "line_start": 99,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica", "Elizabeth"],
+   "setting": "Club hallway: Angelica brings a customer — it's Melissa's friend Elizabeth, startled to find 'Mr. Moretti' on the diviner list",
+   "text_anchor": "Just as he was thinking about these things, the beautiful attendant named Angelica"
+  },
+  {
+   "line_start": 119,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Elizabeth"],
+   "setting": "Red Agate room: gloomy green in Elizabeth's aura — recurring nightmares of a black-armored red-eyed knight since she bled in a ruined castle near Lamud Town",
+   "text_anchor": "They entered the room slowly."
+  }
+ ]
+}

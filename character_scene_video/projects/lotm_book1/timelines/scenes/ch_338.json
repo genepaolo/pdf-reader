@@ -1,0 +1,41 @@
+{
+ "chapter": 338,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 17,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Norma"],
+   "setting": "Lady Norma arranges tomorrow's tea with her 'mysticism experts' — the Telepathist reads her recruiter's nerves and walks off in a proud straight line",
+   "text_anchor": "“How about we have our afternoon tea together tomorrow?”"
+  },
+  {
+   "line_start": 21,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Isengard Stanton", "Stuart"],
+   "setting": "Klein declines the Emlyn White job unasked and gets walked out by Isengard himself, trading warnings about the Devil's possible master and accents — Sivellaus meets Midseashire",
+   "text_anchor": "“There might be an even more ferocious guy hiding behind the killer's back."
+  },
+  {
+   "line_start": 51,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the fog, courting death again: divining the Master Key's full-moon face — a scalp-peeling ancient-Hermes 'requesting assistance': Mr. Door's plea is baked into the curse itself",
+   "text_anchor": "“What it manifests during the full moon.”"
+  },
+  {
+   "line_start": 111,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Sharron"],
+   "setting": "A pass by the bar (Kaspars is back), then Sharron materializes in the carriage: her mystical item is ready; Klein offers the Apothecary's sedative for Maric's full-moon agony — test it tomorrow night, triple-dose before the battle",
+   "text_anchor": "“I have a different kind of sedative here, from that Apothecary.”"
+  }
+ ]
+}

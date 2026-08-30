@@ -1,0 +1,23 @@
+{
+ "chapter": 114,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 45,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav"],
+   "setting": "Diary-reading interlude continues: no crude oil means no industrial age; the Patriotic Health Campaign; Roselle considers joining 'that ancient and mysterious organization'",
+   "text_anchor": "No crude oil? It couldn't be found for some reason"
+  },
+  {
+   "line_start": 47,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson"],
+   "setting": "Tarot gathering resumes: Apprentice and Arbiter explained, membership rules set — none may speak The Fool's name unpermitted",
+   "text_anchor": "You can start your discussion now."
+  }
+ ]
+}

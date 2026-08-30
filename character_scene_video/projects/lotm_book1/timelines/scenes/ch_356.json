@@ -1,0 +1,23 @@
+{
+ "chapter": 356,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Mike Joseph", "Kohler", "[female workers]"],
+   "setting": "The factory district finale: unmasked women breathing lead dust, textile workers massing to smash the machines taking their jobs — Mike leaves silent and ten pounds lighter, and Klein retains Old Kohler as his East Borough informant at a pound a week",
+   "text_anchor": "“These factory owners are murderers!”"
+  },
+  {
+   "line_start": 109,
+   "line_end": 139,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Escalante", "Susie"],
+   "setting": "Psychology lessons with Escalante: dangled hints about mysticism 'seminars' met with practiced naivety; afterwards Susie's verdict — 'She's not sincere!' — though the material beats meat and biscuits",
+   "text_anchor": "“She's not sincere!” Susie answered flatly."
+  }
+ ]
+}

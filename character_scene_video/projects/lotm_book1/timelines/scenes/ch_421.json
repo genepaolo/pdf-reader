@@ -1,0 +1,39 @@
+{
+ "chapter": 421,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Leonard Mitchell",
+    "Soest",
+    "[aged voice in Leonard's mind]"
+   ],
+   "setting": "Nighthawks bring 1-42 into Jason's house — the blood-stained silver armor worn by Leonard, who must bathe on a timer to bleed off the silver blade-lines that freeze the water solid; his parasite claims to recognize the blood: an ancient god from before the Cataclysm",
+   "text_anchor": "“An ancient god before the Cataclysm.”"
+  },
+  {
+   "line_start": 51,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White",
+    "Utravsky"
+   ],
+   "setting": "Harvest Church: Emlyn caught praying like a true convert ('I don't want to betray the moon!'), then Lilith and how humans are made Sanguine; the Thousand-faced Hunter ingredients are found at 2,300 pounds — 265 more than Klein owns — and a second commission, to trace Jason Patrick Beria",
+   "text_anchor": "“I’m really short on money…”"
+  },
+  {
+   "line_start": 165,
+   "line_end": 167,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Home to Minsk Street and into the bathroom with a thick stack of newspapers, as if settling in for a protracted war — Jason's handkerchief is going above the gray fog",
+   "text_anchor": "as if he was about to fight a protracted war"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "chapter": 117,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 29,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Henry"],
+   "setting": "Henry's office, continuing: Klein plans his approach to the Spectator doctor while Henry reports the red-chimney search is still ongoing",
+   "text_anchor": "Daxter Guderian, a doctor of the Greenhill Mental Asylum"
+  },
+  {
+   "line_start": 33,
+   "line_end": 157,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Daxter Guderian"],
+   "setting": "Daxter Guderian's office, Greenhill Mental Asylum: Klein unmasks the Spectator and recruits him into 'limited cooperation' — patient Hood Eugen named",
+   "text_anchor": "At twenty minutes to nine on a Saturday morning"
+  },
+  {
+   "line_start": 161,
+   "line_end": 181,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office at Blackthorn: Klein reports the new informant; Dunn approves, keeps it off the team's books, and puts Klein in charge of the contact",
+   "text_anchor": "36 Zouteland Street. Inside Blackthorn Security Company."
+  }
+ ]
+}

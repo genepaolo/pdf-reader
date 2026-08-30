@@ -1,0 +1,59 @@
+{
+ "chapter": 213,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: Backlund again for Lanevus; the Hornacis peak palace with its vertical pupil of symbols): both enemies and Klein's opportunities point to Backlund",
+   "text_anchor": "So Ince Zangwill has gone to Backlund"
+  },
+  {
+   "line_start": 45,
+   "line_end": 73,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Out of the cemetery like a wandering ghost: past Dunn's grave, past the house he can't knock on, to sleep rough under his jacket",
+   "text_anchor": "When he returned to the material world, he slowly walked out of his hiding spot"
+  },
+  {
+   "line_start": 75,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[policeman]"],
+   "setting": "Woken by a constable's baton — the Poor Law doesn't allow vagrants on the streets; the dead hero walks until daybreak",
+   "text_anchor": "It wasn't long into his sleep when he was suddenly woken by someone."
+  },
+  {
+   "line_start": 89,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Backlund Bank withdrawal by password, a full new wardrobe, and a second-class ticket on the two o'clock train to Backlund",
+   "text_anchor": "Soon after, he lowered his head and entered the Tingen branch of the Backlund Bank."
+  },
+  {
+   "line_start": 107,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "The waiting area's emptiness pulls him back to Daffodil Street one last time, hiding in the shade across from the door he can't cross to",
+   "text_anchor": "Klein suddenly had an empty feeling in his heart"
+  },
+  {
+   "line_start": 123,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Benson", "Melissa"],
+   "setting": "The circus in the municipal square: trailing his grieving siblings — then a pastel-faced clown conjures a golden Seville Chrysanthemum, the flower of happiness, and offers it with a wide, ridiculous smile. (End of Volume 1)",
+   "text_anchor": "Suddenly, he saw the door to the house open as Melissa and Benson came out."
+  }
+ ]
+}

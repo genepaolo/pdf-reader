@@ -1,0 +1,44 @@
+{
+ "chapter": 418,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 143,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Hilbert Alucard",
+    "Escalante",
+    "Stephen Hampres",
+    "Susie"
+   ],
+   "setting": "Immune under the angel's blessing, Audrey trades a small confession for great trust and passes the last test; Hilbert then tells the Psychology Alchemists' story — Hermes's ruins, the mind dragons, the 'mind world' where mastered coincidence becomes miracle — and hands over a Telepathist potion she asks to drink at home",
+   "text_anchor": "“Congratulations, you have passed all the tests."
+  },
+  {
+   "line_start": 145,
+   "line_end": 153,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Susie"
+   ],
+   "setting": "Alone in her room with the maids sent away: 'Susie, we got your potion~!' — the golden retriever wagging at the bottle, gold-rimmed glasses hung around her neck for the joke",
+   "text_anchor": "“Susie, we got your potion~!”"
+  },
+  {
+   "line_start": 157,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Isengard Stanton",
+    "Kaslana"
+   ],
+   "setting": "Breakfast at Stanton's house: Lenburg potato pie, and the great detective explaining that his Church's Sequence 6, Polymath, makes multi-talent routine — and that he still doesn't dare attempt it",
+   "text_anchor": "“Its Sequence 6 is called Polymath."
+  }
+ ]
+}

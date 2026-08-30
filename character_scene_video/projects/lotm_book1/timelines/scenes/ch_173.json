@@ -1,0 +1,23 @@
+{
+ "chapter": 173,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 113,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Maynard"],
+   "setting": "Guest room brawl with Zombie Maynard: cat-like Clown balance, charms, and a purification ritual — the culprit was Azik's copper whistle in Klein's pocket",
+   "text_anchor": "Before Klein could come up with any new ideas"
+  },
+  {
+   "line_start": 115,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Tolle"],
+   "setting": "The doorway debrief: Tolle recognizes the portrait instantly — Madam Sharon, Tingen's prettiest widow; the cane mark is now the police department's problem",
+   "text_anchor": "The door opened with a creak and Klein saw Inspector Tolle"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "chapter": 359,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "Fors Wall",
+    "[The World]",
+    "Amon"
+   ],
+   "setting": "Alger unpacks the taboo: Amon — most mysterious of the five Tudor founding families, blasphemers who usurp gods' powers, self-styled descendants of an ancient Sun God; his advice to Derrick: probe the old captain, but that survivor himself is deeply wrong",
+   "text_anchor": "“The Amons are a family of blasphemers, and they wield the secrets to usurp the powers of deities!"
+  },
+  {
+   "line_start": 51,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall"
+   ],
+   "setting": "Justice's private exchange: three fresh diary pages traded for one revelation — 'Sequence 0, Dark Emperor' — plus a week's secrecy so Miss Magician never connects Audrey to Justice",
+   "text_anchor": "“Mr. Fool, I have another three new pages of Roselle's diary.”"
+  },
+  {
+   "line_start": 99,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Roselle Gustav"
+   ],
+   "setting": "Diary-reading interlude, the very first entries: 'I am now Roselle Gustav… my real name: Huang Tao' — a mysterious silver plate before crossing, Tik Tok homesickness — dated mere months from Klein's own transmigration, yet two hundred years apart in this world",
+   "text_anchor": "“I am now Roselle Gustav, but I'll never forget my real name."
+  }
+ ]
+}

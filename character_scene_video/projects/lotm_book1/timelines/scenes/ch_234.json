@@ -1,0 +1,41 @@
+{
+ "chapter": 234,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 55,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: Ian asleep, Ian pulling a tooth from Zreal's corpse, Ian at a telegraph office; the Intis ambassador handing Meursault the Hunter potion): the dream divinations reveal an organization behind Zreal and Ian, and confirm the ambassador's Intis pedigree",
+   "text_anchor": "It was the same dream divination, but this time Klein saw more."
+  },
+  {
+   "line_start": 57,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Back in the bedroom: the map narrows the vision to the Bacardi Street telegraph office at the East Borough–Backlund Bridge junction; Klein leaves his 'I don't know where Ian is' note face-up as deliberate bait and goes to sleep under the full crimson moon",
+   "text_anchor": "He rummaged through the map of Backlund that he had bought"
+  },
+  {
+   "line_start": 81,
+   "line_end": 115,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Fors Wall"],
+   "setting": "A house at Hillston Borough: Fors writhes under the full-moon murmurs, tearing out hair — the affliction she lied to Xio about is getting worse every month, and no Trickmaster formula is anywhere to be found",
+   "text_anchor": "Fors, who didn't sleep with Xio, sat up suddenly and put her hands to her head."
+  },
+  {
+   "line_start": 117,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Monday morning: the bait note has rotated 180 degrees behind sealed windows — yet divination insists no one entered last night. Either the divination was disrupted, or the visitor was not human",
+   "text_anchor": "It had flipped over and changed orientation after a night's sleep!"
+  }
+ ]
+}

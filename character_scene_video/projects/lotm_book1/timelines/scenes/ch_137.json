@@ -1,0 +1,32 @@
+{
+ "chapter": 137,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick", "[elder]"],
+   "setting": "City of Silver mortuary: under the elder's command, Derrick must end his own dying parents with the silver sword — the curse of the People of the Dark",
+   "text_anchor": "City of Silver, Mortuary."
+  },
+  {
+   "line_start": 53,
+   "line_end": 75,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick"],
+   "setting": "The sunless lightning-lit streets, then Derrick's empty home: he kneels before the crystal ball and prays until dark red light swallows him",
+   "text_anchor": "There were stone pillars that lined the main streets of the City of Silver."
+  },
+  {
+   "line_start": 77,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Derrick"],
+   "setting": "Above the gray fog: The Fool receives the grieving youth — a fair-exchange offer: the Sun pathway's formula for the history of the City of Silver",
+   "text_anchor": "When he regained his senses, he realized that he was standing in a magnificent palace"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "chapter": 54,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 65,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica"],
+   "setting": "Divination Club reception: Klein spins Glacis's story into face-reading and gives Angelica a Spirit Vision reading of her hidden sorrow",
+   "text_anchor": "Upon seeing Klein's odd expression, Angelica immediately felt her beliefs waver."
+  },
+  {
+   "line_start": 69,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Hanass Vincent", "Angelica"],
+   "setting": "The crowded Sunday meeting room: Klein performs the spirit pendulum over his tea for Angelica to see",
+   "text_anchor": "The Divination Club's meeting room was very large."
+  },
+  {
+   "line_start": 107,
+   "line_end": 139,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Angelica", "Anna"],
+   "setting": "Reception hall: a melancholic lady in light blue asks for a divination and Angelica recommends Klein Moretti",
+   "text_anchor": "Angelica returned to the reception hall"
+  },
+  {
+   "line_start": 141,
+   "line_end": 164,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica", "Anna"],
+   "setting": "Topaz room: Klein's first client, Anna, asks him to divine her missing fiance's fate",
+   "text_anchor": "She came next to Klein and said with a suppressed voice"
+  }
+ ]
+}

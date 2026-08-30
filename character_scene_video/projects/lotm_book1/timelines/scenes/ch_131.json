@@ -1,0 +1,23 @@
+{
+ "chapter": 131,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 161,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint", "Fors Wall", "Xio Derecha", "Mr. A", "[facilitator]", "[young man]"],
+   "setting": "Mr. A's secret gathering: blackboard bazaar of cheap formulas and ingredients — Audrey buys three Roselle diary pages, requests Spectator/Telepathist, and clocks Mr. A's lecherous piercing gaze",
+   "text_anchor": "Mr. A? That sounds more like a code name for a criminal"
+  },
+  {
+   "line_start": 163,
+   "line_end": 165,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Susie"],
+   "setting": "Home at ten that night: Susie shoots her owner a meaningful look — Audrey's emotions turn complicated",
+   "text_anchor": "Audrey returned home at about 10 that night."
+  }
+ ]
+}

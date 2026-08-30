@@ -1,0 +1,41 @@
+{
+ "chapter": 456,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "In the carriage past the Bravehearts Bar: 'I'm done with my preparations' — tonight, then — and one more question answered, that mermaids remain only where humans cannot reach, heard singing in storms by whalers of the Gargas Islands",
+   "text_anchor": "“There are no longer mermaids in places where humans can reach."
+  },
+  {
+   "line_start": 41,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron",
+    "Rafter Pound"
+   ],
+   "setting": "The abandoned chapel on Williams Street: Baronet Rafter Pound crawls his tunnel to a vision of an underground palace and a scepter badge, meets a faceless watcher, flees — and greets the ghostly Sharron with delight instead of terror, mistaking her for the sealed evil spirit",
+   "text_anchor": "“A-are you that evil spirit inside the underground palace?"
+  },
+  {
+   "line_start": 101,
+   "line_end": 199,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron",
+    "Rafter Pound",
+    "[evil spirit]"
+   ],
+   "setting": "Klein answers in Sharron's borrowed voice while the baronet raves that the Hero Bandit heralds the Blood Emperor's return — until the evil spirit itself takes him, slams his head bloody, licks the Tudor blood, and bargains: freedom for a Puppet formula and, for Klein, a Card of Blasphemy showing a red-robed Roselle. 'Sequence 0: Red Priest!'",
+   "text_anchor": "“Sequence 0: Red Priest!”"
+  }
+ ]
+}

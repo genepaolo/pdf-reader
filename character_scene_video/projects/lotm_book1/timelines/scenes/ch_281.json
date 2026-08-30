@@ -1,0 +1,32 @@
+{
+ "chapter": 281,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Fors Wall", "[white-coated Beyonders]", "[corpse in the glass pillar]"],
+   "setting": "An abandoned medical-school classroom of skeletons and glass coffins: surgical-masked Audrey and Fors join a silent white-coated gathering — until the black-robed corpse floating in the central pillar opens its eyes: 'Let's begin.'",
+   "text_anchor": "the floating black-clothed male corpse inside the upright glass pillar at the front of the classroom suddenly opened his eyes"
+  },
+  {
+   "line_start": 41,
+   "line_end": 149,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[homeless crowds]", "[tall ferocious man]"],
+   "setting": "Dharavi Street at night: burning himself on the All-Black Eye in short touches, Klein sweeps the buildings — and finds the watcher INSIDE the blasted crime-scene room: a near-two-meter man fused into the shadows with beast-cold eyes; a bathroom-window exit gets him clear",
+   "text_anchor": "There's someone in the destroyed room!"
+  },
+  {
+   "line_start": 151,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog from the East Borough bolt-hole: the shadow-man's conjured portrait goes to Miss Justice with three words of authority — 'This is a clue.'",
+   "text_anchor": "“This is a clue.”"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "chapter": 80,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 75,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Benson"],
+   "setting": "The living room after dinner: Mentor Cohen's letter on the Hornacis relics monograph, allowance diplomacy, and Selena's birthday-banquet invitation",
+   "text_anchor": "After having dinner, a satiated Klein casually lounged"
+  },
+  {
+   "line_start": 79,
+   "line_end": 149,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Rozanne"],
+   "setting": "Blackthorn next morning: the artifacts head to Backlund, membership pends two-three days, and Rozanne's marriage scheme for staffing relief",
+   "text_anchor": "The next day, Klein wore his cheap formal suit"
+  },
+  {
+   "line_start": 151,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "The armory: Old Neil over hand-ground coffee warns of the solo mission every formal Nighthawk must complete",
+   "text_anchor": "At the armory, he saw Old Neil wrestling"
+  }
+ ]
+}

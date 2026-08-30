@@ -1,0 +1,27 @@
+{
+ "chapter": 335,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 27,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Eye of Wisdom",
+    "Darkwill",
+    "[hooded Beyonders]"
+   ],
+   "setting": "The gathering winds down: nobody has the Black Widow gland (Klein resists tailing the male buyer of a Demoness ingredient), and the Apothecary sells out his medicines in three minutes",
+   "text_anchor": "no one responded."
+  },
+  {
+   "line_start": 29,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Prepared at last, into 32 Verdi Street at night: a strangled burglar's ghost-theater loops the staircase — until Azik's whistle is thrown as bait and one pale-gold purifying bullet burns the wraith away ('Bye bye'); the basement holds the brown notebook from the divination dream",
+   "text_anchor": "The pale gold purifying bullet flew out and accurately hit that cold and indistinct object."
+  }
+ ]
+}

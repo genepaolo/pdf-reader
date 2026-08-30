@@ -1,0 +1,61 @@
+{
+ "chapter": 400,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg"
+   ],
+   "setting": "The stripped detention room: Derrick breaks the issued candle into three, lights them with a golden flame, and chants The Fool's name into artificial sleepwalking — the simplified ritual he was permitted",
+   "text_anchor": "This was “artificial sleepwalking.”"
+  },
+  {
+   "line_start": 41,
+   "line_end": 59,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: the Dark Emperor card raises his authority and a paper figurine becomes a twelve-black-winged angel that merges with Little Sun and burns away — after which nothing more can be done but wait on fate",
+   "text_anchor": "a gigantic angel with twelve pairs of pitch-black wings"
+  },
+  {
+   "line_start": 63,
+   "line_end": 93,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg"
+   ],
+   "setting": "Waking under black wings, Derrick melts the two extra candles back into one to erase the ritual, then sits in the dark with guilt and hatred — for Amon, the Fallen Creator, and for the friend he had to destroy with his own hands",
+   "text_anchor": "He had painfully eliminated a classmate who could be considered a friend with his own hands."
+  },
+  {
+   "line_start": 95,
+   "line_end": 177,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Aiflor",
+    "Colin Iliad"
+   ],
+   "setting": "Interrogation: Aiflor's golden vertical pupils and Glory Crown against a rehearsed script — the pointed-hat figure, 'Fallen Creator, True Creator… Shepherd…', the axe from a masked seller, the formula from his parents; the Demon Hunter finds no trace of corruption, and Derrick walks free under continued shadow surveillance",
+   "text_anchor": "“He’s not lying. There’s no way he can lie."
+  },
+  {
+   "line_start": 179,
+   "line_end": 195,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Lovia"
+   ],
+   "setting": "A gentle smile on the spiral staircase from Shepherd Elder Lovia — then, alone, she draws a symbol of secrecy and change in blood that will not drip, swallows the finger wrapped in it, grows a new pale one, and murmurs: 'The Fool?'",
+   "text_anchor": "“The Fool?”"
+  }
+ ]
+}

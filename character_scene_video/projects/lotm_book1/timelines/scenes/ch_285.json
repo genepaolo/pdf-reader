@@ -1,0 +1,41 @@
+{
+ "chapter": 285,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall", "Susie"],
+   "setting": "An old church corner: Susie delivers Audrey's note — 'he IS Lanevus, and he carries the True Creator's godhood; notify the Church of the Evernight Goddess' — leaving Xio whispering that she is still too weak to avenge Williams herself",
+   "text_anchor": "“Godhood? The True Creator's godhood?”"
+  },
+  {
+   "line_start": 45,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Masks bought at the grocery market, and at midnight the climb up the East Balam Dock clock tower: from the shadows above the great clock face, Klein dons a happy clown mask to watch Lanevus pay",
+   "text_anchor": "It was a clown with the corner of its mouth sharply raised and a painted red nose."
+  },
+  {
+   "line_start": 87,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Two hours of waiting rewarded: a silent, black-painted military airship glides in like a vulture and hovers ten meters up — aerial overwatch for the hunt below",
+   "text_anchor": "It was a huge airship covered in dark black paint!"
+  },
+  {
+   "line_start": 109,
+   "line_end": 223,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Crestet Cesimir", "[two Nighthawks]", "[tall ferocious man]", "Lanevus", "[Aurora Order attackers]"],
+   "setting": "The raid: Red Glove Crestet Cesimir walks into a mirror world via Sealed Artifact 1-63, executes the flesh-bombing Giant, drops three Aurora Order shadows — then Lanevus descends the stairs, tears open his shirt to a flesh-woven hanged man, and declares 'Now, I'm even more of the True Creator!' as reality shatters",
+   "text_anchor": "“Now, I'm even more of the True Creator!”"
+  }
+ ]
+}

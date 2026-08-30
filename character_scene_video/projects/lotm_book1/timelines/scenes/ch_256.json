@@ -1,0 +1,42 @@
+{
+ "chapter": 256,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 25,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "Before heading out: the invisible bodyguard confirms no one is monitoring — MI9 has dropped the cat-finding detective from its suspect list entirely",
+   "text_anchor": "“Is someone monitoring me today?”"
+  },
+  {
+   "line_start": 27,
+   "line_end": 73,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kaspars Kalinin",
+    "[bartender]"
+   ],
+   "setting": "Bravehearts Bar: a pound to Kaspars buys entry to tonight's gathering — half an hour of Southville beer and boxing while word is sent ahead",
+   "text_anchor": "Kaspars was playing Texas poker with unlimited stakes."
+  },
+  {
+   "line_start": 75,
+   "line_end": 177,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[hooded Beyonders]",
+    "Darkwill",
+    "Eye of Wisdom",
+    "Sharron"
+   ],
+   "setting": "The iron-mask gathering again: Black Snake has died to the sewer beasts — Klein advises abandoning the herbs and tipping off the police, earning Eye of Wisdom's applause; afterwards the Apothecary of the Life School of Thought laments choosing virility medicine over luck",
+   "text_anchor": "“Black Snake has apparently died in the sewers…"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "chapter": 272,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Isengard Stanton", "[Isengard's assistant]"],
+   "setting": "In Isengard Stanton's carriage: two pounds buys the overheard Capim line — the famous detective knows him at once as Cherwood's girl-trafficking magnate no evidence can touch",
+   "text_anchor": "“I'm asking you on behalf of Sivellaus Yard."
+  },
+  {
+   "line_start": 45,
+   "line_end": 51,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Isengard Stanton", "[Isengard's assistant]"],
+   "setting": "After Moriarty leaves, Isengard strokes a brass open-book ornament with a vertical eye and dissects the mismatch of gold-rimmed glasses and a barbaric beard for his assistant",
+   "text_anchor": "The brass ornament was a pocket-sized open book with a vertical eye in the center."
+  },
+  {
+   "line_start": 53,
+   "line_end": 61,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "On the tracked public carriage: Spirit Vision showed Isengard locked in pure rational blue and spirituality purple — observation genius, or Beyonder?",
+   "text_anchor": "That Detective Isengard Stanton is problematic."
+  },
+  {
+   "line_start": 63,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Kaspars Kalinin"],
+   "setting": "Bravehearts Bar: Maric hasn't shown for two days and hidden gazes track his name — someone is hunting him; Klein aborts the visit with a card-game excuse, guessing Miss Bodyguard and Maric are both fugitives from something with real teeth",
+   "text_anchor": "“He didn't come. He didn't come yesterday either.”"
+  },
+  {
+   "line_start": 107,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Counter-surveillance via the East Borough bolt-hole, then home to the mailbox: the Ernst Firm ad is in the Morning Post — gathering tomorrow at eight, and formulas to sell",
+   "text_anchor": "It was an advertisement for the Ernst Firm's purchase of goods!"
+  }
+ ]
+}

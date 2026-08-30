@@ -1,0 +1,23 @@
+{
+ "chapter": 180,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick"],
+   "setting": "Tarot Gathering: Alger realizes Sun hails from the Forsaken Land of the Gods; The Fool quietly extracts the City of Silver's full sacrificial-ritual procedure",
+   "text_anchor": "Upon hearing The Fool's question, Audrey perked up her ears"
+  },
+  {
+   "line_start": 95,
+   "line_end": 113,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Alone above the fog: Sequence 8 lets him connect more stars — at least two new members possible; then a descent to retry the self-summoning ritual",
+   "text_anchor": "He looked down and saw the boundless gray fog"
+  }
+ ]
+}

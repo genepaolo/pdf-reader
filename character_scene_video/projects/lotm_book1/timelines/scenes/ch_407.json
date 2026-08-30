@@ -1,0 +1,29 @@
+{
+ "chapter": 407,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 119,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White",
+    "Utravsky"
+   ],
+   "setting": "Whispered dealing in the pews: the vampire will hunt Thousand-faced Hunter, Human-skinned Shadow and Deep-sea Naga ingredients for a fee — and reveals that three Sanguines already lost to Utravsky, an adorer of Mother Earth whose betters won't cross him; the Psychology Alchemists are suggested instead, and a parting compliment on his talent for comedy",
+   "text_anchor": "“Defeat Bishop Utravsky and snatch his Mental Terror Candle away,”"
+  },
+  {
+   "line_start": 123,
+   "line_end": 153,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "Dorian Gray"
+   ],
+   "setting": "Pritz Harbor's Fishermen Association: Fors delivers Lawrence's will, notebook and diamond-like characteristic to Dorian Gray, is thanked and invited to lunch — and, once she is settled in the lounge, he opens a hidden cabinet and lifts out a radiant crystal ball",
+   "text_anchor": "It was a pure crystal ball shining with a radiant light."
+  }
+ ]
+}

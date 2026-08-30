@@ -1,0 +1,32 @@
+{
+ "chapter": 299,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Rogo Colloman", "Adol", "Kaslana", "Lydia", "Stuart", "[bodyguards]", "[maidservant]"],
+   "setting": "The gilded Colloman mansion on Grimm Garden Street: shivering Adol's aura is stained wraith blackish-green; Klein meets fellow detectives Kaslana, Lydia and Stuart — and pranks them flat with a mimicked gunshot",
+   "text_anchor": "“Protect me, protect me… They're going to kill me! They want to kill me!”"
+  },
+  {
+   "line_start": 107,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Stuart"],
+   "setting": "After a hearty dry dinner: Stuart privately diagnoses Adol as haunted rather than hunted and muses about calling the Lord of Storms' priests — in a couple of days, maybe",
+   "text_anchor": "“He looks more like he has a mental problem, or, according to the countryside, he's been haunted by ghosts"
+  },
+  {
+   "line_start": 127,
+   "line_end": 189,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Adol", "Stuart"],
+   "setting": "One a.m. watch: corpse-pale Adol drifts to the washroom; Klein follows, tosses Azik's whistle to bait the thing out, snaps his fingers — flame ignites an invisible figure, and Adol wakes from his long nightmare. 'What happened to you?'",
+   "text_anchor": "With a loud bang, a flame rose from the ground, igniting an invisible figure."
+  }
+ ]
+}

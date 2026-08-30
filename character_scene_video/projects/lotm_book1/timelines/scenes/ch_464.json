@@ -1,0 +1,57 @@
+{
+ "chapter": 464,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "[The World]",
+    "Edessak Augustus",
+    "Ince Zangwill"
+   ],
+   "setting": "The prince's name lands: Audrey recalls his sudden coldness and dreads a marriage proposal, Alger inflates the danger to spur the Backlund three — while Klein deliberately withholds the sapphire ring and 0-08, planning to bow off the stage and slip back unseen. 'Ladies and gentlemen, we shall meet next week.'",
+   "text_anchor": "“Ladies and gentlemen, we shall meet next week.”"
+  },
+  {
+   "line_start": 41,
+   "line_end": 71,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Susie"
+   ],
+   "setting": "Good news and bad at the mirror — a Mirror Dragon's eyes secured, and a prince to worry about; she plays the piano to steady herself and Susie, gold-rimmed glasses round her neck, reads her mood straight off the music",
+   "text_anchor": "“Audrey, what problems did you encounter?"
+  },
+  {
+   "line_start": 75,
+   "line_end": 83,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad"
+   ],
+   "setting": "Back at the bonfire, the same campsite and the Chief's same words — proof to Derrick that his memories of the loop are real",
+   "text_anchor": "“We will set off after 50 rounds of lightning.”"
+  },
+  {
+   "line_start": 87,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White"
+   ],
+   "setting": "A quiet afternoon by the fire broken by the doorbell: Emlyn, friendless and unwilling to worry his parents, pays for a consultation — a big shot wants him to do something risky that could fix his problem. 'It has something to do with that Fool…'",
+   "text_anchor": "“It has something to do with that Fool…”"
+  }
+ ]
+}

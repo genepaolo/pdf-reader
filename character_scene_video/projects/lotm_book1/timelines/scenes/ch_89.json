@@ -1,0 +1,32 @@
+{
+ "chapter": 89,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 39,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Rozanne"],
+   "setting": "Dunn briefs the initiation mission — Sir Deweyville's nightly moans — and Klein suits up in his probationary inspector uniform",
+   "text_anchor": "Klein nodded and said, Alright, but I still don't know"
+  },
+  {
+   "line_start": 43,
+   "line_end": 101,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Tolle"],
+   "setting": "The Shooting Club and police carriage: Inspector Tolle's full briefing on a month of moans and cries that follow Deweyville everywhere",
+   "text_anchor": "At the hall of the Shooting Club."
+  },
+  {
+   "line_start": 103,
+   "line_end": 179,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Tolle", "Gate", "Sir Deweyville", "Cullen"],
+   "setting": "The Deweyville mansion: into the master bedroom with the exhausted knight — and Klein's spiritual perception flares",
+   "text_anchor": "The carriage entered the Golden Indus borough"
+  }
+ ]
+}

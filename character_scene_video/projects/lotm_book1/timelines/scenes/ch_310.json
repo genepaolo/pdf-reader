@@ -1,0 +1,32 @@
+{
+ "chapter": 310,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Stelyn Sammer", "Luke Sammer", "[postman]"],
+   "setting": "The Sammers depart for Mary's celebration; Isengard's letter crosses Klein's in the mail with the same shortlist — including the cremated boy suspect — and Klein posts surveillance instructions to Detective Stuart",
+   "text_anchor": "Great detective minds think alike…"
+  },
+  {
+   "line_start": 53,
+   "line_end": 89,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Count Hall", "Hibbert Hall", "Susie", "Audrey Hall"],
+   "setting": "Count Hall lectures Hibbert on how councils breed influence — 'only money is multi-faceted' — while a bored Susie relays every word to Audrey, who still can't steer high society toward East Borough's misery",
+   "text_anchor": "“Then pretend that you can handle it."
+  },
+  {
+   "line_start": 93,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Fors Wall", "[The World]"],
+   "setting": "Monday, three o'clock above the fog: the Tarot Club convenes with a new star — Fors, awed and under-confident, takes her seat as Audrey greets Mr. Fool and eyes the newcomer: 'This is?'",
+   "text_anchor": "The Magician had her own illusory star as well."
+  }
+ ]
+}

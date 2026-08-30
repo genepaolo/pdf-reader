@@ -1,0 +1,39 @@
+{
+ "chapter": 248,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "Home, waiting for the storm: Klein decides to stay and welcome his attackers; the bodyguard's face surfaces on the gas lamp's glass to accept his carefully worded 'I'm also a Beyonder' confession",
+   "text_anchor": "he suddenly saw a face appear on the glass cover of the gas lamp"
+  },
+  {
+   "line_start": 35,
+   "line_end": 45,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Faxine"
+   ],
+   "setting": "The doorbell again: Sergeant Faxine waits impatiently under the gas lamps — bail news, a warning, or something else?",
+   "text_anchor": "a sergeant in a black-and-white checkered uniform with three chevrons on his epaulets was impatiently waiting"
+  },
+  {
+   "line_start": 49,
+   "line_end": 125,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Bakerland",
+    "Eileen"
+   ],
+   "setting": "The Intis embassy ball: while Rosago races MI9 for the manuscript, Bakerland lures 'timber merchant's daughter' Eileen to his room — her nails sprout black spider legs, and his gut-punch turns seduction into interrogation",
+   "text_anchor": "A ball was being held."
+  }
+ ]
+}

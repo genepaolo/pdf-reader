@@ -1,0 +1,32 @@
+{
+ "chapter": 119,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell"],
+   "setting": "Walking from 2 Daffodil Street: Leonard tips Klein off about the Chanis Gate case records and warns to be wary of the Captain 'if he ever remembers everything'",
+   "text_anchor": "Tingen City, 2 Daffodil Street."
+  },
+  {
+   "line_start": 51,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Frye"],
+   "setting": "Iron Cross Street into the true Lower Street: Frye joins at the carriage station; Leonard's revolver parts the wary, ragged crowd",
+   "text_anchor": "Frye was wearing a round black hat and a windbreaker of a similar color"
+  },
+  {
+   "line_start": 81,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Frye", "Bitsch Mountbatten", "Lauwis", "[sleeping tenant]"],
+   "setting": "No. 134, the Lauwis room: examining the matchbox-maker's body — Frye rules heart attack, but Klein's coin says supernatural factors influenced her death",
+   "text_anchor": "Look at their arms and legs, thin as matchsticks."
+  }
+ ]
+}

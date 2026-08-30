@@ -1,0 +1,41 @@
+{
+ "chapter": 151,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Azik Eggers"],
+   "setting": "Night path back to Lamud Town: Klein's cycle theory of Azik's memory loss — and a request to stage a harmless paranormal incident in a nearby town",
+   "text_anchor": "The chirping of insects and the hooting of owls reverberated"
+  },
+  {
+   "line_start": 81,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Benson"],
+   "setting": "Living room at half past eleven: Benson waited up; Klein tips him off about the coming open civil-service examination",
+   "text_anchor": "At half past eleven that night, Klein returned to 2 Daffodil Street"
+  },
+  {
+   "line_start": 109,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "The quiet kitchen deep into the night: a late dinner of leftovers and chicken, alone and at peace",
+   "text_anchor": "After that, he smiled and rubbed his stomach as he walked toward the kitchen."
+  },
+  {
+   "line_start": 119,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Sealed bedroom: preparing to divine above the gray fog whether summoning 'The Fool that doesn't belong to this era' is dangerous",
+   "text_anchor": "After he was satiated, he washed the dishes and took a bath."
+  }
+ ]
+}

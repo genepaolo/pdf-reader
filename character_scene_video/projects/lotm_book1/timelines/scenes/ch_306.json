@@ -1,0 +1,23 @@
+{
+ "chapter": 306,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Evening by the fireplace with the delivered dossiers: only nine unsolved serial cases in twenty years — two stand out: the five murdered single mothers of four years ago, and the dismemberments of eleven years back",
+   "text_anchor": "There were a total of four in Backlund, five in the other cities, a total of nine in total!"
+  },
+  {
+   "line_start": 45,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Utravsky"],
+   "setting": "The little Harvest Church on Rose Street: 2.2-meter Bishop Utravsky of Mother Earth — ex-Feysac pirate turned gentle Father — hears the disguised visitor ask about the Apothecary-formula task and answers with closed eyes: 'Kill me.'",
+   "text_anchor": "“My request is…” … “Kill me.”"
+  }
+ ]
+}

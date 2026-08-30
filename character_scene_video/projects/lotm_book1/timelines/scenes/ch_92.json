@@ -1,0 +1,59 @@
+{
+ "chapter": 92,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Sir Deweyville", "Gate", "Tolle"],
+   "setting": "Wrapping up at the mansion: the 'mass hysteria' lecture, and the police carriage rolls away from the fountain",
+   "text_anchor": "Mass hysteria? Sir Deweyville, who had met many psychiatrists"
+  },
+  {
+   "line_start": 37,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Tolle", "Dunn Smith"],
+   "setting": "Back at Blackthorn: mission complete, a celebration dinner planned, and Dunn quietly arranges to move Hayley's family out of Tingen",
+   "text_anchor": "Inspector Tolle fell silent until the carriage arrived"
+  },
+  {
+   "line_start": 73,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Home on Daffodil Street: leftovers, a heavy nap, and the weekly summary before three o'clock",
+   "text_anchor": "With all of that done, he left Dunn's office"
+  },
+  {
+   "line_start": 89,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog at five to three: The Fool reaches for the crimson stars of Justice and The Hanged Man",
+   "text_anchor": "Five minutes before three in the afternoon."
+  },
+  {
+   "line_start": 99,
+   "line_end": 123,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Susie"],
+   "setting": "Empress Borough: Audrey lectures Susie on open observation and giggles at the idea of a barking Tarot member",
+   "text_anchor": "Backlund, Empress Borough."
+  },
+  {
+   "line_start": 127,
+   "line_end": 137,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Alger Wilson"],
+   "setting": "The captain's cabin on the Sonia Sea: Alger steadies himself with liquor before the Gathering",
+   "text_anchor": "In a particular area of the Sonia Sea"
+  }
+ ]
+}

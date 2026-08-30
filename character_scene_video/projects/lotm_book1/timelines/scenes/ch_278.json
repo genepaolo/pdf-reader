@@ -1,0 +1,41 @@
+{
+ "chapter": 278,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Kaspars Kalinin"],
+   "setting": "The Bravehearts billiard room: Klein asks Kaspars for mining explosives and a demolition expert — after swearing it's a private secret-chamber demolition, not a bank job",
+   "text_anchor": "“I want to buy explosives, the kind that is widely used in mines.”"
+  },
+  {
+   "line_start": 35,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Sharron", "Kaspars Kalinin"],
+   "setting": "Miss Bodyguard materializes — 'Ma'am. Sharron', Kaspars names her at last: Maric is gone for good, she IS a demolition expert, and she'll seal the ruins free of charge so only she can pass through; zombies borrowed as 'snake-repelling assistants'",
+   "text_anchor": "“Good evening, Ma'am. Sharron.”"
+  },
+  {
+   "line_start": 125,
+   "line_end": 155,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "[paperboy]"],
+   "setting": "Saturday morning: the Backlund Bulletin reports the Dharavi Street gas explosion — Williams dead without a complete corpse; grieving Xio vows vengeance and turns back to move house before hunting the killer's trail",
+   "text_anchor": "1 Dharavi Street… Apartment #03-06… Isn't this… Isn't this the place Williams rents?"
+  },
+  {
+   "line_start": 157,
+   "line_end": 171,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Millet Carter", "Sharron", "[zombie assistants]"],
+   "setting": "10:14 at 8 Williams Street: the detective returns in worker's garb with three taciturn 'snake-repelling experts' — Maric's zombies — while the invisible Sharron surveys the terrain for the blast",
+   "text_anchor": "“Yes, they're very good at repelling snakes.”"
+  }
+ ]
+}

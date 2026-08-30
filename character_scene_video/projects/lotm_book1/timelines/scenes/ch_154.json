@@ -1,0 +1,50 @@
+{
+ "chapter": 154,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office: the Captain weighs the risk, hears Klein's too-many-coincidences argument, and approves the special application",
+   "text_anchor": "As he looked into Klein's eyes, Dunn took a deep breath"
+  },
+  {
+   "line_start": 47,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[new clerks]"],
+   "setting": "Clerk's office: the two tactful new clerks slip out while Klein types his application on the Akerson Model 1346",
+   "text_anchor": "Since Klein was finished with his mysticism lessons"
+  },
+  {
+   "line_start": 65,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell"],
+   "setting": "Doorway of the clerk's office: Leonard chokes at 'special application'; Klein needles him about 'special people' and agrees to share his experience",
+   "text_anchor": "Just as he was going to complete his special application, Leonard Mitchell"
+  },
+  {
+   "line_start": 111,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Frye", "Kenley White", "Seeka Tron"],
+   "setting": "Recreation room: Leonard theatrically announces the month-and-a-half potion mastery; Klein shares the Daly-inspired 'real Seer' method",
+   "text_anchor": "Everyone, everyone! Leonard knocked on the half-closed door"
+  },
+  {
+   "line_start": 149,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Back in Dunn's office: signature and thumbprint — the application goes to the Holy Cathedral; an examination looms",
+   "text_anchor": "Klein left the recreation room and knocked on the door to the Captain's office again."
+  }
+ ]
+}

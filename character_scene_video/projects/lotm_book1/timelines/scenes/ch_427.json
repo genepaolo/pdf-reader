@@ -1,0 +1,40 @@
+{
+ "chapter": 427,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 75,
+   "protagonist_present": true,
+   "protagonist_persona": "Hero Bandit",
+   "other_characters": [
+    "[Desire Apostle]",
+    "Leonard Mitchell"
+   ],
+   "setting": "In the sewer dark: a Specter's Shriek, the Dark Emperor's freezing touch that suppresses a shadow by natural order, and two Holy Lights from the Sun Brooch evaporate the Sequence 5 Devil — then the black crown vanishes with his spirit just as the blood-stained silver armor arrives. 'Clearing clues and destroying evidence?'",
+   "text_anchor": "This Sequence 5 expert who had just assassinated a duke had died just like that."
+  },
+  {
+   "line_start": 79,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "[Desire Apostle's spirit]"
+   ],
+   "setting": "Above the gray fog, questioning the fading spirit: Duke Negan's assassination was commissioned by an ancient organization that bends the times toward the Creator's resurrection, paying with a Card of Blasphemy — the Abyss card — and it has a name: the Twilight Hermit Order",
+   "text_anchor": "“Twilight Hermit Order.”"
+  },
+  {
+   "line_start": 147,
+   "line_end": 175,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Ikanser Bernard",
+    "Lockhart Siakam"
+   ],
+   "setting": "In the villa, the grieving secretary gives his name — Lockhart Siakam, Sequence 5 — swears no one knew the Duke's plans and suspects nobody; then, alone over the corpse, he says 'I'm sorry', smiles with his back to the room, and thinks: this is the choice of the times",
+   "text_anchor": "“This is the choice of the times…”"
+  }
+ ]
+}

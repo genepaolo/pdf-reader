@@ -1,0 +1,31 @@
+{
+ "chapter": 420,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Ikanser Bernard",
+    "Isengard Stanton",
+    "Kaslana",
+    "Carlson"
+   ],
+   "setting": "6 Edward Street, a human slaughterhouse: bodies in the cement, the walls and the weeds, from a decade old to the servants killed days ago; the owner is banker Patrick Jason — assets already liquidated, a failed devil summoning in a secret chamber, and a true name: Jason Beria, of the ancient Devil family",
+   "text_anchor": "“Deacon, this place is like a human slaughterhouse!”"
+  },
+  {
+   "line_start": 101,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Isengard Stanton",
+    "Kaslana"
+   ],
+   "setting": "Outside the villa, the wrongness named: a Coldblooded does not burn his whole life down for a dead dog, so revenge cannot be the whole motive; the three split to work their own channels — and Klein's first stop is the police station, to get his fifty pounds of bail back",
+   "text_anchor": "“Coldblooded.”"
+  }
+ ]
+}

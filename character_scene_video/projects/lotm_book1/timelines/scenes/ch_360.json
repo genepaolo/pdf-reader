@@ -1,0 +1,32 @@
+{
+ "chapter": 360,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav"],
+   "setting": "The interlude ends on hope and worry: two hundred years here may equal one year back home — and young Roselle's diary records a four-eyed monster battle and his resolve to crack the silver plate's symbols himself",
+   "text_anchor": "“This world might be a little different from what I know it to be."
+  },
+  {
+   "line_start": 43,
+   "line_end": 125,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick", "Fors Wall", "[The World]"],
+   "setting": "Free trading: Fors's ingredient shopping runs into the Beyonder-poverty wall ('any good ways of earning money?' — silence); The World lists his Faceless ingredients, and Alger posts a bounty on the slave-trader 'Baelen' with the missing third tooth",
+   "text_anchor": "“Everyone, do you have any good ways of earning money?”"
+  },
+  {
+   "line_start": 129,
+   "line_end": 141,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick Berg", "[old prisoner's voice]"],
+   "setting": "Back in the dark cell, Derrick taps the wall signal — no answer through the metal; then an elderly, fleeting voice speaks from the bed behind him: 'Are you looking for me…'",
+   "text_anchor": "“Are you looking for me…”"
+  }
+ ]
+}

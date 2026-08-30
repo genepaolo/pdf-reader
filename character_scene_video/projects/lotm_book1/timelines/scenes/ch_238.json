@@ -1,0 +1,23 @@
+{
+ "chapter": 238,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 101,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick"],
+   "setting": "Tarot Club, closing stretch: The Fool trades the Light Suppliant formula to The Sun for a future favor from Justice; Derrick recounts the Dragon of Imagination Ankewelt and Dragon of Nightmare Alzuhod (whose coincidence-weaving unnervingly resembles Sealed Artifact 0-08); gathering adjourned",
+   "text_anchor": "“Miss Justice, perhaps I can provide the Light Suppliant formula for you.”"
+  },
+  {
+   "line_start": 105,
+   "line_end": 127,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Annie", "Susie"],
+   "setting": "Count Hall's villa, Empress Borough: maid Annie brings a telegram — brother Alfred has found two Rainbow Salamanders for the pituitary gland Audrey no longer needs; Susie wags, stupefied",
+   "text_anchor": "“Miss, a telegram for you came from the Southern Continent.”"
+  }
+ ]
+}

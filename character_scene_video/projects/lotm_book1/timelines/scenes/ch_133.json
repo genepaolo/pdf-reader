@@ -1,0 +1,23 @@
+{
+ "chapter": 133,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Elizabeth"],
+   "setting": "Red Agate room (visions only: the black-armored red-eyed knight wraith in Elizabeth's dream): Klein burns a Dream Charm, enters her nightmare, and shatters it",
+   "text_anchor": "Elizabeth immediately turned nervous after hearing Klein's reply."
+  },
+  {
+   "line_start": 115,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office: Ademisaul's corpse-strewn dream reported as a wide disaster omen; a Lamud Town trip is set with Frye and Sealed Artifact 3-0782",
+   "text_anchor": "In the Blackthorn Security Company, Dunn rubbed his forehead"
+  }
+ ]
+}

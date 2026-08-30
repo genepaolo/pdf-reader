@@ -1,0 +1,32 @@
+{
+ "chapter": 186,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Hood Eugen"],
+   "setting": "Escape from the collapsing spirit-world into the ward — Dunn's five point-blank shots end Eugen before he loses control; scales and a crystalline heart collected, cover-up planned",
+   "text_anchor": "Countless rays of brilliance drowned Klein"
+  },
+  {
+   "line_start": 111,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "The lampless corner outside the asylum: Dunn sends Klein home and stays behind, thinking in the dark",
+   "text_anchor": "Go back and rest."
+  },
+  {
+   "line_start": 117,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "The pre-dawn carriage: the world saturates like an oil painting as a bony palm delivers Azik's reply through the window",
+   "text_anchor": "The streets were quiet and void of people before dawn."
+  }
+ ]
+}

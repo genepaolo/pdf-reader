@@ -1,0 +1,50 @@
+{
+ "chapter": 275,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 11,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the fog: The Sun's grateful reply — he'll gather the Mist Treant's true root and juice as soon as he can; Klein relays the axe's quirks and descends",
+   "text_anchor": "“Dear Mr. Fool, please tell Mr. World that I'll try to gather the Mist Treant's true root"
+  },
+  {
+   "line_start": 15,
+   "line_end": 79,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Williams", "[pub boss]", "[drunkards]"],
+   "setting": "A cramped Dharavi Street pub: Xio recruits informant Williams onto the Lanevus hunt (five soli now, ten pounds for a hit), fails to reform his Half-and-Half habits, and quells a brawl with one Arbiter shout",
+   "text_anchor": "“Williams, I have something to talk to you about.”"
+  },
+  {
+   "line_start": 83,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Leppard"],
+   "setting": "St. George Borough, Thursday: Leppard's crude bicycle prototype rides well; second payment promised next week — and the inventor insists on calling it a 'bike'",
+   "text_anchor": "Leppard was progressing very quickly on the bicycle project"
+  },
+  {
+   "line_start": 97,
+   "line_end": 113,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Julianne"],
+   "setting": "Home at noon amid illusory prayers: Julianne formally delivers Mrs. Sammer's Sunday-luncheon invitation; Klein eyes his messy rooms and plots to borrow her cleaning services",
+   "text_anchor": "“Mr. Moriarty, Mrs. Sammer would like to invite you to a Sunday luncheon."
+  },
+  {
+   "line_start": 115,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall"],
+   "setting": "Above the gray fog: Justice sacrifices her abject-nobles manuscript through the illusory door; Klein reads the Pound chapter — two heirs 'dead of illness' thirty-two years ago, and Baronet Pound now at 29 Sivellaus Street, Empress Borough",
+   "text_anchor": "“… I've gathered the information regarding the abject nobles."
+  }
+ ]
+}

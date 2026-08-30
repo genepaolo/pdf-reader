@@ -1,0 +1,32 @@
+{
+ "chapter": 170,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office: Crestet took Old Neil's remnant eyes — the grim truth about what Rampagers leave behind; Klein asks to train as a full field Nighthawk",
+   "text_anchor": "Klein turned towards the Captain's office and saw that the door was wide open."
+  },
+  {
+   "line_start": 67,
+   "line_end": 183,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Azik Eggers"],
+   "setting": "Azik's living room: Azik will move to Backlund — and gifts Klein the old copper whistle, demonstrating its four-meter bone messenger",
+   "text_anchor": "After leaving the Blackthorn Security Company, Klein didn't return home"
+  },
+  {
+   "line_start": 187,
+   "line_end": 193,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Alger Wilson"],
+   "setting": "Backlund harbor on the Tussock: Alger steps off a passenger ship in Storm-priest robes — 'It's been a while, Backlund'",
+   "text_anchor": "The Tussock River ran through Backlund and harbors"
+  }
+ ]
+}

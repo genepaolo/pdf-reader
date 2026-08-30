@@ -1,0 +1,37 @@
+{
+ "chapter": 480,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 19,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Saint Anthony Stevenson",
+    "[Nighthawks]"
+   ],
+   "setting": "Saint Anthony leads Nighthawks through the wrecked hall into an underground that has been swept clean — no guards, no blue door, and walls melted into raw mud and rock. 'Try divination. Search the vicinity.'",
+   "text_anchor": "“It was disrupted by someone?”"
+  },
+  {
+   "line_start": 23,
+   "line_end": 45,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Soaked, feverish and sneezing through pathless forest: no fire, because the Church's questions would put Klein Moretti's old colleagues face to face with him and raise the matter of a summoned descendant of Death — better that Sherlock Moriarty be declared dead",
+   "text_anchor": "He sure lived up to his name and identity…"
+  },
+  {
+   "line_start": 47,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Azik Eggers"
+   ],
+   "setting": "The world saturates and Azik is walking beside him: Zangwill survives but is hurt and pinned to the royal family, 0-08 will never willingly help its owner, and Klein should leave Backlund; a Card of Blasphemy is promised in thanks, the Underworld is placed inside the spirit world — and a thin human-skin glove changes hands, Creeping Hunger",
+   "text_anchor": "“but to an Undying, this isn’t a big problem.”"
+  }
+ ]
+}

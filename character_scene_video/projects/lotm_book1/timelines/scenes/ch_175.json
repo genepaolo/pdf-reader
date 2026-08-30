@@ -1,0 +1,32 @@
+{
+ "chapter": 175,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 81,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Daxter Guderian"],
+   "setting": "Shooting range deduction: Lanevus visited Hood Eugen thrice before the scam broke — a possible Swindler Beyonder; Daxter will try to treat Eugen for clues",
+   "text_anchor": "Lanevus? That criminal who cheated both money and sex?"
+  },
+  {
+   "line_start": 83,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Benson"],
+   "setting": "Home: Melissa hollow-eyed after Bella's boil-all-leftovers breakfast; Klein announces his 'severalfold' raise and white bread becomes the staple",
+   "text_anchor": "He opened the door and saw his sister sitting on the sofa."
+  },
+  {
+   "line_start": 149,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Sleep, more red-chimney hunting, and a late-night sealed room ready for the messenger-summoning ritual",
+   "text_anchor": "He slept until half past twelve in the afternoon."
+  }
+ ]
+}

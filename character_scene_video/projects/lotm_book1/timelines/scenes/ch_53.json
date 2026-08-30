@@ -1,0 +1,41 @@
+{
+ "chapter": 53,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 19,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Alger Wilson", "[sailor]"],
+   "setting": "An ancient three-masted sailboat sailing calmly through a storm: Alger sets course to pursue the Listener from the Aurora Order",
+   "text_anchor": "An ancient three-masted sailboat was navigating through a tumultuous storm"
+  },
+  {
+   "line_start": 23,
+   "line_end": 51,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Jack", "[Jack's father, the Listener]"],
+   "setting": "A strange cannon-armed pirate sailboat: the boy Jack questions his black-robed father, who breaks down hearing the Creator's voice",
+   "text_anchor": "The storm subsided as mist emanated."
+  },
+  {
+   "line_start": 55,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Rozanne", "Mrs. Orianna"],
+   "setting": "Blackthorn Security Company: Dunn reports the Antigonus notebook is with the vanished Ray Bieber, then fusses over Klein's training",
+   "text_anchor": "After lunch, having had Old Neil promise him"
+  },
+  {
+   "line_start": 109,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica"],
+   "setting": "The Divination Club: Angelica relays that the recovered Mr. Glacis called Klein a very magical doctor",
+   "text_anchor": "With all of this done, he went to the Divination Club"
+  }
+ ]
+}

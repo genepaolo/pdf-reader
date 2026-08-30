@@ -1,0 +1,53 @@
+{
+ "chapter": 458,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad",
+    "Joshua",
+    "Jack"
+   ],
+   "setting": "Jack's mouth splits to his ears and he lunges at Joshua — stopped by an invisible wall while the Demon Hunter's swords and dawn-light afterimages evaporate him; then Derrick jolts awake at a campfire, the whole thing a dream before the city and the temple they have yet to reach",
+   "text_anchor": "“We will set off after 50 rounds of lightning.”"
+  },
+  {
+   "line_start": 55,
+   "line_end": 75,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "After a hot bath, one divination above the fog: the pendulum whirls clockwise — the sealed evil spirit's malice toward him and Sharron is even stronger than he guessed, and neither of them was fooled",
+   "text_anchor": "This meant that the evil spirit’s malice was stronger than Klein had imagined!"
+  },
+  {
+   "line_start": 79,
+   "line_end": 105,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Emlyn White",
+    "Utravsky"
+   ],
+   "setting": "Chores done, Emlyn denies enjoying them while Utravsky smiles and prays; home to an empty house, he remembers tonight's Sanguine gathering, grumbles about kinsmen who dance like humans, and dresses to attend anyway",
+   "text_anchor": "“I haven’t!”"
+  },
+  {
+   "line_start": 107,
+   "line_end": 187,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Emlyn White",
+    "Cosmi Odora",
+    "Nibbs Odora"
+   ],
+   "setting": "A West Borough villa of dancing vampires and vintage blood: Cosmi takes Emlyn down to an iron coffin, where the ancient Nibbs Odora reports a revelation from the Ancestor — the apocalypse nears, Emlyn is one of its key elements — and gives him a task: pray to The Fool",
+   "text_anchor": "“Find a chance to pray to The Fool.”"
+  }
+ ]
+}

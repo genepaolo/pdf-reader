@@ -1,0 +1,28 @@
+{
+ "chapter": 369,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White",
+    "Utravsky"
+   ],
+   "setting": "Harvest Church pews: recognized by smell but past caring, Klein plants the seed — the Mental Terror Candle, the lantern at Emlyn's 'conversion', the hour-a-day compulsion — until the smug Sanguine cracks and begs to go home; Utravsky calmly allows it: 'Emlyn can return home at any time'",
+   "text_anchor": "“Father, Bishop, I want to return home, I want to return home, I want to return home!”"
+  },
+  {
+   "line_start": 113,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White"
+   ],
+   "setting": "The walk and carriage back to 48 Riverbay Avenue: Emlyn already missing the Harvest Church ('It'll only take an hour…'), penniless for the fare, boasting Sanguine potion mastery — and bowing his thanks, which Klein converts into a fee: a Beyonder medicine for a patient",
+   "text_anchor": "“In any case, I must thank you.”"
+  }
+ ]
+}

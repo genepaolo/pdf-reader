@@ -1,0 +1,39 @@
+{
+ "chapter": 437,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Talim Dumont",
+    "[club attendant]"
+   ],
+   "setting": "Kneeling over the body in the club hall: Spirit Vision shows black gas coiled like a snake around Talim's heart — a curse, not a heart attack — and Klein leaves the corpse untouched, sending for police and letting officialdom investigate rather than playing lone hero",
+   "text_anchor": "A Beyonder ability similar to a curse?"
+  },
+  {
+   "line_start": 37,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Carlson"
+   ],
+   "setting": "Back to the Lucky Bar's billiard room: a cursed believer of the Lord of Storms in Hillston Borough falls outside the Machinery Hivemind's remit, so Carlson will only pass it on; walking home past the darkened Sammer house, grief and anger settle in",
+   "text_anchor": "“We have no right to take the case. This is under the Mandated Punishers."
+  },
+  {
+   "line_start": 113,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Isengard Stanton"
+   ],
+   "setting": "The Tussock Times calls it 'sudden heart disease' with a funeral on the 21st; Stanton, asked whether the Mandated Punishers are baiting the killer, makes inquiries — and by evening sends one line: the case was taken by the royal family, on the grounds that Talim was a noble",
+   "text_anchor": "“The royal family has taken the case by claiming that Talim Dumont is a noble.”"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "chapter": 203,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Azik's reply: Vampires, Mutants, and pathway interchanges — the Sleepless pathway pairs with Death AND Giant; Dunn may be a potential Mutant",
+   "text_anchor": "Klein opened the letter, feeling both expectant and nervous"
+  },
+  {
+   "line_start": 49,
+   "line_end": 61,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "A dream summons: Dunn assigns him to help Leonard at 62 Howes Street — a Lanevus lead",
+   "text_anchor": "In the hazy world, Klein was suddenly jolted to his senses."
+  },
+  {
+   "line_start": 63,
+   "line_end": 65,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Bella"],
+   "setting": "Quick wash and change; Bella told not to prepare lunch",
+   "text_anchor": "Howes Street... Isn't that the area where the Divination Club"
+  },
+  {
+   "line_start": 67,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell"],
+   "setting": "62 Howes Street: Lanevus's rented house — divination finds the bookshelf compartment, and inside, a taunting letter: 'prepare yourselves, I'm going to issue you a hint!'",
+   "text_anchor": "He then took a public carriage to Howes Street"
+  }
+ ]
+}

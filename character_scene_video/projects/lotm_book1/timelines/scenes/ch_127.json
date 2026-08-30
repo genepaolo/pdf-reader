@@ -1,0 +1,23 @@
+{
+ "chapter": 127,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "Guard room lessons with Old Neil: a molar-click Spirit Vision switch, plans to 'lay foundations' for an early advancement, and graduating to battle charms",
+   "text_anchor": "The light of the gas lamp glowed through the glass, illuminating the guard room."
+  },
+  {
+   "line_start": 73,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office at lunch: Trissy slipped off the train mid-journey; Klein seeds the 'acting method' story — then frets over how one acts as a Clown",
+   "text_anchor": "After being presented with the mission of bringing lunch underground"
+  }
+ ]
+}

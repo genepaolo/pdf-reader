@@ -1,0 +1,67 @@
+{
+ "chapter": 263,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 15,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "Midnight mirror consult: the dream of the bloody door is only the evil spirit's lingering aura — it will fade; back to sleep",
+   "text_anchor": "“I dreamed of the blood-stained door in that room.”"
+  },
+  {
+   "line_start": 17,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Sunday papers over a soft-boiled egg: the Civil Servant Examination Bill passes (good news for Benson's head start), pollution councils approved, and no Ernst Firm ad — no gathering tomorrow",
+   "text_anchor": "“The Civil Servant Unified Examination Bill has been officially passed"
+  },
+  {
+   "line_start": 41,
+   "line_end": 99,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Benson",
+    "Melissa",
+    "Bella"
+   ],
+   "setting": "Tingen, 2 Daffodil Street: Benson resolves to resign and sit the Backlund exams and urges Melissa toward the new Backlund technical university; when she leaves the table, his smile drops over Klein's silver pocket watch",
+   "text_anchor": "“The Civil Servant Unified Examination Bill was passed?”"
+  },
+  {
+   "line_start": 101,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "Six fruitless library hours on the Pound family; at home the bodyguard announces 'the employment period is over' — but nods to hearing any Pound clues through Maric, curtsies, and is gone",
+   "text_anchor": "“The employment period is over.”"
+  },
+  {
+   "line_start": 129,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Late night, alone at last: a test grip on Rosago's All-Black Eye brings roars and the world laced in black threads",
+   "text_anchor": "he took out the iron cigarette case and reached out to touch Rosago's All-Black Eye"
+  },
+  {
+   "line_start": 139,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog the Eye falls silent: with Nimblewright threads Klein puppeteers a hooded fake member — 'Welcome, new member. Which tarot card do you wish to draw?' 'The World.'",
+   "text_anchor": "“I choose the card ‘The World.'”"
+  }
+ ]
+}

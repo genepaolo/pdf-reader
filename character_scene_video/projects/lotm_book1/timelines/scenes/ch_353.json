@@ -1,0 +1,23 @@
+{
+ "chapter": 353,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Mike Joseph", "Kohler", "[old lady tramp]"],
+   "setting": "The coffee-shop interview: a ruined grain merchant's widow tells her story with a dead calm, eats politely, asks to sleep — and quietly dies in the warm chair; 'at least she filled her stomach', says Old Kohler, newly hired as guide",
+   "text_anchor": "“She's dead.”"
+  },
+  {
+   "line_start": 109,
+   "line_end": 173,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Mike Joseph", "Kohler", "[policeman]"],
+   "setting": "The policeman shrugs at the death but hunts for illegal firearms — finding nothing on the Magician whose revolver sits unseen under the table; the interview plan is redrawn by lodging and shift, and the trio heads for a nearby apartment",
+   "text_anchor": "“I suspect that you're carrying a gun illegally!"
+  }
+ ]
+}

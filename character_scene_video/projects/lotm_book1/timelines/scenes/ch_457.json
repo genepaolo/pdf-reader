@@ -1,0 +1,42 @@
+{
+ "chapter": 457,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 91,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron",
+    "Rafter Pound",
+    "[evil spirit]"
+   ],
+   "setting": "The evil spirit's terms and lore: blood of Sauron, Einhorn and the hidden Medici (of an order called Rose Redemption) mixed with holy water to break its seal; Binxi Town as a lead; Alista Tudor the mad Blood Emperor — then it drops Rafter Pound and Sharron buries the tunnel behind them",
+   "text_anchor": "“That organization is known as Rose Redemption.”"
+  },
+  {
+   "line_start": 93,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "In the carriage both refuse to free it — the plan instead is to destroy it together once they are High-Sequence — and Klein promises to watch for a Puppet formula before announcing his southern holiday. 'Happy New Year.'",
+   "text_anchor": "“Happy New Year.”"
+  },
+  {
+   "line_start": 139,
+   "line_end": 157,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad",
+    "Jack"
+   ],
+   "setting": "Behind the altar, the boy Jack says his group came seeking the Lord's holy residence, following where the statue's eyes look — and when asked where his companions are, he clutches his throat and moans that he is so hungry",
+   "text_anchor": "“I’m so hungry…"
+  }
+ ]
+}

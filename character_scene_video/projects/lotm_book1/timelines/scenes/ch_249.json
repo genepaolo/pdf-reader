@@ -1,0 +1,23 @@
+{
+ "chapter": 249,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 169,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Bakerland", "Eileen", "Mr. A"],
+   "setting": "The assassination in the embassy bedroom: a Shepherd of the Aurora Order bursts from inside Eileen's body, twists Bakerland's own no-disturb order into an isolation, saps him with a Demoness of Affliction's pneumonia, and — as Saint Tenebrous's recorded dark knight — cuts the Pyromaniac ambassador in two",
+   "text_anchor": "“Rose Bishop!” As a veteran intelligence officer, Bakerland immediately identified"
+  },
+  {
+   "line_start": 171,
+   "line_end": 189,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Faxine"],
+   "setting": "Back at 15 Minsk Street: the coin says the visitor is no danger — Sergeant Faxine has only come with a warning from the higher-ups: be careful of strangers tonight and tomorrow",
+   "text_anchor": "Sergeant Faxine took off his hat and said with a serious expression"
+  }
+ ]
+}

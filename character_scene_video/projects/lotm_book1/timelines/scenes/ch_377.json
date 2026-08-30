@@ -1,0 +1,38 @@
+{
+ "chapter": 377,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 31,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: the gilded dining room with Capim, Harras, Katy and Parker at table): astromancy on the dreamed crimson moon fixes dinner at 7:30 — and a stray question surfaces with no revelation: where are Capim's wife and children?",
+   "text_anchor": "It looks like it’s from 7:30 to 7:45 in the evening…"
+  },
+  {
+   "line_start": 35,
+   "line_end": 133,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Capim",
+    "Odysseus",
+    "Harras",
+    "Katy",
+    "Parker"
+   ],
+   "setting": "Capim's study and dining room: Fabian's death demands a gang leader's body — until Harras walks in and cows the trafficker ('You are not the only human trafficker in Backlund'); a photo of a distant wife and children, a promised 'good' for Harras's room tonight, and a 7:23 toast to a beautiful future",
+   "text_anchor": "“Holy Lord of Storms, let’s toast to a beautiful future.”"
+  },
+  {
+   "line_start": 137,
+   "line_end": 177,
+   "protagonist_present": true,
+   "protagonist_persona": "Hero Bandit",
+   "other_characters": [],
+   "setting": "A Backlund Bridge hotel room: self-summoning ritual, mystical items absorbed into the Spirit Body — then the Dark Emperor card turns spirit to armored flesh, black crown and cape, and Klein flies unseen past the patrols to Capim's fountain, shielded by the card's anti-divination",
+   "text_anchor": "At that moment, Klein was like an emperor about to embark on a journey."
+  }
+ ]
+}

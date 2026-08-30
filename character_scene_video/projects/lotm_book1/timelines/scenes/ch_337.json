@@ -1,0 +1,32 @@
+{
+ "chapter": 337,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Fors Wall", "Xio Derecha"],
+   "setting": "Fors, marking the next full moon on her calendar, receives The World's offer through the fog — the Trickmaster formula at last! — then hides her secret-society joy behind a half-truth when Xio comes home",
+   "text_anchor": "The Trickmaster formula that I've been arduously searching for all these years"
+  },
+  {
+   "line_start": 51,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Isengard Stanton", "Kaslana", "Stuart", "[private detectives]", "Leppard"],
+   "setting": "Bounty day at Isengard's: 1000 pounds split, and 'expert at deduction' Sherlock Moriarty takes the top share of 300; then Stuart hands over a missing-person flyer — the vanished man is one Emlyn White",
+   "text_anchor": "“I declare that Detective Sherlock Moriarty will be awarded 300 pounds!”"
+  },
+  {
+   "line_start": 135,
+   "line_end": 147,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Norma", "[Countess Hall]", "[maid]"],
+   "setting": "Duke Negan's tea party: Lady Norma, Duchess Della's sister, corners Audrey by the bathroom — 'I heard our beautiful young lady is very interested in mysticism?' The Psychology Alchemists' test begins",
+   "text_anchor": "“I heard that our beautiful young lady is very interested in mysticism?”"
+  }
+ ]
+}

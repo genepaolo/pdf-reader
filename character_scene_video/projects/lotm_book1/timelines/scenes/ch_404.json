@@ -1,0 +1,42 @@
+{
+ "chapter": 404,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 75,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "Lawrence Nord"
+   ],
+   "setting": "Carlpensa Hotel: the dying astrologer entrusts Fors with a bronze-green notebook ('I came, I saw, I record') for Dorian Gray at Pritz Harbor, sends her for water she doesn't need, and ends his own life before he can lose control — leaving an eye-sized 'diamond' refracting starlight beside him",
+   "text_anchor": "“I came, I saw, I record”"
+  },
+  {
+   "line_start": 79,
+   "line_end": 149,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Will Auceptin"
+   ],
+   "setting": "Above the gray fog with the paper crane and spirit pendulum: the corpse is Will Auceptin's and will not resurrect — yet he is not completely dead. The theory that follows is one to run from: a second Snake of Mercury hunting the first, because a Sequence 0 leaves no Sequence 1s alive",
+   "text_anchor": "He suspected that Will Auceptin was another Snake of Mercury!"
+  },
+  {
+   "line_start": 153,
+   "line_end": 173,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "Xio Derecha",
+    "Glaint",
+    "Mr. A"
+   ],
+   "setting": "Mr. A's gathering in Empress Borough, Fors hooded and preoccupied with Lawrence's legacy — until the host announces his mission: 'Help me find people who believe in the so-called Fool.'",
+   "text_anchor": "“Help me find people who believe in the so-called ‘Fool.’”"
+  }
+ ]
+}

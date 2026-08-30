@@ -1,0 +1,57 @@
+{
+ "chapter": 467,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Emlyn White"
+   ],
+   "setting": "The vampire's prayer arrives above the fog with an ancient Sanguine standing guard beside him — so The Fool watches, amused, and refuses to answer while the protection lasts. 'I can delay my response…'",
+   "text_anchor": "“I can delay my response…”"
+  },
+  {
+   "line_start": 41,
+   "line_end": 107,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad",
+    "Jack",
+    "Joshua",
+    "Haim"
+   ],
+   "setting": "Colin drinks his own potion and carves the Ouroboros face out of Jack's chest — the invisible river breaks, the loop ends, and only Derrick knows it happened; the boy is sealed and kept alive as the City of Silver's hope",
+   "text_anchor": "he and the others had finally escaped the cycle of repeating their lives"
+  },
+  {
+   "line_start": 111,
+   "line_end": 147,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Count Hall",
+    "Hibbert Hall",
+    "[Countess Hall]"
+   ],
+   "setting": "Family dinner: the prince's scandal is a commoner girl and a dead aristocratic descendant, hushed by the royal family — and Audrey plants the doubt that the scandal may be the cover, not the secret, then changes the subject",
+   "text_anchor": "“Maybe that’s not what they really want to cover up.”"
+  },
+  {
+   "line_start": 151,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Emlyn White",
+    "Nibbs Odora"
+   ],
+   "setting": "No response comes, and Emlyn spends a guarded, uneventful night — then next morning, alone in a rental carriage on the way to the Harvest Church, the fog takes him: a mottled bronze table, and a figure at its end looking down",
+   "text_anchor": "“Lord Nibbs, there’s no response.”"
+  }
+ ]
+}

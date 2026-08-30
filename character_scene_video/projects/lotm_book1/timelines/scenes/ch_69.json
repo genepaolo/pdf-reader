@@ -1,0 +1,32 @@
+{
+ "chapter": 69,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[bespectacled man]", "[teenage girl]", "[stall owner]"],
+   "setting": "The amulet stall: Klein buys two half-finished silver amulets for his siblings and coaches a young mysticism aficionado on choosing a health amulet",
+   "text_anchor": "Klein looked over and saw the person inquiring about the cow teeth paeonol."
+  },
+  {
+   "line_start": 125,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil", "[bespectacled man]"],
+   "setting": "Old Neil returns debt-free with a wooden box; the bespectacled man is overheard buying elf flowers — more Spectator ingredients",
+   "text_anchor": "At this point, Old Neil had already paid off his debt."
+  },
+  {
+   "line_start": 147,
+   "line_end": 167,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil", "[young lady in grayish-white dress]"],
+   "setting": "Leaving the harbor and parting with Old Neil; at Daffodil Street a strangely shuddering young lady boards the carriage and Klein readies his Spirit Vision",
+   "text_anchor": "After leaving Evil Dragon Bar, Klein and Old Neil took a public carriage"
+  }
+ ]
+}

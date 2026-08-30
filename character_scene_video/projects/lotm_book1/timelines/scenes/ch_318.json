@@ -1,0 +1,23 @@
+{
+ "chapter": 318,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[female guide]", "[visitors]"],
+   "setting": "Casing the study exhibit: elimination logic says only the 'manuscript of creativity' is valuable enough for Roselle's joke — its emperor-portrait bookmark may be the second Card of Blasphemy; security is light with the Devil hunt on, and the washroom recon completes the floor plan",
+   "text_anchor": "There's only one bookmark in the entire exhibition hall that requires verification."
+  },
+  {
+   "line_start": 101,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Home scheming with image intact: Klein prays to himself as 'the adorer' — touch the bookmark, nick it, whisper 'Pirate King' in Hermes, 500 pounds — then above the fog forwards the mosaicked plea to Miss Justice without Mr. Fool saying a word",
+   "text_anchor": "He decided to pass on the image and voice of his “adorer's” plea directly to Miss Justice."
+  }
+ ]
+}

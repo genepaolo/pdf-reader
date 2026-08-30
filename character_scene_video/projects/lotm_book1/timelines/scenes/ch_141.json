@@ -1,0 +1,50 @@
+{
+ "chapter": 141,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 19,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "The boulder watch drags on: Quelaag's Oil against exhaustion and mosquito bites while guarding the Sacred Emblem",
+   "text_anchor": "The exhausted Klein dispelled the sealed wall of spirituality"
+  },
+  {
+   "line_start": 21,
+   "line_end": 33,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Frye"],
+   "setting": "Shift handover in the dark: Frye takes 3-0782, ten minutes early — next shift in seven hours, since the Captain doesn't sleep at night",
+   "text_anchor": "Finally, he saw the black-haired, blue-eyed Frye"
+  },
+  {
+   "line_start": 35,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Inn room, asleep: Dunn invades Klein's dream as a practicing Nightmare — and eats his entire dream supper before tipping his hat and leaving",
+   "text_anchor": "On the way back to the inn, he took out his pocket watch again"
+  },
+  {
+   "line_start": 85,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Frye"],
+   "setting": "Dawn shift, then back to 36 Zouteland Street: 3-0782 returned behind Chanis Gate, mission report and expense claims typed up",
+   "text_anchor": "At about half past five the morning the next day"
+  },
+  {
+   "line_start": 101,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Daxter Guderian"],
+   "setting": "Small shooting range 7 at the Zouteland Street Shooting Club: the coded-letter rendezvous with Doctor Daxter begins behind a locked door",
+   "text_anchor": "After lunch, he took a look at his pocket watch"
+  }
+ ]
+}

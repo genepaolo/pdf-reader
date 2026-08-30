@@ -1,0 +1,49 @@
+{
+ "chapter": 450,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 15,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "2,500 pounds and the golden mask sent down to Miss Justice; back in the real world Klein sorts what remains — thirty pounds in his wallet, eight hundred split between his pockets, two strands of Naga hair wrapped in paper — and goes out into the lamplight",
+   "text_anchor": "consuming potions bankrupts you for three"
+  },
+  {
+   "line_start": 17,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "A tap on the carriage window: Sharron takes her honest half of the tomb payment — 800 pounds and two Naga hairs — and reports that the Tudor baronet is digging his own tunnel toward the underground ruin, two or three months out. 'When I'm ready, then we can go visit him together.'",
+   "text_anchor": "“Someone is digging a tunnel to the underground ruin.”"
+  },
+  {
+   "line_start": 93,
+   "line_end": 145,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Escalante",
+    "Susie"
+   ],
+   "setting": "The brought-forward lesson is the handover: cash and mask against a hollowed-out textbook holding the many-faced characteristic and the Wind-blessed parchment — with Audrey holding both sides' payment in escrow on her own reputation",
+   "text_anchor": "“And before the verification, the money and items will all be held under my custody."
+  },
+  {
+   "line_start": 149,
+   "line_end": 181,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Alger Wilson"
+   ],
+   "setting": "The pendulum verifies the formula before it goes to a delighted Alger ('Blue Shadow Falcon… That primitive island has it…') — and then the Human-skinned Shadow characteristic checks out too. Tonight, the Faceless potion gets concocted",
+   "text_anchor": "Tonight, he would concoct the Faceless potion!"
+  }
+ ]
+}

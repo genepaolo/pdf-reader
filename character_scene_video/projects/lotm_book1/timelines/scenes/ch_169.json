@@ -1,0 +1,23 @@
+{
+ "chapter": 169,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 81,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Crestet Cesimir"],
+   "setting": "The alchemy room: testing the Clown's uncanny coordination; Crestet's parting lessons on murmurs, essence-over-form — and Klein's first flash of action-prediction",
+   "text_anchor": "After the color in Klein's eyes went back to normal"
+  },
+  {
+   "line_start": 83,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Alone in the alchemy room: cataloguing the new powers — paper thrown like a dagger into the wall — then up the stairs into pure, warm sunlight",
+   "text_anchor": "This... He was dazed for a moment before he felt intense excitement."
+  }
+ ]
+}

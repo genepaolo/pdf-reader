@@ -1,0 +1,23 @@
+{
+ "chapter": 357,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Stelyn Sammer", "Jurgen Cooper", "Julianne", "[banquet ladies]", "[Sammer children]"],
+   "setting": "Stelyn's matchmaking banquet: incomes announced to the ladies' faces (Jurgen the clear favorite over a scruffy detective), invented case stories for the twins — and news that Mary's council luncheon invitation comes from Hibbert Hall himself",
+   "text_anchor": "“This is Mr. Sherlock Moriarty, a well-known detective."
+  },
+  {
+   "line_start": 155,
+   "line_end": 205,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Stelyn Sammer", "Luke Sammer", "Mary", "Audrey Hall", "Susie"],
+   "setting": "Monday at the Hall villa: the Sammers among nobility; on the balcony Stelyn asks the angelic girl what such a fine hound costs — Audrey glances at Susie and smiles: '450 pounds'",
+   "text_anchor": "“450 pounds.”"
+  }
+ ]
+}

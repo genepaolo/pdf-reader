@@ -1,0 +1,41 @@
+{
+ "chapter": 321,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 55,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Max Livermore", "[Machinery Hivemind members]", "[security guards]"],
+   "setting": "The matchbox blaze in the washroom springs the defenders: guards rush the fire, the two watchers hold the diary hall per orders, and Max sprints back confident the block-model artifact will cage any intruder",
+   "text_anchor": "“Once you enter, you will be like prey that has fallen into a trap!”"
+  },
+  {
+   "line_start": 57,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[woman on the bookshelf stairs]"],
+   "setting": "The spirit-ghost descends into the study and palms both bookmarks — then baby wails, frozen air, eyeballs of squirming worms, and a soft voice from atop the bookshelves: 'Why did you only take the bookmarks?' Klein smiles wide — and vanishes",
+   "text_anchor": "“Why did you only take the bookmarks? Where did you learn to only take the bookmarks?”"
+  },
+  {
+   "line_start": 127,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog, the escape hatch that needs no escape: ending the self-summoning yanked spirit, whistle and bookmarks clean out of the world — while Max stares at a model that never gained a red dot",
+   "text_anchor": "“Fortunately, I was prepared.”"
+  },
+  {
+   "line_start": 165,
+   "line_end": 191,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Back in his body and Master-Keying homeward through the terraces — until a wall opens onto a blood stench: a woman gutted on the living-room floor, organs gone, and grunting close by",
+   "text_anchor": "The strong smell of blood! Klein frowned."
+  }
+ ]
+}

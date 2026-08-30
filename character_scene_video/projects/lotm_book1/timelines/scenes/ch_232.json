@@ -1,0 +1,59 @@
+{
+ "chapter": 232,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 11,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall", "Mr. A", "[Mr. A's attendant]"],
+   "setting": "Back in Mr. A's living room: rattled by the anonymous note, Xio takes Fors's advice — go, Mr. A is watching — and follows the attendant to the study",
+   "text_anchor": "Who? How did that person know that I purchased the Sheriff recipe?"
+  },
+  {
+   "line_start": 13,
+   "line_end": 47,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "[golden-masked man]"],
+   "setting": "The study: a golden-masked man in a tuxedo — the true seller of the Sheriff formula — recruits 'Miss Arbiter' for paid missions, dangling the Terror Demon Worm eyes and Silver War Bear palm she cannot yet afford",
+   "text_anchor": "The man wore a golden mask that revealed his eyes, nostrils, mouth, and cheeks"
+  },
+  {
+   "line_start": 49,
+   "line_end": 57,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Sunday of repairs: 6 pounds 9 soli to restore the living room — though Meursault's Beyonder characteristic is worth 300, if only Klein had a circle to sell it in",
+   "text_anchor": "Klein busied himself with buying chairs and tea sets"
+  },
+  {
+   "line_start": 59,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[doorman]", "[bartender]"],
+   "setting": "Bravehearts Bar, Iron Gate Street: rat-baiting and boxing stages, a five-pence Southville beer, and a quiet question — where is Kaspars Kalinin? Billiard room 3",
+   "text_anchor": "He saw Bravehearts Bar after taking a few steps."
+  },
+  {
+   "line_start": 89,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Kaspars Kalinin"],
+   "setting": "Billiard room 3: 'Old Geezer introduced me' — the scarred, brandy-nosed Kaspars sells a custom silver revolver with fifty rounds and agrees to ask around for a beyond-human bodyguard",
+   "text_anchor": "Kaspars Kalinin hobbled over and asked, “What do you want?”"
+  },
+  {
+   "line_start": 145,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Kaspars Kalinin", "[man in black vest]", "[zombie card players]"],
+   "setting": "The card room behind the kitchen: a Texas-poker table where Spirit Vision reveals every player but one is a black-aura zombie — and the pale man in the black vest comes over with deep malice in his eyes",
+   "text_anchor": "It was a card room where more than ten people were playing Texas poker."
+  }
+ ]
+}

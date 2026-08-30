@@ -1,0 +1,32 @@
+{
+ "chapter": 81,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 39,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "The armory: the formal-member ritual mission, Melee Scholar jokes, and Klein's plan for the day",
+   "text_anchor": "I have to complete a mission independently"
+  },
+  {
+   "line_start": 43,
+   "line_end": 95,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Joyce", "Anna", "Bogda", "Irene", "[man with a stubble]"],
+   "setting": "A chandelier-lit dining hall: Joyce's welcome-back toast turns to sick Bogda, and Anna recommends the Seer Klein Moretti",
+   "text_anchor": "In a dining hall adorned with a chandelier"
+  },
+  {
+   "line_start": 99,
+   "line_end": 144,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[librarian]", "Sir Deweyville", "[butler]"],
+   "setting": "Deweyville Library: the Hornacis monograph is missing but the journals confirm a mountain-peak palace — then Sir Deweyville himself walks past",
+   "text_anchor": "Golden Indus Borough. Deweyville Library."
+  }
+ ]
+}

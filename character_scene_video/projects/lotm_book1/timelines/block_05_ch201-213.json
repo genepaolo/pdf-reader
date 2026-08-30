@@ -1,0 +1,1585 @@
+{
+  "batch": 5,
+  "chapters": "201-213",
+  "total": "2:39:30",
+  "chapters_detail": [
+    {
+      "chapter": 201,
+      "title": "Inquiry",
+      "scenes": [
+        {
+          "start": "0:00:00",
+          "end": "0:03:15",
+          "duration": "0:03:15",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 49,
+          "setting": "Back into Sharon's bedroom with deliberate footsteps: Dunn is clean-faced, wrapping the mirror — as if the blood on his lips had been an illusion",
+          "text_anchor": "Klein held his breath with his back against the wall",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 194.53,
+          "batch_start": 0.0,
+          "batch_end": 194.53
+        },
+        {
+          "start": "0:03:15",
+          "end": "0:04:23",
+          "duration": "0:01:09",
+          "present_cast": [
+            "Klein Moretti",
+            "[police officer]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[police officer]"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 51,
+          "line_end": 69,
+          "setting": "The nearest police station: a heavy-faced inspector Moretti reports a serious murder at 15 Osna Street",
+          "text_anchor": "With Dunn's help, Klein quickly cleaned up the scene",
+          "timing": "aligned",
+          "chapter_start": 194.53,
+          "chapter_end": 263.404,
+          "batch_start": 194.53,
+          "batch_end": 263.404
+        },
+        {
+          "start": "0:04:23",
+          "end": "0:06:04",
+          "duration": "0:01:41",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 71,
+          "line_end": 105,
+          "setting": "The dark rental carriage: spiraling doubts about the Captain — blood, mistakes, Kenley's death — settled by a plan to write to Daly",
+          "text_anchor": "Having settled this, Klein headed back to Zouteland Street on a rental carriage.",
+          "timing": "aligned",
+          "chapter_start": 263.404,
+          "chapter_end": 363.925,
+          "batch_start": 263.404,
+          "batch_end": 363.925
+        },
+        {
+          "start": "0:06:04",
+          "end": "0:08:03",
+          "duration": "0:01:59",
+          "present_cast": [
+            "Klein Moretti",
+            "Frye"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Frye.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 107,
+          "line_end": 129,
+          "setting": "Blackthorn recreation room: telling Frye that Kenley is dead — 'You don't need to blame yourself... We must always trust our partners'",
+          "text_anchor": "Taking a deep breath, Klein went to the recreation room",
+          "timing": "aligned",
+          "chapter_start": 363.925,
+          "chapter_end": 483.028,
+          "batch_start": 363.925,
+          "batch_end": 483.028
+        },
+        {
+          "start": "0:08:03",
+          "end": "0:08:35",
+          "duration": "0:00:32",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Frye"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Frye.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 131,
+          "line_end": 137,
+          "setting": "Near dawn at the mortuary: the bodies brought back; Dunn quietly sends Klein home",
+          "text_anchor": "It was nearing dawn by the time they got Kenley's corpse",
+          "timing": "aligned",
+          "chapter_start": 483.028,
+          "chapter_end": 515.19,
+          "batch_start": 483.028,
+          "batch_end": 515.19
+        },
+        {
+          "start": "0:08:35",
+          "end": "0:11:13",
+          "duration": "0:02:38",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 139,
+          "line_end": 179,
+          "setting": "Sealed bedroom: a crumpled first draft, then careful letters to Daly and Azik about the blood on the Captain's mouth",
+          "text_anchor": "Just as he had done the previous time, he easily entered his bedroom",
+          "timing": "aligned",
+          "chapter_start": 515.19,
+          "chapter_end": 673.49,
+          "batch_start": 515.19,
+          "batch_end": 673.49
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 673.49
+    },
+    {
+      "chapter": 202,
+      "title": "Confirming the Situation",
+      "scenes": [
+        {
+          "start": "0:11:13",
+          "end": "0:12:00",
+          "duration": "0:00:46",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 9,
+          "setting": "The copper whistle again: the bone messenger takes the letter to Azik and rains away",
+          "text_anchor": "After folding the letter, Klein took out the copper whistle",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 46.123,
+          "batch_start": 673.49,
+          "batch_end": 719.613
+        },
+        {
+          "start": "0:12:00",
+          "end": "0:14:47",
+          "duration": "0:02:48",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 11,
+          "line_end": 55,
+          "setting": "Above the gray fog: the pendulum confirms Dunn's abnormality WILL endanger Klein — but the divination on its cause returns only fog",
+          "text_anchor": "Klein felt much calmer after finishing everything",
+          "timing": "aligned",
+          "chapter_start": 46.123,
+          "chapter_end": 213.788,
+          "batch_start": 719.613,
+          "batch_end": 887.278
+        },
+        {
+          "start": "0:14:47",
+          "end": "0:18:06",
+          "duration": "0:03:19",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Royale Reideen"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Royale Reideen.png"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 57,
+          "line_end": 99,
+          "setting": "Morning at Blackthorn: a hollow-eyed Dunn relays the 4000-pound compensation for Kenley's family; shift change with Royale in silence",
+          "text_anchor": "The next morning, Klein was on duty at Chanis Gate",
+          "timing": "aligned",
+          "chapter_start": 213.788,
+          "chapter_end": 412.461,
+          "batch_start": 887.278,
+          "batch_end": 1085.951
+        },
+        {
+          "start": "0:18:06",
+          "end": "0:18:38",
+          "duration": "0:00:32",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 101,
+          "line_end": 107,
+          "setting": "Chanis Gate duty: four black dots on his hand — members are praying, and must wait",
+          "text_anchor": "He sat in the duty room and occasionally took out his silver pocket watch",
+          "timing": "aligned",
+          "chapter_start": 412.461,
+          "chapter_end": 444.245,
+          "batch_start": 1085.951,
+          "batch_end": 1117.735
+        },
+        {
+          "start": "0:18:38",
+          "end": "0:19:48",
+          "duration": "0:01:10",
+          "present_cast": [
+            "Klein Moretti",
+            "Bella",
+            "Melissa Moretti",
+            "Benson Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg",
+            "Benson Moretti.jpg"
+          ],
+          "missing_images": [
+            "Bella"
+          ],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 109,
+          "line_end": 127,
+          "setting": "Home next morning: theater tickets go on sale today; the siblings head to Mass while Klein eats and retreats upstairs",
+          "text_anchor": "Having just fished his keys to open the door to his house",
+          "timing": "aligned",
+          "chapter_start": 444.245,
+          "chapter_end": 514.016,
+          "batch_start": 1117.735,
+          "batch_end": 1187.506
+        },
+        {
+          "start": "0:19:48",
+          "end": "0:21:11",
+          "duration": "0:01:24",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 129,
+          "line_end": 151,
+          "setting": "Above the gray fog (visions only: Justice praying from her bath, Alger's parallel request): both ask leave — the next Gathering is canceled",
+          "text_anchor": "After he did the preparatory work, he took four steps counterclockwise",
+          "timing": "aligned",
+          "chapter_start": 514.016,
+          "chapter_end": 597.814,
+          "batch_start": 1187.506,
+          "batch_end": 1271.304
+        },
+        {
+          "start": "0:21:11",
+          "end": "0:22:24",
+          "duration": "0:01:13",
+          "present_cast": [
+            "Derrick Berg",
+            "Lloydia"
+          ],
+          "images": [
+            "Derrick Berg.jpg"
+          ],
+          "missing_images": [
+            "Lloydia"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 155,
+          "line_end": 171,
+          "setting": "City of Silver training field: the cancellation reaches Derrick under the eyes of the increasingly strange Shepherd elder, Lloydia",
+          "text_anchor": "City of Silver.",
+          "timing": "aligned",
+          "chapter_start": 597.814,
+          "chapter_end": 671.009,
+          "batch_start": 1271.304,
+          "batch_end": 1344.499
+        },
+        {
+          "start": "0:22:24",
+          "end": "0:22:52",
+          "duration": "0:00:27",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 175,
+          "line_end": 183,
+          "setting": "Shaken awake by a giant white-bone hand: Azik's reply lands on the bed",
+          "text_anchor": "Klein returned to his bedroom, threw himself into bed",
+          "timing": "aligned",
+          "chapter_start": 671.009,
+          "chapter_end": 698.18,
+          "batch_start": 1344.499,
+          "batch_end": 1371.67
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 698.18
+    },
+    {
+      "chapter": 203,
+      "title": "Mutant",
+      "scenes": [
+        {
+          "start": "0:22:52",
+          "end": "0:28:29",
+          "duration": "0:05:37",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 47,
+          "setting": "Azik's reply: Vampires, Mutants, and pathway interchanges — the Sleepless pathway pairs with Death AND Giant; Dunn may be a potential Mutant",
+          "text_anchor": "Klein opened the letter, feeling both expectant and nervous",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 337.121,
+          "batch_start": 1371.67,
+          "batch_end": 1708.791
+        },
+        {
+          "start": "0:28:29",
+          "end": "0:29:26",
+          "duration": "0:00:57",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 49,
+          "line_end": 61,
+          "setting": "A dream summons: Dunn assigns him to help Leonard at 62 Howes Street — a Lanevus lead",
+          "text_anchor": "In the hazy world, Klein was suddenly jolted to his senses.",
+          "timing": "aligned",
+          "chapter_start": 337.121,
+          "chapter_end": 394.079,
+          "batch_start": 1708.791,
+          "batch_end": 1765.749
+        },
+        {
+          "start": "0:29:26",
+          "end": "0:30:02",
+          "duration": "0:00:36",
+          "present_cast": [
+            "Klein Moretti",
+            "Bella"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Bella"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 63,
+          "line_end": 65,
+          "setting": "Quick wash and change; Bella told not to prepare lunch",
+          "text_anchor": "Howes Street... Isn't that the area where the Divination Club",
+          "timing": "aligned",
+          "chapter_start": 394.079,
+          "chapter_end": 430.364,
+          "batch_start": 1765.749,
+          "batch_end": 1802.034
+        },
+        {
+          "start": "0:30:02",
+          "end": "0:34:20",
+          "duration": "0:04:18",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 67,
+          "line_end": 127,
+          "setting": "62 Howes Street: Lanevus's rented house — divination finds the bookshelf compartment, and inside, a taunting letter: 'prepare yourselves, I'm going to issue you a hint!'",
+          "text_anchor": "He then took a public carriage to Howes Street",
+          "timing": "aligned",
+          "chapter_start": 430.364,
+          "chapter_end": 688.73,
+          "batch_start": 1802.034,
+          "batch_end": 2060.4
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 688.73
+    },
+    {
+      "chapter": 204,
+      "title": "Visitor",
+      "scenes": [
+        {
+          "start": "0:34:20",
+          "end": "0:37:12",
+          "duration": "0:02:51",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 33,
+          "setting": "62 Howes Street: the rest of the letter — a 'bomb' in Tingen growing on factory workers' resentment, signed 'Lanevus, who enjoys giving his friends pleasant surprises'",
+          "text_anchor": "Klein and Leonard lifted their gaze from the letter",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 171.423,
+          "batch_start": 2060.4,
+          "batch_end": 2231.823
+        },
+        {
+          "start": "0:37:12",
+          "end": "0:38:55",
+          "duration": "0:01:43",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "Rozanne",
+            "[Mrs. Maynard]",
+            "[Maynard's sister]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg",
+            "Rozanne.png"
+          ],
+          "missing_images": [
+            "[Mrs. Maynard]",
+            "[Maynard's sister]"
+          ],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 35,
+          "line_end": 55,
+          "setting": "Blackthorn reception: the Maynard widow pays out 230 pounds, satisfied — the papers already carry Sharon's sanitized story",
+          "text_anchor": "Just as they entered the Blackthorn Security Company's door",
+          "timing": "aligned",
+          "chapter_start": 171.423,
+          "chapter_end": 274.336,
+          "batch_start": 2231.823,
+          "batch_end": 2334.736
+        },
+        {
+          "start": "0:38:55",
+          "end": "0:40:11",
+          "duration": "0:01:16",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 57,
+          "line_end": 73,
+          "setting": "Dunn's office: the letter read — a telegram goes to the Holy Cathedral for a mysticism expert to trace the resentment-fed altar",
+          "text_anchor": "How was it? Did you find any clues?",
+          "timing": "aligned",
+          "chapter_start": 274.336,
+          "chapter_end": 350.168,
+          "batch_start": 2334.736,
+          "batch_end": 2410.568
+        },
+        {
+          "start": "0:40:11",
+          "end": "0:41:33",
+          "duration": "0:01:23",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Rozanne.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 75,
+          "line_end": 91,
+          "setting": "The day's paper: Sharon 'died resisting arrest', a heroic unnamed officer fell, and the mayor resigns over public security",
+          "text_anchor": "Seizing the moment when Captain was sending a telegram",
+          "timing": "aligned",
+          "chapter_start": 350.168,
+          "chapter_end": 432.871,
+          "batch_start": 2410.568,
+          "batch_end": 2493.271
+        },
+        {
+          "start": "0:41:33",
+          "end": "0:46:04",
+          "duration": "0:04:31",
+          "present_cast": [
+            "Klein Moretti",
+            "Megose",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Megose.png",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 93,
+          "line_end": 169,
+          "setting": "The visitor: a seven-months-pregnant Megose wanders in 'somehow or other' — and Klein's spirituality screams DON'T LOOK: the bomb is the baby in her womb",
+          "text_anchor": "He folded the newspaper quietly and returned it to the reception desk.",
+          "timing": "aligned",
+          "chapter_start": 432.871,
+          "chapter_end": 704.09,
+          "batch_start": 2493.271,
+          "batch_end": 2764.49
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 704.09
+    },
+    {
+      "chapter": 205,
+      "title": "Urgent Arrangement",
+      "scenes": [
+        {
+          "start": "0:46:04",
+          "end": "0:47:46",
+          "duration": "0:01:42",
+          "present_cast": [
+            "Klein Moretti",
+            "Megose",
+            "Leonard Mitchell",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Megose.png",
+            "Leonard Mitchell.jpg",
+            "Rozanne.png"
+          ],
+          "missing_images": [],
+          "layout": "row(4)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 31,
+          "setting": "The reception, on a knife's edge: 'my child told me — he knows a lot'; Leonard keeps Megose talking while Klein slips away",
+          "text_anchor": "Klein instinctively reached for his pockets.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 102.002,
+          "batch_start": 2764.49,
+          "batch_end": 2866.492
+        },
+        {
+          "start": "0:47:46",
+          "end": "0:52:41",
+          "duration": "0:04:54",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 33,
+          "line_end": 79,
+          "setting": "Dunn's office: the bomb is Megose's unborn child — telegrams fly, Saint Selena's ashes authorized, and Klein flags that the coincidences have turned brazen",
+          "text_anchor": "He saw Dunn looking shocked before turning serious",
+          "timing": "aligned",
+          "chapter_start": 102.002,
+          "chapter_end": 396.095,
+          "batch_start": 2866.492,
+          "batch_end": 3160.585
+        },
+        {
+          "start": "0:52:41",
+          "end": "0:54:34",
+          "duration": "0:01:53",
+          "present_cast": [
+            "Klein Moretti",
+            "Mrs. Orianna",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Rozanne.png"
+          ],
+          "missing_images": [
+            "Mrs. Orianna"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 81,
+          "line_end": 111,
+          "setting": "Evacuating the clerks: Mrs. Orianna's blessing, and Rozanne's parting whisper about respecting Nighthawks",
+          "text_anchor": "Klein didn't waste any more time.",
+          "timing": "aligned",
+          "chapter_start": 396.095,
+          "chapter_end": 509.246,
+          "batch_start": 3160.585,
+          "batch_end": 3273.736
+        },
+        {
+          "start": "0:54:34",
+          "end": "0:55:04",
+          "duration": "0:00:30",
+          "present_cast": [
+            "Klein Moretti",
+            "Megose",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Megose.png",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 113,
+          "line_end": 121,
+          "setting": "Warm water served to the increasingly restless Megose; a whispered 'keep her here' to Leonard",
+          "text_anchor": "After seeing the clerks evacuate the Blackthorn Security Company",
+          "timing": "aligned",
+          "chapter_start": 509.246,
+          "chapter_end": 539.279,
+          "batch_start": 3273.736,
+          "batch_end": 3303.769
+        },
+        {
+          "start": "0:55:04",
+          "end": "0:56:57",
+          "duration": "0:01:53",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 123,
+          "line_end": 141,
+          "setting": "The blue-lit corridor: Dunn ascends with the bone-silver box of Saint Selena's ashes and sends Klein for the strongest Sealed Artifact",
+          "text_anchor": "Klein returned to the Captain's office, only to realize that Dunn had already gone underground.",
+          "timing": "aligned",
+          "chapter_start": 539.279,
+          "chapter_end": 652.466,
+          "batch_start": 3303.769,
+          "batch_end": 3416.956
+        },
+        {
+          "start": "0:56:57",
+          "end": "0:58:36",
+          "duration": "0:01:39",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 143,
+          "line_end": 155,
+          "setting": "The intersection: trusting the Flaring Sun Charm over a Grade 2 artifact, Klein whistles up the bone messenger with an urgent note to Azik — the mastermind has surfaced",
+          "text_anchor": "When he was nearing the intersection, Klein suddenly stopped.",
+          "timing": "aligned",
+          "chapter_start": 652.466,
+          "chapter_end": 751.37,
+          "batch_start": 3416.956,
+          "batch_end": 3515.86
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 751.37
+    },
+    {
+      "chapter": 206,
+      "title": "Grade 2 Sealed Artifacts",
+      "scenes": [
+        {
+          "start": "0:58:36",
+          "end": "1:04:27",
+          "duration": "0:05:52",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 47,
+          "setting": "The basement corridor: weighing the three Grade 2 artifacts — Inexhaustible Poison, Door of Death — and choosing 2-105, the Blood Vessel Thief, for Leonard",
+          "text_anchor": "In the corridor within the deep and serene basement",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 351.582,
+          "batch_start": 3515.86,
+          "batch_end": 3867.442
+        },
+        {
+          "start": "1:04:27",
+          "end": "1:05:52",
+          "duration": "0:01:25",
+          "present_cast": [
+            "Klein Moretti",
+            "Seeka Tron"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Seeka Tron.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 49,
+          "line_end": 67,
+          "setting": "Chanis Gate: Seeka Tron fetches the blood-tainted vessel through a crack in the gate, blessing them all",
+          "text_anchor": "My dear Poet, it's time for you to show your true secret",
+          "timing": "aligned",
+          "chapter_start": 351.582,
+          "chapter_end": 436.232,
+          "batch_start": 3867.442,
+          "batch_end": 3952.092
+        },
+        {
+          "start": "1:05:52",
+          "end": "1:06:26",
+          "duration": "0:00:34",
+          "present_cast": [
+            "Leonard Mitchell",
+            "Megose"
+          ],
+          "images": [
+            "Leonard Mitchell.jpg",
+            "Megose.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 71,
+          "line_end": 79,
+          "setting": "The reception hall: mid-chat, Megose absently rips out a handful of her own hair and tosses it in the trash",
+          "text_anchor": "In the reception hall of the Blackthorn Security Company.",
+          "timing": "aligned",
+          "chapter_start": 436.232,
+          "chapter_end": 470.195,
+          "batch_start": 3952.092,
+          "batch_end": 3986.055
+        },
+        {
+          "start": "1:06:26",
+          "end": "1:08:56",
+          "duration": "0:02:30",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 83,
+          "line_end": 121,
+          "setting": "Second floor with the ash box between them: the Holy Cathedral says stall — and Dunn casually mentions Daly told him to explain himself to Klein",
+          "text_anchor": "Klein walked up the stairs to the second floor",
+          "timing": "aligned",
+          "chapter_start": 470.195,
+          "chapter_end": 619.99,
+          "batch_start": 3986.055,
+          "batch_end": 4135.85
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 619.99
+    },
+    {
+      "chapter": 207,
+      "title": "Guardian",
+      "scenes": [
+        {
+          "start": "1:08:56",
+          "end": "1:17:46",
+          "duration": "0:08:50",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 89,
+          "setting": "The corridor confession: the Law of Beyonder Characteristics Indestructibility — Dunn consumes his fallen partners' remains so Adelaide, Dwayne, Hitte and Kenley can keep fighting beside him in his dreams",
+          "text_anchor": "Dunn sighed.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 530.111,
+          "batch_start": 4135.85,
+          "batch_end": 4665.961
+        },
+        {
+          "start": "1:17:46",
+          "end": "1:18:57",
+          "duration": "0:01:11",
+          "present_cast": [
+            "Megose",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Megose.png",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 93,
+          "line_end": 113,
+          "setting": "The reception sofa: Megose claws bloody strips from her own face, smiling too wide — 'my child is a little restless'",
+          "text_anchor": "On the sofa in the receptionist area",
+          "timing": "aligned",
+          "chapter_start": 530.111,
+          "chapter_end": 601.039,
+          "batch_start": 4665.961,
+          "batch_end": 4736.889
+        },
+        {
+          "start": "1:18:57",
+          "end": "1:21:39",
+          "duration": "0:02:42",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 115,
+          "line_end": 153,
+          "setting": "Three minutes to descent: Leonard takes the Blood Vessel Thief, and Dunn walks out first with Saint Selena's ashes — 'We're guarding Tingen City'",
+          "text_anchor": "After entering the corridor, Leonard stared deeply at the box of ash",
+          "timing": "aligned",
+          "chapter_start": 601.039,
+          "chapter_end": 763.37,
+          "batch_start": 4736.889,
+          "batch_end": 4899.22
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 763.37
+    },
+    {
+      "chapter": 208,
+      "title": "Cry",
+      "scenes": [
+        {
+          "start": "1:21:39",
+          "end": "1:32:59",
+          "duration": "0:11:20",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Megose"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg",
+            "Megose.png"
+          ],
+          "missing_images": [],
+          "layout": "row(4)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 183,
+          "setting": "The battle for Tingen: Saint Selena's night-in-a-box binds Megose, the Flaring Sun Charm becomes a miniature sun, the bone-blade monster guts Klein and smashes Leonard — then, in the darkness, a baby's cry",
+          "text_anchor": "Beep! Beep! Beep! The telegram set up in the Captain's office",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 680.26,
+          "batch_start": 4899.22,
+          "batch_end": 5579.48
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 680.26
+    },
+    {
+      "chapter": 209,
+      "title": "Light",
+      "scenes": [
+        {
+          "start": "1:32:59",
+          "end": "1:41:45",
+          "duration": "0:08:45",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Megose"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg",
+            "Megose.png"
+          ],
+          "missing_images": [],
+          "layout": "row(4)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 133,
+          "setting": "Light: Dunn tears out his own heart to feed Saint Selena's ashes, the last Flaring Sun Charm calls down a pillar of sun — 'We saved Tingen' — then a pale, bloody palm punches through Klein's chest",
+          "text_anchor": "The baby in Megose's stomach cried.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 525.369,
+          "batch_start": 5579.48,
+          "batch_end": 6104.849
+        },
+        {
+          "start": "1:41:45",
+          "end": "1:43:18",
+          "duration": "0:01:33",
+          "present_cast": [
+            "Leonard Mitchell",
+            "[Mandated Punishers]"
+          ],
+          "images": [
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "[Mandated Punishers]"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 137,
+          "line_end": 155,
+          "setting": "The cemetery-silent ruin: Leonard wakes to two bodies with matching chest wounds, pounding the floor in grief as reinforcements finally arrive",
+          "text_anchor": "Burned and shattered objects were scattered around",
+          "timing": "aligned",
+          "chapter_start": 525.369,
+          "chapter_end": 618.72,
+          "batch_start": 6104.849,
+          "batch_end": 6198.2
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 618.72
+    },
+    {
+      "chapter": 210,
+      "title": "Story",
+      "scenes": [
+        {
+          "start": "1:43:18",
+          "end": "1:59:12",
+          "duration": "0:15:54",
+          "present_cast": [
+            "Ince Zangwill"
+          ],
+          "images": [
+            "Ince Zangwill.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 3,
+          "line_end": 191,
+          "setting": "The red-chimney house at last: Ince Zangwill leafs through his story-writing notebook — every 'coincidence' of Tingen scripted, Klein's survivals scribbled out in frustration — until the final line: 'Tingen's story ends here'",
+          "text_anchor": "In a Tingen suburb, there was a house with a green lawn.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 953.57,
+          "batch_start": 6198.2,
+          "batch_end": 7151.77
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 953.57
+    },
+    {
+      "chapter": 211,
+      "title": "Funeral",
+      "scenes": [
+        {
+          "start": "1:59:12",
+          "end": "2:04:39",
+          "duration": "0:05:27",
+          "present_cast": [
+            "Leonard Mitchell",
+            "Seeka Tron"
+          ],
+          "images": [
+            "Leonard Mitchell.jpg",
+            "Seeka Tron.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 3,
+          "line_end": 69,
+          "setting": "The guardroom after: the found telegram — 'Beware of Ince Zangwill. Beware of Sealed Artifact 0-08' — and Leonard vows to join the Red Gloves for revenge",
+          "text_anchor": "In the basement of Saint Selena Cathedral, in the guardroom outside Chanis Gate.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 326.942,
+          "batch_start": 7151.77,
+          "batch_end": 7478.712
+        },
+        {
+          "start": "2:04:39",
+          "end": "2:06:28",
+          "duration": "0:01:50",
+          "present_cast": [
+            "Melissa Moretti",
+            "Benson Moretti",
+            "Bella",
+            "Leonard Mitchell"
+          ],
+          "images": [
+            "Melissa Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "Bella"
+          ],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 73,
+          "line_end": 99,
+          "setting": "The doorbell at 2 Daffodil Street: Leonard tells Melissa her brother died a hero — the three 'Return of the Count' tickets fall to the floor",
+          "text_anchor": "At 2 Daffodil Street, Melissa sat on the sofa",
+          "timing": "aligned",
+          "chapter_start": 326.942,
+          "chapter_end": 436.584,
+          "batch_start": 7478.712,
+          "batch_end": 7588.354
+        },
+        {
+          "start": "2:06:28",
+          "end": "2:08:24",
+          "duration": "0:01:55",
+          "present_cast": [
+            "Leonard Mitchell",
+            "Melissa Moretti",
+            "Benson Moretti"
+          ],
+          "images": [
+            "Leonard Mitchell.jpg",
+            "Melissa Moretti.jpg",
+            "Benson Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 103,
+          "line_end": 131,
+          "setting": "The Moretti living room: 6000 pounds of compensation no one hears; Benson runs the tap in the bathroom until his red eyes can't be hidden",
+          "text_anchor": "Sitting in the Moretti family's living room",
+          "timing": "aligned",
+          "chapter_start": 436.584,
+          "chapter_end": 551.794,
+          "batch_start": 7588.354,
+          "batch_end": 7703.564
+        },
+        {
+          "start": "2:08:24",
+          "end": "2:10:12",
+          "duration": "0:01:48",
+          "present_cast": [
+            "Melissa Moretti",
+            "Benson Moretti",
+            "Elizabeth",
+            "Selena",
+            "Leonard Mitchell",
+            "Frye",
+            "Bredt"
+          ],
+          "images": [
+            "Melissa Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Elizabeth.jpg",
+            "Selena.jpg",
+            "Leonard Mitchell.jpg",
+            "Frye.jpg"
+          ],
+          "missing_images": [
+            "Bredt"
+          ],
+          "layout": "grid(6)",
+          "continues_prev": false,
+          "line_start": 135,
+          "line_end": 169,
+          "setting": "Raphael Cemetery: Klein's funeral after Dunn's — Melissa buries the copper whistle with him; the epitaph reads best brother, best brother, best colleague; alone at last, she weeps 'Stupid!'",
+          "text_anchor": "A few days later, in a corner of the Raphael Cemetery.",
+          "timing": "aligned",
+          "chapter_start": 551.794,
+          "chapter_end": 659.919,
+          "batch_start": 7703.564,
+          "batch_end": 7811.689
+        },
+        {
+          "start": "2:10:12",
+          "end": "2:10:44",
+          "duration": "0:00:32",
+          "present_cast": [
+            "Azik Eggers"
+          ],
+          "images": [
+            "Azik Eggers.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 173,
+          "line_end": 177,
+          "setting": "Night at the grave: Azik lays white flowers — 'I was ten minutes late. But I think I know who it was' — and leaves the copper whistle buried",
+          "text_anchor": "Night time, at the Raphael Cemetery.",
+          "timing": "aligned",
+          "chapter_start": 659.919,
+          "chapter_end": 692.372,
+          "batch_start": 7811.689,
+          "batch_end": 7844.142
+        },
+        {
+          "start": "2:10:44",
+          "end": "2:11:35",
+          "duration": "0:00:51",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 181,
+          "line_end": 191,
+          "setting": "The stone slab shifts — a pale hand rises from the soil: Klein sits up in his coffin, his missing heart slowly squirming back together",
+          "text_anchor": "Suddenly, the stone slab sealing the grave was flipped open.",
+          "timing": "aligned",
+          "chapter_start": 692.372,
+          "chapter_end": 743.59,
+          "batch_start": 7844.142,
+          "batch_end": 7895.36
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 743.59
+    },
+    {
+      "chapter": 212,
+      "title": "Avenger",
+      "scenes": [
+        {
+          "start": "2:11:35",
+          "end": "2:16:46",
+          "duration": "0:05:11",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 63,
+          "setting": "The moonlit cemetery: Klein tidies his own grave, retrieves the copper whistle Melissa buried, and finds Dunn's tombstone — 'Captain... We miss you too!'",
+          "text_anchor": "In the northern part of the Loen Kingdom, the September breeze",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 310.693,
+          "batch_start": 7895.36,
+          "batch_end": 8206.053
+        },
+        {
+          "start": "2:16:46",
+          "end": "2:24:49",
+          "duration": "0:08:03",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 65,
+          "line_end": 165,
+          "setting": "Above the gray fog (visions only: the one-eyed statue-faced killer; a bridged, smoky city): the murderer is Ince Zangwill with Sealed Artifact 0-08, plotting from Backlund",
+          "text_anchor": "He became silent again and found a hidden spot nearby.",
+          "timing": "aligned",
+          "chapter_start": 310.693,
+          "chapter_end": 793.82,
+          "batch_start": 8206.053,
+          "batch_end": 8689.18
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 793.82
+    },
+    {
+      "chapter": 213,
+      "title": "Another Look",
+      "scenes": [
+        {
+          "start": "2:24:49",
+          "end": "2:29:34",
+          "duration": "0:04:44",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 43,
+          "setting": "Above the gray fog (visions only: Backlund again for Lanevus; the Hornacis peak palace with its vertical pupil of symbols): both enemies and Klein's opportunities point to Backlund",
+          "text_anchor": "So Ince Zangwill has gone to Backlund",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 284.363,
+          "batch_start": 8689.18,
+          "batch_end": 8973.543
+        },
+        {
+          "start": "2:29:34",
+          "end": "2:33:10",
+          "duration": "0:03:36",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 45,
+          "line_end": 73,
+          "setting": "Out of the cemetery like a wandering ghost: past Dunn's grave, past the house he can't knock on, to sleep rough under his jacket",
+          "text_anchor": "When he returned to the material world, he slowly walked out of his hiding spot",
+          "timing": "aligned",
+          "chapter_start": 284.363,
+          "chapter_end": 500.816,
+          "batch_start": 8973.543,
+          "batch_end": 9189.996
+        },
+        {
+          "start": "2:33:10",
+          "end": "2:33:49",
+          "duration": "0:00:39",
+          "present_cast": [
+            "Klein Moretti",
+            "[policeman]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[policeman]"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 75,
+          "line_end": 87,
+          "setting": "Woken by a constable's baton — the Poor Law doesn't allow vagrants on the streets; the dead hero walks until daybreak",
+          "text_anchor": "It wasn't long into his sleep when he was suddenly woken by someone.",
+          "timing": "aligned",
+          "chapter_start": 500.816,
+          "chapter_end": 539.969,
+          "batch_start": 9189.996,
+          "batch_end": 9229.149
+        },
+        {
+          "start": "2:33:49",
+          "end": "2:35:32",
+          "duration": "0:01:43",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 89,
+          "line_end": 105,
+          "setting": "Backlund Bank withdrawal by password, a full new wardrobe, and a second-class ticket on the two o'clock train to Backlund",
+          "text_anchor": "Soon after, he lowered his head and entered the Tingen branch of the Backlund Bank.",
+          "timing": "aligned",
+          "chapter_start": 539.969,
+          "chapter_end": 642.934,
+          "batch_start": 9229.149,
+          "batch_end": 9332.114
+        },
+        {
+          "start": "2:35:32",
+          "end": "2:36:49",
+          "duration": "0:01:17",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 107,
+          "line_end": 121,
+          "setting": "The waiting area's emptiness pulls him back to Daffodil Street one last time, hiding in the shade across from the door he can't cross to",
+          "text_anchor": "Klein suddenly had an empty feeling in his heart",
+          "timing": "aligned",
+          "chapter_start": 642.934,
+          "chapter_end": 719.805,
+          "batch_start": 9332.114,
+          "batch_end": 9408.985
+        },
+        {
+          "start": "2:36:49",
+          "end": "2:39:30",
+          "duration": "0:02:41",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 123,
+          "line_end": 159,
+          "setting": "The circus in the municipal square: trailing his grieving siblings — then a pastel-faced clown conjures a golden Seville Chrysanthemum, the flower of happiness, and offers it with a wide, ridiculous smile. (End of Volume 1)",
+          "text_anchor": "Suddenly, he saw the door to the house open as Melissa and Benson came out.",
+          "timing": "aligned",
+          "chapter_start": 719.805,
+          "chapter_end": 881.21,
+          "batch_start": 9408.985,
+          "batch_end": 9570.39
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 881.21
+    }
+  ],
+  "characters_index": {
+    "Klein Moretti (protagonist)": {
+      "status": "have",
+      "scenes": 44
+    },
+    "Dunn Smith": {
+      "status": "have",
+      "scenes": 12
+    },
+    "[police officer]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Frye": {
+      "status": "have",
+      "scenes": 3
+    },
+    "Royale Reideen": {
+      "status": "have",
+      "scenes": 1
+    },
+    "Bella": {
+      "status": "minor",
+      "scenes": 3
+    },
+    "Melissa Moretti": {
+      "status": "have",
+      "scenes": 5
+    },
+    "Benson Moretti": {
+      "status": "have",
+      "scenes": 5
+    },
+    "Derrick Berg": {
+      "status": "have",
+      "scenes": 1
+    },
+    "Lloydia": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Leonard Mitchell": {
+      "status": "have",
+      "scenes": 17
+    },
+    "Rozanne": {
+      "status": "have",
+      "scenes": 4
+    },
+    "[Mrs. Maynard]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[Maynard's sister]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Megose": {
+      "status": "have",
+      "scenes": 7
+    },
+    "Mrs. Orianna": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Seeka Tron": {
+      "status": "have",
+      "scenes": 2
+    },
+    "[Mandated Punishers]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Ince Zangwill": {
+      "status": "have",
+      "scenes": 1
+    },
+    "Elizabeth": {
+      "status": "have",
+      "scenes": 1
+    },
+    "Selena": {
+      "status": "have",
+      "scenes": 1
+    },
+    "Bredt": {
+      "status": "declined",
+      "scenes": 1
+    },
+    "Azik Eggers": {
+      "status": "have",
+      "scenes": 1
+    },
+    "[policeman]": {
+      "status": "background",
+      "scenes": 1
+    }
+  }
+}

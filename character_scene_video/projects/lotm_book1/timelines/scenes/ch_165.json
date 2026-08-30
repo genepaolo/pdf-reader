@@ -1,0 +1,50 @@
+{
+ "chapter": 165,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Royale Reideen"],
+   "setting": "Old Neil's house, after: Dunn covers the pained eye with a handkerchief; the search turns up the Alchemical Life notes — 'I can consider drawing my own blood'",
+   "text_anchor": "We are guardians, but also a bunch of miserable wretches"
+  },
+  {
+   "line_start": 47,
+   "line_end": 75,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Frye", "Leonard Mitchell", "Kenley White", "Rozanne"],
+   "setting": "Raphael Cemetery: Old Neil's funeral — Rozanne weeps her whys; the epitaph reads 'If I cannot save her, then I shall accompany her'",
+   "text_anchor": "On Thursday morning at nine, the time of the moon. Raphael Cemetery."
+  },
+  {
+   "line_start": 79,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Bredt"],
+   "setting": "The armory, now Bredt's post: fifty rounds requested where the hand-ground coffee used to brew",
+   "text_anchor": "In the afternoon, Klein took a form signed by the Captain to the armory."
+  },
+  {
+   "line_start": 103,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Gawain"],
+   "setting": "Shooting range, then Gawain's field: grief vented into drills until Gawain — who lost 325 friends in five minutes — tells him to stop, then assigns ten more sets",
+   "text_anchor": "The smell of gunpowder filled the air."
+  },
+  {
+   "line_start": 137,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Seeka Tron", "Frye", "Dunn Smith"],
+   "setting": "The heavy-aired recreation room on Friday: Dunn calls Klein out — the Holy Cathedral's examiner has arrived",
+   "text_anchor": "Friday morning, in the recreation room of the Nighthawks."
+  }
+ ]
+}

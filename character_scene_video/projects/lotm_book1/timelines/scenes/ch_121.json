@@ -1,0 +1,50 @@
+{
+ "chapter": 121,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 11,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Frye"],
+   "setting": "Workhouse hall: the team splits to question witnesses; Leonard discreetly motions Klein toward the side hall",
+   "text_anchor": "After hearing Klein's and Frye's guesses, Leonard tugged on his collar"
+  },
+  {
+   "line_start": 13,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell"],
+   "setting": "Quiet corner of the side hall: Leonard's hypothesis — the doomed's life force is being stolen for a summoning or curse — and a pact between 'special people'",
+   "text_anchor": "I have a hypothesis, Leonard suddenly said"
+  },
+  {
+   "line_start": 91,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Frye"],
+   "setting": "Back in the hall: Leonard keeps the hypothesis vague to Frye, who fetches the victims' belongings from the police station",
+   "text_anchor": "When Leonard found Frye seriously taking notes"
+  },
+  {
+   "line_start": 99,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Frye"],
+   "setting": "Klein's living room on Daffodil Street: Leonard paces and Frye sits silently while Klein heads up to divine undisturbed",
+   "text_anchor": "Wait in the living room and don't let anybody disturb me."
+  },
+  {
+   "line_start": 107,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Klein's sealed bedroom (visions only: a grayish-blue two-story house by a river, dead garden): dream divination locates the altar house",
+   "text_anchor": "After which, he set up an altar and asked for the help of the goddess"
+  }
+ ]
+}

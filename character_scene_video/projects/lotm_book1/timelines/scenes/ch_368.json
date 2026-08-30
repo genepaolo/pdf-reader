@@ -1,0 +1,39 @@
+{
+ "chapter": 368,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: a white-robed middle-aged experimenter devoured piece by piece by his own black iron pot): the Biological Poison Bottle's origin — a death-seeking experiment, not a Beyonder characteristic, so no formula can be divined; the Werewolf fang stays untouched",
+   "text_anchor": "So the Biological Poison Bottle is a product of a death-seeking experiment."
+  },
+  {
+   "line_start": 53,
+   "line_end": 99,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Escalante",
+    "Susie"
+   ],
+   "setting": "Count Hall's villa, psychology lesson: Escalante casually introduces the connected 'ocean of consciousness' — the Psychology Alchemists' axiom — while Audrey plays confused enlightenment and Susie decides the teacher is 'the same type of dog. No, that's not right… Woof!'",
+   "text_anchor": "“It’s believed that humans would inherit a certain amount of their ancestor’s consciousness"
+  },
+  {
+   "line_start": 103,
+   "line_end": 171,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Utravsky",
+    "Emlyn White"
+   ],
+   "setting": "Harvest Church on Rose Street: the 2.2-meter Bishop Utravsky preaches gently while Klein waits to launch his rescue performance — and Emlyn White walks out in Mother Earth priest robes distributing communion. 'You don't have to act, Mister Detective… I remember your smell.'",
+   "text_anchor": "“Or should I call you the new owner of the Master Key?"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "chapter": 399,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Derrick Berg",
+    "Darc Regence",
+    "[black shadow]",
+    "Amon"
+   ],
+   "setting": "Darc bursts into a hedgehog of bloody flesh strands; a Bard's hymn, the Axe of Hurricane and a pillar of pure light hold him while the candle's secret symbol opens The Fool's door a crack — the watching shadow panics at the majestic dark beyond, the iron box is thrown through, and Derrick collapses with the dead Worm of Time falling from his hand",
+   "text_anchor": "“Stop! What are you trying to do!”"
+  },
+  {
+   "line_start": 127,
+   "line_end": 157,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Colin Iliad",
+    "[black shadow]"
+   ],
+   "setting": "The Chief's room: the shadow's report builds the wrong story exactly as planned — Amon spending his avatar to foil a rival's forty-two-year scheme; the expedition is locked down, Lovia clears herself by having warned first, and Aiflor is summoned to interrogate Derrick",
+   "text_anchor": "“Let Aiflor come to me. I’ll interrogate Derrick Berg together with her.”"
+  }
+ ]
+}

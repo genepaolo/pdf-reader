@@ -1,0 +1,41 @@
+{
+ "chapter": 316,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Utravsky", "Emlyn White"],
+   "setting": "The Mental Terror Candle threat loosens the vampire's tongue: the Master Key came from a thief's haul at a south-bridge house; a coin catches his lying address, the real one is 32 Verdi Street — 'Remember, my name is Emlyn White!'",
+   "text_anchor": "“Remember that my name is Emlyn White."
+  },
+  {
+   "line_start": 87,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "A secluded corner: the pendulum rates Verdi Street 'somewhat dangerous' — postponed until purifying bullets are in hand, minting the Magician's first rule: never perform unprepared",
+   "text_anchor": "“Never perform unprepared!”"
+  },
+  {
+   "line_start": 103,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Tuesday breakfast with Stuart's report: both watched suspects are placidly ordinary; Klein thanks him off the case and sets out for the Roselle Memorial Exhibition",
+   "text_anchor": "It's from Stuart…"
+  },
+  {
+   "line_start": 127,
+   "line_end": 147,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Annie", "Susie", "Count Hall"],
+   "setting": "Dressed in lace and snow-white fur for the exhibition, Audrey is upgraded by her father to a private after-hours viewing — perfect for studying Roselle's diaries up close",
+   "text_anchor": "“Father, I plan to attend the Roselle Memorial Exhibition.”"
+  }
+ ]
+}

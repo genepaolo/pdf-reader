@@ -1,0 +1,32 @@
+{
+ "chapter": 118,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 53,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "August, bathing after combat training: two stable weeks recapped — Seer potion nearly digested, Justice cultivating two Beyonders, red-chimney search pending",
+   "text_anchor": "Time flew by and Tingen bade farewell to the end of summer."
+  },
+  {
+   "line_start": 55,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Gawain", "[maidservant]"],
+   "setting": "Gawain's house: Klein dresses, asks the maidservant to tidy up, and bids farewell to his listless combat teacher on the rocking chair",
+   "text_anchor": "Sitting silently for another half a minute, he put on his black trousers"
+  },
+  {
+   "line_start": 81,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell"],
+   "setting": "Carriage ride with Leonard: death incidents in Tingen are running five times normal — Klein's first group mission, heading to Iron Cross Street's Lower Street",
+   "text_anchor": "Just then, he saw that there was a two-wheeled carriage stopped outside"
+  }
+ ]
+}

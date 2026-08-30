@@ -1,0 +1,47 @@
+{
+ "chapter": 381,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 29,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Ace Snake",
+    "[golden-eyed man]"
+   ],
+   "setting": "Over the smoking villa, lightning tears the night where the black-crowned figure stood: Cardinal Snake rules out the Rose School of Thought while the golden-eyed man recalls the tarot cards on the swindler two months ago — 'perhaps it's a new secret organization' — as the Mandated Punishers arrive",
+   "text_anchor": "“This is the second time something like this has happened in the past two months.”"
+  },
+  {
+   "line_start": 33,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: Daisy will make it home; the spoils — Katy's Interrogator and Parker's Sheriff characteristics (Arbiter pathway, royal-controlled) — resist formula divination; and the Magician's Rules go to goatskin: never perform unprepared, challenge the impossible",
+   "text_anchor": "“The Magician’s Rules:"
+  },
+  {
+   "line_start": 111,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "The cheap hotel: a solo toast of sweet iced tea to his own reflection — 'Cheers.' — then an iron mask and hooded robe for the 8 p.m. Eye of Wisdom gathering by the Bravehearts Bar",
+   "text_anchor": "There was a heartfelt smile on his face as he whispered, “Cheers.”"
+  },
+  {
+   "line_start": 127,
+   "line_end": 173,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Xio Derecha",
+    "Mr. A"
+   ],
+   "setting": "A remote alley: the golden-masked man's emergency sign summons Xio — thirty pounds, maybe a Sheriff ingredient, to find who was keeping tabs on Capim; she refuses until he reveals the trafficker is dead, tarot cards over his body, 'Judgment' and 'The Emperor' on his face",
+   "text_anchor": "“Because he’s dead.”"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "chapter": 155,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 11,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Royale Reideen"],
+   "setting": "Chanis Gate guard room shift change: Klein casually tells the startled Royale to ask the others about his potion progress",
+   "text_anchor": "After collecting himself, Klein went down to the basement"
+  },
+  {
+   "line_start": 13,
+   "line_end": 21,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Alone on duty with the Captain's Fermo coffee, wondering what lies behind Chanis Gate",
+   "text_anchor": "After making himself a cup of aromatic coffee"
+  },
+  {
+   "line_start": 23,
+   "line_end": 55,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "Guard room: a dejected Old Neil laments being twenty years too old for the method Klein found — 'at least I didn't lose control'",
+   "text_anchor": "Many thoughts streaked past Klein's head when he suddenly heard urgent footsteps."
+  },
+  {
+   "line_start": 57,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Guard room: Dunn tosses over Daxter's urgent-meeting letter (Klein fumbles the catch) and insists on shadowing the rendezvous",
+   "text_anchor": "Some time later, he heard another set of footsteps."
+  },
+  {
+   "line_start": 103,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Daxter Guderian"],
+   "setting": "Small shooting range 9: an uneasy Daxter reports Hood Eugen has genuinely gone insane — and hands over the Telepathist formula",
+   "text_anchor": "At two in the afternoon. Inside the small shooting range 9"
+  },
+  {
+   "line_start": 145,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "The Nighthawks' range: Dunn takes the formula and the Hood Eugen report — with it, Klein needs no more merits for the Clown potion",
+   "text_anchor": "After exchanging a few more words and ascertaining"
+  }
+ ]
+}

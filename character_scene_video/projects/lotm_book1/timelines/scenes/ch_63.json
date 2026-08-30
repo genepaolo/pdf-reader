@@ -1,0 +1,23 @@
+{
+ "chapter": 63,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Joyce"],
+   "setting": "Reception then the Topaz room: Klein interprets Joyce Meyer's recurring nightmare and steers him to the disregarded suspicion — Mr. Tris",
+   "text_anchor": "Klein proceeded a few steps forward and saw the client."
+  },
+  {
+   "line_start": 145,
+   "line_end": 149,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Susie"],
+   "setting": "Tuesday dawn in Empress Borough: Audrey posts Susie as door guard before attempting The Fool's ritual",
+   "text_anchor": "Tuesday at dawn. Backlund, Empress Borough."
+  }
+ ]
+}

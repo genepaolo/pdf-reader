@@ -1,0 +1,59 @@
+{
+ "chapter": 201,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Back into Sharon's bedroom with deliberate footsteps: Dunn is clean-faced, wrapping the mirror — as if the blood on his lips had been an illusion",
+   "text_anchor": "Klein held his breath with his back against the wall"
+  },
+  {
+   "line_start": 51,
+   "line_end": 69,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[police officer]"],
+   "setting": "The nearest police station: a heavy-faced inspector Moretti reports a serious murder at 15 Osna Street",
+   "text_anchor": "With Dunn's help, Klein quickly cleaned up the scene"
+  },
+  {
+   "line_start": 71,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "The dark rental carriage: spiraling doubts about the Captain — blood, mistakes, Kenley's death — settled by a plan to write to Daly",
+   "text_anchor": "Having settled this, Klein headed back to Zouteland Street on a rental carriage."
+  },
+  {
+   "line_start": 107,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Frye"],
+   "setting": "Blackthorn recreation room: telling Frye that Kenley is dead — 'You don't need to blame yourself... We must always trust our partners'",
+   "text_anchor": "Taking a deep breath, Klein went to the recreation room"
+  },
+  {
+   "line_start": 131,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Frye"],
+   "setting": "Near dawn at the mortuary: the bodies brought back; Dunn quietly sends Klein home",
+   "text_anchor": "It was nearing dawn by the time they got Kenley's corpse"
+  },
+  {
+   "line_start": 139,
+   "line_end": 179,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Sealed bedroom: a crumpled first draft, then careful letters to Daly and Azik about the blood on the Captain's mouth",
+   "text_anchor": "Just as he had done the previous time, he easily entered his bedroom"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "chapter": 378,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "Hero Bandit",
+   "other_characters": [],
+   "setting": "Inside the villa unseen: testing Dark-Emperor-boosted Spirit-Body strength against the gas pipes, mapping the golden hall and dining room — then, leaning on a sunset oil painting, the Biological Poison Bottle is silently uncapped into the sealed dinner air",
+   "text_anchor": "It was the Biological Poison Bottle!"
+  },
+  {
+   "line_start": 45,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Hero Bandit",
+   "other_characters": [
+    "Harras",
+    "Katy",
+    "Parker",
+    "Capim"
+   ],
+   "setting": "The dinner turns nightmare: Capim scratches his face open into pus, servants laugh and vomit themselves unconscious; Harras Imprisons and Katy shoots — but hits a paper substitute; lights die, a Specter's Shriek bloodies Katy's nose, and a freezing hand Imprisons Parker with Harras's own borrowed word before Harras snarls 'Release!'",
+   "text_anchor": "“Katy, follow me to find the intruder!”"
+  }
+ ]
+}

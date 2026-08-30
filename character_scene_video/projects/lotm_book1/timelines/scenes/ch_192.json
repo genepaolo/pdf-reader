@@ -1,0 +1,41 @@
+{
+ "chapter": 192,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 81,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Count Hall"],
+   "setting": "The balcony continues: Audrey deduces the adorer did it, dodges fame to protect 'Justice', and quietly banks a forty-thousand-pound reward",
+   "text_anchor": "Audrey analyzed many things at once as her mind whirled."
+  },
+  {
+   "line_start": 85,
+   "line_end": 109,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Pallas Negan", "Ace Snake", "Aguesid Negan"],
+   "setting": "Duke Negan's secret study: the Duke, the Prime Minister and the Cardinal agree — an unknown Demigod walks Backlund, and every church must be alerted",
+   "text_anchor": "In Duke Negan's mansion, in a secret study room."
+  },
+  {
+   "line_start": 113,
+   "line_end": 119,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Azik Eggers"],
+   "setting": "A North Borough hotel: Azik studies the skin-thin Creeping Hunger in agony — 'I seem to have cooperated with them before'",
+   "text_anchor": "In a hotel in the North Borough of Backlund."
+  },
+  {
+   "line_start": 123,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Morning carriage to Zouteland Street: the paperboy's cry — Qilangos dead — and the boss behind the scenes learns his outcome from a penny paper",
+   "text_anchor": "Klein didn't sleep well the entire night"
+  }
+ ]
+}

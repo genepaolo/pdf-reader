@@ -1,0 +1,41 @@
+{
+ "chapter": 79,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Frye", "[suited clown's corpse]"],
+   "setting": "The dissection room: the corpse murmurs 'Hornacis' and its wrist brand becomes a floating blood sphere; Frye takes over with a surgical knife",
+   "text_anchor": "Klein instantly felt his hair stand on end"
+  },
+  {
+   "line_start": 89,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Kenley"],
+   "setting": "The Keeper's room: Klein reports the murmuring corpse; Dunn's forgetfulness routine sends him home to rest",
+   "text_anchor": "He picked up his cane, wore his hat and hobbled over"
+  },
+  {
+   "line_start": 133,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Reasoning away the Secret Order's revenge on the stairwell, then home to a shaken afternoon sleep until sunset",
+   "text_anchor": "Along the way, he suddenly recalled something"
+  },
+  {
+   "line_start": 167,
+   "line_end": 177,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa"],
+   "setting": "The kitchen at dusk: Melissa comes home carrying a letter from Mentor Cohen about the Hornacis main peak",
+   "text_anchor": "Changing into old but comfortable casual clothes"
+  }
+ ]
+}

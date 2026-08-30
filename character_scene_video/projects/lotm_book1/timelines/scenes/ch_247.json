@@ -1,0 +1,37 @@
+{
+ "chapter": 247,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 9,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "After the mirror apparition: Spirit Vision finds nothing, Azik's copper whistle stays cold — whatever she is, she is no ordinary ghost",
+   "text_anchor": "Did I just hire a female ghost as my bodyguard?"
+  },
+  {
+   "line_start": 11,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Ian"
+   ],
+   "setting": "The doorbell under the crimson moon — exactly the dream-divination image: Ian, fresh out of MI9, comes to apologize for dragging the detective into it all",
+   "text_anchor": "“Detective Moriarty,” Ian took off his brown top hat"
+  },
+  {
+   "line_start": 43,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Ian",
+    "Sharron"
+   ],
+   "setting": "The whole story in the living room, the ghostly bodyguard listening from an illusory chair: Zreal was a Feysac spy, the prize is Turani von Helmosuin's manuscript, and a traitor beside Zreal's superior doomed them — while Klein privately audits the one small mistake (no disguise) that cost him 10,000 pounds",
+   "text_anchor": "“In fact, Detective Zreal is a spy for the Feysac Empire."
+  }
+ ]
+}

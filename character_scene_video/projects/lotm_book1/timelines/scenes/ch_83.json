@@ -1,0 +1,50 @@
+{
+ "chapter": 83,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 15,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Bogda"],
+   "setting": "Outside the herb store: Bogda second-guesses his ten-pound bag of herbs and suspects a scam",
+   "text_anchor": "Holding onto the yellowish-brown paper bag full of herbs"
+  },
+  {
+   "line_start": 19,
+   "line_end": 37,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Scharmaine", "[herb store boss]"],
+   "setting": "Inside Lawson's Folk Herb Store: the boss tells his apprentice Scharmaine it's nearly time to vanish to another city",
+   "text_anchor": "Inside Lawson's Folk Herb Store."
+  },
+  {
+   "line_start": 41,
+   "line_end": 69,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Bogda", "[Bogda's father]"],
+   "setting": "Bogda's home: the vile rooster-blood medicine goes down — and by morning the liver pain is nearly gone",
+   "text_anchor": "A blackish-green bubbling liquid appeared in front of Bogda's eyes."
+  },
+  {
+   "line_start": 73,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "The staff office: Klein carves disaster-warding amulets for his siblings, and Dunn brings word — the Holy Cathedral approved his membership",
+   "text_anchor": "Inside the civilian staff office of the Blackthorn Security Company"
+  },
+  {
+   "line_start": 129,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Benson"],
+   "setting": "Sunday of Selena's birthday: Melissa stage-manages Benson into Klein's tuxedo with matchmaking intent",
+   "text_anchor": "Changing into his formal suit and using a brush"
+  }
+ ]
+}

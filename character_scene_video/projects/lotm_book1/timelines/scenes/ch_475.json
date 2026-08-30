@@ -1,0 +1,41 @@
+{
+ "chapter": 475,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 113,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mr. A",
+    "Lady Despair",
+    "Baelen"
+   ],
+   "setting": "Flat against the wall, Klein hears the bargain: Lady Despair will 'burn the house' and the Aurora Order may use the fire for their Lord's descent — then a courier's face resolves into Baelen, and the vanished slaves, Capim's girls and the missing textile women all point at one enormous hidden ritual underground",
+   "text_anchor": "“Burn that house and bury all the clues there.”"
+  },
+  {
+   "line_start": 115,
+   "line_end": 143,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Lady Despair"
+   ],
+   "setting": "Set down in an East Borough alley, she walks the streets veiled and the fog thickens iron-black behind her — tramps coughing and dropping, workers clutching their throats across the docks and factory district. 'The Great Haze of Backlund.'",
+   "text_anchor": "“The Great Haze of Backlund.”"
+  },
+  {
+   "line_start": 147,
+   "line_end": 159,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Ince Zangwill",
+    "Azik Eggers"
+   ],
+   "setting": "0-08 keeps writing over the black flooded valley: the Imperative Mage strips Azik of his two greatest powers, the stirred doors of spirit world and Underworld draw an unknown existence — and two bloody arms close on Zangwill's shoulders and pull him out of the world",
+   "text_anchor": "“He” caught Ince Zangwill!"
+  }
+ ]
+}

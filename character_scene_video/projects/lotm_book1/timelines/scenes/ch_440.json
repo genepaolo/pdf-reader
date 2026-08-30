@@ -1,0 +1,36 @@
+{
+ "chapter": 440,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 27,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Derrick Berg",
+    "Alger Wilson",
+    "[The World]"
+   ],
+   "setting": "Audrey's promise of ten more diary pages for her blessing sets off a chain of guilty debts — Fors realizing she never paid for the angel that shielded her divination, Derrick vowing to dig up histories — while Mr. Fool quietly enjoys the power of a role model",
+   "text_anchor": "The payment for the blessing…"
+  },
+  {
+   "line_start": 29,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Roselle Gustav",
+    "Mr. Door",
+    "Zaratul",
+    "Bernadette",
+    "Floren",
+    "Evernight Goddess"
+   ],
+   "setting": "The three pages: Mr. Door bargaining from his storm-lost prison, naming The Star for Evernight and declaring The Moon ownerless; the Angel Families of the Fourth Epoch — Abraham, Antigonus, Amon, Tamara, Jacob, Augustus and the rest — 'Ashes await those who fail to become true gods!'; then Bernadette's massage, the mentally-sutured Floren, and a Primordial Demoness named Cheek",
+   "text_anchor": "“Ashes await those who fail to become true gods!"
+  }
+ ]
+}

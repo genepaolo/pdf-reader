@@ -1,0 +1,2132 @@
+{
+  "batch": 10,
+  "chapters": "464-482",
+  "total": "3:50:52",
+  "chapters_detail": [
+    {
+      "chapter": 464,
+      "title": "Consultation",
+      "scenes": [
+        {
+          "start": "0:00:00",
+          "end": "0:06:03",
+          "duration": "0:06:03",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Fors Wall",
+            "Alger Wilson",
+            "Derrick Berg",
+            "[The World]",
+            "Edessak Augustus",
+            "Ince Zangwill"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Fors Wall.jpg",
+            "Alger Wilson.jpg",
+            "Derrick Berg.jpg",
+            "Edessak Augustus.png",
+            "Ince Zangwill.jpg"
+          ],
+          "missing_images": [
+            "[The World]"
+          ],
+          "layout": "grid(7)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 37,
+          "setting": "The prince's name lands: Audrey recalls his sudden coldness and dreads a marriage proposal, Alger inflates the danger to spur the Backlund three — while Klein deliberately withholds the sapphire ring and 0-08, planning to bow off the stage and slip back unseen. 'Ladies and gentlemen, we shall meet next week.'",
+          "text_anchor": "“Ladies and gentlemen, we shall meet next week.”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 363.286,
+          "batch_start": 0.0,
+          "batch_end": 363.286
+        },
+        {
+          "start": "0:06:03",
+          "end": "0:09:04",
+          "duration": "0:03:01",
+          "present_cast": [
+            "Audrey Hall",
+            "Susie"
+          ],
+          "images": [
+            "Audrey Hall.jpg",
+            "Susie.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 41,
+          "line_end": 71,
+          "setting": "Good news and bad at the mirror — a Mirror Dragon's eyes secured, and a prince to worry about; she plays the piano to steady herself and Susie, gold-rimmed glasses round her neck, reads her mood straight off the music",
+          "text_anchor": "“Audrey, what problems did you encounter?",
+          "timing": "aligned",
+          "chapter_start": 363.286,
+          "chapter_end": 543.917,
+          "batch_start": 363.286,
+          "batch_end": 543.917
+        },
+        {
+          "start": "0:09:04",
+          "end": "0:09:51",
+          "duration": "0:00:47",
+          "present_cast": [
+            "Derrick Berg",
+            "Colin Iliad"
+          ],
+          "images": [
+            "Derrick Berg.jpg",
+            "Colin Iliad.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 75,
+          "line_end": 83,
+          "setting": "Back at the bonfire, the same campsite and the Chief's same words — proof to Derrick that his memories of the loop are real",
+          "text_anchor": "“We will set off after 50 rounds of lightning.”",
+          "timing": "aligned",
+          "chapter_start": 543.917,
+          "chapter_end": 590.512,
+          "batch_start": 543.917,
+          "batch_end": 590.512
+        },
+        {
+          "start": "0:09:51",
+          "end": "0:11:50",
+          "duration": "0:02:00",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Emlyn White"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Emlyn White.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 87,
+          "line_end": 117,
+          "setting": "A quiet afternoon by the fire broken by the doorbell: Emlyn, friendless and unwilling to worry his parents, pays for a consultation — a big shot wants him to do something risky that could fix his problem. 'It has something to do with that Fool…'",
+          "text_anchor": "“It has something to do with that Fool…”",
+          "timing": "aligned",
+          "chapter_start": 590.512,
+          "chapter_end": 710.21,
+          "batch_start": 590.512,
+          "batch_end": 710.21
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 710.21
+    },
+    {
+      "chapter": 465,
+      "title": "Emlyn’s Determination",
+      "scenes": [
+        {
+          "start": "0:11:50",
+          "end": "0:18:02",
+          "duration": "0:06:12",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Emlyn White"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Emlyn White.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 71,
+          "setting": "Invented statistics — 30 no answer, 68 disasters, 2 successes — fail to shake the vampire, who insists that a forced faith is no faith and that this is for all Sanguine; he leaves thanking Klein and deducting the consultation fee from the suitcase and tin box",
+          "text_anchor": "“this is the last pride of a Sanguine.”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 371.771,
+          "batch_start": 710.21,
+          "batch_end": 1081.981
+        },
+        {
+          "start": "0:18:02",
+          "end": "0:23:42",
+          "duration": "0:05:40",
+          "present_cast": [
+            "Derrick Berg",
+            "Colin Iliad",
+            "Joshua"
+          ],
+          "images": [
+            "Derrick Berg.jpg",
+            "Colin Iliad.jpg"
+          ],
+          "missing_images": [
+            "Joshua"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 75,
+          "line_end": 159,
+          "setting": "Testing the loop: Derrick fakes hearing the child's plea, and Colin's silver serpents find nothing — then at the Rose Redemption mural he sees a silver-haired, many-winged angel standing over a river that curls back into its own source, and swings the Axe of Hurricane at it",
+          "text_anchor": "A cycle! This creates a cycle!",
+          "timing": "aligned",
+          "chapter_start": 371.771,
+          "chapter_end": 711.5,
+          "batch_start": 1081.981,
+          "batch_end": 1421.71
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 711.5
+    },
+    {
+      "chapter": 466,
+      "title": "Tail-devourer",
+      "scenes": [
+        {
+          "start": "0:23:42",
+          "end": "0:25:40",
+          "duration": "0:01:59",
+          "present_cast": [
+            "Derrick Berg",
+            "Colin Iliad",
+            "Haim"
+          ],
+          "images": [
+            "Derrick Berg.jpg",
+            "Colin Iliad.jpg"
+          ],
+          "missing_images": [
+            "Haim"
+          ],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 33,
+          "setting": "The mural's river shatters and nothing changes — Derrick blames a child-shaped shadow, survives the Demon Hunter's dark-green scrutiny, and is ordered to stay at the Chief's side; the mural was not the key",
+          "text_anchor": "“What were you doing?”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 118.738,
+          "batch_start": 1421.71,
+          "batch_end": 1540.448
+        },
+        {
+          "start": "0:25:40",
+          "end": "0:31:23",
+          "duration": "0:05:43",
+          "present_cast": [
+            "Derrick Berg",
+            "Colin Iliad",
+            "Jack"
+          ],
+          "images": [
+            "Derrick Berg.jpg",
+            "Colin Iliad.jpg"
+          ],
+          "missing_images": [
+            "Jack"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 35,
+          "line_end": 111,
+          "setting": "Sixth loop: Jack begs to be sent home to Enmat Harbor — proof of a way to the outside world, and a route that runs back past the Giant King's Court — then bares a chest set with three people's eyes, nose and mouth, arranged into the mural angel's face; 'Rose Redemption!' is no incantation, and the loop resets",
+          "text_anchor": "“My home, my home is at Enmat Harbor!”",
+          "timing": "aligned",
+          "chapter_start": 118.738,
+          "chapter_end": 461.392,
+          "batch_start": 1540.448,
+          "batch_end": 1883.102
+        },
+        {
+          "start": "0:31:23",
+          "end": "0:34:25",
+          "duration": "0:03:02",
+          "present_cast": [
+            "Derrick Berg",
+            "Colin Iliad",
+            "Jack"
+          ],
+          "images": [
+            "Derrick Berg.jpg",
+            "Colin Iliad.jpg"
+          ],
+          "missing_images": [
+            "Jack"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 113,
+          "line_end": 149,
+          "setting": "Seventh loop, played carefully: Derrick points out the resemblance quietly, and Colin assembles it — Amon's time-worm, a river of fate, the eight Kings of Angels, sons of god — and names the face. 'Angel of Fate, Tail-devourer Ouroboros.'",
+          "text_anchor": "“Angel of Fate, Tail-devourer Ouroboros.”",
+          "timing": "aligned",
+          "chapter_start": 461.392,
+          "chapter_end": 642.964,
+          "batch_start": 1883.102,
+          "batch_end": 2064.674
+        },
+        {
+          "start": "0:34:25",
+          "end": "0:34:58",
+          "duration": "0:00:33",
+          "present_cast": [
+            "Emlyn White",
+            "Nibbs Odora"
+          ],
+          "images": [
+            "Emlyn White.jpg"
+          ],
+          "missing_images": [
+            "Nibbs Odora"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 153,
+          "line_end": 167,
+          "setting": "Evening in the Odora vault: Emlyn accepts the Ancestor's mission, and is asked about his unfulfilled last wishes — which nearly unmakes his knees. 'We can begin now.'",
+          "text_anchor": "“Lord Nibbs, I accept the Ancestor’s mission!”",
+          "timing": "aligned",
+          "chapter_start": 642.964,
+          "chapter_end": 675.86,
+          "batch_start": 2064.674,
+          "batch_end": 2097.57
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 675.86
+    },
+    {
+      "chapter": 467,
+      "title": "The Delayed Response",
+      "scenes": [
+        {
+          "start": "0:34:58",
+          "end": "0:37:40",
+          "duration": "0:02:43",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Emlyn White",
+            "Nibbs Odora"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Emlyn White.jpg"
+          ],
+          "missing_images": [
+            "Nibbs Odora"
+          ],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 37,
+          "setting": "The vampire's prayer arrives above the fog with an ancient Sanguine standing guard beside him — so The Fool watches, amused, and refuses to answer while the protection lasts. 'I can delay my response…'",
+          "text_anchor": "“I can delay my response…”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 162.523,
+          "batch_start": 2097.57,
+          "batch_end": 2260.093
+        },
+        {
+          "start": "0:37:40",
+          "end": "0:42:16",
+          "duration": "0:04:36",
+          "present_cast": [
+            "Derrick Berg",
+            "Colin Iliad",
+            "Jack",
+            "Joshua",
+            "Haim"
+          ],
+          "images": [
+            "Derrick Berg.jpg",
+            "Colin Iliad.jpg"
+          ],
+          "missing_images": [
+            "Jack",
+            "Joshua",
+            "Haim"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 41,
+          "line_end": 107,
+          "setting": "Colin drinks his own potion and carves the Ouroboros face out of Jack's chest — the invisible river breaks, the loop ends, and only Derrick knows it happened; the boy is sealed and kept alive as the City of Silver's hope",
+          "text_anchor": "he and the others had finally escaped the cycle of repeating their lives",
+          "timing": "aligned",
+          "chapter_start": 162.523,
+          "chapter_end": 438.654,
+          "batch_start": 2260.093,
+          "batch_end": 2536.224
+        },
+        {
+          "start": "0:42:16",
+          "end": "0:45:25",
+          "duration": "0:03:09",
+          "present_cast": [
+            "Audrey Hall",
+            "Earl Hall",
+            "Hibbert Hall",
+            "[Countess Hall]"
+          ],
+          "images": [
+            "Audrey Hall.jpg",
+            "Earl Hall.png"
+          ],
+          "missing_images": [
+            "Hibbert Hall",
+            "[Countess Hall]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 111,
+          "line_end": 147,
+          "setting": "Family dinner: the prince's scandal is a commoner girl and a dead aristocratic descendant, hushed by the royal family — and Audrey plants the doubt that the scandal may be the cover, not the secret, then changes the subject",
+          "text_anchor": "“Maybe that’s not what they really want to cover up.”",
+          "timing": "aligned",
+          "chapter_start": 438.654,
+          "chapter_end": 627.759,
+          "batch_start": 2536.224,
+          "batch_end": 2725.329
+        },
+        {
+          "start": "0:45:25",
+          "end": "0:46:37",
+          "duration": "0:01:12",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Emlyn White",
+            "Nibbs Odora"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Emlyn White.jpg"
+          ],
+          "missing_images": [
+            "Nibbs Odora"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 151,
+          "line_end": 169,
+          "setting": "No response comes, and Emlyn spends a guarded, uneventful night — then next morning, alone in a rental carriage on the way to the Harvest Church, the fog takes him: a mottled bronze table, and a figure at its end looking down",
+          "text_anchor": "“Lord Nibbs, there’s no response.”",
+          "timing": "aligned",
+          "chapter_start": 627.759,
+          "chapter_end": 699.7,
+          "batch_start": 2725.329,
+          "batch_end": 2797.27
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 699.7
+    },
+    {
+      "chapter": 468,
+      "title": "The Moon",
+      "scenes": [
+        {
+          "start": "0:46:37",
+          "end": "0:58:01",
+          "duration": "0:11:24",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Emlyn White"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Emlyn White.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 127,
+          "setting": "The delayed answer: Lilith's apocalyptic revelation named The Fool, and behind Emlyn's chair the stars turn into a crimson moon; a secret deal is struck — silence even from his own kin, an opportunity to grow, the psychological cue removed for Sanguine history — and the new member picks his card. 'I choose The Moon card!'",
+          "text_anchor": "“I choose ‘The Moon’ card!”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 684.02,
+          "batch_start": 2797.27,
+          "batch_end": 3481.29
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 684.02
+    },
+    {
+      "chapter": 469,
+      "title": "Vampire Queen",
+      "scenes": [
+        {
+          "start": "0:58:01",
+          "end": "1:03:33",
+          "duration": "0:05:32",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Emlyn White"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Emlyn White.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 53,
+          "setting": "The Moon pays in history: the Blood Moon Queen Auernia, wife of the Night Emperor, before whom Augustus and Einhorn said 'Your Majesty' — and the War of the Four Emperors that killed her and drove the Sanguine into the mountains; the eager lecture is cut short and traded forward, and the secret-deed ritual is granted",
+          "text_anchor": "our queen, Blood Moon Queen, Auernia",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 331.811,
+          "batch_start": 3481.29,
+          "batch_end": 3813.101
+        },
+        {
+          "start": "1:03:33",
+          "end": "1:04:01",
+          "duration": "0:00:27",
+          "present_cast": [
+            "Emlyn White",
+            "Utravsky"
+          ],
+          "images": [
+            "Emlyn White.jpg",
+            "Utravsky.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 57,
+          "line_end": 63,
+          "setting": "At the Harvest Church, oddly relaxed, Emlyn notices something he never had: Father Utravsky has never once stopped him from hunting for a cure",
+          "text_anchor": "What exactly is on his mind…",
+          "timing": "aligned",
+          "chapter_start": 331.811,
+          "chapter_end": 359.292,
+          "batch_start": 3813.101,
+          "batch_end": 3840.582
+        },
+        {
+          "start": "1:04:01",
+          "end": "1:06:26",
+          "duration": "0:02:26",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Old Kohler"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Old Kohler.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 67,
+          "line_end": 105,
+          "setting": "The greasy coffee shop: two pounds paid in advance for the 'holiday' weeks ahead, and warnings — take no risks in a restless East Borough, and get Liv's family somewhere safe if anything breaks out",
+          "text_anchor": "“Watch out for Liv’s family.",
+          "timing": "aligned",
+          "chapter_start": 359.292,
+          "chapter_end": 505.207,
+          "batch_start": 3840.582,
+          "batch_end": 3986.497
+        },
+        {
+          "start": "1:06:26",
+          "end": "1:08:25",
+          "duration": "0:01:59",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Emlyn White"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Emlyn White.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 109,
+          "line_end": 139,
+          "setting": "Among his dolls behind drawn curtains, Emlyn performs the secret deed — glimpsing the shadows, the seven lights, the fog and a golden black-winged figure — and screams, smoking green, as the psychological cue burns away under the Sun Brooch",
+          "text_anchor": "“Your psychological cue has been lifted.”",
+          "timing": "aligned",
+          "chapter_start": 505.207,
+          "chapter_end": 624.151,
+          "batch_start": 3986.497,
+          "batch_end": 4105.441
+        },
+        {
+          "start": "1:08:25",
+          "end": "1:09:45",
+          "duration": "0:01:19",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 141,
+          "line_end": 153,
+          "setting": "Divinations about visiting Red Rose Manor return nothing at all, today or tomorrow — proof enough of what waits there — so the decision is made unaided: go now, and exit the stage before it becomes impossible",
+          "text_anchor": "I have to decide on my own…",
+          "timing": "aligned",
+          "chapter_start": 624.151,
+          "chapter_end": 703.37,
+          "batch_start": 4105.441,
+          "batch_end": 4184.66
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 703.37
+    },
+    {
+      "chapter": 470,
+      "title": "Name",
+      "scenes": [
+        {
+          "start": "1:09:45",
+          "end": "1:15:15",
+          "duration": "0:05:30",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Edessak Augustus",
+            "Funkel"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Edessak Augustus.png"
+          ],
+          "missing_images": [
+            "Funkel"
+          ],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 77,
+          "setting": "The solarium exit interview, played with a Faceless-aged face and a written report already in his pocket: Talim died of a heart attack, the detective is too weak, and he is going south. The prince releases him, and the manor shrinks behind the carriage — the stage left at last",
+          "text_anchor": "He knew that he had left the center of the stage.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 330.215,
+          "batch_start": 4184.66,
+          "batch_end": 4514.875
+        },
+        {
+          "start": "1:15:15",
+          "end": "1:21:26",
+          "duration": "0:06:11",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Trissy"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Trissy.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 79,
+          "line_end": 153,
+          "setting": "The carriage door opens and shuts on the sapphire ring: it is Trissy, wanted Witch of the Demoness Sect, begging to be reported to any official organization — someone rewrites her life through coincidences, she cursed Talim without knowing it, and they have renamed her. 'Trissy Cheek.'",
+          "text_anchor": "“Trissy Cheek.”",
+          "timing": "aligned",
+          "chapter_start": 330.215,
+          "chapter_end": 700.97,
+          "batch_start": 4514.875,
+          "batch_end": 4885.63
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 700.97
+    },
+    {
+      "chapter": 471,
+      "title": "Klein’s Preparations",
+      "scenes": [
+        {
+          "start": "1:21:26",
+          "end": "1:25:45",
+          "duration": "0:04:19",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Trissy"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Trissy.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 47,
+          "setting": "Goosebumps and cold sweat: what interferes with the fog is no Sealed Artifact but the Primordial Demoness stirring inside her; Trissy offers pleasure in exchange for reporting her to the authorities, promises to draw off the pursuit, and wipes herself out of the carriage — leaving Klein trembling and certain he must act",
+          "text_anchor": "The symbol of the apocalypse, the Primordial Demoness!",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 259.494,
+          "batch_start": 4885.63,
+          "batch_end": 5145.124
+        },
+        {
+          "start": "1:25:45",
+          "end": "1:30:08",
+          "duration": "0:04:23",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 49,
+          "line_end": 93,
+          "setting": "Prepared like a Magician: split matches carry him out of the carriage and deep into the withered forest, where Azik's copper whistle summons the bone messenger with a one-word note — 'Help!' — a prayer-shaped report is pushed to Miss Justice, and then the sky fills with falling meteors",
+          "text_anchor": "several meteors burning with raging flames falling from the sky",
+          "timing": "aligned",
+          "chapter_start": 259.494,
+          "chapter_end": 522.829,
+          "batch_start": 5145.124,
+          "batch_end": 5408.459
+        },
+        {
+          "start": "1:30:08",
+          "end": "1:30:29",
+          "duration": "0:00:21",
+          "present_cast": [
+            "[one-eyed man]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "[one-eyed man]"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 97,
+          "line_end": 101,
+          "setting": "The quill records it in the yellowing notebook: the Dallask meteor shower arrived two days early, and part of it just happened to land on the forest where Sherlock Moriarty was hiding. Yes, just happened",
+          "text_anchor": "“Yes, just happened!”",
+          "timing": "aligned",
+          "chapter_start": 522.829,
+          "chapter_end": 543.509,
+          "batch_start": 5408.459,
+          "batch_end": 5429.139
+        },
+        {
+          "start": "1:30:29",
+          "end": "1:33:33",
+          "duration": "0:03:04",
+          "present_cast": [
+            "Audrey Hall",
+            "Escalante",
+            "Susie"
+          ],
+          "images": [
+            "Audrey Hall.jpg",
+            "Susie.jpg"
+          ],
+          "missing_images": [
+            "Escalante"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 105,
+          "line_end": 139,
+          "setting": "Mid-lesson, the report reaches Justice — a Demoness of Pleasure at the prince's side, renamed Cheek, the Primordial Demoness's true name — and Audrey's composure collapses; she ends the class and walks to her mother's living room with a plan and a weight on her shoulders",
+          "text_anchor": "The true name of the Primordial Demoness… The Primordial Demoness!",
+          "timing": "aligned",
+          "chapter_start": 543.509,
+          "chapter_end": 727.44,
+          "batch_start": 5429.139,
+          "batch_end": 5613.07
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 727.44
+    },
+    {
+      "chapter": 472,
+      "title": "Latent Danger",
+      "scenes": [
+        {
+          "start": "1:33:33",
+          "end": "1:41:16",
+          "duration": "0:07:43",
+          "present_cast": [
+            "Audrey Hall",
+            "Caitlyn"
+          ],
+          "images": [
+            "Audrey Hall.jpg"
+          ],
+          "missing_images": [
+            "Caitlyn"
+          ],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 97,
+          "setting": "Audrey confesses to being a Beyonder — and learns her parents have known all along — then delivers the warning carefully sourced to the Psychology Alchemists: the prince's commoner girl is a Demoness of Pleasure named Trissy Cheek, the Primordial Demoness's name. 'Audrey, you've grown up.'",
+          "text_anchor": "“And what scares me even more is that her name is Trissy Cheek.”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 462.617,
+          "batch_start": 5613.07,
+          "batch_end": 6075.687
+        },
+        {
+          "start": "1:41:16",
+          "end": "1:44:58",
+          "duration": "0:03:42",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Azik Eggers"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Azik Eggers.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 101,
+          "line_end": 155,
+          "setting": "Meteors coming down with no escape: Klein burns his whole matchbox to Flaming-Jump above the falling rock and hop between ignitions — until the world saturates into a still oil painting where the blast cannot reach, and a bronze-skinned man with a mole below his ear stands beside him. 'Mr. Azik!'",
+          "text_anchor": "“Mr. Azik!”",
+          "timing": "aligned",
+          "chapter_start": 462.617,
+          "chapter_end": 685.048,
+          "batch_start": 6075.687,
+          "batch_end": 6298.118
+        },
+        {
+          "start": "1:44:58",
+          "end": "1:45:28",
+          "duration": "0:00:30",
+          "present_cast": [
+            "[one-eyed man]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "[one-eyed man]"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 159,
+          "line_end": 163,
+          "setting": "The dimmed quill is taken up by hand and made to write the next 'coincidence': Azik's incomplete memories flaw his passage through the spirit world, landing him and Sherlock Moriarty near Ince Zangwill and his friend",
+          "text_anchor": "“Hence, he and Sherlock Moriarty found themselves landing near Ince Zangwill and his friend.”",
+          "timing": "aligned",
+          "chapter_start": 685.048,
+          "chapter_end": 715.01,
+          "batch_start": 6298.118,
+          "batch_end": 6328.08
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 715.01
+    },
+    {
+      "chapter": 473,
+      "title": "Faceless",
+      "scenes": [
+        {
+          "start": "1:45:28",
+          "end": "1:51:05",
+          "duration": "0:05:37",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Azik Eggers",
+            "Ince Zangwill",
+            "[gold-masked demigod]"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Azik Eggers.jpg",
+            "Ince Zangwill.jpg"
+          ],
+          "missing_images": [
+            "[gold-masked demigod]"
+          ],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 71,
+          "setting": "Dropped into an underground ruin beside a bottomless ravine: Azik tells him to run and names the Sequence he once held so long — Undying — while Ince Zangwill steps from a bronze door of grasping arms, a gold-masked demigod forbids teleportation, and the curse laid on the fleeing detective simply fails against a thin gray fog",
+          "text_anchor": "“That Sequence’s name is Undying.”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 337.04,
+          "batch_start": 6328.08,
+          "batch_end": 6665.12
+        },
+        {
+          "start": "1:51:05",
+          "end": "1:54:38",
+          "duration": "0:03:32",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "[armored guards]"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg"
+          ],
+          "missing_images": [
+            "[armored guards]"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 73,
+          "line_end": 119,
+          "setting": "Wearing Ince Zangwill's face and height, Klein walks through three checkpoints on nerve alone — then bluffs the last door, hands over a 'pass' and dives through the ghostly-blue light, leaving a guard holding a slip of paper that reads 'Happy New Year!'",
+          "text_anchor": "“Happy New Year!”",
+          "timing": "aligned",
+          "chapter_start": 337.04,
+          "chapter_end": 549.498,
+          "batch_start": 6665.12,
+          "batch_end": 6877.578
+        },
+        {
+          "start": "1:54:38",
+          "end": "1:55:33",
+          "duration": "0:00:56",
+          "present_cast": [
+            "Ince Zangwill"
+          ],
+          "images": [
+            "Ince Zangwill.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 123,
+          "line_end": 133,
+          "setting": "Over the black bubbling crevice, Zangwill is not afraid of Azik but of his own artifact — and finds the quill has slipped from his pocket and is happily writing that in a fierce battle his belt might snap and his pants drop",
+          "text_anchor": "“… In a fierce battle, there would always be a variety of accidents",
+          "timing": "aligned",
+          "chapter_start": 549.498,
+          "chapter_end": 605.154,
+          "batch_start": 6877.578,
+          "batch_end": 6933.234
+        },
+        {
+          "start": "1:55:33",
+          "end": "1:57:48",
+          "duration": "0:02:15",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "[armored guards]"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg"
+          ],
+          "missing_images": [
+            "[armored guards]"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 135,
+          "line_end": 171,
+          "setting": "Through into a second guardroom, orders given in Zangwill's voice — then the alarm arrives, a paper substitute takes the lightning sword, two purifying bullets take the guard, and Klein comes out of the corner wearing that guard's face and armor, running off to warn everyone about 'Ince Zangwill'",
+          "text_anchor": "He was going to notify every guard along the way that there was a problem with Ince Zangwill!",
+          "timing": "aligned",
+          "chapter_start": 605.154,
+          "chapter_end": 739.75,
+          "batch_start": 6933.234,
+          "batch_end": 7067.83
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 739.75
+    },
+    {
+      "chapter": 474,
+      "title": "Edessak’s Story",
+      "scenes": [
+        {
+          "start": "1:57:48",
+          "end": "2:04:30",
+          "duration": "0:06:42",
+          "present_cast": [
+            "Edessak Augustus",
+            "Trissy",
+            "Funkel"
+          ],
+          "images": [
+            "Edessak Augustus.png",
+            "Trissy.jpg"
+          ],
+          "missing_images": [
+            "Funkel"
+          ],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 105,
+          "setting": "The solarium confrontation: Trissy throws everything at him — Demoness, once a man named Tris, his love itself arranged, and the whole romance a cover for a royal deal with the Demoness Sect — and the prince, waking from his scripted infatuation, opens the hidden door and stays behind. 'Let me live in this beautiful story and welcome its final end'",
+          "text_anchor": "“Then let me be frank with you. I am a Demoness!”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 402.498,
+          "batch_start": 7067.83,
+          "batch_end": 7470.328
+        },
+        {
+          "start": "2:04:30",
+          "end": "2:08:03",
+          "duration": "0:03:33",
+          "present_cast": [
+            "Saint Anthony Stevenson",
+            "Daly"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Saint Anthony Stevenson",
+            "Daly"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 109,
+          "line_end": 177,
+          "setting": "Saint Samuel Cathedral: the telegram from Earl Hall's residence sends the archbishop to the Chanis Gate to awaken 0-17 — the only Grade 0 Sealed Artifact kept outside the Holy Cathedral, whose file says it is not an item but a living, mindless angel that has already swallowed seventy researchers. 'She cannot be used!'",
+          "text_anchor": "“This is a living angel.",
+          "timing": "aligned",
+          "chapter_start": 402.498,
+          "chapter_end": 615.388,
+          "batch_start": 7470.328,
+          "batch_end": 7683.218
+        },
+        {
+          "start": "2:08:03",
+          "end": "2:09:54",
+          "duration": "0:01:51",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Mr. A",
+            "[hooded figures]"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Mr. A.png"
+          ],
+          "missing_images": [
+            "[hooded figures]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 179,
+          "line_end": 203,
+          "setting": "Racing the search, Klein reaches an unguarded stone door, strips the armor and slips through the wall with the Master Key — into daylight, thick pillars, and four hooded figures kneeling at an altar. 'Mr. A, are you ready?'",
+          "text_anchor": "“Mr. A, are you ready?”",
+          "timing": "aligned",
+          "chapter_start": 615.388,
+          "chapter_end": 726.0,
+          "batch_start": 7683.218,
+          "batch_end": 7793.83
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 726.0
+    },
+    {
+      "chapter": 475,
+      "title": "Lady Despair",
+      "scenes": [
+        {
+          "start": "2:09:54",
+          "end": "2:18:49",
+          "duration": "0:08:55",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Mr. A",
+            "Lady Despair",
+            "Baelen",
+            "[hooded figures]"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Mr. A.png"
+          ],
+          "missing_images": [
+            "Lady Despair",
+            "Baelen",
+            "[hooded figures]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 113,
+          "setting": "Flat against the wall, Klein hears the bargain: Lady Despair will 'burn the house' and the Aurora Order may use the fire for their Lord's descent — then a courier's face resolves into Baelen, and the vanished slaves, Capim's girls and the missing textile women all point at one enormous hidden ritual underground",
+          "text_anchor": "“Burn that house and bury all the clues there.”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 534.869,
+          "batch_start": 7793.83,
+          "batch_end": 8328.699
+        },
+        {
+          "start": "2:18:49",
+          "end": "2:21:33",
+          "duration": "0:02:44",
+          "present_cast": [
+            "Lady Despair"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Lady Despair"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 115,
+          "line_end": 143,
+          "setting": "Set down in an East Borough alley, she walks the streets veiled and the fog thickens iron-black behind her — tramps coughing and dropping, workers clutching their throats across the docks and factory district. 'The Great Haze of Backlund.'",
+          "text_anchor": "“The Great Haze of Backlund.”",
+          "timing": "aligned",
+          "chapter_start": 534.869,
+          "chapter_end": 699.042,
+          "batch_start": 8328.699,
+          "batch_end": 8492.872
+        },
+        {
+          "start": "2:21:33",
+          "end": "2:22:43",
+          "duration": "0:01:10",
+          "present_cast": [
+            "Ince Zangwill",
+            "Azik Eggers"
+          ],
+          "images": [
+            "Ince Zangwill.jpg",
+            "Azik Eggers.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 147,
+          "line_end": 159,
+          "setting": "0-08 keeps writing over the black flooded valley: the Imperative Mage strips Azik of his two greatest powers, the stirred doors of spirit world and Underworld draw an unknown existence — and two bloody arms close on Zangwill's shoulders and pull him out of the world",
+          "text_anchor": "“He” caught Ince Zangwill!",
+          "timing": "aligned",
+          "chapter_start": 699.042,
+          "chapter_end": 768.84,
+          "batch_start": 8492.872,
+          "batch_end": 8562.67
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 768.84
+    },
+    {
+      "chapter": 476,
+      "title": "The Straw Men",
+      "scenes": [
+        {
+          "start": "2:22:43",
+          "end": "2:24:26",
+          "duration": "0:01:44",
+          "present_cast": [
+            "Ince Zangwill"
+          ],
+          "images": [
+            "Ince Zangwill.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 17,
+          "setting": "Out of the chanting darkness Zangwill returns torn and pus-blistered, having burned the evil god's umbilical cord to escape — and 0-08 records that he is down to precisely 55 percent of his strength",
+          "text_anchor": "with only 55% left",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 103.721,
+          "batch_start": 8562.67,
+          "batch_end": 8666.391
+        },
+        {
+          "start": "2:24:26",
+          "end": "2:29:28",
+          "duration": "0:05:02",
+          "present_cast": [
+            "Old Kohler"
+          ],
+          "images": [
+            "Old Kohler.png"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 21,
+          "line_end": 81,
+          "setting": "The haze takes Old Kohler on his way home with his new-year ham: burning face, blocked throat, the memory of a drunk's words about straw falling when the wind blows — the unsmoked cigarette in his fingers, and one last unspoken question. 'Why?'",
+          "text_anchor": "He heard himself ask, “Why?”",
+          "timing": "aligned",
+          "chapter_start": 103.721,
+          "chapter_end": 405.58,
+          "batch_start": 8666.391,
+          "batch_end": 8968.25
+        },
+        {
+          "start": "2:29:28",
+          "end": "2:33:28",
+          "duration": "0:04:00",
+          "present_cast": [
+            "Liv",
+            "Freja",
+            "Daisy"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Liv",
+            "Freja",
+            "Daisy"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 85,
+          "line_end": 151,
+          "setting": "The laundry apartment: Liv collapses at the door, Freja beside her — money in the hole in the wall, a hospital they can't afford, her last look toward her vocabulary notebook — while at school Daisy is dragged to the cathedral screaming for them both",
+          "text_anchor": "“Mother! Freja!",
+          "timing": "aligned",
+          "chapter_start": 405.58,
+          "chapter_end": 645.107,
+          "batch_start": 8968.25,
+          "batch_end": 9207.777
+        },
+        {
+          "start": "2:33:28",
+          "end": "2:33:56",
+          "duration": "0:00:28",
+          "present_cast": [],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 155,
+          "line_end": 159,
+          "setting": "Across East Borough, the docks and the factory district the old fall like felled trees and their neighbours after them — on the Tuesday of the last week of 1349, Backlund is shrouded in haze",
+          "text_anchor": "the light yellow and iron-black fog was like the descent of Death",
+          "timing": "aligned",
+          "chapter_start": 645.107,
+          "chapter_end": 673.538,
+          "batch_start": 9207.777,
+          "batch_end": 9236.208
+        },
+        {
+          "start": "2:33:56",
+          "end": "2:35:34",
+          "duration": "0:01:38",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Mr. A"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Mr. A.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 163,
+          "line_end": 185,
+          "setting": "Behind the stone wall Klein hears four attendants sacrificed and the dead of the haze pouring into the ritual — weeping, coughing, calling for their mothers; his hand opens and closes seven or eight times, and then he steps out with his revolver raised at the altar",
+          "text_anchor": "“Give up your lives for the Lord,”",
+          "timing": "aligned",
+          "chapter_start": 673.538,
+          "chapter_end": 771.58,
+          "batch_start": 9236.208,
+          "batch_end": 9334.25
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 771.58
+    },
+    {
+      "chapter": 477,
+      "title": "The Many Considerations of The Fool",
+      "scenes": [
+        {
+          "start": "2:35:34",
+          "end": "2:40:45",
+          "duration": "0:05:11",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Mr. A"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Mr. A.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 79,
+          "setting": "Every bullet and flame dissolves against the altar's light and the Shepherd dismisses him as a worm — until Klein finds the one thing he has left and throws the Master Key inside, where its shell melts away and the curse within reaches back to Mr. Door",
+          "text_anchor": "It was the Master Key.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 310.809,
+          "batch_start": 9334.25,
+          "batch_end": 9645.059
+        },
+        {
+          "start": "2:40:45",
+          "end": "2:44:11",
+          "duration": "0:03:26",
+          "present_cast": [
+            "Audrey Hall",
+            "Susie",
+            "Lady Despair"
+          ],
+          "images": [
+            "Audrey Hall.jpg",
+            "Susie.jpg"
+          ],
+          "missing_images": [
+            "Lady Despair"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 83,
+          "line_end": 135,
+          "setting": "Audrey watches the iron-black fog creep toward Empress Borough until a Storm-summoned hurricane and downpour scour Backlund clean — while Lady Despair, content with twenty thousand dead and a mostly digested potion, prepares to slip away, and finds a black-haired, dull-faced young woman sitting opposite her in the carriage",
+          "text_anchor": "“The Church of the Lord of Storms reacted rather quickly this time…",
+          "timing": "aligned",
+          "chapter_start": 310.809,
+          "chapter_end": 516.322,
+          "batch_start": 9645.059,
+          "batch_end": 9850.572
+        },
+        {
+          "start": "2:44:11",
+          "end": "2:47:33",
+          "duration": "0:03:22",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Mr. A"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Mr. A.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 139,
+          "line_end": 189,
+          "setting": "The dissolving key screams with Mr. Door's voice: the resentment feeding the ritual is contaminated, the barrier collapses, and the altar tears itself apart — Klein rides out the blast behind a paper substitute and a wall, sees the half-destroyed Shepherd already regrowing, and runs",
+          "text_anchor": "As a result, the altar lost its balance and embarked on a path of self-destruction!",
+          "timing": "aligned",
+          "chapter_start": 516.322,
+          "chapter_end": 718.25,
+          "batch_start": 9850.572,
+          "batch_end": 10052.5
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 718.25
+    },
+    {
+      "chapter": 478,
+      "title": "Grade 0 Sealed Artifact in Operation",
+      "scenes": [
+        {
+          "start": "2:47:33",
+          "end": "2:50:17",
+          "duration": "0:02:45",
+          "present_cast": [
+            "Lady Despair",
+            "[black-haired angel]",
+            "Mr. A"
+          ],
+          "images": [
+            "Mr. A.png"
+          ],
+          "missing_images": [
+            "Lady Despair",
+            "[black-haired angel]"
+          ],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 33,
+          "setting": "The Demoness of Despair's ice spear vanishes mid-air and she is erased a centimeter at a time — 'You aren't! You are…' — the seat left empty as though she had never sat there, and the hooded woman simply disappears",
+          "text_anchor": "“You aren’t! You are…”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 164.942,
+          "batch_start": 10052.5,
+          "batch_end": 10217.442
+        },
+        {
+          "start": "2:50:17",
+          "end": "2:52:34",
+          "duration": "0:02:17",
+          "present_cast": [
+            "Trissy",
+            "[black-haired angel]"
+          ],
+          "images": [
+            "Trissy.jpg"
+          ],
+          "missing_images": [
+            "[black-haired angel]"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 37,
+          "line_end": 69,
+          "setting": "Trissy, doubling back into Backlund to hide among five million people, is lifted out of a public carriage and pinned by an infant's helplessness before the same black-eyed figure — then released, with the sapphire ring on her pinky shattered and lightless",
+          "text_anchor": "the sapphire ring on her left pinky had somehow shattered",
+          "timing": "aligned",
+          "chapter_start": 164.942,
+          "chapter_end": 301.54,
+          "batch_start": 10217.442,
+          "batch_end": 10354.04
+        },
+        {
+          "start": "2:52:34",
+          "end": "2:59:58",
+          "duration": "0:07:24",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Mr. A"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Mr. A.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 73,
+          "line_end": 183,
+          "setting": "Out of the mountain door and down the slope with the river in earshot — but the Shepherd catches him: wind blades, exploding flesh, a nightmare broken by an imagined Eternal Blazing Sun, an ice spear, plague and spider-silk; even burning free, Klein is coughing and cornered as the illusory book opens: 'I came, I saw, I record.'",
+          "text_anchor": "“I came, I saw, I record.”",
+          "timing": "aligned",
+          "chapter_start": 301.54,
+          "chapter_end": 745.75,
+          "batch_start": 10354.04,
+          "batch_end": 10798.25
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 745.75
+    },
+    {
+      "chapter": 479,
+      "title": "The Inexplicable Smile",
+      "scenes": [
+        {
+          "start": "2:59:58",
+          "end": "3:01:06",
+          "duration": "0:01:07",
+          "present_cast": [
+            "Funkel",
+            "[black-haired angel]",
+            "Mr. A"
+          ],
+          "images": [
+            "Mr. A.png"
+          ],
+          "missing_images": [
+            "Funkel",
+            "[black-haired angel]"
+          ],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 15,
+          "setting": "Fleeing across bare fields, the old butler turns and finds the hooded figure waiting — his nose goes first, then his voice, then all of him, wiped from the world like a stain",
+          "text_anchor": "not a single trace was left behind",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 67.321,
+          "batch_start": 10798.25,
+          "batch_end": 10865.571
+        },
+        {
+          "start": "3:01:06",
+          "end": "3:09:02",
+          "duration": "0:07:56",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Mr. A"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Mr. A.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 19,
+          "line_end": 133,
+          "setting": "Azik's copper whistle buys one paper substitute's worth of life; the Shepherd's own suppressed injuries burst out in coughed-up organs, bullets fail against boneless flesh, and Klein throws himself off a fifty-meter cliff into the Tussock — only for gill-faced Mr. A to surface between him and the shore",
+          "text_anchor": "Fight! I can only fight!",
+          "timing": "aligned",
+          "chapter_start": 67.321,
+          "chapter_end": 543.766,
+          "batch_start": 10865.571,
+          "batch_end": 11342.016
+        },
+        {
+          "start": "3:09:02",
+          "end": "3:11:40",
+          "duration": "0:02:38",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Mr. A",
+            "[black-haired angel]"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Mr. A.png"
+          ],
+          "missing_images": [
+            "[black-haired angel]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 135,
+          "line_end": 167,
+          "setting": "A hooded woman appears above the water and erases the Shepherd like pencil under an eraser — then turns her expressionless black eyes on Klein and, impossibly, smiles before vanishing; alone on the remote bank he decides she must be a Church powerhouse sent in time",
+          "text_anchor": "the corners of the woman’s mouth slowly lifted into a smile",
+          "timing": "aligned",
+          "chapter_start": 543.766,
+          "chapter_end": 702.24,
+          "batch_start": 11342.016,
+          "batch_end": 11500.49
+        },
+        {
+          "start": "3:11:40",
+          "end": "3:12:23",
+          "duration": "0:00:43",
+          "present_cast": [
+            "Azik Eggers",
+            "Ince Zangwill",
+            "[gold-masked demigod]"
+          ],
+          "images": [
+            "Azik Eggers.jpg",
+            "Ince Zangwill.jpg"
+          ],
+          "missing_images": [
+            "[gold-masked demigod]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 171,
+          "line_end": 181,
+          "setting": "Azik is Exiled into the void rather than killed, and the two hurry to hide the site before the Church finds it — Zangwill unsteady, 0-08 reclaimed, and his ruined trousers heaped around his ankles",
+          "text_anchor": "“Exile!”",
+          "timing": "aligned",
+          "chapter_start": 702.24,
+          "chapter_end": 744.765,
+          "batch_start": 11500.49,
+          "batch_end": 11543.015
+        },
+        {
+          "start": "3:12:23",
+          "end": "3:12:51",
+          "duration": "0:00:28",
+          "present_cast": [
+            "Edessak Augustus"
+          ],
+          "images": [
+            "Edessak Augustus.png"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 185,
+          "line_end": 195,
+          "setting": "By the solarium windows a voice tells the prince to hurry; he looks out at the golf course and the strolling horses, sets the spirit-destroying bullet against his temple, and pulls the trigger",
+          "text_anchor": "He pulled the trigger.",
+          "timing": "aligned",
+          "chapter_start": 744.765,
+          "chapter_end": 773.02,
+          "batch_start": 11543.015,
+          "batch_end": 11571.27
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 773.02
+    },
+    {
+      "chapter": 480,
+      "title": "Honest Rewards",
+      "scenes": [
+        {
+          "start": "3:12:51",
+          "end": "3:14:15",
+          "duration": "0:01:23",
+          "present_cast": [
+            "Saint Anthony Stevenson",
+            "[Nighthawks]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Saint Anthony Stevenson",
+            "[Nighthawks]"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 3,
+          "line_end": 19,
+          "setting": "Saint Anthony leads Nighthawks through the wrecked hall into an underground that has been swept clean — no guards, no blue door, and walls melted into raw mud and rock. 'Try divination. Search the vicinity.'",
+          "text_anchor": "“It was disrupted by someone?”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 83.253,
+          "batch_start": 11571.27,
+          "batch_end": 11654.523
+        },
+        {
+          "start": "3:14:15",
+          "end": "3:17:07",
+          "duration": "0:02:53",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 23,
+          "line_end": 45,
+          "setting": "Soaked, feverish and sneezing through pathless forest: no fire, because the Church's questions would put Klein Moretti's old colleagues face to face with him and raise the matter of a summoned descendant of Death — better that Sherlock Moriarty be declared dead",
+          "text_anchor": "He sure lived up to his name and identity…",
+          "timing": "aligned",
+          "chapter_start": 83.253,
+          "chapter_end": 256.128,
+          "batch_start": 11654.523,
+          "batch_end": 11827.398
+        },
+        {
+          "start": "3:17:07",
+          "end": "3:25:14",
+          "duration": "0:08:06",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Azik Eggers"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Azik Eggers.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 47,
+          "line_end": 141,
+          "setting": "The world saturates and Azik is walking beside him: Zangwill survives but is hurt and pinned to the royal family, 0-08 will never willingly help its owner, and Klein should leave Backlund; a Card of Blasphemy is promised in thanks, the Underworld is placed inside the spirit world — and a thin human-skin glove changes hands, Creeping Hunger",
+          "text_anchor": "“but to an Undying, this isn’t a big problem.”",
+          "timing": "aligned",
+          "chapter_start": 256.128,
+          "chapter_end": 742.56,
+          "batch_start": 11827.398,
+          "batch_end": 12313.83
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 742.56
+    },
+    {
+      "chapter": 481,
+      "title": "Statistics and People",
+      "scenes": [
+        {
+          "start": "3:25:14",
+          "end": "3:26:56",
+          "duration": "0:01:43",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 21,
+          "setting": "A hotel room on Backlund's outskirts: soaked notes laid out to dry without a flame, and in the mirror a new face — Zhou Mingrui's university self given Northern Continent features, an identity he'll make legal later. 'How nostalgic…'",
+          "text_anchor": "This was a modification of Zhou Mingrui’s appearance",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 102.587,
+          "batch_start": 12313.83,
+          "batch_end": 12416.417
+        },
+        {
+          "start": "3:26:56",
+          "end": "3:33:26",
+          "duration": "0:06:30",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 23,
+          "line_end": 83,
+          "setting": "Creeping Hunger studied above the fog: five grazing souls — Faceless, Psychiatrist, Interrogator, Nightmare, Priest of Light — and a promise to the wailing faces that each will be freed as villains replace them; then a divination about East Borough that leaves him sunk back in his chair",
+          "text_anchor": "“I will gradually free you from your imprisonment to acquire complete deliverance.",
+          "timing": "aligned",
+          "chapter_start": 102.587,
+          "chapter_end": 492.209,
+          "batch_start": 12416.417,
+          "batch_end": 12806.039
+        },
+        {
+          "start": "3:33:26",
+          "end": "3:35:08",
+          "duration": "0:01:42",
+          "present_cast": [
+            "Audrey Hall",
+            "Earl Hall",
+            "Susie"
+          ],
+          "images": [
+            "Audrey Hall.jpg",
+            "Earl Hall.png",
+            "Susie.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 87,
+          "line_end": 105,
+          "setting": "The rain clears the sky and Earl Hall comes home to praise his 'little princess' — then names the cost: better than ten thousand dead across East Borough, the docks and the factory district, with plague still spreading",
+          "text_anchor": "“I estimate that more than ten thousand people died",
+          "timing": "aligned",
+          "chapter_start": 492.209,
+          "chapter_end": 594.036,
+          "batch_start": 12806.039,
+          "batch_end": 12907.866
+        },
+        {
+          "start": "3:35:08",
+          "end": "3:36:50",
+          "duration": "0:01:42",
+          "present_cast": [
+            "Daisy",
+            "[police officer]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Daisy",
+            "[police officer]"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 109,
+          "line_end": 139,
+          "setting": "Behind the cordon Daisy watches Liv carried out still holding Freja, then chases the black-draped carriage through the mud until it turns the corner — and slides down a tree weeping two names, one of tens of thousands of such cries",
+          "text_anchor": "“Mother…",
+          "timing": "aligned",
+          "chapter_start": 594.036,
+          "chapter_end": 695.678,
+          "batch_start": 12907.866,
+          "batch_end": 13009.508
+        },
+        {
+          "start": "3:36:50",
+          "end": "3:38:44",
+          "duration": "0:01:55",
+          "present_cast": [
+            "George III",
+            "[earl palatine]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "George III",
+            "[earl palatine]"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 143,
+          "line_end": 171,
+          "setting": "Sodela Palace: the King fixes the story — a prince seduced by a Demoness into rebellion, already dead by his own hand — and buys off the Churches with everything at once: House of Lords seats, franchise reform, the pollution bill, the Poor Law, Church officers in the military. 'Since they want a new order, I will give them a new order!'",
+          "text_anchor": "“Since they want a new order, I will give them a new order!”",
+          "timing": "aligned",
+          "chapter_start": 695.678,
+          "chapter_end": 810.67,
+          "batch_start": 13009.508,
+          "batch_end": 13124.5
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 810.67
+    },
+    {
+      "chapter": 482,
+      "title": "Ring out the Old, Ring in the New",
+      "scenes": [
+        {
+          "start": "3:38:44",
+          "end": "3:42:55",
+          "duration": "0:04:10",
+          "present_cast": [
+            "Emlyn White",
+            "Utravsky"
+          ],
+          "images": [
+            "Emlyn White.jpg",
+            "Utravsky.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 3,
+          "line_end": 63,
+          "setting": "The Harvest Church turned plague ward: Emlyn brews fifty doses and hands them out with contempt beside a bishop who takes in unbelievers because 'they are also lives' — and then reveals that the psychological cue only ever made him come back to the cathedral",
+          "text_anchor": "“The only effect of the psychological cue was to make me return to the cathedral?”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 250.167,
+          "batch_start": 13124.5,
+          "batch_end": 13374.667
+        },
+        {
+          "start": "3:42:55",
+          "end": "3:44:40",
+          "duration": "0:01:45",
+          "present_cast": [
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 67,
+          "line_end": 87,
+          "setting": "New Year's Eve at 2 Daffodil Street: tickets booked for the 3rd of January, talk of Backlund's new laws and its desperate factories — and a table laid with three sets of cutlery, three plates, three cups",
+          "text_anchor": "Three cups. One for beer, two for ginger beer.",
+          "timing": "aligned",
+          "chapter_start": 250.167,
+          "chapter_end": 355.074,
+          "batch_start": 13374.667,
+          "batch_end": 13479.574
+        },
+        {
+          "start": "3:44:40",
+          "end": "3:46:24",
+          "duration": "0:01:44",
+          "present_cast": [
+            "Audrey Hall",
+            "Earl Hall",
+            "Caitlyn",
+            "[the queen]"
+          ],
+          "images": [
+            "Audrey Hall.jpg",
+            "Earl Hall.png"
+          ],
+          "missing_images": [
+            "Caitlyn",
+            "[the queen]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 91,
+          "line_end": 119,
+          "setting": "A newspaper counting 21,000 dead in the fog and 40,000 more to plague sits in the lounge; Audrey puts on her elegant smile, takes the queen's hand before the guests, and is presented to society as fireworks break over the window",
+          "text_anchor": "“Lady Audrey Hall.”",
+          "timing": "aligned",
+          "chapter_start": 355.074,
+          "chapter_end": 459.396,
+          "batch_start": 13479.574,
+          "batch_end": 13583.896
+        },
+        {
+          "start": "3:46:24",
+          "end": "3:48:21",
+          "duration": "0:01:57",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 123,
+          "line_end": 147,
+          "setting": "A new cemetery on East Borough's edge: Old Kohler's niche has no photograph, no epitaph, not even a name — so Klein carves one, 'He was a good worker. He had a wife, a son, and a daughter. He worked hard to live.' — and leaves Daisy's case anonymously to Reporter Mike rather than touch her life himself",
+          "text_anchor": "“He was a good worker.",
+          "timing": "aligned",
+          "chapter_start": 459.396,
+          "chapter_end": 576.48,
+          "batch_start": 13583.896,
+          "batch_end": 13700.98
+        },
+        {
+          "start": "3:48:21",
+          "end": "3:50:52",
+          "duration": "0:02:31",
+          "present_cast": [
+            "Klein (as Sherlock Moriarty)",
+            "Benson Moretti",
+            "Melissa Moretti",
+            "[burly passenger]"
+          ],
+          "images": [
+            "Sherlock Moriarty.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
+          ],
+          "missing_images": [
+            "[burly passenger]"
+          ],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 149,
+          "line_end": 179,
+          "setting": "The locomotive carries hopeful workers into the Land of Hope; on the platform Benson and Melissa feel a gaze and see only a black-haired gentleman in gold-rimmed glasses, who walks past them into the departure station. 'It was the best of times, it was the worst of times.' (End of Volume 2 — Faceless)",
+          "text_anchor": "It was the best of times, it was the worst of times.",
+          "timing": "aligned",
+          "chapter_start": 576.48,
+          "chapter_end": 727.08,
+          "batch_start": 13700.98,
+          "batch_end": 13851.58
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 727.08
+    }
+  ],
+  "characters_index": {
+    "Klein Moretti (protagonist)": {
+      "status": "have",
+      "scenes": 32
+    },
+    "Audrey Hall": {
+      "status": "have",
+      "scenes": 8
+    },
+    "Fors Wall": {
+      "status": "have",
+      "scenes": 1
+    },
+    "Alger Wilson": {
+      "status": "have",
+      "scenes": 1
+    },
+    "Derrick Berg": {
+      "status": "have",
+      "scenes": 7
+    },
+    "[The World]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Edessak Augustus": {
+      "status": "have",
+      "scenes": 4
+    },
+    "Ince Zangwill": {
+      "status": "have",
+      "scenes": 6
+    },
+    "Susie": {
+      "status": "have",
+      "scenes": 4
+    },
+    "Colin Iliad": {
+      "status": "have",
+      "scenes": 6
+    },
+    "Emlyn White": {
+      "status": "have",
+      "scenes": 10
+    },
+    "Joshua": {
+      "status": "minor",
+      "scenes": 2
+    },
+    "Haim": {
+      "status": "minor",
+      "scenes": 2
+    },
+    "Jack": {
+      "status": "declined",
+      "scenes": 3
+    },
+    "Nibbs Odora": {
+      "status": "declined",
+      "scenes": 3
+    },
+    "Earl Hall": {
+      "status": "have",
+      "scenes": 3
+    },
+    "Hibbert Hall": {
+      "status": "declined",
+      "scenes": 1
+    },
+    "[Countess Hall]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Utravsky": {
+      "status": "have",
+      "scenes": 2
+    },
+    "Old Kohler": {
+      "status": "have",
+      "scenes": 2
+    },
+    "Funkel": {
+      "status": "declined",
+      "scenes": 3
+    },
+    "Trissy": {
+      "status": "have",
+      "scenes": 4
+    },
+    "[one-eyed man]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "Escalante": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Caitlyn": {
+      "status": "minor",
+      "scenes": 2
+    },
+    "Azik Eggers": {
+      "status": "have",
+      "scenes": 5
+    },
+    "[gold-masked demigod]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "[armored guards]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "Saint Anthony Stevenson": {
+      "status": "minor",
+      "scenes": 2
+    },
+    "Daly": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Mr. A": {
+      "status": "have",
+      "scenes": 10
+    },
+    "[hooded figures]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "Lady Despair": {
+      "status": "minor",
+      "scenes": 4
+    },
+    "Baelen": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Liv": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Freja": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Daisy": {
+      "status": "declined",
+      "scenes": 2
+    },
+    "[black-haired angel]": {
+      "status": "background",
+      "scenes": 4
+    },
+    "[Nighthawks]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[police officer]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "George III": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "[earl palatine]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Benson Moretti": {
+      "status": "have",
+      "scenes": 2
+    },
+    "Melissa Moretti": {
+      "status": "have",
+      "scenes": 2
+    },
+    "[the queen]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[burly passenger]": {
+      "status": "background",
+      "scenes": 1
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+ "chapter": 444,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mike Joseph",
+    "Aaron Ceres",
+    "[veiled woman]"
+   ],
+   "setting": "A Clown's control keeps his face still while the ring-wearing woman leaves with her maids; grief-talk about Talim's ruined family covers a private tally of every demigod and Sealed Artifact he has brushed against in five months — and the thought that he may be this era's next crest",
+   "text_anchor": "Each name flashed through Klein’s mind"
+  },
+  {
+   "line_start": 37,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Edessak Augustus",
+    "[old butler]"
+   ],
+   "setting": "The prince's carriage waits outside the cemetery — he could only watch his friend's funeral from afar; Klein reports divinations that say only 'heart disease', promises to work the list of Talim's last days, and pockets a hundred pounds of expenses",
+   "text_anchor": "“Pay Sherlock 100 pounds for his investigation fees.”"
+  },
+  {
+   "line_start": 91,
+   "line_end": 105,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Escalante",
+    "Susie"
+   ],
+   "setting": "Audrey drops the Human-skinned Shadow and Wind-blessed requests to Escalante as idle curiosity about a new gathering — and is told her real Beyonder education begins today",
+   "text_anchor": "“Will the Psychology Alchemists be interested?”"
+  },
+  {
+   "line_start": 109,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[Steam Cathedral bishop]"
+   ],
+   "setting": "A stranger has been in his living room again — a warning — so Klein takes it to the one place nobody can eavesdrop: a confessional in the Steam Cathedral, where he lays out Talim, the prince, the failed divinations and his own cowardice, and is told God will not blame him. 'I need to advance as soon as possible.'",
+   "text_anchor": "“I wish to make a confession.”"
+  }
+ ]
+}

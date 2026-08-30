@@ -1,0 +1,50 @@
+{
+ "chapter": 152,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: drafting the self-summoning ritual and divining it safe to attempt outside",
+   "text_anchor": "The gray fog filled the air in its eternally unchanging manner"
+  },
+  {
+   "line_start": 43,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Candlelit bedroom: Klein performs the summoning of 'The Fool that doesn't belong to this era' — the flame turns gray but nothing comes",
+   "text_anchor": "When he returned to his bedroom, due to the fact that he had sealed"
+  },
+  {
+   "line_start": 65,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: the rippling Door of Summoning forms behind the seat of honor but cannot yet be pushed open — more spirituality needed",
+   "text_anchor": "He calmed himself down, then took four steps counterclockwise"
+  },
+  {
+   "line_start": 91,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Klein's dream: Dunn sits silently in the living room watching him in deep thought for what feels like hours — the true nightmare",
+   "text_anchor": "Klein quickly blew out the candle after he returned to his bedroom."
+  },
+  {
+   "line_start": 135,
+   "line_end": 179,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Annie", "Susie", "Xio Derecha"],
+   "setting": "Philip's Department Store, Backlund: Susie distracts Annie while Audrey slips Xio the Qilangos portrait and dangles the ten-thousand-pound bounty",
+   "text_anchor": "Backlund, West Backlund, Philip's Department Store."
+  }
+ ]
+}

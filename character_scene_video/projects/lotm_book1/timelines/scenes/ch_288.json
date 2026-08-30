@@ -1,0 +1,50 @@
+{
+ "chapter": 288,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "No time to retrieve the scattered cards before the Nighthawks arrive — so Klein turns the problem into theater: an eye-sized badge pocketed from the corpse, and the whole tarot deck rained over headless Lanevus like a ritual sacrifice",
+   "text_anchor": "allowing the tarot cards to fall, like leaves cascading over the headless corpse"
+  },
+  {
+   "line_start": 39,
+   "line_end": 53,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Crestet Cesimir", "[Nighthawks and soldiers]"],
+   "setting": "Two minutes later: Cesimir's exhausted team finds The Emperor and Wheel of Fortune in Lanevus's eyes, Death and The Hermit across the corpse — a scene so symbolic the Beyonders stand dazed in the dark",
+   "text_anchor": "There were two tarot cards stuck in his head. One was The Emperor and the other was Wheel of Fortune."
+  },
+  {
+   "line_start": 57,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Black Palm Street cleanup: everything incriminating stashed above the fog (including Lanevus's badge — 'You can join if you have this item'); revenge done, Klein's mind settles into calm plans for Magician and the detective life",
+   "text_anchor": "“You can join if you have this item.”"
+  },
+  {
+   "line_start": 97,
+   "line_end": 127,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["[disguised doctors]", "[union residents]"],
+   "setting": "At dawn, 'doctors' with an infectious-disease story dose every dormitory resident — each vomits a putrid blood-blob into iron barrels: the True Creator's flesh bombs quietly harvested",
+   "text_anchor": "“We've discovered an infectious disease in this building."
+  },
+  {
+   "line_start": 131,
+   "line_end": 153,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint", "Susie"],
+   "setting": "Count Hall's villa, early: Glaint relays Kance's gossip — the Aurora Order's great ploy foiled, Lanevus dead under a blanket of tarot cards; Audrey realizes at once whose signature that is",
+   "text_anchor": "Tarot cards? The body was covered with tarot cards?"
+  }
+ ]
+}

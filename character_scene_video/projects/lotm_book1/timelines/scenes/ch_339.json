@@ -1,0 +1,41 @@
+{
+ "chapter": 339,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Sharron"],
+   "setting": "The carriage deal closes: sedative handed over, battleground candidates to be circled on a map left on his coffee table — Klein quietly planning escape routes in case allies turn on him",
+   "text_anchor": "“Prepare a map of Backlund when you're back."
+  },
+  {
+   "line_start": 35,
+   "line_end": 59,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Cat-sitting duty at the dark Jurgen house: boiled chicken breast for Brody, one-sided conversation included — the black cat just stares",
+   "text_anchor": "Klein squatted down and tried to touch Brody's head"
+  },
+  {
+   "line_start": 63,
+   "line_end": 119,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Norma", "Hilbert Alucard", "Escalante"],
+   "setting": "Tea at Lady Norma's: 'mysticism experts' Hilbert Alucard and baby-faced psychiatrist Escalante Oseleka probe the girl who plays perfect novice; the parting hint — become a psychiatrist before marriage — reads as the next stage of the Psychology Alchemists' vetting",
+   "text_anchor": "“This is Miss Escalante Oseleka. She's a doctor for mental health"
+  },
+  {
+   "line_start": 123,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Aaron Ceres"],
+   "setting": "Sunday: the circled map memorized building by building; at the club a cheerful Aaron credits the Goddess (via a Nightmare-assisted Nighthawk ritual, Klein privately notes) — and urges Sherlock to convert",
+   "text_anchor": "“Put your faith in the Goddess!”"
+  }
+ ]
+}

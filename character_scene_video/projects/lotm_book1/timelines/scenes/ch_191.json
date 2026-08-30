@@ -1,0 +1,41 @@
+{
+ "chapter": 191,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Qilangos"],
+   "setting": "Past the man-made lake: the world saturates like pastel paint — Azik's ambush; one four-meter bone skeleton is purified by borrowed Priest of Light power, then a hundred more appear",
+   "text_anchor": "Qilangos lost his pursuers with the help of the wind"
+  },
+  {
+   "line_start": 51,
+   "line_end": 59,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Ace Snake", "Alger Wilson", "Pallas Negan"],
+   "setting": "The pursuit fans out: Ace Snake takes to the air on a typhoon while the nobles watch from balconies and Alger sprints for the garden",
+   "text_anchor": "Spread out and pursue him. Try to corner him"
+  },
+  {
+   "line_start": 61,
+   "line_end": 165,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Alger Wilson", "Ace Snake", "Qilangos", "[Mandated Punishers]"],
+   "setting": "The pond bank: Qilangos rots to bones in twenty seconds before Alger's eyes — who concludes it was The Fool's adorer, and chooses loyalty",
+   "text_anchor": "Suddenly, he heard a voice which was carried to him by the wind"
+  },
+  {
+   "line_start": 169,
+   "line_end": 195,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Count Hall"],
+   "setting": "The mansion balcony: Count Hall confirms Qilangos is dead — killer and motive unknown; Audrey privately credits the Tarot Club",
+   "text_anchor": "In Duke Negan's mansion, Audrey Hall, who was discussing the assassination"
+  }
+ ]
+}

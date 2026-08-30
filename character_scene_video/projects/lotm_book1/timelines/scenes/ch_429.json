@@ -1,0 +1,53 @@
+{
+ "chapter": 429,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "At the cold oriel window: with the Magician digested, only ingredients stand between him and Faceless — and the lesson of the afternoon, that a fleeing Sequence 5 with an Abyss card and a hidden order behind him had to be finished, not merely escaped",
+   "text_anchor": "One is required to inflict the finishing blow of justice…"
+  },
+  {
+   "line_start": 37,
+   "line_end": 107,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Ikanser Bernard",
+    "Carlson"
+   ],
+   "setting": "Under the Steam Cathedral: Arrodes answers who ordered the Duke's death with a sunset plain — twilight — and shows a woman's back as the accomplice, extracting mortifying confessions from Ikanser and a volunteering Carlson in payment",
+   "text_anchor": "It was a plain where the sun was about to set."
+  },
+  {
+   "line_start": 111,
+   "line_end": 153,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Daly",
+    "Soest",
+    "Leonard Mitchell",
+    "Ace Snake",
+    "[Mandated Punisher captain]"
+   ],
+   "setting": "Two churches divide the work: Soest keeps his Red Gloves on the tarot cases and out of the Mandated Punishers' way — while Leonard's parasite murmurs that the man they missed carries the smell of the true Dark Emperor — and a departing Ace Snake hands an anchor-tattooed captain one mission: find who is targeting them",
+   "text_anchor": "“That person has the smell of the Dark Emperor, the true Dark Emperor!”"
+  },
+  {
+   "line_start": 157,
+   "line_end": 201,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Susie"
+   ],
+   "setting": "Susie eavesdrops and brings back the impossible news — Duke Negan dead, silenced by the Hero Bandit; Audrey, tasting the adult world's coldness, prays and is told the adorer was there hunting the ones who directed the Devil: the Twilight Hermit Order",
+   "text_anchor": "“Twilight Hermit Order.”"
+  }
+ ]
+}

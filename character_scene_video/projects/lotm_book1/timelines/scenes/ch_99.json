@@ -1,0 +1,23 @@
+{
+ "chapter": 99,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Klein's darkened bedroom: re-divining the three coincidences — all normal in the real world — then sealing the room to try again above the fog",
+   "text_anchor": "Late in the afternoon, Klein returned home"
+  },
+  {
+   "line_start": 67,
+   "line_end": 157,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog the answers flip: extraordinary elements behind the kidnapping, a red-chimney vision, and Clown confirmed as Seer's next Sequence",
+   "text_anchor": "In the magnificent ancient divine hall above the endless gray fog."
+  }
+ ]
+}

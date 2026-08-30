@@ -1,0 +1,41 @@
+{
+ "chapter": 187,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 11,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Cesare"],
+   "setting": "Daffodil Street drop-off: driver Cesare noticed nothing of the bone-palm delivery; Klein opts against climbing the drainpipe",
+   "text_anchor": "The actions of the messenger shocked Klein for a full five seconds"
+  },
+  {
+   "line_start": 13,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Home in the dead of night: Azik's letter — warnings about sacrificing to disguised evil gods, and the full sacrificial-ritual procedure with its key incantation terms",
+   "text_anchor": "After closing and locking the main door, he heaved a sigh of relief."
+  },
+  {
+   "line_start": 87,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Next day: joint Lanevus investigation assignments handed out; Klein gets targets he's never met",
+   "text_anchor": "The next day, Dunn Smith, who had communicated with the Mandated Punishers"
+  },
+  {
+   "line_start": 93,
+   "line_end": 101,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Qilangos", "[unconscious man]"],
+   "setting": "Hillston, Backlund: the Creeping Hunger's lines crawl as Qilangos transforms into a perfect copy of his unconscious victim",
+   "text_anchor": "Backlund, Hillston Backlund. In a building with a horse stable and garden."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "chapter": 204,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell"],
+   "setting": "62 Howes Street: the rest of the letter — a 'bomb' in Tingen growing on factory workers' resentment, signed 'Lanevus, who enjoys giving his friends pleasant surprises'",
+   "text_anchor": "Klein and Leonard lifted their gaze from the letter"
+  },
+  {
+   "line_start": 35,
+   "line_end": 55,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Rozanne", "[Mrs. Maynard]", "[Maynard's sister]"],
+   "setting": "Blackthorn reception: the Maynard widow pays out 230 pounds, satisfied — the papers already carry Sharon's sanitized story",
+   "text_anchor": "Just as they entered the Blackthorn Security Company's door"
+  },
+  {
+   "line_start": 57,
+   "line_end": 73,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Leonard Mitchell"],
+   "setting": "Dunn's office: the letter read — a telegram goes to the Holy Cathedral for a mysticism expert to trace the resentment-fed altar",
+   "text_anchor": "How was it? Did you find any clues?"
+  },
+  {
+   "line_start": 75,
+   "line_end": 91,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne"],
+   "setting": "The day's paper: Sharon 'died resisting arrest', a heroic unnamed officer fell, and the mayor resigns over public security",
+   "text_anchor": "Seizing the moment when Captain was sending a telegram"
+  },
+  {
+   "line_start": 93,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Megose", "Leonard Mitchell"],
+   "setting": "The visitor: a seven-months-pregnant Megose wanders in 'somehow or other' — and Klein's spirituality screams DON'T LOOK: the bomb is the baby in her womb",
+   "text_anchor": "He folded the newspaper quietly and returned it to the reception desk."
+  }
+ ]
+}

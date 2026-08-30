@@ -1,0 +1,59 @@
+{
+ "chapter": 67,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 21,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Klein's bedroom at night: sealing the room with the silver knife and performing the four-step ritual",
+   "text_anchor": "The crimson moon high in the sky hung silently"
+  },
+  {
+   "line_start": 23,
+   "line_end": 81,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: Justice's star pulses with her stored prayer and The Fool sends back his first response — I'm aware",
+   "text_anchor": "The grayish-white fog was endless."
+  },
+  {
+   "line_start": 85,
+   "line_end": 105,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall"],
+   "setting": "Audrey jolted awake at night: the dream of The Fool answers her morning prayer, and she plans her Spectator path",
+   "text_anchor": "Audrey Hall was jolted awake suddenly."
+  },
+  {
+   "line_start": 109,
+   "line_end": 149,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Back at the Seat of Honor: The Hanged Man's live ritual arrives and The Fool watches the Seafarer's water spell before replying",
+   "text_anchor": "With the connection severed, Klein sat at the bronze table's seat of honor"
+  },
+  {
+   "line_start": 153,
+   "line_end": 173,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Alger Wilson"],
+   "setting": "A hotel in the Rorsted Archipelago's City of Generosity: Alger receives The Fool's answer in a vision of billowing fog",
+   "text_anchor": "Alger Wilson was situated in the Rorsted Archipelago's City of Generosity."
+  },
+  {
+   "line_start": 177,
+   "line_end": 187,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Klein returns to his moonlit bedroom, removes the spirituality wall, and turns in — tomorrow, the underground market",
+   "text_anchor": "Klein did not spend too much time above the gray fog."
+  }
+ ]
+}

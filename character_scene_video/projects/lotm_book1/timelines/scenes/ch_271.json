@@ -1,0 +1,32 @@
+{
+ "chapter": 271,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 61,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Mike Joseph", "[young girl]", "[bouncers]"],
+   "setting": "The Golden Rose, 19 Hope Street: Backlund's 'best legal brothel' by daylight; Mike dances with a girl Siber's age — she knew the victim, but Ma'am Lopez has terrorized the girls into silence",
+   "text_anchor": "“That's the Golden Rose, the best legal brothel"
+  },
+  {
+   "line_start": 63,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Mike Joseph", "Lopez", "[bouncers]"],
+   "setting": "Lopez lies through her orphan story (Spirit Vision says so); two bouncers dropped in silence buys one overheard line — 'Tell Capim not to send anyone over in the next few days!' — before a lock-breaking exit and a five-pound payday",
+   "text_anchor": "“Tell Capim not to send anyone over in the next few days!"
+  },
+  {
+   "line_start": 163,
+   "line_end": 173,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Isengard Stanton"],
+   "setting": "On the street outside, the white-templed 'customer' from the hall steps from a carriage: 'Hello, I'm Detective Isengard Stanton. I'm assisting the police in this case. Can we have a chat?'",
+   "text_anchor": "“Hello, I'm Detective Isengard Stanton."
+  }
+ ]
+}

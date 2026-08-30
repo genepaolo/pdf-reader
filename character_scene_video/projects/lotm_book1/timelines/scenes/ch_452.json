@@ -1,0 +1,52 @@
+{
+ "chapter": 452,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 71,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Xio Derecha",
+    "[golden-masked man]"
+   ],
+   "setting": "A dark alley below Sodela Palace: the Capim hunt is dropped for a new mission — buy up Sheriff and Interrogator ingredients, especially any that can be brewed directly — paid in advance with the Interrogator's own main ingredients; and Xio quietly realizes the target may be whoever sold her hers",
+   "text_anchor": "“Seek to purchase the Sheriff and Interrogator main ingredients in all your circles"
+  },
+  {
+   "line_start": 73,
+   "line_end": 121,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Xio Derecha",
+    "Fors Wall"
+   ],
+   "setting": "A coat of arms of one flower and two rings sinks Xio's mood all the way home, and over red wine she tells Fors the rest: an earl palatine family, a father who commanded the royal guards and was executed for a revolt he never joined. 'But I will support you!'",
+   "text_anchor": "“I don’t believe that my father would engage in mutiny."
+  },
+  {
+   "line_start": 125,
+   "line_end": 153,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Benson Moretti",
+    "Melissa Moretti"
+   ],
+   "setting": "2 Daffodil Street, Tingen: Benson has passed the Civil Servant Unified Examination and ranked high — the second round is in Backlund, so after the new year they will move there together and Melissa will transfer schools",
+   "text_anchor": "“I passed!"
+  },
+  {
+   "line_start": 157,
+   "line_end": 177,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[old butler]"
+   ],
+   "setting": "A morning of testing his upgraded powers, then out to Red Rose Manor to be seen investigating for his hundred pounds — the old butler grants him everyone in the manor to question, 'except that lady'",
+   "text_anchor": "“Except that lady.”"
+  }
+ ]
+}

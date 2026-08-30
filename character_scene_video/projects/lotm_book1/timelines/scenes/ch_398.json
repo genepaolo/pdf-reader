@@ -1,0 +1,26 @@
+{
+ "chapter": 398,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 129,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Darc Regence"
+   ],
+   "setting": "Candlelight in the Berg house: Darc offers Doom fruits and a beautiful red-capped 'mushroom' Derrick can barely stop himself eating, then preaches the murals' new gospel — the upside-down Lord who bore the City's sins; the prayer breaks the glamour, and the fruits are human fingers, the mushroom a bloodstained scalp. 'What were you doing?'",
+   "text_anchor": "It wasn’t a Doom fruit, but a finger, a bloody finger, a human finger!"
+  },
+  {
+   "line_start": 133,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Dragged out of a warm quilt by Little Sun's prayer: above the gray fog the Dark Emperor card and paper figurines are laid out in neat order, waiting for the ritual's prelude to finish so The Fool can answer",
+   "text_anchor": "he was waiting for the prelude to the ritual to be completed so that he could respond"
+  }
+ ]
+}

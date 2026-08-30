@@ -1,0 +1,32 @@
+{
+ "chapter": 93,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 31,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson"],
+   "setting": "The Tarot Gathering: the ritual trial toasted, and Audrey expresses the new diary page she owed onto the goatskin",
+   "text_anchor": "Above the gray fog, gigantic stone columns held up a majestic divine hall."
+  },
+  {
+   "line_start": 33,
+   "line_end": 75,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav", "Zaratul"],
+   "setting": "Diary-reading interlude: the Blasphemy Slate musings, and Mr. Zaratul revealed as leader of the Secret Order with his acting-method timelines",
+   "text_anchor": "Shifting his gaze down, he started reading without emotion."
+  },
+  {
+   "line_start": 77,
+   "line_end": 146,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson"],
+   "setting": "Tarot gathering resumes: the Psychology Alchemists question, acting guidance, and The Fool coins 'the Fallen Creator'",
+   "text_anchor": "Sorry for the wait."
+  }
+ ]
+}

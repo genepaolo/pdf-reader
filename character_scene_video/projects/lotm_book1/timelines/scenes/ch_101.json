@@ -1,0 +1,32 @@
+{
+ "chapter": 101,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica"],
+   "setting": "Divination Club on Howes Street: Klein shows Angelica the ritual-drawn portrait; she recognizes the thick-browed man who once visited Hanass Vincent",
+   "text_anchor": "Howes Street, Divination Club."
+  },
+  {
+   "line_start": 83,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Blackthorn Security Company: Klein hands Dunn the portrait and requests a search for the unknown man",
+   "text_anchor": "36 Zouteland Street. Inside Blackthorn Security Company."
+  },
+  {
+   "line_start": 113,
+   "line_end": 157,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Swain"],
+   "setting": "Evil Dragon Bar at the harbor: boss Swain recognizes the portrait — the man asked about the Hornacis mountain range",
+   "text_anchor": "Despite it being his day off, Klein didn't immediately return home"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "chapter": 443,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 69,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[postman]"
+   ],
+   "setting": "Talim's pocket watch, blood-stained handkerchief, hair and notes delivered by a poor imitation of a postman — then a one-man performance for whoever may be watching: divinations that show only 'heart disease', pacing, a punch to his own head, and a long defeated silence",
+   "text_anchor": "He punched himself in the head"
+  },
+  {
+   "line_start": 71,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Talim Dumont"
+   ],
+   "setting": "Midnight above the gray fog with the smuggled handkerchief (visions only: a blood-marked wooden puppet, a beautiful hand with a sapphire pinky ring, a black flame pressed to the puppet's heart): a curse indeed — and the repeat divination returns nothing at all, the same wall 0-08 once put up. The plan becomes: tell the prince he failed",
+   "text_anchor": "What did Talim get himself involved in?"
+  },
+  {
+   "line_start": 151,
+   "line_end": 181,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mike Joseph",
+    "Aaron Ceres",
+    "[veiled woman]"
+   ],
+   "setting": "Crown Cemetery, 9 a.m.: the coffin lowered past a swollen-eyed mother and trembling father, condolences with Mike and Aaron — then a veiled woman lays white flowers, her black gauze glove slipping to show a blue gem on her left pinky, and Klein's scalp goes numb",
+   "text_anchor": "A blue gem faintly appeared on the pinky of her left palm."
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "chapter": 477,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mr. A"
+   ],
+   "setting": "Every bullet and flame dissolves against the altar's light and the Shepherd dismisses him as a worm — until Klein finds the one thing he has left and throws the Master Key inside, where its shell melts away and the curse within reaches back to Mr. Door",
+   "text_anchor": "It was the Master Key."
+  },
+  {
+   "line_start": 83,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Susie",
+    "Lady Despair"
+   ],
+   "setting": "Audrey watches the iron-black fog creep toward Empress Borough until a Storm-summoned hurricane and downpour scour Backlund clean — while Lady Despair, content with twenty thousand dead and a mostly digested potion, prepares to slip away, and finds a black-haired, dull-faced young woman sitting opposite her in the carriage",
+   "text_anchor": "“The Church of the Lord of Storms reacted rather quickly this time…"
+  },
+  {
+   "line_start": 139,
+   "line_end": 189,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mr. A"
+   ],
+   "setting": "The dissolving key screams with Mr. Door's voice: the resentment feeding the ritual is contaminated, the barrier collapses, and the altar tears itself apart — Klein rides out the blast behind a paper substitute and a wall, sees the half-destroyed Shepherd already regrowing, and runs",
+   "text_anchor": "As a result, the altar lost its balance and embarked on a path of self-destruction!"
+  }
+ ]
+}

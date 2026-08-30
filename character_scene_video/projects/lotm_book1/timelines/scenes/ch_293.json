@@ -1,0 +1,54 @@
+{
+ "chapter": 293,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "[The World]",
+    "True Creator"
+   ],
+   "setting": "Gathering's close: Alger names the True Creator's pathways — and Derrick goes cold, realizing Elder Lovia of the six-member council is a Shepherd of an evil god; Mr. Fool adjourns",
+   "text_anchor": "Shepherd? The silent Derrick sat up straight, his eyes filled with horror."
+  },
+  {
+   "line_start": 43,
+   "line_end": 73,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Alone above the fog, Klein studies Lanevus's badge: spirituality reveals 'January 4, 1350, 8 p.m. in Babur Valley' — a mystic rendezvous beacon, shelved unless Faceless arrives by year's end; then thoughts on how a Magician should act",
+   "text_anchor": "“January 4, 1350, 8 p.m. in Babur Valley.”"
+  },
+  {
+   "line_start": 77,
+   "line_end": 107,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "Xio Derecha"
+   ],
+   "setting": "A St. George's Borough spare apartment: Fors patches her hair loss while sheltering Xio, who counts her Sheriff-fund earnings and swears off both Audrey's missions and the golden-masked man — mostly",
+   "text_anchor": "“I don't want to take on any more of Miss Audrey's missions again!”"
+  },
+  {
+   "line_start": 111,
+   "line_end": 123,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Annie",
+    "Susie"
+   ],
+   "setting": "Count Hall's villa: Alfred's telegram — the Rainbow Salamanders have reached Pritz Harbor, bound for the suburb manor; Susie's gift is almost here. 'Woof?'",
+   "text_anchor": "“Susie, the gift I prepared for you is almost here.”"
+  }
+ ]
+}

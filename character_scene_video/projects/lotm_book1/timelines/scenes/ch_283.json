@@ -1,0 +1,67 @@
+{
+ "chapter": 283,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 25,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Xio Derecha",
+    "[tall ferocious man]"
+   ],
+   "setting": "Inside the Workers Alliance Tavern: Xio keeps chewing as the pale-haired 'Giant' — Williams's killer — orders lunch at the bar; she finishes, pays, and slips out without a backward glance",
+   "text_anchor": "It's him! It's the suspected murderer!"
+  },
+  {
+   "line_start": 27,
+   "line_end": 73,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Xio Derecha",
+    "Burton"
+   ],
+   "setting": "A secluded corner with dock technician Burton: the Giant has haunted the tavern for two-three months, no name, no friends — but he's been seen at the East Balam Dock Union",
+   "text_anchor": "“We have given him a nickname, ‘Giant.'”"
+  },
+  {
+   "line_start": 75,
+   "line_end": 107,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Xio Derecha",
+    "Lanevus"
+   ],
+   "setting": "Vagabond-disguised stakeout of the Dock Union: among the lunch crowd, a bronze-skinned man wipes fogged gold-rimmed glasses — those taunting eyes and mouth — Lanevus?",
+   "text_anchor": "Lanevus? Xio jerked her head back, not daring to look again."
+  },
+  {
+   "line_start": 111,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Jurgen Cooper",
+    "Stelyn Sammer",
+    "Luke Sammer",
+    "[luncheon guests]"
+   ],
+   "setting": "The Sammers' activity room: Texas hold'em and rumors; Jurgen finds the topics 'very interesting' behind an unmoved face — then illusory pleas summon Klein to the bathroom",
+   "text_anchor": "“No, their topics are very interesting.” Jurgen nodded seriously."
+  },
+  {
+   "line_start": 137,
+   "line_end": 177,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Lanevus"
+   ],
+   "setting": "Above the fog from the Sammers' bathroom: Justice reports the Giant and a suspected Lanevus at the Dock Union; every divination about going there fails — Lanevus may hold a True Creator shield — so Klein plans a reporter's visit with borrowed fake credentials",
+   "text_anchor": "“After tailing the Giant and figuring his in and outs, they discovered a person suspected to be Lanevus"
+  }
+ ]
+}

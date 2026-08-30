@@ -1,0 +1,65 @@
+{
+ "chapter": 284,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Rand",
+    "Lanevus",
+    "[union workers]"
+   ],
+   "setting": "The Dock Union as 'Reporter Statham': shepherded office to office by publicity man Rand until a bronze-skinned clerk with gold-rimmed glasses radiates the True Creator's aura — Klein excuses himself to a bathroom stall and weeps with silent, shaking laughter: Lanevus, found",
+   "text_anchor": "That was the aura of the True Creator!"
+  },
+  {
+   "line_start": 89,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Xio Derecha"
+   ],
+   "setting": "Outside under early-evening clouds: organizing fake interview notes, Klein clocks Miss Xio among the vagabonds across the street and walks on without a flicker",
+   "text_anchor": "Miss Xio? Klein instantly made a guess with what he knew."
+  },
+  {
+   "line_start": 101,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Isengard Stanton"
+   ],
+   "setting": "A carriage halts: Isengard Stanton again, now investigating Siber's copycat killing near East Balam Dock — pleasantries traded, no recognition shown",
+   "text_anchor": "“I'm here to investigate a case. The death of Siber has been eliminated"
+  },
+  {
+   "line_start": 117,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Lanevus"
+   ],
+   "setting": "Above the gray fog from a club lounge (visions only: Lanevus's taunting face in the dream): divination seals it, and the answer goes to Justice — 'That is Lanevus. Tell the Church of the Evernight Goddess he has the godhood of the Fallen Creator.'",
+   "text_anchor": "“That is Lanevus."
+  },
+  {
+   "line_start": 145,
+   "line_end": 147,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Count Hall",
+    "Susie"
+   ],
+   "setting": "At the hound training with her father and Susie, Audrey freezes: the 'simple mission' involves the True Creator's godhood — as expected of Mr. Fool",
+   "text_anchor": "Audrey, who was watching her father train the hunting hounds with Susie, froze"
+  }
+ ]
+}

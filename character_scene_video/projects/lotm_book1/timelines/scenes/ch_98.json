@@ -1,0 +1,23 @@
+{
+ "chapter": 98,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Benson"],
+   "setting": "Morning at home: sore-muscle theater for Melissa and the 'principles of physics' definition of a professor",
+   "text_anchor": "Faced with his sister's question, all Klein could do was reply"
+  },
+  {
+   "line_start": 53,
+   "line_end": 167,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Azik"],
+   "setting": "Mentor Cohen's office at Khoy University: Mr. Azik lends the Hornacis monograph — the dream palace confirmed — and warns of disharmony in Klein's fate",
+   "text_anchor": "During the summer, Khoy University had trees"
+  }
+ ]
+}

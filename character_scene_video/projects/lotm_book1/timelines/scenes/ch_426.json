@@ -1,0 +1,51 @@
+{
+ "chapter": 426,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 85,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "[Desire Apostle]",
+    "Leonard Mitchell",
+    "Soest",
+    "Ikanser Bernard"
+   ],
+   "setting": "1-42 steps out of the garden and takes the Devil apart in silver flashes — fingers, limbs, intestines and beating heart strewn into a flower of death — but he was a shadow-shifter and left only a body; the armor gives chase on a ten-minute clock while Soest sends Ikanser back to watch the guards, because someone timed this assassination for the killer",
+   "text_anchor": "This was the Sealed Artifact that had caused over a hundred thousand people to lose their lives—Sealed Artifact 1-42!"
+  },
+  {
+   "line_start": 89,
+   "line_end": 99,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "[Desire Apostle]"
+   ],
+   "setting": "In the sewers a thin shadow flees along the stone wall, stopping again and again as it tries and fails to swell into new flesh, on the edge of losing control",
+   "text_anchor": "due to a lack of materials, it failed miserably"
+  },
+  {
+   "line_start": 103,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Hero Bandit",
+   "other_characters": [],
+   "setting": "Club toilet, paper double in place: divination finds the crippled Devil under Hillston Borough — heading not for the river but toward Klein — so armor, crown and cloak come on, the Sun Brooch and Poison Bottle with them, and the Dark Emperor flies into the fetid dark with a dead branch in hand",
+   "text_anchor": "In other words, he’s getting closer and closer to me…"
+  },
+  {
+   "line_start": 149,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Hero Bandit",
+   "other_characters": [
+    "[Desire Apostle]",
+    "Leonard Mitchell"
+   ],
+   "setting": "The shadow, fighting down its bloodlust against a damp wall, turns to find the black armor and black crown behind it, cloak swaying — while above, the blood-stained silver armor drops into the sewer: 'It's nearby!'",
+   "text_anchor": "“It’s nearby!”"
+  }
+ ]
+}

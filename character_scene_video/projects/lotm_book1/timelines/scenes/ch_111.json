@@ -1,0 +1,50 @@
+{
+ "chapter": 111,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Melissa", "Selena", "Elizabeth", "Xaviera Hedda", "Mrs. Shaud"],
+   "setting": "Municipal hall lecture: Xaviera Hedda's budgeting talk turns into Storm-church sermonizing about women; the three girls sneak out the side door",
+   "text_anchor": "Sometime later, the lecturer, who had relatively high cheekbones"
+  },
+  {
+   "line_start": 53,
+   "line_end": 65,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Melissa", "Selena", "Elizabeth"],
+   "setting": "Under a tree outside the hall: Melissa heads home to study and shop; Selena and Elizabeth decide on Harrods",
+   "text_anchor": "Shall we go to Harrods?"
+  },
+  {
+   "line_start": 69,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Public carriage to Howes Street: Klein's coin divination warns against the Divination Club today, so he turns back toward Daffodil Street",
+   "text_anchor": "After leaving the Blackthorn Security Company, Klein took a public carriage"
+  },
+  {
+   "line_start": 101,
+   "line_end": 125,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Selena", "Elizabeth"],
+   "setting": "Harrods entrance on Howes Street: guilt over Mr. Vincent's death makes Selena drag Elizabeth to the Divination Club instead",
+   "text_anchor": "Howes Street, at the entrance to Harrods Department Store."
+  },
+  {
+   "line_start": 127,
+   "line_end": 155,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Selena", "Elizabeth", "Angelica"],
+   "setting": "Divination Club reception: on the members list Selena spots the name Klein Moretti — Melissa's brother? — but he isn't in today",
+   "text_anchor": "Hello, good afternoon, Miss Angelica."
+  }
+ ]
+}

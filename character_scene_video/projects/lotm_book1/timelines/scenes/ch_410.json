@@ -1,0 +1,42 @@
+{
+ "chapter": 410,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 101,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Framis Cage",
+    "Pacheco Dwayne",
+    "Jurgen Cooper",
+    "Leppard"
+   ],
+   "setting": "Sird Street, an ironclad steam vehicle at the door: the Backlund Bike Company is carved up — Framis 47%, Leppard 43%, Klein 10% and 2,235 pounds — until Jurgen points out how strangely quickly he agreed, and Klein begins to suspect one of them nudged his mind",
+   "text_anchor": "“Sherlock, you agreed too readily.”"
+  },
+  {
+   "line_start": 105,
+   "line_end": 115,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Framis Cage",
+    "Pacheco Dwayne"
+   ],
+   "setting": "Inside the roaring steam vehicle: Framis confirms the lawyer's power triggered passively and warns him off using it in such situations — 'Do not let this affect what matters most.'",
+   "text_anchor": "“It was passively triggered,”"
+  },
+  {
+   "line_start": 119,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler"
+   ],
+   "setting": "A cheap East Borough coffee shop: a pound in expenses and bonus, no progress from The Fool's hunters, strike organizers to watch quietly — and one name that stops the coffee halfway: gangsters and bounty hunters are searching for Azik Eggers, of Balam lineage, once a university lecturer",
+   "text_anchor": "“A man named Azik Eggers.”"
+  }
+ ]
+}

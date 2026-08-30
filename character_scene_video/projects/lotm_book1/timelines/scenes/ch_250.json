@@ -1,0 +1,26 @@
+{
+ "chapter": 250,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Rosago",
+    "Sharron"
+   ],
+   "setting": "The sergeant's face squirms into Rosago, the Seer-pathway assistant: puppet-like control seizes Klein and the ghostly bodyguard both — until the Language of Foulness charm floods the room with the True Creator's voice and five point-blank rounds end Rosago; Slumber Charms put the screaming bodyguard mercifully under",
+   "text_anchor": "“By the way, my name is Rosago.”"
+  },
+  {
+   "line_start": 143,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog with Rosago's remnant spirituality in tow: Klein discovers he can now channel spirits directly like a true medium, and opens with the question that matters — 'The potion formulas for the Seer pathway'",
+   "text_anchor": "he saw the distinct remnants of Rosago's spirituality"
+  }
+ ]
+}

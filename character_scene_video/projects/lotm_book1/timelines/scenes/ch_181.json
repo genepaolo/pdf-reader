@@ -1,0 +1,32 @@
+{
+ "chapter": 181,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 15,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Sealed bedroom: the self-summoning ritual again — the flame vortex stabilizes into a palm-sized circle of grayish-white fog",
+   "text_anchor": "Klein didn't hurry to dispel the wall of spirituality"
+  },
+  {
+   "line_start": 17,
+   "line_end": 35,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: the Door of Summoning is complete this time — it cracks open onto the spirit world and pulls him through",
+   "text_anchor": "After observing the fog, Klein took four steps counterclockwise"
+  },
+  {
+   "line_start": 37,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Klein's room, as a summoned Spirit Body facing his own vacant-eyed flesh: flight, mirror-walking, charm-carrying tests — the copper whistle empowers him, the Flaring Sun Charm sun-proofs him",
+   "text_anchor": "He saw a young man in front of him."
+  }
+ ]
+}

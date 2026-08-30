@@ -1,0 +1,50 @@
+{
+ "chapter": 153,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 65,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall"],
+   "setting": "Fors's sitting room: the pair puzzle over hunting a shape-shifting pirate — solution: collect the intel, then pay a professional detective to do the deducing",
+   "text_anchor": "A unique wide jaw, his hair is in a bun like an ancient knight's"
+  },
+  {
+   "line_start": 69,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica"],
+   "setting": "Divination Club: Klein tells Angelica his visits will become rare — 'the arrangement of fate' — over a last Sibe black tea",
+   "text_anchor": "Howes Street, Divination Club."
+  },
+  {
+   "line_start": 109,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "2 Daffodil Street mailbox: Azik's letter — Morse Town on Sunday, back Wednesday; Klein burns it to ash",
+   "text_anchor": "When he entered, he opened the mailbox out of habit"
+  },
+  {
+   "line_start": 121,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne"],
+   "setting": "Blackthorn reception on Saturday: staged small talk with Rozanne about the Divination Club, pitched loud enough for the open office door",
+   "text_anchor": "Saturday afternoon. Klein was wearing his black windbreaker and hat."
+  },
+  {
+   "line_start": 145,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office: Klein declares the Seer potion fully grasped and submits his special application",
+   "text_anchor": "Knock! Knock! Knock! He looked at Dunn Smith, who was drinking his coffee"
+  }
+ ]
+}

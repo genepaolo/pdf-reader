@@ -1,0 +1,23 @@
+{
+ "chapter": 185,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Hood Eugen", "Dunn Smith"],
+   "setting": "The asylum ward: Eugen's cake-fueled lunge deflected, Dunn's dream-hold, then tarot cards, Amantha, Eye of the Spirit and the Sedative Agent set up the channeling",
+   "text_anchor": "Waiting for cake? That really wasn't an answer that I was expecting"
+  },
+  {
+   "line_start": 109,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Hood Eugen"],
+   "setting": "Inside Eugen's spiritual world (visions only: Lanevus's promise of godhood qualities; a dark altar with a cross): the answer to 'what help?' shatters into a quake — Klein flees",
+   "text_anchor": "In this unusually lucid state, he felt his spirit leave the protection of his body"
+  }
+ ]
+}

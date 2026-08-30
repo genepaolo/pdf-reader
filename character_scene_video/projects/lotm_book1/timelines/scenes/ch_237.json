@@ -1,0 +1,23 @@
+{
+ "chapter": 237,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav", "Zaratul", "Matilda", "Fan Esti", "Savigny Solomon", "Nast Solomon"],
+   "setting": "Diary-reading interlude at the gathering: Zaratul names himself a Sequence 2 Miracle Invoker and points to Monster as the true fate pathway; Matilda's pregnancy reveals the laws of Beyonder-characteristic inheritance; pirate Savigny Solomon is made Count of the Court, his son Nast foretold to dominate the Five Seas",
+   "text_anchor": "“29th October. The leader of the Secret Order, Zaratul, visited me once again."
+  },
+  {
+   "line_start": 109,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick"],
+   "setting": "Reading over, free trading opens: Audrey asks The Sun for dragon lore, and Derrick names his price — the Sequence 8 Bard potion formula",
+   "text_anchor": "“You are free to trade or communicate now.”"
+  }
+ ]
+}

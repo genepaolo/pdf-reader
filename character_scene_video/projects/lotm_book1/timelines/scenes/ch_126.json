@@ -1,0 +1,77 @@
+{
+ "chapter": 126,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 9,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Benson"],
+   "setting": "Living room, continuing: Klein thanks Melissa for the saved dinner and heads upstairs 'to change and shower'",
+   "text_anchor": "Sis, you worry too much"
+  },
+  {
+   "line_start": 11,
+   "line_end": 51,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Sealed bedroom, then above the gray fog (visions only: Trissy seated in a train carriage): the divination shows her fleeing by steam locomotive",
+   "text_anchor": "Tap. Tap. Tap. Klein ran to the second floor and entered his bedroom."
+  },
+  {
+   "line_start": 55,
+   "line_end": 69,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne"],
+   "setting": "Blackthorn reception next morning: Rozanne's good news — two police clerks are being transferred in, no more all-nighters",
+   "text_anchor": "The next morning at twenty minutes to nine"
+  },
+  {
+   "line_start": 71,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Basement stairs: Klein freezes at the gas lamps — no night trains exist in this world; the vision of Trissy is the FUTURE, today or tomorrow",
+   "text_anchor": "When he passed the Captain's office and the Nighthawks' entertainment room"
+  },
+  {
+   "line_start": 97,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Kenley White", "Royale Reideen", "Seeka Tron"],
+   "setting": "Entertainment room and stairs: Klein tips Leonard off; a 'reliable tip' reaches Dunn and the Nighthawks rush for the train station",
+   "text_anchor": "He knocked and opened the door to the entertainment room"
+  },
+  {
+   "line_start": 117,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "Duty room coffee with Old Neil: 'divination isn't all-powerful' — and mid-lesson the Seer potion finishes digesting with an illusory shattering sound",
+   "text_anchor": "Old Neil had just finished making himself some hand-ground coffee."
+  },
+  {
+   "line_start": 151,
+   "line_end": 163,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Trissy"],
+   "setting": "Wienia platform downstream of Tingen: a veiled Trissy boards the first cabin, planning to slip into Backlund after three stops",
+   "text_anchor": "The first town that the Tussock River passed by"
+  },
+  {
+   "line_start": 167,
+   "line_end": 175,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "Saint Selena Cathedral basement: the digestion completes — illusory stars flicker — Klein is now a real, complete Seer",
+   "text_anchor": "In the basement of Saint Selena Cathedral, Klein closed his eyes"
+  }
+ ]
+}

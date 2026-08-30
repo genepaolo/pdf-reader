@@ -1,0 +1,40 @@
+{
+ "chapter": 423,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres"
+   ],
+   "setting": "Quelaag Club: a pregnancy dated to the week of the nightmares, a dark room with running water — Klein concludes Aaron's wife carries Will Auceptin, a Snake of Mercury restarting his cycle — and outside, an unnatural wind cuts southeast through Backlund's fog",
+   "text_anchor": "He suspected that his wife was carrying Will Auceptin, a Snake of Mercury!"
+  },
+  {
+   "line_start": 51,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Ikanser Bernard",
+    "[Machinery Hivemind members]"
+   ],
+   "setting": "In a carriage on the street: the Mandated Punishers have 'found' Jason — two of them dead, Cardinal Ace Snake himself in pursuit (that wind) — and Arrodes shows the man boarding a riverboat; Ikanser pays for the answer with a mortifying question, and Klein plants the doubt: the Desire Apostle and Jason Beria may not be the same person",
+   "text_anchor": "What we are looking for is that Desire Apostle, not Jason Beria."
+  },
+  {
+   "line_start": 119,
+   "line_end": 145,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Pallas Negan",
+    "[secretary]"
+   ],
+   "setting": "A room-sized carriage off King's Avenue: Duke Negan plans to court Earl Hall over the Poor Law while guarding the property qualification, then slips off to his favorite young mistress — mummy-powder tonic drunk, Ace Snake's blue conch at his throat — and the carriage stops at a mansion with a glass greenhouse full of bright red roses",
+   "text_anchor": "there was a glass greenhouse filled with bright red roses"
+  }
+ ]
+}

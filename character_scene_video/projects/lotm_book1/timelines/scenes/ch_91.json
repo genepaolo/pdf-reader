@@ -1,0 +1,23 @@
+{
+ "chapter": 91,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Sir Deweyville"],
+   "setting": "The darkened bedroom: Klein prescribes the cure — compensate Hayley Walker's family and publicize the dangers of lead",
+   "text_anchor": "The scenery started to distort, turning illusory"
+  },
+  {
+   "line_start": 81,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Cullen", "Sir Deweyville", "Tolle", "Gate", "[Hayley's parents]"],
+   "setting": "The living room: three hundred pounds for Hayley's parents, and the clinging translucent figure finally fades away",
+   "text_anchor": "At eleven in the morning in the living room of Deweyville."
+  }
+ ]
+}

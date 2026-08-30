@@ -1,0 +1,38 @@
+{
+ "chapter": 389,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres"
+   ],
+   "setting": "Still in the dark bedroom: the dream was a real spirit-world revelation from a high existence, the paper crane merely a locator — Klein resolves to stay out of it, then divines Will Auceptin's location twice and finds it overlapping with Aaron himself; the crane is swapped for his own cruder forgery",
+   "text_anchor": "Will Auceptin’s position overlaps with that of Dr. Aaron…"
+  },
+  {
+   "line_start": 65,
+   "line_end": 91,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Will Auceptin"
+   ],
+   "setting": "Above the gray fog with the real paper crane (visions only: Will Auceptin propped at a dark window, tarot cards in both hands, wooden blocks laid out as a head-to-tail Ouroboros, running water outside): the Snake of Mercury means fate — and the officials can have this one",
+   "text_anchor": "That Ouroboros-like snake is indeed the Snake of Mercury?"
+  },
+  {
+   "line_start": 93,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[Nighthawk captain]"
+   ],
+   "setting": "In his own dream, the Book of Secrets becomes Ladies Aesthetic as a gray-coated Nightmare walks in — not the Captain. The Nighthawk team leader 'casually' asks about Aaron, learns of the paper crane, bows and vanishes; Klein sits on alone in the dream. 'How nostalgic…'",
+   "text_anchor": "It’s not the Captain…"
+  }
+ ]
+}

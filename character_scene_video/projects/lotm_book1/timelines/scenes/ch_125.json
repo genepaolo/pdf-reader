@@ -1,0 +1,32 @@
+{
+ "chapter": 125,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 125,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Leonard Mitchell", "Frye"],
+   "setting": "The bedroom (visions only: the shivering girl from the carriage stop and underground market): the sketch matches Tris — Leonard's bold idea: Instigator Tris BECAME Trissy; Klein pitches cannon bombardment tactics",
+   "text_anchor": "When faced with a strange sense of familiarity"
+  },
+  {
+   "line_start": 129,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell"],
+   "setting": "Walk to the distant carriage station and the ride back to Iron Cross Street before parting ways",
+   "text_anchor": "Klein and Leonard walked to the carriage station about five hundred meters away"
+  },
+  {
+   "line_start": 133,
+   "line_end": 157,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Benson"],
+   "setting": "Home at night: Benson studies after work, Melissa does assignments — and dinner was saved for Klein despite his note",
+   "text_anchor": "When Klein arrived at his front door, he adjusted his clothes"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "chapter": 296,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Inventorying the Magician: Damage Transfer, Flaming Jump, Air Bullets, Paper Figurine Substitutes, Illusion Creation and more — then the sky clears and the moon swells blood-red days early: the Blood Moon, when the spirit world runs strong",
+   "text_anchor": "The most important one was, Damage Transfer!"
+  },
+  {
+   "line_start": 89,
+   "line_end": 147,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Fors Wall"],
+   "setting": "A Cherwood apartment under the Blood Moon: the full-moon ravings hit Fors worse than ever — nails snapping, hair growing wild, gods unanswering — until she crawls to the paper with the ancient Hermes name: 'The Fool that doesn't belong to this era… save me, save me…'",
+   "text_anchor": "“Save me, save me…”"
+  }
+ ]
+}

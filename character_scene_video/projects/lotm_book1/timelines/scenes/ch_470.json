@@ -1,0 +1,28 @@
+{
+ "chapter": 470,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Edessak Augustus",
+    "Funkel"
+   ],
+   "setting": "The solarium exit interview, played with a Faceless-aged face and a written report already in his pocket: Talim died of a heart attack, the detective is too weak, and he is going south. The prince releases him, and the manor shrinks behind the carriage — the stage left at last",
+   "text_anchor": "He knew that he had left the center of the stage."
+  },
+  {
+   "line_start": 79,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Trissy"
+   ],
+   "setting": "The carriage door opens and shuts on the sapphire ring: it is Trissy, wanted Witch of the Demoness Sect, begging to be reported to any official organization — someone rewrites her life through coincidences, she cursed Talim without knowing it, and they have renamed her. 'Trissy Cheek.'",
+   "text_anchor": "“Trissy Cheek.”"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "chapter": 144,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick"],
+   "setting": "Tarot Gathering three-way deal: Sun promises the Telepathist formula for Justice, The Fool hands Sun the Bard formula, and Justice conjures two new diary pages",
+   "text_anchor": "Actually there were three pages, but the characters were too complicated"
+  },
+  {
+   "line_start": 109,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav", "Matilda", "Florais", "Fan Estin"],
+   "setting": "Diary-reading interlude: Matilda three months pregnant, Countess Florais's party, and Archbishop Fan Estin's secret — pathways can substitute from Sequence 5",
+   "text_anchor": "Just like before, he started reading immediately."
+  }
+ ]
+}

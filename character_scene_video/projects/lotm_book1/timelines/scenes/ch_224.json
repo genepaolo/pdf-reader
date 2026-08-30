@@ -1,0 +1,32 @@
+{
+ "chapter": 224,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 67,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[three ambushers]"],
+   "setting": "Zreal's crimson-lit bedroom (visions only: Zreal's rat-gnawed corpse in the dream divination; Meursault in the sleeper's memory): the soul interrogation names the Zmanger gang executioner Meursault as the one waiting for Ian, then a nimble latch-trick exit out the oriel window",
+   "text_anchor": "The dim room was covered in a thin veil of crimson moonlight"
+  },
+  {
+   "line_start": 69,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[homeless crowds]", "[patrolling officer]"],
+   "setting": "Midnight walk into East Borough: waves of numbed poor shuffle through the dark, driven off the streets and parks by an officer bellowing the Poor Law",
+   "text_anchor": "Klein quickly left the vicinity, as well as Rose Street"
+  },
+  {
+   "line_start": 107,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Dowsing-rod divination leads to an East Borough sewer: Zreal's chewed corpse among the rats; the spirit channeling fails — a Beyonder has dealt with Zreal's spirit — so Klein ends his involvement and will have Ian call the police",
+   "text_anchor": "After repeated divinations, Klein walked for a long time"
+  }
+ ]
+}

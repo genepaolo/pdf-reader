@@ -1,0 +1,23 @@
+{
+ "chapter": 319,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall"],
+   "setting": "At her dressing table Audrey receives the fog-borne plea and Mr. Fool's five words — 'You can choose to accept this request or not' — and plots her museum performance around a needle-tipped gemstone earring and Susie",
+   "text_anchor": "“You can choose to accept this request or not.”"
+  },
+  {
+   "line_start": 53,
+   "line_end": 165,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint", "Susie", "Annie", "Max Livermore", "[museum guide]", "[aristocratic visitors]"],
+   "setting": "Audrey's private evening tour: curiosity spread evenly from the golden toilet to the diary, Machinery Hivemind captain Max Livermore approving each touch — then Susie's bark, an earring-needle prick, 'Pirate King' in two tongues, and an unmistakable resistance. Report to The Fool: 'It had an abnormal reaction.'",
+   "text_anchor": "When the sharp, needle-like accessory touched the surface of the bookmark"
+  }
+ ]
+}

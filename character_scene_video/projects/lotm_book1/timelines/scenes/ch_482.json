@@ -1,0 +1,65 @@
+{
+ "chapter": 482,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 63,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Emlyn White",
+    "Utravsky"
+   ],
+   "setting": "The Harvest Church turned plague ward: Emlyn brews fifty doses and hands them out with contempt beside a bishop who takes in unbelievers because 'they are also lives' — and then reveals that the psychological cue only ever made him come back to the cathedral",
+   "text_anchor": "“The only effect of the psychological cue was to make me return to the cathedral?”"
+  },
+  {
+   "line_start": 67,
+   "line_end": 87,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Benson Moretti",
+    "Melissa Moretti"
+   ],
+   "setting": "New Year's Eve at 2 Daffodil Street: tickets booked for the 3rd of January, talk of Backlund's new laws and its desperate factories — and a table laid with three sets of cutlery, three plates, three cups",
+   "text_anchor": "Three cups. One for beer, two for ginger beer."
+  },
+  {
+   "line_start": 91,
+   "line_end": 119,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Count Hall",
+    "Caitlyn",
+    "[the queen]"
+   ],
+   "setting": "A newspaper counting 21,000 dead in the fog and 40,000 more to plague sits in the lounge; Audrey puts on her elegant smile, takes the queen's hand before the guests, and is presented to society as fireworks break over the window",
+   "text_anchor": "“Lady Audrey Hall.”"
+  },
+  {
+   "line_start": 123,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "A new cemetery on East Borough's edge: Old Kohler's niche has no photograph, no epitaph, not even a name — so Klein carves one, 'He was a good worker. He had a wife, a son, and a daughter. He worked hard to live.' — and leaves Daisy's case anonymously to Reporter Mike rather than touch her life himself",
+   "text_anchor": "“He was a good worker."
+  },
+  {
+   "line_start": 149,
+   "line_end": 179,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Benson Moretti",
+    "Melissa Moretti",
+    "[burly passenger]"
+   ],
+   "setting": "The locomotive carries hopeful workers into the Land of Hope; on the platform Benson and Melissa feel a gaze and see only a black-haired gentleman in gold-rimmed glasses, who walks past them into the departure station. 'It was the best of times, it was the worst of times.' (End of Volume 2 — Faceless)",
+   "text_anchor": "It was the best of times, it was the worst of times."
+  }
+ ]
+}

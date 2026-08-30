@@ -1,0 +1,50 @@
+{
+ "chapter": 58,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 101,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa"],
+   "setting": "Monday at home: Melissa entrusted with the letter to Mentor Cohen, then Klein practices and composes the honorific ritual incantation in his locked bedroom",
+   "text_anchor": "The next day, a Monday morning."
+  },
+  {
+   "line_start": 103,
+   "line_end": 113,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: Klein arrives early at the Seat of Honor and reaches for the two crimson stars",
+   "text_anchor": "The muttering and murmurs receded like the tides."
+  },
+  {
+   "line_start": 117,
+   "line_end": 125,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Alger Wilson"],
+   "setting": "The captain's cabin of the ghost ship on the Sonia Sea: Alger is seized by the crimson light for the gathering",
+   "text_anchor": "On the roaring blue waves of the Sonia Sea"
+  },
+  {
+   "line_start": 129,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall"],
+   "setting": "Backlund, Empress Borough: Audrey watches herself be swallowed by the crimson eruption with a Spectator's detachment",
+   "text_anchor": "Backlund, Empress Borough."
+  },
+  {
+   "line_start": 139,
+   "line_end": 168,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson"],
+   "setting": "The Tarot Gathering above the gray fog: Justice arrives as a new Beyonder and The Fool asks after Roselle's diary",
+   "text_anchor": "Above the gray fog, in the magnificent palace"
+  }
+ ]
+}

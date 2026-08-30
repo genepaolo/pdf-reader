@@ -1,0 +1,50 @@
+{
+ "chapter": 109,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Kenley White", "Royale Reideen"],
+   "setting": "Outside Chanis Gate after the alarm: the arc-formation loss-of-control check, Leonard's prayer clears Klein; Kenley heads back upstairs",
+   "text_anchor": "The sound of running footsteps entered Klein's ears"
+  },
+  {
+   "line_start": 53,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Royale Reideen"],
+   "setting": "Guard room card game through the night: deducing the Antigonus notebook caused the puppet's behavior; Chanis Gate's night defenses explained",
+   "text_anchor": "Leonard glanced at Klein and Royale."
+  },
+  {
+   "line_start": 119,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Seeka Tron", "Leonard Mitchell", "Royale Reideen"],
+   "setting": "Dawn shift change: Seeka Tron takes over the guard room; Klein logs the incident and heads up with Leonard and Royale",
+   "text_anchor": "The sun has just risen, it's my turn."
+  },
+  {
+   "line_start": 125,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Blackthorn Security Company entrance: Klein briefs the arriving Dunn on the puppet incident; Dunn will telegraph the Holy Cathedral",
+   "text_anchor": "Good morning, Captain."
+  },
+  {
+   "line_start": 137,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Morning street outside 36 Zouteland Street: Klein realizes some power made him forget to report the vertical-eye paper the puppet held",
+   "text_anchor": "Klein didn't stay any longer. He slowly walked out of 36 Zouteland Street"
+  }
+ ]
+}

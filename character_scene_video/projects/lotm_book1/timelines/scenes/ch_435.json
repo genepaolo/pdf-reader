@@ -1,0 +1,40 @@
+{
+ "chapter": 435,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White",
+    "Utravsky"
+   ],
+   "setting": "The handover in the prayer hall, conducted like an arms deal: the walnut-like mutated pituitary gland tugs at Klein's digested potion (the convergence of same-pathway characteristics), 1,450 pounds counted from five paces, and a match-flame exit that leaves Emlyn mourning 'My suitcase… My tin box…'",
+   "text_anchor": "“My suitcase…"
+  },
+  {
+   "line_start": 91,
+   "line_end": 129,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "Xio Derecha"
+   ],
+   "setting": "A carriage to Empress Borough: Fors explains why ingredients keep and potions don't (a glass bottle left too long will 'drink' it and wake up), mourns what her Tarot Club purchases were really worth — then sees Mr. A's gathering house collapsed and scorched, and orders the driver two streets on",
+   "text_anchor": "There was a fierce battle here…"
+  },
+  {
+   "line_start": 133,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Carlson"
+   ],
+   "setting": "'Aurora Order's base found' in the morning paper, the ingredients safely stowed above the fog and 735 pounds left; then the Lucky Bar, where Carlson already knows about the Creator preachers — until Klein mentions a Fourth Epoch noble's tomb and pauses to order a beer",
+   "text_anchor": "“I have a clue regarding a Fourth Epoch tomb of a noble.”"
+  }
+ ]
+}

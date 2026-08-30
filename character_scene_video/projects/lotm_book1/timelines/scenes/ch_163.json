@@ -1,0 +1,50 @@
+{
+ "chapter": 163,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 45,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne"],
+   "setting": "Blackthorn reception: the piano that shouldn't exist — Rozanne's memories contradict Old Neil's 'late wife', and Klein's coin confirms something is wrong",
+   "text_anchor": "What? Klein was left dumbfounded when he heard Rozanne's question."
+  },
+  {
+   "line_start": 47,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office: the warning signs laid out; Klein proposes Sealed Artifact 3-0611, the Peaceful Hair Strands, to stabilize Old Neil",
+   "text_anchor": "I cannot be sure, but I think that Old Neil is on the brink of losing control."
+  },
+  {
+   "line_start": 109,
+   "line_end": 119,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Royale Reideen"],
+   "setting": "Recreation room: Royale hears the destination — 'Pay Old Neil a visit' — and the mood turns heavy",
+   "text_anchor": "That's the way, no time to waste!"
+  },
+  {
+   "line_start": 121,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Royale Reideen", "Cesare"],
+   "setting": "The silent carriage ride: Dunn recounts Old Neil's dead fiancée and the loss-of-control watch decades ago; all three pray",
+   "text_anchor": "After calling for the chauffeur Cesare, the four of them made their way"
+  },
+  {
+   "line_start": 145,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Royale Reideen"],
+   "setting": "Old Neil's bungalow door: no answer — then piano music from inside, and a stream of liquid under the door turning blood-crimson",
+   "text_anchor": "The sky started to turn brighter as the dark clouds receded."
+  }
+ ]
+}

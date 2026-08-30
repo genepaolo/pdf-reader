@@ -1,0 +1,14 @@
+{
+ "chapter": 51,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 183,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "Old Neil's apartment: a full ritualistic-magic lesson, the IOU-settling ritual to the Goddess performed on the round table",
+   "text_anchor": "Using magic to settle an IOU?"
+  }
+ ]
+}

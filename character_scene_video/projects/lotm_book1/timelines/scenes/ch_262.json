@@ -1,0 +1,36 @@
+{
+ "chapter": 262,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "Retreat through the ancient hall: no exorcism heroics — 'my life and health are more important' — a plan of research, maybe explosives, maybe an anonymous letter; Miss Bodyguard concedes he has some sense",
+   "text_anchor": "“Are you not considering to get people to exorcise this evil spirit?"
+  },
+  {
+   "line_start": 39,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Millet Carter"
+   ],
+   "setting": "Back in the basement: a cover story of venomous snakes keeps Millet's workers out; the house belonged to Viscount Pound — ennobled in the Battle of the Violated Oath, mysteriously declined, heirs lost — and the current bankrupt Baronet Pound is somewhere in Backlund",
+   "text_anchor": "“Viscount Pound.”"
+  },
+  {
+   "line_start": 87,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "An invaded dream (visions only: a dark-gold dragon slain by a giant knight in blood-spattered black armor; the bloody bifold door cracking open on the same knight, decayed, seated on a black high-back chair): Klein jolts awake under the crimson moon",
+   "text_anchor": "A dragon! A powerful dragon!"
+  }
+ ]
+}

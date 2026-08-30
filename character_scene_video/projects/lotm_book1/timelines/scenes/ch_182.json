@@ -1,0 +1,32 @@
+{
+ "chapter": 182,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 55,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Spirit-body wanderings over Tingen: invisible above Daffodil Street, through Iron Cross Street's corporeal gloom, past the smokestacks — until his spirituality runs low",
+   "text_anchor": "The weather in Tingen turned from refreshing cool to a bitingly chill"
+  },
+  {
+   "line_start": 59,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: ending the summon lands him at the seat of honor WITH the Flaring Sun Charm — corporeal items can enter the mysterious space",
+   "text_anchor": "Silence was everywhere in the boundless gray fog"
+  },
+  {
+   "line_start": 81,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Back in the bedroom: a carefully vague letter to Azik about Qilangos and sacrificial rituals, handed to the towering bone messenger via the copper whistle",
+   "text_anchor": "In the blink of an eye, he returned to his bedroom."
+  }
+ ]
+}

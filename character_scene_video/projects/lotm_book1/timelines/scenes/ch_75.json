@@ -1,0 +1,32 @@
+{
+ "chapter": 75,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Leonard Mitchell", "Lorotta", "Aiur Harson", "Borgia"],
+   "setting": "Seized by 2-049 with everyone down: Klein forces his rusting joints through the four counterclockwise steps of the luck enhancement ritual",
+   "text_anchor": "Oh no! I've been controlled by the puppet!"
+  },
+  {
+   "line_start": 43,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Refuge above the gray fog: Klein dowses 'returning to the real world is very safe' before plunging back",
+   "text_anchor": "Endless grayish-white fog and the dark red stars"
+  },
+  {
+   "line_start": 97,
+   "line_end": 191,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[suited clown]", "Dunn Smith", "Leonard Mitchell", "Lorotta", "Aiur Harson", "Borgia"],
+   "setting": "Playing puppet: the returned suited clown offers the Clown formula for the notebook, and Klein baits him into 2-049's kill zone",
+   "text_anchor": "His physical senses reached to his brain"
+  }
+ ]
+}

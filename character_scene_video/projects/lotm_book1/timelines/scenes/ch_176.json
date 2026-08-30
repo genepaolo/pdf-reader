@@ -1,0 +1,32 @@
+{
+ "chapter": 176,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Sealed bedroom: the pray-to-yourself ritual summons Daly's tongue-fingered wall messenger, which swallows Klein's letter and sinks away",
+   "text_anchor": "For Klein, setting up a simple ritual was as easy as breathing."
+  },
+  {
+   "line_start": 47,
+   "line_end": 89,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall", "Susie"],
+   "setting": "A hidden corner of Duke Negan's municipal garden, Backlund: the courier is a golden retriever with a designer crocodile-skin pouch — reports are exchanged",
+   "text_anchor": "Monday morning. Backlund, Empress Borough."
+  },
+  {
+   "line_start": 93,
+   "line_end": 159,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Susie"],
+   "setting": "The Hall villa: vagrants vanishing near Backlund Bridge; and brother Alfred's letter from the Balam colonies — Audrey requests a 'Rainbow Salamander' for her new 'biology' hobby",
+   "text_anchor": "In the Hall family's luxurious villa."
+  }
+ ]
+}

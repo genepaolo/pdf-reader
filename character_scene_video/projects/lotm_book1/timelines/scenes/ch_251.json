@@ -1,0 +1,25 @@
+{
+ "chapter": 251,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: Rosago's memories — his mentor's warnings against divination-reliance and the formulas): Klein harvests Magician (Sequence 7), Faceless (Sequence 6) and most of Nimblewright Master (Sequence 5, mermaid-song ritual) before his spirituality runs dry and the fog ejects him",
+   "text_anchor": "“Sequence 7. Magician:"
+  },
+  {
+   "line_start": 91,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "The bodyguard wakes, thinner and more translucent: she buys Klein's panicked-charms story ('You'd better find a psychiatrist'), and they split the spoils — she takes the Notary document, he pockets Rosago's evil-god-tainted pupil-less eye, 'worthless' though it is",
+   "text_anchor": "Miss Bodyguard in her black Gothic regal dress had woken up and was floating in the air"
+  }
+ ]
+}

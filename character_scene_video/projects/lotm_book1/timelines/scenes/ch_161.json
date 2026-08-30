@@ -1,0 +1,41 @@
+{
+ "chapter": 161,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Kenley White"],
+   "setting": "Quick lunch at Morse Cathedral: two and a half hours of purification tolerance left; Noah's footsteps case chosen first — it's closest",
+   "text_anchor": "Most of the buildings in Morse Town adhered to a style"
+  },
+  {
+   "line_start": 37,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Kenley White", "Noah", "Siur", "[townsfolk]"],
+   "setting": "Old Noah's house: Klein performs a garlic-and-holy-water 'purification' for the crowd while 3-0782 quietly does the real work",
+   "text_anchor": "Noah was an old man with thinning white hair."
+  },
+  {
+   "line_start": 123,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Kenley White"],
+   "setting": "Behind closed doors (visions only: an inverted black pyramid mausoleum): the divination points at Death's symbol from the Southern Continent",
+   "text_anchor": "Leonard took a step forward and closed the door"
+  },
+  {
+   "line_start": 167,
+   "line_end": 193,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Kenley White"],
+   "setting": "The remaining hauntings cleared; Klein's math-heavy rotation proposal terrifies Leonard into solo one-hour shifts with the artifact",
+   "text_anchor": "The three Nighthawks didn't stay for long"
+  }
+ ]
+}

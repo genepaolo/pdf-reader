@@ -1,0 +1,32 @@
+{
+ "chapter": 56,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 65,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Anna", "Joyce", "Mr. Wayne", "[Anna's mother]"],
+   "setting": "The Wayne living room: Joyce recounts the pirate Nast and the Alfalfa bloodbath, and the family marvels at the seer Klein Moretti",
+   "text_anchor": "In a rather spacious living room, Anna and Joyce were seated"
+  },
+  {
+   "line_start": 69,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica"],
+   "setting": "Divination Club reception: Klein pays the club's cut, tips Angelica, waits in vain for a second customer, and heads home",
+   "text_anchor": "In the reception lobby of the Divination Club."
+  },
+  {
+   "line_start": 105,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Benson", "Melissa"],
+   "setting": "The Moretti home on Daffodil Street: talk of Mrs. Shaud's visit over dinner, then Klein locks his bedroom to start his summary notebook",
+   "text_anchor": "When he stepped through the door, Klein found Benson reading"
+  }
+ ]
+}

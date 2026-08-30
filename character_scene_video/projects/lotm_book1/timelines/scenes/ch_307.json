@@ -1,0 +1,23 @@
+{
+ "chapter": 307,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Utravsky"],
+   "setting": "'Kill the old me': the Dawn Paladin's split past self must die at the bottom of his dreamland via a dragon-relic candle — five minutes or vegetate; a quick fog divination says tolerable risk, and Klein preps matchsticks and paper figurines before lighting the human-skin candle",
+   "text_anchor": "“I have already reached Sequence 6 of my Beyonder pathway, becoming a Dawn Paladin.”"
+  },
+  {
+   "line_start": 107,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Utravsky"],
+   "setting": "Into the mind-world: a ferocious 'Utravsky' falls dead in a staged battle — 'What a professional performance. But I know that this is a dream within a dream.'",
+   "text_anchor": "But I know that this is a dream within a dream."
+  }
+ ]
+}

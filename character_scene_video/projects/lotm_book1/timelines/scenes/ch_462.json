@@ -1,0 +1,33 @@
+{
+ "chapter": 462,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 65,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Alger Wilson",
+    "Derrick Berg",
+    "Audrey Hall",
+    "Fors Wall",
+    "[The World]"
+   ],
+   "setting": "The hint accepted without further questions: the temple's 'Rose Redemption' is written in an older ancestor of ancient Feysac, Derrick is sent back to read that mural properly, Alger explains how a monster learns a language in seconds — then the diary debts are settled, three pages now and seven still owed",
+   "text_anchor": "“It’s very close, but the way that the words end is handled differently."
+  },
+  {
+   "line_start": 67,
+   "line_end": 149,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Roselle Gustav",
+    "Zaratul",
+    "Karen"
+   ],
+   "setting": "Three pages read: a first ball at the White Maple Palace and the charm of power; the choice of Alchemist over Mysticologist for the advance to demigod, with its land-draining ritual; Ma'am Karen's husband peeping from the opposite room — and Zaratul's answer, 'A miracle is to be resurrected from the dead!'",
+   "text_anchor": "“He said, ‘What is a miracle? A miracle is to be resurrected from the dead!’”"
+  }
+ ]
+}

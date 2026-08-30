@@ -1,0 +1,23 @@
+{
+ "chapter": 104,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Over Sirius's corpse behind the library: Klein reads the letters to 'Mr. Z' — the Antigonus family held the Seer pathway — and decides on a mediumship ritual",
+   "text_anchor": "One pocket, two pockets, three pockets"
+  },
+  {
+   "line_start": 119,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[onlookers]"],
+   "setting": "The shattered oriel window: Klein sends a librarian for police backup, has the crowd cordon the scene, and returns to the corpse to prepare the ritual",
+   "text_anchor": "He raised his head, turned around, and cast his gaze toward the spot where the window had shattered."
+  }
+ ]
+}

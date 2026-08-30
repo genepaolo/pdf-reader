@@ -1,0 +1,68 @@
+{
+ "chapter": 139,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 23,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick"],
+   "setting": "Derrick's room in the City of Silver: the crystal ball shatters, a crimson symbol sinks into his palm — grief remains, but he is no longer lost",
+   "text_anchor": "After the crimson light in front of him dissipated"
+  },
+  {
+   "line_start": 27,
+   "line_end": 33,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: The Fool wryly tallies his 'recruitment' — a Sequence 9 leader whose newest member's city holds three demigods",
+   "text_anchor": "Phew, looks like I've managed to trick another person"
+  },
+  {
+   "line_start": 35,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[inn boss]"],
+   "setting": "Back at the Lamud Town inn: returning the hourly room key earns Klein a knowing, mortifying thumbs-up from the boss",
+   "text_anchor": "Then, Klein picked up the key and headed out of the room."
+  },
+  {
+   "line_start": 49,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Frye"],
+   "setting": "Inn room debrief: wraith confirmed recent; Klein slips in the baron-portrait mention; first two-hour shift guarding 3-0782 falls to him",
+   "text_anchor": "We can confirm that the wraith appeared within the last three months"
+  },
+  {
+   "line_start": 89,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Frye"],
+   "setting": "Deserted outskirts by the forest: Frye hands over the watch — 'chase away anyone who approaches' — and heads back to town",
+   "text_anchor": "The two circled an area beside a sparse and deserted forest"
+  },
+  {
+   "line_start": 95,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Alone on a boulder under the crimson moon: a bug-proof spirituality barrier and a failed first divination on the Sacred Emblem's origin",
+   "text_anchor": "After seeing Frye enter the town, he found a tall boulder"
+  },
+  {
+   "line_start": 125,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: a dying white-robed man and a drop of golden liquid fusing into the emblem): Klein separates the golden drop from the conjured 3-0782",
+   "text_anchor": "This thought immediately filled Klein's head"
+  }
+ ]
+}

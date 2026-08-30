@@ -1,0 +1,41 @@
+{
+ "chapter": 403,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 53,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres",
+    "[tomb keeper]"
+   ],
+   "setting": "Beside the grave pit: torn tarot cards in the soil and a spiritual intuition that this really is Will Auceptin — how does a child tied to the Snake of Mercury simply die? The tomb keeper is sent running for the police, and prayer steadies the shaken doctor",
+   "text_anchor": "“There’s nothing to be afraid of. He’s already dead.”"
+  },
+  {
+   "line_start": 55,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres",
+    "[Nighthawk captain]"
+   ],
+   "setting": "The police station: disbelief turns to swift release once someone steps out of the room — the Nighthawks at work, the gray-windbreaker captain passing him without a flicker; in the carriage, the case looks closed. 'It's the fate of every private detective.'",
+   "text_anchor": "“It’s the fate of every private detective.”"
+  },
+  {
+   "line_start": 93,
+   "line_end": 151,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "Lawrence Nord"
+   ],
+   "setting": "Grimm Cemetery in mourning black: the 400-pound loan from Glaint settled (a night at Mr. A's gathering as escort), greenhouse flowers laid on Mrs. Aulisa's grave in thanks for the characteristic she left — and Lawrence appears with flowers of his own, then collapses coughing. 'My life might be coming to an end…'",
+   "text_anchor": "“My life might be coming to an end…”"
+  }
+ ]
+}

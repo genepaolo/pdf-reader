@@ -1,0 +1,34 @@
+{
+ "chapter": 253,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Night thoughts in the crimson moonlight: too many Seer-pathway coincidences — the notebook, the transmigration, Roselle's diary — feel less like arrangement than mutual attraction; is there some strange characteristic to him that even lets him resurrect?",
+   "text_anchor": "My second case after arriving at Backlund allowed me to get the next three potions formulas."
+  },
+  {
+   "line_start": 87,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "Seven a.m., the full-length mirror: 'Someone from MI9 came last night. No.' — and a bone-piercing chill warns Klein off examining the tainted eye while she watches",
+   "text_anchor": "“Someone from MI9 came last night.”"
+  },
+  {
+   "line_start": 111,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "The morning Tussock Times: 'Intis Ambassador to Backlund murdered! The Aurora Order claims responsibility!' — the affair closes under drizzle, and now there are adulterers to catch",
+   "text_anchor": "“Intis Ambassador to Backlund murdered! Terrorist organization, the Aurora Order, claims responsibility!”"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "chapter": 295,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Susie", "[butler]"],
+   "setting": "The manor study: Audrey plays it cool over her three-meter 'animal specimens' — then learns Susie completely digested the Spectator potion months ago, unprompted. 'I'm just a dog. Woof.'",
+   "text_anchor": "“Susie, have you completely digested the potion?”"
+  },
+  {
+   "line_start": 45,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Alger Wilson"],
+   "setting": "Above the gray fog: Alger sacrifices the Panther spinal fluid and Elf-spring crystals; midweek Derrick's Mist Treant root and juice follow — every Magician ingredient gathered",
+   "text_anchor": "“… I've already gathered the Dark Patterned Black Panther Spinal Fluid"
+  },
+  {
+   "line_start": 81,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "The kitchen brew and the dark living room: fireworks swirl in the bottle, 'Hornacis… Flegrea…' whispers through the pain, one arm ancient and one transparent — until it all settles. Klein stands up a Mid-Sequence Beyonder: a Magician",
+   "text_anchor": "At that moment, he was already a Magician."
+  }
+ ]
+}

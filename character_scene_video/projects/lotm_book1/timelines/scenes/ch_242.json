@@ -1,0 +1,32 @@
+{
+ "chapter": 242,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 25,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Tuesday breakfast with the Tussock Times: a 2 a.m. gunfight at Red Brick Alley near Bacardi Street — both sides acted on Klein's planted note within a day; then the doorbell rings",
+   "text_anchor": "Early Tuesday morning, Klein woke up naturally"
+  },
+  {
+   "line_start": 27,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Stelyn Sammer", "Mary Gale"],
+   "setting": "Stelyn Sammer brings her veiled friend Mary Gale, a Coim shareholder: tail her husband and photograph his mistress — ten pounds with material evidence, camera provided",
+   "text_anchor": "“This is Mrs. Mary Gale, a shareholder of Coim Company.”"
+  },
+  {
+   "line_start": 75,
+   "line_end": 147,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Bakerland", "Kance", "Glaint"],
+   "setting": "Count Wolf's ball: Audrey endures the lecherous Ambassador Bakerland's jokes, then harvests intel from MI9's Kance Leerhsen — Sequence 6 Conspiracist, a Sequence 5 assistant in the shadows, soon to be replaced — and asks Glaint to arrange a meeting with Xio and Fors",
+   "text_anchor": "Audrey was carrying a glass of pale gold champagne"
+  }
+ ]
+}

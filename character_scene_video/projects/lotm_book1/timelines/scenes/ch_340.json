@@ -1,0 +1,38 @@
+{
+ "chapter": 340,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres",
+    "Mary",
+    "Stelyn Sammer"
+   ],
+   "setting": "Faith firmly not for changing, Will Auceptin unseen since discharge; then Mary and Stelyn arrive for tennis — and Stelyn, satisfied with the detective's earnings, invites him to next Sunday's party stocked with 'excellent unmarried ladies'",
+   "text_anchor": "“There will be a lot of unmarried ladies at the party"
+  },
+  {
+   "line_start": 81,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Fors Wall"
+   ],
+   "setting": "Full-moon rescue above the fog, then awkward silence broken by Fors's life story: the Abraham widow who walked through walls, the deathbed formula and glowing characteristic, and the bracelet that made the ravings worse",
+   "text_anchor": "“Honorable Mr. Fool, you have saved me once again.”"
+  },
+  {
+   "line_start": 151,
+   "line_end": 157,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Monday morning's one-word note on the coffee table — 'Effective.' — and at a quarter to three, up to the fog for the next Tarot gathering",
+   "text_anchor": "“Effective.”"
+  }
+ ]
+}

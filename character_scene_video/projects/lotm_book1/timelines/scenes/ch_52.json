@@ -1,0 +1,32 @@
+{
+ "chapter": 52,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "Old Neil's apartment after the ritual, questions over the magic, then leaving for the public carriage back to Zouteland Street",
+   "text_anchor": "Stop thinking about the bloody IOU."
+  },
+  {
+   "line_start": 39,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil", "[butler]"],
+   "setting": "Zouteland Street roadside: Old Neil finds the dropped wallet and returns it to Sir Deweyville's butler for a thirty-pound reward",
+   "text_anchor": "After returning to Zouteland Street, Old Neil suddenly grunted"
+  },
+  {
+   "line_start": 121,
+   "line_end": 161,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Duchess Della", "Duke Negan", "Baron Larry", "Madam Parnes", "Susie"],
+   "setting": "A huge candle-lit ballroom banquet: Audrey practices being a Spectator, reading the nobles from the shadows until she spots Susie on the balcony",
+   "text_anchor": "In a huge ballroom, candles were burning on a few chandeliers"
+  }
+ ]
+}

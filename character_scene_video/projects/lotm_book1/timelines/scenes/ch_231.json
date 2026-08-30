@@ -1,0 +1,50 @@
+{
+ "chapter": 231,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 55,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Jurgen Cooper"],
+   "setting": "Rice Police Station office and the carriage home: Jurgen bails Klein out pro bono (ten pounds, reclaimable in a week), and gets hired to draft the bicycle investment contract — two pounds, ready Monday",
+   "text_anchor": "Klein met Jurgen Cooper in an office at the Rice Police Station."
+  },
+  {
+   "line_start": 57,
+   "line_end": 67,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Julianne"],
+   "setting": "Home to the wrecked living room — then the Sammers' frightened maid Julianne rings: the neighbors want a word",
+   "text_anchor": "saw Julianne, the maid from next door in a black-and-white skirt"
+  },
+  {
+   "line_start": 69,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Luke Sammer", "Stelyn Sammer"],
+   "setting": "The Sammers' living room: gracious landlords over black tea — talk of the 'thief', a private detective's earnings, and what a truly decent Backlund life costs (seven pounds a week, at least)",
+   "text_anchor": "Luke Sammer and his wife, Stelyn Sammer were sitting on a sofa in the living room."
+  },
+  {
+   "line_start": 125,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Cleaning up alone, wary of military surveillance: tomorrow night, the Bravehearts Bar for a gun — and perhaps a Beyonder bodyguard",
+   "text_anchor": "After returning home, Klein began laboring."
+  },
+  {
+   "line_start": 135,
+   "line_end": 147,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall", "[white-masked Sun believer]", "[Mr. A's attendant]"],
+   "setting": "After the purification, blessed water in a metal bottle — then a note reaches 'Miss Arbiter': the formula seller wants a chat in the study",
+   "text_anchor": "After the purification ceremony ended, the man in the white mask said"
+  }
+ ]
+}

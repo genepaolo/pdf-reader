@@ -1,0 +1,32 @@
+{
+ "chapter": 286,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 69,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "On the clock tower: every gas lamp dies as an evil god's gaze erupts from the red-brick building, then profound darkness snuffs it out; divination says Lanevus is stripped of the godhood and fleeing by sewer — Klein free-climbs down the tower to intercept",
+   "text_anchor": "“Lanevus's escape route.”"
+  },
+  {
+   "line_start": 73,
+   "line_end": 165,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Crestet Cesimir", "[two Nighthawks]", "Lanevus"],
+   "setting": "Inside the wrecked building: a bleeding, kneeling Cesimir listens to Lanevus's gloating confession — the True Creator's 'sapling', the engineered rescue, every murder a signal flare — before the swindler yanks out the holy bone sword, fails to kill anyone, and dives for the sewers",
+   "text_anchor": "“Goodbye, foolish Nighthawks."
+  },
+  {
+   "line_start": 167,
+   "line_end": 179,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Lanevus"],
+   "setting": "Deep in the sewer maze, Lanevus runs into a card buried in his chest — thrown by a medium-sized man in a worker's uniform wearing a happy clown mask",
+   "text_anchor": "It was a happy clown."
+  }
+ ]
+}

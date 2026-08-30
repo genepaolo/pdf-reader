@@ -1,0 +1,43 @@
+{
+ "chapter": 432,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 53,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "Dorian Gray"
+   ],
+   "setting": "At Lawrence's grave: Dorian steps through a tree to prove what he is, takes Fors as his student (teacher and student only — no family secrets this time), and promises her the potion today",
+   "text_anchor": "“Are you willing to be my student?”"
+  },
+  {
+   "line_start": 55,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "Dorian Gray",
+    "Malmouth"
+   ],
+   "setting": "In the rented activity room, Dorian summons his contracted void creature Malmouth — a milky eyeless ball that loves lullabies and stores things in its belly — and brews the Apprentice potion on the spot, leaving Fors to swallow her second one and her lesson: honesty is the best policy",
+   "text_anchor": "“Malmouth, give me the items that I deposited with you the day before yesterday.”"
+  },
+  {
+   "line_start": 139,
+   "line_end": 175,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Daisy",
+    "Freja",
+    "[Creator preacher]"
+   ],
+   "setting": "East Borough, better rooms bought by Capim's charity fund: Daisy on her school lunch break carrying laundry, promising to teach Freja everything at night — then, leaving his Black Palm Street room in worker's clothes, Klein is stopped by a kindly old man: 'Sir, have you heard of the original Creator?'",
+   "text_anchor": "“Sir, have you heard of the original Creator?”"
+  }
+ ]
+}

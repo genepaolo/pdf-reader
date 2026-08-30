@@ -1,0 +1,41 @@
+{
+ "chapter": 196,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 25,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "An ominous premonition — Sharon's carriage returns; Klein ends the summon, retraces his route, and flees to a night carriage without resetting the balcony bolt",
+   "text_anchor": "Klein rushed out of the heavy safe in retreat."
+  },
+  {
+   "line_start": 29,
+   "line_end": 35,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Sharon"],
+   "setting": "Sharon's bedroom: her deer-pure eyes catch the fallen hair-thin tripwires — her gaze locks onto the safe",
+   "text_anchor": "Madam Sharon, who looked beautiful in her black dress"
+  },
+  {
+   "line_start": 39,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Kenley White"],
+   "setting": "Blackthorn at night: the Primordial Demoness statue confirmed — immediate action ordered with Sealed Artifact 3-0217, the Spirit Medium's Mirror, in Kenley's hands",
+   "text_anchor": "36 Zouteland Street, the Blackthorn Security Company."
+  },
+  {
+   "line_start": 125,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Kenley White"],
+   "setting": "The tense carriage ride and arrival at Osna Street: Klein's pendulum reads medium danger inside the silent house",
+   "text_anchor": "On their way there, Kenley looked at the Sealed Artifact 3-0217 in his hands."
+  }
+ ]
+}

@@ -1,0 +1,2947 @@
+{
+ "_note": "Cross-chapter scene continuity (option A). Boundary N = between Chapter N and Chapter N+1. continues=true means Chapter N+1 opens by directly continuing the scene that ended Chapter N (same place/moment/cast). carried_others = non-protagonist characters present at the cut who must not be dropped at N+1's opening (canonical names; [brackets] = unnamed). The protagonist always carries via the per-scene persona. Detected by readers over end-of-N / start-of-N+1; see TAGGING_GUIDE.md.",
+ "boundaries": {
+  "1": {
+   "continues": true,
+   "carried_others": []
+  },
+  "2": {
+   "continues": true,
+   "carried_others": []
+  },
+  "3": {
+   "continues": true,
+   "carried_others": []
+  },
+  "4": {
+   "continues": true,
+   "carried_others": [
+    "[fortune-teller]"
+   ]
+  },
+  "5": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson"
+   ]
+  },
+  "6": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson"
+   ]
+  },
+  "7": {
+   "continues": false,
+   "carried_others": []
+  },
+  "8": {
+   "continues": false,
+   "carried_others": []
+  },
+  "9": {
+   "continues": true,
+   "carried_others": []
+  },
+  "10": {
+   "continues": true,
+   "carried_others": []
+  },
+  "11": {
+   "continues": true,
+   "carried_others": [
+    "Melissa Moretti"
+   ]
+  },
+  "12": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "13": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "14": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "15": {
+   "continues": true,
+   "carried_others": []
+  },
+  "16": {
+   "continues": true,
+   "carried_others": []
+  },
+  "17": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "18": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "19": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "20": {
+   "continues": true,
+   "carried_others": [
+    "Roselle Gustav"
+   ]
+  },
+  "21": {
+   "continues": true,
+   "carried_others": []
+  },
+  "22": {
+   "continues": true,
+   "carried_others": []
+  },
+  "23": {
+   "continues": true,
+   "carried_others": [
+    "Melissa Moretti"
+   ]
+  },
+  "24": {
+   "continues": true,
+   "carried_others": [
+    "Quentin Cohen",
+    "Azik Eggers",
+    "Harvin Stone"
+   ]
+  },
+  "25": {
+   "continues": true,
+   "carried_others": [
+    "[priest]"
+   ]
+  },
+  "26": {
+   "continues": true,
+   "carried_others": [
+    "Benson Moretti"
+   ]
+  },
+  "27": {
+   "continues": true,
+   "carried_others": [
+    "[intruder]"
+   ]
+  },
+  "28": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "29": {
+   "continues": false,
+   "carried_others": []
+  },
+  "30": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "31": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil"
+   ]
+  },
+  "32": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil"
+   ]
+  },
+  "33": {
+   "continues": false,
+   "carried_others": []
+  },
+  "34": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson"
+   ]
+  },
+  "35": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson"
+   ]
+  },
+  "36": {
+   "continues": false,
+   "carried_others": []
+  },
+  "37": {
+   "continues": true,
+   "carried_others": [
+    "[Divination Club female attendant]"
+   ]
+  },
+  "38": {
+   "continues": true,
+   "carried_others": [
+    "Leonard Mitchell"
+   ]
+  },
+  "39": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil"
+   ]
+  },
+  "40": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil"
+   ]
+  },
+  "41": {
+   "continues": true,
+   "carried_others": [
+    "Rozanne",
+    "Bredt",
+    "[lanky man]"
+   ]
+  },
+  "42": {
+   "continues": true,
+   "carried_others": [
+    "Leonard Mitchell",
+    "Klee"
+   ]
+  },
+  "43": {
+   "continues": true,
+   "carried_others": [
+    "Leonard Mitchell"
+   ]
+  },
+  "44": {
+   "continues": true,
+   "carried_others": []
+  },
+  "45": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Leonard Mitchell",
+    "Old Neil",
+    "Frye"
+   ]
+  },
+  "46": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil"
+   ]
+  },
+  "47": {
+   "continues": false,
+   "carried_others": []
+  },
+  "48": {
+   "continues": true,
+   "carried_others": [
+    "Hanass Vincent"
+   ]
+  },
+  "49": {
+   "continues": false,
+   "carried_others": []
+  },
+  "50": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil"
+   ]
+  },
+  "51": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil"
+   ]
+  },
+  "52": {
+   "continues": false,
+   "carried_others": []
+  },
+  "53": {
+   "continues": true,
+   "carried_others": [
+    "Angelica"
+   ]
+  },
+  "54": {
+   "continues": true,
+   "carried_others": [
+    "Anna"
+   ]
+  },
+  "55": {
+   "continues": true,
+   "carried_others": [
+    "Anna",
+    "Joyce"
+   ]
+  },
+  "56": {
+   "continues": true,
+   "carried_others": []
+  },
+  "57": {
+   "continues": false,
+   "carried_others": []
+  },
+  "58": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson"
+   ]
+  },
+  "59": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson"
+   ]
+  },
+  "60": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson"
+   ]
+  },
+  "61": {
+   "continues": true,
+   "carried_others": []
+  },
+  "62": {
+   "continues": true,
+   "carried_others": []
+  },
+  "63": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Susie"
+   ]
+  },
+  "64": {
+   "continues": true,
+   "carried_others": []
+  },
+  "65": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil"
+   ]
+  },
+  "66": {
+   "continues": false,
+   "carried_others": []
+  },
+  "67": {
+   "continues": false,
+   "carried_others": []
+  },
+  "68": {
+   "continues": true,
+   "carried_others": []
+  },
+  "69": {
+   "continues": true,
+   "carried_others": []
+  },
+  "70": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "71": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Leonard Mitchell",
+    "Lorotta",
+    "Aiur Harson",
+    "Borgia"
+   ]
+  },
+  "72": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Leonard Mitchell",
+    "Lorotta",
+    "Aiur Harson",
+    "Borgia"
+   ]
+  },
+  "73": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Leonard Mitchell",
+    "Lorotta",
+    "Aiur Harson",
+    "Borgia"
+   ]
+  },
+  "74": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Leonard Mitchell",
+    "Lorotta",
+    "Aiur Harson",
+    "Borgia"
+   ]
+  },
+  "75": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Leonard Mitchell",
+    "Lorotta",
+    "Aiur Harson",
+    "Borgia"
+   ]
+  },
+  "76": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Leonard Mitchell",
+    "Lorotta",
+    "Aiur Harson",
+    "Borgia"
+   ]
+  },
+  "77": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Lorotta",
+    "Aiur Harson",
+    "Borgia"
+   ]
+  },
+  "78": {
+   "continues": true,
+   "carried_others": []
+  },
+  "79": {
+   "continues": true,
+   "carried_others": [
+    "Melissa"
+   ]
+  },
+  "80": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil"
+   ]
+  },
+  "81": {
+   "continues": true,
+   "carried_others": [
+    "Sir Deweyville"
+   ]
+  },
+  "82": {
+   "continues": true,
+   "carried_others": [
+    "Bogda"
+   ]
+  },
+  "83": {
+   "continues": true,
+   "carried_others": [
+    "Melissa",
+    "Benson"
+   ]
+  },
+  "84": {
+   "continues": true,
+   "carried_others": []
+  },
+  "85": {
+   "continues": true,
+   "carried_others": []
+  },
+  "86": {
+   "continues": true,
+   "carried_others": [
+    "Elizabeth"
+   ]
+  },
+  "87": {
+   "continues": true,
+   "carried_others": [
+    "Benson",
+    "Melissa"
+   ]
+  },
+  "88": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "89": {
+   "continues": true,
+   "carried_others": [
+    "Tolle",
+    "Gate",
+    "Sir Deweyville",
+    "Cullen"
+   ]
+  },
+  "90": {
+   "continues": true,
+   "carried_others": [
+    "Sir Deweyville"
+   ]
+  },
+  "91": {
+   "continues": true,
+   "carried_others": [
+    "Sir Deweyville",
+    "Tolle",
+    "Gate",
+    "Cullen"
+   ]
+  },
+  "92": {
+   "continues": true,
+   "carried_others": [
+    "Alger Wilson"
+   ]
+  },
+  "93": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson"
+   ]
+  },
+  "94": {
+   "continues": true,
+   "carried_others": []
+  },
+  "95": {
+   "continues": false,
+   "carried_others": []
+  },
+  "96": {
+   "continues": false,
+   "carried_others": []
+  },
+  "97": {
+   "continues": true,
+   "carried_others": [
+    "Melissa"
+   ]
+  },
+  "98": {
+   "continues": false,
+   "carried_others": []
+  },
+  "99": {
+   "continues": true,
+   "carried_others": []
+  },
+  "100": {
+   "continues": false,
+   "carried_others": []
+  },
+  "101": {
+   "continues": true,
+   "carried_others": [
+    "Swain"
+   ]
+  },
+  "102": {
+   "continues": true,
+   "carried_others": [
+    "[librarians]"
+   ]
+  },
+  "103": {
+   "continues": true,
+   "carried_others": []
+  },
+  "104": {
+   "continues": true,
+   "carried_others": []
+  },
+  "105": {
+   "continues": false,
+   "carried_others": []
+  },
+  "106": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Glaint",
+    "Annie"
+   ]
+  },
+  "107": {
+   "continues": false,
+   "carried_others": []
+  },
+  "108": {
+   "continues": true,
+   "carried_others": [
+    "Leonard Mitchell"
+   ]
+  },
+  "109": {
+   "continues": true,
+   "carried_others": []
+  },
+  "110": {
+   "continues": true,
+   "carried_others": [
+    "Melissa",
+    "Selena",
+    "Elizabeth"
+   ]
+  },
+  "111": {
+   "continues": false,
+   "carried_others": []
+  },
+  "112": {
+   "continues": true,
+   "carried_others": [
+    "Azik Eggers"
+   ]
+  },
+  "113": {
+   "continues": true,
+   "carried_others": [
+    "Roselle Gustav"
+   ]
+  },
+  "114": {
+   "continues": false,
+   "carried_others": []
+  },
+  "115": {
+   "continues": true,
+   "carried_others": [
+    "Christina",
+    "Megose"
+   ]
+  },
+  "116": {
+   "continues": true,
+   "carried_others": [
+    "Henry"
+   ]
+  },
+  "117": {
+   "continues": false,
+   "carried_others": []
+  },
+  "118": {
+   "continues": true,
+   "carried_others": [
+    "Leonard Mitchell"
+   ]
+  },
+  "119": {
+   "continues": true,
+   "carried_others": [
+    "Leonard Mitchell",
+    "Frye"
+   ]
+  },
+  "120": {
+   "continues": true,
+   "carried_others": [
+    "Leonard Mitchell",
+    "Frye"
+   ]
+  },
+  "121": {
+   "continues": true,
+   "carried_others": []
+  },
+  "122": {
+   "continues": true,
+   "carried_others": [
+    "Trissy"
+   ]
+  },
+  "123": {
+   "continues": false,
+   "carried_others": []
+  },
+  "124": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Leonard Mitchell",
+    "Frye"
+   ]
+  },
+  "125": {
+   "continues": true,
+   "carried_others": [
+    "Melissa",
+    "Benson"
+   ]
+  },
+  "126": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil"
+   ]
+  },
+  "127": {
+   "continues": false,
+   "carried_others": []
+  },
+  "128": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil",
+    "Swain"
+   ]
+  },
+  "129": {
+   "continues": true,
+   "carried_others": [
+    "Old Neil",
+    "Swain"
+   ]
+  },
+  "130": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Glaint",
+    "Fors Wall",
+    "Xio Derecha",
+    "Mr. A"
+   ]
+  },
+  "131": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Susie"
+   ]
+  },
+  "132": {
+   "continues": true,
+   "carried_others": [
+    "Elizabeth"
+   ]
+  },
+  "133": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "134": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Frye"
+   ]
+  },
+  "135": {
+   "continues": true,
+   "carried_others": [
+    "[blond man]"
+   ]
+  },
+  "136": {
+   "continues": false,
+   "carried_others": []
+  },
+  "137": {
+   "continues": true,
+   "carried_others": [
+    "Derrick"
+   ]
+  },
+  "138": {
+   "continues": false,
+   "carried_others": []
+  },
+  "139": {
+   "continues": true,
+   "carried_others": []
+  },
+  "140": {
+   "continues": true,
+   "carried_others": []
+  },
+  "141": {
+   "continues": true,
+   "carried_others": [
+    "Daxter Guderian"
+   ]
+  },
+  "142": {
+   "continues": true,
+   "carried_others": []
+  },
+  "143": {
+   "continues": true,
+   "carried_others": [
+    "Derrick",
+    "Audrey Hall",
+    "Alger Wilson"
+   ]
+  },
+  "144": {
+   "continues": true,
+   "carried_others": [
+    "Roselle Gustav"
+   ]
+  },
+  "145": {
+   "continues": true,
+   "carried_others": [
+    "Derrick",
+    "Audrey Hall",
+    "Alger Wilson"
+   ]
+  },
+  "146": {
+   "continues": true,
+   "carried_others": []
+  },
+  "147": {
+   "continues": true,
+   "carried_others": [
+    "Daly Simone"
+   ]
+  },
+  "148": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "149": {
+   "continues": true,
+   "carried_others": [
+    "Azik Eggers"
+   ]
+  },
+  "150": {
+   "continues": true,
+   "carried_others": [
+    "Azik Eggers"
+   ]
+  },
+  "151": {
+   "continues": true,
+   "carried_others": []
+  },
+  "152": {
+   "continues": false,
+   "carried_others": []
+  },
+  "153": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "154": {
+   "continues": true,
+   "carried_others": []
+  },
+  "155": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "156": {
+   "continues": true,
+   "carried_others": [
+    "Melissa",
+    "Benson"
+   ]
+  },
+  "157": {
+   "continues": true,
+   "carried_others": [
+    "Derrick",
+    "Audrey Hall",
+    "Alger Wilson"
+   ]
+  },
+  "158": {
+   "continues": true,
+   "carried_others": [
+    "Roselle Gustav"
+   ]
+  },
+  "159": {
+   "continues": false,
+   "carried_others": []
+  },
+  "160": {
+   "continues": true,
+   "carried_others": [
+    "Leonard Mitchell",
+    "Kenley White"
+   ]
+  },
+  "161": {
+   "continues": true,
+   "carried_others": []
+  },
+  "162": {
+   "continues": true,
+   "carried_others": [
+    "Rozanne"
+   ]
+  },
+  "163": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Royale Reideen"
+   ]
+  },
+  "164": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Royale Reideen"
+   ]
+  },
+  "165": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "166": {
+   "continues": true,
+   "carried_others": [
+    "Crestet Cesimir"
+   ]
+  },
+  "167": {
+   "continues": true,
+   "carried_others": [
+    "Crestet Cesimir"
+   ]
+  },
+  "168": {
+   "continues": true,
+   "carried_others": [
+    "Crestet Cesimir"
+   ]
+  },
+  "169": {
+   "continues": true,
+   "carried_others": []
+  },
+  "170": {
+   "continues": false,
+   "carried_others": []
+  },
+  "171": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "172": {
+   "continues": true,
+   "carried_others": [
+    "Maynard"
+   ]
+  },
+  "173": {
+   "continues": true,
+   "carried_others": [
+    "Tolle"
+   ]
+  },
+  "174": {
+   "continues": true,
+   "carried_others": [
+    "Daxter Guderian"
+   ]
+  },
+  "175": {
+   "continues": true,
+   "carried_others": []
+  },
+  "176": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall"
+   ]
+  },
+  "177": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall",
+    "Xio Derecha"
+   ]
+  },
+  "178": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick"
+   ]
+  },
+  "179": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick"
+   ]
+  },
+  "180": {
+   "continues": true,
+   "carried_others": []
+  },
+  "181": {
+   "continues": true,
+   "carried_others": []
+  },
+  "182": {
+   "continues": false,
+   "carried_others": []
+  },
+  "183": {
+   "continues": true,
+   "carried_others": []
+  },
+  "184": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Hood Eugen"
+   ]
+  },
+  "185": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Hood Eugen"
+   ]
+  },
+  "186": {
+   "continues": true,
+   "carried_others": []
+  },
+  "187": {
+   "continues": true,
+   "carried_others": [
+    "Qilangos"
+   ]
+  },
+  "188": {
+   "continues": false,
+   "carried_others": []
+  },
+  "189": {
+   "continues": false,
+   "carried_others": []
+  },
+  "190": {
+   "continues": false,
+   "carried_others": []
+  },
+  "191": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Count Hall"
+   ]
+  },
+  "192": {
+   "continues": true,
+   "carried_others": []
+  },
+  "193": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Rozanne",
+    "[Mrs. Maynard]",
+    "[Maynard's sister]"
+   ]
+  },
+  "194": {
+   "continues": true,
+   "carried_others": []
+  },
+  "195": {
+   "continues": true,
+   "carried_others": []
+  },
+  "196": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Kenley White"
+   ]
+  },
+  "197": {
+   "continues": true,
+   "carried_others": [
+    "Kenley White",
+    "Sharon"
+   ]
+  },
+  "198": {
+   "continues": true,
+   "carried_others": [
+    "Kenley White",
+    "Sharon"
+   ]
+  },
+  "199": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "200": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "201": {
+   "continues": true,
+   "carried_others": []
+  },
+  "202": {
+   "continues": true,
+   "carried_others": []
+  },
+  "203": {
+   "continues": true,
+   "carried_others": [
+    "Leonard Mitchell"
+   ]
+  },
+  "204": {
+   "continues": true,
+   "carried_others": [
+    "Megose",
+    "Leonard Mitchell"
+   ]
+  },
+  "205": {
+   "continues": true,
+   "carried_others": []
+  },
+  "206": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith"
+   ]
+  },
+  "207": {
+   "continues": true,
+   "carried_others": [
+    "Leonard Mitchell",
+    "Dunn Smith"
+   ]
+  },
+  "208": {
+   "continues": true,
+   "carried_others": [
+    "Dunn Smith",
+    "Leonard Mitchell",
+    "Megose"
+   ]
+  },
+  "209": {
+   "continues": false,
+   "carried_others": []
+  },
+  "210": {
+   "continues": false,
+   "carried_others": []
+  },
+  "211": {
+   "continues": true,
+   "carried_others": []
+  },
+  "212": {
+   "continues": true,
+   "carried_others": []
+  },
+  "213": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "Volume 1 -> Volume 2 break: Tingen circus farewell -> Klein alone arriving in Backlund"
+  },
+  "214": {
+   "continues": false,
+   "carried_others": []
+  },
+  "215": {
+   "continues": false,
+   "carried_others": []
+  },
+  "216": {
+   "continues": true,
+   "carried_others": [
+    "Roselle Gustav"
+   ],
+   "_note": "diary reading spans the break -> ch217 opens mid-interlude"
+  },
+  "217": {
+   "continues": true,
+   "carried_others": [
+    "Roselle Gustav"
+   ],
+   "_note": "diary reading still in progress across the break; ends ch218 L43"
+  },
+  "218": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick"
+   ]
+  },
+  "219": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick"
+   ]
+  },
+  "220": {
+   "continues": false,
+   "carried_others": []
+  },
+  "221": {
+   "continues": true,
+   "carried_others": []
+  },
+  "222": {
+   "continues": true,
+   "carried_others": [
+    "Ian"
+   ]
+  },
+  "223": {
+   "continues": true,
+   "carried_others": [
+    "[three ambushers]"
+   ]
+  },
+  "224": {
+   "continues": true,
+   "carried_others": []
+  },
+  "225": {
+   "continues": false,
+   "carried_others": []
+  },
+  "226": {
+   "continues": false,
+   "carried_others": []
+  },
+  "227": {
+   "continues": true,
+   "carried_others": []
+  },
+  "228": {
+   "continues": true,
+   "carried_others": []
+  },
+  "229": {
+   "continues": false,
+   "carried_others": []
+  },
+  "230": {
+   "continues": true,
+   "carried_others": []
+  },
+  "231": {
+   "continues": true,
+   "carried_others": [
+    "Xio Derecha",
+    "Fors Wall"
+   ]
+  },
+  "232": {
+   "continues": true,
+   "carried_others": [
+    "Kaspars Kalinin",
+    "Maric",
+    "[zombie card players]"
+   ]
+  },
+  "233": {
+   "continues": true,
+   "carried_others": []
+  },
+  "234": {
+   "continues": true,
+   "carried_others": []
+  },
+  "235": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick"
+   ]
+  },
+  "236": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "same gathering moment, but ch237 opens directly into the diary-reading interlude (cast swap per the Roselle rule)"
+  },
+  "237": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick"
+   ]
+  },
+  "238": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Annie",
+    "Susie"
+   ]
+  },
+  "239": {
+   "continues": true,
+   "carried_others": [
+    "[hooded Beyonders]",
+    "[fat-faced man]"
+   ]
+  },
+  "240": {
+   "continues": true,
+   "carried_others": [
+    "[hooded Beyonders]",
+    "[fat-faced man]",
+    "Eye of Wisdom",
+    "Black Snake"
+   ]
+  },
+  "241": {
+   "continues": false,
+   "carried_others": []
+  },
+  "242": {
+   "continues": false,
+   "carried_others": []
+  },
+  "243": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Xio Derecha",
+    "Fors Wall",
+    "Glaint"
+   ]
+  },
+  "244": {
+   "continues": false,
+   "carried_others": []
+  },
+  "245": {
+   "continues": true,
+   "carried_others": []
+  },
+  "246": {
+   "continues": true,
+   "carried_others": []
+  },
+  "247": {
+   "continues": true,
+   "carried_others": []
+  },
+  "248": {
+   "continues": true,
+   "carried_others": [
+    "Bakerland",
+    "Eileen"
+   ]
+  },
+  "249": {
+   "continues": true,
+   "carried_others": [
+    "Faxine"
+   ]
+  },
+  "250": {
+   "continues": true,
+   "carried_others": []
+  },
+  "251": {
+   "continues": true,
+   "carried_others": [
+    "Sharron"
+   ]
+  },
+  "252": {
+   "continues": true,
+   "carried_others": []
+  },
+  "253": {
+   "continues": false,
+   "carried_others": []
+  },
+  "254": {
+   "continues": true,
+   "carried_others": [
+    "Erica Taylor",
+    "Doragu Gale"
+   ]
+  },
+  "255": {
+   "continues": true,
+   "carried_others": []
+  },
+  "256": {
+   "continues": true,
+   "carried_others": [
+    "Eye of Wisdom",
+    "[fat-faced man]",
+    "Sharron"
+   ]
+  },
+  "257": {
+   "continues": false,
+   "carried_others": []
+  },
+  "258": {
+   "continues": true,
+   "carried_others": [
+    "Millet Carter"
+   ]
+  },
+  "259": {
+   "continues": true,
+   "carried_others": [
+    "Sharron"
+   ]
+  },
+  "260": {
+   "continues": true,
+   "carried_others": [
+    "Sharron"
+   ]
+  },
+  "261": {
+   "continues": true,
+   "carried_others": [
+    "Sharron"
+   ]
+  },
+  "262": {
+   "continues": true,
+   "carried_others": []
+  },
+  "263": {
+   "continues": true,
+   "carried_others": []
+  },
+  "264": {
+   "continues": true,
+   "carried_others": [
+    "Roselle Gustav"
+   ],
+   "_note": "diary reading spans the break"
+  },
+  "265": {
+   "continues": true,
+   "carried_others": [
+    "Roselle Gustav"
+   ],
+   "_note": "diary reading spans the break"
+  },
+  "266": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "[The World]"
+   ]
+  },
+  "267": {
+   "continues": true,
+   "carried_others": []
+  },
+  "268": {
+   "continues": false,
+   "carried_others": []
+  },
+  "269": {
+   "continues": true,
+   "carried_others": [
+    "Talim Dumont"
+   ]
+  },
+  "270": {
+   "continues": false,
+   "carried_others": []
+  },
+  "271": {
+   "continues": true,
+   "carried_others": [
+    "Isengard Stanton"
+   ]
+  },
+  "272": {
+   "continues": false,
+   "carried_others": []
+  },
+  "273": {
+   "continues": true,
+   "carried_others": [
+    "[hooded Beyonders]",
+    "Eye of Wisdom",
+    "[fat-faced man]",
+    "[hooded woman weapon seller]"
+   ]
+  },
+  "274": {
+   "continues": false,
+   "carried_others": []
+  },
+  "275": {
+   "continues": false,
+   "carried_others": []
+  },
+  "276": {
+   "continues": true,
+   "carried_others": []
+  },
+  "277": {
+   "continues": false,
+   "carried_others": []
+  },
+  "278": {
+   "continues": true,
+   "carried_others": [
+    "Sharron",
+    "[zombie assistants]"
+   ]
+  },
+  "279": {
+   "continues": false,
+   "carried_others": []
+  },
+  "280": {
+   "continues": false,
+   "carried_others": []
+  },
+  "281": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Fors Wall"
+   ]
+  },
+  "282": {
+   "continues": true,
+   "carried_others": [
+    "Xio Derecha"
+   ]
+  },
+  "283": {
+   "continues": false,
+   "carried_others": []
+  },
+  "284": {
+   "continues": false,
+   "carried_others": []
+  },
+  "285": {
+   "continues": true,
+   "carried_others": []
+  },
+  "286": {
+   "continues": true,
+   "carried_others": [
+    "Lanevus"
+   ]
+  },
+  "287": {
+   "continues": true,
+   "carried_others": []
+  },
+  "288": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Glaint",
+    "Susie"
+   ]
+  },
+  "289": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "[The World]"
+   ]
+  },
+  "290": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "[The World]"
+   ]
+  },
+  "291": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "[The World]"
+   ]
+  },
+  "292": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "[The World]"
+   ]
+  },
+  "293": {
+   "continues": false,
+   "carried_others": []
+  },
+  "294": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Susie",
+    "[butler]"
+   ]
+  },
+  "295": {
+   "continues": true,
+   "carried_others": []
+  },
+  "296": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall"
+   ]
+  },
+  "297": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall"
+   ]
+  },
+  "298": {
+   "continues": false,
+   "carried_others": []
+  },
+  "299": {
+   "continues": true,
+   "carried_others": [
+    "Adol"
+   ]
+  },
+  "300": {
+   "continues": true,
+   "carried_others": [
+    "[bald tattooed man in black robes]",
+    "[dancing youths]"
+   ]
+  },
+  "301": {
+   "continues": true,
+   "carried_others": []
+  },
+  "302": {
+   "continues": true,
+   "carried_others": []
+  },
+  "303": {
+   "continues": true,
+   "carried_others": [
+    "Kapusky Reid"
+   ]
+  },
+  "304": {
+   "continues": true,
+   "carried_others": [
+    "Isengard Stanton"
+   ]
+  },
+  "305": {
+   "continues": false,
+   "carried_others": []
+  },
+  "306": {
+   "continues": true,
+   "carried_others": [
+    "Utravsky"
+   ]
+  },
+  "307": {
+   "continues": true,
+   "carried_others": [
+    "Utravsky"
+   ]
+  },
+  "308": {
+   "continues": true,
+   "carried_others": [
+    "Utravsky"
+   ]
+  },
+  "309": {
+   "continues": true,
+   "carried_others": [
+    "Stelyn Sammer",
+    "Luke Sammer"
+   ]
+  },
+  "310": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Fors Wall",
+    "[The World]"
+   ]
+  },
+  "311": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "Fors Wall",
+    "[The World]"
+   ]
+  },
+  "312": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "Fors Wall",
+    "[The World]"
+   ]
+  },
+  "313": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "Fors Wall",
+    "[The World]"
+   ]
+  },
+  "314": {
+   "continues": false,
+   "carried_others": []
+  },
+  "315": {
+   "continues": true,
+   "carried_others": [
+    "Utravsky",
+    "Emlyn White"
+   ]
+  },
+  "316": {
+   "continues": false,
+   "carried_others": []
+  },
+  "317": {
+   "continues": true,
+   "carried_others": [
+    "[female guide]",
+    "[visitors]"
+   ]
+  },
+  "318": {
+   "continues": false,
+   "carried_others": []
+  },
+  "319": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall"
+   ]
+  },
+  "320": {
+   "continues": true,
+   "carried_others": []
+  },
+  "321": {
+   "continues": true,
+   "carried_others": []
+  },
+  "322": {
+   "continues": true,
+   "carried_others": []
+  },
+  "323": {
+   "continues": false,
+   "carried_others": []
+  },
+  "324": {
+   "continues": true,
+   "carried_others": []
+  },
+  "325": {
+   "continues": true,
+   "carried_others": [
+    "Aaron Ceres",
+    "Talim Dumont"
+   ]
+  },
+  "326": {
+   "continues": true,
+   "carried_others": [
+    "[fat-faced man]",
+    "[circus audience]"
+   ]
+  },
+  "327": {
+   "continues": true,
+   "carried_others": []
+  },
+  "328": {
+   "continues": false,
+   "carried_others": []
+  },
+  "329": {
+   "continues": true,
+   "carried_others": [
+    "Sharron",
+    "Maric"
+   ]
+  },
+  "330": {
+   "continues": true,
+   "carried_others": [
+    "Sharron",
+    "Maric"
+   ]
+  },
+  "331": {
+   "continues": true,
+   "carried_others": [
+    "Sharron",
+    "Maric"
+   ]
+  },
+  "332": {
+   "continues": false,
+   "carried_others": []
+  },
+  "333": {
+   "continues": true,
+   "carried_others": []
+  },
+  "334": {
+   "continues": true,
+   "carried_others": [
+    "Eye of Wisdom",
+    "[fat-faced man]",
+    "[hooded Beyonders]"
+   ]
+  },
+  "335": {
+   "continues": true,
+   "carried_others": []
+  },
+  "336": {
+   "continues": false,
+   "carried_others": []
+  },
+  "337": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Norma"
+   ]
+  },
+  "338": {
+   "continues": true,
+   "carried_others": [
+    "Sharron"
+   ]
+  },
+  "339": {
+   "continues": true,
+   "carried_others": [
+    "Aaron Ceres"
+   ]
+  },
+  "340": {
+   "continues": true,
+   "carried_others": []
+  },
+  "341": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "Fors Wall",
+    "[The World]"
+   ]
+  },
+  "342": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "Fors Wall",
+    "[The World]"
+   ]
+  },
+  "343": {
+   "continues": false,
+   "carried_others": []
+  },
+  "344": {
+   "continues": true,
+   "carried_others": [
+    "Eye of Wisdom",
+    "[hooded Beyonders]"
+   ]
+  },
+  "345": {
+   "continues": false,
+   "carried_others": []
+  },
+  "346": {
+   "continues": true,
+   "carried_others": [
+    "Maric",
+    "Sharron"
+   ]
+  },
+  "347": {
+   "continues": true,
+   "carried_others": [
+    "Maric",
+    "Sharron",
+    "Jason",
+    "Tyre",
+    "Steve"
+   ]
+  },
+  "348": {
+   "continues": true,
+   "carried_others": [
+    "Maric",
+    "Sharron",
+    "Tyre",
+    "Steve"
+   ]
+  },
+  "349": {
+   "continues": true,
+   "carried_others": [
+    "Maric",
+    "Sharron",
+    "Tyre",
+    "Steve"
+   ]
+  },
+  "350": {
+   "continues": true,
+   "carried_others": []
+  },
+  "351": {
+   "continues": true,
+   "carried_others": []
+  },
+  "352": {
+   "continues": true,
+   "carried_others": [
+    "Mike Joseph",
+    "Kohler"
+   ]
+  },
+  "353": {
+   "continues": true,
+   "carried_others": [
+    "Mike Joseph",
+    "Kohler"
+   ]
+  },
+  "354": {
+   "continues": true,
+   "carried_others": [
+    "Derrick Berg"
+   ]
+  },
+  "355": {
+   "continues": true,
+   "carried_others": [
+    "Mike Joseph",
+    "Kohler"
+   ]
+  },
+  "356": {
+   "continues": false,
+   "carried_others": []
+  },
+  "357": {
+   "continues": true,
+   "carried_others": [
+    "Stelyn Sammer",
+    "Luke Sammer",
+    "Mary"
+   ]
+  },
+  "358": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "Fors Wall",
+    "[The World]"
+   ]
+  },
+  "359": {
+   "continues": true,
+   "carried_others": [
+    "Roselle Gustav"
+   ],
+   "_note": "diary reading spans the break"
+  },
+  "360": {
+   "continues": true,
+   "carried_others": [
+    "Derrick Berg",
+    "[old prisoner's voice]"
+   ]
+  },
+  "361": {
+   "continues": true,
+   "carried_others": []
+  },
+  "362": {
+   "continues": true,
+   "carried_others": []
+  },
+  "363": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch363 ends with Amon's clone repelled and Klein resolving to find the Magician's rules; ch364 opens a fresh sitting over the newspaper"
+  },
+  "364": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch364 ends mid-class at the Cathedral; ch365 opens later that night in Leonard's room"
+  },
+  "365": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch366 continues directly in the figurine bedroom at 48 Riverbay Avenue (Klein alone)"
+  },
+  "366": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch366 ends at bedtime; ch367 opens Tuesday morning"
+  },
+  "367": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch367 ends with Klein heading above the fog to divine the bottle; ch368 s1 is that divination"
+  },
+  "368": {
+   "continues": true,
+   "carried_others": [
+    "Emlyn White",
+    "Utravsky"
+   ],
+   "_note": "ch369 continues the Harvest Church confrontation mid-beat"
+  },
+  "369": {
+   "continues": true,
+   "carried_others": [
+    "Emlyn White"
+   ],
+   "_note": "ch370 continues the exchange outside 48 Riverbay Avenue"
+  },
+  "370": {
+   "continues": true,
+   "carried_others": [
+    "Stuart"
+   ],
+   "_note": "ch371 continues Stuart's visit at 15 Minsk Street"
+  },
+  "371": {
+   "continues": true,
+   "carried_others": [
+    "Emlyn White"
+   ],
+   "_note": "ch372 opens with Klein and Emlyn leaving Jurgen's house together"
+  },
+  "372": {
+   "continues": true,
+   "carried_others": [
+    "Kohler",
+    "Liv",
+    "[eldest daughter]"
+   ],
+   "_note": "ch373 continues in Liv's room; the eldest daughter is named Freja here"
+  },
+  "373": {
+   "continues": true,
+   "carried_others": [
+    "Lawrence Nord"
+   ],
+   "_note": "ch374 opens with Lawrence still in the coffee-shop booth after Fors leaves"
+  },
+  "374": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall"
+   ],
+   "_note": "ch375 opens with Fors just out of the sleepwalking ritual"
+  },
+  "375": {
+   "continues": true,
+   "carried_others": [
+    "[birthmarked henchman]"
+   ],
+   "_note": "ch376 continues the hotel possession ritual mid-chant"
+  },
+  "376": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch377 continues the dinner-time divination above the fog"
+  },
+  "377": {
+   "continues": true,
+   "carried_others": [
+    "Harras",
+    "Katy",
+    "Parker",
+    "Capim"
+   ],
+   "_note": "ch378 continues straight from the villa entrance into the infiltration and dinner ambush"
+  },
+  "378": {
+   "continues": true,
+   "carried_others": [
+    "Harras",
+    "Katy",
+    "Parker",
+    "Capim"
+   ],
+   "_note": "ch379 continues the dining-room fight mid-spell"
+  },
+  "379": {
+   "continues": true,
+   "carried_others": [
+    "Harras",
+    "Katy",
+    "Parker",
+    "Capim"
+   ],
+   "_note": "ch380 continues from the explosion's instant"
+  },
+  "380": {
+   "continues": true,
+   "carried_others": [
+    "Ace Snake",
+    "[golden-eyed man]"
+   ],
+   "_note": "ch381 continues at the villa with the two demigods; Klein has just vanished"
+  },
+  "381": {
+   "continues": true,
+   "carried_others": [
+    "Xio Derecha",
+    "Fors Wall"
+   ],
+   "_note": "ch382 opens with Xio bringing the Capim mission home to Fors"
+  },
+  "382": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Count Hall"
+   ],
+   "_note": "ch383 continues the Hall breakfast conversation"
+  },
+  "383": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch383 ends with the secret-chamber meeting; ch384 opens at Audrey's tea party"
+  },
+  "384": {
+   "continues": true,
+   "carried_others": [
+    "Derrick Berg"
+   ],
+   "_note": "ch385 continues Derrick's walk to the quarantine training field; Klein's club thread also continues"
+  },
+  "385": {
+   "continues": true,
+   "carried_others": [
+    "Aaron Ceres"
+   ],
+   "_note": "ch386 opens with Derrick home in the City of Silver and Klein parting from Aaron's carriage"
+  },
+  "386": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch387 continues right after Aaron leaves 15 Minsk Street"
+  },
+  "387": {
+   "continues": true,
+   "carried_others": [
+    "Kohler"
+   ],
+   "_note": "ch388 continues the walk with Old Kohler out of Liv's street"
+  },
+  "388": {
+   "continues": true,
+   "carried_others": [
+    "Aaron Ceres"
+   ],
+   "_note": "ch389 continues in Aaron's bedroom straight after the dream shatters"
+  },
+  "389": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch389 ends in Klein's dream; ch390 opens Sunday morning"
+  },
+  "390": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "_note": "ch391 continues the Tarot Gathering mid-exchange"
+  },
+  "391": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "_note": "ch392 continues the gathering; The Sun answers the Hanged Man's question"
+  },
+  "392": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "_note": "ch393 continues the gathering without a break"
+  },
+  "393": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "_note": "ch394 continues the gathering without a break"
+  },
+  "394": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "_note": "ch395 continues the gathering to its close"
+  },
+  "395": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch396 opens with members back in the real world right after the gathering"
+  },
+  "396": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch397 continues Klein's reading of the copied notebook above the fog"
+  },
+  "397": {
+   "continues": true,
+   "carried_others": [
+    "Derrick Berg"
+   ],
+   "_note": "ch398 continues at Derrick's door with Darc knocking"
+  },
+  "398": {
+   "continues": true,
+   "carried_others": [
+    "Derrick Berg",
+    "Darc Regence"
+   ],
+   "_note": "ch399 continues the confrontation in the Berg household"
+  },
+  "399": {
+   "continues": true,
+   "carried_others": [
+    "Derrick Berg"
+   ],
+   "_note": "ch400 continues with Derrick in the detention room after his capture"
+  },
+  "400": {
+   "continues": true,
+   "carried_others": [
+    "Lovia"
+   ],
+   "_note": "ch401 continues in the City of Silver right after Lovia's return to her room"
+  },
+  "401": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch402 continues at Klein's door as the bell rings"
+  },
+  "402": {
+   "continues": true,
+   "carried_others": [
+    "Aaron Ceres",
+    "[tomb keeper]"
+   ],
+   "_note": "ch403 continues at the grave pit outside Grimm Cemetery"
+  },
+  "403": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall",
+    "Lawrence Nord"
+   ],
+   "_note": "ch404 continues with Fors bringing Lawrence to his hotel room"
+  },
+  "404": {
+   "continues": true,
+   "carried_others": [
+    "Mr. A",
+    "Fors Wall",
+    "Xio Derecha",
+    "Glaint"
+   ],
+   "_note": "ch405 continues Mr. A's gathering mid-announcement"
+  },
+  "405": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch406 continues Klein's late-night deliberation above the fog"
+  },
+  "406": {
+   "continues": true,
+   "carried_others": [
+    "Emlyn White",
+    "Utravsky"
+   ],
+   "_note": "ch407 continues inside the Harvest Church"
+  },
+  "407": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall",
+    "Dorian Gray"
+   ],
+   "_note": "ch408 continues at Pritz Harbor with Dorian and Fors"
+  },
+  "408": {
+   "continues": true,
+   "carried_others": [
+    "Talim Dumont"
+   ],
+   "_note": "ch409 continues the Quelaag Club conversation with Talim"
+  },
+  "409": {
+   "continues": true,
+   "carried_others": [
+    "Doris"
+   ],
+   "_note": "ch410 continues from Klein collecting Jurgen at the Doris/Jurgen house"
+  },
+  "410": {
+   "continues": true,
+   "carried_others": [
+    "Kohler"
+   ],
+   "_note": "ch411 continues the coffee-shop meeting with Old Kohler"
+  },
+  "411": {
+   "continues": true,
+   "carried_others": [
+    "Jurgen Cooper"
+   ],
+   "_note": "ch412 continues the police-station interrogation"
+  },
+  "412": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch413 continues the same night, Klein reporting the letters at the police station"
+  },
+  "413": {
+   "continues": true,
+   "carried_others": [
+    "Stuart",
+    "Kaslana",
+    "Lydia",
+    "[private detectives]"
+   ],
+   "_note": "ch414 continues at 15 Minsk Street as Stuart's gun comes up"
+  },
+  "414": {
+   "continues": true,
+   "carried_others": [
+    "Isengard Stanton",
+    "Kaslana"
+   ],
+   "_note": "ch415 continues the activity-room discussion"
+  },
+  "415": {
+   "continues": true,
+   "carried_others": [
+    "Isengard Stanton",
+    "Kaslana"
+   ],
+   "_note": "ch416 continues the fight in the activity room"
+  },
+  "416": {
+   "continues": true,
+   "carried_others": [
+    "Ikanser Bernard"
+   ],
+   "_note": "ch417 continues in Klein's bedroom with the Arrodes mirror"
+  },
+  "417": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Susie",
+    "Escalante",
+    "Hilbert Alucard",
+    "Stephen Hampres"
+   ],
+   "_note": "ch418 continues Audrey's initiation in Escalante's activity room"
+  },
+  "418": {
+   "continues": true,
+   "carried_others": [
+    "Isengard Stanton",
+    "Kaslana"
+   ],
+   "_note": "ch419 continues the breakfast at Stanton's house"
+  },
+  "419": {
+   "continues": true,
+   "carried_others": [
+    "Isengard Stanton",
+    "Kaslana",
+    "Ikanser Bernard"
+   ],
+   "_note": "ch420 continues from Ikanser's news, moving to 6 Edward Street"
+  },
+  "420": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch420 ends with the trio splitting up; ch421 opens with the Nighthawks entering Jason's house"
+  },
+  "421": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch422 continues with Klein in the Minsk Street bathroom"
+  },
+  "422": {
+   "continues": true,
+   "carried_others": [
+    "Aaron Ceres"
+   ],
+   "_note": "ch423 continues the Quelaag Club conversation with Aaron"
+  },
+  "423": {
+   "continues": true,
+   "carried_others": [
+    "Ikanser Bernard"
+   ],
+   "_note": "ch424 continues in the carriage outside the Quelaag Club"
+  },
+  "424": {
+   "continues": true,
+   "carried_others": [
+    "Pallas Negan",
+    "[Wind-blessed guard]",
+    "[Negan's secretary]",
+    "[Negan's mistress]",
+    "[Desire Apostle]"
+   ],
+   "_note": "ch425 continues the assassination at the rose-greenhouse villa"
+  },
+  "425": {
+   "continues": true,
+   "carried_others": [
+    "[Desire Apostle]"
+   ],
+   "_note": "ch426 continues the Desire Apostle's escape from the villa"
+  },
+  "426": {
+   "continues": true,
+   "carried_others": [
+    "[Desire Apostle]"
+   ],
+   "_note": "ch427 continues the sewer confrontation"
+  },
+  "427": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch427 ends at the villa with Lockhart; ch428 opens at the Prime Minister's residence"
+  },
+  "428": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch429 continues the same evening at 15 Minsk Street"
+  },
+  "429": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall"
+   ],
+   "_note": "ch430 opens with Audrey just after Mr. Fool's answer"
+  },
+  "430": {
+   "continues": true,
+   "carried_others": [
+    "Emlyn White",
+    "Utravsky"
+   ],
+   "_note": "ch431 continues the Harvest Church conversation"
+  },
+  "431": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall",
+    "Dorian Gray"
+   ],
+   "_note": "ch432 continues at Lawrence's grave in Grimm Cemetery"
+  },
+  "432": {
+   "continues": true,
+   "carried_others": [
+    "[Creator preacher]"
+   ],
+   "_note": "ch433 continues with the street preacher outside Klein's Black Palm Street room"
+  },
+  "433": {
+   "continues": true,
+   "carried_others": [
+    "Sharron"
+   ],
+   "_note": "ch434 continues the carriage conversation with Sharron"
+  },
+  "434": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch434 ends with Sharron vanishing from the carriage; ch435 opens at 8 p.m. in the Harvest Church"
+  },
+  "435": {
+   "continues": true,
+   "carried_others": [
+    "Carlson"
+   ],
+   "_note": "ch436 continues the Lucky Bar meeting with Carlson"
+  },
+  "436": {
+   "continues": true,
+   "carried_others": [
+    "Talim Dumont"
+   ],
+   "_note": "ch437 continues at the Quelaag Club over Talim's body"
+  },
+  "437": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch438 opens with Klein holding Stanton's letter the same evening"
+  },
+  "438": {
+   "continues": true,
+   "carried_others": [
+    "Edessak Augustus",
+    "[old butler]"
+   ],
+   "_note": "ch439 continues the walk with Prince Edessak at Red Rose Manor"
+  },
+  "439": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Fors Wall",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "_note": "ch440 continues the gathering; the diary reading proper starts at ch440 s2"
+  },
+  "440": {
+   "continues": true,
+   "carried_others": [
+    "Roselle Gustav"
+   ],
+   "_note": "ch441 opens still inside the diary reading (Roselle carried); the gathering resumes at ch441 L11"
+  },
+  "441": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Fors Wall",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "_note": "ch442 continues the gathering"
+  },
+  "442": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch443 continues at Klein's door as the bell rings"
+  },
+  "443": {
+   "continues": true,
+   "carried_others": [
+    "Mike Joseph",
+    "Aaron Ceres",
+    "[veiled woman]"
+   ],
+   "_note": "ch444 continues at Crown Cemetery after the burial"
+  },
+  "444": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch444 ends outside the Steam Cathedral; ch445 opens with Derrick's expedition setting out"
+  },
+  "445": {
+   "continues": true,
+   "carried_others": [
+    "Ikanser Bernard"
+   ],
+   "_note": "ch446 continues the Arrodes dream-report of the tomb exploration"
+  },
+  "446": {
+   "continues": true,
+   "carried_others": [
+    "Ikanser Bernard",
+    "Horamick Haydn"
+   ],
+   "_note": "ch447 continues the tomb exploration replay"
+  },
+  "447": {
+   "continues": true,
+   "carried_others": [
+    "Horamick Haydn",
+    "Ikanser Bernard"
+   ],
+   "_note": "ch448 continues the tomb replay in the dream"
+  },
+  "448": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch448 ends in Klein's dream; ch449 opens at the Hall villa"
+  },
+  "449": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch450 continues from the Machinery Hivemind payout"
+  },
+  "450": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch451 continues that night with the potion concoction"
+  },
+  "451": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch451 ends with Klein asleep; ch452 opens with Xio in Townshend Street"
+  },
+  "452": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch453 continues Klein's interviews at Red Rose Manor"
+  },
+  "453": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch454 continues after Klein's exploration above the fog"
+  },
+  "454": {
+   "continues": true,
+   "carried_others": [
+    "Derrick Berg",
+    "Colin Iliad"
+   ],
+   "_note": "ch455 continues the expedition entering the temple"
+  },
+  "455": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch456 opens with Klein meeting Sharron after leaving home"
+  },
+  "456": {
+   "continues": true,
+   "carried_others": [
+    "Sharron",
+    "Rafter Pound",
+    "[evil spirit]"
+   ],
+   "_note": "ch457 continues the chapel confrontation"
+  },
+  "457": {
+   "continues": true,
+   "carried_others": [
+    "Derrick Berg",
+    "Colin Iliad",
+    "Jack",
+    "Joshua"
+   ],
+   "_note": "ch458 continues the temple confrontation (revealed as Derrick's dream)"
+  },
+  "458": {
+   "continues": true,
+   "carried_others": [
+    "Emlyn White",
+    "Nibbs Odora",
+    "Cosmi Odora"
+   ],
+   "_note": "ch459 continues the underground hall conversation with Lord Nibbs"
+  },
+  "459": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch459 ends in the carpeted room; ch460 opens above the gray fog"
+  },
+  "460": {
+   "continues": true,
+   "carried_others": [
+    "Derrick Berg",
+    "Alger Wilson",
+    "Audrey Hall",
+    "Fors Wall",
+    "[The World]"
+   ],
+   "_note": "ch461 continues the gathering"
+  },
+  "461": {
+   "continues": true,
+   "carried_others": [
+    "Derrick Berg",
+    "Alger Wilson",
+    "Audrey Hall",
+    "Fors Wall",
+    "[The World]"
+   ],
+   "_note": "ch462 continues the gathering; diary reading interlude starts at ch462 L67"
+  },
+  "462": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch463 opens with Klein reacting to the last diary page (reading itself has ended); the gathering resumes at L27"
+  },
+  "463": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "_note": "ch464 continues the gathering to its close"
+  },
+  "464": {
+   "continues": true,
+   "carried_others": [
+    "Emlyn White"
+   ],
+   "_note": "ch465 continues the consultation in Klein's activity room"
+  },
+  "465": {
+   "continues": true,
+   "carried_others": [
+    "Derrick Berg",
+    "Colin Iliad"
+   ],
+   "_note": "ch466 continues at the shattered mural"
+  },
+  "466": {
+   "continues": true,
+   "carried_others": [
+    "Emlyn White",
+    "Nibbs Odora"
+   ],
+   "_note": "ch467 continues Emlyn's ritual in the Odora vault"
+  },
+  "467": {
+   "continues": true,
+   "carried_others": [
+    "Emlyn White"
+   ],
+   "_note": "ch468 continues Emlyn's audience above the gray fog"
+  },
+  "468": {
+   "continues": true,
+   "carried_others": [
+    "Emlyn White"
+   ],
+   "_note": "ch469 continues Emlyn's audience above the fog"
+  },
+  "469": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch470 continues with Klein arriving at Red Rose Manor"
+  },
+  "470": {
+   "continues": true,
+   "carried_others": [
+    "Trissy"
+   ],
+   "_note": "ch471 continues the carriage encounter with Trissy"
+  },
+  "471": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall"
+   ],
+   "_note": "ch472 continues with Audrey reaching her mother's activity room"
+  },
+  "472": {
+   "continues": true,
+   "carried_others": [
+    "Azik Eggers"
+   ],
+   "_note": "ch473 continues the fall out of the oil-painting passage"
+  },
+  "473": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch474 cuts to Red Rose Manor; Klein's escape resumes at L179"
+  },
+  "474": {
+   "continues": true,
+   "carried_others": [
+    "Mr. A",
+    "[hooded figures]"
+   ],
+   "_note": "ch475 continues Klein eavesdropping in the exit hall"
+  },
+  "475": {
+   "continues": true,
+   "carried_others": [
+    "Ince Zangwill"
+   ],
+   "_note": "ch476 continues from Zangwill's disappearance into the spirit world"
+  },
+  "476": {
+   "continues": true,
+   "carried_others": [
+    "Mr. A"
+   ],
+   "_note": "ch477 continues Klein's charge at the altar"
+  },
+  "477": {
+   "continues": true,
+   "carried_others": [
+    "Mr. A"
+   ],
+   "_note": "ch478 continues Klein's flight from the ruined altar"
+  },
+  "478": {
+   "continues": true,
+   "carried_others": [
+    "Mr. A"
+   ],
+   "_note": "ch479 continues the mountain-side fight with Mr. A"
+  },
+  "479": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch479 ends with Edessak's suicide; ch480 opens with the Nighthawks at the ruined altar"
+  },
+  "480": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch481 continues after Klein parts from Azik"
+  },
+  "481": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch481 ends at Sodela Palace; ch482 opens on 31 December at the Harvest Church"
+  }
+ }
+}

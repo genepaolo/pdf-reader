@@ -1,0 +1,23 @@
+{
+ "chapter": 142,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Daxter Guderian"],
+   "setting": "Locked shooting range: Hood Eugen's asylum 'practice' discussed; Klein trades the acting method's outline for Daxter's promise to seek the Telepathist formula",
+   "text_anchor": "Klein obviously couldn't just bring up the Telepathist formula"
+  },
+  {
+   "line_start": 91,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "The Nighthawks' own range: a chilling realization — the Church that destroyed the Antigonus family should hold far more of the Seer pathway than Sequence 9",
+   "text_anchor": "Klein looked outside through the peephole in the door"
+  }
+ ]
+}

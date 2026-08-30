@@ -1,0 +1,50 @@
+{
+ "chapter": 188,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 19,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Qilangos", "[butler]"],
+   "setting": "Baron Gramir's manor: the real baron's neck snapped into a wardrobe; 'Baron Gramir' departs for Duke Negan's ball with invitation in hand",
+   "text_anchor": "Sharp nose, thin eyebrows, slightly droopy cheeks"
+  },
+  {
+   "line_start": 23,
+   "line_end": 61,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall"],
+   "setting": "A cramped Cherwood apartment: hiding from both Qilangos and the authorities, musing on fortuitous encounters and their dangers",
+   "text_anchor": "Backlund, Cherwood Backlund. In a particular cramped apartment."
+  },
+  {
+   "line_start": 65,
+   "line_end": 105,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Qilangos"],
+   "setting": "Duke Negan's grand ball: 'Baron Gramir' greets Audrey — but the wrong cologne note and new confidence scream Qilangos to a full Spectator",
+   "text_anchor": "Duke Negan was in his mansion located in Backlund, Empress Borough"
+  },
+  {
+   "line_start": 109,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Count Hall"],
+   "setting": "A quiet balcony corner: Audrey lays out the discrepancies for her father, whose face turns grave before he sends her to her mother",
+   "text_anchor": "The more Audrey thought about it, the more possible it seemed."
+  },
+  {
+   "line_start": 137,
+   "line_end": 143,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall"],
+   "setting": "Duke Negan's small prayer room: under the Lord of Storms' symbol, Audrey kneels and recites The Fool's honorific name",
+   "text_anchor": "She surveyed the area and changed the direction in which she was heading in."
+  }
+ ]
+}

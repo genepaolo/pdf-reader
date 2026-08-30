@@ -1,0 +1,38 @@
+{
+ "chapter": 302,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 19,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Assignment over with a 50% bonus from generous Rogo: fifteen pounds for a night's exorcism, and sober math about the 3000-pound road to Sequence 6",
+   "text_anchor": "Rogo Colloman was quite generous in the settlement of his pay"
+  },
+  {
+   "line_start": 21,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[hooded Beyonders]",
+    "Eye of Wisdom",
+    "Darkwill",
+    "Stray Dog",
+    "[hooded woman weapon seller]"
+   ],
+   "setting": "A half-empty gathering (the manhunt keeps Beyonders home): the marrow crystal goes to the Apothecary for 298 pounds, sedatives, and a clue — Bishop Utravsky at the Harvest Church; Stray Dog's plea to rescue his imprisoned physician friend meets only heavy silence",
+   "text_anchor": "“On the south side of the Bridge, on Rose Street, at the Harvest Church, find Bishop Utravsky."
+  },
+  {
+   "line_start": 155,
+   "line_end": 157,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Not homeward: a change of clothes in East Borough, then toward the border of North and Hillston Boroughs — where Kapusky Reid lives",
+   "text_anchor": "It was where the suspected member of the Numinous Episcopate, Kapusky Reid, lived."
+  }
+ ]
+}

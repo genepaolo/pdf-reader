@@ -1,0 +1,41 @@
+{
+ "chapter": 149,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 61,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office: Klein spells out the potion-name principle without saying 'acting'; Dunn lights his pipe and 'seems to understand something too'",
+   "text_anchor": "Klein looked at the serious Dunn Smith and smiled suddenly."
+  },
+  {
+   "line_start": 65,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "Armory guard room: a constipation-ritual-ruined Old Neil gratefully hands Klein the watch and flees to the break room",
+   "text_anchor": "Along the silent underground passage, Klein turned to the armory"
+  },
+  {
+   "line_start": 91,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Gawain"],
+   "setting": "The daily grind: lessons, shooting, an oddly agitated Gawain's torture session — then ten more red-chimney houses, none of them the one",
+   "text_anchor": "The Blackthorn Security Company accepted an extra mission in the morning."
+  },
+  {
+   "line_start": 109,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Azik Eggers"],
+   "setting": "Mr. Azik's house: just back from holiday, Azik hears about the baron portrait with his own mole — and asks Klein to take him to the castle",
+   "text_anchor": "Four minutes later, he alighted from the carriage"
+  }
+ ]
+}

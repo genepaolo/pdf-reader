@@ -1,0 +1,50 @@
+{
+ "chapter": 243,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 25,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[tramp]"],
+   "setting": "Wednesday stakeout opposite the Coim Company: a bench outside Gardeley's, a Cyndi Desi pie, iced tea, and Mary Gale's dossier on her husband's suspicious Wednesdays",
+   "text_anchor": "Klein was sitting on a wooden bench outside the Gardeley department store"
+  },
+  {
+   "line_start": 27,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Doragu Gale", "[carriage driver]"],
+   "setting": "The bump-and-plant: a spare button slipped into Doragu Gale's coat pocket, then dowsing-rod pursuit by carriage to a garden-backed house in Hillston Borough",
+   "text_anchor": "Doragu Gale… He silently recited his target's name"
+  },
+  {
+   "line_start": 65,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[club doormen]"],
+   "setting": "The Quelaag Club's marble doorstep: members only, entry by double recommendation — Klein withdraws to Plan B",
+   "text_anchor": "“This is the Quelaag Club. Only our members and up to one of their guests can enter.”"
+  },
+  {
+   "line_start": 85,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "A short-stay hotel room, then above the gray fog (visions only: Doragu Gale romping with his young blonde mistress): adultery confirmed but unphotographable — and a stray divination reveals the threadworm's controller is Seer-pathway, hinting the fog itself is tied to the Seer path",
+   "text_anchor": "This time, he didn't use the dowsing method, but a dream divination!"
+  },
+  {
+   "line_start": 141,
+   "line_end": 149,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Xio Derecha", "Fors Wall", "Glaint"],
+   "setting": "Viscount Glaint's study, the Viscount guarding his own door: Audrey delegates the mission — assassinate Intis ambassador Bakerland Jean Madan",
+   "text_anchor": "“Assassinate the Intis ambassador to the Loen Kingdom, Bakerland Jean Madan.”"
+  }
+ ]
+}

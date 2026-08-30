@@ -1,0 +1,52 @@
+{
+ "chapter": 373,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler",
+    "Liv",
+    "Freja"
+   ],
+   "setting": "Liv's room: the pro-bono pitch breaks through her despair — Daisy vanished from Broken Axe Lane while following Freja home; the tracking token is Daisy's beloved 'vocabulary book', crumpled free-school word lists she hugged in bed and recited at dawn",
+   "text_anchor": "“Daisy’s vocabulary book!”"
+  },
+  {
+   "line_start": 95,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler"
+   ],
+   "setting": "Outside the apartment: standing orders for Old Kohler — track the laid-off textile women who've 'gone off to unknown places', ask less, listen more — and his quiet confession: 'I've lost my child, so I'm very unwilling to see this sort of thing happen…'",
+   "text_anchor": "“I’ve lost my child, so I’m very unwilling to see this sort of thing happen…”"
+  },
+  {
+   "line_start": 111,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[carriage driver]"
+   ],
+   "setting": "Dowsing Rod Seeking with the vocabulary book wrapped around the cane head: northwest, half an hour by carriage to Iris Street — a guarded villa with lawns, fountain and ferocious dogs radiating danger. The driver's casual words name it: the home of the rich and powerful Mr. Capim, rumored trafficker of girls",
+   "text_anchor": "“Sir, are you not here to visit Mr. Capim?”"
+  },
+  {
+   "line_start": 149,
+   "line_end": 175,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "Lawrence Nord"
+   ],
+   "setting": "Coffee-shop booth: Fors gives Lawrence Nord the truth-but-not-whole-truth about Aulisa's death and will; alone afterward he despairs — Laubero dead, Richard killed by the Aurora Order, Sam indifferent — 'Will the Abraham family slowly disappear like this?'",
+   "text_anchor": "Will the Abraham family slowly disappear like this?"
+  }
+ ]
+}

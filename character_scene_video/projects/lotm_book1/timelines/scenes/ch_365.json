@@ -1,0 +1,38 @@
+{
+ "chapter": 365,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 67,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Leonard Mitchell",
+    "[aged voice in Leonard's mind]"
+   ],
+   "setting": "Leonard's single room under the crimson moon: he confronts his 'fortuitous encounter' — a Parasite. The aged voice explains why it won't devour him (Evernight vs Apprentice/Seer pathways), that it hides in the Church to recover, and names its terrible enemy: 'Amon.'",
+   "text_anchor": "“So you’re a Parasite!”"
+  },
+  {
+   "line_start": 71,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[maid]",
+    "[male house owner]"
+   ],
+   "setting": "Riverbay Avenue at dinner time: Klein, disguised by hallucinatory effects as an arrogant policeman ('A Magician had to do what a magician would do!'), surveys the neighbors about Unit 48 — the Whites, kindly bloodletting physicians, and their silent son Emlyn — confirming a family of law-abiding monsters",
+   "text_anchor": "“I have something to ask your master.”"
+  },
+  {
+   "line_start": 137,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Inside the hastily abandoned 48 Riverbay Avenue: moonlit disarray, herb books — and a bedroom full of expensive figurines, from a wax-like golden-haired girl to a palm-sized silver-armored heroine. 'Don't tell me Emlyn is a vampire who is obsessed with figurines?'",
+   "text_anchor": "“These figurines are not cheap!"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "chapter": 100,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 125,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Dream divination above the fog (visions only: Welch, Naya, Hanass Vincent selling the notebook): Clown clues lead to the third man at the trade",
+   "text_anchor": "Clues to the Clown potion."
+  },
+  {
+   "line_start": 127,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Back in the bedroom: Klein prays to himself for the first time and his guided hand draws a lifelike portrait of the third person",
+   "text_anchor": "Back in his bedroom, he lit the gas lamp and 'prayed.'"
+  }
+ ]
+}

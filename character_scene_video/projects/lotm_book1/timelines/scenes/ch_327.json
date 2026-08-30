@@ -1,0 +1,31 @@
+{
+ "chapter": 327,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 39,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Darkwill",
+    "[magician performer]",
+    "[circus audience]"
+   ],
+   "setting": "Dream-recall places the heckler: the Apothecary from Eye of Wisdom's gatherings; the stage magician's misdirection fools even a Seer's eyes, seeding the Magician's second and third rules — command attention, earn the applause",
+   "text_anchor": "The Magician's second rule is fully divert a target's attention"
+  },
+  {
+   "line_start": 41,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[Devil dog]",
+    "[official Beyonders]",
+    "[carriage passengers]"
+   ],
+   "setting": "Yanked into a Beyonders-only battle layer mid-carriage-ride: soulless illusion-passengers all around as the Churches execute the Devil dog under a devouring moon-light — Klein hides behind a paper double, hears one furious snort from an unseen watcher, and the shattered void returns him to reality",
+   "text_anchor": "the gigantic Devil dog would be discovered, executed, and cleansed!"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "chapter": 150,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 15,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Azik Eggers"],
+   "setting": "2 Daffodil Street: Klein tells Melissa he'll be out of town till dawn helping Mr. Azik, who waits with the carriage outside",
+   "text_anchor": "2 Daffodil Street. Klein nodded at Azik"
+  },
+  {
+   "line_start": 17,
+   "line_end": 59,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Azik Eggers"],
+   "setting": "Night ride to Lamud Town and the walk up: at the castle Azik falters in pain, remembering a wife who loved sunlight and a boy who dragged a broadsword",
+   "text_anchor": "Klein bade his sister farewell and left."
+  },
+  {
+   "line_start": 61,
+   "line_end": 171,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Azik Eggers"],
+   "setting": "The castle basement: Azik's blood turns the skeleton crimson — his child's — and a door of faces fails to find the stolen skull; he resolves to leave Tingen and seek his past",
+   "text_anchor": "Just then, Azik stopped muttering and took huge strides through the main gate."
+  }
+ ]
+}

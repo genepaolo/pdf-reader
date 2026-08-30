@@ -1,0 +1,39 @@
+{
+ "chapter": 411,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 39,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler"
+   ],
+   "setting": "The coffee shop again: the bounty is on Mr. Azik himself — the Numinous Episcopate, or Ince Zangwill steering some faction through 0-08; Old Kohler is set to find out who posted it and taught a few Nighthawk conversation tricks before heading for the docks",
+   "text_anchor": "It really is Mr. Azik, not someone sharing the same name…"
+  },
+  {
+   "line_start": 43,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[Stanton's assistant]"
+   ],
+   "setting": "Isengard Stanton's house on the servants' improbable day off: blood, scorch marks and no body in the activity room beside 'The Devil's Legend of Sivellaus Borough'; a killer's gaze pins Klein in place while the assistant accuses him and falls apart into a dismembered corpse — until the police burst in and the gaze vanishes",
+   "text_anchor": "“You… killed… Mr… Stanton…”"
+  },
+  {
+   "line_start": 139,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Jurgen Cooper",
+    "[interrogating officer]"
+   ],
+   "setting": "Chained to a water pipe at Chissak Police Station with an unsurprised Jurgen at his side: the letters will be fetched from Minsk Street — and mid-answer a theory lands, that the Devil dog's hidden master has begun avenging himself on those who took the serial-murder bounty",
+   "text_anchor": "“I won’t say anything until I see my lawyer.”"
+  }
+ ]
+}

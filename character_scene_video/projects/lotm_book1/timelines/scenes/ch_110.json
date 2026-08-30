@@ -1,0 +1,59 @@
+{
+ "chapter": 110,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa"],
+   "setting": "Sunday morning, home on Daffodil Street: quick breakfast, a sleepy Melissa on the stairs mentions Mass at Saint Selena Cathedral; Klein heads to his room",
+   "text_anchor": "After thinking for a while, Klein decided to return home to confirm something."
+  },
+  {
+   "line_start": 43,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: the puppet's vertical-eye paper; the brown-haired young man praying in Jotun): divination confirms the eye is key to the Antigonus treasure",
+   "text_anchor": "Immediately following that, he psyched himself up and took out the ritual dagger"
+  },
+  {
+   "line_start": 113,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Benson"],
+   "setting": "Lunch at home: Melissa dresses up for a household-affairs lecture with Selena and Elizabeth; Benson wrestles with grammar books",
+   "text_anchor": "Klein slept all the way till half-past twelve"
+  },
+  {
+   "line_start": 133,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne", "Dunn Smith"],
+   "setting": "Blackthorn reception hall: Rozanne and Dunn are surprised to see Klein back; Dunn wordlessly leads him toward the office",
+   "text_anchor": "At two in the afternoon, Klein arrived at the Blackthorn Security Company again."
+  },
+  {
+   "line_start": 147,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office: the notebook is reclassified Grade 1 — above both their clearances — and 3-0625's seal has been changed",
+   "text_anchor": "Klein shut the door, and Dunn sniffed his smoking pipe"
+  },
+  {
+   "line_start": 163,
+   "line_end": 169,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Melissa", "Selena", "Elizabeth"],
+   "setting": "Municipal hall: Melissa, Selena and Elizabeth wait for the family-affairs lecture, plotting to sneak out to Harrods if it's boring",
+   "text_anchor": "In the municipal hall."
+  }
+ ]
+}

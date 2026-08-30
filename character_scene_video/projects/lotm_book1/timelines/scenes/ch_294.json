@@ -1,0 +1,32 @@
+{
+ "chapter": 294,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Leppard"],
+   "setting": "Bell-ringing test laps on the finished bicycle behind Leppard's house: design notes, cost targets, patent plans, second payment — and word of next week's Emperor Roselle Memorial Exhibition at the Royal Museum",
+   "text_anchor": "Klein circled the lawn behind Leppard's house a few times on the bicycle"
+  },
+  {
+   "line_start": 51,
+   "line_end": 119,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Alger Wilson", "Tracy", "Cattleya", "[pirates]", "[wandering poet]"],
+   "setting": "The volcanic island meet on the Sonia Sea: pirates flee then swoon as Rear Admiral Ailment Tracy docks the Black Death; Admiral of Stars Cattleya walks a starlight bridge from her sailboat — her celestial globe oddly like the glass bottle Alger once owned",
+   "text_anchor": "Black Death… Alger whispered."
+  },
+  {
+   "line_start": 123,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Susie", "[butler]", "[maids]"],
+   "setting": "Audrey's suburb manor: the 'gift' arrives — two three-meter color-shifting Rainbow Salamanders; mistress and dog wear the exact same stunned expression",
+   "text_anchor": "It was a giant lizard whose skin changed color depending on how the light hit it."
+  }
+ ]
+}

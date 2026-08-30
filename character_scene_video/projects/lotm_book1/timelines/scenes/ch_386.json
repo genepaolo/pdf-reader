@@ -1,0 +1,37 @@
+{
+ "chapter": 386,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 63,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad"
+   ],
+   "setting": "City of Silver: Derrick nerves himself to climb the spire and report Darc's stranger's smile and Lovia's changed speech — but the guard waves him straight up, the Chief only says Aiflor will investigate and to report to the spire's guardian in future; Colin sighs at his back, disappointed",
+   "text_anchor": "“Just these two things?”"
+  },
+  {
+   "line_start": 67,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Home via metro and public carriage: divination confirms the old tenant told the truth, another late night with the Book of Secrets ('What limits me now is my own Sequence'), and a sound sleep rewarded with sugared egg and strawberry jam",
+   "text_anchor": "To reward the Hero Bandit Dark Emperor"
+  },
+  {
+   "line_start": 81,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres"
+   ],
+   "setting": "An early doorbell brings a pale Dr. Aaron with a nightmare: a black steeple ringed by a huge silver snake, walls and locked doors, and Will Auceptin curled in the dark among tarot cards — 'a snake wants to eat me!' — and the paper crane the boy gave him, retrieved into his wallet that very evening",
+   "text_anchor": "“Dr. Aaron, a snake wants to eat me!’"
+  }
+ ]
+}

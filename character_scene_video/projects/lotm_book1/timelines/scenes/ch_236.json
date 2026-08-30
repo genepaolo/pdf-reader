@@ -1,0 +1,14 @@
+{
+ "chapter": 236,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick"],
+   "setting": "Tarot Club, same gathering: The Fool issues his first official mission — assassinate Intis ambassador Bakerland Jean Madan 'for another adorer'; Alger supplies the ambassador's dark dossier, and both Justice and The Hanged Man accept",
+   "text_anchor": "“The task he wants to be completed is the assassination of the Intis Republic ambassador"
+  }
+ ]
+}

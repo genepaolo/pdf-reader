@@ -1,0 +1,32 @@
+{
+ "chapter": 103,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 53,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[librarians]"],
+   "setting": "Deweyville Library: Klein links Sirius Arapis to Welch and Hanass Vincent from the borrowing records, then turns to leave",
+   "text_anchor": "He resides at 19 Howes Street?"
+  },
+  {
+   "line_start": 55,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Sirius Arapis", "[librarians]"],
+   "setting": "Deweyville Library: Sirius himself walks in to return the journals; a librarian panics and Klein shoots him through the oriel window",
+   "text_anchor": "At this moment, he saw a man enter the library with his head hung low."
+  },
+  {
+   "line_start": 119,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Sirius Arapis"],
+   "setting": "Green field and alley behind the library: the wounded, wart-covered Sirius pounces; Klein empties his revolver and beats him down with the cane",
+   "text_anchor": "This was the area lining the back of Deweyville Library's ground floor."
+  }
+ ]
+}

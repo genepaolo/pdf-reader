@@ -1,0 +1,32 @@
+{
+ "chapter": 95,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 39,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["[praying blond teen]"],
+   "setting": "Above the gray fog: a supplicant appears in a crimson star, praying in a tongue akin to Ancient Feysac — perhaps Jotun",
+   "text_anchor": "A prayer? Klein's mind stirred"
+  },
+  {
+   "line_start": 43,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica", "Bogda", "Glacis"],
+   "setting": "The Divination Club mourns Hanass Vincent; the healed Bogda gushes gratitude and mummy-powder plans, with Glacis's ringing endorsement",
+   "text_anchor": "After 'revising' Roselle's diary, Klein changed into his formal wear"
+  },
+  {
+   "line_start": 145,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "18 Vlad Street: the herb store stands closed with a subletting notice — the wary apothecary has already fled",
+   "text_anchor": "18 Vlad Street. Klein stood outside the herb store"
+  }
+ ]
+}

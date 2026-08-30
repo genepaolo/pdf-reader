@@ -1,0 +1,23 @@
+{
+ "chapter": 55,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Anna"],
+   "setting": "Topaz room: the astrolabe and dream divination for Joyce Meyer (with the ominous mountain-palace vision), then the joyful result delivered to Anna",
+   "text_anchor": "Anna, with her beautiful eyes, hesitated for more than ten seconds."
+  },
+  {
+   "line_start": 141,
+   "line_end": 161,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Anna", "Joyce"],
+   "setting": "A carriage to East Borough and the grayish-blue house with the toy windmill: Anna finds Joyce returned, just as divined",
+   "text_anchor": "A two-wheeled carriage steered quickly across the streets"
+  }
+ ]
+}

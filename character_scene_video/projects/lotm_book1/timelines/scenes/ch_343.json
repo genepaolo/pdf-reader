@@ -1,0 +1,50 @@
+{
+ "chapter": 343,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 9,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick", "Fors Wall", "[The World]"],
+   "setting": "The free-discussion tail: sea stories from Alger seed Fors's next pirate romance before The Fool adjourns and naps",
+   "text_anchor": "Klein, whose spirituality was gradually drained, announced the end of the Tarot Gathering."
+  },
+  {
+   "line_start": 13,
+   "line_end": 81,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Fors Wall", "Mr. A", "[hooded Beyonders]", "[Mr. A's attendant]"],
+   "setting": "Mr. A's gathering, subtly wrong — the mountain now a reared snake: Fors's Sun-domain request draws a 9000-pound Band of Light offer; relayed through the fog, The World declines the believer-making ring and sells her Trickmaster for 450 in cash",
+   "text_anchor": "“Pay 450 pounds and you'll get the formula for Trickmaster.”"
+  },
+  {
+   "line_start": 93,
+   "line_end": 111,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Mr. A", "[Mr. A's attendants]"],
+   "setting": "After the guests go: Mr. A collapses on the basement stairs, flesh melting into a skinless shadow-double before reflowing — then kneels sobbing in confession for the Lord's failed descent",
+   "text_anchor": "His flesh and blood melted and mixed into the shadow"
+  },
+  {
+   "line_start": 115,
+   "line_end": 127,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick Berg"],
+   "setting": "City of Silver: torn between honor and survival, Derrick chooses Alger's plan — and begins draining his spirituality to fake the brink of losing control",
+   "text_anchor": "He began practicing the Light Suppliant's Beyonder powers to drain his spirituality"
+  },
+  {
+   "line_start": 131,
+   "line_end": 155,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Annie", "Caitlyn"],
+   "setting": "The art studio: Countess Caitlyn arranges Escalante as psychology tutor twice a week — exactly as the Psychology Alchemists intended, exactly as Audrey hoped; Klein meanwhile confirms tomorrow's gathering and takes a day off",
+   "text_anchor": "“She recommended a psychiatrist named Escalante."
+  }
+ ]
+}

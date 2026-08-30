@@ -1,0 +1,52 @@
+{
+ "chapter": 372,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 39,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White"
+   ],
+   "setting": "Farewell outside 15 Minsk Street: Emlyn hopes never to meet again — then lingers to ask what's cooking (chili peppers 'aren't things fancied by the Sanguine') and to argue the bill, while Klein's mind is already on beef bone radish soup",
+   "text_anchor": "“Chili peppers aren’t things fancied by the Sanguine.”"
+  },
+  {
+   "line_start": 43,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler"
+   ],
+   "setting": "East Borough coffee shop, Thursday: fifteen soli render Old Kohler teary; his report — Aurora Order rumors of praying to the undead Creator among the poor, the crushed textile-workers' strike — and the news that Liv's youngest daughter has gone missing. 'I occasionally do volunteer work too.'",
+   "text_anchor": "“By the way, Liv’s youngest daughter has gone missing.”"
+  },
+  {
+   "line_start": 91,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "[blue-eyed old man]"
+   ],
+   "setting": "A quiet parasol-tree street by the Yosifov Clinic: Fors, hunting inspiration, drifts to her dead mentor Aulisa's Unit 39 — where an old man from Midseashire, calling himself Laubero's elder brother, asks what became of the couple and invites her for coffee",
+   "text_anchor": "“Beautiful lady, do you live in this district? Do you know Laubero and Aulisa?”"
+  },
+  {
+   "line_start": 139,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler",
+    "Liv",
+    "[eldest daughter]"
+   ],
+   "setting": "Liv's humid East Borough room: the widow lifeless among laundry piles, her eldest daughter sobbing self-blame over the secluded alley where little sister vanished — until Liv snaps and screams at her to keep washing",
+   "text_anchor": "“It’s all my fault. I didn’t watch over her properly…"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "chapter": 380,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Hero Bandit",
+   "other_characters": [
+    "Harras",
+    "Katy",
+    "Parker",
+    "Capim"
+   ],
+   "setting": "The blast's aftermath: Capim, Parker and the servants charred dead; Harras — blistering toward loss of control — Exiles the specter and flees without a backward glance at Katy, whom a final Air Bullet releases from her pain",
+   "text_anchor": "The bullet struck Katy in the head, ending her pain."
+  },
+  {
+   "line_start": 81,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "Hero Bandit",
+   "other_characters": [
+    "Belize",
+    "Daisy",
+    "[captive girls]"
+   ],
+   "setting": "The basement: Belize fires his high-pressure steam rifle once and bolts; Air Bullets shatter the Confinement, and an invisible specter runs down both rows of cells throwing iron doors open — Daisy and the girls flee the burning villa toward freedom",
+   "text_anchor": "as though an invisible specter was running to unlock them"
+  },
+  {
+   "line_start": 131,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "Hero Bandit",
+   "other_characters": [
+    "Daisy",
+    "[captive girls]"
+   ],
+   "setting": "From the street the girls look back: atop the evil building stands an imposing figure in full black armor and crown, cape fluttering silently — and, mistrusting the police, they run for a cathedral",
+   "text_anchor": "It was clad in full black armor, and it wore a black crown."
+  },
+  {
+   "line_start": 141,
+   "line_end": 157,
+   "protagonist_present": true,
+   "protagonist_persona": "Hero Bandit",
+   "other_characters": [],
+   "setting": "Curtain call staging: a sweep for clues yields only a tarot deck — the Major Arcana scattered over Capim's corpse, with 'Judgment' and 'The Emperor' laid face-up over the trafficker's eyes",
+   "text_anchor": "he covered Capim’s eyes with the two tarot cards he had specially drawn"
+  },
+  {
+   "line_start": 161,
+   "line_end": 193,
+   "protagonist_present": true,
+   "protagonist_persona": "Hero Bandit",
+   "other_characters": [
+    "Ace Snake",
+    "[golden-eyed man]"
+   ],
+   "setting": "Two demigods converge: Cardinal Ace Snake, Spellsinger of God, and a golden-eyed handsome man who 'lives nearby'; they read the tarot tableau on Capim — then spot the black-crowned figure on a rooftop, who nods, lifts his cape, and vanishes under their noses",
+   "text_anchor": "the “Judgment” card which depicted an Angel blowing a great trumpet, and “The Emperor” card"
+  }
+ ]
+}

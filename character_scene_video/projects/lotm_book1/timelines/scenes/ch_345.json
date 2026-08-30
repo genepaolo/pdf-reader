@@ -1,0 +1,32 @@
+{
+ "chapter": 345,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Eye of Wisdom", "[hooded Beyonders]"],
+   "setting": "The Sun Brooch changes hands: instant desert heat, a headful of Sun-domain spells (Holy Light, Holy Water, Fire of Light, Holy Oath…), 2000 pounds counted thrice — and Eye of Wisdom sends the big spender out first, safe from greedy eyes",
+   "text_anchor": "he saw the sky filled with dancing dots of pure gold light"
+  },
+  {
+   "line_start": 53,
+   "line_end": 81,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Sharron"],
+   "setting": "In the hired carriage Sharron confirms preparations are done — and takes Klein's odd request to have Kaspars bury a box of explosives across the battlefield: 'I just want to put on some fireworks'",
+   "text_anchor": "“I just want to put on some fireworks.”"
+  },
+  {
+   "line_start": 85,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Mike Joseph"],
+   "setting": "Thursday: Mike Joseph invites himself to toast and milk, hiring protection for a sponsored exposé of East Borough — answer tomorrow; then a note materializes on the coffee table: 'Tonight at 10 o'clock. The back door of Bravehearts Bar.'",
+   "text_anchor": "“Tonight at 10 o'clock. We'll meet at the back door of Bravehearts Bar.”"
+  }
+ ]
+}

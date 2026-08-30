@@ -1,0 +1,39 @@
+{
+ "chapter": 274,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[hooded Beyonders]",
+    "Eye of Wisdom",
+    "Darkwill",
+    "[hooded woman weapon seller]"
+   ],
+   "setting": "The auction: Klein outbids for the Axe of Hurricane at 560 pounds (its 50% storm-lightning proc is made for the City of Silver), a Corpse Collector formula sells fast, nobody has Dark Patterned Black Panther spinal fluid, and the Apothecary admits he never checked whether the sewer beast was dealt with",
+   "text_anchor": "“The second weapon is called the Axe of Hurricane."
+  },
+  {
+   "line_start": 125,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "The lightless Black Palm Street apartment, then above the fog: the axe carried up whole — 'The World has sacrificed the weapon to me. You can prepare the bestowment ritual.'",
+   "text_anchor": "he summoned himself and carried the Axe of Hurricane above the gray fog"
+  },
+  {
+   "line_start": 135,
+   "line_end": 145,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg"
+   ],
+   "setting": "City of Silver: Derrick practices sword slashes imagining his new blade — straight sword, broadsword, rapier? The ritual delivers... an axe",
+   "text_anchor": "It was an axe."
+  }
+ ]
+}

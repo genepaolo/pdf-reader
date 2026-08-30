@@ -1,0 +1,60 @@
+{
+ "chapter": 476,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 17,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Ince Zangwill"
+   ],
+   "setting": "Out of the chanting darkness Zangwill returns torn and pus-blistered, having burned the evil god's umbilical cord to escape — and 0-08 records that he is down to precisely 55 percent of his strength",
+   "text_anchor": "with only 55% left"
+  },
+  {
+   "line_start": 21,
+   "line_end": 81,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Kohler"
+   ],
+   "setting": "The haze takes Old Kohler on his way home with his new-year ham: burning face, blocked throat, the memory of a drunk's words about straw falling when the wind blows — the unsmoked cigarette in his fingers, and one last unspoken question. 'Why?'",
+   "text_anchor": "He heard himself ask, “Why?”"
+  },
+  {
+   "line_start": 85,
+   "line_end": 151,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Liv",
+    "Freja",
+    "Daisy"
+   ],
+   "setting": "The laundry apartment: Liv collapses at the door, Freja beside her — money in the hole in the wall, a hospital they can't afford, her last look toward her vocabulary notebook — while at school Daisy is dragged to the cathedral screaming for them both",
+   "text_anchor": "“Mother! Freja!"
+  },
+  {
+   "line_start": 155,
+   "line_end": 159,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [],
+   "setting": "Across East Borough, the docks and the factory district the old fall like felled trees and their neighbours after them — on the Tuesday of the last week of 1349, Backlund is shrouded in haze",
+   "text_anchor": "the light yellow and iron-black fog was like the descent of Death"
+  },
+  {
+   "line_start": 163,
+   "line_end": 185,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mr. A"
+   ],
+   "setting": "Behind the stone wall Klein hears four attendants sacrificed and the dead of the haze pouring into the ritual — weeping, coughing, calling for their mothers; his hand opens and closes seven or eight times, and then he steps out with his revolver raised at the altar",
+   "text_anchor": "“Give up your lives for the Lord,”"
+  }
+ ]
+}

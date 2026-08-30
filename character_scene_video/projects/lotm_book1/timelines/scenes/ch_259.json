@@ -1,0 +1,58 @@
+{
+ "chapter": 259,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 9,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Contract signed, ten pounds advanced, four o'clock appointment set — and a cold steak wolfed down after the client finally leaves",
+   "text_anchor": "After signing a contract with Millet Carter and receiving an advance payment of ten pounds"
+  },
+  {
+   "line_start": 11,
+   "line_end": 29,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mary",
+    "Stelyn Sammer"
+   ],
+   "setting": "Two o'clock: red-eyed Mary confirms the photo, pays the last seven pounds, and storms out with Stelyn struggling to keep up",
+   "text_anchor": "“You're the most efficient and responsible detective I've ever met."
+  },
+  {
+   "line_start": 31,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "A nap, then the map: Williams Street sits at the border of West and Empress Boroughs — a former viscount's property worth thousands",
+   "text_anchor": "Williams Street was at the border of the West Borough and Empress Borough"
+  },
+  {
+   "line_start": 39,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Millet Carter",
+    "[manservant]"
+   ],
+   "setting": "Unit 8 Williams Street, mid-renovation: Millet leads the 'assistant-less' detective to the basement's exposed gray stone door; lantern in hand, Klein enters a stone passageway of rotting ostentatious doors",
+   "text_anchor": "“There's a secret door over there. It was discovered by the workers when they were renovating.”"
+  },
+  {
+   "line_start": 105,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "Beyond the black bifold door: a ten-meter nest of writhing snakes — snake-phobic Klein pleads for help and Miss Bodyguard's arctic wind scatters and frosts them; the upside-down candlesticks suggest a Fourth Epoch structure",
+   "text_anchor": "It was a snake with a triangular head and red floral patterns on its head!"
+  }
+ ]
+}

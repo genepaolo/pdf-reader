@@ -1,0 +1,23 @@
+{
+ "chapter": 108,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Night duty outside Chanis Gate: coffee, Fors Wall's novel — then the Misfortune Cloth Puppet cracks the gate open, unfurls a vertical-eye symbol, and is dragged back",
+   "text_anchor": "Despite not being dawn yet, the well-ventilated but quiet and dark underground"
+  },
+  {
+   "line_start": 163,
+   "line_end": 163,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Leonard Mitchell", "[Sleepless]"],
+   "setting": "Blackthorn second-floor entertainment room: the alarm bell rings and Leonard and the other Sleepless drop their cards and run for the basement",
+   "text_anchor": "Leonard Mitchell and the other Sleepless who were playing cards"
+  }
+ ]
+}

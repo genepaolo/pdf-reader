@@ -1,0 +1,32 @@
+{
+ "chapter": 451,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 67,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "The cold kitchen and a scrubbed iron pot: Hunter's blood, Jimsonweed juice, Dragon Tooth powder and three snake-like Naga hairs turning the brew deep blue, then the pituitary gland and the many-faced diamond — and a blackish-green potion that burps eye-sized bubbles reflecting faces",
+   "text_anchor": "Faceless:"
+  },
+  {
+   "line_start": 69,
+   "line_end": 101,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Behind a locked door: the potion melts face, bones and skin while Klein hauls his psyche back into his body two or three steps short of losing control — Sequence 6 at last, his skin crawling with pale granules until Cogitation smooths them away",
+   "text_anchor": "He was now a Faceless!"
+  },
+  {
+   "line_start": 103,
+   "line_end": 149,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Experiments at the full-length mirror: his own true face, Emlyn White complete with height and scent, Dunn Smith alive again, a magazine actress down to an unconvincing pair of A cups — and the limits of ten centimeters and skin-deep change. 'Good night, Faceless.'",
+   "text_anchor": "Good night, Faceless."
+  }
+ ]
+}

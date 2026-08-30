@@ -1,0 +1,50 @@
+{
+ "chapter": 430,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall"
+   ],
+   "setting": "Alone at her mirror: the Twilight Hermit Order is so hidden that even the Hanged Man never named it, and the Tarot Club is set against it — pride giving way to a colder resolve to reach Sequence 7, then 6, and become her family's last line of defense",
+   "text_anchor": "I’ll be my father, mother, and brothers’ last line of defense!"
+  },
+  {
+   "line_start": 37,
+   "line_end": 75,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson",
+    "[bishop of the Cathedral of Waves]"
+   ],
+   "setting": "Cathedral of Waves in the City of Generosity: a Council of Cardinals telegram orders every Mandated Punisher to watch for the Hero Bandit and tarot rituals; Alger, knowing whose adorer that is, weighs joining the special investigation team and chooses to stay quiet",
+   "text_anchor": "“May the Storm be with you!”"
+  },
+  {
+   "line_start": 79,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Stelyn Sammer"
+   ],
+   "setting": "A thousand pounds simply stuffed into the letterbox with the morning paper — the Machinery Hivemind's discreet reward; outside, Mrs. Sammer's luggage goes into a carriage for a New Year at Desi Bay and Seville, while Klein claims he's off to Midseashire",
+   "text_anchor": "he confirmed that there was a total of 1000 pounds"
+  },
+  {
+   "line_start": 121,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White"
+   ],
+   "setting": "Harvest Church: Emlyn proudly offers his intelligence on Jason Beria and is handed the morning paper instead — the Duke assassinated, the killer dead, the Aurora Order 'claiming' it; the vampire doesn't read newspapers, he's busy — and Klein has the money for both ingredients now",
+   "text_anchor": "“When can you give them to me?”"
+  }
+ ]
+}

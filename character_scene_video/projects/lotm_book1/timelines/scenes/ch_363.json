@@ -1,0 +1,48 @@
+{
+ "chapter": 363,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Amon"
+   ],
+   "setting": "The counter-exorcism: fog-power poured through the Sun Brooch condenses a golden figure — too chaotic at 10% strength, until the Dark Emperor card's high-level authority steadies it into a twelve-black-winged colossus that blasts Amon's skeletal grasping hand off the crimson star's boundary",
+   "text_anchor": "on its back, it grew pairs of enormous pitch-black wings. There were a total of twelve pairs!"
+  },
+  {
+   "line_start": 83,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Derrick Berg",
+    "Amon"
+   ],
+   "setting": "Derrick basks in the City of Silver's first successful secret deed in two millennia, receives Sun-domain knowledge — then is shown what had been coiled around his spirit: 'Praise you, the mighty Mr. Fool!'",
+   "text_anchor": "“Praise you, the mighty Mr. Fool!”"
+  },
+  {
+   "line_start": 115,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Amon"
+   ],
+   "setting": "Somewhere in the deep darkness, above a ravine and a rotting one-eyed giant: the real Amon pinches his crystal monocle, smiles — 'As expected… The Fool.' — and leaps into the dark",
+   "text_anchor": "“As expected…” … “The Fool.”"
+  },
+  {
+   "line_start": 139,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Threat eliminated, urgency doubled: a mere clone was this terrifying — the Magician's remaining rules must be found, and fast",
+   "text_anchor": "For a mere clone to be so bizarre and terrifying, one can imagine how powerful his main body is…"
+  }
+ ]
+}

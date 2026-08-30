@@ -1,0 +1,32 @@
+{
+ "chapter": 64,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 109,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Susie"],
+   "setting": "Audrey's bathroom ritual: cleansing bath (and accidental nap), the altar of four candles, and the chant to The Fool that draws a dark red star",
+   "text_anchor": "After instructing her golden retriever, Susie, Audrey paced around"
+  },
+  {
+   "line_start": 113,
+   "line_end": 129,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Alger Wilson", "[sailors]"],
+   "setting": "The Blue Avenger: Alger puzzles over The Fool's descriptions and orders anchorage at the Rorsted Archipelago",
+   "text_anchor": "The King of Yellow and Black who wields good luck…"
+  },
+  {
+   "line_start": 133,
+   "line_end": 183,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Rozanne"],
+   "setting": "Public carriage (the ethereal calling and four black dots) then Blackthorn Security: Dunn hands over the warrant for Tris the Instigator",
+   "text_anchor": "On the public carriage toward Zouteland Street"
+  }
+ ]
+}

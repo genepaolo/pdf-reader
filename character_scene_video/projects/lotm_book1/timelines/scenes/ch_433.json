@@ -1,0 +1,39 @@
+{
+ "chapter": 433,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 27,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[Creator preacher]"
+   ],
+   "setting": "Street preaching about the coming apocalypse and the Creator's sanctuary; Klein refuses to be recruited and walks on past whole clusters of laid-off workers being consoled by strangers — deciding to hand it all to the Machinery Hivemind",
+   "text_anchor": "“I don’t know, and I don’t want to know!”"
+  },
+  {
+   "line_start": 29,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[bartender]",
+    "Ian"
+   ],
+   "setting": "Bravehearts Bar at noon: Kaspars Kalinin is dead, 'suffocated in his own bedding' — the Rose School venting — and the new dealer in Billiard Room 3 is Ian, back from Pritz Harbor, who gives two free answers: nobody can find any believer of The Fool, and the bounty on Azik Eggers was posted by MI9",
+   "text_anchor": "“MI9.”"
+  },
+  {
+   "line_start": 113,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "In the rental carriage, mourning the loss of the only Beyonders he could speak to unmasked — until Sharron is simply sitting opposite him in her Gothic dress ('I'll knock on the window next time'), reports the High-Sequence Beyonder gone, warns that the Primordial Moon and the Chained God are enemies, and answers the real question: yes, she knows where a Human-skinned Shadow characteristic is",
+   "text_anchor": "“Miss Sharron, do you always appear all of a sudden like this?”"
+  }
+ ]
+}

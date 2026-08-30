@@ -1,0 +1,29 @@
+{
+ "chapter": 465,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White"
+   ],
+   "setting": "Invented statistics — 30 no answer, 68 disasters, 2 successes — fail to shake the vampire, who insists that a forced faith is no faith and that this is for all Sanguine; he leaves thanking Klein and deducting the consultation fee from the suitcase and tin box",
+   "text_anchor": "“this is the last pride of a Sanguine.”"
+  },
+  {
+   "line_start": 75,
+   "line_end": 159,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad",
+    "Joshua"
+   ],
+   "setting": "Testing the loop: Derrick fakes hearing the child's plea, and Colin's silver serpents find nothing — then at the Rose Redemption mural he sees a silver-haired, many-winged angel standing over a river that curls back into its own source, and swings the Axe of Hurricane at it",
+   "text_anchor": "A cycle! This creates a cycle!"
+  }
+ ]
+}

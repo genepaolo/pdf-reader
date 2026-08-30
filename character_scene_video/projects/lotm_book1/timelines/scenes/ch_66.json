@@ -1,0 +1,32 @@
+{
+ "chapter": 66,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 73,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "The armory: Assassin-to-Instigator puzzle, the Theosophy Order file, and Old Neil's sketch of the Demoness Sect",
+   "text_anchor": "Sequence 8: Instigator. They are adept at triggering the evil desires"
+  },
+  {
+   "line_start": 75,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Benson", "Melissa"],
+   "setting": "Home in the evening: beer and lemon cakes for the siblings, dinner together, Klein waiting for them to sleep",
+   "text_anchor": "As he had earned nearly two soli from yesterday's divination"
+  },
+  {
+   "line_start": 99,
+   "line_end": 141,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Tris", "[black-robed woman]"],
+   "setting": "A dark corner of the harbor at night: a Demoness Sect envoy hands Tris the bronze Witch formula",
+   "text_anchor": "West Borough. Iron Cross Street Lower Street."
+  }
+ ]
+}

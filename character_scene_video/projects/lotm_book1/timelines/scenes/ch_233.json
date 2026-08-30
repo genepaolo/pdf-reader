@@ -1,0 +1,32 @@
+{
+ "chapter": 233,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Maric", "[zombie card players]", "Kaspars Kalinin"],
+   "setting": "The card room and corridor of the Bravehearts Bar: pale Maric — who plays poker with a table of zombies — hears 'I offended a big shot backed by a country', declares the mission priceless and throws Klein out; Kaspars will keep asking around",
+   "text_anchor": "a living person was playing cards with more than ten corpses"
+  },
+  {
+   "line_start": 67,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Curtained bedroom on Minsk Street (visions only: Ian asleep under his satchel in a cramped doss room): the dream divination locates nothing useful, so Klein stages a written alibi — 'I don't know Ian Wright's whereabouts'",
+   "text_anchor": "After washing up, Klein didn't waste any charcoal."
+  },
+  {
+   "line_start": 107,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: golden replay of Xio's exorcism by the white-masked Sun believer and her study meeting with the golden-masked man): the new crimson star's sun-gold core explains the warm current — the purification unknowingly kept Xio's channel open",
+   "text_anchor": "he realized that the core position of the newly added crimson star had been dyed with a sun-like gold"
+  }
+ ]
+}

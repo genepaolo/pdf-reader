@@ -1,0 +1,29 @@
+{
+ "chapter": 441,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 9,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Closing the pages on 'Cheek': if the Primordial Demoness was once male, then that pathway's femininity lives in its characteristics, and every characteristic may trace back to the Creator — conserved, never increased",
+   "text_anchor": "Cheek? Was the Primordial Demoness also a man in the past?"
+  },
+  {
+   "line_start": 11,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Alger Wilson",
+    "Audrey Hall",
+    "Derrick Berg",
+    "Fors Wall",
+    "[The World]"
+   ],
+   "setting": "Trading resumes: the Werewolf characteristic sold for 1,200 pounds, Naga hair at 100 a strand, Audrey's Psychiatrist ingredients sought through two new channels (the Psychology Alchemists and the Abrahams) — and when Alger circles toward the Duke's assassination, The Fool warns that the organization's name must never be spoken or written outside: any mention of it will be known",
+   "text_anchor": "“Any mention of it will be known.”"
+  }
+ ]
+}

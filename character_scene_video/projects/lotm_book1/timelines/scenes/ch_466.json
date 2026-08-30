@@ -1,0 +1,56 @@
+{
+ "chapter": 466,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad",
+    "Haim"
+   ],
+   "setting": "The mural's river shatters and nothing changes — Derrick blames a child-shaped shadow, survives the Demon Hunter's dark-green scrutiny, and is ordered to stay at the Chief's side; the mural was not the key",
+   "text_anchor": "“What were you doing?”"
+  },
+  {
+   "line_start": 35,
+   "line_end": 111,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad",
+    "Jack"
+   ],
+   "setting": "Sixth loop: Jack begs to be sent home to Enmat Harbor — proof of a way to the outside world, and a route that runs back past the Giant King's Court — then bares a chest set with three people's eyes, nose and mouth, arranged into the mural angel's face; 'Rose Redemption!' is no incantation, and the loop resets",
+   "text_anchor": "“My home, my home is at Enmat Harbor!”"
+  },
+  {
+   "line_start": 113,
+   "line_end": 149,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad",
+    "Jack"
+   ],
+   "setting": "Seventh loop, played carefully: Derrick points out the resemblance quietly, and Colin assembles it — Amon's time-worm, a river of fate, the eight Kings of Angels, sons of god — and names the face. 'Angel of Fate, Tail-devourer Ouroboros.'",
+   "text_anchor": "“Angel of Fate, Tail-devourer Ouroboros.”"
+  },
+  {
+   "line_start": 153,
+   "line_end": 167,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Emlyn White",
+    "Nibbs Odora"
+   ],
+   "setting": "Evening in the Odora vault: Emlyn accepts the Ancestor's mission, and is asked about his unfulfilled last wishes — which nearly unmakes his knees. 'We can begin now.'",
+   "text_anchor": "“Lord Nibbs, I accept the Ancestor’s mission!”"
+  }
+ ]
+}

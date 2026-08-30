@@ -1,0 +1,23 @@
+{
+ "chapter": 190,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 141,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Qilangos", "Pallas Negan"],
+   "setting": "The assassination at the ball: the chandelier falls, but Duke Negan is himself a fearsome Beyonder — 'Imprison! Flog! Death!' — Qilangos burns abilities, sows panic, and blasts out a window",
+   "text_anchor": "In Duke Negan's mansion, in the dancing hall."
+  },
+  {
+   "line_start": 143,
+   "line_end": 149,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Ace Snake", "Alger Wilson"],
+   "setting": "A gale delivers Archbishop Ace Snake and his Mandated Punishers — with Alger among them, arriving to shattered windows and an escaped admiral",
+   "text_anchor": "After a while, there was gale blowing towards Duke Negan's mansion."
+  }
+ ]
+}

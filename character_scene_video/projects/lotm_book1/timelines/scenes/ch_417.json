@@ -1,0 +1,43 @@
+{
+ "chapter": 417,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Ikanser Bernard",
+    "Isengard Stanton"
+   ],
+   "setting": "Arrodes demands its turn — Ikanser guesses Red Light's true name wrong and takes a lightning bolt for it — yet greets Klein's touch with 'Your loyal and humble servant, Arrodes, at your service'; afterwards Stanton sets the plan: families gathered, the three of them living normally under secret protection",
+   "text_anchor": "“Your loyal and humble servant, Arrodes, at your service.”"
+  },
+  {
+   "line_start": 115,
+   "line_end": 167,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall"
+   ],
+   "setting": "Audrey times her prayer before the initiation; Klein — now confined to the bathroom for his fog trips under Machinery Hivemind watch — sends the twelve-winged paper angel, which leaves her speechless and delighted, then goes back to wondering how to cover the bullet hole in his wall",
+   "text_anchor": "This is an angel, Mr. Fool’s angel!"
+  },
+  {
+   "line_start": 171,
+   "line_end": 215,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Susie",
+    "Escalante",
+    "Hilbert Alucard",
+    "Stephen Hampres"
+   ],
+   "setting": "One candle in Escalante's activity room: Hilbert Alucard's gold-tinged, vertical-pupiled questioning binds Audrey's answers — and she volunteers her sincerity, that she bought the Spectator formula at a Beyonder gathering (which she privately calls the Tarot Gathering)",
+   "text_anchor": "“I once purchased the Spectator formula at a Beyonder gathering."
+  }
+ ]
+}

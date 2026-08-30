@@ -1,0 +1,32 @@
+{
+ "chapter": 324,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 65,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Count Hall", "Hibbert Hall", "[Countess Hall]", "[dining maid]"],
+   "setting": "Grace at the Hall table interrupted twice by the fog: 'Card of Blasphemy' and a 3000-pound thank-you from the 'adorer'; over breakfast Count Hall relays the twelfth murder and the comic eyewitness who fled screaming — Audrey wishes that poor man sweet dreams",
+   "text_anchor": "“That was a Card of Blasphemy made by Roselle.”"
+  },
+  {
+   "line_start": 69,
+   "line_end": 99,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Max Livermore", "Horamick Haydn", "[Machinery Hivemind members]"],
+   "setting": "The looted study: Archbishop Horamick Haydn clears the aristocratic visitors, reads two opposed intruders in the residue — one perhaps above his own Sequence — and grasps the truth: 'We've been tricked by Roselle for more than 150 years…'",
+   "text_anchor": "“We've been tricked by Roselle for more than 150 years…”"
+  },
+  {
+   "line_start": 103,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Aftermath housekeeping: the Dark Emperor card and Master Key stored above the fog, the escape reviewed clue by clue — and a fresh letter from Isengard Stanton waits in the mailbox",
+   "text_anchor": "The letter was from Isengard Stanton."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "chapter": 166,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Basement stairway: Dunn briefs him — the examiner is high-ranking deacon Crestet Cesimir, the 'Goddess's Sword', waiting in the alchemy room",
+   "text_anchor": "There was a cold breeze blowing from the basement"
+  },
+  {
+   "line_start": 39,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Crestet Cesimir"],
+   "setting": "The alchemy room: Crestet's darkness and discord tests probe Klein's mastery and soul — passed; now an oath to the Goddess before secrets are shared",
+   "text_anchor": "Very quickly, Klein saw a secret door under the light of the elegant gas lamps"
+  }
+ ]
+}

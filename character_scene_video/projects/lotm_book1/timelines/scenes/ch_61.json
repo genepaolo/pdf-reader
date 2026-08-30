@@ -1,0 +1,50 @@
+{
+ "chapter": 61,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson"],
+   "setting": "The Tarot Gathering closes: the honorific incantation awes Justice and The Hanged Man, casual news is exchanged, and the two are dismissed",
+   "text_anchor": "The Fool that doesn't belong to this era… Audrey Hall recited"
+  },
+  {
+   "line_start": 91,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Alone above the gray fog: Klein studies the strange incomplete symbol on the Seat of Honor and explores the boundless palace before descending",
+   "text_anchor": "He stood up and turned toward his own chair"
+  },
+  {
+   "line_start": 113,
+   "line_end": 131,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Susie", "[maid]"],
+   "setting": "Backlund, Empress Borough: Audrey digests the gathering, then catches Susie observing her exactly like a Spectator",
+   "text_anchor": "Backlund, Empress Borough."
+  },
+  {
+   "line_start": 135,
+   "line_end": 139,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Alger Wilson"],
+   "setting": "The captain's quarters on the Sonia Sea: Alger wakes and ponders the ancient existence",
+   "text_anchor": "On the Sonia Sea, in the heavily protected captain's quarters."
+  },
+  {
+   "line_start": 143,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Klein's bedroom: he records the diary pages from memory, burns the notes, and readies himself for the Divination Club",
+   "text_anchor": "Klein, who had exited the ritual, pulled open the curtains."
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "chapter": 276,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 119,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Rafter Pound"],
+   "setting": "29 Sivellaus Street, across from the Yard itself: a clown-painted intruder quizzes drunken Baronet Rafter Pound — faceless servants who searched the house for years — then Slumber-Charms him for dream-walking and spirit channeling; all answers ring true",
+   "text_anchor": "His face was painted red, yellow, and white, looking like the funniest clown!"
+  },
+  {
+   "line_start": 121,
+   "line_end": 127,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Rafter Pound"],
+   "setting": "After the window clicks shut, Rafter Pound's eyes snap open — ringed with ruptured capillaries — and fix on the open oriel window",
+   "text_anchor": "Around those light blue eyes, there was a circle of ruptured capillaries!"
+  },
+  {
+   "line_start": 129,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog with Rafter's stolen hairs: sidestepping the six gods' entanglement, Klein divines 'Rafter Pound's future' to confirm the past",
+   "text_anchor": "“Rafter Pound's future.”"
+  }
+ ]
+}

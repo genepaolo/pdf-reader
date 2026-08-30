@@ -1,0 +1,28 @@
+{
+ "chapter": 448,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Horamick Haydn",
+    "Ikanser Bernard",
+    "[Machinery Hivemind members]",
+    "Amon"
+   ],
+   "setting": "The tomb's last secrets: a mural of a cross-crowned god attended by angels, two twelve-winged angels bearing black-haired and blond babies — 'Amon.' … 'Adam…' — destroyed by the archbishop's own hand; then a doorway that opens onto black mist and endless depth ('The Abyss…'), which his wrist-cannon reduces to powder",
+   "text_anchor": "“The Abyss…”"
+  },
+  {
+   "line_start": 145,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "The replay collapses to the silver mirror hanging in midair — 'Yes, the mighty existence above the spirit world' — leaving Klein wary of an over-eager servant that has half-sensed the gray fog, and looking forward to tomorrow's pick from the spoils",
+   "text_anchor": "“Your loyal servant, Arrodes, has finished reporting"
+  }
+ ]
+}

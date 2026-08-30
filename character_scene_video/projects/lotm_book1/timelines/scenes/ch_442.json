@@ -1,0 +1,62 @@
+{
+ "chapter": 442,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Alger Wilson",
+    "Fors Wall",
+    "Audrey Hall",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "setting": "The Hanged Man explains how Beyonder characteristics pass to children (three or four would clear Fors's excess), coaches The Sun for the return expedition to the Fallen Creator's temple — with The Fool adding only 'Flesh and blood, ravings.' — and hears Audrey on the post-Negan deadlock in the House of Lords",
+   "text_anchor": "“Flesh and blood, ravings.”"
+  },
+  {
+   "line_start": 125,
+   "line_end": 131,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall"
+   ],
+   "setting": "At her mirror, Audrey plans her approach to Escalante about the Human-skinned Shadow and scolds herself onward — Susie is already Sequence 8",
+   "text_anchor": "Susie is already a Sequence 8, so you can’t let her overtake you!"
+  },
+  {
+   "line_start": 135,
+   "line_end": 139,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall"
+   ],
+   "setting": "Fors paces, then writes to Dorian Gray about the wanted Human-skinned Shadow characteristic, the Wind-blessed formula, and her curiosity about Roselle's notebook",
+   "text_anchor": "began to write to Dorian Gray"
+  },
+  {
+   "line_start": 143,
+   "line_end": 149,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson"
+   ],
+   "setting": "In the City of Generosity, Alger heads for a secret underground market after Deep-sea Naga hair — and a Human-skinned Shadow if one turns up",
+   "text_anchor": "His target was the hair of a Deep-sea Naga."
+  },
+  {
+   "line_start": 153,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Still short of cash and weighing whether to sell the Interrogator characteristic elsewhere rather than wait on Miss Xio — when the doorbell breaks the afternoon silence",
+   "text_anchor": "I’m short on money…"
+  }
+ ]
+}

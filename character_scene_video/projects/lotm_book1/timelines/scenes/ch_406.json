@@ -1,0 +1,49 @@
+{
+ "chapter": 406,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 53,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Mr. A"
+   ],
+   "setting": "Above the gray fog, weighing whether to report Mr. A's gathering (and doom a room of innocents to Aurora corruption) — until the joyous, helpless truth lands: 'There's only one believer and adorer of The Fool! And that's me!' The answer sent down is two words: don't worry",
+   "text_anchor": "“There’s only one believer and adorer of The Fool! And that’s me!”"
+  },
+  {
+   "line_start": 57,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Fors Wall",
+    "True Creator"
+   ],
+   "setting": "Fors learns the Aurora Order serves the True Creator — so this is god against god — reports Lawrence's death, notebook and characteristic, is told to 'follow the true desires in your heart', and trades 600 pounds for the Sheriff characteristic",
+   "text_anchor": "“Follow the true desires in your heart.”"
+  },
+  {
+   "line_start": 93,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Counting cash at the mottled table: 1,230 pounds, still short for one Sequence 6 ingredient — so the Werewolf characteristic will be sold far away in the Sonia Sea through Mr. Hanged Man, with The World brokering and a commission attached",
+   "text_anchor": "Where else can I get money these days?"
+  },
+  {
+   "line_start": 113,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Utravsky",
+    "Emlyn White"
+   ],
+   "setting": "Wednesday: Desi pie and sweet iced tea, then a count of every ingredient channel he has — including one vampire; at the Harvest Church, Emlyn polishes candle lamps looking like he'd rather be dead until he spots Klein: 'You came here suddenly because you have something you need my help with, right?'",
+   "text_anchor": "as though he would rather be dead"
+  }
+ ]
+}

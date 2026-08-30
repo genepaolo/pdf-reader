@@ -1,0 +1,50 @@
+{
+ "chapter": 122,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 53,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Frye"],
+   "setting": "Klein's living room at dusk: the dream house described; Leonard's elimination trick pins the search to southwest West Borough by the river",
+   "text_anchor": "2 Daffodil Street. Inside the living room that was painted with the luster of dusk."
+  },
+  {
+   "line_start": 57,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Frye", "[carriage driver]"],
+   "setting": "Carriage along the twilight Tussock River: the grayish-blue building found; Leonard and Frye stay to watch while Klein rides for the Captain",
+   "text_anchor": "The two-wheeled carriage slowly drove along the muddy road."
+  },
+  {
+   "line_start": 119,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Darkened Blackthorn Security Company: Klein briefs Dunn, who takes him along — observe from fifty meters, no closer",
+   "text_anchor": "36 Zouteland Street."
+  },
+  {
+   "line_start": 149,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Leonard Mitchell", "Frye"],
+   "setting": "Night by the Tussock River: Klein watches from a distance as Dunn, Leonard and Frye melt into the darkness toward the monster-like house",
+   "text_anchor": "The sun sank beneath the horizon, and the surging Tussock River turned eerie"
+  },
+  {
+   "line_start": 163,
+   "line_end": 171,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Trissy"],
+   "setting": "Unlit second-floor bedroom of the grayish-blue building: blood seeps from Trissy's ground silver mirror — she walks to the window in silence",
+   "text_anchor": "On the second floor of the grayish-blue building, in the bedroom without any lights."
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "chapter": 361,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 69,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick Berg", "[split-headed monster]"],
+   "setting": "The voice behind him: the old captain mutated — head split in halves, wounds full of speaking teeth ('Look, am I not normal…'); Derrick's prayed pillar of light births a featureless man of light who melts the horror, until a monocled phantom in a pointed hat flashes and everything whites out",
+   "text_anchor": "“Look, am I not normal…”"
+  },
+  {
+   "line_start": 71,
+   "line_end": 155,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick Berg", "Colin Iliad"],
+   "setting": "Chief Colin Iliad, bone-sword in hand over a ten-ringed translucent worm: the captain was deliberate bait to expose Amon's design, and Derrick's Sun pathway triggered it; released home, Derrick reports all to Mr. Fool — and in his sleep his finger taps the bed: once, twice, thrice…",
+   "text_anchor": "“It was close…”"
+  },
+  {
+   "line_start": 159,
+   "line_end": 171,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Post-gathering planning: the Magician's missing rules must be found fast — audience applause as digestion fuel to be tested — when layered illusory pleas interrupt",
+   "text_anchor": "he heard a series of illusory, stacked pleas."
+  }
+ ]
+}

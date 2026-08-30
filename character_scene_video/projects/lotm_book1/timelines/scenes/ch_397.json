@@ -1,0 +1,37 @@
+{
+ "chapter": 397,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 65,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "The second chapter above the fog: 'Yellow Light' Venithan, his emerald and astromancy, his prophecy of stars falling within two hundred years, and the Abraham curse to be lifted by an Apprentice aided by a hidden existence — after which the family's true doom begins; then back to the real world, a letter to Leppard about the bicycle patent, and a hard count of 624 pounds against Faceless ingredients",
+   "text_anchor": "“Focus as the stars fall from the cosmos, shattering the lands."
+  },
+  {
+   "line_start": 69,
+   "line_end": 95,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Xio Derecha",
+    "Fors Wall"
+   ],
+   "setting": "Home from East Borough: Xio hears that both Sheriff ingredients can be had for 600 pounds and immediately runs out of money — 310 in hand, Glaint to be asked, and Fors quietly offering to cover the rest. 'Fors, you're the best.'",
+   "text_anchor": "“Why are we all so poor?”"
+  },
+  {
+   "line_start": 99,
+   "line_end": 147,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg"
+   ],
+   "setting": "City of Silver: stuck on how to know when he's watched, Derrick asks and is answered — touch the item, three heartbeats, follow the black lines; convulsing, snot and tears, he sees them converge on a shadow in the corner — then a knock: Darc, quarantine lifted, offering to share the expedition's tale",
+   "text_anchor": "“Touch the item in the iron box. Do not exceed three heartbeats."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "chapter": 282,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Fors Wall"
+   ],
+   "setting": "Leaving the corpse-professor's gathering: Mr. Fool's colored vision of the wolf-faced priest-robed man reaches Audrey (visions only: the tall suspect); in the carriage she plays the patient Spectator and arranges the clue's handoff to Xio",
+   "text_anchor": "Accompanying Mr. Fool's solemn voice were scenes that looked like a film reel"
+  },
+  {
+   "line_start": 39,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler"
+   ],
+   "setting": "Dawn in the yellow fog: Klein watches a starving vagabond eat a gutter apple core — and turns 'reporter' to buy him a hot meal, hear how a worker becomes a ghost of East Borough, and leave him copper pennies and fifteen minutes of warm sleep",
+   "text_anchor": "“I haven't eaten in almost three days.”"
+  },
+  {
+   "line_start": 139,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Stelyn Sammer",
+    "Luke Sammer",
+    "[luncheon guests]"
+   ],
+   "setting": "The Sammers' Sunday luncheon, ten guests and three bottles from Luke's cabinet: Stelyn tallies the cost aloud and prescribes the 430-pound life",
+   "text_anchor": "“It cost a total of 4 pounds and 8 soli."
+  },
+  {
+   "line_start": 157,
+   "line_end": 169,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Xio Derecha"
+   ],
+   "setting": "Workers Alliance Tavern, East Balam Dock: bearded, boot-heightened Xio nurses a rye beer watching for the portrait's face — and the door opens on a patron nearly two meters tall",
+   "text_anchor": "The patron who entered was nearly two meters tall!"
+  }
+ ]
+}

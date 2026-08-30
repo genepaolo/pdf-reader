@@ -1,0 +1,32 @@
+{
+ "chapter": 214,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 69,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein Moretti",
+   "other_characters": ["[pickpocket]"],
+   "setting": "Backlund at last: Klein steps off the train into the Land of Hope's yellow haze, shakes a pickpocket at the station exit, and plans his lodging over a newspaper and map",
+   "text_anchor": "He took a firm step onto the ground of the Loen Kingdom's capital, Backlund."
+  },
+  {
+   "line_start": 71,
+   "line_end": 113,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein Moretti",
+   "other_characters": ["[cashier]"],
+   "setting": "Backlund Metro entrance: Klein marvels at a steam-age metro, buys a second-class ticket from the golden-haired cashier, and heads down to the platform",
+   "text_anchor": "That was the Backlund Metro's entrance."
+  },
+  {
+   "line_start": 115,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein Moretti",
+   "other_characters": ["[teenage boy fugitive]", "[black-coated pursuers]", "[train conductor]"],
+   "setting": "Metro carriage bound for Cherwood Borough: a thin boy apologizes his way toward third class with black-coated men rushing in after him",
+   "text_anchor": "He didn't wait long before he heard the chugging sound of the train and the thunderous steam whistle."
+  }
+ ]
+}

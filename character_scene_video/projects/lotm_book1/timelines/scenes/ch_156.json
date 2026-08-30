@@ -1,0 +1,50 @@
+{
+ "chapter": 156,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 13,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Nighthawks' range, wrapping up: paying double for the Clown formula stings, but support-class Klein is happy to keep guarding Chanis Gate",
+   "text_anchor": "And I'm paying double for the Clown's formula"
+  },
+  {
+   "line_start": 15,
+   "line_end": 17,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Morning after the shift: no news from the Hood Eugen surveillance; breakfast and sleep till noon",
+   "text_anchor": "The next morning when he ended his shift and left Chanis Gate"
+  },
+  {
+   "line_start": 19,
+   "line_end": 67,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Benson", "Melissa", "Elizabeth"],
+   "setting": "Lunch at home: Elizabeth visits; Melissa, once opposed to a maidservant, produces a six-point hiring requirements list",
+   "text_anchor": "He woke up naturally, washed up, and walked to the first floor"
+  },
+  {
+   "line_start": 69,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Benson", "Melissa", "Elizabeth", "[attendant]"],
+   "setting": "Tingen Family Servant Assistance Association: Benson negotiates, three candidates are picked for cooking trials, and Elizabeth quizzes Klein on divination",
+   "text_anchor": "After lunch, the four of them took a public carriage"
+  },
+  {
+   "line_start": 139,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa"],
+   "setting": "Home stairs: Melissa, taking the long view, advises Klein to work harder if he wants to get engaged to Elizabeth — news to Klein",
+   "text_anchor": "On the way back, Klein was getting uncomfortable"
+  }
+ ]
+}

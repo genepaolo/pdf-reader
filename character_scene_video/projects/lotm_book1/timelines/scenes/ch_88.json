@@ -1,0 +1,41 @@
+{
+ "chapter": 88,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Benson", "Melissa"],
+   "setting": "The hired carriage home: middle-class respectability talk while Melissa watches Klein with narrowed eyes",
+   "text_anchor": "What is it? Benson asked casually."
+  },
+  {
+   "line_start": 35,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Dunn Smith"],
+   "setting": "Blackthorn at night: Klein reports the mirror possession and Hanass Vincent — and learns his initiation mission awaits tomorrow",
+   "text_anchor": "Going up the stairs, Klein arrived at the Blackthorn Security Company"
+  },
+  {
+   "line_start": 79,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Benson"],
+   "setting": "Home: Klein feeds Melissa a careful cover story and steers her toward the orthodox faiths",
+   "text_anchor": "Exiting the stairway, he suddenly sensed something."
+  },
+  {
+   "line_start": 145,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne", "Bredt", "Dunn Smith"],
+   "setting": "Monday morning, Dunn's office: Hanass Vincent died in his sleep — and Dunn saw the upside-down crucified man in his dream",
+   "text_anchor": "On Monday morning at eight, in the Blackthorn Security Company."
+  }
+ ]
+}

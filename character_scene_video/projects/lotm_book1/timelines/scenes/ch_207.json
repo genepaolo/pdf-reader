@@ -1,0 +1,32 @@
+{
+ "chapter": 207,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "The corridor confession: the Law of Beyonder Characteristics Indestructibility — Dunn consumes his fallen partners' remains so Adelaide, Dwayne, Hitte and Kenley can keep fighting beside him in his dreams",
+   "text_anchor": "Dunn sighed."
+  },
+  {
+   "line_start": 93,
+   "line_end": 113,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Megose", "Leonard Mitchell"],
+   "setting": "The reception sofa: Megose claws bloody strips from her own face, smiling too wide — 'my child is a little restless'",
+   "text_anchor": "On the sofa in the receptionist area"
+  },
+  {
+   "line_start": 115,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Dunn Smith"],
+   "setting": "Three minutes to descent: Leonard takes the Blood Vessel Thief, and Dunn walks out first with Saint Selena's ashes — 'We're guarding Tingen City'",
+   "text_anchor": "After entering the corridor, Leonard stared deeply at the box of ash"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "chapter": 366,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Above the gray fog from the doll-filled bedroom (visions only: the puppet craftsman, Emlyn White gazing affectionately at his figurines): divining the big doll's origin — Emlyn truly is a figurine fanatic — then 'scenes of death in ten years' returns nothing: a law-abiding vampire family",
+   "text_anchor": "No one had died in the last ten years at 48 Riverbay Avenue!"
+  },
+  {
+   "line_start": 39,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Riverbay Police Station archives (sneaked in among thieves and drunkards, gas lamp lit with no light leaking) — ten years of missing-persons records: nothing; then home to Minsk Street to pen the opening move, a tip-off letter to Detective Stuart placing Emlyn on Tuteva Street",
+   "text_anchor": "“Dear Detective Stuart,"
+  },
+  {
+   "line_start": 67,
+   "line_end": 121,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson"
+   ],
+   "setting": "Captain's cabin of the Blue Avenger on the Sonia Sea: Alger finally digests the Seafarer potion and sketches his ambition — hidden advancement to Ocean Songster, a secret return to an ancient island, a Cardinal's robe — and wonders about the face-down card beside Mr. Fool's hand",
+   "text_anchor": "After nearly four months, his Seafarer potion had finally been digested!"
+  },
+  {
+   "line_start": 125,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "15 Minsk Street at bedtime: Klein's Seer intuition flags days of 'forgetting' to divine the Werewolf characteristic and Biological Poison Bottle — the Rose School's Chained God may punish deduction — so tomorrow's test will be the bottle alone",
+   "text_anchor": "This was the spiritual intuition of a Seer!"
+  }
+ ]
+}

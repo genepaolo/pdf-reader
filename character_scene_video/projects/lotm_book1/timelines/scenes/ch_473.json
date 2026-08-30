@@ -1,0 +1,51 @@
+{
+ "chapter": 473,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Azik Eggers",
+    "Ince Zangwill",
+    "[gold-masked demigod]"
+   ],
+   "setting": "Dropped into an underground ruin beside a bottomless ravine: Azik tells him to run and names the Sequence he once held so long — Undying — while Ince Zangwill steps from a bronze door of grasping arms, a gold-masked demigod forbids teleportation, and the curse laid on the fleeing detective simply fails against a thin gray fog",
+   "text_anchor": "“That Sequence’s name is Undying.”"
+  },
+  {
+   "line_start": 73,
+   "line_end": 119,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[armored guards]"
+   ],
+   "setting": "Wearing Ince Zangwill's face and height, Klein walks through three checkpoints on nerve alone — then bluffs the last door, hands over a 'pass' and dives through the ghostly-blue light, leaving a guard holding a slip of paper that reads 'Happy New Year!'",
+   "text_anchor": "“Happy New Year!”"
+  },
+  {
+   "line_start": 123,
+   "line_end": 133,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Ince Zangwill"
+   ],
+   "setting": "Over the black bubbling crevice, Zangwill is not afraid of Azik but of his own artifact — and finds the quill has slipped from his pocket and is happily writing that in a fierce battle his belt might snap and his pants drop",
+   "text_anchor": "“… In a fierce battle, there would always be a variety of accidents"
+  },
+  {
+   "line_start": 135,
+   "line_end": 171,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[armored guards]"
+   ],
+   "setting": "Through into a second guardroom, orders given in Zangwill's voice — then the alarm arrives, a paper substitute takes the lightning sword, two purifying bullets take the guard, and Klein comes out of the corner wearing that guard's face and armor, running off to warn everyone about 'Ince Zangwill'",
+   "text_anchor": "He was going to notify every guard along the way that there was a problem with Ince Zangwill!"
+  }
+ ]
+}

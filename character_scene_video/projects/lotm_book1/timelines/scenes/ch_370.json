@@ -1,0 +1,45 @@
+{
+ "chapter": 370,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 39,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White"
+   ],
+   "setting": "Outside Unit 48: the stunned Sanguine haggles — see the patient first, and a greater bounty plus 'the friendship of the Sanguine' if the Mental Terror Candle's seed can be removed — then rushes to his figurines while Klein muses whether Vampire Ancestor Lilith is the primitive moon",
+   "text_anchor": "“… and the friendship of the Sanguine.”"
+  },
+  {
+   "line_start": 41,
+   "line_end": 91,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Evening at 15 Minsk Street: six soli and a dry, precise thank-you letter from Jurgen Cooper for the cat-sitting; then the reply to Detective Stuart is drafted — Emlyn found, a Harvest Church 'volunteer' — to be hand-delivered tomorrow for the sake of early payment",
+   "text_anchor": "“Jurgen Cooper.”"
+  },
+  {
+   "line_start": 95,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Wednesday: nostalgic Desi seafood fried rice, then performance lessons — enemies and participants shape the act; the Tudor-ruins evil spirit and Will Auceptin's tarot card weighed and shelved — and an afternoon studying the Book of Secrets by the fireplace",
+   "text_anchor": "This is truly a moving and nostalgic taste…"
+  },
+  {
+   "line_start": 143,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Stuart"
+   ],
+   "setting": "Noon doorbell: Detective Stuart, thin and bearded, arrives in reverent excitement — 'You really are a great detective!' — and Klein feels his potion digest a little: an audience of one, applauding",
+   "text_anchor": "“You really are a great detective with abundant resources and channels."
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "chapter": 202,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 9,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "The copper whistle again: the bone messenger takes the letter to Azik and rains away",
+   "text_anchor": "After folding the letter, Klein took out the copper whistle"
+  },
+  {
+   "line_start": 11,
+   "line_end": 55,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: the pendulum confirms Dunn's abnormality WILL endanger Klein — but the divination on its cause returns only fog",
+   "text_anchor": "Klein felt much calmer after finishing everything"
+  },
+  {
+   "line_start": 57,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Royale Reideen"],
+   "setting": "Morning at Blackthorn: a hollow-eyed Dunn relays the 4000-pound compensation for Kenley's family; shift change with Royale in silence",
+   "text_anchor": "The next morning, Klein was on duty at Chanis Gate"
+  },
+  {
+   "line_start": 101,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Chanis Gate duty: four black dots on his hand — members are praying, and must wait",
+   "text_anchor": "He sat in the duty room and occasionally took out his silver pocket watch"
+  },
+  {
+   "line_start": 109,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Bella", "Melissa", "Benson"],
+   "setting": "Home next morning: theater tickets go on sale today; the siblings head to Mass while Klein eats and retreats upstairs",
+   "text_anchor": "Having just fished his keys to open the door to his house"
+  },
+  {
+   "line_start": 129,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: Justice praying from her bath, Alger's parallel request): both ask leave — the next Gathering is canceled",
+   "text_anchor": "After he did the preparatory work, he took four steps counterclockwise"
+  },
+  {
+   "line_start": 155,
+   "line_end": 171,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick", "Lloydia"],
+   "setting": "City of Silver training field: the cancellation reaches Derrick under the eyes of the increasingly strange Shepherd elder, Lloydia",
+   "text_anchor": "City of Silver."
+  },
+  {
+   "line_start": 175,
+   "line_end": 183,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Shaken awake by a giant white-bone hand: Azik's reply lands on the bed",
+   "text_anchor": "Klein returned to his bedroom, threw himself into bed"
+  }
+ ]
+}

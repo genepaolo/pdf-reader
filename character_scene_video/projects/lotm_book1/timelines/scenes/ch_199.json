@@ -1,0 +1,23 @@
+{
+ "chapter": 199,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Sharon", "Dunn Smith", "Kenley White"],
+   "setting": "The battle's end: tarot cards pin the demoness, the Spirit Medium Mirror shows Sharon her own rotting face, and three bullets finish her — but Kenley is gone. 'Perhaps the next one to die would be me'",
+   "text_anchor": "The beating heart, the yellowish-green liquid"
+  },
+  {
+   "line_start": 153,
+   "line_end": 185,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Mediumship over Sharon's corpse (visions only: Sharon handing Trissy a bronze book; a white-robed lady preaching 'advance towards the Primordial'): the Demoness Sect's shape emerges",
+   "text_anchor": "Klein didn't tarry. He took out the various ingredients"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "chapter": 116,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 53,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Christina", "Megose"],
+   "setting": "Divination Club exit: Christina reveals her niece Megose is pregnant with Lanevus's child; Megose's serene ravings about the unborn baby unsettle Klein",
+   "text_anchor": "Christina didn't notice the seer's blank look."
+  },
+  {
+   "line_start": 57,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne"],
+   "setting": "Blackthorn reception next morning: Klein and Rozanne read the wanted notice — Lanevus, ten thousand pounds, spectacles and a mocking smirk",
+   "text_anchor": "The next morning, Klein entered Blackthorn Security Company, greeted Rozanne"
+  },
+  {
+   "line_start": 97,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Frye", "Seeka Tron", "Dunn Smith"],
+   "setting": "Past the partition: Frye and Seeka head out to a West Borough paranormal case; Dunn keeps Klein off missions until his combat training is done",
+   "text_anchor": "Then, he saw the pale and cold Corpse Collector Frye"
+  },
+  {
+   "line_start": 119,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Henry"],
+   "setting": "Henry's Private Detective Company on Friday: second payment buys a name — Daxter Guderian, doctor at the Greenhill Mental Asylum",
+   "text_anchor": "The days passed by peacefully until Friday."
+  }
+ ]
+}

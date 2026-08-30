@@ -1,0 +1,51 @@
+{
+ "chapter": 280,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Xio Derecha",
+    "Zeon"
+   ],
+   "setting": "An East Borough corner: disguised-as-a-boy Xio grills drunken Zeon — Gavin, another Lanevus-hunter, 'drowned' in the Tussock after canvassing the Workers Alliance Tavern at East Balam Dock; the killer's pattern is a lunatic's",
+   "text_anchor": "“Gavin! Gavin was found to have drowned in the Tussock River this morning!"
+  },
+  {
+   "line_start": 51,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Jurgen Cooper",
+    "[thieves and drunkards]",
+    "[police constable]"
+   ],
+   "setting": "Rice Police Station again: Jurgen springs the 'good citizen who handed in a found revolver' free without a search — two pounds now, one pound a visit under their new formal partnership",
+   "text_anchor": "“You can leave after signing your name,”"
+  },
+  {
+   "line_start": 105,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Lanevus"
+   ],
+   "setting": "Above the gray fog: Justice reports the killings around the Lanevus search; divination points to the Dharavi Street crime scene — where the killer likely still watches — and Klein resolves to hunt him using Rosago's All-Black Eye threads",
+   "text_anchor": "“Honorable Mr. Fool, there's been a problem with the investigation of Lanevus…”"
+  },
+  {
+   "line_start": 161,
+   "line_end": 171,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Bearded and unrecognizable before the mirror: 'Captain, this is the first step to avenging both you and me' — and the reflection grins back",
+   "text_anchor": "“Captain, this is the first step to avenging both you and me.”"
+  }
+ ]
+}

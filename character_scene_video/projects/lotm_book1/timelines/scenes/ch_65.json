@@ -1,0 +1,14 @@
+{
+ "chapter": 65,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 122,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "The underground armory: Old Neil fetches Chanis Gate documents and Klein studies the Sequence pathways — Zaratul, Seafarer, Telepathic, Savant, Instigator",
+   "text_anchor": "With a document signed by Dunn, Klein went underground"
+  }
+ ]
+}

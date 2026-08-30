@@ -1,0 +1,32 @@
+{
+ "chapter": 222,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Doris", "[her grandson]"],
+   "setting": "15 Minsk Street, Thursday morning: Detective Moriarty's first clients — old Madam Doris and her formally dressed grandson — hire him for 5 soli to find Brody the missing black cat",
+   "text_anchor": "A rope was being tugged, causing the doorbell and the sound it made to constantly tinkle"
+  },
+  {
+   "line_start": 49,
+   "line_end": 91,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Doris", "Jurgen Cooper"],
+   "setting": "58 Minsk Street: a covert cane divination points at the old cupboard — Brody darts out, and \"Inference, my good man\" seals the detective's first solved case",
+   "text_anchor": "“Jurgen, Jurgen Cooper, a senior solicitor,” the young man replied."
+  },
+  {
+   "line_start": 93,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Ian"],
+   "setting": "Back at 15 Minsk Street: the red-eyed boy from the metro chase — Ian — hires Moriarty over the disappearance of his former detective, Mr. Zreal Viktor Lee",
+   "text_anchor": "“You can call me Ian,” the teenage boy surveyed his surroundings"
+  }
+ ]
+}

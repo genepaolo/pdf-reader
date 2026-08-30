@@ -1,0 +1,39 @@
+{
+ "chapter": 436,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Carlson"
+   ],
+   "setting": "Over beer at the Lucky Bar: the price for the tomb is one item of his choosing from the spoils, argued from scripture and informant relations until Carlson admits 'the real you is completely different from what I remember'",
+   "text_anchor": "“God said to let those who wish to be strong, be strong."
+  },
+  {
+   "line_start": 73,
+   "line_end": 125,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Ikanser Bernard",
+    "Carlson"
+   ],
+   "setting": "Deal struck in the billiard room — nothing cursed among the choices — and the location given: a hidden tomb at the Stratford River mouth by White Cliff Town, the Amon family of the Tudor Dynasty; walking out, Klein notes Roselle never wrote the Twilight Hermit Order's name even in Chinese, and resolves to warn Miss Justice never to speak it",
+   "text_anchor": "“Amon…”"
+  },
+  {
+   "line_start": 127,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Talim Dumont"
+   ],
+   "setting": "Quelaag Club: a flushed, happy Talim asking what it's like to really like someone, thanked for the Framis Cage introduction and promising a food tour after the new year — then a heavy thud, a hand clamped over his heart, foam on his lips, and in seconds he is a corpse",
+   "text_anchor": "In just a few seconds, he had turned into a dead corpse."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "chapter": 270,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 31,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Talim Dumont"],
+   "setting": "The club's underground range: near-perfect revolver groupings, then trainee-knight Talim flipped flat on his back in one exchange — the friend needing protection is Daily Observer reporter Mike Joseph",
+   "text_anchor": "Holding onto a revolver that he rented from the Quelaag Club"
+  },
+  {
+   "line_start": 33,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Talim Dumont", "Mike Joseph"],
+   "setting": "Over cream cheese lobster: Mike's serial-killer scoop — eleven women dead, all former street girls except sixteen-year-old Siber of the Golden Rose; he hires Klein as escort for his brothel visit, one pound quiet or five with a fight",
+   "text_anchor": "“11! Another lady killed! Sivellaus Yard is helpless!”"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "chapter": 134,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 21,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office: Klein lays more 'acting method' groundwork; Dunn files his own application for Sealed Artifact 3-0782",
+   "text_anchor": "Captain, that's the exact question I wanted you to ask!"
+  },
+  {
+   "line_start": 23,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Frye", "Dunn Smith"],
+   "setting": "Waking Frye from his nap, then the reception hall: Dunn returns with the dark-gold Mutated Sun Sacred Emblem; Frye will drive",
+   "text_anchor": "After Klein knocked thrice, Frye opened the door"
+  },
+  {
+   "line_start": 53,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Frye"],
+   "setting": "Lamud Town castle ruins at sunset: the black-armored knight wraith attacks — Dunn traps it in a dream past the Sacred Emblem's one-minute limit; then something miserable calls from the stairs",
+   "text_anchor": "When the rays of the setting sun dyed the pinnacle of the town's cathedral"
+  }
+ ]
+}

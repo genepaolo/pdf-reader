@@ -1,0 +1,27 @@
+{
+ "chapter": 261,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "Door by door: humanoid statues of Mother Earth, the Lord of Storms, the Eternal Blazing Sun, the God of Combat and the God of Knowledge and Wisdom — six orthodox gods housed together under one Fourth Epoch roof; the central door remains, which Miss Bodyguard reads as 'very dangerous, but the danger is subdued — don't touch anything'",
+   "text_anchor": "“The Sacred Emblem of Mother Earth…”"
+  },
+  {
+   "line_start": 89,
+   "line_end": 181,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "The central passage: collapse both ways except a cracked door onto bone piles glowing with Beyonder characteristics before a blood-wet bifold door — then Azik's whistle turns death-cold, black worms erupt from Klein's arm, a devouring shadow chases them out. Miss Bodyguard's verdict: an evil spirit",
+   "text_anchor": "What surged out from his wound wasn't blood, but tiny black squirming worms!"
+  }
+ ]
+}

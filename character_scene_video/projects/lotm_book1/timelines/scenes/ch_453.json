@@ -1,0 +1,34 @@
+{
+ "chapter": 453,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 69,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[curly-haired maid]"
+   ],
+   "setting": "Interviewing the manor's servants: the sixth maid lets slip that the lady has been trying to meet him for weeks — including at Talim's funeral, where she laid the prince's flowers — and her own brown curls identify her as the ring-wearer's attendant. Klein cuts the interviews short and leaves before the lady returns from riding",
+   "text_anchor": "… Damn, it’s really her!"
+  },
+  {
+   "line_start": 71,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "In the carriage back: the prince's beloved commoner is Talim's murderer, but nothing about her fits — how does a prince confine someone of that level, and why does she keep seeking him out? The answer is to bury the question, resign the commission soon, and disappear south for a while",
+   "text_anchor": "it was Prince Edessak’s beloved commoner lady who had cursed Talim…"
+  },
+  {
+   "line_start": 95,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the fog after advancing (visions only: himself granule-covered, wrapped in a thin unseen layer of gray fog that now silences the 'Hornacis… Flegrea…' ravings): out past the palace he finds a four-step staircase of pure light rising toward a suspended layer of fog he cannot yet reach or see past",
+   "text_anchor": "a flight of stairs that seemed to lead to heaven!"
+  }
+ ]
+}

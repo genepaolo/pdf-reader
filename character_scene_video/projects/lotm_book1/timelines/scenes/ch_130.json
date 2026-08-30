@@ -1,0 +1,50 @@
+{
+ "chapter": 130,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 57,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil", "Swain"],
+   "setting": "Pier after the kill: the weight all guardians carry; Old Neil's zombie story and a lesson in trusting teammates before they part ways",
+   "text_anchor": "Klein looked at Swain standing before the monster's corpse"
+  },
+  {
+   "line_start": 59,
+   "line_end": 101,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Benson"],
+   "setting": "Home on Daffodil Street: Benson's alarming cooking settles it — the Morettis will hire a maidservant",
+   "text_anchor": "He boarded the carriage quickly and returned to Daffodil Street."
+  },
+  {
+   "line_start": 105,
+   "line_end": 125,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Annie"],
+   "setting": "Guest bedroom at Glaint's residence: Audrey delightedly dons a black hooded robe and veil while Annie guards the room",
+   "text_anchor": "Backlund, Empress Borough, Viscount Glaint's residence."
+  },
+  {
+   "line_start": 127,
+   "line_end": 133,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint"],
+   "setting": "Side door and carriage: the hooded Audrey and Glaint ride ten minutes to the secret gathering house",
+   "text_anchor": "Glaint stood amidst the shadows as he glanced at Audrey"
+  },
+  {
+   "line_start": 135,
+   "line_end": 175,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint", "Fors Wall", "Xio Derecha", "Mr. A"],
+   "setting": "Backlund's secret Beyonder gathering: tiny Tribunal Xio Derecha drops a blade, and inside the crowded house Fors points out the repulsive-eyed leader, Mr. A",
+   "text_anchor": "Outside the house, Audrey saw Apprentice Fors Wall"
+  }
+ ]
+}

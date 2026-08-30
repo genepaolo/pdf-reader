@@ -1,0 +1,30 @@
+{
+ "chapter": 419,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Isengard Stanton",
+    "Kaslana"
+   ],
+   "setting": "Breakfast and pipe smoke: Stanton reasons that a Devil who cannot divine must have investigated them in person, leaving traces everywhere — 'wherever he steps, whatever he touches… will serve as a silent witness against him' — and names the Sealed Artifact being activated against him, 1-42, a blood-stained silver armor that once emptied a city",
+   "text_anchor": "“Its code name is 1-42.”"
+  },
+  {
+   "line_start": 91,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Isengard Stanton",
+    "Kaslana",
+    "Ikanser Bernard"
+   ],
+   "setting": "Quiet talk in the repaired activity room, Kaslana pegged as Arbiter-pathway and left unasked; then last wishes traded like death flags — a tombstone reading 'She had a great mother', remains sent to Lenburg, and Klein's plea to be buried intact — until Ikanser arrives: 'There's a clue to the Desire Apostle!'",
+   "text_anchor": "“There’s a clue to the Desire Apostle!”"
+  }
+ ]
+}

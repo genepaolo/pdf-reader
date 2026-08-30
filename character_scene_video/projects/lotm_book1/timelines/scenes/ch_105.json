@@ -1,0 +1,32 @@
+{
+ "chapter": 105,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Ritual circle around Sirius's corpse (visions only: Sirius writing the Clown formula, the Hanged Giant pendulum): Klein channels the spirit and is violently expelled",
+   "text_anchor": "Klein twisted open the golden bottle's cap and brought it to his nose."
+  },
+  {
+   "line_start": 109,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Leonard Mitchell", "Kenley White"],
+   "setting": "The cordoned scene behind the library: Dunn, Leonard and Kenley arrive; Klein recounts the trail and hands over Sirius's letter — Aurora Order suspected",
+   "text_anchor": "After a while, Klein saw Captain Dunn and his partners, Leonard and Kenley."
+  },
+  {
+   "line_start": 167,
+   "line_end": 179,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Home on Daffodil Street: the exhausted Klein naps on the sofa, then gets up to cook Tomato Oxtail Soup before his siblings return",
+   "text_anchor": "After leaving the Daffodil Street Library, Klein nearly fell asleep in the carriage"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "chapter": 90,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [
+    "Tolle",
+    "Gate",
+    "Sir Deweyville",
+    "Cullen"
+   ],
+   "setting": "The master bedroom: Spirit Vision shows overlapping white figures clinging to Deweyville — resentment of the dead, dressed up as a 'psychological illness'",
+   "text_anchor": "Sir Deweyville's bedroom was larger than the living room"
+  },
+  {
+   "line_start": 95,
+   "line_end": 107,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [
+    "Sir Deweyville"
+   ],
+   "setting": "Curtains drawn: Deweyville laid to sleep while Klein enters dream divination from the rocking chair",
+   "text_anchor": "After watching them leave the room one after another"
+  },
+  {
+   "line_start": 109,
+   "line_end": 211,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [
+    "Sir Deweyville"
+   ],
+   "setting": "The communion with the resentments (visions only: the lead-poisoned girls Charlotte, Mary, Lafayette, and silent Hayley) while Deweyville sleeps",
+   "text_anchor": "A sad sob reverberated in Klein's ear"
+  }
+ ]
+}

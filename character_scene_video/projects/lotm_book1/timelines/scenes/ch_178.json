@@ -1,0 +1,41 @@
+{
+ "chapter": 178,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 65,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall"],
+   "setting": "The cemetery council: lodge a police report and let the whole city hunt Qilangos, while deducing his purpose from the clues — Xio even promises to repay the stone",
+   "text_anchor": "Call the police? Fors Wall repeated in surprise."
+  },
+  {
+   "line_start": 69,
+   "line_end": 93,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall", "Susie"],
+   "setting": "Outside Count Hall's manor: Xio 'rules' a lecherous black dog away from Susie, who nearly thanks them aloud",
+   "text_anchor": "Outside Count Hall's luxurious manor."
+  },
+  {
+   "line_start": 97,
+   "line_end": 103,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall"],
+   "setting": "The piano room: Audrey reads the report — one death already — and waits for the Tarot Club with her plan",
+   "text_anchor": "A melodic tune slowly came to a halt"
+  },
+  {
+   "line_start": 105,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick"],
+   "setting": "Tarot Gathering: the Qilangos progress shared; Alger wins permission to report findings by reciting The Fool's name",
+   "text_anchor": "Three in the afternoon."
+  }
+ ]
+}

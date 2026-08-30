@@ -1,0 +1,59 @@
+{
+ "chapter": 174,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 31,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Tolle"],
+   "setting": "Guest room: Tolle inspects the cane mark, decides it's survivable, and begs Klein to stay on site until Madam Sharon's statement is taken",
+   "text_anchor": "What? The bearlike Tolle jumped in shock"
+  },
+  {
+   "line_start": 33,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "A darkened rest room: Cogitation to settle the new potion, musings on acting as a Clown, and a coin ruling out supernatural causes in Maynard's death",
+   "text_anchor": "In the dim and silent bedroom, he slowly walked over to the rocking chair"
+  },
+  {
+   "line_start": 65,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Tolle"],
+   "setting": "The door again: Sharon's statement taken — alcohol, a heart attack, and flight; the widow Maynard has arrived, to Tolle's dismay",
+   "text_anchor": "Under the slow and rhythmic knocking, Klein tidied his clothing"
+  },
+  {
+   "line_start": 99,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Tolle", "Mrs. Maynard", "Sharon"],
+   "setting": "Downstairs: Mrs. Maynard screams lawsuits while Madam Sharon plays the trembling fawn — Spirit Vision shows her emotions calm rational blue",
+   "text_anchor": "Harsh remarks entered Klein's ears, and he looked over subconsciously."
+  },
+  {
+   "line_start": 125,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne"],
+   "setting": "Back at Zouteland Street: an uneventful Chanis Gate night, claims paperwork, and Rozanne-procured pastry for breakfast",
+   "text_anchor": "After taking over the shift from the Captain"
+  },
+  {
+   "line_start": 137,
+   "line_end": 173,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Daxter Guderian"],
+   "setting": "The shooting range meeting: Hood Eugen is truly insane — and his repeat visitor 'El' turns out to be Lanevus",
+   "text_anchor": "In the small shooting range, Klein and Daxter aimed at their own targets"
+  }
+ ]
+}

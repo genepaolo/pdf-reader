@@ -1,0 +1,19 @@
+{
+ "chapter": 240,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[hooded Beyonders]",
+    "Darkwill",
+    "Eye of Wisdom",
+    "Black Snake"
+   ],
+   "setting": "The iron-mask gathering: the fat-faced apothecary hires a sewer-beast cleaner; old Eye of Wisdom pays 400 pounds for Meursault's crimson 'jelly'; no one dares bodyguard against a Sequence 6 — so Black Snake tempts Klein with an ominous item that lets one hear the voice of a great being. Deal.",
+   "text_anchor": "“I repeat, I need someone to clean up the newly appeared beast in the sewers."
+  }
+ ]
+}

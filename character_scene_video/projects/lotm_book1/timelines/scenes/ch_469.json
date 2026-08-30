@@ -1,0 +1,59 @@
+{
+ "chapter": 469,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 53,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Emlyn White"
+   ],
+   "setting": "The Moon pays in history: the Blood Moon Queen Auernia, wife of the Night Emperor, before whom Augustus and Einhorn said 'Your Majesty' — and the War of the Four Emperors that killed her and drove the Sanguine into the mountains; the eager lecture is cut short and traded forward, and the secret-deed ritual is granted",
+   "text_anchor": "our queen, Blood Moon Queen, Auernia"
+  },
+  {
+   "line_start": 57,
+   "line_end": 63,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Emlyn White",
+    "Utravsky"
+   ],
+   "setting": "At the Harvest Church, oddly relaxed, Emlyn notices something he never had: Father Utravsky has never once stopped him from hunting for a cure",
+   "text_anchor": "What exactly is on his mind…"
+  },
+  {
+   "line_start": 67,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler"
+   ],
+   "setting": "The greasy coffee shop: two pounds paid in advance for the 'holiday' weeks ahead, and warnings — take no risks in a restless East Borough, and get Liv's family somewhere safe if anything breaks out",
+   "text_anchor": "“Watch out for Liv’s family."
+  },
+  {
+   "line_start": 109,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Emlyn White"
+   ],
+   "setting": "Among his dolls behind drawn curtains, Emlyn performs the secret deed — glimpsing the shadows, the seven lights, the fog and a golden black-winged figure — and screams, smoking green, as the psychological cue burns away under the Sun Brooch",
+   "text_anchor": "“Your psychological cue has been lifted.”"
+  },
+  {
+   "line_start": 141,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Divinations about visiting Red Rose Manor return nothing at all, today or tomorrow — proof enough of what waits there — so the decision is made unaided: go now, and exit the stage before it becomes impossible",
+   "text_anchor": "I have to decide on my own…"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "chapter": 206,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "The basement corridor: weighing the three Grade 2 artifacts — Inexhaustible Poison, Door of Death — and choosing 2-105, the Blood Vessel Thief, for Leonard",
+   "text_anchor": "In the corridor within the deep and serene basement"
+  },
+  {
+   "line_start": 49,
+   "line_end": 67,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Seeka Tron"],
+   "setting": "Chanis Gate: Seeka Tron fetches the blood-tainted vessel through a crack in the gate, blessing them all",
+   "text_anchor": "My dear Poet, it's time for you to show your true secret"
+  },
+  {
+   "line_start": 71,
+   "line_end": 79,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Leonard Mitchell", "Megose"],
+   "setting": "The reception hall: mid-chat, Megose absently rips out a handful of her own hair and tosses it in the trash",
+   "text_anchor": "In the reception hall of the Blackthorn Security Company."
+  },
+  {
+   "line_start": 83,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Second floor with the ash box between them: the Holy Cathedral says stall — and Dunn casually mentions Daly told him to explain himself to Klein",
+   "text_anchor": "Klein walked up the stairs to the second floor"
+  }
+ ]
+}

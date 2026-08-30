@@ -1,0 +1,39 @@
+{
+ "chapter": 412,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Jurgen Cooper",
+    "[interrogating officers]"
+   ],
+   "setting": "Interrogation and bail: eighteen minutes passed in the house where Klein felt barely three, a doorbell he never heard, and no trace of Stanton or his attacker leaving a sealed room; fifty pounds later, Jurgen's advice on the pavement — never answer a policeman without looking at your lawyer first",
+   "text_anchor": "“you were in the house for about eighteen minutes, not two or three minutes!"
+  },
+  {
+   "line_start": 83,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Jurgen Cooper"
+   ],
+   "setting": "In the carriage, hungry past his usual dinner hour — until the stone-faced lawyer mentions he's had his grandmother cook for three",
+   "text_anchor": "“I’ve asked my grandmother to prepare dinner for three.”"
+  },
+  {
+   "line_start": 97,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[shadow in a tailcoat]"
+   ],
+   "setting": "Home after dinner: a Seer's intuition that a stranger has been inside, a letter written in coagulated blood — 'All of you will die!' — and another upstairs: 'You're next.' Across the street the lamplight shadows twist into a tailcoated figure that aims a finger-gun at his window and blows the smoke away",
+   "text_anchor": "“You’re next.”"
+  }
+ ]
+}

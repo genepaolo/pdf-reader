@@ -1,0 +1,37 @@
+{
+ "chapter": 454,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 55,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Beef stewing under a Magician's flame while the Faceless rule takes shape: in the window's reflection he lets the face become Zhou Mingrui's again — 'Long time no see…' — and understands that you may wear anyone, but you remain yourself",
+   "text_anchor": "This was Zhou Mingrui from Earth."
+  },
+  {
+   "line_start": 57,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Jurgen Cooper"
+   ],
+   "setting": "Jurgen at the door in the drizzle: he is taking his grandmother (and a caged Brody) south on Monday, and leaves a colleague's card for bail and disputes. Afterwards the house is silent enough to hear distant carriages. 'The new year…'",
+   "text_anchor": "“The new year…”"
+  },
+  {
+   "line_start": 99,
+   "line_end": 155,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad"
+   ],
+   "setting": "The dead city in the darkness — a whole civilization's grave — and on its central platform the half-collapsed temple; then every lantern dies at once, a child's voice begs 'Save me…' beside Derrick's ear, and only the Demon Hunter's igniting dust keeps the team whole",
+   "text_anchor": "“Save me… Save me…”"
+  }
+ ]
+}

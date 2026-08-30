@@ -1,0 +1,23 @@
+{
+ "chapter": 77,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Leonard Mitchell", "Lorotta", "Aiur Harson", "Borgia"],
+   "setting": "Searching Monster Bieber's remains: Borgia finds the brain-like Beyonder characteristic, stored in a cigarette case; Leonard stays to guard",
+   "text_anchor": "Alright, answered Leonard with a relaxed expression"
+  },
+  {
+   "line_start": 51,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Lorotta", "Aiur Harson", "Borgia"],
+   "setting": "The carriage back: Dunn offers formal Nighthawk membership, and Klein retells the clown kill while hiding the gray fog's part in it",
+   "text_anchor": "After boarding the carriage, Dunn, Lorotta, Aiur Harson, and Klein"
+  }
+ ]
+}

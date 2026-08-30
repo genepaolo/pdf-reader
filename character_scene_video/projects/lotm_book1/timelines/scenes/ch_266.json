@@ -1,0 +1,23 @@
+{
+ "chapter": 266,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav"],
+   "setting": "Diary interlude's last beat: Sequence 0 — a True God above Sequence 1 in each of the twenty-two paths — leaves The Fool struggling to keep his composure before he finally lets Roselle's pages vanish",
+   "text_anchor": "There's still a Sequence 0 above Sequence 1?"
+  },
+  {
+   "line_start": 39,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick", "[The World]"],
+   "setting": "Gathering resumes: Justice settles the Bakerland account (5000 pounds of Qilangos bounty still owed); Mr. World requests Magician ingredients plus the Apothecary's marrow crystals — Derrick offers Mist Treant parts for a weapon, Audrey wants the Psychiatrist formula, Alger the Wind-blessed",
+   "text_anchor": "“Miss Justice, well done. You finished Bakerland in less than a week."
+  }
+ ]
+}

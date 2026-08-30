@@ -1,0 +1,64 @@
+{
+ "chapter": 479,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 15,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Funkel",
+    "[black-haired angel]"
+   ],
+   "setting": "Fleeing across bare fields, the old butler turns and finds the hooded figure waiting — his nose goes first, then his voice, then all of him, wiped from the world like a stain",
+   "text_anchor": "not a single trace was left behind"
+  },
+  {
+   "line_start": 19,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mr. A"
+   ],
+   "setting": "Azik's copper whistle buys one paper substitute's worth of life; the Shepherd's own suppressed injuries burst out in coughed-up organs, bullets fail against boneless flesh, and Klein throws himself off a fifty-meter cliff into the Tussock — only for gill-faced Mr. A to surface between him and the shore",
+   "text_anchor": "Fight! I can only fight!"
+  },
+  {
+   "line_start": 135,
+   "line_end": 167,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mr. A",
+    "[black-haired angel]"
+   ],
+   "setting": "A hooded woman appears above the water and erases the Shepherd like pencil under an eraser — then turns her expressionless black eyes on Klein and, impossibly, smiles before vanishing; alone on the remote bank he decides she must be a Church powerhouse sent in time",
+   "text_anchor": "the corners of the woman’s mouth slowly lifted into a smile"
+  },
+  {
+   "line_start": 171,
+   "line_end": 181,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Azik Eggers",
+    "Ince Zangwill",
+    "[gold-masked demigod]"
+   ],
+   "setting": "Azik is Exiled into the void rather than killed, and the two hurry to hide the site before the Church finds it — Zangwill unsteady, 0-08 reclaimed, and his ruined trousers heaped around his ankles",
+   "text_anchor": "“Exile!”"
+  },
+  {
+   "line_start": 185,
+   "line_end": 195,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Edessak Augustus"
+   ],
+   "setting": "By the solarium windows a voice tells the prince to hurry; he looks out at the golf course and the strolling horses, sets the spirit-destroying bullet against his temple, and pulls the trigger",
+   "text_anchor": "He pulled the trigger."
+  }
+ ]
+}

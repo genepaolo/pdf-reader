@@ -1,0 +1,36 @@
+{
+ "chapter": 375,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 11,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall"
+   ],
+   "setting": "Fors clears her altar, counting twelve pairs of black wings from her reverie — an angel of the highest rank as routine service for Mr. Fool? Is 'He' Death reborn through the Tarot Gatherings? — and settles on Roselle's advice: take things one step at a time",
+   "text_anchor": "Which great being is “He”?"
+  },
+  {
+   "line_start": 15,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: Daisy's kidnapping by two capped men, the dagger in the carriage, the dark room in Capim's villa, her cries for Mother and Freja): divination confirms Capim's trafficking ring; the spirit pendulum spins — rescue is dangerous but possible. 'Wasn't I looking for an opportunity to perform? This is it!'",
+   "text_anchor": "This meant that saving Daisy was a rather dangerous act!"
+  },
+  {
+   "line_start": 113,
+   "line_end": 167,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[birthmarked henchman]"
+   ],
+   "setting": "A henchman leaving Capim's villa is ridden Spirit-Body-style to a cheap hotel — but his Spirit Body carries an unknown seal that would alert the enemy if mediumship is forced. Klein's answer: possess the unconscious man outright and have him chant The Fool's honorific name at the altar",
+   "text_anchor": "“Do you think you can stop me with just this?”"
+  }
+ ]
+}

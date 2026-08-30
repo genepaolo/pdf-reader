@@ -1,0 +1,32 @@
+{
+ "chapter": 322,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[Devil dog]"],
+   "setting": "The twelfth crime scene, mid-feast: a black dog balloons into a winged, horned Devil — its 'Die!' burns a paper substitute rusty, its delayed fireball shatters the street, and Klein escapes through an illusion, a fireplace Flaming Jump, and good old screams of 'Murder!'",
+   "text_anchor": "It really is an animal! It's a Sequence 6 Devil"
+  },
+  {
+   "line_start": 99,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[woman on the bookshelf stairs]", "[carriage driver]"],
+   "setting": "The getaway carriage climbs a road of pea vines into the sky: the museum woman, black boots dangling from a vine hammock, interrogates him — truthful answers pass her invisible search, and she leaves a warning: the Master Key carries a curse",
+   "text_anchor": "“That key has a certain curse. It must not be used unless absolutely necessary.”"
+  },
+  {
+   "line_start": 157,
+   "line_end": 173,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Morning headlines scream 'The twelfth case!' while the museum theft gets a blurb; behind bathroom steam Klein ascends and finally holds the emperor-figured bookmark: 'It really wasn't easy getting you!'",
+   "text_anchor": "Klein sat down and picked up the bookmark that depicted the figure of Emperor Roselle."
+  }
+ ]
+}

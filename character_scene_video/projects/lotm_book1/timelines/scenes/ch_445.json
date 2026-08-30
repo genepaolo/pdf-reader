@@ -1,0 +1,52 @@
+{
+ "chapter": 445,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 45,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad"
+   ],
+   "setting": "Outside the City of Silver's gate, ten Beyonders and the Chief with his belt of Demon Hunter bottles set out into the black grass — candles lit, because more than five seconds of darkness has swallowed teammates whole",
+   "text_anchor": "“Light up. Let’s go.”"
+  },
+  {
+   "line_start": 49,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler",
+    "[coffee shop boss]"
+   ],
+   "setting": "A cheap East Borough breakfast bought for two: the Azik bounty traced to gang leaders and information dealers, a sighting on Golden Cloak Street with signs of a struggle — and the odd detail that unemployed textile workers keep leaving East Borough for jobs nobody can name",
+   "text_anchor": "“Left East Borough?”"
+  },
+  {
+   "line_start": 119,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kohler",
+    "[hotel owner]"
+   ],
+   "setting": "The preserved room on Golden Cloak Street: overturned chairs, and a gray rat whose aura is black-green — its belly rotted open with flowing pus — scuttling up the wall while Old Kohler notices nothing",
+   "text_anchor": "its flesh was green with flowing pus"
+  },
+  {
+   "line_start": 149,
+   "line_end": 171,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Ikanser Bernard"
+   ],
+   "setting": "A dream invaded: the white cliff and the Stratford bend, the Machinery Hivemind ringing the tomb entrance — and the river writing itself into words. 'Your loyal and humble servant, Arrodes, is here to report to you on the exploration's situation.'",
+   "text_anchor": "why would a perfectly good mirror be a snitch?"
+  }
+ ]
+}

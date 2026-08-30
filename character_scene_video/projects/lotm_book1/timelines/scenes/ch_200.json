@@ -1,0 +1,23 @@
+{
+ "chapter": 200,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "The mediumship continues (visions only: Sharon brokering Tingen's elite, the white-robed woman, the Pleasure/Witch/Instigator/Assassin formulas): her motive for killing Maynard stays inexplicable",
+   "text_anchor": "Synonym of war... A similar Sequence as the Demoness Sequence pathway"
+  },
+  {
+   "line_start": 123,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Cleanup orders — then, through the cracked mirror, Klein sees Dunn kneeling over Kenley's body, gray eyes deep, lips tainted with crimson blood",
+   "text_anchor": "Klein stopped the ritual and returned to reality."
+  }
+ ]
+}

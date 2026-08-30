@@ -1,0 +1,68 @@
+{
+ "chapter": 216,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "First Backlund morning: the detective advertisement placed in the Backlund Bulletin, ritual materials bought across half the borough, Holy Night Powder ground at 15 Minsk Street",
+   "text_anchor": "Klein started his first morning in Backlund under cold and humid weather conditions"
+  },
+  {
+   "line_start": 43,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: The Fool takes his high-back chair and touches the crimson star of The Sun — one thing in the new life that hasn't changed",
+   "text_anchor": "Klein took four steps counterclockwise and arrived above the gray fog."
+  },
+  {
+   "line_start": 49,
+   "line_end": 75,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick Berg", "[patrol squad]"],
+   "setting": "A half-collapsed tower outside the City of Silver: Derrick by the bonfire among his patrol squad feels the summons and feigns sleep (The Fool's call: vision only)",
+   "text_anchor": "Nine members of a patrol squad were gathered around a blazing bonfire"
+  },
+  {
+   "line_start": 79,
+   "line_end": 89,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall"],
+   "setting": "Empress Borough bedroom: Audrey waits eagerly for the summons — two weeks on, the Rainbow Salamander gland and Sequence 8 beckon",
+   "text_anchor": "Using the excuse that she was tired, Audrey returned to her bedroom."
+  },
+  {
+   "line_start": 93,
+   "line_end": 103,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Alger Wilson"],
+   "setting": "The captain's cabin of an ancient sailboat: Alger memorizes copied diary pages, haunted by Qilangos's rotting face as the crimson tide takes him",
+   "text_anchor": "Alger Wilson locked the door to the captain's cabin"
+  },
+  {
+   "line_start": 107,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick Berg"],
+   "setting": "Tarot Club, palace above the gray fog: The Hanged Man tenders nineteen diary pages as payment for Qilangos — six arrive now, equivalent exchange",
+   "text_anchor": "Having activated his Spirit Vision, Klein examined Justice, The Hanged Man, and The Sun"
+  },
+  {
+   "line_start": 137,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav", "Mr. Door"],
+   "setting": "Diary-reading interlude: 16th December — Roselle records contacting the pathetic fellow trapped in the storm, 'Mr. Door', and his offer of three wishes for a way back into the real world (reading continues into ch217)",
+   "text_anchor": "Klein looked down and read the first page"
+  }
+ ]
+}

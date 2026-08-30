@@ -1,0 +1,53 @@
+{
+ "chapter": 241,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 55,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[hooded Beyonders]",
+    "Darkwill",
+    "Eye of Wisdom",
+    "Black Snake",
+    "[attendant]"
+   ],
+   "setting": "The deal closes by candlelight: 400 pounds to Black Snake, the rotting black ear to Klein — with the apothecary's gallows-humor warnings — then the gathering disperses one by one, three minutes apart",
+   "text_anchor": "He took out a small wooden box, bent down, and placed it on the ground."
+  },
+  {
+   "line_start": 57,
+   "line_end": 73,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kaspars Kalinin"
+   ],
+   "setting": "Back through the Bravehearts kitchen: Kaspars is relieved to see him alive, promises word of future gatherings — and Klein steers well clear of Maric's card room",
+   "text_anchor": "“I'm delighted that you could come back.”"
+  },
+  {
+   "line_start": 75,
+   "line_end": 91,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Maric",
+    "[zombie card players]",
+    "Kaspars Kalinin"
+   ],
+   "setting": "In the card room, Maric's four Kings lose to a zombie's four Sixes — he staggers out coughing dark blue, orders the room sealed till dawn, and drinks alone",
+   "text_anchor": "Inside the card room, Maric had gone all-in and confidently flipped open his cards."
+  },
+  {
+   "line_start": 95,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: a Listener swelling and blackening in the divination): the black ear channels the True Creator's foul voice — tentacles burst from Klein's veins, the fog holds, and the stripped madness fuses into a sealed charm he names Language of Foulness",
+   "text_anchor": "he started to summon himself. He responded to himself and brought the wooden box containing the black ear"
+  }
+ ]
+}

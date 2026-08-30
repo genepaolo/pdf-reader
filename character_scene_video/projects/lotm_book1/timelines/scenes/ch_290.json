@@ -1,0 +1,46 @@
+{
+ "chapter": 290,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "[The World]",
+    "Lanevus",
+    "True Creator"
+   ],
+   "setting": "The World recites East Borough's brutal arithmetic — no grandchildren, workers dead by thirty — and Audrey, world overturned, resolves to steer the kingdom's policy through her father; 'Thank you for saving Backlund'",
+   "text_anchor": "“any person who's a grandfather must be from the countryside."
+  },
+  {
+   "line_start": 55,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Roselle Gustav"
+   ],
+   "setting": "Diary-reading interlude, the final promised page: unsealed High-Sequence objects intermittently attract same-pathway Beyonders (is the gray fog itself the attractor?); a Demoness dalliance; and the second Card of Blasphemy hidden as a bookmark in 'a very valuable book'",
+   "text_anchor": "“20th January. I finished making the second Card of Blasphemy."
+  },
+  {
+   "line_start": 95,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "[The World]"
+   ],
+   "setting": "Trading resumes: Derrick raves about the axe and promises the Mist Treant parts soon; Alger dangles a grand pirate gathering on the Sonia Sea where the Panther spinal fluid or Elf-spring crystals may surface — for the right price",
+   "text_anchor": "“There will be a grand event held on the Sonia Sea soon."
+  }
+ ]
+}

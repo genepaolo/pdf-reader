@@ -1,0 +1,32 @@
+{
+ "chapter": 223,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Ian"],
+   "setting": "15 Minsk Street guest area: contract signed — five pounds advance plus three future favors — and the obsessively neat Ian hands over nearly all his savings for the Zreal investigation",
+   "text_anchor": "“So you suspect that the Zreal whom the detectives saw was someone in disguise?”"
+  },
+  {
+   "line_start": 53,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Alone after Ian leaves: a coin-toss divination on Beyonder involvement in the case slips through Klein's fingers — the boy has withheld too much for even a vague answer",
+   "text_anchor": "Watching the boy who was more mature than his age leave"
+  },
+  {
+   "line_start": 73,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[three ambushers]"],
+   "setting": "138 Rose Street in the small hours: disguised as a bearded workman, Klein pendulum-checks the danger, slips into Zreal's dark house, Slumber-Charms the three men lying in ambush, and settles on the sofa with Zreal's hairs for a dream divination",
+   "text_anchor": "That night, in the wee hours of the morning, at 138 Rose Street"
+  }
+ ]
+}

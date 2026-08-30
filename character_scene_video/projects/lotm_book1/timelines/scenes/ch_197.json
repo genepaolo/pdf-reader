@@ -1,0 +1,41 @@
+{
+ "chapter": 197,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Kenley White"],
+   "setting": "Outside Sharon's house: the plan — Dunn will lull her into sleep from a hundred meters while Klein and Kenley move in",
+   "text_anchor": "There's danger in there. Not very high, but it isn't very low either"
+  },
+  {
+   "line_start": 53,
+   "line_end": 63,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Sharon"],
+   "setting": "The opulent bedroom: Sharon admires herself in the full-length mirror beside the goddess statue as her eyelids droop",
+   "text_anchor": "In the opulent bedroom."
+  },
+  {
+   "line_start": 67,
+   "line_end": 91,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Kenley White"],
+   "setting": "Dunn's dream doubles as the go-signal; Klein and Kenley steel themselves for the capture",
+   "text_anchor": "Seconds turned into minutes when Klein suddenly recalled something."
+  },
+  {
+   "line_start": 93,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Kenley White", "Sharon"],
+   "setting": "The bedroom is a trap: the 'sleeping' Sharon is a mirror-decoy — Kenley catches his own reflection in 3-0217 as the real Sharon appears; Klein hurls a Slumber Charm",
+   "text_anchor": "Let's go. As a Sequence 8, Klein took on the role of the leader"
+  }
+ ]
+}

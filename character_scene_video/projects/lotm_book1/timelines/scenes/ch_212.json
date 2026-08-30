@@ -1,0 +1,23 @@
+{
+ "chapter": 212,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "The moonlit cemetery: Klein tidies his own grave, retrieves the copper whistle Melissa buried, and finds Dunn's tombstone — 'Captain... We miss you too!'",
+   "text_anchor": "In the northern part of the Loen Kingdom, the September breeze"
+  },
+  {
+   "line_start": 65,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: the one-eyed statue-faced killer; a bridged, smoky city): the murderer is Ince Zangwill with Sealed Artifact 0-08, plotting from Backlund",
+   "text_anchor": "He became silent again and found a hidden spot nearby."
+  }
+ ]
+}

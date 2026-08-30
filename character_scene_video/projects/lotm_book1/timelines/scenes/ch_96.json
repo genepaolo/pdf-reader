@@ -1,0 +1,32 @@
+{
+ "chapter": 96,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 29,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne"],
+   "setting": "Blackthorn reception: Rozanne's Spirit Medium daydreams and Archbishop Chanis's 'miserable wretches' line",
+   "text_anchor": "By the afternoon of the next day, Klein had fully recovered"
+  },
+  {
+   "line_start": 31,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office: Daly's transfer to Backlund, her clenched-fist theory of the Seer pathway, and the Sequence hierarchy",
+   "text_anchor": "Alright. With his hat and cane in hand, Klein passed through the partition"
+  },
+  {
+   "line_start": 157,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil"],
+   "setting": "The armory: Old Neil reveals the combat training Dunn forgot to mention",
+   "text_anchor": "In the armory, Old Neil stole a glance at Klein"
+  }
+ ]
+}

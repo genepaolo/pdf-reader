@@ -1,0 +1,41 @@
+{
+ "chapter": 227,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 15,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Foggy-morning breakfast experiments at 15 Minsk Street, newspaper plans to inspect Mr. Leppard's new transportation vehicle in St. George Borough",
+   "text_anchor": "Sitting at his own dining table on a foggy morning"
+  },
+  {
+   "line_start": 17,
+   "line_end": 73,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Meursault"],
+   "setting": "Hammer-loud knocks: the Zmanger executioner Meursault offers 10, 30, then 50 pounds for Ian Wright — the detective refuses on principle and gets a cold, fierce stare",
+   "text_anchor": "It was the highlander man who had chased Ian at the steam metro."
+  },
+  {
+   "line_start": 75,
+   "line_end": 187,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Leppard"],
+   "setting": "Unit 9, Sird Street, St. George Borough: inventor Leppard demos his pedal-carriage built from Roselle's manuscripts; Klein steers him to the bicycle and buys 35% of the idea for 100 pounds",
+   "text_anchor": "“I'm Leppard. Come in, please.”"
+  },
+  {
+   "line_start": 189,
+   "line_end": 203,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Home again in the drizzle: washing his hands, a Clown premonition floods in — the bathroom mirror shows a pair of eyes beside his lowered head",
+   "text_anchor": "As the water echoed, Klein bent down to wash his hands."
+  }
+ ]
+}

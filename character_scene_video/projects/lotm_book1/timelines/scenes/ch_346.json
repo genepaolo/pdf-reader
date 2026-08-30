@@ -1,0 +1,23 @@
+{
+ "chapter": 346,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Maric", "Sharron"],
+   "setting": "Ten o'clock pickup: sedatives handed over (two and a half tubes, Maric judges), purification quirks confirmed, and the trio reaches the abandoned West Balam dock — Maric's zombies sleep beneath the ambush ground; 'the simpler the plan, the more effective it is'",
+   "text_anchor": "“We're on the way there.”"
+  },
+  {
+   "line_start": 129,
+   "line_end": 179,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "The stage is set: All-Black Eye buried center-field under a spirit cage, explosives seeded through warehouses, a top-hatted paper double posted in a gap, Sun Brooch pinned on — and from a rooftop shadow the sweating Magician watches three figures approach",
+   "text_anchor": "Is this the state every magician is in before he goes onstage?"
+  }
+ ]
+}

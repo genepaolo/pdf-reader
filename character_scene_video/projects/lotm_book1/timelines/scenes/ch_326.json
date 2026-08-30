@@ -1,0 +1,30 @@
+{
+ "chapter": 326,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres",
+    "Talim Dumont"
+   ],
+   "setting": "The curse consult: no lost blood, no unlucky family — only a hospitalized boy, Will Auceptin, who drew the reversed Wheel of Fortune and smiled 'Doctor, your luck will get worse'; Klein steers Aaron toward his church so the Nighthawks will notice",
+   "text_anchor": "“His name is Will Auceptin."
+  },
+  {
+   "line_start": 107,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[beast trainer]",
+    "Darkwill",
+    "[circus audience]"
+   ],
+   "setting": "The Rice Circus small theater: a heckler announces what the black bear, tiger and baboon are really thinking — the trainer stiffens, and Klein finds the chubby-faced voice oddly familiar",
+   "text_anchor": "“I say, this guy wanted to give you a slap just a moment ago!”"
+  }
+ ]
+}

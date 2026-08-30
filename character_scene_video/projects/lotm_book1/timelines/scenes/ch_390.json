@@ -1,0 +1,55 @@
+{
+ "chapter": 390,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres",
+    "Mike Joseph"
+   ],
+   "setting": "Sunday morning: Aaron produces the paper crane again — and it is uglier still, the Nighthawks having swapped their own forgery for Klein's forgery; barely keeping a straight face, he advises the doctor to take it to his bishop",
+   "text_anchor": "This… this paper crane is even uglier than the one I made…"
+  },
+  {
+   "line_start": 37,
+   "line_end": 73,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mike Joseph"
+   ],
+   "setting": "A day of interviews in East Borough: a pound apiece, Capim's sins and the girls' futures — two-thirds back to scraping by, some already street girls; Mike resolves to call for a bursary from Capim's estate. 'You're the best reporter I've ever met.' — 'Sherlock, I'm not the only reporter you know, am I?' — 'Guess.'",
+   "text_anchor": "“There are plenty of reporters like me. There are always idealists in the world.”"
+  },
+  {
+   "line_start": 77,
+   "line_end": 103,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "[black shadow]"
+   ],
+   "setting": "City of Silver: Derrick paces like a trapped beast waiting for the gathering, lies down at the summons — and as his body lies still, a black figure rises from the corner of his bed, studies him for a minute, and withdraws with nothing",
+   "text_anchor": "a black figure squirmed and extended, taking the shape of a human!"
+  },
+  {
+   "line_start": 107,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "setting": "The Tarot Gathering opens above the gray fog: Audrey reads the table — an anxious Sun, a Magician dying to ask about the Emperor card, a Hanged Man in unusually good spirits — and Alger offers three new pages of Roselle's diary for one answer: what is the card beside Mr. Fool's hand?",
+   "text_anchor": "“I want to know what that card you have next to you is.”"
+  }
+ ]
+}

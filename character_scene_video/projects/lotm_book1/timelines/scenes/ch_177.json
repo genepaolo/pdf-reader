@@ -1,0 +1,68 @@
+{
+ "chapter": 177,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall"],
+   "setting": "Audrey's letter to Alfred continues: the Grain Act's fallout — collapsing rents, nobles selling land, and titles for sale by donation",
+   "text_anchor": "Audrey stopped writing after she finished sharing some interesting news"
+  },
+  {
+   "line_start": 37,
+   "line_end": 61,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall"],
+   "setting": "Carriage to East Backlund: Xio chants '450 pounds' and drags Fors to check on the silent gang boss Darkholme",
+   "text_anchor": "Xio Derecha and Fors Wall were returning to the Backlund Bridge borough"
+  },
+  {
+   "line_start": 63,
+   "line_end": 103,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall"],
+   "setting": "Darkholme's terrace house: the gang boss butchered into strips and piles, his head still smiling — Qilangos's work, and possibly an ambush",
+   "text_anchor": "It was a terrace house located in a narrow alley."
+  },
+  {
+   "line_start": 107,
+   "line_end": 113,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Qilangos"],
+   "setting": "The house opposite: Qilangos watches coldly, his living black glove sprouting dull gold scales",
+   "text_anchor": "In the house opposite Darkholme's house"
+  },
+  {
+   "line_start": 117,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Fors Wall", "Xio Derecha"],
+   "setting": "Fors crushes a bracelet stone — 'Door!' — dragging Xio through the spirit world to an empty cemetery",
+   "text_anchor": "The moment Fors realized this, she dragged Xio to the other side"
+  },
+  {
+   "line_start": 139,
+   "line_end": 141,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Qilangos"],
+   "setting": "Darkholme's doorway: Qilangos finds them gone and mutters a single word — 'Traveler?'",
+   "text_anchor": "Qilangos, who was wearing his scaled glove, silently appeared"
+  },
+  {
+   "line_start": 145,
+   "line_end": 155,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Fors Wall", "Xio Derecha"],
+   "setting": "The cemetery: two shaken Sequence 9s decide — notify Miss Audrey, then call the police",
+   "text_anchor": "What are we going to do next?"
+  }
+ ]
+}

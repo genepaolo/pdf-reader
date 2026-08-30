@@ -1,0 +1,37 @@
+{
+ "chapter": 401,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 39,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Mr. A"
+   ],
+   "setting": "A temple-like Backlund basement before The Hanged Giant: Mr. A eats his own snapped finger and writes in blood the divine epiphany — 'Found: The Fool that doesn't belong to this era… Adorers and devotees in Backlund' — then prostrates himself, purpose restored",
+   "text_anchor": "“By your divine revelation!”"
+  },
+  {
+   "line_start": 43,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Lovia",
+    "Colin Iliad"
+   ],
+   "setting": "The City of Silver's ancient curse enacted in the spire's hall — parents and siblings must put their own corrupted blood relatives to the sword — while Lovia walks calmly down to three days of Glory Crown cleansing, leaving Colin one parting fact: a teammate died before her two months ago and never turned into an evil spirit",
+   "text_anchor": "“I waited there for five days, but he didn’t turn into an evil spirit.”"
+  },
+  {
+   "line_start": 139,
+   "line_end": 187,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Little Sun's star stays steady — success — and Klein drops back into an ice-cold bed; morning brings Feynapotter noodles with his own meat paste, newspapers, and a day planned around a concert or a play, until the doorbell rings",
+   "text_anchor": "Warmth is basically gained by vibration…"
+  }
+ ]
+}

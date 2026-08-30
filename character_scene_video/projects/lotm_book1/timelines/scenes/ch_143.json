@@ -1,0 +1,68 @@
+{
+ "chapter": 143,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 27,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Small shooting range: weighing the Church's silence on the Seer pathway before deciding the Clown application can proceed — carefully",
+   "text_anchor": "Klein paced around the small shooting range"
+  },
+  {
+   "line_start": 29,
+   "line_end": 51,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Elizabeth"],
+   "setting": "Outside 2 Daffodil Street: a delighted Elizabeth reports the black-knight nightmare is gone, exactly as 'divined'",
+   "text_anchor": "He took the public transport back to 2 Daffodil Street."
+  },
+  {
+   "line_start": 55,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Wendy Smyrin"],
+   "setting": "Home, then a quick sweet iced tea from Mrs. Wendy at Smyrin Bakery before sealing the room for the Gathering",
+   "text_anchor": "It seems as though my explanation just now was useless."
+  },
+  {
+   "line_start": 65,
+   "line_end": 75,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: the pendulum approves obtaining the Clown potion through the Nighthawks; Klein reaches for the Sun's crimson star",
+   "text_anchor": "In the quiet, ancient palace, Klein conjured a piece of goatskin"
+  },
+  {
+   "line_start": 79,
+   "line_end": 87,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick"],
+   "setting": "The Berg household, City of Silver: a hungry Derrick waits in isolation until the dark red light swallows him again",
+   "text_anchor": "In a room of the Berg household in the City of Silver."
+  },
+  {
+   "line_start": 89,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Derrick"],
+   "setting": "Above the gray fog: The Fool grants Sun his honorific name and a prayer ritual for future summons, the fog translating Jotun in real time",
+   "text_anchor": "The gray, boundless, cold, lonely world appeared in his field of vision"
+  },
+  {
+   "line_start": 125,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Derrick", "Audrey Hall", "Alger Wilson"],
+   "setting": "Tarot Gathering convenes: Justice and The Hanged Man meet the newest member, Sun; Audrey announces two more diary pages",
+   "text_anchor": "When three approached, Klein extended his hand"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "chapter": 94,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 119,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson"],
+   "setting": "The Gathering continues: a thousand pounds buys Audrey the history of the hidden organizations — and the Hidden Sage who came to life",
+   "text_anchor": "The Fallen Creator… Fallen… Alger ruminated"
+  },
+  {
+   "line_start": 121,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Alone above the fog: the failed smurf-account experiment — and a faint prayer inside a nearby crimson star",
+   "text_anchor": "Cutting off the connections, he saw both their figures shatter"
+  }
+ ]
+}

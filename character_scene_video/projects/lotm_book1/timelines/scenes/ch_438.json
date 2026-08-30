@@ -1,0 +1,38 @@
+{
+ "chapter": 438,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 15,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Rain on the windows, the tidy silent living room: ten minutes with the letter, then it goes into the trash can and quietly burns to ash as he climbs the stairs",
+   "text_anchor": "Isengard Stanton’s letter caught fire silently"
+  },
+  {
+   "line_start": 19,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[old butler]"
+   ],
+   "setting": "A spotless old butler at the door and a black carriage bearing the Sword of Judgment: the 'important figure' who has been funding his tarot investigation wants to see him about Talim, and cannot be refused — he is Prince Edessak Augustus, the King's fifth son",
+   "text_anchor": "“He is the descendant of the Founder and Protector."
+  },
+  {
+   "line_start": 95,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Edessak Augustus",
+    "[old butler]",
+    "[maid]"
+   ],
+   "setting": "Red Rose Manor, revolver surrendered at the gate: the young prince dismounts smiling, says the investigation of Talim's death bypassed him and asks for the truth — Klein insists on 'sudden heart disease' — until a maid's whisper hardens his face: 'Tell her that she's not to go out!' … 'But I will permit her to leave the room and walk around freely in the manor.'",
+   "text_anchor": "“I want you to help me discover the truth.”"
+  }
+ ]
+}

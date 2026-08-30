@@ -1,0 +1,37 @@
+{
+ "chapter": 352,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Reading Klarman's creed: two isolated continents both worshiped the 'primitive moon' over the Goddess — a hidden power worth circumventing; Klein plans to mine the book's ritual structures for his own King-of-Yellow-and-Black system",
+   "text_anchor": "“The one and only red moon, the symbol of life and beauty, the mother of all spiritual forces.”"
+  },
+  {
+   "line_start": 35,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mike Joseph"
+   ],
+   "setting": "A head cold from carrying the Poison Bottle, a hundred pounds of bullets mourned over a fried egg — then Mike Joseph arrives for the East Borough job and gets dressed down, literally, into worker's clothes",
+   "text_anchor": "“Sir, you'd better change into something a little worse"
+  },
+  {
+   "line_start": 109,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mike Joseph",
+    "Kohler"
+   ],
+   "setting": "The greasy corner coffee shop: Klein's old 'interviewee' again — now dock-laboring, renting a sleeping spot at six and a half pence a week — while Mike's pen races across his notepad",
+   "text_anchor": "“Mr. Reporter, it's you?”"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "chapter": 320,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the fog: Justice's astonishing same-day confirmation seals it — a Card of Blasphemy; Klein plans a tonight-heist that steals broadly (bookmark AND books) so suspicion can never land on her",
+   "text_anchor": "It would be best if I take action tonight!"
+  },
+  {
+   "line_start": 75,
+   "line_end": 109,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Max Livermore", "[Machinery Hivemind members]", "[security guards]"],
+   "setting": "Museum defenses: rooftop watchers, patrol rotations, a building-block Sealed Artifact that traps intruders inside — and Roselle's diary left as deliberate bait for 'free meritorious deeds'",
+   "text_anchor": "“Who wouldn't want free meritorious deeds?”"
+  },
+  {
+   "line_start": 113,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "18 King's Avenue storage room: body parked behind Holy Night Powder seals, Klein ghosts out as a whistle-hardened spirit, paint-faced, drifting through walls to the museum — a matchbox through the washroom vent, then up to the second floor",
+   "text_anchor": "“Action time!”"
+  }
+ ]
+}

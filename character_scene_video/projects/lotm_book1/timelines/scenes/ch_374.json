@@ -1,0 +1,47 @@
+{
+ "chapter": 374,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Lawrence Nord"
+   ],
+   "setting": "Lawrence alone over Fermo coffee, recalling the Abraham family's fall (recollections only: the apprentice betrayal, Traveler Botis turned Saint of Mystery of the Aurora Order, Richard's death, the 1,500-year curse, vanished ancestor Bethel Abraham) — an eighty-year-old last man of his line with no hope of revenge",
+   "text_anchor": "What is the future of the Abraham family?"
+  },
+  {
+   "line_start": 39,
+   "line_end": 53,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall"
+   ],
+   "setting": "Fors locks her bedroom door and prays to The Fool: she met the old lady's brother-in-law, fears he has powerful divination, and asks for protection from the truth being uncovered",
+   "text_anchor": "“The Fool that doesn’t belong to this era,"
+  },
+  {
+   "line_start": 57,
+   "line_end": 73,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: the Magician's crimson star ripples with pleas; a Book-of-Secrets counter-divination plan takes shape, plus a realization — audience applause from gathering members is blocked by the fog, which reacts mechanically, without intelligence",
+   "text_anchor": "How cautious for her to know to seek help from The Fool."
+  },
+  {
+   "line_start": 75,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Fors Wall"
+   ],
+   "setting": "The artificial-sleepwalking ritual: Fors's spirit drifts up to the old palace while Klein, Dark Emperor card under his left hand, flicks out a paper figurine that grows twelve pairs of black paper wings and burns into her — a majestic angel wrapping her in pitch-black feathers against any diviner",
+   "text_anchor": "twelve pairs of black angel wings which were cut out of paper grew out"
+  }
+ ]
+}

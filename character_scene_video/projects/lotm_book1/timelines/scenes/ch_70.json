@@ -1,0 +1,32 @@
+{
+ "chapter": 70,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa", "Benson"],
+   "setting": "Home on Daffodil Street: Melissa's new dress from Mrs. Rochelle, Benson's teasing, and a policeman's door-to-door hunt for the escaped Tris",
+   "text_anchor": "The horses widened their paces as the wheels began rolling"
+  },
+  {
+   "line_start": 97,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne", "Dunn Smith"],
+   "setting": "Blackthorn reception next morning: Rozanne gossips about the failed operation until Dunn catches her at it",
+   "text_anchor": "The relaxed Klein changed into formal attire"
+  },
+  {
+   "line_start": 125,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Down the tunnel toward Chanis Gate: Sealed Artifact 2-049 has arrived, and Dunn drills Klein on the arm-bending safety ritual",
+   "text_anchor": "At that moment, Dunn Smith came into the clerk office."
+  }
+ ]
+}

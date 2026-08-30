@@ -1,0 +1,32 @@
+{
+ "chapter": 59,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 27,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson"],
+   "setting": "The Tarot Gathering: Alger found two diary pages and Audrey one; they 'express' the memorized symbols onto goatskin for The Fool",
+   "text_anchor": "Upon hearing The Fool's question, Audrey did not immediately answer"
+  },
+  {
+   "line_start": 29,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav", "Grimm", "Edwards", "Matilda", "Zaratul"],
+   "setting": "Diary-reading interlude: Roselle's voyage on the Black King with Grimm and Edwards, falling for Matilda, choosing Savant, and Zaratul's 'acting' hint",
+   "text_anchor": "He gave the pages a cursory glance"
+  },
+  {
+   "line_start": 81,
+   "line_end": 126,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson"],
+   "setting": "Tarot gathering resumes: The Fool explains acting with the guarded-castle analogy; Audrey grasps it and asks what he wants in exchange",
+   "text_anchor": "He put the three diary pages down, looked up at Justice and The Hanged Man."
+  }
+ ]
+}

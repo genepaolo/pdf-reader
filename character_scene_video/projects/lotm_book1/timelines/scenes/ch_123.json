@@ -1,0 +1,14 @@
+{
+ "chapter": 123,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 163,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Trissy", "Dunn Smith", "Leonard Mitchell", "Frye"],
+   "setting": "Beyonder battle at the grayish-blue riverside house: Dunn's dream trap, living curtains and vines, the snake-haired goddess altar — Trissy grabs the figurine and escapes into the Tussock River",
+   "text_anchor": "Vines grew all over the dilapidated garden outside the glass windows."
+  }
+ ]
+}

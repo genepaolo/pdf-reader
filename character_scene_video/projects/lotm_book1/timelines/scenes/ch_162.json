@@ -1,0 +1,59 @@
+{
+ "chapter": 162,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 69,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Alone in Morse Cathedral with 3-0782: the dualistic ritual siphons the divine blood — heat rises as Klein carves the Flaring Sun Charms",
+   "text_anchor": "Weak light shone through the narrow window from high above"
+  },
+  {
+   "line_start": 71,
+   "line_end": 85,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Leonard Mitchell", "Kenley White"],
+   "setting": "Outside the cathedral: the sunlight blazes like early July for a few minutes; Leonard eyes the church with knitted brows",
+   "text_anchor": "Outside the church, Leonard was standing in the shadows"
+  },
+  {
+   "line_start": 87,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell"],
+   "setting": "Cathedral: two finished Flaring Sun Charms pocketed, activation word 'light'; a drenched Klein hands the artifact to a quietly suspicious Leonard",
+   "text_anchor": "In the cathedral, Klein's carving knife finished the final stroke."
+  },
+  {
+   "line_start": 123,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Kenley White"],
+   "setting": "The ride back to Tingen and the artifact's return — the Captain notices nothing unusual",
+   "text_anchor": "After the shifts ended, the three Nighthawks began their journey back."
+  },
+  {
+   "line_start": 131,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Benson", "Bella"],
+   "setting": "Home before eight: the new maidservant Bella — a Goddess-believing factory worker's daughter — scrubs the dining hall on trial",
+   "text_anchor": "He took out his keys and opened the door, only to see an unknown figure."
+  },
+  {
+   "line_start": 157,
+   "line_end": 173,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne"],
+   "setting": "Blackthorn reception: Old Neil is sick — a noon visit is planned; Rozanne is stunned to learn he was ever married",
+   "text_anchor": "The next day, Klein entered the Blackthorn Security Company in a good mood."
+  }
+ ]
+}

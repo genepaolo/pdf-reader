@@ -1,0 +1,59 @@
+{
+ "chapter": 115,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 13,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Alger Wilson"],
+   "setting": "After the Gathering, in Audrey's bedroom and on Alger's ship: The Fool's stern command still rings in their ears like scripture",
+   "text_anchor": "You must not speak my name without my permission."
+  },
+  {
+   "line_start": 17,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Klein's sunlit bedroom on Daffodil Street: a lazy day fought off with self-motivation and a coin divination before dressing for the club",
+   "text_anchor": "In the West Borough of Tingen City, on Daffodil Street."
+  },
+  {
+   "line_start": 51,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Glacis", "Christina"],
+   "setting": "Divination Club meeting room: an anxious Glacis brings Madam Christina — the investor Lanevus has vanished with everyone's money",
+   "text_anchor": "In the meeting room of the Divination Club on Howes Street."
+  },
+  {
+   "line_start": 87,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Glacis", "Christina"],
+   "setting": "Topaz room: astrolabe divination on the scam's aftermath; a 100-pound reward stands for whoever locates Lanevus",
+   "text_anchor": "Glacis locked the wooden door and walked to his seat while sighing."
+  },
+  {
+   "line_start": 147,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[customers]"],
+   "setting": "Divination Club floor: two more satisfied customers — a birth astrolabe and a found item — earn Klein tips",
+   "text_anchor": "In the next hour and a half, Klein got another two customers"
+  },
+  {
+   "line_start": 153,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Christina", "[young girl in sunhat]"],
+   "setting": "Club exit: Christina returns with a young girl in a sunhat and asks — is Lanevus's child something that belongs to him?",
+   "text_anchor": "At this moment, he saw Christina enter the club once again"
+  }
+ ]
+}

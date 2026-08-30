@@ -1,0 +1,60 @@
+{
+ "chapter": 481,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 21,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "A hotel room on Backlund's outskirts: soaked notes laid out to dry without a flame, and in the mirror a new face — Zhou Mingrui's university self given Northern Continent features, an identity he'll make legal later. 'How nostalgic…'",
+   "text_anchor": "This was a modification of Zhou Mingrui’s appearance"
+  },
+  {
+   "line_start": 23,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Creeping Hunger studied above the fog: five grazing souls — Faceless, Psychiatrist, Interrogator, Nightmare, Priest of Light — and a promise to the wailing faces that each will be freed as villains replace them; then a divination about East Borough that leaves him sunk back in his chair",
+   "text_anchor": "“I will gradually free you from your imprisonment to acquire complete deliverance."
+  },
+  {
+   "line_start": 87,
+   "line_end": 105,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Count Hall",
+    "Susie"
+   ],
+   "setting": "The rain clears the sky and Earl Hall comes home to praise his 'little princess' — then names the cost: better than ten thousand dead across East Borough, the docks and the factory district, with plague still spreading",
+   "text_anchor": "“I estimate that more than ten thousand people died"
+  },
+  {
+   "line_start": 109,
+   "line_end": 139,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Daisy",
+    "[police officer]"
+   ],
+   "setting": "Behind the cordon Daisy watches Liv carried out still holding Freja, then chases the black-draped carriage through the mud until it turns the corner — and slides down a tree weeping two names, one of tens of thousands of such cries",
+   "text_anchor": "“Mother…"
+  },
+  {
+   "line_start": 143,
+   "line_end": 171,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "George III",
+    "[earl palatine]"
+   ],
+   "setting": "Sodela Palace: the King fixes the story — a prince seduced by a Demoness into rebellion, already dead by his own hand — and buys off the Churches with everything at once: House of Lords seats, franchise reform, the pollution bill, the Poor Law, Church officers in the military. 'Since they want a new order, I will give them a new order!'",
+   "text_anchor": "“Since they want a new order, I will give them a new order!”"
+  }
+ ]
+}

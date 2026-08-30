@@ -1,0 +1,38 @@
+{
+ "chapter": 431,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White",
+    "Utravsky"
+   ],
+   "setting": "Terms set with a thousand-pound deposit and delivery under Utravsky's enormous shadow; then Emlyn, drowning, asks about praying to 'the evil god The Fool' — and warns why the Primordial Moon must never be prayed to, telling of a Sanguine who became a breeding thing that spawned whole Monster species",
+   "text_anchor": "“…have you heard of an evil god known as The Fool?”"
+  },
+  {
+   "line_start": 107,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Outside under the misty sky, the ingredient plan: Little Sun repaid in Rampager-purification knowledge, the Naga hair left to the Hanged Man, and the Human-skinned Shadow his own problem — so tonight, worker's clothes in East Borough and a visit to the Bravehearts Bar for Sharron and Maric",
+   "text_anchor": "I’ll go visit it in the evening and see if I can contact Miss Sharron and Maric"
+  },
+  {
+   "line_start": 119,
+   "line_end": 141,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall",
+    "Dorian Gray"
+   ],
+   "setting": "Grimm Cemetery in veiled black: flowers laid for Lawrence under the epitaph 'he's a good teacher' — 'How ironic…' — while Fors frets over the Spirit Eater's stomach pouch, until Dorian asks whether she wants to become the kind of Beyonder he described in his letters",
+   "text_anchor": "“Fors, do you want to become a Beyonder?"
+  }
+ ]
+}

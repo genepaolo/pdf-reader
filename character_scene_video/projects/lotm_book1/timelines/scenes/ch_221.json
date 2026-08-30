@@ -1,0 +1,50 @@
+{
+ "chapter": 221,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Alger Wilson"],
+   "setting": "Captain cabin of the Blue Avenger on the Sonia Sea: Alger performs the first sacrificial ritual — the illusory door opens onto the fog palace, the Rainbow Salamander gland is taken, and The Fool answers \"You did well\"",
+   "text_anchor": "Alger Wilson stood in the captain cabin"
+  },
+  {
+   "line_start": 79,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Majestic palace above the gray fog: Klein toys with the color-shifting pituitary gland, savoring the sacrifice system's success",
+   "text_anchor": "Klein was playing with the pituitary gland of the Rainbow Salamander"
+  },
+  {
+   "line_start": 87,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall"],
+   "setting": "Audrey's bedroom: The Fool appears in the fog vision, walks her through the bestowment ritual — the gland arrives on her altar and she drinks the Telepathist potion, advancing on the spot",
+   "text_anchor": "Audrey was no longer able to sit quietly on the edge of the bed"
+  },
+  {
+   "line_start": 149,
+   "line_end": 159,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Susie"],
+   "setting": "Audrey lets the suspicious golden retriever back in and consults her on how to secretly bait Xio and Fors with Mr. Fool's name",
+   "text_anchor": "she smiled and walked briskly to the door, letting in the golden retriever"
+  },
+  {
+   "line_start": 161,
+   "line_end": 175,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Backlund preparations: disguise shopping, renting a bolt-hole in squalid East Borough, two days of ritual practice — until Thursday morning the doorbell finally rings",
+   "text_anchor": "He spent a pound to buy a pair of gold-rimmed glasses"
+  }
+ ]
+}

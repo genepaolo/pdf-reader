@@ -1,0 +1,50 @@
+{
+ "chapter": 78,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 29,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Lorotta", "Aiur Harson", "Borgia"],
+   "setting": "Still in the carriage: the Seer-to-Clown puzzle and Klein's circus joke that cracks the whole squad up",
+   "text_anchor": "Aiur Harson added, Exactly, it is hard to imagine"
+  },
+  {
+   "line_start": 31,
+   "line_end": 45,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Rozanne"],
+   "setting": "Blackthorn reception: Rozanne gasps at Klein's tattered suit and shepherds the civilian staff upstairs",
+   "text_anchor": "The carriage proceeded straight for Zouteland Street."
+  },
+  {
+   "line_start": 47,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Frye", "Royale Reideen", "Lorotta", "Aiur Harson", "Borgia"],
+   "setting": "Second floor: the artifacts brought in, and Dunn dispatches Frye and Royale to the Tyrell Warehouse with repeated afterthoughts",
+   "text_anchor": "When all the civilian staff dispersed"
+  },
+  {
+   "line_start": 79,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Kenley", "Old Neil"],
+   "setting": "Chanis Gate and the armory: Old Neil summoned for healing rituals, then Klein cleans his suit alone and fights off the memory of his first kill",
+   "text_anchor": "Klein watched as the two Nighthawks walked out"
+  },
+  {
+   "line_start": 129,
+   "line_end": 205,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Frye", "[suited clown's corpse]"],
+   "setting": "Frye's hidden dissection room: the artist-turned-Corpse-Collector sketches the dead clown — whose hand seizes Klein's wrist",
+   "text_anchor": "Tap. Tap. Tap. He slowly walked on the empty path"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "chapter": 474,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 105,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Edessak Augustus",
+    "Trissy",
+    "Funkel"
+   ],
+   "setting": "The solarium confrontation: Trissy throws everything at him — Demoness, once a man named Tris, his love itself arranged, and the whole romance a cover for a royal deal with the Demoness Sect — and the prince, waking from his scripted infatuation, opens the hidden door and stays behind. 'Let me live in this beautiful story and welcome its final end'",
+   "text_anchor": "“Then let me be frank with you. I am a Demoness!”"
+  },
+  {
+   "line_start": 109,
+   "line_end": 177,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Saint Anthony Stevenson",
+    "Daly"
+   ],
+   "setting": "Saint Samuel Cathedral: the telegram from Earl Hall's residence sends the archbishop to the Chanis Gate to awaken 0-17 — the only Grade 0 Sealed Artifact kept outside the Holy Cathedral, whose file says it is not an item but a living, mindless angel that has already swallowed seventy researchers. 'She cannot be used!'",
+   "text_anchor": "“This is a living angel."
+  },
+  {
+   "line_start": 179,
+   "line_end": 203,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mr. A",
+    "[hooded figures]"
+   ],
+   "setting": "Racing the search, Klein reaches an unguarded stone door, strips the armor and slips through the wall with the Master Key — into daylight, thick pillars, and four hooded figures kneeling at an altar. 'Mr. A, are you ready?'",
+   "text_anchor": "“Mr. A, are you ready?”"
+  }
+ ]
+}

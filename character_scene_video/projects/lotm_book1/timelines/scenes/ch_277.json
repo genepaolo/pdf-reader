@@ -1,0 +1,32 @@
+{
+ "chapter": 277,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: a future Rafter Pound crawling from a cave wearing the Tudor scepter emblem): the fourth test unmasks the baronet as a probable Tudor descendant playing broken — Klein resolves to just dynamite the ruins shut and stay out of it",
+   "text_anchor": "“Tudor!” Klein jerked out of the dream and sat up."
+  },
+  {
+   "line_start": 81,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Mary Gale", "Talim Dumont", "Mike Joseph"],
+   "setting": "Quelaag Club at tea time: Mike confirms Siber died to a copycat, not the serial killer, and brokers Mary a pollution-council interview — the club doing what private clubs do best",
+   "text_anchor": "“I've roughly figured out who Capim is."
+  },
+  {
+   "line_start": 113,
+   "line_end": 155,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Williams", "[hooded shadow]"],
+   "setting": "Williams's East Borough room at dusk: a towering hooded shadow asks who wants Lanevus, gets Xio Derecha's name, pats him goodbye — then a snap of fingers shreds him, and a rigged gas candle erases the evidence",
+   "text_anchor": "“Who told you to look for Lanevus?”"
+  }
+ ]
+}

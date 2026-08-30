@@ -1,0 +1,42 @@
+{
+ "chapter": 459,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Emlyn White",
+    "Nibbs Odora",
+    "Cosmi Odora"
+   ],
+   "setting": "Emlyn buys himself a few days to think, promised Nibbs's protection — and once he's gone the old Sanguine admits the Ancestor's revelation never mentioned him at all: the boy who kept begging to pray to The Fool is simply having his wish granted",
+   "text_anchor": "“I’m just fulfilling his wish.”"
+  },
+  {
+   "line_start": 55,
+   "line_end": 113,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[old butler]",
+    "[curly-haired maid]"
+   ],
+   "setting": "A morning of scrubbing his own house with the maids gone south, then the prince's butler summoning him to a carriage — and a sudden urgent stomachache that keeps him in the bathroom until the prince has given up and left. The maid: 'you missed that lady again' — she had come along and asked for the detour",
+   "text_anchor": "“Detective Moriarty, you missed that lady again.”"
+  },
+  {
+   "line_start": 117,
+   "line_end": 171,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "[one-eyed man]",
+    "[alluring woman]"
+   ],
+   "setting": "A carpeted room where a quill logs every near-meeting — the target breaking her restrictions again and again, a butler named Funkel intervening, a stomachache costing seven minutes and forty-five seconds — while its one-eyed owner questions a woman dressing to visit Mr. A of the Aurora Order, and the quill begins to write by itself",
+   "text_anchor": "“Sherlock Moriarty happened to have a stomachache"
+  }
+ ]
+}

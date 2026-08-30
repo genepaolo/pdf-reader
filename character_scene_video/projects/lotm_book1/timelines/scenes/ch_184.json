@@ -1,0 +1,32 @@
+{
+ "chapter": 184,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's breakfast briefing: the Lanevus-Hood Eugen link laid out; the mediumship attempt approved — Dunn will stand guard at dawn (and reads hair-growth articles)",
+   "text_anchor": "Please come in, Dunn Smith said with a mellow and pleasant voice."
+  },
+  {
+   "line_start": 85,
+   "line_end": 149,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Seeka Tron", "[gate guard]"],
+   "setting": "Klein's first passage BEHIND Chanis Gate: blue silver-candle flames, swaying black seal-lines, and the Medicine Room's Sedative Agent",
+   "text_anchor": "After Dunn Smith stamped and signed the application"
+  },
+  {
+   "line_start": 153,
+   "line_end": 187,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Hood Eugen"],
+   "setting": "Dawn infiltration of Tingen Asylum: over the wall to Hood Eugen's cell — the mad Psychiatrist watches the crimson moon, 'waiting for my cake'",
+   "text_anchor": "Around dawn, Klein used a special technique to lock his bedroom."
+  }
+ ]
+}

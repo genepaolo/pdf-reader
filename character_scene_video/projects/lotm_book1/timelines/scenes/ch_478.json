@@ -1,0 +1,40 @@
+{
+ "chapter": 478,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 33,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Lady Despair",
+    "[black-haired angel]"
+   ],
+   "setting": "The Demoness of Despair's ice spear vanishes mid-air and she is erased a centimeter at a time — 'You aren't! You are…' — the seat left empty as though she had never sat there, and the hooded woman simply disappears",
+   "text_anchor": "“You aren’t! You are…”"
+  },
+  {
+   "line_start": 37,
+   "line_end": 69,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Trissy",
+    "[black-haired angel]"
+   ],
+   "setting": "Trissy, doubling back into Backlund to hide among five million people, is lifted out of a public carriage and pinned by an infant's helplessness before the same black-eyed figure — then released, with the sapphire ring on her pinky shattered and lightless",
+   "text_anchor": "the sapphire ring on her left pinky had somehow shattered"
+  },
+  {
+   "line_start": 73,
+   "line_end": 183,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mr. A"
+   ],
+   "setting": "Out of the mountain door and down the slope with the river in earshot — but the Shepherd catches him: wind blades, exploding flesh, a nightmare broken by an imagined Eternal Blazing Sun, an ice spear, plague and spider-silk; even burning free, Klein is coughing and cornered as the illusory book opens: 'I came, I saw, I record.'",
+   "text_anchor": "“I came, I saw, I record.”"
+  }
+ ]
+}

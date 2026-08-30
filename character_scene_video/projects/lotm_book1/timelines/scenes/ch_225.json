@@ -1,0 +1,59 @@
+{
+ "chapter": 225,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 17,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Out of the sewers ahead of approaching footsteps, disguise shed in East Borough, a counter-surveillance detour home to Cherwood Borough — sleep until the dawn doorbell",
+   "text_anchor": "Klein backed up from the fork in the path, without touching Zreal's corpse."
+  },
+  {
+   "line_start": 19,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Ian"],
+   "setting": "15 Minsk Street doorstep: Klein tells Ian he has found Zreal's corpse; Ian asks to see the body and agrees to keep the detective out of the police report",
+   "text_anchor": "“Good morning, Detective Moriarty,” Ian greeted him"
+  },
+  {
+   "line_start": 51,
+   "line_end": 101,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Ian"],
+   "setting": "East Borough sewer: Ian vomits at the mutilated corpse (more of it missing than last night), confirms it is Zreal, and pays the first of three favors — the Bravehearts Bar and the name Kaspars Kalinin for an unlicensed gun",
+   "text_anchor": "Both of them took the public carriage to the East Borough."
+  },
+  {
+   "line_start": 103,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Ian"],
+   "setting": "Klein doubles back and watches from a corner as Ian warily re-enters the sewer — the matter goes deeper than it seems",
+   "text_anchor": "Klein suddenly turned around and retraced his steps"
+  },
+  {
+   "line_start": 117,
+   "line_end": 185,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Xio Derecha", "Fors Wall", "Glaint"],
+   "setting": "Viscount Glaint's study, Empress Borough, at tea time: Audrey pays Xio and Fors 800 pounds, then invisibly steers them to borrow the planted books that hide Mr. Fool's name",
+   "text_anchor": "At tea time, Viscount Glaint was in his home situated in Empress Borough."
+  },
+  {
+   "line_start": 187,
+   "line_end": 203,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha"],
+   "setting": "Evening by the fireplace: Xio finds the interlayer paper in the borrowed book — Roselle's symbols on one side and The Fool's honorific name in ancient Hermes on the other",
+   "text_anchor": "Xio was curled up on the sofa in front of the fireplace"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "chapter": 384,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 59,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Kance Leerhsen",
+    "Glaint",
+    "Murray",
+    "Christine",
+    "Jane"
+   ],
+   "setting": "Audrey's high tea for her blue-blooded mysticism enthusiasts: steered by her, the questions pull from MI9's Kance what she wants — gas explosion, poison, substitutes, Specter's Shriek, holy bullets, a specter-state Hero Bandit, and more than one powerful Beyonder guarding a mere trafficker",
+   "text_anchor": "“Do you want me to be locked up by Captain?”"
+  },
+  {
+   "line_start": 63,
+   "line_end": 87,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Noon at Minsk Street: Old Kohler's emergency letter, penned in Daisy's neat free-school handwriting — she is safely home, and would like her vocabulary book back; burned after reading, with a chuckle: 'Captain, now it's my turn to approve the expense claims of others…'",
+   "text_anchor": "“Captain, now it’s my turn to approve the expense claims of others…”"
+  },
+  {
+   "line_start": 89,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres",
+    "Mike Joseph",
+    "Talim Dumont"
+   ],
+   "setting": "Quelaag Club corner table: two hires in one afternoon — Mike Joseph wants him along to interview the rescued East Borough girls (and quietly sniff out the Hero Bandit), and Dr. Aaron wants a bodyguard tonight while he confronts the child with the inverted Wheel of Fortune",
+   "text_anchor": "“Sherlock, I want to hire you as well."
+  },
+  {
+   "line_start": 127,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg"
+   ],
+   "setting": "City of Silver: Derrick reexamines the twelve-ringed translucent worm — too shy to trouble Mr. Fool again, he'll show it at the next gathering — then heads out to meet Shepherd Elder Lovia's returning temple expedition",
+   "text_anchor": "the remains of Amon’s avatar"
+  }
+ ]
+}

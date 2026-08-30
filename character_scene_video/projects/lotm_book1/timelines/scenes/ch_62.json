@@ -1,0 +1,41 @@
+{
+ "chapter": 62,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 37,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica"],
+   "setting": "From home by carriage to the Divination Club reception: Angelica, visibly lighter, thanks Klein for his suggestion",
+   "text_anchor": "Before Klein left home, he took the time to meticulously clean up his suit"
+  },
+  {
+   "line_start": 39,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica", "Glacis"],
+   "setting": "The meeting room: the recovered Glacis credits apothecary Lawson Darkwade's folk medicine and requests a divination",
+   "text_anchor": "Coffee or tea? Angelica asked hurriedly."
+  },
+  {
+   "line_start": 99,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Glacis"],
+   "setting": "Topaz room: the astrolabe warns against Lanevus's iron-mine share offering — a cliff beneath a flourishing surface",
+   "text_anchor": "After entering the divination room and locking the door"
+  },
+  {
+   "line_start": 137,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica"],
+   "setting": "Outside the Topaz room: Angelica announces a walk-in client who asked for Klein by name",
+   "text_anchor": "Just as the two left the Topaz room, Angelica walked over"
+  }
+ ]
+}

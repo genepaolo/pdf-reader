@@ -1,0 +1,32 @@
+{
+ "chapter": 129,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 57,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil", "Swain"],
+   "setting": "Sprint from the underground market through Evil Dragon Bar to the harbor: Old Neil lends Klein a Slumber Charm before they board the cargo ship",
+   "text_anchor": "Lost control? Klein's heart tightened"
+  },
+  {
+   "line_start": 59,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil", "Swain", "[Mandated Punishers]"],
+   "setting": "Cargo ship battle with the fish-scaled Rampager — a lost-control Mandated Punisher of thirty years; charms slow it and Swain's rage-fueled fist ends it",
+   "text_anchor": "This cargo ship had obvious signs of age."
+  },
+  {
+   "line_start": 161,
+   "line_end": 203,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [],
+   "setting": "Translator's note appended to the chapter (author's notes before the novel went Premium) — no story scene",
+   "text_anchor": "Hi, CKtalon here, the translator of LoM."
+  }
+ ]
+}

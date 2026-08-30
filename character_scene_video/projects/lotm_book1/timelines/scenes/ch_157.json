@@ -1,0 +1,77 @@
+{
+ "chapter": 157,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Benson", "Melissa"],
+   "setting": "Home: the siblings' marriage council — Klein deflects the Elizabeth talk onto Benson, who accidentally implies he fancies someone",
+   "text_anchor": "No, we are not"
+  },
+  {
+   "line_start": 39,
+   "line_end": 85,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Isengard Stanton", "Fors Wall", "Xio Derecha", "[assistant]"],
+   "setting": "Detective Isengard Stanton's gloomy Backlund house: a one-pound consultation profiles the anonymized pirate — then Stanton strokes a bronze vertical-eye book, murmuring Qilangos's name",
+   "text_anchor": "In a dark, gloomy house of Backlund, Hillston Borough."
+  },
+  {
+   "line_start": 89,
+   "line_end": 111,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Alger Wilson", "[sailor]"],
+   "setting": "Pritz Harbor basement: Alger waterboards a pirate with a film of seawater — Qilangos is in Backlund for a commission that could make him the fifth Pirate King",
+   "text_anchor": "In a particular basement of Pritz Harbor."
+  },
+  {
+   "line_start": 115,
+   "line_end": 119,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Monday: another fruitless red-chimney sweep, leftovers, and a nap before the Gathering",
+   "text_anchor": "Klein didn't rest on Monday morning."
+  },
+  {
+   "line_start": 121,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: reaching for the crimson star of The Sun",
+   "text_anchor": "At about twenty minutes to three in the afternoon"
+  },
+  {
+   "line_start": 125,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick"],
+   "setting": "City of Silver practice grounds: Derrick sees the summons, counts a thousand heartbeats, and locks himself in a bathroom",
+   "text_anchor": "In the City of Silver."
+  },
+  {
+   "line_start": 137,
+   "line_end": 149,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Derrick"],
+   "setting": "Above the gray fog: 'Congratulations, Mr. Bard' — Derrick has consumed the potion; the Sun symbol forms behind his chair",
+   "text_anchor": "Above the gray fog, Klein leaned back into his chair"
+  },
+  {
+   "line_start": 151,
+   "line_end": 157,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Derrick", "Audrey Hall", "Alger Wilson"],
+   "setting": "The Gathering convenes: Audrey arrives with a new diary page; Alger asks Sun about the Telepathist formula",
+   "text_anchor": "As he was speaking, he established a connection"
+  }
+ ]
+}

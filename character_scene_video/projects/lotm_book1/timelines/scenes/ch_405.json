@@ -1,0 +1,45 @@
+{
+ "chapter": 405,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Mr. A",
+    "Fors Wall",
+    "Xio Derecha",
+    "Glaint"
+   ],
+   "setting": "Mr. A's blackboard spells The Fool's three lines in plain Loen with a warning never to read them in Hermes; the room debates whether it's a cult while Fors panics inwardly — and both she and Xio trace the paper with that honorific name back to a book borrowed from a cheerfully oblivious Viscount Glaint",
+   "text_anchor": "“Why are you looking at me like that?”"
+  },
+  {
+   "line_start": 55,
+   "line_end": 117,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Susie",
+    "Escalante",
+    "Stephen Hampres"
+   ],
+   "setting": "The candlelit 'academic' meeting: furniture merchant Stephen Hampres reads Audrey aloud and dubs her 'Miss Angel' — while she reads him right back down to his vanity, finances and cologne — then listens through talk of the Body of Heart and Mind and the collective subconscious",
+   "text_anchor": "“Welcome, the beautiful Miss Angel.”"
+  },
+  {
+   "line_start": 121,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Mr. A",
+    "True Creator"
+   ],
+   "setting": "Jolted awake above the gray fog by Miss Magician's report: the Aurora Order has his honorific name. The leak traces to Little Sun's ritual and the All-Black Eye's corruption — so the Eye never leaves the fog again — and Mr. A's public bounty is either idiocy or fishing",
+   "text_anchor": "The Aurora Order knows of The Fool? They know of my honorific name?"
+  }
+ ]
+}

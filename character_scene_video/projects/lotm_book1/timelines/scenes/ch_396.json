@@ -1,0 +1,68 @@
+{
+ "chapter": 396,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 9,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall"
+   ],
+   "setting": "Back at her desk, Fors grieves for the Abraham family's fate, then sets a pocket watch beside her — five minutes of copying Sights in the Spirit World, five minutes of rest, so the text's madness can't take her",
+   "text_anchor": "I don’t want to lose control because of this…"
+  },
+  {
+   "line_start": 13,
+   "line_end": 37,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg"
+   ],
+   "setting": "The Berg household: convinced he is watched, Derrick follows the Hanged Man's recalled instructions — close the window, light a candle, and hold the bestowment ritual openly so Amon can carry the blame",
+   "text_anchor": "you can openly hold the bestowment ritual"
+  },
+  {
+   "line_start": 41,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "In the Athens-like palace, the Sun's star opens its door: the All-Black Eye goes into an iron box and through the gap with one warning — 'Do not touch the item inside.' Lose it and Mr. World must be gloriously sacrificed",
+   "text_anchor": "“Do not touch the item inside.”"
+  },
+  {
+   "line_start": 67,
+   "line_end": 89,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg"
+   ],
+   "setting": "Derrick opens the box a crack — a pupil-less black eye, ravings in his ears — seals it in spirituality, hides it inside his clothes and goes to watch the quarantined expedition members whisper and stand like zombies, waiting for his moment",
+   "text_anchor": "It was a completely black eye without a pupil."
+  },
+  {
+   "line_start": 93,
+   "line_end": 111,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Colin Iliad",
+    "[black shadow]"
+   ],
+   "setting": "Atop the spire: the shadow reports the bestowment ritual and the evil iron-black box, begging for action — but Colin will wait, still hoping the incomprehensible 'Amon' is the City of Silver's hidden hope against the coming apocalypse",
+   "text_anchor": "“This might be our hidden hope, the hope for us in surviving the apocalypse when it comes!”"
+  },
+  {
+   "line_start": 115,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Evening above the fog: the copied Sights in the Spirit World turns even The Fool irritable — detailed descriptions of certain existences madden their readers — and its first chapters reveal the seven living pure lights of the spirit world and their teaching order, the Pure Light Brotherhood",
+   "text_anchor": "the Pure Light Brotherhood!"
+  }
+ ]
+}

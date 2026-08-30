@@ -1,0 +1,41 @@
+{
+ "chapter": 102,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Swain"],
+   "setting": "Evil Dragon Bar, continuing with Swain: the portrait man first came together with Vincent; Swain doesn't know his name",
+   "text_anchor": "The more Klein thought about it, the more likely it seemed."
+  },
+  {
+   "line_start": 37,
+   "line_end": 91,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Ademisaul", "[girl in green dress]", "[vendor]"],
+   "setting": "Underground market below the bar: Ademisaul flees at the sight of Klein; a sweet-looking girl in a green dress examines the Book of Witches at a stall",
+   "text_anchor": "He wasn't in a hurry to head to the Deweyville Library"
+  },
+  {
+   "line_start": 95,
+   "line_end": 115,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint"],
+   "setting": "Crown Turf Club, Backlund: Viscount Glaint tells Audrey he knows a real Beyonder and invites her to his salon",
+   "text_anchor": "Backlund. Crown Turf Club."
+  },
+  {
+   "line_start": 119,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[librarians]"],
+   "setting": "Deweyville Library: flashing his badge, Klein pulls the borrowing records and finds the name Sirius Arapis, cloth merchant, 19 Howes Street",
+   "text_anchor": "Inside Deweyville Library."
+  }
+ ]
+}

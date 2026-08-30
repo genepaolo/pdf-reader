@@ -1,0 +1,28 @@
+{
+ "chapter": 455,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 169,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad",
+    "Joshua",
+    "Jack"
+   ],
+   "setting": "Into the temple's basement: the upside-down Creator, murals of six evil gods ringing a corroded white cross, a cluster of 'mushrooms' burned back into rotten flesh and scalps — then an inner altar whose statue has open blood-red eyes, and behind it a curled-up child of seven or eight begging to be saved. 'My name… My name is Jack…'",
+   "text_anchor": "“My name… My name is Jack…”"
+  },
+  {
+   "line_start": 173,
+   "line_end": 175,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "After dinner, coat and hat on: Sharron must be found, the baronet's tunnel settled and mermaid clues gathered before Detective Moriarty leaves on his 'vacation'",
+   "text_anchor": "before Detective Sherlock Moriarty headed south for a “vacation.”"
+  }
+ ]
+}

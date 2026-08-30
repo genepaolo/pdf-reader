@@ -1,0 +1,664 @@
+{
+ "_note": "Canonicalize tagged character names -> canonical (registry) names. Applied at build time so raw scene tags are preserved. Fixes reader-invented surnames and strips pathway-name / honorific prefixes. Add entries as review surfaces more.  2026-08-29: 'Kohler' -> 'Old Kohler' (the text calls him plain Kohler; the wiki/registry name carries the 'Old', which was hiding a 20-scene recurring character in the report's 'minor' bucket). NOT aliased: 'Eye of Wisdom' -> 'Isengard Stanton' -- same man, but the gathering code name is deliberately kept separate (see TAGGING_GUIDE.md).",
+ "aliases": {
+  "Rozanne Bengun": "Rozanne",
+  "Rozanne Bansa": "Rozanne",
+  "Corpse Collector Frye": "Frye",
+  "Sleepless Royale Reideen": "Royale Reideen",
+  "Count Hall": "Earl Hall",
+  "Angelica": "Angelica Barrehart",
+  "Benson": "Benson Moretti",
+  "Melissa": "Melissa Moretti",
+  "Kenley": "Kenley White",
+  "Azik": "Azik Eggers",
+  "Mr. Azik": "Azik Eggers",
+  "Cohen Quentin": "Quentin Cohen",
+  "Derrick": "Derrick Berg",
+  "Derek": "Derrick Berg",
+  "Mr. Gate": "Mr. Door",
+  "Bakerland": "Bakerland Jean Madan",
+  "Kance": "Kance Leerhsen",
+  "Kohler": "Old Kohler"
+ },
+ "_exclude_note": "Not people — dropped from casts/needs-image list (objects/non-character mistags). NOTE: Susie is a real recurring character (Audrey's dog, later a Beyonder) — NOT excluded.",
+ "exclude": [],
+ "_verified_present_note": "Tags the verifier flags as 'wrong scene' (name not in those exact lines) but a human confirmed the character IS present — named in an adjacent scene or by relation/description. Suppressed so verify only surfaces NEW issues.",
+ "verified_present": [
+  {
+   "chapter": 8,
+   "scene": 3,
+   "name": "Count Hall",
+   "why": "present as 'her father' (Audrey takes his arm, L161)"
+  },
+  {
+   "chapter": 17,
+   "scene": 1,
+   "name": "Rozanne",
+   "why": "present as 'the brown-haired girl'; names herself in s2 (L63)"
+  },
+  {
+   "chapter": 21,
+   "scene": 4,
+   "name": "Leonard Mitchell",
+   "why": "mid-conversation; named in s3 (L119) — renumbered after the ch21 diary-interlude split"
+  },
+  {
+   "chapter": 42,
+   "scene": 1,
+   "name": "Klee",
+   "why": "the 'lanky man' visitor; names himself in s3 (L127)"
+  },
+  {
+   "chapter": 54,
+   "scene": 3,
+   "name": "Anna",
+   "why": "the 'lady in light-blue dress' at reception; names herself Anna in s4 (L159)"
+  },
+  {
+   "chapter": 75,
+   "scene": 1,
+   "name": "Dunn Smith",
+   "why": "'Captain and company are either unconscious' (L5) - down on the battlefield; named in ch74"
+  },
+  {
+   "chapter": 75,
+   "scene": 1,
+   "name": "Leonard Mitchell",
+   "why": "unconscious/recovering on the battlefield with the squad (L5); named in ch74 and ch75 s3 L119"
+  },
+  {
+   "chapter": 75,
+   "scene": 1,
+   "name": "Lorotta",
+   "why": "unconscious on the battlefield (L5); named in ch74 and ch75 s3 L119"
+  },
+  {
+   "chapter": 75,
+   "scene": 1,
+   "name": "Borgia",
+   "why": "down on the battlefield (L5); named in ch74 and ch75 s3 L119"
+  },
+  {
+   "chapter": 77,
+   "scene": 1,
+   "name": "Lorotta",
+   "why": "searches remains and boards with the squad; named in s2 L51 as being in the carriage"
+  },
+  {
+   "chapter": 77,
+   "scene": 2,
+   "name": "Borgia",
+   "why": "driving the carriage - 'I'll drive' in s1 L47"
+  },
+  {
+   "chapter": 78,
+   "scene": 1,
+   "name": "Borgia",
+   "why": "still driving the same carriage (took the reins ch77 L47)"
+  },
+  {
+   "chapter": 78,
+   "scene": 3,
+   "name": "Lorotta",
+   "why": "'helped the captain and the rest escort' (L47) - the Backlund escort trio carries the artifacts in"
+  },
+  {
+   "chapter": 78,
+   "scene": 3,
+   "name": "Aiur Harson",
+   "why": "same - escorting 2-049 and the notebook to the second floor (L47)"
+  },
+  {
+   "chapter": 78,
+   "scene": 3,
+   "name": "Borgia",
+   "why": "same - escorting 2-049 and the notebook to the second floor (L47)"
+  },
+  {
+   "chapter": 124,
+   "scene": 3,
+   "name": "Frye",
+   "why": "one of 'the three Nighthawks' who went up to the second floor; nodded agreement at L141"
+  },
+  {
+   "chapter": 126,
+   "scene": 1,
+   "name": "Benson",
+   "why": "still in the living room from ch125 L135 - scene continues directly across the chapter break"
+  },
+  {
+   "chapter": 126,
+   "scene": 8,
+   "name": "Old Neil",
+   "why": "same duty-room conversation as s6 (L117-147); the Trissy interlude cut away and back"
+  },
+  {
+   "chapter": 141,
+   "scene": 4,
+   "name": "Frye",
+   "why": "source typo: 'Fyre sat behind the typewriter' (L89)"
+  },
+  {
+   "chapter": 113,
+   "scene": 4,
+   "name": "Roselle Gustav",
+   "why": "diary-reading interlude (user ruling 2026-08-27): The Fool reads Roselle's page; 'Emperor Roselle's diary' announced at L93"
+  },
+  {
+   "chapter": 144,
+   "scene": 2,
+   "name": "Roselle Gustav",
+   "why": "diary-reading interlude (user ruling 2026-08-27): the pages Justice conjured at L105-107 are Roselle's diary"
+  },
+  {
+   "chapter": 157,
+   "scene": 8,
+   "name": "Derrick",
+   "why": "still above the fog from s7 (pulled in at L135); addressed as 'Mr. Sun' at L157"
+  },
+  {
+   "chapter": 157,
+   "scene": 8,
+   "name": "Alger Wilson",
+   "why": "pulled in as 'The Hanged Man' via his star at L151; present for the gathering that follows"
+  },
+  {
+   "chapter": 160,
+   "scene": 4,
+   "name": "Kenley White",
+   "why": "one of the three Nighthawks who arrived together at Morse Town (named at L83-97, scene break only)"
+  },
+  {
+   "chapter": 162,
+   "scene": 4,
+   "name": "Leonard Mitchell",
+   "why": "'the three Nighthawks began their journey back' (L123) - the Morse Town trio returning"
+  },
+  {
+   "chapter": 162,
+   "scene": 4,
+   "name": "Kenley White",
+   "why": "'the three Nighthawks began their journey back' (L123) - the Morse Town trio returning"
+  },
+  {
+   "chapter": 201,
+   "scene": 5,
+   "name": "Frye",
+   "why": "rushed to Madam Sharon's house with Klein at L129 and helped bring the corpses back"
+  },
+  {
+   "chapter": 20,
+   "scene": 5,
+   "name": "Roselle Gustav",
+   "why": "diary-reading interlude (user ruling 2026-08-27): the pages Klein glances at are 'Roselle Gustav's lost diary' (L207)"
+  },
+  {
+   "chapter": 215,
+   "scene": 4,
+   "name": "Julianne",
+   "why": "the 'young maidservant' who answers the door; named Julianne at L77 when Stelyn orders the tea"
+  },
+  {
+   "chapter": 216,
+   "scene": 7,
+   "name": "Roselle Gustav",
+   "why": "diary-reading interlude: the six pages The Hanged Man tendered are 'Roselle's diary' (L113); reading starts L137"
+  },
+  {
+   "chapter": 249,
+   "scene": 1,
+   "name": "Mr. A",
+   "why": "the Shepherd assassin is Mr. A — the mission was delegated to him (ch244) and Bakerland guesses it aloud ('Who are you from the Aurora Order? Mr. A?', L97)"
+  },
+  {
+   "chapter": 218,
+   "scene": 2,
+   "name": "Derek",
+   "why": "present at the gathering as 'The Sun, Derek' (literal text in span); alias Derek->Derrick Berg defeats literal grounding"
+  },
+  {
+   "chapter": 235,
+   "scene": 6,
+   "name": "Derrick",
+   "why": "present at the gathering, greeted as 'Mr. Sun' (L121); named Derrick in the same gathering ch236 L61"
+  },
+  {
+   "chapter": 237,
+   "scene": 2,
+   "name": "Alger Wilson",
+   "why": "present at the gathering as 'The Hanged Man' (L113); the same continuous session names him ch236/238"
+  },
+  {
+   "chapter": 244,
+   "scene": 1,
+   "name": "Glaint",
+   "why": "present guarding the door of his own study - 'Audrey let the master of the study guard the door' (ch243 L143)"
+  },
+  {
+   "chapter": 244,
+   "scene": 3,
+   "name": "Xio Derecha",
+   "why": "'the two of them' = Xio and Fors from the immediately preceding scene (L59-75) meeting the retriever"
+  },
+  {
+   "chapter": 244,
+   "scene": 3,
+   "name": "Fors Wall",
+   "why": "'the two of them' = Xio and Fors from the immediately preceding scene (L59-75) meeting the retriever"
+  },
+  {
+   "chapter": 244,
+   "scene": 3,
+   "name": "Susie",
+   "why": "'the familiar large golden retriever' is Susie, Audrey's Beyonder dog courier (established ch131+)"
+  },
+  {
+   "chapter": 246,
+   "scene": 5,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 247,
+   "scene": 3,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 248,
+   "scene": 1,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 250,
+   "scene": 1,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 251,
+   "scene": 2,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 252,
+   "scene": 1,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 252,
+   "scene": 4,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 253,
+   "scene": 2,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 254,
+   "scene": 5,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 255,
+   "scene": 2,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 255,
+   "scene": 4,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 256,
+   "scene": 1,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 256,
+   "scene": 3,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 257,
+   "scene": 1,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 258,
+   "scene": 1,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 258,
+   "scene": 2,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 258,
+   "scene": 3,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 259,
+   "scene": 5,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 260,
+   "scene": 1,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 261,
+   "scene": 1,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 261,
+   "scene": 2,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 262,
+   "scene": 1,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 263,
+   "scene": 1,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 263,
+   "scene": 4,
+   "name": "Sharron",
+   "why": "the pale woman in the black regal dress is Sharron - Kaspars names her 'Ma'am. Sharron' at ch278 L45"
+  },
+  {
+   "chapter": 280,
+   "scene": 3,
+   "name": "Audrey Hall",
+   "why": "present as 'Justice, who was wearing a white gown' praying above the fog (L119)"
+  },
+  {
+   "chapter": 283,
+   "scene": 5,
+   "name": "Audrey Hall",
+   "why": "present as 'Justice recounted truthfully' in the fog response (L143)"
+  },
+  {
+   "chapter": 284,
+   "scene": 4,
+   "name": "Audrey Hall",
+   "why": "present as 'Miss Justice' receiving The Fool's answer (L135-141)"
+  },
+  {
+   "chapter": 284,
+   "scene": 5,
+   "name": "Count Hall",
+   "why": "present as 'her father' training the hunting hounds (L145)"
+  },
+  {
+   "chapter": 288,
+   "scene": 5,
+   "name": "Susie",
+   "why": "present as 'a golden retriever sitting beside him' during Glaint's visit (L135)"
+  },
+  {
+   "chapter": 289,
+   "scene": 4,
+   "name": "Derrick",
+   "why": "present at the gathering as 'The Sun' among the pulled-in members (L125-127)"
+  },
+  {
+   "chapter": 290,
+   "scene": 1,
+   "name": "Derrick",
+   "why": "present at the gathering as 'The Sun' who 'listened quite attentively' (L49)"
+  },
+  {
+   "chapter": 304,
+   "scene": 3,
+   "name": "Susie",
+   "why": "'a huge golden retriever running happily' is Susie - she recounts the encounter in the next scene (L119-127)"
+  },
+  {
+   "chapter": 315,
+   "scene": 3,
+   "name": "Emlyn White",
+   "why": "the basement vampire names himself 'Emlyn White' in the continuation (ch316 L83)"
+  },
+  {
+   "chapter": 316,
+   "scene": 4,
+   "name": "Annie",
+   "why": "present as personal maidservant 'Anne' (L129) - spelling variant of Annie (ch238 etc.)"
+  },
+  {
+   "chapter": 282,
+   "scene": 2,
+   "name": "Kohler",
+   "why": "the starving vagabond Klein feeds is Old Kohler - he recalls the 'reporter' helping him at this coffee shop (ch352 L127-135) and names himself ch353 L85"
+  },
+  {
+   "chapter": 352,
+   "scene": 3,
+   "name": "Kohler",
+   "why": "the dock-laboring former tramp names himself 'Old Kohler' in the continuation (ch353 L85)"
+  },
+  {
+   "chapter": 314,
+   "scene": 1,
+   "name": "Audrey Hall",
+   "why": "present at the gathering as 'Justice'/'Miss Justice' (continuation of the ch313 session)"
+  },
+  {
+   "chapter": 314,
+   "scene": 1,
+   "name": "Alger Wilson",
+   "why": "present at the gathering as 'The Hanged Man' (continuation of the ch313 session)"
+  },
+  {
+   "chapter": 332,
+   "scene": 3,
+   "name": "Sharron",
+   "why": "the bodiless 'illusionary voice' answering in the empty living room is Sharron, who set the meeting (L135-139; she left the coffee-table note per ch345)"
+  },
+  {
+   "chapter": 359,
+   "scene": 1,
+   "name": "Fors Wall",
+   "why": "present at the gathering as 'The Magician'/'Fors' (listed among members ch358 L111-139, session continues)"
+  },
+  {
+   "chapter": 363,
+   "scene": 3,
+   "name": "Amon",
+   "why": "the monocled figure in the ravine 'looked identical to the phantom Derrick Berg had seen' - Amon, named through ch362-363; he speaks 'The Fool' (L131)"
+  },
+  {
+   "chapter": 383,
+   "scene": 1,
+   "name": "Count Hall",
+   "why": "Audrey is still at breakfast with 'her father' (ch382 L125-141 names Count Hall); she reads his face for how much he knows"
+  },
+  {
+   "chapter": 391,
+   "scene": 1,
+   "name": "Derrick Berg",
+   "why": "seated at the gathering as 'The Sun' throughout (ch390 L127 'The Sun appears very anxious'; he speaks in ch392 s1)"
+  },
+  {
+   "chapter": 391,
+   "scene": 3,
+   "name": "Audrey Hall",
+   "why": "still seated at the gathering as 'Justice' when Mr. Fool says 'You can begin'"
+  },
+  {
+   "chapter": 391,
+   "scene": 3,
+   "name": "Fors Wall",
+   "why": "still seated at the gathering as 'The Magician' when Mr. Fool says 'You can begin'"
+  },
+  {
+   "chapter": 391,
+   "scene": 3,
+   "name": "Derrick Berg",
+   "why": "still seated at the gathering as 'The Sun'; the Hanged Man turns to question him immediately (L125)"
+  },
+  {
+   "chapter": 395,
+   "scene": 1,
+   "name": "Derrick Berg",
+   "why": "present at the gathering as 'The Sun' through its close ('Audrey, Alger, and the others stood up at the same time and bowed', L135)"
+  },
+  {
+   "chapter": 418,
+   "scene": 1,
+   "name": "Susie",
+   "why": "the golden retriever came into the activity room with Audrey (ch417 L173) and is with her again at L145; present through the initiation"
+  },
+  {
+   "chapter": 426,
+   "scene": 4,
+   "name": "Leonard Mitchell",
+   "why": "the wearer of the blood-stained silver armor climbing into the sewer ('It's nearby!') is Leonard, named at L47 of the same chapter"
+  },
+  {
+   "chapter": 427,
+   "scene": 1,
+   "name": "Leonard Mitchell",
+   "why": "the Red Glove in the blood-stained silver armor who arrives at the corpse is Leonard (ch426 L47-63)"
+  },
+  {
+   "chapter": 439,
+   "scene": 3,
+   "name": "Alger Wilson",
+   "why": "seated at the gathering as 'The Hanged Man', whose suspicious gaze is described at L127"
+  },
+  {
+   "chapter": 439,
+   "scene": 3,
+   "name": "Derrick Berg",
+   "why": "seated at the gathering as 'The Sun'; he speaks in ch440 L15-17"
+  },
+  {
+   "chapter": 440,
+   "scene": 1,
+   "name": "Alger Wilson",
+   "why": "still seated at the gathering as 'The Hanged Man', who watches Justice's example at L19"
+  },
+  {
+   "chapter": 464,
+   "scene": 1,
+   "name": "Derrick Berg",
+   "why": "seated at the gathering as 'The Sun'; Audrey addresses him as Mr. Sun in ch460 and he returns to his campsite at ch464 L75"
+  },
+  {
+   "chapter": 469,
+   "scene": 2,
+   "name": "Emlyn White",
+   "why": "this is Emlyn's own scene at the Harvest Church (he is named at ch469 L57-59 arriving, and reflects on Utravsky here)"
+  },
+  {
+   "chapter": 239,
+   "scene": 5,
+   "name": "Darkwill",
+   "why": "the 'fat-faced man' taking the corner chair at the gathering — the recurring Apothecary, wiki: Darkwill (user-confirmed 2026-08-29)"
+  },
+  {
+   "chapter": 240,
+   "scene": 1,
+   "name": "Darkwill",
+   "why": "the fat-faced apothecary hiring the sewer-beast cleaner — Darkwill"
+  },
+  {
+   "chapter": 241,
+   "scene": 1,
+   "name": "Darkwill",
+   "why": "the fat-faced apothecary closing the deal — Darkwill"
+  },
+  {
+   "chapter": 256,
+   "scene": 3,
+   "name": "Darkwill",
+   "why": "the Apothecary at the gathering after Black Snake's death — Darkwill"
+  },
+  {
+   "chapter": 257,
+   "scene": 1,
+   "name": "Darkwill",
+   "why": "after-hours: the Apothecary offering the Apothecary-formula lead — Darkwill"
+  },
+  {
+   "chapter": 273,
+   "scene": 1,
+   "name": "Darkwill",
+   "why": "the Apothecary at Wednesday's gathering — Darkwill"
+  },
+  {
+   "chapter": 274,
+   "scene": 1,
+   "name": "Darkwill",
+   "why": "the Apothecary at the auction — Darkwill"
+  },
+  {
+   "chapter": 302,
+   "scene": 2,
+   "name": "Darkwill",
+   "why": "the Apothecary buying the marrow crystal — Darkwill"
+  },
+  {
+   "chapter": 304,
+   "scene": 3,
+   "name": "Darkwill",
+   "why": "the Apothecary revealed as a Sequence 8 Beast Tamer in the Empress Borough woods — Darkwill"
+  },
+  {
+   "chapter": 326,
+   "scene": 2,
+   "name": "Darkwill",
+   "why": "the fat-faced heckler at the Rice Circus — Darkwill (placed in ch327 dream-recall)"
+  },
+  {
+   "chapter": 327,
+   "scene": 1,
+   "name": "Darkwill",
+   "why": "dream-recall identifies the heckler as the Apothecary from the gatherings — Darkwill"
+  },
+  {
+   "chapter": 334,
+   "scene": 1,
+   "name": "Darkwill",
+   "why": "the Apothecary hunting a tame Beyonder beast — Darkwill"
+  },
+  {
+   "chapter": 335,
+   "scene": 1,
+   "name": "Darkwill",
+   "why": "the Apothecary as the gathering winds down — Darkwill"
+  }
+ ]
+}

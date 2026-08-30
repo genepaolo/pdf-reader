@@ -1,0 +1,51 @@
+{
+ "chapter": 383,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 17,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Count Hall"
+   ],
+   "setting": "Still at breakfast: certain this was Mr. Fool's adorer, Audrey plans an afternoon tea party — invitations via Annie to Glaint, Kance and friends — so others will ask MI9's questions for her; matured past taking 'punishing evil' at face value, she suspects a deeper factor behind Capim",
+   "text_anchor": "I hope Kance can provide some useful information"
+  },
+  {
+   "line_start": 21,
+   "line_end": 51,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Jam bread and the morning paper: 'What? A safe?' — the investigators pocketed Capim's valuables and pinned it on the Hero Bandit ('I like that name…'); then a deliberately visible day of detective theater at Broken Axe Lane, still 'investigating' Daisy's disappearance",
+   "text_anchor": "Hero Bandit Dark Emperor… I like that name…"
+  },
+  {
+   "line_start": 55,
+   "line_end": 129,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Daisy",
+    "Freja",
+    "Liv",
+    "[police officer]"
+   ],
+   "setting": "Nine a.m., the shabby apartment: Daisy home under police escort — Freja darts through the hanging laundry to hug her; tears, then straight back to washing; over black bread Daisy describes the figure on the roof in black armor and crown: 'A hero!'",
+   "text_anchor": "“A hero!”"
+  },
+  {
+   "line_start": 133,
+   "line_end": 141,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "[secret chamber investigators]"
+   ],
+   "setting": "A secret chamber compares Lanevus and Capim: two different perpetrators, both leaving tarot cards — either a copycat, or 'an organization symbolized by tarot cards!'",
+   "text_anchor": "“An organization symbolized by tarot cards!”"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "chapter": 239,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 21,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Annie",
+    "Susie"
+   ],
+   "setting": "Count Hall's villa: the salamanders will go to Susie's potion; weighed down by her debts to Mr. Fool, Audrey accepts Countess Jaria's ball invitation — Ambassador Bakerland will be there to observe",
+   "text_anchor": "Well, I don't need it anymore, but I can give it to Susie"
+  },
+  {
+   "line_start": 25,
+   "line_end": 41,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson",
+    "[man with pirate headband]"
+   ],
+   "setting": "Bayam, City of Generosity, Rorsted Archipelago: Alger dons a white mask and coded knocks to slip into a safehouse meeting",
+   "text_anchor": "Alger Wilson changed into attire that was considered gaudy in the Intis Republic"
+  },
+  {
+   "line_start": 45,
+   "line_end": 81,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "15 Minsk Street: Klein reasons the threadworm Beyonder is Seer-pathway — Secret Order and Intis intertwined; he re-equips everything from above the fog and heads out for the Bravehearts Bar",
+   "text_anchor": "At 15 Minsk Street, Klein drew the curtains open and sat down at his desk."
+  },
+  {
+   "line_start": 85,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kaspars Kalinin"
+   ],
+   "setting": "Two pounds buys an introduction: Kaspars leads Klein from the bar's kitchen to a darkened house, hands him a half-face iron mask, and knocks the coded rhythm",
+   "text_anchor": "Klein found Kaspars in a card room, playing Fighting Evil"
+  },
+  {
+   "line_start": 117,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[iron-masked doorman]",
+    "[hooded Beyonders]",
+    "Darkwill"
+   ],
+   "setting": "A candle-lit activity room of hooded, iron-masked Beyonders: Klein takes a corner chair as a fat-faced apothecary complains about clever beasts eating his sewer-grown herbs",
+   "text_anchor": "There were about ten people sitting on the sofas and chairs around the coffee table."
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "chapter": 305,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 53,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Isengard Stanton"],
+   "setting": "The doorstep negotiation and shared carriage: wary of Nighthawks, Klein signs on as analysis-only consultant to Isengard's detective posse — noting the older man's suspiciously warm palm along the way",
+   "text_anchor": "“I can participate in the discussion and help to look through the information and analyze the clues"
+  },
+  {
+   "line_start": 55,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Isengard Stanton", "Stuart", "Kaslana", "Lydia", "[private detectives]", "[Isengard's assistant]"],
+   "setting": "The detective exchange in Isengard's activity room — sixteen investigators, familiar faces Stuart and Kaslana among them: Klein's one contribution reframes the hunt — pull every unsolved serial murder of the last twenty years; the killer is no rookie",
+   "text_anchor": "“I want information on the unsolved serial murders in the last twenty years"
+  }
+ ]
+}

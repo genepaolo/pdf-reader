@@ -1,0 +1,50 @@
+{
+ "chapter": 245,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 9,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Home again, feigning normalcy for the watchers: an illusory woman's prayer reaches Klein as he waits out the evening until ten",
+   "text_anchor": "Back home at 15 Minsk Street, Klein was in no hurry"
+  },
+  {
+   "line_start": 11,
+   "line_end": 101,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Mr. A"
+   ],
+   "setting": "Above the gray fog: Justice reports Mr. A's terms; Klein deduces Mr. A is an Aurora Order Oracle (never trade formulas with lunatics), divines that Maric's friend is low-risk and Mr. A will genuinely threaten Bakerland, then approves the plan and asks 1000 pounds 'for his adorer'",
+   "text_anchor": "Dressed in a white silk nightgown, Miss Justice appeared in front of him."
+  },
+  {
+   "line_start": 105,
+   "line_end": 115,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall"
+   ],
+   "setting": "Audrey with her music score under the faint red moon: relief — the debt to Mr. Fool is nearly cleared, even if it means months of tight finances",
+   "text_anchor": "Audrey was holding a music score and humming a melody."
+  },
+  {
+   "line_start": 119,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mary Gale",
+    "Aaron Ceres",
+    "Talim Dumont"
+   ],
+   "setting": "Thursday: the 1000 pounds lands in the anonymous account; Mary Gale presents Klein's two Quelaag Club sponsors — surgeon Aaron Ceres and the affable ex-noble equestrian teacher Talim Dumont",
+   "text_anchor": "One was a well-known surgeon, Aaron Ceres, and the other was the aristocratic equestrian teacher, Talim Dumont."
+  }
+ ]
+}

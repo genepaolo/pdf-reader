@@ -1,0 +1,59 @@
+{
+ "chapter": 205,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 31,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Megose", "Leonard Mitchell", "Rozanne"],
+   "setting": "The reception, on a knife's edge: 'my child told me — he knows a lot'; Leonard keeps Megose talking while Klein slips away",
+   "text_anchor": "Klein instinctively reached for his pockets."
+  },
+  {
+   "line_start": 33,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Dunn's office: the bomb is Megose's unborn child — telegrams fly, Saint Selena's ashes authorized, and Klein flags that the coincidences have turned brazen",
+   "text_anchor": "He saw Dunn looking shocked before turning serious"
+  },
+  {
+   "line_start": 81,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Mrs. Orianna", "Rozanne"],
+   "setting": "Evacuating the clerks: Mrs. Orianna's blessing, and Rozanne's parting whisper about respecting Nighthawks",
+   "text_anchor": "Klein didn't waste any more time."
+  },
+  {
+   "line_start": 113,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Megose", "Leonard Mitchell"],
+   "setting": "Warm water served to the increasingly restless Megose; a whispered 'keep her here' to Leonard",
+   "text_anchor": "After seeing the clerks evacuate the Blackthorn Security Company"
+  },
+  {
+   "line_start": 123,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "The blue-lit corridor: Dunn ascends with the bone-silver box of Saint Selena's ashes and sends Klein for the strongest Sealed Artifact",
+   "text_anchor": "Klein returned to the Captain's office, only to realize that Dunn had already gone underground."
+  },
+  {
+   "line_start": 143,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "The intersection: trusting the Flaring Sun Charm over a Grade 2 artifact, Klein whistles up the bone messenger with an urgent note to Azik — the mastermind has surfaced",
+   "text_anchor": "When he was nearing the intersection, Klein suddenly stopped."
+  }
+ ]
+}

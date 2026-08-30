@@ -1,0 +1,41 @@
+{
+ "chapter": 82,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 19,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Sir Deweyville"],
+   "setting": "The library: Spirit Vision reads Sir Deweyville's frail emotional state, and the journals confirm the Evernight kingdom of Hornacis",
+   "text_anchor": "Various colors surfaced as auras and entered Klein's eyes."
+  },
+  {
+   "line_start": 23,
+   "line_end": 45,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Bogda", "Angelica"],
+   "setting": "Divination Club reception: the ailing Bogda insists on waiting for Mr. Moretti alone",
+   "text_anchor": "Divination Club. Bogda looked at the beautiful lady"
+  },
+  {
+   "line_start": 47,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Angelica", "Bogda"],
+   "setting": "Topaz room: reversed Wheel of Fortune, a dream of death on the operating table, and the cryptic pointer to Lawson on Vlad Street",
+   "text_anchor": "Klein saw the familiar Angelica"
+  },
+  {
+   "line_start": 155,
+   "line_end": 191,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Bogda", "[herb store boss]"],
+   "setting": "Lawson's Folk Herb Store on Vlad Street: the witchdoctor-robed boss sells Bogda a shady but confident liver cure",
+   "text_anchor": "East Borough. Vlad Street."
+  }
+ ]
+}

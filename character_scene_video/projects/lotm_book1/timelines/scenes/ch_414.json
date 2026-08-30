@@ -1,0 +1,32 @@
+{
+ "chapter": 414,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Stuart",
+    "Kaslana",
+    "Lydia",
+    "Isengard Stanton",
+    "[private detectives]"
+   ],
+   "setting": "A shot into the wall, drawn revolvers everywhere, Kaslana's awe-filled 'Stop!' — then the doorbell breaks the spell and Isengard Stanton himself walks in, pale and one-armed, thanking Klein for the afternoon visit that saved his life",
+   "text_anchor": "“You saved my life.”"
+  },
+  {
+   "line_start": 85,
+   "line_end": 173,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Isengard Stanton",
+    "Kaslana"
+   ],
+   "setting": "The activity room, window pointedly opened: Stanton admits he's a believer of the God of Knowledge and Wisdom and names the enemy — a Sequence 5 Desire Apostle who plants and catalyzes emotions, which explains the letters and Stuart's collapse; his options are official protection, new identities, or hunting the Devil down themselves",
+   "text_anchor": "the Devil pathway’s Sequence 5 is Desire Apostle"
+  }
+ ]
+}

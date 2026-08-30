@@ -1,0 +1,58 @@
+{
+ "chapter": 246,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[red-vested manservant]",
+    "[maid]"
+   ],
+   "setting": "Quelaag Club induction: member #192, Frost-constellation badge, 50-pound entry on Mary Gale's account, and a tour of the buffet, lounges, tennis courts and underground shooting ranges",
+   "text_anchor": "“Mr. Moriarty, welcome to the Quelaag Club.”"
+  },
+  {
+   "line_start": 51,
+   "line_end": 65,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "An Intis-style lounge: mid-scheming about the camera flash problem, a strange omen grips Klein — the air goes still as the calm before a storm, though divination denies any coming attack",
+   "text_anchor": "At that moment, his heart suddenly palpitated as he tensed up."
+  },
+  {
+   "line_start": 67,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: Ian beneath gas lamps and the blurry crimson moon): the coin confirms grave danger in the next few days — vague, unshortenable, its trigger somehow reaching him through no ability he owns",
+   "text_anchor": "“I will be in grave danger in the next few days.”"
+  },
+  {
+   "line_start": 97,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Kaspars Kalinin",
+    "Maric"
+   ],
+   "setting": "Bank withdrawal, then the Bravehearts card room: 100 pounds down and 300 per day — Maric nods to empty air and announces 'she has agreed'; the hidden protection begins now",
+   "text_anchor": "“I'll pay an advance of 100 pounds."
+  },
+  {
+   "line_start": 123,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Sharron"
+   ],
+   "setting": "The bathroom mirror at 15 Minsk Street: Klein's reflection dissolves into a pale, golden-haired woman in a black regal dress who curtsies — the 1000-pound bodyguard introducing herself",
+   "text_anchor": "he saw himself phasing away in the mirror before transforming into a woman wearing a black regal dress"
+  }
+ ]
+}

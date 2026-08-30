@@ -1,0 +1,32 @@
+{
+ "chapter": 193,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[passengers]"],
+   "setting": "The public carriage buzzes over the news: bounty talk stings — ten thousand pounds Klein can never claim; the Qilangos affair closes",
+   "text_anchor": "The article covering what happened to Qilangos wasn't long"
+  },
+  {
+   "line_start": 45,
+   "line_end": 107,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Fors Wall", "Xio Derecha"],
+   "setting": "Cherwood street: the paperboy's cry stuns the pair mid-walk — Qilangos dead before step one of the plan; they resolve to wait for Audrey to reach out",
+   "text_anchor": "Backlund, Cherwood Borough."
+  },
+  {
+   "line_start": 111,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Rozanne", "[Mrs. Maynard]", "[her companion]"],
+   "setting": "Blackthorn reception: a veiled widow Maynard arrives with a commission — track Madam Sharon and find evidence of her crimes",
+   "text_anchor": "After a busy morning, Klein returned to the Blackthorn Security Company."
+  }
+ ]
+}

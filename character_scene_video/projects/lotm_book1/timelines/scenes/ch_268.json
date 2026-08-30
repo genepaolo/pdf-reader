@@ -1,0 +1,23 @@
+{
+ "chapter": 268,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[carriage driver]"],
+   "setting": "Aston Cemetery after dark: whistle experiment one — corpses laid to rest by priestly ritual, old grave and fresh grave alike, ignore Azik's copper whistle entirely",
+   "text_anchor": "“Friend, if you are passing by, help me up. Thanks!”"
+  },
+  {
+   "line_start": 75,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[elderly janitor]"],
+   "setting": "St. Estin's Hospital morgue in the small hours: unshielded for two minutes, the whistle sits a corpse upright and sets the cabinets banging — three Requiem Charms quiet the dead, and Klein ceiling-perches past the investigating janitor and strolls home content",
+   "text_anchor": "At that moment, a corpse on a long table suddenly sat up!"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "chapter": 264,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 19,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Winding down the fog session: the smurf is christened 'The World' — beginning and end of the tarot cycle — then back to the bedroom with plans to quiz Justice about the Pound family through it",
+   "text_anchor": "Klein had named his smurf “The World”"
+  },
+  {
+   "line_start": 21,
+   "line_end": 23,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "A dreamless night, then another day combing Backlund's public libraries for nobility records — quietly, no librarians asked this time",
+   "text_anchor": "heading to the rest of the public libraries in Backlund"
+  },
+  {
+   "line_start": 25,
+   "line_end": 31,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Twenty minutes early above the gray fog: rehearsing The World, fitting the All-Black Eye to a silver chain under his sleeve",
+   "text_anchor": "he sat down at the seat belonging to The Fool"
+  },
+  {
+   "line_start": 33,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "[The World]",
+    "Lanevus"
+   ],
+   "setting": "Tarot Club with a stranger at the table: 'a new member, Mr. World'; Justice receives the Lanevus portrait as her candidates' examination task, and Alger hands over six more diary pages",
+   "text_anchor": "“This is a new member, Mr. World.”"
+  },
+  {
+   "line_start": 97,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Roselle Gustav",
+    "Bornova",
+    "Bernadette",
+    "Ciel",
+    "Zaratul",
+    "Floren"
+   ],
+   "setting": "Diary-reading interlude: Roselle's three children — Bernadette free, Ciel bound, baby Bornova born an Astromancer; Zaratul's grim divinations of each; and Floren of the Sauron family demanding Roselle's servitude",
+   "text_anchor": "“9th February. I have a third child. I named him Bornova."
+  }
+ ]
+}

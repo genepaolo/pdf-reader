@@ -1,0 +1,39 @@
+{
+ "chapter": 460,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 31,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the fog after lunch: every divination about being caught in 0-08's coincidences simply fails — so fleeing would only announce he has noticed. The decision is to walk onstage tomorrow, hand back the commission, and bow out of the play politely",
+   "text_anchor": "The topaz pendant stood still without any rotations."
+  },
+  {
+   "line_start": 35,
+   "line_end": 65,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg"
+   ],
+   "setting": "Summoned to the gathering from the campfire, Derrick is flooded with returned memories: the ruined city, the temple, the mushrooms and the boy Jack — five explorations, each ending with Colin killing Jack and everyone waking in camp again",
+   "text_anchor": "We’ve explored the temple five times…"
+  },
+  {
+   "line_start": 67,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Fors Wall",
+    "[The World]"
+   ],
+   "setting": "The table hears the loop out — Klein, who supplied no such reminder, keeps the silence of a great being while Alger offers two explanations (a nightmare beyond demigod level, or a closed loop of time) and guesses at the key: Jack may be the son of the Aurora Order Listener he once hunted at sea",
+   "text_anchor": "“That Listener also brought his son"
+  }
+ ]
+}

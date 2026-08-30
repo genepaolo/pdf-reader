@@ -1,0 +1,32 @@
+{
+ "chapter": 167,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Crestet Cesimir"],
+   "setting": "The darkened alchemy room: the oath sworn on the pure-white bone sword Holy Artifact, then Crestet formally teaches the Church's version of the acting method",
+   "text_anchor": "Alright. Crestet Cesimir nodded. He leaned forward."
+  },
+  {
+   "line_start": 125,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Basement entrance: Dunn sends the others down one by one for their oaths — and realizes he forgot half the team is on duty elsewhere",
+   "text_anchor": "He made his way past the corridor and up the stairs"
+  },
+  {
+   "line_start": 143,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Crestet Cesimir"],
+   "setting": "The alchemy room, second audience: 'in the name of the Goddess' — examination passed; Sequence 8 advancement granted on the spot",
+   "text_anchor": "An hour and a half passed."
+  }
+ ]
+}

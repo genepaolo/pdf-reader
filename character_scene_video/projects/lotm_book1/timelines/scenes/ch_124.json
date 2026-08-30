@@ -1,0 +1,32 @@
+{
+ "chapter": 124,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 61,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Hidden in shadows, then crossing the frost-covered ghoulish garden alone: Leonard's tune signals all-clear, sobbing shadows swarm at the living warmth",
+   "text_anchor": "Klein was hidden in the shadows of a building dozens of meters away"
+  },
+  {
+   "line_start": 63,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Frye", "Leonard Mitchell"],
+   "setting": "The wrecked altar room: puppets name Alfalfa-tragedy survivors including Joyce Mayer — Instigator Tris and a Theosophy Order woman suspected; Klein comforts the spirits",
+   "text_anchor": "Dunn Smith stood right before the altar with his back to Klein."
+  },
+  {
+   "line_start": 143,
+   "line_end": 183,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Leonard Mitchell", "Frye"],
+   "setting": "Second-floor bedroom (visions only: the mirror replays a round-faced young maiden): Klein ritually restores the cracked mirror — the blurry face looks familiar",
+   "text_anchor": "The three Nighthawks went up the stairs to the second floor"
+  }
+ ]
+}

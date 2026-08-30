@@ -1,0 +1,23 @@
+{
+ "chapter": 229,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Alone with Meursault's corpse: pendulum divination picks the lesser of two evils — report it; the scene is dressed (dagger in the wound), every mystical item stashed above the gray fog, and the clock walked past the one-hour mediumship window",
+   "text_anchor": "Meursault's body lay there, his eyes wide open"
+  },
+  {
+   "line_start": 81,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[two constables]", "[sergeant]"],
+   "setting": "Rain-lit Minsk Street and the wrecked house: Klein flags down the patrol, then feeds the sergeant a tuned self-defense account naming Meursault, the Zmanger gang and 'Mr. Ambassador' — faith declared: God of Steam and Machinery, to dodge the Nighthawks",
+   "text_anchor": "“Officers! A criminal attacked me! ” Klein shouted with great skill."
+  }
+ ]
+}

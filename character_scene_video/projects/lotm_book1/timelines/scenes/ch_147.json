@@ -1,0 +1,41 @@
+{
+ "chapter": 147,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 27,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Henry"],
+   "setting": "Henry's office: the final four pounds buy a sixty-page red-chimney report — 1725 matching buildings across Tingen and its outskirts",
+   "text_anchor": "In the office of the private investigator."
+  },
+  {
+   "line_start": 29,
+   "line_end": 53,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "A quiet cafe corner: combing the report over Southville Coffee — twenty-five red-chimney buildings changed tenants recently",
+   "text_anchor": "He surveyed the surroundings and confirmed that no one was paying attention"
+  },
+  {
+   "line_start": 55,
+   "line_end": 61,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Fifteen fruitless chimney visits by rented carriage, then home to 2 Daffodil Street to cook stewed mutton",
+   "text_anchor": "Klein spent two soli on a rented carriage"
+  },
+  {
+   "line_start": 65,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Daly Simone"],
+   "setting": "Klein's bedroom at eleven: a mouth-only spirit face protrudes from the wall — Daly, back in secret over Dunn's letter, says she knows he's deduced the acting method",
+   "text_anchor": "At eleven in the evening, the siblings bade each other goodnight"
+  }
+ ]
+}

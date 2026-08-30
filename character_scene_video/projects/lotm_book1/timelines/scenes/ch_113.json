@@ -1,0 +1,41 @@
+{
+ "chapter": 113,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Azik Eggers"],
+   "setting": "Khoy River bank and the walk back: Azik asks Klein to watch for clues to his origin, then invites him to lunch and to visit over summer break",
+   "text_anchor": "Mr. Azik can tell that I'm a Beyonder?"
+  },
+  {
+   "line_start": 43,
+   "line_end": 45,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Home after lunch: nap, charm and amulet study, then sealing the room ahead of the Tarot gathering",
+   "text_anchor": "After lunch, Klein returned home and took a nap"
+  },
+  {
+   "line_start": 49,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson"],
+   "setting": "Tarot Club above the gray fog: Justice awkwardly asks what a Beyonder pet is good for, then hands over a new page of Roselle's diary",
+   "text_anchor": "In the majestic divine hall above the gray fog sat a long, ancient mottled table."
+  },
+  {
+   "line_start": 105,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav"],
+   "setting": "Diary-reading interlude: The Fool reads Roselle's page — 'December 20th... There is no crude oil in this world!'",
+   "text_anchor": "Klein looked down at the few lines of text on the page."
+  }
+ ]
+}

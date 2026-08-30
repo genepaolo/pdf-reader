@@ -1,0 +1,49 @@
+{
+ "chapter": 367,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Doris"
+   ],
+   "setting": "Tuesday morning walk to the mailbox: Mrs. Doris at the oriel window with Brody the black cat (who friend-zones his rescuer); Klein's Spirit Vision reads her failing lungs — she needs the south, Desi Bay — then the Stuart letter goes in the box: the performance's prelude",
+   "text_anchor": "“When Jurgen comes back, I’ll have him pay you!”"
+  },
+  {
+   "line_start": 45,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Mary",
+    "Stelyn Sammer"
+   ],
+   "setting": "An anxious carriage outside 15 Minsk Street: Ma'am Mary's threatening letter — a dismembered doll and a demand to go easy on factory smoke — while Stelyn sits oddly dejected; Klein's coin-flip divination finds NO danger and he predicts someone will come wanting to make it public",
+   "text_anchor": "“Detective Moriarty, I received a threatening letter!”"
+  },
+  {
+   "line_start": 121,
+   "line_end": 137,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Mary",
+    "Hibbert Hall"
+   ],
+   "setting": "Ma'am Mary barely home before Hibbert Hall, the council's chief secretary's son, arrives asking her to give a reporter interview to publicize the outrage — exactly as Detective Moriarty described",
+   "text_anchor": "It’s exactly as Detective Moriarty described…"
+  },
+  {
+   "line_start": 141,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "After breakfast, above the gray fog without delay this time: preparing to divine the origin of the Biological Poison Bottle",
+   "text_anchor": "This time, he didn’t delay it at all."
+  }
+ ]
+}

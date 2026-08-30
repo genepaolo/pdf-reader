@@ -1,0 +1,59 @@
+{
+ "chapter": 226,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 13,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "15 Minsk Street by the charcoal fire: Klein circles an intriguing 'new type of transportation vehicle' investment ad — then an illusory prayer echoes in his ears",
+   "text_anchor": "A satiated Klein sat in a reclining chair in the living room"
+  },
+  {
+   "line_start": 15,
+   "line_end": 29,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: a petite woman in a knight's trainee uniform reading the paper — Justice's candidate): Klein touches the prayer's light ripples but withholds any response, planning a deeper test at night",
+   "text_anchor": "Taking four steps counterclockwise, he entered the world above the gray fog."
+  },
+  {
+   "line_start": 33,
+   "line_end": 57,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha"],
+   "setting": "Xio's living room: horror sets in — she has silently recited the full honorific name of a hidden existence in unprotected ancient Hermes",
+   "text_anchor": "Xio, who had just finished chanting the ancient Hermes sentence, froze"
+  },
+  {
+   "line_start": 59,
+   "line_end": 129,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall"],
+   "setting": "Bathroom ambush on window-climbing Fors, then a nervous joint study of the yellowed paper and the other borrowed books — no second paper found; they agree to wait for morning",
+   "text_anchor": "she spotted a long, slightly curly brown hair in the mirror"
+  },
+  {
+   "line_start": 131,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Xio Derecha"],
+   "setting": "Above the gray fog at midnight: Klein pulls the sleeping Xio in as a blurry figure at the bronze table's edge, severs the link at once, and a new crimson star of stable connection is born",
+   "text_anchor": "Klein instinctively woke up, lifted his blanket, got off the bed"
+  },
+  {
+   "line_start": 163,
+   "line_end": 173,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Xio Derecha", "Fors Wall"],
+   "setting": "Xio jolts awake beside the sleeping Fors, resolving to seek an exorcist at tomorrow's Beyonder gathering",
+   "text_anchor": "Xio sat up in her sleep."
+  }
+ ]
+}

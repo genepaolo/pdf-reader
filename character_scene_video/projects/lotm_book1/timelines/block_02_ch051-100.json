@@ -1,0 +1,4523 @@
+{
+  "batch": 2,
+  "chapters": "51-100",
+  "total": "10:07:58",
+  "chapters_detail": [
+    {
+      "chapter": 51,
+      "title": "The Grounded Ritualistic Magic",
+      "scenes": [
+        {
+          "start": "0:00:00",
+          "end": "0:12:43",
+          "duration": "0:12:43",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 183,
+          "setting": "Old Neil's apartment: a full ritualistic-magic lesson, the IOU-settling ritual to the Goddess performed on the round table",
+          "text_anchor": "Using magic to settle an IOU?",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 762.82,
+          "batch_start": 0.0,
+          "batch_end": 762.82
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 762.82
+    },
+    {
+      "chapter": 52,
+      "title": "Spectator",
+      "scenes": [
+        {
+          "start": "0:12:43",
+          "end": "0:15:47",
+          "duration": "0:03:04",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 37,
+          "setting": "Old Neil's apartment after the ritual, questions over the magic, then leaving for the public carriage back to Zouteland Street",
+          "text_anchor": "Stop thinking about the bloody IOU.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 183.911,
+          "batch_start": 762.82,
+          "batch_end": 946.731
+        },
+        {
+          "start": "0:15:47",
+          "end": "0:21:12",
+          "duration": "0:05:26",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil",
+            "[butler]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [
+            "[butler]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 39,
+          "line_end": 117,
+          "setting": "Zouteland Street roadside: Old Neil finds the dropped wallet and returns it to Sir Deweyville's butler for a thirty-pound reward",
+          "text_anchor": "After returning to Zouteland Street, Old Neil suddenly grunted",
+          "timing": "aligned",
+          "chapter_start": 183.911,
+          "chapter_end": 509.664,
+          "batch_start": 946.731,
+          "batch_end": 1272.484
+        },
+        {
+          "start": "0:21:12",
+          "end": "0:24:45",
+          "duration": "0:03:32",
+          "present_cast": [
+            "Audrey Hall",
+            "Duchess Della",
+            "Duke Negan",
+            "Baron Larry",
+            "Madam Parnes",
+            "Susie"
+          ],
+          "images": [
+            "Audrey Hall.jpg",
+            "Susie.jpg"
+          ],
+          "missing_images": [
+            "Duchess Della",
+            "Duke Negan",
+            "Baron Larry",
+            "Madam Parnes"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 121,
+          "line_end": 161,
+          "setting": "A huge candle-lit ballroom banquet: Audrey practices being a Spectator, reading the nobles from the shadows until she spots Susie on the balcony",
+          "text_anchor": "In a huge ballroom, candles were burning on a few chandeliers",
+          "timing": "aligned",
+          "chapter_start": 509.664,
+          "chapter_end": 722.02,
+          "batch_start": 1272.484,
+          "batch_end": 1484.84
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 722.02
+    },
+    {
+      "chapter": 53,
+      "title": "Listener",
+      "scenes": [
+        {
+          "start": "0:24:45",
+          "end": "0:26:05",
+          "duration": "0:01:20",
+          "present_cast": [
+            "Alger Wilson",
+            "[sailor]"
+          ],
+          "images": [
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [
+            "[sailor]"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 3,
+          "line_end": 19,
+          "setting": "An ancient three-masted sailboat sailing calmly through a storm: Alger sets course to pursue the Listener from the Aurora Order",
+          "text_anchor": "An ancient three-masted sailboat was navigating through a tumultuous storm",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 80.019,
+          "batch_start": 1484.84,
+          "batch_end": 1564.859
+        },
+        {
+          "start": "0:26:05",
+          "end": "0:28:53",
+          "duration": "0:02:48",
+          "present_cast": [
+            "Jack",
+            "[Jack's father, the Listener]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Jack",
+            "[Jack's father, the Listener]"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 23,
+          "line_end": 51,
+          "setting": "A strange cannon-armed pirate sailboat: the boy Jack questions his black-robed father, who breaks down hearing the Creator's voice",
+          "text_anchor": "The storm subsided as mist emanated.",
+          "timing": "aligned",
+          "chapter_start": 80.019,
+          "chapter_end": 247.829,
+          "batch_start": 1564.859,
+          "batch_end": 1732.669
+        },
+        {
+          "start": "0:28:53",
+          "end": "0:34:18",
+          "duration": "0:05:26",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Rozanne",
+            "Mrs. Orianna"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Rozanne.png"
+          ],
+          "missing_images": [
+            "Mrs. Orianna"
+          ],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 55,
+          "line_end": 107,
+          "setting": "Blackthorn Security Company: Dunn reports the Antigonus notebook is with the vanished Ray Bieber, then fusses over Klein's training",
+          "text_anchor": "After lunch, having had Old Neil promise him",
+          "timing": "aligned",
+          "chapter_start": 247.829,
+          "chapter_end": 573.539,
+          "batch_start": 1732.669,
+          "batch_end": 2058.379
+        },
+        {
+          "start": "0:34:18",
+          "end": "0:35:17",
+          "duration": "0:00:59",
+          "present_cast": [
+            "Klein Moretti",
+            "Angelica Barrehart"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Angelica Barrehart.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 109,
+          "line_end": 129,
+          "setting": "The Divination Club: Angelica relays that the recovered Mr. Glacis called Klein a very magical doctor",
+          "text_anchor": "With all of this done, he went to the Divination Club",
+          "timing": "aligned",
+          "chapter_start": 573.539,
+          "chapter_end": 632.35,
+          "batch_start": 2058.379,
+          "batch_end": 2117.19
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 632.35
+    },
+    {
+      "chapter": 54,
+      "title": "The First Divination Requester",
+      "scenes": [
+        {
+          "start": "0:35:17",
+          "end": "0:39:48",
+          "duration": "0:04:30",
+          "present_cast": [
+            "Klein Moretti",
+            "Angelica Barrehart"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Angelica Barrehart.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 65,
+          "setting": "Divination Club reception: Klein spins Glacis's story into face-reading and gives Angelica a Spirit Vision reading of her hidden sorrow",
+          "text_anchor": "Upon seeing Klein's odd expression, Angelica immediately felt her beliefs waver.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 270.415,
+          "batch_start": 2117.19,
+          "batch_end": 2387.605
+        },
+        {
+          "start": "0:39:48",
+          "end": "0:42:16",
+          "duration": "0:02:28",
+          "present_cast": [
+            "Klein Moretti",
+            "Hanass Vincent",
+            "Angelica Barrehart"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Hanass Vincent.jpg",
+            "Angelica Barrehart.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 69,
+          "line_end": 103,
+          "setting": "The crowded Sunday meeting room: Klein performs the spirit pendulum over his tea for Angelica to see",
+          "text_anchor": "The Divination Club's meeting room was very large.",
+          "timing": "aligned",
+          "chapter_start": 270.415,
+          "chapter_end": 418.772,
+          "batch_start": 2387.605,
+          "batch_end": 2535.962
+        },
+        {
+          "start": "0:42:16",
+          "end": "0:44:21",
+          "duration": "0:02:05",
+          "present_cast": [
+            "Angelica Barrehart",
+            "Anna"
+          ],
+          "images": [
+            "Angelica Barrehart.jpg"
+          ],
+          "missing_images": [
+            "Anna"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 107,
+          "line_end": 139,
+          "setting": "Reception hall: a melancholic lady in light blue asks for a divination and Angelica recommends Klein Moretti",
+          "text_anchor": "Angelica returned to the reception hall",
+          "timing": "aligned",
+          "chapter_start": 418.772,
+          "chapter_end": 543.951,
+          "batch_start": 2535.962,
+          "batch_end": 2661.141
+        },
+        {
+          "start": "0:44:21",
+          "end": "0:46:49",
+          "duration": "0:02:28",
+          "present_cast": [
+            "Klein Moretti",
+            "Angelica Barrehart",
+            "Anna"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Angelica Barrehart.jpg"
+          ],
+          "missing_images": [
+            "Anna"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 141,
+          "line_end": 164,
+          "setting": "Topaz room: Klein's first client, Anna, asks him to divine her missing fiance's fate",
+          "text_anchor": "She came next to Klein and said with a suppressed voice",
+          "timing": "aligned",
+          "chapter_start": 543.951,
+          "chapter_end": 692.04,
+          "batch_start": 2661.141,
+          "batch_end": 2809.23
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 692.04
+    },
+    {
+      "chapter": 55,
+      "title": "Revelation",
+      "scenes": [
+        {
+          "start": "0:46:49",
+          "end": "0:57:36",
+          "duration": "0:10:46",
+          "present_cast": [
+            "Klein Moretti",
+            "Anna"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Anna"
+          ],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 137,
+          "setting": "Topaz room: the astrolabe and dream divination for Joyce Meyer (with the ominous mountain-palace vision), then the joyful result delivered to Anna",
+          "text_anchor": "Anna, with her beautiful eyes, hesitated for more than ten seconds.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 646.331,
+          "batch_start": 2809.23,
+          "batch_end": 3455.561
+        },
+        {
+          "start": "0:57:36",
+          "end": "0:58:45",
+          "duration": "0:01:09",
+          "present_cast": [
+            "Anna",
+            "Joyce"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Anna",
+            "Joyce"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 141,
+          "line_end": 161,
+          "setting": "A carriage to East Borough and the grayish-blue house with the toy windmill: Anna finds Joyce returned, just as divined",
+          "text_anchor": "A two-wheeled carriage steered quickly across the streets",
+          "timing": "aligned",
+          "chapter_start": 646.331,
+          "chapter_end": 715.68,
+          "batch_start": 3455.561,
+          "batch_end": 3524.91
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 715.68
+    },
+    {
+      "chapter": 56,
+      "title": "Escape from the Sea",
+      "scenes": [
+        {
+          "start": "0:58:45",
+          "end": "1:05:25",
+          "duration": "0:06:40",
+          "present_cast": [
+            "Anna",
+            "Joyce",
+            "Mr. Wayne",
+            "[Anna's mother]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Anna",
+            "Joyce",
+            "Mr. Wayne",
+            "[Anna's mother]"
+          ],
+          "layout": "default",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 65,
+          "setting": "The Wayne living room: Joyce recounts the pirate Nast and the Alfalfa bloodbath, and the family marvels at the seer Klein Moretti",
+          "text_anchor": "In a rather spacious living room, Anna and Joyce were seated",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 400.229,
+          "batch_start": 3524.91,
+          "batch_end": 3925.139
+        },
+        {
+          "start": "1:05:25",
+          "end": "1:07:45",
+          "duration": "0:02:20",
+          "present_cast": [
+            "Klein Moretti",
+            "Angelica Barrehart"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Angelica Barrehart.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 69,
+          "line_end": 103,
+          "setting": "Divination Club reception: Klein pays the club's cut, tips Angelica, waits in vain for a second customer, and heads home",
+          "text_anchor": "In the reception lobby of the Divination Club.",
+          "timing": "aligned",
+          "chapter_start": 400.229,
+          "chapter_end": 540.13,
+          "batch_start": 3925.139,
+          "batch_end": 4065.04
+        },
+        {
+          "start": "1:07:45",
+          "end": "1:09:55",
+          "duration": "0:02:10",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 105,
+          "line_end": 129,
+          "setting": "The Moretti home on Daffodil Street: talk of Mrs. Shaud's visit over dinner, then Klein locks his bedroom to start his summary notebook",
+          "text_anchor": "When he stepped through the door, Klein found Benson reading",
+          "timing": "aligned",
+          "chapter_start": 540.13,
+          "chapter_end": 670.42,
+          "batch_start": 4065.04,
+          "batch_end": 4195.33
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 670.42
+    },
+    {
+      "chapter": 57,
+      "title": "Organization and Summary",
+      "scenes": [
+        {
+          "start": "1:09:55",
+          "end": "1:21:55",
+          "duration": "0:11:59",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 139,
+          "setting": "Klein's locked bedroom at night: the weekly Chinese-language summary of potions, rituals and the gray fog, burned to ash afterwards",
+          "text_anchor": "After pausing for a moment, Klein continued writing.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 719.3,
+          "batch_start": 4195.33,
+          "batch_end": 4914.63
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 719.3
+    },
+    {
+      "chapter": 58,
+      "title": "A Train of Thought",
+      "scenes": [
+        {
+          "start": "1:21:55",
+          "end": "1:30:14",
+          "duration": "0:08:19",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 3,
+          "line_end": 101,
+          "setting": "Monday at home: Melissa entrusted with the letter to Mentor Cohen, then Klein practices and composes the honorific ritual incantation in his locked bedroom",
+          "text_anchor": "The next day, a Monday morning.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 499.287,
+          "batch_start": 4914.63,
+          "batch_end": 5413.917
+        },
+        {
+          "start": "1:30:14",
+          "end": "1:31:16",
+          "duration": "0:01:02",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 103,
+          "line_end": 113,
+          "setting": "Above the gray fog: Klein arrives early at the Seat of Honor and reaches for the two crimson stars",
+          "text_anchor": "The muttering and murmurs receded like the tides.",
+          "timing": "aligned",
+          "chapter_start": 499.287,
+          "chapter_end": 561.315,
+          "batch_start": 5413.917,
+          "batch_end": 5475.945
+        },
+        {
+          "start": "1:31:16",
+          "end": "1:31:53",
+          "duration": "0:00:37",
+          "present_cast": [
+            "Alger Wilson"
+          ],
+          "images": [
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 117,
+          "line_end": 125,
+          "setting": "The captain's cabin of the ghost ship on the Sonia Sea: Alger is seized by the crimson light for the gathering",
+          "text_anchor": "On the roaring blue waves of the Sonia Sea",
+          "timing": "aligned",
+          "chapter_start": 561.315,
+          "chapter_end": 598.425,
+          "batch_start": 5475.945,
+          "batch_end": 5513.055
+        },
+        {
+          "start": "1:31:53",
+          "end": "1:32:19",
+          "duration": "0:00:26",
+          "present_cast": [
+            "Audrey Hall"
+          ],
+          "images": [
+            "Audrey Hall.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 129,
+          "line_end": 135,
+          "setting": "Backlund, Empress Borough: Audrey watches herself be swallowed by the crimson eruption with a Spectator's detachment",
+          "text_anchor": "Backlund, Empress Borough.",
+          "timing": "aligned",
+          "chapter_start": 598.425,
+          "chapter_end": 624.086,
+          "batch_start": 5513.055,
+          "batch_end": 5538.716
+        },
+        {
+          "start": "1:32:19",
+          "end": "1:34:26",
+          "duration": "0:02:07",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 139,
+          "line_end": 168,
+          "setting": "The Tarot Gathering above the gray fog: Justice arrives as a new Beyonder and The Fool asks after Roselle's diary",
+          "text_anchor": "Above the gray fog, in the magnificent palace",
+          "timing": "aligned",
+          "chapter_start": 624.086,
+          "chapter_end": 750.96,
+          "batch_start": 5538.716,
+          "batch_end": 5665.59
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 750.96
+    },
+    {
+      "chapter": 59,
+      "title": "Roselle's Origins",
+      "scenes": [
+        {
+          "start": "1:34:26",
+          "end": "1:36:20",
+          "duration": "0:01:55",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 27,
+          "setting": "The Tarot Gathering: Alger found two diary pages and Audrey one; they 'express' the memorized symbols onto goatskin for The Fool",
+          "text_anchor": "Upon hearing The Fool's question, Audrey did not immediately answer",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 114.785,
+          "batch_start": 5665.59,
+          "batch_end": 5780.375
+        },
+        {
+          "start": "1:36:20",
+          "end": "1:42:35",
+          "duration": "0:06:14",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Roselle Gustav",
+            "Grimm",
+            "Edwards",
+            "Matilda",
+            "Zaratul"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Roselle Gustav.jpg",
+            "Zaratul.png"
+          ],
+          "missing_images": [
+            "Grimm",
+            "Edwards",
+            "Matilda"
+          ],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 29,
+          "line_end": 79,
+          "setting": "Diary-reading interlude: Roselle's voyage on the Black King with Grimm and Edwards, falling for Matilda, choosing Savant, and Zaratul's 'acting' hint",
+          "text_anchor": "He gave the pages a cursory glance",
+          "timing": "aligned",
+          "chapter_start": 114.785,
+          "chapter_end": 489.139,
+          "batch_start": 5780.375,
+          "batch_end": 6154.729
+        },
+        {
+          "start": "1:42:35",
+          "end": "1:46:29",
+          "duration": "0:03:54",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 81,
+          "line_end": 126,
+          "setting": "Tarot gathering resumes: The Fool explains acting with the guarded-castle analogy; Audrey grasps it and asks what he wants in exchange",
+          "text_anchor": "He put the three diary pages down, looked up at Justice and The Hanged Man.",
+          "timing": "aligned",
+          "chapter_start": 489.139,
+          "chapter_end": 723.02,
+          "batch_start": 6154.729,
+          "batch_end": 6388.61
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 723.02
+    },
+    {
+      "chapter": 60,
+      "title": "Second Blasphemy Slate",
+      "scenes": [
+        {
+          "start": "1:46:29",
+          "end": "1:58:24",
+          "duration": "0:11:55",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 142,
+          "setting": "The Tarot Gathering continues: the second Blasphemy Slate and the Antigonus family's fall, Audrey's three questions, and The Fool teaches the honorific-name ritual",
+          "text_anchor": "No problem. Klein tried to maintain his unchanging deep tone.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 715.1,
+          "batch_start": 6388.61,
+          "batch_end": 7103.71
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 715.1
+    },
+    {
+      "chapter": 61,
+      "title": "Strange Symbol",
+      "scenes": [
+        {
+          "start": "1:58:24",
+          "end": "2:05:12",
+          "duration": "0:06:49",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 89,
+          "setting": "The Tarot Gathering closes: the honorific incantation awes Justice and The Hanged Man, casual news is exchanged, and the two are dismissed",
+          "text_anchor": "The Fool that doesn't belong to this era… Audrey Hall recited",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 408.648,
+          "batch_start": 7103.71,
+          "batch_end": 7512.358
+        },
+        {
+          "start": "2:05:12",
+          "end": "2:07:26",
+          "duration": "0:02:14",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 91,
+          "line_end": 109,
+          "setting": "Alone above the gray fog: Klein studies the strange incomplete symbol on the Seat of Honor and explores the boundless palace before descending",
+          "text_anchor": "He stood up and turned toward his own chair",
+          "timing": "aligned",
+          "chapter_start": 408.648,
+          "chapter_end": 542.507,
+          "batch_start": 7512.358,
+          "batch_end": 7646.217
+        },
+        {
+          "start": "2:07:26",
+          "end": "2:09:03",
+          "duration": "0:01:37",
+          "present_cast": [
+            "Audrey Hall",
+            "Susie",
+            "[maid]"
+          ],
+          "images": [
+            "Audrey Hall.jpg",
+            "Susie.jpg"
+          ],
+          "missing_images": [
+            "[maid]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 113,
+          "line_end": 131,
+          "setting": "Backlund, Empress Borough: Audrey digests the gathering, then catches Susie observing her exactly like a Spectator",
+          "text_anchor": "Backlund, Empress Borough.",
+          "timing": "aligned",
+          "chapter_start": 542.507,
+          "chapter_end": 639.092,
+          "batch_start": 7646.217,
+          "batch_end": 7742.802
+        },
+        {
+          "start": "2:09:03",
+          "end": "2:09:18",
+          "duration": "0:00:15",
+          "present_cast": [
+            "Alger Wilson"
+          ],
+          "images": [
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 135,
+          "line_end": 139,
+          "setting": "The captain's quarters on the Sonia Sea: Alger wakes and ponders the ancient existence",
+          "text_anchor": "On the Sonia Sea, in the heavily protected captain's quarters.",
+          "timing": "aligned",
+          "chapter_start": 639.092,
+          "chapter_end": 654.292,
+          "batch_start": 7742.802,
+          "batch_end": 7758.002
+        },
+        {
+          "start": "2:09:18",
+          "end": "2:10:22",
+          "duration": "0:01:04",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 143,
+          "line_end": 151,
+          "setting": "Klein's bedroom: he records the diary pages from memory, burns the notes, and readies himself for the Divination Club",
+          "text_anchor": "Klein, who had exited the ritual, pulled open the curtains.",
+          "timing": "aligned",
+          "chapter_start": 654.292,
+          "chapter_end": 718.27,
+          "batch_start": 7758.002,
+          "batch_end": 7821.98
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 718.27
+    },
+    {
+      "chapter": 62,
+      "title": "The Seer's Suggestion",
+      "scenes": [
+        {
+          "start": "2:10:22",
+          "end": "2:13:52",
+          "duration": "0:03:30",
+          "present_cast": [
+            "Klein Moretti",
+            "Angelica Barrehart"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Angelica Barrehart.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 37,
+          "setting": "From home by carriage to the Divination Club reception: Angelica, visibly lighter, thanks Klein for his suggestion",
+          "text_anchor": "Before Klein left home, he took the time to meticulously clean up his suit",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 209.705,
+          "batch_start": 7821.98,
+          "batch_end": 8031.685
+        },
+        {
+          "start": "2:13:52",
+          "end": "2:17:58",
+          "duration": "0:04:06",
+          "present_cast": [
+            "Klein Moretti",
+            "Angelica Barrehart",
+            "Glacis"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Angelica Barrehart.jpg",
+            "Glacis.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 39,
+          "line_end": 97,
+          "setting": "The meeting room: the recovered Glacis credits apothecary Lawson Darkwade's folk medicine and requests a divination",
+          "text_anchor": "Coffee or tea? Angelica asked hurriedly.",
+          "timing": "aligned",
+          "chapter_start": 209.705,
+          "chapter_end": 456.186,
+          "batch_start": 8031.685,
+          "batch_end": 8278.166
+        },
+        {
+          "start": "2:17:58",
+          "end": "2:22:22",
+          "duration": "0:04:24",
+          "present_cast": [
+            "Klein Moretti",
+            "Glacis"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Glacis.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 99,
+          "line_end": 135,
+          "setting": "Topaz room: the astrolabe warns against Lanevus's iron-mine share offering — a cliff beneath a flourishing surface",
+          "text_anchor": "After entering the divination room and locking the door",
+          "timing": "aligned",
+          "chapter_start": 456.186,
+          "chapter_end": 720.144,
+          "batch_start": 8278.166,
+          "batch_end": 8542.124
+        },
+        {
+          "start": "2:22:22",
+          "end": "2:22:44",
+          "duration": "0:00:22",
+          "present_cast": [
+            "Klein Moretti",
+            "Angelica Barrehart"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Angelica Barrehart.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 137,
+          "line_end": 141,
+          "setting": "Outside the Topaz room: Angelica announces a walk-in client who asked for Klein by name",
+          "text_anchor": "Just as the two left the Topaz room, Angelica walked over",
+          "timing": "aligned",
+          "chapter_start": 720.144,
+          "chapter_end": 742.27,
+          "batch_start": 8542.124,
+          "batch_end": 8564.25
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 742.27
+    },
+    {
+      "chapter": 63,
+      "title": "Dream Interpretation",
+      "scenes": [
+        {
+          "start": "2:22:44",
+          "end": "2:34:10",
+          "duration": "0:11:25",
+          "present_cast": [
+            "Klein Moretti",
+            "Joyce"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Joyce"
+          ],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 141,
+          "setting": "Reception then the Topaz room: Klein interprets Joyce Meyer's recurring nightmare and steers him to the disregarded suspicion — Mr. Tris",
+          "text_anchor": "Klein proceeded a few steps forward and saw the client.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 685.428,
+          "batch_start": 8564.25,
+          "batch_end": 9249.678
+        },
+        {
+          "start": "2:34:10",
+          "end": "2:34:37",
+          "duration": "0:00:28",
+          "present_cast": [
+            "Audrey Hall",
+            "Susie"
+          ],
+          "images": [
+            "Audrey Hall.jpg",
+            "Susie.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 145,
+          "line_end": 149,
+          "setting": "Tuesday dawn in Empress Borough: Audrey posts Susie as door guard before attempting The Fool's ritual",
+          "text_anchor": "Tuesday at dawn. Backlund, Empress Borough.",
+          "timing": "aligned",
+          "chapter_start": 685.428,
+          "chapter_end": 713.18,
+          "batch_start": 9249.678,
+          "batch_end": 9277.43
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 713.18
+    },
+    {
+      "chapter": 64,
+      "title": "Instigator",
+      "scenes": [
+        {
+          "start": "2:34:37",
+          "end": "2:41:40",
+          "duration": "0:07:03",
+          "present_cast": [
+            "Audrey Hall",
+            "Susie"
+          ],
+          "images": [
+            "Audrey Hall.jpg",
+            "Susie.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 109,
+          "setting": "Audrey's bathroom ritual: cleansing bath (and accidental nap), the altar of four candles, and the chant to The Fool that draws a dark red star",
+          "text_anchor": "After instructing her golden retriever, Susie, Audrey paced around",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 422.817,
+          "batch_start": 9277.43,
+          "batch_end": 9700.247
+        },
+        {
+          "start": "2:41:40",
+          "end": "2:43:29",
+          "duration": "0:01:49",
+          "present_cast": [
+            "Alger Wilson",
+            "[sailors]"
+          ],
+          "images": [
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [
+            "[sailors]"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 113,
+          "line_end": 129,
+          "setting": "The Blue Avenger: Alger puzzles over The Fool's descriptions and orders anchorage at the Rorsted Archipelago",
+          "text_anchor": "The King of Yellow and Black who wields good luck…",
+          "timing": "aligned",
+          "chapter_start": 422.817,
+          "chapter_end": 531.89,
+          "batch_start": 9700.247,
+          "batch_end": 9809.32
+        },
+        {
+          "start": "2:43:29",
+          "end": "2:47:36",
+          "duration": "0:04:06",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Rozanne.png"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 133,
+          "line_end": 183,
+          "setting": "Public carriage (the ethereal calling and four black dots) then Blackthorn Security: Dunn hands over the warrant for Tris the Instigator",
+          "text_anchor": "On the public carriage toward Zouteland Street",
+          "timing": "aligned",
+          "chapter_start": 531.89,
+          "chapter_end": 778.34,
+          "batch_start": 9809.32,
+          "batch_end": 10055.77
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 778.34
+    },
+    {
+      "chapter": 65,
+      "title": "Beyonder Information",
+      "scenes": [
+        {
+          "start": "2:47:36",
+          "end": "2:59:40",
+          "duration": "0:12:05",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 122,
+          "setting": "The underground armory: Old Neil fetches Chanis Gate documents and Klein studies the Sequence pathways — Zaratul, Seafarer, Telepathic, Savant, Instigator",
+          "text_anchor": "With a document signed by Dunn, Klein went underground",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 724.58,
+          "batch_start": 10055.77,
+          "batch_end": 10780.35
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 724.58
+    },
+    {
+      "chapter": 66,
+      "title": "Demoness Sect",
+      "scenes": [
+        {
+          "start": "2:59:40",
+          "end": "3:08:32",
+          "duration": "0:08:51",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 73,
+          "setting": "The armory: Assassin-to-Instigator puzzle, the Theosophy Order file, and Old Neil's sketch of the Demoness Sect",
+          "text_anchor": "Sequence 8: Instigator. They are adept at triggering the evil desires",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 531.372,
+          "batch_start": 10780.35,
+          "batch_end": 11311.722
+        },
+        {
+          "start": "3:08:32",
+          "end": "3:10:08",
+          "duration": "0:01:37",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 75,
+          "line_end": 95,
+          "setting": "Home in the evening: beer and lemon cakes for the siblings, dinner together, Klein waiting for them to sleep",
+          "text_anchor": "As he had earned nearly two soli from yesterday's divination",
+          "timing": "aligned",
+          "chapter_start": 531.372,
+          "chapter_end": 628.025,
+          "batch_start": 11311.722,
+          "batch_end": 11408.375
+        },
+        {
+          "start": "3:10:08",
+          "end": "3:12:35",
+          "duration": "0:02:27",
+          "present_cast": [
+            "Tris",
+            "[black-robed woman]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Tris",
+            "[black-robed woman]"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 99,
+          "line_end": 141,
+          "setting": "A dark corner of the harbor at night: a Demoness Sect envoy hands Tris the bronze Witch formula",
+          "text_anchor": "West Borough. Iron Cross Street Lower Street.",
+          "timing": "aligned",
+          "chapter_start": 628.025,
+          "chapter_end": 775.03,
+          "batch_start": 11408.375,
+          "batch_end": 11555.38
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 775.03
+    },
+    {
+      "chapter": 67,
+      "title": "Response",
+      "scenes": [
+        {
+          "start": "3:12:35",
+          "end": "3:14:23",
+          "duration": "0:01:47",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 3,
+          "line_end": 21,
+          "setting": "Klein's bedroom at night: sealing the room with the silver knife and performing the four-step ritual",
+          "text_anchor": "The crimson moon high in the sky hung silently",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 107.488,
+          "batch_start": 11555.38,
+          "batch_end": 11662.868
+        },
+        {
+          "start": "3:14:23",
+          "end": "3:17:12",
+          "duration": "0:02:50",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 23,
+          "line_end": 81,
+          "setting": "Above the gray fog: Justice's star pulses with her stored prayer and The Fool sends back his first response — I'm aware",
+          "text_anchor": "The grayish-white fog was endless.",
+          "timing": "aligned",
+          "chapter_start": 107.488,
+          "chapter_end": 277.012,
+          "batch_start": 11662.868,
+          "batch_end": 11832.392
+        },
+        {
+          "start": "3:17:12",
+          "end": "3:18:47",
+          "duration": "0:01:34",
+          "present_cast": [
+            "Audrey Hall"
+          ],
+          "images": [
+            "Audrey Hall.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 85,
+          "line_end": 105,
+          "setting": "Audrey jolted awake at night: the dream of The Fool answers her morning prayer, and she plans her Spectator path",
+          "text_anchor": "Audrey Hall was jolted awake suddenly.",
+          "timing": "aligned",
+          "chapter_start": 277.012,
+          "chapter_end": 371.15,
+          "batch_start": 11832.392,
+          "batch_end": 11926.53
+        },
+        {
+          "start": "3:18:47",
+          "end": "3:21:46",
+          "duration": "0:02:59",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 109,
+          "line_end": 149,
+          "setting": "Back at the Seat of Honor: The Hanged Man's live ritual arrives and The Fool watches the Seafarer's water spell before replying",
+          "text_anchor": "With the connection severed, Klein sat at the bronze table's seat of honor",
+          "timing": "aligned",
+          "chapter_start": 371.15,
+          "chapter_end": 550.492,
+          "batch_start": 11926.53,
+          "batch_end": 12105.872
+        },
+        {
+          "start": "3:21:46",
+          "end": "3:23:24",
+          "duration": "0:01:39",
+          "present_cast": [
+            "Alger Wilson"
+          ],
+          "images": [
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 153,
+          "line_end": 173,
+          "setting": "A hotel in the Rorsted Archipelago's City of Generosity: Alger receives The Fool's answer in a vision of billowing fog",
+          "text_anchor": "Alger Wilson was situated in the Rorsted Archipelago's City of Generosity.",
+          "timing": "aligned",
+          "chapter_start": 550.492,
+          "chapter_end": 649.026,
+          "batch_start": 12105.872,
+          "batch_end": 12204.406
+        },
+        {
+          "start": "3:23:24",
+          "end": "3:24:28",
+          "duration": "0:01:03",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 177,
+          "line_end": 187,
+          "setting": "Klein returns to his moonlit bedroom, removes the spirituality wall, and turns in — tomorrow, the underground market",
+          "text_anchor": "Klein did not spend too much time above the gray fog.",
+          "timing": "aligned",
+          "chapter_start": 649.026,
+          "chapter_end": 712.44,
+          "batch_start": 12204.406,
+          "batch_end": 12267.82
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 712.44
+    },
+    {
+      "chapter": 68,
+      "title": "Monster",
+      "scenes": [
+        {
+          "start": "3:24:28",
+          "end": "3:28:40",
+          "duration": "0:04:13",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil",
+            "[brawny doorman]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [
+            "[brawny doorman]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 3,
+          "line_end": 63,
+          "setting": "Dusk outside the Evil Dragon Bar: armed guards on the rooftops after wanted man Tris shot his way out of the market",
+          "text_anchor": "At dusk, the setting sun cast long shadows",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 252.629,
+          "batch_start": 12267.82,
+          "batch_end": 12520.449
+        },
+        {
+          "start": "3:28:40",
+          "end": "3:34:59",
+          "duration": "0:06:19",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil",
+            "Ademisaul"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg",
+            "Ademisaul.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 65,
+          "line_end": 143,
+          "setting": "Through the boxing-ring bar into the underground market: the 'monster' Ademisaul smells death on Klein and bleeds from his eyes",
+          "text_anchor": "Klein followed closely in tow and walked in.",
+          "timing": "aligned",
+          "chapter_start": 252.629,
+          "chapter_end": 631.181,
+          "batch_start": 12520.449,
+          "batch_end": 12899.001
+        },
+        {
+          "start": "3:34:59",
+          "end": "3:36:16",
+          "duration": "0:01:17",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil",
+            "[stall inquirer]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [
+            "[stall inquirer]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 145,
+          "line_end": 162,
+          "setting": "Browsing the market stalls: Old Neil goes to settle his bill while Klein overhears someone asking after Spectator potion ingredients",
+          "text_anchor": "He reorganized his thoughts and followed behind Old Neil.",
+          "timing": "aligned",
+          "chapter_start": 631.181,
+          "chapter_end": 708.38,
+          "batch_start": 12899.001,
+          "batch_end": 12976.2
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 708.38
+    },
+    {
+      "chapter": 69,
+      "title": "Protection Amulet",
+      "scenes": [
+        {
+          "start": "3:36:16",
+          "end": "3:47:01",
+          "duration": "0:10:45",
+          "present_cast": [
+            "Klein Moretti",
+            "[bespectacled man]",
+            "[teenage girl]",
+            "[stall owner]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[bespectacled man]",
+            "[teenage girl]",
+            "[stall owner]"
+          ],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 123,
+          "setting": "The amulet stall: Klein buys two half-finished silver amulets for his siblings and coaches a young mysticism aficionado on choosing a health amulet",
+          "text_anchor": "Klein looked over and saw the person inquiring about the cow teeth paeonol.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 644.527,
+          "batch_start": 12976.2,
+          "batch_end": 13620.727
+        },
+        {
+          "start": "3:47:01",
+          "end": "3:48:20",
+          "duration": "0:01:19",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil",
+            "[bespectacled man]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [
+            "[bespectacled man]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 125,
+          "line_end": 143,
+          "setting": "Old Neil returns debt-free with a wooden box; the bespectacled man is overheard buying elf flowers — more Spectator ingredients",
+          "text_anchor": "At this point, Old Neil had already paid off his debt.",
+          "timing": "aligned",
+          "chapter_start": 644.527,
+          "chapter_end": 723.828,
+          "batch_start": 13620.727,
+          "batch_end": 13700.028
+        },
+        {
+          "start": "3:48:20",
+          "end": "3:49:41",
+          "duration": "0:01:21",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil",
+            "[young lady in grayish-white dress]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [
+            "[young lady in grayish-white dress]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 147,
+          "line_end": 167,
+          "setting": "Leaving the harbor and parting with Old Neil; at Daffodil Street a strangely shuddering young lady boards the carriage and Klein readies his Spirit Vision",
+          "text_anchor": "After leaving Evil Dragon Bar, Klein and Old Neil took a public carriage",
+          "timing": "aligned",
+          "chapter_start": 723.828,
+          "chapter_end": 805.25,
+          "batch_start": 13700.028,
+          "batch_end": 13781.45
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 805.25
+    },
+    {
+      "chapter": 70,
+      "title": "2-049's Arrival",
+      "scenes": [
+        {
+          "start": "3:49:41",
+          "end": "3:57:11",
+          "duration": "0:07:30",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti",
+            "Benson Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg",
+            "Benson Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 95,
+          "setting": "Home on Daffodil Street: Melissa's new dress from Mrs. Rochelle, Benson's teasing, and a policeman's door-to-door hunt for the escaped Tris",
+          "text_anchor": "The horses widened their paces as the wheels began rolling",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 449.706,
+          "batch_start": 13781.45,
+          "batch_end": 14231.156
+        },
+        {
+          "start": "3:57:11",
+          "end": "3:59:46",
+          "duration": "0:02:35",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Rozanne.png",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 97,
+          "line_end": 123,
+          "setting": "Blackthorn reception next morning: Rozanne gossips about the failed operation until Dunn catches her at it",
+          "text_anchor": "The relaxed Klein changed into formal attire",
+          "timing": "aligned",
+          "chapter_start": 449.706,
+          "chapter_end": 604.658,
+          "batch_start": 14231.156,
+          "batch_end": 14386.108
+        },
+        {
+          "start": "3:59:46",
+          "end": "4:02:03",
+          "duration": "0:02:17",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 125,
+          "line_end": 155,
+          "setting": "Down the tunnel toward Chanis Gate: Sealed Artifact 2-049 has arrived, and Dunn drills Klein on the arm-bending safety ritual",
+          "text_anchor": "At that moment, Dunn Smith came into the clerk office.",
+          "timing": "aligned",
+          "chapter_start": 604.658,
+          "chapter_end": 741.82,
+          "batch_start": 14386.108,
+          "batch_end": 14523.27
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 741.82
+    },
+    {
+      "chapter": 71,
+      "title": "Sluggish Phenomenon",
+      "scenes": [
+        {
+          "start": "4:02:03",
+          "end": "4:13:45",
+          "duration": "0:11:42",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Lorotta",
+            "Aiur Harson",
+            "Borgia"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg",
+            "Lorotta.jpg",
+            "Aiur Harson.jpg",
+            "Borgia.jpg"
+          ],
+          "missing_images": [],
+          "layout": "grid(6)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 159,
+          "setting": "Keeper's room, carriage, and Ray Bieber's flat: the arm-exercise escort of Sealed Artifact 2-049, which opens to reveal a clown-faced wooden puppet",
+          "text_anchor": "Klein repeatedly bent and extended his arm",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 701.86,
+          "batch_start": 14523.27,
+          "batch_end": 15225.13
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 701.86
+    },
+    {
+      "chapter": 72,
+      "title": "Tracking",
+      "scenes": [
+        {
+          "start": "4:13:45",
+          "end": "4:25:42",
+          "duration": "0:11:57",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Lorotta",
+            "Aiur Harson",
+            "Borgia"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg",
+            "Lorotta.jpg",
+            "Aiur Harson.jpg",
+            "Borgia.jpg"
+          ],
+          "missing_images": [],
+          "layout": "grid(6)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 179,
+          "setting": "The puppet-compass carriage chase to the harbor warehouses, Klein's danger divinations, and the illusory fireball that opens the ambush",
+          "text_anchor": "The wooden puppet's face was painted in red and yellow",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 717.26,
+          "batch_start": 15225.13,
+          "batch_end": 15942.39
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 717.26
+    },
+    {
+      "chapter": 73,
+      "title": "First Battle",
+      "scenes": [
+        {
+          "start": "4:25:42",
+          "end": "4:36:18",
+          "duration": "0:10:35",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Lorotta",
+            "Aiur Harson",
+            "Borgia",
+            "[suited clown]",
+            "[clown-faced figure in dock uniform]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg",
+            "Lorotta.jpg",
+            "Aiur Harson.jpg",
+            "Borgia.jpg"
+          ],
+          "missing_images": [
+            "[suited clown]",
+            "[clown-faced figure in dock uniform]"
+          ],
+          "layout": "grid(6)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 195,
+          "setting": "Klein's first battle: the Secret Order's suited clown duels the Nighthawks while a second clown breaks into the warehouse — and screams",
+          "text_anchor": "Under the illumination of the afternoon sun, Klein in his dust-coated clothes",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 635.4,
+          "batch_start": 15942.39,
+          "batch_end": 16577.79
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 635.4
+    },
+    {
+      "chapter": 74,
+      "title": "Ray Bieber",
+      "scenes": [
+        {
+          "start": "4:36:18",
+          "end": "4:46:31",
+          "duration": "0:10:13",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Lorotta",
+            "Aiur Harson",
+            "Borgia",
+            "Ray Bieber",
+            "[suited clown]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg",
+            "Lorotta.jpg",
+            "Aiur Harson.jpg",
+            "Borgia.jpg",
+            "Ray Bieber.jpg"
+          ],
+          "missing_images": [
+            "[suited clown]"
+          ],
+          "layout": "grid(7)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 187,
+          "setting": "The warehouse battle: the clown flees, Monster Bieber bursts out, Lorotta rips the notebook from its gut, and the explosion throws 2-049's cracked chest next to Klein",
+          "text_anchor": "The loud panting and the intense knocking alternated",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 613.44,
+          "batch_start": 16577.79,
+          "batch_end": 17191.23
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 613.44
+    },
+    {
+      "chapter": 75,
+      "title": "Saving himself",
+      "scenes": [
+        {
+          "start": "4:46:31",
+          "end": "4:49:25",
+          "duration": "0:02:53",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Lorotta",
+            "Aiur Harson",
+            "Borgia"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg",
+            "Lorotta.jpg",
+            "Aiur Harson.jpg",
+            "Borgia.jpg"
+          ],
+          "missing_images": [],
+          "layout": "grid(6)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 41,
+          "setting": "Seized by 2-049 with everyone down: Klein forces his rusting joints through the four counterclockwise steps of the luck enhancement ritual",
+          "text_anchor": "Oh no! I've been controlled by the puppet!",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 173.49,
+          "batch_start": 17191.23,
+          "batch_end": 17364.72
+        },
+        {
+          "start": "4:49:25",
+          "end": "4:52:11",
+          "duration": "0:02:47",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 43,
+          "line_end": 95,
+          "setting": "Refuge above the gray fog: Klein dowses 'returning to the real world is very safe' before plunging back",
+          "text_anchor": "Endless grayish-white fog and the dark red stars",
+          "timing": "aligned",
+          "chapter_start": 173.49,
+          "chapter_end": 340.267,
+          "batch_start": 17364.72,
+          "batch_end": 17531.497
+        },
+        {
+          "start": "4:52:11",
+          "end": "4:59:46",
+          "duration": "0:07:34",
+          "present_cast": [
+            "Klein Moretti",
+            "[suited clown]",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Lorotta",
+            "Aiur Harson",
+            "Borgia"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg",
+            "Lorotta.jpg",
+            "Aiur Harson.jpg",
+            "Borgia.jpg"
+          ],
+          "missing_images": [
+            "[suited clown]"
+          ],
+          "layout": "grid(6)",
+          "continues_prev": false,
+          "line_start": 97,
+          "line_end": 191,
+          "setting": "Playing puppet: the returned suited clown offers the Clown formula for the notebook, and Klein baits him into 2-049's kill zone",
+          "text_anchor": "His physical senses reached to his brain",
+          "timing": "aligned",
+          "chapter_start": 340.267,
+          "chapter_end": 794.66,
+          "batch_start": 17531.497,
+          "batch_end": 17985.89
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 794.66
+    },
+    {
+      "chapter": 76,
+      "title": "Dealing With The Aftermath",
+      "scenes": [
+        {
+          "start": "4:59:46",
+          "end": "5:12:48",
+          "duration": "0:13:02",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Lorotta",
+            "Aiur Harson",
+            "Borgia"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg",
+            "Lorotta.jpg",
+            "Aiur Harson.jpg",
+            "Borgia.jpg"
+          ],
+          "missing_images": [],
+          "layout": "grid(6)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 163,
+          "setting": "Aftermath at the warehouses: Klein's first kill, Goddess's Gaze bottles passed around, the notebook secured, and the corpse searched under Leonard's knowing smile",
+          "text_anchor": "The silver bullet traversed the short distance",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 781.8,
+          "batch_start": 17985.89,
+          "batch_end": 18767.69
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 781.8
+    },
+    {
+      "chapter": 77,
+      "title": "Remnant Items",
+      "scenes": [
+        {
+          "start": "5:12:48",
+          "end": "5:16:05",
+          "duration": "0:03:18",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Leonard Mitchell",
+            "Lorotta",
+            "Aiur Harson",
+            "Borgia"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Leonard Mitchell.jpg",
+            "Lorotta.jpg",
+            "Aiur Harson.jpg",
+            "Borgia.jpg"
+          ],
+          "missing_images": [],
+          "layout": "grid(6)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 49,
+          "setting": "Searching Monster Bieber's remains: Borgia finds the brain-like Beyonder characteristic, stored in a cigarette case; Leonard stays to guard",
+          "text_anchor": "Alright, answered Leonard with a relaxed expression",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 197.684,
+          "batch_start": 18767.69,
+          "batch_end": 18965.374
+        },
+        {
+          "start": "5:16:05",
+          "end": "5:24:25",
+          "duration": "0:08:20",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Lorotta",
+            "Aiur Harson",
+            "Borgia"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Lorotta.jpg",
+            "Aiur Harson.jpg",
+            "Borgia.jpg"
+          ],
+          "missing_images": [],
+          "layout": "grid(5)",
+          "continues_prev": false,
+          "line_start": 51,
+          "line_end": 143,
+          "setting": "The carriage back: Dunn offers formal Nighthawk membership, and Klein retells the clown kill while hiding the gray fog's part in it",
+          "text_anchor": "After boarding the carriage, Dunn, Lorotta, Aiur Harson, and Klein",
+          "timing": "aligned",
+          "chapter_start": 197.684,
+          "chapter_end": 697.75,
+          "batch_start": 18965.374,
+          "batch_end": 19465.44
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 697.75
+    },
+    {
+      "chapter": 78,
+      "title": "Trauma",
+      "scenes": [
+        {
+          "start": "5:24:25",
+          "end": "5:26:33",
+          "duration": "0:02:08",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Lorotta",
+            "Aiur Harson",
+            "Borgia"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Lorotta.jpg",
+            "Aiur Harson.jpg",
+            "Borgia.jpg"
+          ],
+          "missing_images": [],
+          "layout": "grid(5)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 29,
+          "setting": "Still in the carriage: the Seer-to-Clown puzzle and Klein's circus joke that cracks the whole squad up",
+          "text_anchor": "Aiur Harson added, Exactly, it is hard to imagine",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 127.781,
+          "batch_start": 19465.44,
+          "batch_end": 19593.221
+        },
+        {
+          "start": "5:26:33",
+          "end": "5:27:57",
+          "duration": "0:01:24",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Rozanne.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 31,
+          "line_end": 45,
+          "setting": "Blackthorn reception: Rozanne gasps at Klein's tattered suit and shepherds the civilian staff upstairs",
+          "text_anchor": "The carriage proceeded straight for Zouteland Street.",
+          "timing": "aligned",
+          "chapter_start": 127.781,
+          "chapter_end": 211.531,
+          "batch_start": 19593.221,
+          "batch_end": 19676.971
+        },
+        {
+          "start": "5:27:57",
+          "end": "5:30:06",
+          "duration": "0:02:09",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Frye",
+            "Royale Reideen",
+            "Lorotta",
+            "Aiur Harson",
+            "Borgia"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Frye.jpg",
+            "Royale Reideen.png",
+            "Lorotta.jpg",
+            "Aiur Harson.jpg",
+            "Borgia.jpg"
+          ],
+          "missing_images": [],
+          "layout": "grid(7)",
+          "continues_prev": false,
+          "line_start": 47,
+          "line_end": 77,
+          "setting": "Second floor: the artifacts brought in, and Dunn dispatches Frye and Royale to the Tyrell Warehouse with repeated afterthoughts",
+          "text_anchor": "When all the civilian staff dispersed",
+          "timing": "aligned",
+          "chapter_start": 211.531,
+          "chapter_end": 340.309,
+          "batch_start": 19676.971,
+          "batch_end": 19805.749
+        },
+        {
+          "start": "5:30:06",
+          "end": "5:33:38",
+          "duration": "0:03:32",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Kenley White",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Kenley White.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(4)",
+          "continues_prev": false,
+          "line_start": 79,
+          "line_end": 127,
+          "setting": "Chanis Gate and the armory: Old Neil summoned for healing rituals, then Klein cleans his suit alone and fights off the memory of his first kill",
+          "text_anchor": "Klein watched as the two Nighthawks walked out",
+          "timing": "aligned",
+          "chapter_start": 340.309,
+          "chapter_end": 552.241,
+          "batch_start": 19805.749,
+          "batch_end": 20017.681
+        },
+        {
+          "start": "5:33:38",
+          "end": "5:38:21",
+          "duration": "0:04:44",
+          "present_cast": [
+            "Klein Moretti",
+            "Frye",
+            "[suited clown's corpse]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Frye.jpg"
+          ],
+          "missing_images": [
+            "[suited clown's corpse]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 129,
+          "line_end": 205,
+          "setting": "Frye's hidden dissection room: the artist-turned-Corpse-Collector sketches the dead clown — whose hand seizes Klein's wrist",
+          "text_anchor": "Tap. Tap. Tap. He slowly walked on the empty path",
+          "timing": "aligned",
+          "chapter_start": 552.241,
+          "chapter_end": 835.78,
+          "batch_start": 20017.681,
+          "batch_end": 20301.22
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 835.78
+    },
+    {
+      "chapter": 79,
+      "title": "Another Murmuring",
+      "scenes": [
+        {
+          "start": "5:38:21",
+          "end": "5:44:00",
+          "duration": "0:05:39",
+          "present_cast": [
+            "Klein Moretti",
+            "Frye",
+            "[suited clown's corpse]"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Frye.jpg"
+          ],
+          "missing_images": [
+            "[suited clown's corpse]"
+          ],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 87,
+          "setting": "The dissection room: the corpse murmurs 'Hornacis' and its wrist brand becomes a floating blood sphere; Frye takes over with a surgical knife",
+          "text_anchor": "Klein instantly felt his hair stand on end",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 339.082,
+          "batch_start": 20301.22,
+          "batch_end": 20640.302
+        },
+        {
+          "start": "5:44:00",
+          "end": "5:47:00",
+          "duration": "0:03:00",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Kenley White"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Kenley White.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 89,
+          "line_end": 131,
+          "setting": "The Keeper's room: Klein reports the murmuring corpse; Dunn's forgetfulness routine sends him home to rest",
+          "text_anchor": "He picked up his cane, wore his hat and hobbled over",
+          "timing": "aligned",
+          "chapter_start": 339.082,
+          "chapter_end": 519.165,
+          "batch_start": 20640.302,
+          "batch_end": 20820.385
+        },
+        {
+          "start": "5:47:00",
+          "end": "5:49:15",
+          "duration": "0:02:15",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 133,
+          "line_end": 165,
+          "setting": "Reasoning away the Secret Order's revenge on the stairwell, then home to a shaken afternoon sleep until sunset",
+          "text_anchor": "Along the way, he suddenly recalled something",
+          "timing": "aligned",
+          "chapter_start": 519.165,
+          "chapter_end": 653.92,
+          "batch_start": 20820.385,
+          "batch_end": 20955.14
+        },
+        {
+          "start": "5:49:15",
+          "end": "5:50:00",
+          "duration": "0:00:45",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 167,
+          "line_end": 177,
+          "setting": "The kitchen at dusk: Melissa comes home carrying a letter from Mentor Cohen about the Hornacis main peak",
+          "text_anchor": "Changing into old but comfortable casual clothes",
+          "timing": "aligned",
+          "chapter_start": 653.92,
+          "chapter_end": 699.14,
+          "batch_start": 20955.14,
+          "batch_end": 21000.36
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 699.14
+    },
+    {
+      "chapter": 80,
+      "title": "Banquet Invitation",
+      "scenes": [
+        {
+          "start": "5:50:00",
+          "end": "5:55:31",
+          "duration": "0:05:31",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti",
+            "Benson Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg",
+            "Benson Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 75,
+          "setting": "The living room after dinner: Mentor Cohen's letter on the Hornacis relics monograph, allowance diplomacy, and Selena's birthday-banquet invitation",
+          "text_anchor": "After having dinner, a satiated Klein casually lounged",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 330.892,
+          "batch_start": 21000.36,
+          "batch_end": 21331.252
+        },
+        {
+          "start": "5:55:31",
+          "end": "6:00:31",
+          "duration": "0:05:00",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Rozanne.png"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 79,
+          "line_end": 149,
+          "setting": "Blackthorn next morning: the artifacts head to Backlund, membership pends two-three days, and Rozanne's marriage scheme for staffing relief",
+          "text_anchor": "The next day, Klein wore his cheap formal suit",
+          "timing": "aligned",
+          "chapter_start": 330.892,
+          "chapter_end": 631.061,
+          "batch_start": 21331.252,
+          "batch_end": 21631.421
+        },
+        {
+          "start": "6:00:31",
+          "end": "6:01:25",
+          "duration": "0:00:53",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 151,
+          "line_end": 159,
+          "setting": "The armory: Old Neil over hand-ground coffee warns of the solo mission every formal Nighthawk must complete",
+          "text_anchor": "At the armory, he saw Old Neil wrestling",
+          "timing": "aligned",
+          "chapter_start": 631.061,
+          "chapter_end": 684.14,
+          "batch_start": 21631.421,
+          "batch_end": 21684.5
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 684.14
+    },
+    {
+      "chapter": 81,
+      "title": "Finally Meeting",
+      "scenes": [
+        {
+          "start": "6:01:25",
+          "end": "6:05:24",
+          "duration": "0:04:00",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 39,
+          "setting": "The armory: the formal-member ritual mission, Melee Scholar jokes, and Klein's plan for the day",
+          "text_anchor": "I have to complete a mission independently",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 239.588,
+          "batch_start": 21684.5,
+          "batch_end": 21924.088
+        },
+        {
+          "start": "6:05:24",
+          "end": "6:09:49",
+          "duration": "0:04:25",
+          "present_cast": [
+            "Joyce",
+            "Anna",
+            "Bogda",
+            "Irene",
+            "[man with a stubble]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Joyce",
+            "Anna",
+            "Bogda",
+            "Irene",
+            "[man with a stubble]"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 43,
+          "line_end": 95,
+          "setting": "A chandelier-lit dining hall: Joyce's welcome-back toast turns to sick Bogda, and Anna recommends the Seer Klein Moretti",
+          "text_anchor": "In a dining hall adorned with a chandelier",
+          "timing": "aligned",
+          "chapter_start": 239.588,
+          "chapter_end": 504.555,
+          "batch_start": 21924.088,
+          "batch_end": 22189.055
+        },
+        {
+          "start": "6:09:49",
+          "end": "6:13:09",
+          "duration": "0:03:20",
+          "present_cast": [
+            "Klein Moretti",
+            "[librarian]",
+            "Sir Deweyville",
+            "[butler]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "[librarian]",
+            "Sir Deweyville",
+            "[butler]"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 99,
+          "line_end": 144,
+          "setting": "Deweyville Library: the Hornacis monograph is missing but the journals confirm a mountain-peak palace — then Sir Deweyville himself walks past",
+          "text_anchor": "Golden Indus Borough. Deweyville Library.",
+          "timing": "aligned",
+          "chapter_start": 504.555,
+          "chapter_end": 704.3,
+          "batch_start": 22189.055,
+          "batch_end": 22388.8
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 704.3
+    },
+    {
+      "chapter": 82,
+      "title": "Herb Store",
+      "scenes": [
+        {
+          "start": "6:13:09",
+          "end": "6:14:57",
+          "duration": "0:01:48",
+          "present_cast": [
+            "Klein Moretti",
+            "Sir Deweyville"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Sir Deweyville"
+          ],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 19,
+          "setting": "The library: Spirit Vision reads Sir Deweyville's frail emotional state, and the journals confirm the Evernight kingdom of Hornacis",
+          "text_anchor": "Various colors surfaced as auras and entered Klein's eyes.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 107.713,
+          "batch_start": 22388.8,
+          "batch_end": 22496.513
+        },
+        {
+          "start": "6:14:57",
+          "end": "6:16:30",
+          "duration": "0:01:34",
+          "present_cast": [
+            "Bogda",
+            "Angelica Barrehart"
+          ],
+          "images": [
+            "Angelica Barrehart.jpg"
+          ],
+          "missing_images": [
+            "Bogda"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 23,
+          "line_end": 45,
+          "setting": "Divination Club reception: the ailing Bogda insists on waiting for Mr. Moretti alone",
+          "text_anchor": "Divination Club. Bogda looked at the beautiful lady",
+          "timing": "aligned",
+          "chapter_start": 107.713,
+          "chapter_end": 201.68,
+          "batch_start": 22496.513,
+          "batch_end": 22590.48
+        },
+        {
+          "start": "6:16:30",
+          "end": "6:23:36",
+          "duration": "0:07:05",
+          "present_cast": [
+            "Klein Moretti",
+            "Angelica Barrehart",
+            "Bogda"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Angelica Barrehart.jpg"
+          ],
+          "missing_images": [
+            "Bogda"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 47,
+          "line_end": 151,
+          "setting": "Topaz room: reversed Wheel of Fortune, a dream of death on the operating table, and the cryptic pointer to Lawson on Vlad Street",
+          "text_anchor": "Klein saw the familiar Angelica",
+          "timing": "aligned",
+          "chapter_start": 201.68,
+          "chapter_end": 626.738,
+          "batch_start": 22590.48,
+          "batch_end": 23015.538
+        },
+        {
+          "start": "6:23:36",
+          "end": "6:25:59",
+          "duration": "0:02:23",
+          "present_cast": [
+            "Bogda",
+            "[herb store boss]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Bogda",
+            "[herb store boss]"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 155,
+          "line_end": 191,
+          "setting": "Lawson's Folk Herb Store on Vlad Street: the witchdoctor-robed boss sells Bogda a shady but confident liver cure",
+          "text_anchor": "East Borough. Vlad Street.",
+          "timing": "aligned",
+          "chapter_start": 626.738,
+          "chapter_end": 769.9,
+          "batch_start": 23015.538,
+          "batch_end": 23158.7
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 769.9
+    },
+    {
+      "chapter": 83,
+      "title": "Carving",
+      "scenes": [
+        {
+          "start": "6:25:59",
+          "end": "6:26:59",
+          "duration": "0:01:01",
+          "present_cast": [
+            "Bogda"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Bogda"
+          ],
+          "layout": "default",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 15,
+          "setting": "Outside the herb store: Bogda second-guesses his ten-pound bag of herbs and suspects a scam",
+          "text_anchor": "Holding onto the yellowish-brown paper bag full of herbs",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 60.736,
+          "batch_start": 23158.7,
+          "batch_end": 23219.436
+        },
+        {
+          "start": "6:26:59",
+          "end": "6:28:21",
+          "duration": "0:01:22",
+          "present_cast": [
+            "Scharmaine",
+            "[herb store boss]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Scharmaine",
+            "[herb store boss]"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 19,
+          "line_end": 37,
+          "setting": "Inside Lawson's Folk Herb Store: the boss tells his apprentice Scharmaine it's nearly time to vanish to another city",
+          "text_anchor": "Inside Lawson's Folk Herb Store.",
+          "timing": "aligned",
+          "chapter_start": 60.736,
+          "chapter_end": 142.334,
+          "batch_start": 23219.436,
+          "batch_end": 23301.034
+        },
+        {
+          "start": "6:28:21",
+          "end": "6:30:40",
+          "duration": "0:02:19",
+          "present_cast": [
+            "Bogda",
+            "[Bogda's father]"
+          ],
+          "images": [
+            "_default_scene.jpg"
+          ],
+          "missing_images": [
+            "Bogda",
+            "[Bogda's father]"
+          ],
+          "layout": "default",
+          "continues_prev": false,
+          "line_start": 41,
+          "line_end": 69,
+          "setting": "Bogda's home: the vile rooster-blood medicine goes down — and by morning the liver pain is nearly gone",
+          "text_anchor": "A blackish-green bubbling liquid appeared in front of Bogda's eyes.",
+          "timing": "aligned",
+          "chapter_start": 142.334,
+          "chapter_end": 280.995,
+          "batch_start": 23301.034,
+          "batch_end": 23439.695
+        },
+        {
+          "start": "6:30:40",
+          "end": "6:35:07",
+          "duration": "0:04:27",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 73,
+          "line_end": 123,
+          "setting": "The staff office: Klein carves disaster-warding amulets for his siblings, and Dunn brings word — the Holy Cathedral approved his membership",
+          "text_anchor": "Inside the civilian staff office of the Blackthorn Security Company",
+          "timing": "aligned",
+          "chapter_start": 280.995,
+          "chapter_end": 547.858,
+          "batch_start": 23439.695,
+          "batch_end": 23706.558
+        },
+        {
+          "start": "6:35:07",
+          "end": "6:37:32",
+          "duration": "0:02:25",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti",
+            "Benson Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg",
+            "Benson Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 129,
+          "line_end": 161,
+          "setting": "Sunday of Selena's birthday: Melissa stage-manages Benson into Klein's tuxedo with matchmaking intent",
+          "text_anchor": "Changing into his formal suit and using a brush",
+          "timing": "aligned",
+          "chapter_start": 547.858,
+          "chapter_end": 693.19,
+          "batch_start": 23706.558,
+          "batch_end": 23851.89
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 693.19
+    },
+    {
+      "chapter": 84,
+      "title": "Elizabeth",
+      "scenes": [
+        {
+          "start": "6:37:32",
+          "end": "6:41:21",
+          "duration": "0:03:49",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti",
+            "Benson Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg",
+            "Benson Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 55,
+          "setting": "Before leaving home: Klein gifts his hand-carved disaster-warding amulets to Melissa and Benson",
+          "text_anchor": "Seeing the unconvinced look his sister's face",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 228.653,
+          "batch_start": 23851.89,
+          "batch_end": 24080.543
+        },
+        {
+          "start": "6:41:21",
+          "end": "6:49:45",
+          "duration": "0:08:24",
+          "present_cast": [
+            "Klein Moretti",
+            "Selena",
+            "Mr. Wood",
+            "Elizabeth",
+            "Chris",
+            "Melissa Moretti",
+            "Benson Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Selena.jpg",
+            "Elizabeth.jpg",
+            "Melissa Moretti.jpg",
+            "Benson Moretti.jpg"
+          ],
+          "missing_images": [
+            "Mr. Wood",
+            "Chris"
+          ],
+          "layout": "grid(5)",
+          "continues_prev": false,
+          "line_start": 57,
+          "line_end": 163,
+          "setting": "Selena's birthday banquet at the Wood house: Elizabeth turns out to be the amulet girl from the market — then a strange fluctuation upstairs",
+          "text_anchor": "Following that, the siblings tidied themselves up",
+          "timing": "aligned",
+          "chapter_start": 228.653,
+          "chapter_end": 732.96,
+          "batch_start": 24080.543,
+          "batch_end": 24584.85
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 732.96
+    },
+    {
+      "chapter": 85,
+      "title": "Urgency",
+      "scenes": [
+        {
+          "start": "6:49:45",
+          "end": "7:01:40",
+          "duration": "0:11:55",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti",
+            "Selena",
+            "Elizabeth",
+            "Yonina"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg",
+            "Selena.jpg",
+            "Elizabeth.jpg"
+          ],
+          "missing_images": [
+            "Yonina"
+          ],
+          "layout": "row(4)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 167,
+          "setting": "Upstairs at the Wood house: the magic-mirror divination gone wrong — a devil-Selena in the glass — and Klein preps a warding ritual in her bedroom",
+          "text_anchor": "The strange, twisted, and obscure fluctuation was short-lived.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 715.25,
+          "batch_start": 24584.85,
+          "batch_end": 25300.1
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 715.25
+    },
+    {
+      "chapter": 86,
+      "title": "Prayer",
+      "scenes": [
+        {
+          "start": "7:01:40",
+          "end": "7:08:32",
+          "duration": "0:06:52",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 93,
+          "setting": "Selena's bedroom: Klein builds his first true altar — suspension-style ritualistic magic to the Evernight Goddess",
+          "text_anchor": "Suspension-style ritualistic magic referred to the termination",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 412.135,
+          "batch_start": 25300.1,
+          "batch_end": 25712.235
+        },
+        {
+          "start": "7:08:32",
+          "end": "7:10:07",
+          "duration": "0:01:35",
+          "present_cast": [
+            "Elizabeth",
+            "Selena",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Elizabeth.jpg",
+            "Selena.jpg",
+            "Melissa Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 97,
+          "line_end": 119,
+          "setting": "The second-floor living room: Elizabeth's terrible acting as she lures Selena out, under Melissa's narrowing eyes",
+          "text_anchor": "In the living room on the second floor.",
+          "timing": "aligned",
+          "chapter_start": 412.135,
+          "chapter_end": 506.995,
+          "batch_start": 25712.235,
+          "batch_end": 25807.095
+        },
+        {
+          "start": "7:10:07",
+          "end": "7:15:40",
+          "duration": "0:05:33",
+          "present_cast": [
+            "Klein Moretti",
+            "Elizabeth",
+            "Selena"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Elizabeth.jpg",
+            "Selena.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 123,
+          "line_end": 213,
+          "setting": "The exorcism: Selena pulled into the sealed room, claws out, the mirror shatters, and the Goddess's power burns the dark green corruption away",
+          "text_anchor": "Selena's bedroom entrance.",
+          "timing": "aligned",
+          "chapter_start": 506.995,
+          "chapter_end": 839.52,
+          "batch_start": 25807.095,
+          "batch_end": 26139.62
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 839.52
+    },
+    {
+      "chapter": 87,
+      "title": "Exhortation",
+      "scenes": [
+        {
+          "start": "7:15:40",
+          "end": "7:21:37",
+          "duration": "0:05:57",
+          "present_cast": [
+            "Klein Moretti",
+            "Elizabeth"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Elizabeth.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 85,
+          "setting": "The upstairs corridor: Klein learns Hanass Vincent taught Selena, extracts a secrecy pact, and coin-flip divines that she is safe",
+          "text_anchor": "Has it really been resolved? Elizabeth asked in disbelief.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 356.961,
+          "batch_start": 26139.62,
+          "batch_end": 26496.581
+        },
+        {
+          "start": "7:21:37",
+          "end": "7:24:37",
+          "duration": "0:03:00",
+          "present_cast": [
+            "Elizabeth",
+            "Selena"
+          ],
+          "images": [
+            "Elizabeth.jpg",
+            "Selena.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 89,
+          "line_end": 125,
+          "setting": "Selena's bedroom: Elizabeth's half-truth cover story, and the recovered incantation — 'the grace of the True Creator'",
+          "text_anchor": "Elizabeth was staring at Klein's back",
+          "timing": "aligned",
+          "chapter_start": 356.961,
+          "chapter_end": 537.283,
+          "batch_start": 26496.581,
+          "batch_end": 26676.903
+        },
+        {
+          "start": "7:24:37",
+          "end": "7:27:13",
+          "duration": "0:02:36",
+          "present_cast": [
+            "Klein Moretti",
+            "Chris",
+            "Benson Moretti",
+            "Melissa Moretti",
+            "Elizabeth"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg",
+            "Elizabeth.jpg"
+          ],
+          "missing_images": [
+            "Chris"
+          ],
+          "layout": "row(4)",
+          "continues_prev": false,
+          "line_start": 129,
+          "line_end": 169,
+          "setting": "Back at the poker table: small wins, Benson's negotiation theory, and a detour planned to Zouteland Street",
+          "text_anchor": "Klein smoothed the creases and patted the dust",
+          "timing": "aligned",
+          "chapter_start": 537.283,
+          "chapter_end": 693.19,
+          "batch_start": 26676.903,
+          "batch_end": 26832.81
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 693.19
+    },
+    {
+      "chapter": 88,
+      "title": "Report",
+      "scenes": [
+        {
+          "start": "7:27:13",
+          "end": "7:30:23",
+          "duration": "0:03:10",
+          "present_cast": [
+            "Klein Moretti",
+            "Benson Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Benson Moretti.jpg",
+            "Melissa Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 33,
+          "setting": "The hired carriage home: middle-class respectability talk while Melissa watches Klein with narrowed eyes",
+          "text_anchor": "What is it? Benson asked casually.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 190.492,
+          "batch_start": 26832.81,
+          "batch_end": 27023.302
+        },
+        {
+          "start": "7:30:23",
+          "end": "7:33:32",
+          "duration": "0:03:08",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 35,
+          "line_end": 77,
+          "setting": "Blackthorn at night: Klein reports the mirror possession and Hanass Vincent — and learns his initiation mission awaits tomorrow",
+          "text_anchor": "Going up the stairs, Klein arrived at the Blackthorn Security Company",
+          "timing": "aligned",
+          "chapter_start": 190.492,
+          "chapter_end": 378.843,
+          "batch_start": 27023.302,
+          "batch_end": 27211.653
+        },
+        {
+          "start": "7:33:32",
+          "end": "7:37:32",
+          "duration": "0:04:01",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti",
+            "Benson Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg",
+            "Benson Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 79,
+          "line_end": 141,
+          "setting": "Home: Klein feeds Melissa a careful cover story and steers her toward the orthodox faiths",
+          "text_anchor": "Exiting the stairway, he suddenly sensed something.",
+          "timing": "aligned",
+          "chapter_start": 378.843,
+          "chapter_end": 619.549,
+          "batch_start": 27211.653,
+          "batch_end": 27452.359
+        },
+        {
+          "start": "7:37:32",
+          "end": "7:39:41",
+          "duration": "0:02:08",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne",
+            "Bredt",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Rozanne.png",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [
+            "Bredt"
+          ],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 145,
+          "line_end": 169,
+          "setting": "Monday morning, Dunn's office: Hanass Vincent died in his sleep — and Dunn saw the upside-down crucified man in his dream",
+          "text_anchor": "On Monday morning at eight, in the Blackthorn Security Company.",
+          "timing": "aligned",
+          "chapter_start": 619.549,
+          "chapter_end": 747.86,
+          "batch_start": 27452.359,
+          "batch_end": 27580.67
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 747.86
+    },
+    {
+      "chapter": 89,
+      "title": "A Simple Mission",
+      "scenes": [
+        {
+          "start": "7:39:41",
+          "end": "7:43:31",
+          "duration": "0:03:51",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Rozanne.png"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 39,
+          "setting": "Dunn briefs the initiation mission — Sir Deweyville's nightly moans — and Klein suits up in his probationary inspector uniform",
+          "text_anchor": "Klein nodded and said, Alright, but I still don't know",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 230.669,
+          "batch_start": 27580.67,
+          "batch_end": 27811.339
+        },
+        {
+          "start": "7:43:31",
+          "end": "7:48:26",
+          "duration": "0:04:55",
+          "present_cast": [
+            "Klein Moretti",
+            "Tolle"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Tolle"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 43,
+          "line_end": 101,
+          "setting": "The Shooting Club and police carriage: Inspector Tolle's full briefing on a month of moans and cries that follow Deweyville everywhere",
+          "text_anchor": "At the hall of the Shooting Club.",
+          "timing": "aligned",
+          "chapter_start": 230.669,
+          "chapter_end": 525.762,
+          "batch_start": 27811.339,
+          "batch_end": 28106.432
+        },
+        {
+          "start": "7:48:26",
+          "end": "7:52:13",
+          "duration": "0:03:46",
+          "present_cast": [
+            "Klein Moretti",
+            "Tolle",
+            "Gate",
+            "Sir Deweyville",
+            "Cullen"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Tolle",
+            "Gate",
+            "Sir Deweyville",
+            "Cullen"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 103,
+          "line_end": 179,
+          "setting": "The Deweyville mansion: into the master bedroom with the exhausted knight — and Klein's spiritual perception flares",
+          "text_anchor": "The carriage entered the Golden Indus borough",
+          "timing": "aligned",
+          "chapter_start": 525.762,
+          "chapter_end": 751.94,
+          "batch_start": 28106.432,
+          "batch_end": 28332.61
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 751.94
+    },
+    {
+      "chapter": 90,
+      "title": "Findings By Sight",
+      "scenes": [
+        {
+          "start": "7:52:13",
+          "end": "7:59:23",
+          "duration": "0:07:10",
+          "present_cast": [
+            "Klein Moretti",
+            "Tolle",
+            "Gate",
+            "Sir Deweyville",
+            "Cullen"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Tolle",
+            "Gate",
+            "Sir Deweyville",
+            "Cullen"
+          ],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 93,
+          "setting": "The master bedroom: Spirit Vision shows overlapping white figures clinging to Deweyville — resentment of the dead, dressed up as a 'psychological illness'",
+          "text_anchor": "Sir Deweyville's bedroom was larger than the living room",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 430.477,
+          "batch_start": 28332.61,
+          "batch_end": 28763.087
+        },
+        {
+          "start": "7:59:23",
+          "end": "8:00:29",
+          "duration": "0:01:06",
+          "present_cast": [
+            "Klein Moretti",
+            "Sir Deweyville"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Sir Deweyville"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 95,
+          "line_end": 107,
+          "setting": "Curtains drawn: Deweyville laid to sleep while Klein enters dream divination from the rocking chair",
+          "text_anchor": "After watching them leave the room one after another",
+          "timing": "aligned",
+          "chapter_start": 430.477,
+          "chapter_end": 496.837,
+          "batch_start": 28763.087,
+          "batch_end": 28829.447
+        },
+        {
+          "start": "8:00:29",
+          "end": "8:06:08",
+          "duration": "0:05:39",
+          "present_cast": [
+            "Klein Moretti",
+            "Sir Deweyville"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Sir Deweyville"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 109,
+          "line_end": 211,
+          "setting": "The communion with the resentments (visions only: the lead-poisoned girls Charlotte, Mary, Lafayette, and silent Hayley) while Deweyville sleeps",
+          "text_anchor": "A sad sob reverberated in Klein's ear",
+          "timing": "aligned",
+          "chapter_start": 496.837,
+          "chapter_end": 835.82,
+          "batch_start": 28829.447,
+          "batch_end": 29168.43
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 835.82
+    },
+    {
+      "chapter": 91,
+      "title": "Solution",
+      "scenes": [
+        {
+          "start": "8:06:08",
+          "end": "8:12:44",
+          "duration": "0:06:36",
+          "present_cast": [
+            "Klein Moretti",
+            "Sir Deweyville"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Sir Deweyville"
+          ],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 77,
+          "setting": "The darkened bedroom: Klein prescribes the cure — compensate Hayley Walker's family and publicize the dangers of lead",
+          "text_anchor": "The scenery started to distort, turning illusory",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 395.965,
+          "batch_start": 29168.43,
+          "batch_end": 29564.395
+        },
+        {
+          "start": "8:12:44",
+          "end": "8:17:54",
+          "duration": "0:05:09",
+          "present_cast": [
+            "Klein Moretti",
+            "Cullen",
+            "Sir Deweyville",
+            "Tolle",
+            "Gate",
+            "[Hayley's parents]"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Cullen",
+            "Sir Deweyville",
+            "Tolle",
+            "Gate",
+            "[Hayley's parents]"
+          ],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 81,
+          "line_end": 159,
+          "setting": "The living room: three hundred pounds for Hayley's parents, and the clinging translucent figure finally fades away",
+          "text_anchor": "At eleven in the morning in the living room of Deweyville.",
+          "timing": "aligned",
+          "chapter_start": 395.965,
+          "chapter_end": 705.29,
+          "batch_start": 29564.395,
+          "batch_end": 29873.72
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 705.29
+    },
+    {
+      "chapter": 92,
+      "title": "Psychological Expert",
+      "scenes": [
+        {
+          "start": "8:17:54",
+          "end": "8:21:09",
+          "duration": "0:03:16",
+          "present_cast": [
+            "Klein Moretti",
+            "Sir Deweyville",
+            "Gate",
+            "Tolle",
+            "Cullen"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [
+            "Sir Deweyville",
+            "Gate",
+            "Tolle",
+            "Cullen"
+          ],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 35,
+          "setting": "Wrapping up at the mansion: the 'mass hysteria' lecture, and the police carriage rolls away from the fountain",
+          "text_anchor": "Mass hysteria? Sir Deweyville, who had met many psychiatrists",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 195.746,
+          "batch_start": 29873.72,
+          "batch_end": 30069.466
+        },
+        {
+          "start": "8:21:09",
+          "end": "8:24:48",
+          "duration": "0:03:38",
+          "present_cast": [
+            "Klein Moretti",
+            "Tolle",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [
+            "Tolle"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 37,
+          "line_end": 71,
+          "setting": "Back at Blackthorn: mission complete, a celebration dinner planned, and Dunn quietly arranges to move Hayley's family out of Tingen",
+          "text_anchor": "Inspector Tolle fell silent until the carriage arrived",
+          "timing": "aligned",
+          "chapter_start": 195.746,
+          "chapter_end": 414.129,
+          "batch_start": 30069.466,
+          "batch_end": 30287.849
+        },
+        {
+          "start": "8:24:48",
+          "end": "8:26:08",
+          "duration": "0:01:20",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 73,
+          "line_end": 87,
+          "setting": "Home on Daffodil Street: leftovers, a heavy nap, and the weekly summary before three o'clock",
+          "text_anchor": "With all of that done, he left Dunn's office",
+          "timing": "aligned",
+          "chapter_start": 414.129,
+          "chapter_end": 494.526,
+          "batch_start": 30287.849,
+          "batch_end": 30368.246
+        },
+        {
+          "start": "8:26:08",
+          "end": "8:26:33",
+          "duration": "0:00:25",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 89,
+          "line_end": 95,
+          "setting": "Above the gray fog at five to three: The Fool reaches for the crimson stars of Justice and The Hanged Man",
+          "text_anchor": "Five minutes before three in the afternoon.",
+          "timing": "aligned",
+          "chapter_start": 494.526,
+          "chapter_end": 519.046,
+          "batch_start": 30368.246,
+          "batch_end": 30392.766
+        },
+        {
+          "start": "8:26:33",
+          "end": "8:28:19",
+          "duration": "0:01:47",
+          "present_cast": [
+            "Audrey Hall",
+            "Susie"
+          ],
+          "images": [
+            "Audrey Hall.jpg",
+            "Susie.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 99,
+          "line_end": 123,
+          "setting": "Empress Borough: Audrey lectures Susie on open observation and giggles at the idea of a barking Tarot member",
+          "text_anchor": "Backlund, Empress Borough.",
+          "timing": "aligned",
+          "chapter_start": 519.046,
+          "chapter_end": 625.571,
+          "batch_start": 30392.766,
+          "batch_end": 30499.291
+        },
+        {
+          "start": "8:28:19",
+          "end": "8:29:06",
+          "duration": "0:00:47",
+          "present_cast": [
+            "Alger Wilson"
+          ],
+          "images": [
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 127,
+          "line_end": 137,
+          "setting": "The captain's cabin on the Sonia Sea: Alger steadies himself with liquor before the Gathering",
+          "text_anchor": "In a particular area of the Sonia Sea",
+          "timing": "aligned",
+          "chapter_start": 625.571,
+          "chapter_end": 672.41,
+          "batch_start": 30499.291,
+          "batch_end": 30546.13
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 672.41
+    },
+    {
+      "chapter": 93,
+      "title": "New Diary Page",
+      "scenes": [
+        {
+          "start": "8:29:06",
+          "end": "8:31:12",
+          "duration": "0:02:06",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 31,
+          "setting": "The Tarot Gathering: the ritual trial toasted, and Audrey expresses the new diary page she owed onto the goatskin",
+          "text_anchor": "Above the gray fog, gigantic stone columns held up a majestic divine hall.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 126.351,
+          "batch_start": 30546.13,
+          "batch_end": 30672.481
+        },
+        {
+          "start": "8:31:12",
+          "end": "8:35:36",
+          "duration": "0:04:23",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Roselle Gustav",
+            "Zaratul"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Roselle Gustav.jpg",
+            "Zaratul.png"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 33,
+          "line_end": 75,
+          "setting": "Diary-reading interlude: the Blasphemy Slate musings, and Mr. Zaratul revealed as leader of the Secret Order with his acting-method timelines",
+          "text_anchor": "Shifting his gaze down, he started reading without emotion.",
+          "timing": "aligned",
+          "chapter_start": 126.351,
+          "chapter_end": 389.608,
+          "batch_start": 30672.481,
+          "batch_end": 30935.738
+        },
+        {
+          "start": "8:35:36",
+          "end": "8:40:52",
+          "duration": "0:05:16",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 77,
+          "line_end": 146,
+          "setting": "Tarot gathering resumes: the Psychology Alchemists question, acting guidance, and The Fool coins 'the Fallen Creator'",
+          "text_anchor": "Sorry for the wait.",
+          "timing": "aligned",
+          "chapter_start": 389.608,
+          "chapter_end": 705.53,
+          "batch_start": 30935.738,
+          "batch_end": 31251.66
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 705.53
+    },
+    {
+      "chapter": 94,
+      "title": "Hidden Sage",
+      "scenes": [
+        {
+          "start": "8:40:52",
+          "end": "8:51:55",
+          "duration": "0:11:03",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Audrey Hall",
+            "Alger Wilson"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Audrey Hall.jpg",
+            "Alger Wilson.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 119,
+          "setting": "The Gathering continues: a thousand pounds buys Audrey the history of the hidden organizations — and the Hidden Sage who came to life",
+          "text_anchor": "The Fallen Creator… Fallen… Alger ruminated",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 663.069,
+          "batch_start": 31251.66,
+          "batch_end": 31914.729
+        },
+        {
+          "start": "8:51:55",
+          "end": "8:53:26",
+          "duration": "0:01:32",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 121,
+          "line_end": 139,
+          "setting": "Alone above the fog: the failed smurf-account experiment — and a faint prayer inside a nearby crimson star",
+          "text_anchor": "Cutting off the connections, he saw both their figures shatter",
+          "timing": "aligned",
+          "chapter_start": 663.069,
+          "chapter_end": 754.7,
+          "batch_start": 31914.729,
+          "batch_end": 32006.36
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 754.7
+    },
+    {
+      "chapter": 95,
+      "title": "The Supplicant",
+      "scenes": [
+        {
+          "start": "8:53:26",
+          "end": "8:56:53",
+          "duration": "0:03:26",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "[praying blond teen]"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [
+            "[praying blond teen]"
+          ],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 39,
+          "setting": "Above the gray fog: a supplicant appears in a crimson star, praying in a tongue akin to Ancient Feysac — perhaps Jotun",
+          "text_anchor": "A prayer? Klein's mind stirred",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 206.421,
+          "batch_start": 32006.36,
+          "batch_end": 32212.781
+        },
+        {
+          "start": "8:56:53",
+          "end": "9:04:38",
+          "duration": "0:07:45",
+          "present_cast": [
+            "Klein Moretti",
+            "Angelica Barrehart",
+            "Bogda",
+            "Glacis"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Angelica Barrehart.jpg",
+            "Glacis.jpg"
+          ],
+          "missing_images": [
+            "Bogda"
+          ],
+          "layout": "row(3)",
+          "continues_prev": false,
+          "line_start": 43,
+          "line_end": 141,
+          "setting": "The Divination Club mourns Hanass Vincent; the healed Bogda gushes gratitude and mummy-powder plans, with Glacis's ringing endorsement",
+          "text_anchor": "After 'revising' Roselle's diary, Klein changed into his formal wear",
+          "timing": "aligned",
+          "chapter_start": 206.421,
+          "chapter_end": 671.179,
+          "batch_start": 32212.781,
+          "batch_end": 32677.539
+        },
+        {
+          "start": "9:04:38",
+          "end": "9:04:56",
+          "duration": "0:00:18",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 145,
+          "line_end": 153,
+          "setting": "18 Vlad Street: the herb store stands closed with a subletting notice — the wary apothecary has already fled",
+          "text_anchor": "18 Vlad Street. Klein stood outside the herb store",
+          "timing": "aligned",
+          "chapter_start": 671.179,
+          "chapter_end": 689.21,
+          "batch_start": 32677.539,
+          "batch_end": 32695.57
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 689.21
+    },
+    {
+      "chapter": 96,
+      "title": "Daly's Guess",
+      "scenes": [
+        {
+          "start": "9:04:56",
+          "end": "9:07:28",
+          "duration": "0:02:33",
+          "present_cast": [
+            "Klein Moretti",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Rozanne.png"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 3,
+          "line_end": 29,
+          "setting": "Blackthorn reception: Rozanne's Spirit Medium daydreams and Archbishop Chanis's 'miserable wretches' line",
+          "text_anchor": "By the afternoon of the next day, Klein had fully recovered",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 152.656,
+          "batch_start": 32695.57,
+          "batch_end": 32848.226
+        },
+        {
+          "start": "9:07:28",
+          "end": "9:17:45",
+          "duration": "0:10:17",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 31,
+          "line_end": 153,
+          "setting": "Dunn's office: Daly's transfer to Backlund, her clenched-fist theory of the Seer pathway, and the Sequence hierarchy",
+          "text_anchor": "Alright. With his hat and cane in hand, Klein passed through the partition",
+          "timing": "aligned",
+          "chapter_start": 152.656,
+          "chapter_end": 769.214,
+          "batch_start": 32848.226,
+          "batch_end": 33464.784
+        },
+        {
+          "start": "9:17:45",
+          "end": "9:18:16",
+          "duration": "0:00:31",
+          "present_cast": [
+            "Klein Moretti",
+            "Old Neil"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Old Neil.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 157,
+          "line_end": 165,
+          "setting": "The armory: Old Neil reveals the combat training Dunn forgot to mention",
+          "text_anchor": "In the armory, Old Neil stole a glance at Klein",
+          "timing": "aligned",
+          "chapter_start": 769.214,
+          "chapter_end": 800.54,
+          "batch_start": 33464.784,
+          "batch_end": 33496.11
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 800.54
+    },
+    {
+      "chapter": 97,
+      "title": "Combat Teacher",
+      "scenes": [
+        {
+          "start": "9:18:16",
+          "end": "9:24:08",
+          "duration": "0:05:52",
+          "present_cast": [
+            "Klein Moretti",
+            "Leonard Mitchell",
+            "Gawain"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg"
+          ],
+          "missing_images": [
+            "Gawain"
+          ],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 3,
+          "line_end": 71,
+          "setting": "The run-down house of the old knight Gawain: Leonard's elegy for the age of knights, and Klein's first brutal strength-training session",
+          "text_anchor": "At two in the afternoon, outside of a simple two-storied building",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 352.275,
+          "batch_start": 33496.11,
+          "batch_end": 33848.385
+        },
+        {
+          "start": "9:24:08",
+          "end": "9:29:38",
+          "duration": "0:05:29",
+          "present_cast": [
+            "Klein Moretti",
+            "Dunn Smith",
+            "Royale Reideen",
+            "Kenley White",
+            "Leonard Mitchell",
+            "Seeka Tron",
+            "Rozanne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Dunn Smith.jpg",
+            "Royale Reideen.png",
+            "Kenley White.jpg",
+            "Leonard Mitchell.jpg",
+            "Seeka Tron.jpg",
+            "Rozanne.png"
+          ],
+          "missing_images": [],
+          "layout": "grid(7)",
+          "continues_prev": false,
+          "line_start": 75,
+          "line_end": 155,
+          "setting": "Old Will's Restaurant: the induction dinner — toasts, Miss Author Seeka Tron, and Klein's second steak after training-induced starvation",
+          "text_anchor": "Six in the evening, at a corner table of the Old Will Restaurant.",
+          "timing": "aligned",
+          "chapter_start": 352.275,
+          "chapter_end": 681.648,
+          "batch_start": 33848.385,
+          "batch_end": 34177.758
+        },
+        {
+          "start": "9:29:38",
+          "end": "9:30:23",
+          "duration": "0:00:45",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 159,
+          "line_end": 167,
+          "setting": "Next morning at home: sore muscles betray Klein's odd hobbling to a suspicious Melissa",
+          "text_anchor": "The next morning, Klein felt bloated.",
+          "timing": "aligned",
+          "chapter_start": 681.648,
+          "chapter_end": 726.43,
+          "batch_start": 34177.758,
+          "batch_end": 34222.54
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 726.43
+    },
+    {
+      "chapter": 98,
+      "title": "Mr. Azik",
+      "scenes": [
+        {
+          "start": "9:30:23",
+          "end": "9:34:38",
+          "duration": "0:04:15",
+          "present_cast": [
+            "Klein Moretti",
+            "Melissa Moretti",
+            "Benson Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Melissa Moretti.jpg",
+            "Benson Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(3)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 49,
+          "setting": "Morning at home: sore-muscle theater for Melissa and the 'principles of physics' definition of a professor",
+          "text_anchor": "Faced with his sister's question, all Klein could do was reply",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 255.357,
+          "batch_start": 34222.54,
+          "batch_end": 34477.897
+        },
+        {
+          "start": "9:34:38",
+          "end": "9:44:15",
+          "duration": "0:09:37",
+          "present_cast": [
+            "Klein Moretti",
+            "Azik Eggers"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Azik Eggers.jpg"
+          ],
+          "missing_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 53,
+          "line_end": 167,
+          "setting": "Mentor Cohen's office at Khoy University: Mr. Azik lends the Hornacis monograph — the dream palace confirmed — and warns of disharmony in Klein's fate",
+          "text_anchor": "During the summer, Khoy University had trees",
+          "timing": "aligned",
+          "chapter_start": 255.357,
+          "chapter_end": 832.15,
+          "batch_start": 34477.897,
+          "batch_end": 35054.69
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 832.15
+    },
+    {
+      "chapter": 99,
+      "title": "Red Chimney",
+      "scenes": [
+        {
+          "start": "9:44:15",
+          "end": "9:49:34",
+          "duration": "0:05:19",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 3,
+          "line_end": 63,
+          "setting": "Klein's darkened bedroom: re-divining the three coincidences — all normal in the real world — then sealing the room to try again above the fog",
+          "text_anchor": "Late in the afternoon, Klein returned home",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 319.296,
+          "batch_start": 35054.69,
+          "batch_end": 35373.986
+        },
+        {
+          "start": "9:49:34",
+          "end": "9:55:23",
+          "duration": "0:05:49",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 67,
+          "line_end": 157,
+          "setting": "Above the gray fog the answers flip: extraordinary elements behind the kidnapping, a red-chimney vision, and Clown confirmed as Seer's next Sequence",
+          "text_anchor": "In the magnificent ancient divine hall above the endless gray fog.",
+          "timing": "aligned",
+          "chapter_start": 319.296,
+          "chapter_end": 668.64,
+          "batch_start": 35373.986,
+          "batch_end": 35723.33
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 668.64
+    },
+    {
+      "chapter": 100,
+      "title": "Interpreting Symbols",
+      "scenes": [
+        {
+          "start": "9:55:23",
+          "end": "10:06:04",
+          "duration": "0:10:41",
+          "present_cast": [
+            "Klein (as The Fool)"
+          ],
+          "images": [
+            "The Fool.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 125,
+          "setting": "Dream divination above the fog (visions only: Welch, Naya, Hanass Vincent selling the notebook): Clown clues lead to the third man at the trade",
+          "text_anchor": "Clues to the Clown potion.",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 640.693,
+          "batch_start": 35723.33,
+          "batch_end": 36364.023
+        },
+        {
+          "start": "10:06:04",
+          "end": "10:07:58",
+          "duration": "0:01:54",
+          "present_cast": [
+            "Klein Moretti"
+          ],
+          "images": [
+            "Klein Moretti.jpg"
+          ],
+          "missing_images": [],
+          "layout": "single",
+          "continues_prev": false,
+          "line_start": 127,
+          "line_end": 161,
+          "setting": "Back in the bedroom: Klein prays to himself for the first time and his guided hand draws a lifelike portrait of the third person",
+          "text_anchor": "Back in his bedroom, he lit the gas lamp and 'prayed.'",
+          "timing": "aligned",
+          "chapter_start": 640.693,
+          "chapter_end": 754.82,
+          "batch_start": 36364.023,
+          "batch_end": 36478.15
+        }
+      ],
+      "timing": "aligned",
+      "audio_duration": 754.82
+    }
+  ],
+  "characters_index": {
+    "Klein Moretti (protagonist)": {
+      "status": "have",
+      "scenes": 115
+    },
+    "Old Neil": {
+      "status": "have",
+      "scenes": 14
+    },
+    "[butler]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "Audrey Hall": {
+      "status": "have",
+      "scenes": 15
+    },
+    "Duchess Della": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Duke Negan": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Baron Larry": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Madam Parnes": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Susie": {
+      "status": "have",
+      "scenes": 5
+    },
+    "Alger Wilson": {
+      "status": "have",
+      "scenes": 14
+    },
+    "[sailor]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Jack": {
+      "status": "declined",
+      "scenes": 1
+    },
+    "[Jack's father, the Listener]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Dunn Smith": {
+      "status": "have",
+      "scenes": 25
+    },
+    "Rozanne": {
+      "status": "have",
+      "scenes": 9
+    },
+    "Mrs. Orianna": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Angelica Barrehart": {
+      "status": "have",
+      "scenes": 12
+    },
+    "Hanass Vincent": {
+      "status": "have",
+      "scenes": 1
+    },
+    "Anna": {
+      "status": "minor",
+      "scenes": 6
+    },
+    "Joyce": {
+      "status": "minor",
+      "scenes": 4
+    },
+    "Mr. Wayne": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "[Anna's mother]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Benson Moretti": {
+      "status": "have",
+      "scenes": 11
+    },
+    "Melissa Moretti": {
+      "status": "have",
+      "scenes": 16
+    },
+    "Roselle Gustav": {
+      "status": "have",
+      "scenes": 2
+    },
+    "Grimm": {
+      "status": "need",
+      "scenes": 1
+    },
+    "Edwards": {
+      "status": "need",
+      "scenes": 1
+    },
+    "Matilda": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Zaratul": {
+      "status": "have",
+      "scenes": 2
+    },
+    "[maid]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Glacis": {
+      "status": "have",
+      "scenes": 3
+    },
+    "[sailors]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Tris": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "[black-robed woman]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[brawny doorman]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Ademisaul": {
+      "status": "have",
+      "scenes": 1
+    },
+    "[stall inquirer]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[bespectacled man]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "[teenage girl]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[stall owner]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[young lady in grayish-white dress]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Leonard Mitchell": {
+      "status": "have",
+      "scenes": 11
+    },
+    "Lorotta": {
+      "status": "have",
+      "scenes": 11
+    },
+    "Aiur Harson": {
+      "status": "have",
+      "scenes": 11
+    },
+    "Borgia": {
+      "status": "have",
+      "scenes": 11
+    },
+    "[suited clown]": {
+      "status": "background",
+      "scenes": 3
+    },
+    "[clown-faced figure in dock uniform]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Ray Bieber": {
+      "status": "have",
+      "scenes": 1
+    },
+    "Frye": {
+      "status": "have",
+      "scenes": 3
+    },
+    "Royale Reideen": {
+      "status": "have",
+      "scenes": 2
+    },
+    "Kenley White": {
+      "status": "have",
+      "scenes": 3
+    },
+    "[suited clown's corpse]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "Bogda": {
+      "status": "minor",
+      "scenes": 7
+    },
+    "Irene": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "[man with a stubble]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[librarian]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Sir Deweyville": {
+      "status": "minor",
+      "scenes": 9
+    },
+    "[herb store boss]": {
+      "status": "background",
+      "scenes": 2
+    },
+    "Scharmaine": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "[Bogda's father]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Selena": {
+      "status": "have",
+      "scenes": 5
+    },
+    "Mr. Wood": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Elizabeth": {
+      "status": "have",
+      "scenes": 7
+    },
+    "Chris": {
+      "status": "minor",
+      "scenes": 2
+    },
+    "Yonina": {
+      "status": "minor",
+      "scenes": 1
+    },
+    "Bredt": {
+      "status": "declined",
+      "scenes": 1
+    },
+    "Tolle": {
+      "status": "minor",
+      "scenes": 6
+    },
+    "Gate": {
+      "status": "minor",
+      "scenes": 4
+    },
+    "Cullen": {
+      "status": "minor",
+      "scenes": 4
+    },
+    "[Hayley's parents]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "[praying blond teen]": {
+      "status": "background",
+      "scenes": 1
+    },
+    "Gawain": {
+      "status": "declined",
+      "scenes": 1
+    },
+    "Seeka Tron": {
+      "status": "have",
+      "scenes": 1
+    },
+    "Azik Eggers": {
+      "status": "have",
+      "scenes": 1
+    }
+  }
+}

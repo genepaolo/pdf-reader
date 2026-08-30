@@ -1,0 +1,23 @@
+{
+ "chapter": 140,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: a glaring golden sun — the Eternal Blazing Sun): the reckless divination chars Klein and cracks the palace, but yields Sun-pathway formulas and forbidden knowledge",
+   "text_anchor": "The origins of this drop of golden liquid."
+  },
+  {
+   "line_start": 141,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Back on the boulder outside Lamud Town: the Sacred Emblem intact, no Light of Purification incoming — an exhausted sigh of relief",
+   "text_anchor": "The crimson moonlight reflected in his eyes"
+  }
+ ]
+}

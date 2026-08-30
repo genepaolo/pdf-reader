@@ -1,0 +1,49 @@
+{
+ "chapter": 371,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 69,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Stuart"
+   ],
+   "setting": "Coffee by the fireplace: Stuart splits the Whites' fifty-pound bounty (thirty to Sherlock, plus one pound 'transportation'), talk of Desi Bay holidays stirs the promise made with Benson and Melissa — and the parting verdict of a first fan: 'Your talent deserves better coffee.'",
+   "text_anchor": "“Sherlock, how about thirty pounds?"
+  },
+  {
+   "line_start": 73,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "A leisurely rest of the day: ox bones and radish for evening soup, more Book of Secrets study — until the doorbell rings like a dinner bugle",
+   "text_anchor": "the tantalizing fragrance of the beef bone soup"
+  },
+  {
+   "line_start": 87,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White"
+   ],
+   "setting": "Emlyn at the door in Harvest Church robes ('That old man, that old man…'), demanding to see the patient before his good dinner; on the walk over: a medical certificate obtained 'too simply' and why a vampire loves Backlund's sunless gloom",
+   "text_anchor": "“Dammit, how do I get rid of this inducing suggestion?”"
+  },
+  {
+   "line_start": 133,
+   "line_end": 191,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Emlyn White",
+    "Doris",
+    "Jurgen Cooper"
+   ],
+   "setting": "The Jurgen house: 'Dr.' Emlyn White examines Mrs. Doris while Brody glares — the disease is irreversible, three to five years at best — but the free medicine lightens her breathing on the spot, and even stoic Jurgen almost smiles",
+   "text_anchor": "“I feel much better!”"
+  }
+ ]
+}

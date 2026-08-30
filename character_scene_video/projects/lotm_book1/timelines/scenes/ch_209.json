@@ -1,0 +1,23 @@
+{
+ "chapter": 209,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Leonard Mitchell", "Megose"],
+   "setting": "Light: Dunn tears out his own heart to feed Saint Selena's ashes, the last Flaring Sun Charm calls down a pillar of sun — 'We saved Tingen' — then a pale, bloody palm punches through Klein's chest",
+   "text_anchor": "The baby in Megose's stomach cried."
+  },
+  {
+   "line_start": 137,
+   "line_end": 155,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Leonard Mitchell", "[Mandated Punishers]"],
+   "setting": "The cemetery-silent ruin: Leonard wakes to two bodies with matching chest wounds, pounding the floor in grief as reinforcements finally arrive",
+   "text_anchor": "Burned and shattered objects were scattered around"
+  }
+ ]
+}

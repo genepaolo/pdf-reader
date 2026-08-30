@@ -1,0 +1,36 @@
+{
+ "chapter": 362,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Amon"
+   ],
+   "setting": "Above the fog (visions only: The Sun's prayer image with a monocled, python-coiled phantom riding his spirit): Amon is stowing away toward the gray fog itself — so Klein adapts the Book of Secrets' Blood Moon Sacrifice into a secret-deed ritual of the King of Yellow and Black, and tasks the unwitting Derrick with performing it",
+   "text_anchor": "By residing in the Spirit Body of The Sun, he is waiting for the next Tarot Gathering"
+  },
+  {
+   "line_start": 89,
+   "line_end": 107,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg"
+   ],
+   "setting": "In the City of Silver, Derrick bleeds himself for ink, paints The Fool's name and symbols on monster hide, and begins the chant — spirituality flowing into the crimson script",
+   "text_anchor": "he used his own blood as ink, and he wrote the name of The Fool"
+  },
+  {
+   "line_start": 111,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "The whole fog trembles as the secret deed connects: the python-phantom lifts its monocled head, hunting the hidden channel — and Klein's eyes stop on the Sun Brooch",
+   "text_anchor": "his gaze stopped at the Sun Brooch."
+  }
+ ]
+}

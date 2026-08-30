@@ -1,0 +1,50 @@
+{
+ "chapter": 106,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 61,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Benson", "Melissa"],
+   "setting": "Moretti family dining room over tomato oxtail soup: talk of restaurants, rice, and Klein's 'police consultant' cover story; Benson vows to study",
+   "text_anchor": "After eight in the evening, in the Moretti family's dining room."
+  },
+  {
+   "line_start": 65,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Frye", "Seeka Tron", "Royale Reideen", "Leonard Mitchell", "Kenley White"],
+   "setting": "Thursday routine meeting in the duty room outside Chanis Gate: Kenley reports on Sirius's hideout — Aurora Order, three formulas including Clown",
+   "text_anchor": "The next morning, Klein hung his coat and hat on the clothes rack"
+  },
+  {
+   "line_start": 103,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil", "Gawain"],
+   "setting": "Training montage: mysticism lessons with Old Neil, then strength and coordination drills with combat teacher Gawain",
+   "text_anchor": "After they were done exchanging their new information"
+  },
+  {
+   "line_start": 107,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Henry"],
+   "setting": "Henry's Private Detective Company on Besik Street: a masked Klein pays Detective Henry to find the red-chimney house and the Psychology Alchemists man",
+   "text_anchor": "With the sun still up and bright at five."
+  },
+  {
+   "line_start": 169,
+   "line_end": 173,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint", "[maidservant]"],
+   "setting": "Viscount Glaint's luxurious mansion: Audrey arrives at the salon; Glaint whispers that the Beyonder lady — an author — is already here",
+   "text_anchor": "In the afternoon, in Viscount Glaint's luxurious mansion."
+  }
+ ]
+}

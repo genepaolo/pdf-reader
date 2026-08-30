@@ -1,0 +1,36 @@
+{
+ "chapter": 422,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "A paper double left reading on the toilet while Klein divines above the fog (visions only: a brown-haired, brown-eyed stranger by a rose-filled glass greenhouse, two suitcases of notes and gold, and a full human skin he pulls on to become 'Jason'): the portrait everyone is hunting is a decade-old mask",
+   "text_anchor": "It was a slightly pale piece of human skin!"
+  },
+  {
+   "line_start": 81,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Isengard Stanton"
+   ],
+   "setting": "A coin says stay home, and Stanton arrives: two detectives' families died today — one of fright, one of excitement — pulling the Mandated Punishers and every High-Sequence Beyonder onto the case, which is exactly what Jason wants; his real target is someone else entirely",
+   "text_anchor": "“The Desire Apostle has appeared again.”"
+  },
+  {
+   "line_start": 133,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres"
+   ],
+   "setting": "Quelaag Club lobby: Dr. Aaron, busy and about to be a father again — his wife pregnant 'more than a month' — a number that stops Klein and makes him look into the doctor's eyes",
+   "text_anchor": "“More than a month?”"
+  }
+ ]
+}

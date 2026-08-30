@@ -1,0 +1,32 @@
+{
+ "chapter": 333,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 95,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint", "Fors Wall", "Xio Derecha", "[white-coated Beyonders]"],
+   "setting": "The corpse-pool gathering at the derelict medical school: ghost stories terrorize poor Glaint, a hooked corpse's slit abdomen speaks 'Let the gathering begin' — and Audrey's public bid for the Spectator formula finds no seller but many eyes",
+   "text_anchor": "“Let the gathering begin.”"
+  },
+  {
+   "line_start": 99,
+   "line_end": 161,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint", "Fors Wall", "Xio Derecha", "Susie", "[maids]"],
+   "setting": "Homeward with a tail: Xio senses the tracker; Audrey deduces it is the Psychology Alchemists vetting her, stages a natural noble's return through Glaint's mansion, and waits — nervous and hopeful — for their approach",
+   "text_anchor": "“It seems like someone is following us!”"
+  },
+  {
+   "line_start": 165,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Talim Dumont"],
+   "setting": "Klein's 'preparations': two ordinary days of club cards with Talim and cat-feeding duty — then Friday, eight o'clock, iron mask on, into Eye of Wisdom's activity room",
+   "text_anchor": "he put on his iron mask and wore his black-hooded robe"
+  }
+ ]
+}

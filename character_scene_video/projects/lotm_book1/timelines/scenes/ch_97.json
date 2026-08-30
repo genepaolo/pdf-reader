@@ -1,0 +1,32 @@
+{
+ "chapter": 97,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Leonard Mitchell", "Gawain"],
+   "setting": "The run-down house of the old knight Gawain: Leonard's elegy for the age of knights, and Klein's first brutal strength-training session",
+   "text_anchor": "At two in the afternoon, outside of a simple two-storied building"
+  },
+  {
+   "line_start": 75,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Royale Reideen", "Kenley", "Leonard Mitchell", "Seeka Tron", "Rozanne"],
+   "setting": "Old Will's Restaurant: the induction dinner — toasts, Miss Author Seeka Tron, and Klein's second steak after training-induced starvation",
+   "text_anchor": "Six in the evening, at a corner table of the Old Will Restaurant."
+  },
+  {
+   "line_start": 159,
+   "line_end": 167,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Melissa"],
+   "setting": "Next morning at home: sore muscles betray Klein's odd hobbling to a suspicious Melissa",
+   "text_anchor": "The next morning, Klein felt bloated."
+  }
+ ]
+}

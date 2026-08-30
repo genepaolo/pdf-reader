@@ -1,0 +1,32 @@
+{
+ "chapter": 112,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 61,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Susie"],
+   "setting": "Garden corner of the Hall residence, Empress Borough: Audrey weighs Fors's request about jailed Xio Derecha — then catches her golden retriever Susie talking",
+   "text_anchor": "Backlund, Empress Borough."
+  },
+  {
+   "line_start": 65,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Cohen Quentin", "Azik Eggers"],
+   "setting": "History department, Khoy University: after chatting with his mentor Cohen, Klein asks Mr. Azik for a private word",
+   "text_anchor": "Monday morning, Klein followed his plan to revise and consolidate"
+  },
+  {
+   "line_start": 79,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Azik Eggers"],
+   "setting": "Khoy River bank: Azik confides his lost memory and contradictory dreams of past lives — and says Klein carries a strange power like his own",
+   "text_anchor": "Along the way, they maintained their silence."
+  }
+ ]
+}

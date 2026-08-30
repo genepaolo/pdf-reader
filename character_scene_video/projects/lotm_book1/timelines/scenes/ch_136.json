@@ -1,0 +1,32 @@
+{
+ "chapter": 136,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[blond man]"],
+   "setting": "The doorstep interrogation: 'Scoundrel Gray' admits the painting is a forty-year-old copy of one his grandfather found in the collapsed castle wall",
+   "text_anchor": "This can't be right"
+  },
+  {
+   "line_start": 37,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Night streets of Lamud Town: Klein cycles through vampire, reincarnation and memory-loss-cycle theories about Mr. Azik and the thousand-year-old baron",
+   "text_anchor": "He put away his police identification and turned around"
+  },
+  {
+   "line_start": 79,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Inn room, then above the gray fog (visions only: Azik pulling Klein from a blood sea; the Jotun-praying young man of the People of the Dark): divination says keep Azik's secret; Klein touches the crimson star",
+   "text_anchor": "Klein made the decision and returned to the hotel quickly."
+  }
+ ]
+}

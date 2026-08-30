@@ -1,0 +1,51 @@
+{
+ "chapter": 449,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 67,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Escalante",
+    "Annie",
+    "Susie"
+   ],
+   "setting": "Audrey's art studio with Susie posted at the door: the Psychology Alchemists will sell both — 2,500 pounds for the Human-skinned Shadow characteristic, 3,000 for the Wind-blessed formula, cheaper if paid in mystical items — and yes, a successful deal counts as her contribution",
+   "text_anchor": "“2,500 pounds for the Human-skinned Shadow characteristic, and 3,000 pounds for the Wind-blessed potion formula.”"
+  },
+  {
+   "line_start": 71,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Alger Wilson"
+   ],
+   "setting": "The offer relayed above the fog; in the City of Generosity, Alger — whose piracy has never netted 2,000 pounds — offers up a golden primitive mask that grants calm, regeneration and curses, at the price of becoming less human each time it is worn",
+   "text_anchor": "“I’m willing to use this mystical item to barter for the Wind-blessed potion formula."
+  },
+  {
+   "line_start": 101,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "An inventory of everything he owns and why none of it can be sold — the All-Black Eye, the Dark Emperor card, two copper whistles, the Sun Brooch, the Master Key, the Poison Bottle — so The World simply accepts 2,500 pounds and asks two days to raise it",
+   "text_anchor": "“… I accept the price of 2,500 pounds, but give me two days to raise the money.”"
+  },
+  {
+   "line_start": 131,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Carlson",
+    "Ikanser Bernard"
+   ],
+   "setting": "The Backlund Institute for Mechanical Research: the spoils laid out, Human-skinned Shadow characteristic included — and Klein refuses all of it in favor of cash, both to hide his Sequence and to allay suspicion. Ikanser, visibly relieved, raises the offer to 2,000 pounds",
+   "text_anchor": "“There’s nothing I want."
+  }
+ ]
+}

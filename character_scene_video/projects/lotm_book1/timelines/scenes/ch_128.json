@@ -1,0 +1,41 @@
+{
+ "chapter": 128,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 5,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": [],
+   "setting": "Shooting Club after lunch: revolver practice that has finally earned Dunn's basic approval",
+   "text_anchor": "After eating lunch, Klein only rested for half an hour"
+  },
+  {
+   "line_start": 7,
+   "line_end": 59,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Gawain"],
+   "setting": "Gawain's training field: Klein's special-forces pitch about combat plus guns shakes the stern old teacher — who answers with ten more sets, then covers his face",
+   "text_anchor": "After practicing for a while, he put away his revolver"
+  },
+  {
+   "line_start": 63,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[guard]", "[elderly vendor]"],
+   "setting": "Evil Dragon Bar underground market at dusk: Ademisaul is missing and raving of corpses; Beyonder ingredient prices crush 'the poorest boss among secret organizations'",
+   "text_anchor": "After nearly puking from exhaustion, Klein took a shower"
+  },
+  {
+   "line_start": 129,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil", "Swain"],
+   "setting": "Market exit: Old Neil arrives — then Swain, reeking of alcohol, asks their help: a Mandated Punisher has lost control nearby",
+   "text_anchor": "Just then, he saw Old Neil in his classic black robe entering slowly."
+  }
+ ]
+}

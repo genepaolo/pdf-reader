@@ -1,0 +1,23 @@
+{
+ "chapter": 355,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 141,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick Berg", "[Dawn Paladin guards]", "[old prisoner's voice]"],
+   "setting": "The spire's quarantine cells: a neighbor is purged mid-scream; through the far wall a forty-two-year prisoner — an old exploration captain — recounts finding the first outsider in 2000 years, whose escort ended in every teammate losing control. His name: 'Amon.'",
+   "text_anchor": "“He told us that his name was…” … “Amon.”"
+  },
+  {
+   "line_start": 145,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Mike Joseph", "Kohler"],
+   "setting": "Two more days of East Borough: ten to a bedroom, floor-space sold in day and night shifts, filth without sewers — Mike's manuscript grows heavier and the reporter grows quieter",
+   "text_anchor": "“… Squalid, crowded, smelly—that's the most objective impression."
+  }
+ ]
+}

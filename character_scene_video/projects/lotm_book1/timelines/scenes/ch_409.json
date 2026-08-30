@@ -1,0 +1,48 @@
+{
+ "chapter": 409,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 15,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Talim Dumont"
+   ],
+   "setting": "Still at the club: hired to investigate himself, with five pounds up front and expenses promised — a commission too generous to refuse without suspicion, and a use for it forms at once: point the important figure at Mr. A and the Aurora Order",
+   "text_anchor": "Getting me to investigate myself again?"
+  },
+  {
+   "line_start": 19,
+   "line_end": 47,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Soest",
+    "Leonard Mitchell"
+   ],
+   "setting": "Under Saint Samuel Cathedral: Leonard lays out how he would hunt the tarot organization — reverse-search The Fool's seekers, re-list everyone from both cases, sift them with Nightmare powers — and Soest explains why it stays low priority: so far the tarot group has only helped them",
+   "text_anchor": "“Perhaps they can help us discover even more unsavory matters."
+  },
+  {
+   "line_start": 51,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Half a month to the new year, a month of quiet digestion summarized: Leppard's patent granted and Framis Cage circling as investor; the Werewolf characteristic still unsold; Audrey nearly inside the Psychology Alchemists; Fors buying Deep Sea Marlin blood and writing furiously; Derrick lying low while Lovia stays locked beneath the spire",
+   "text_anchor": "In the blink of an eye, there was only half a month left until the new year."
+  },
+  {
+   "line_start": 97,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Doris"
+   ],
+   "setting": "Two steps back before the doorbell is answered — Mrs. Doris still healthier than she's been in ten years, telling him so for the ninth time, while Brody balances on the coat rack; today Klein needs the lawyer of the house",
+   "text_anchor": "“Mrs. Doris, you’ve already told me this for the ninth time.”"
+  }
+ ]
+}

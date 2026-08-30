@@ -1,0 +1,32 @@
+{
+ "chapter": 107,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 87,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint", "Annie", "Fors Wall"],
+   "setting": "Glaint's salon: Audrey reads author Fors Wall's tells at first meeting, endures the socializing, then slips away with Annie guarding the study door",
+   "text_anchor": "\"Author?\" Audrey asked casually as she observed Glaint's reaction."
+  },
+  {
+   "line_start": 89,
+   "line_end": 139,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Audrey Hall", "Glaint", "Fors Wall"],
+   "setting": "Locked study: Fors proves herself by walking through the door, then asks them to free her jailed partner in exchange for a potion formula and materials",
+   "text_anchor": "Audrey entered the study and locked the door."
+  },
+  {
+   "line_start": 143,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "Saturday guard duty outside Chanis Gate: Dunn leaves coffee and a chilling warning — never open the gate no matter what you hear",
+   "text_anchor": "After handing out the mission, Klein followed his original schedule"
+  }
+ ]
+}

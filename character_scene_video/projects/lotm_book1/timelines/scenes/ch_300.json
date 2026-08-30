@@ -1,0 +1,32 @@
+{
+ "chapter": 300,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Adol"],
+   "setting": "The washroom debrief: awakened Adol remembers nothing since the last 'Spirit Dance' — his death-worshipping society digs up corpses for resurrection rituals outside Grimm Cemetery, Fridays at three a.m.; he wants nothing more to do with it",
+   "text_anchor": "“They conduct a resurrection ritual outside Grimm Cemetery every Friday at three in the morning.”"
+  },
+  {
+   "line_start": 101,
+   "line_end": 125,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Stuart"],
+   "setting": "A 'cigarette break' on the balcony: the first Paper Figurine Substitute unfolds into a smoking wax-faced Klein, and the real Magician slips down past the patrolling guards",
+   "text_anchor": "Klein violently shook his wrist, causing the paper to make a crisp sound."
+  },
+  {
+   "line_start": 129,
+   "line_end": 173,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[bald tattooed man in black robes]", "[dancing youths]"],
+   "setting": "Treetop view of the Grimm Cemetery clearing: eight robed youths whirl a Spirit Dance around a corpse while the tattooed Numinous Episcopate leader proclaims Death's return — and hurls a furious black cat over the body",
+   "text_anchor": "“Death! “Honorable Death! “Is about to return!”"
+  }
+ ]
+}

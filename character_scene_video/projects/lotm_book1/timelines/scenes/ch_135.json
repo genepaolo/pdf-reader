@@ -1,0 +1,41 @@
+{
+ "chapter": 135,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Frye"],
+   "setting": "Castle hall: a corrupted presence under the stairs — divination clears the investigation and Dunn springs the hidden trapdoor, tossing 3-0782 down first",
+   "text_anchor": "There's some sort of problem there"
+  },
+  {
+   "line_start": 53,
+   "line_end": 113,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith"],
+   "setting": "The hidden basement: a nailed black coffin holds a headless poisoned skeleton — someone recently opened it and took the head, unleashing the wraith",
+   "text_anchor": "Dunn went down first, his footsteps reverberating in the silence."
+  },
+  {
+   "line_start": 115,
+   "line_end": 125,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Dunn Smith", "Frye"],
+   "setting": "Back up and into Lamud Town at dusk: Frye dates the neck cuts within three months; the trio splits up to question longtime residents",
+   "text_anchor": "Fifteen minutes later, as the sun was vanishing below the horizon"
+  },
+  {
+   "line_start": 129,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["[blond man]"],
+   "setting": "A townsman's doorstep: the fourteenth interview produces an oil painting of the first Baron Lamud — who looks exactly like Mr. Azik, mole and all",
+   "text_anchor": "Officer, why are you asking this?"
+  }
+ ]
+}

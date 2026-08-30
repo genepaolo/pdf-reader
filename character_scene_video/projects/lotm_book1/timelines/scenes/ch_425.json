@@ -1,0 +1,47 @@
+{
+ "chapter": 425,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 75,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Pallas Negan",
+    "[Negan's mistress]",
+    "[Wind-blessed guard]",
+    "[Negan's secretary]",
+    "[Desire Apostle]"
+   ],
+   "setting": "Pleasure turned weapon: the Duke's heart nearly bursts, the Wind-blessed smashes through a wall, and the blond secretary seals the attic — chaos-scattered fireballs, a split silhouette, and the Devil's 'Die!' half-reflected back so both cough clots of rusted blood",
+   "text_anchor": "This was a devil walking the earth!"
+  },
+  {
+   "line_start": 79,
+   "line_end": 177,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Pallas Negan",
+    "[Wind-blessed guard]",
+    "[Negan's mistress]",
+    "[duke's guards]",
+    "[Desire Apostle]"
+   ],
+   "setting": "The conch is blown and no Archbishop comes; the mistress smiles, jumps and cracks her skull on the concrete — and the Duke's own terror kills him where he lies while panicking guards shoot wildly and die on the Wind-blessed's blades. The roses in the greenhouse are still in full bloom",
+   "text_anchor": "He was robbed of his life by his own horror."
+  },
+  {
+   "line_start": 179,
+   "line_end": 189,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "[Negan's secretary]",
+    "[Desire Apostle]"
+   ],
+   "setting": "The secretary's grief opens his own seal; by the time he turns back, Devil and suitcase are gone — and along his prepared escape route the Desire Apostle finds a thick sea of blood rising before his eyes",
+   "text_anchor": "a thick sea of blood seemed to appear before his eyes"
+  }
+ ]
+}

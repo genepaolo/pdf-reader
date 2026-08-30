@@ -1,0 +1,32 @@
+{
+ "chapter": 68,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil", "[brawny doorman]"],
+   "setting": "Dusk outside the Evil Dragon Bar: armed guards on the rooftops after wanted man Tris shot his way out of the market",
+   "text_anchor": "At dusk, the setting sun cast long shadows"
+  },
+  {
+   "line_start": 65,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil", "Ademisaul"],
+   "setting": "Through the boxing-ring bar into the underground market: the 'monster' Ademisaul smells death on Klein and bleeds from his eyes",
+   "text_anchor": "Klein followed closely in tow and walked in."
+  },
+  {
+   "line_start": 145,
+   "line_end": 162,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Old Neil", "[stall inquirer]"],
+   "setting": "Browsing the market stalls: Old Neil goes to settle his bill while Klein overhears someone asking after Spectator potion ingredients",
+   "text_anchor": "He reorganized his thoughts and followed behind Old Neil."
+  }
+ ]
+}

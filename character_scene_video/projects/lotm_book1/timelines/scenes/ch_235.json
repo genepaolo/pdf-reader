@@ -1,0 +1,59 @@
+{
+ "chapter": 235,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 15,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Monday morning: Klein leaves the Ian-information bait note in place for both the ambassador's people and the military watchers, and heads out into the choking smog for a breakfast appointment",
+   "text_anchor": "He pretended that nothing had happened and turned the page so that it faced him."
+  },
+  {
+   "line_start": 17,
+   "line_end": 75,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Doris", "Jurgen Cooper"],
+   "setting": "58 Minsk Street: Brody the cat opens the door itself; Jurgen delivers the finished investment contract for two pounds, and Mrs. Doris's bean turnip soup turns out surprisingly delicious",
+   "text_anchor": "Brody the black cat walked straight to the door."
+  },
+  {
+   "line_start": 77,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Leppard"],
+   "setting": "Sird Street: the formal agreement signed and Leppard's first fifty pounds paid — 21 pounds 8 soli left in Klein's pocket",
+   "text_anchor": "he made a formal agreement and paid Leppard the first fifty pound"
+  },
+  {
+   "line_start": 81,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Cherwood public library: a year of Tussock Times confirms the dream-divination face — Intis ambassador Bakerland Jean Madan",
+   "text_anchor": "he returned to Cherwood Borough and went to the public library"
+  },
+  {
+   "line_start": 89,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog (visions only: the iron-black threadworm that flipped the bait note, on Ambassador Bakerland's orders): pre-gathering divinations, then Justice, The Hanged Man and The Sun are pulled in on the stroke of three",
+   "text_anchor": "He first divined if the military's special department had relaxed their surveillance"
+  },
+  {
+   "line_start": 121,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick"],
+   "setting": "Tarot Club: the newly advanced 'Miss Telepathist' is welcomed; Alger hands over this week's six diary pages and reports that the Secret Order has some connection with the Intis Republic",
+   "text_anchor": "“Good afternoon, Mr. Fool~ Good afternoon, Mr. Hanged Man! Good afternoon, Mr. Sun!”"
+  }
+ ]
+}

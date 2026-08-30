@@ -1,0 +1,48 @@
+{
+ "chapter": 391,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 57,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "setting": "The answer, given privately to a sense-isolated Hanged Man: the card turns to show black-armored Roselle and 'Sequence 0, Dark Emperor' — a Card of Blasphemy; Alger glimpses a Tarot Club that could become the most powerful secret organization, Audrey savors his shock, and Fors learns Roselle's diaries buy answers (and that Susie ate hers)",
+   "text_anchor": "“A Card of Blasphemy.”"
+  },
+  {
+   "line_start": 59,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Roselle Gustav",
+    "Edwards",
+    "Grimm"
+   ],
+   "setting": "Reading the three pages: the young Emperor finds the Solomon ghost ship Dark King and a treasure map, sails with Edwards and Grimm to prove the world is a planet, reads of the Western Continent and the elves' homeland — then '21st April. I saw the abyss.' — and the third page is a forger's gibberish",
+   "text_anchor": "“21st April. I saw the abyss.”"
+  },
+  {
+   "line_start": 123,
+   "line_end": 125,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "setting": "'You can begin.' — and the Hanged Man turns at once on The Sun: what came of the exploration team's former captain?",
+   "text_anchor": "“You can begin.”"
+  }
+ ]
+}

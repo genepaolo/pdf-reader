@@ -1,0 +1,41 @@
+{
+ "chapter": 413,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 21,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[police officer]"
+   ],
+   "setting": "Rice Police Station: the blood letters handed in and Stanton's attack pressed on the officer, in hopes the case is kicked up to the Mandated Punishers or Machinery Hivemind — official protection being safer than fleeing into the night as the sender surely wants",
+   "text_anchor": "“Please take it seriously.”"
+  },
+  {
+   "line_start": 23,
+   "line_end": 73,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Stuart"
+   ],
+   "setting": "Stuart waiting in the drizzle outside Unit 15, shaken by his own 'All of you will die!' letter and by news of Stanton; a bathroom divination confirms it really is him — and that tonight holds considerable danger",
+   "text_anchor": "“Mr. Moriarty, I received a threatening letter."
+  },
+  {
+   "line_start": 75,
+   "line_end": 173,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Stuart",
+    "Kaslana",
+    "Lydia",
+    "[private detectives]"
+   ],
+   "setting": "Half of Stanton's old detective team crowds into the living room, all letter-struck; Klein reads the Devil's game — scatter the officials, wait for the gap — and talks the room down, until the panicking Stuart draws his revolver and levels it at the back of Klein's head",
+   "text_anchor": "Stuart suddenly drew his gun and aimed it at the back of Klein’s head!"
+  }
+ ]
+}

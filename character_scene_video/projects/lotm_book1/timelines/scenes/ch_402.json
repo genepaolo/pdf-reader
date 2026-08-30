@@ -1,0 +1,51 @@
+{
+ "chapter": 402,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 57,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres"
+   ],
+   "setting": "The doorbell brings Aaron again: a new dream — a peeled birch outside Grimm Cemetery with Will Auceptin sitting quietly beneath it — even though the real paper crane is above the fog; one pound to escort him there, and a bathroom divination says almost no risk",
+   "text_anchor": "“I dreamed about the Grimm Cemetery."
+  },
+  {
+   "line_start": 61,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres"
+   ],
+   "setting": "Myriad Star Cathedral: a made-up cautionary tale about a detective's murdered servants explains away the lack of maids; Aaron goes to his confessional while Klein sits in the dark hall of pearls and rubies, oddly tranquil — only his third time inside the Goddess's cathedral",
+   "text_anchor": "Come to think of it, this is only my third time entering the Goddess’s cathedral…"
+  },
+  {
+   "line_start": 97,
+   "line_end": 115,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Leonard Mitchell",
+    "Crestet Cesimir"
+   ],
+   "setting": "Cathedral of Serenity: officially a Red Glove, Leonard is placed in Soul Assurer Soest's team and handed a devil-summoning case with instructions to weigh Backlund's consecutive incidents and the tarot ritual. 'This will be the beginning of my revenge…'",
+   "text_anchor": "“This will be the beginning of my revenge…”"
+  },
+  {
+   "line_start": 119,
+   "line_end": 167,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Aaron Ceres",
+    "[tomb keeper]"
+   ],
+   "setting": "The woods by Grimm Cemetery: the dreamed birch is found, the ground beneath it dug with borrowed shovels — and out of the soil comes a rotted child's body missing the lower half of its left leg. 'Will Auceptin! Will Auceptin!'",
+   "text_anchor": "It was Will Auceptin’s corpse!"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "chapter": 354,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 177,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Mike Joseph", "Kohler", "[watch craftsman]", "[laundry girls]"],
+   "setting": "The East Borough 'adventure': six-year-old thieves, gang territories mapped by Old Kohler, tool-sharing watch craftsmen packed in one apartment, and laundry girls too busy surviving to be interviewed — 1.35 million people in the jungle",
+   "text_anchor": "“This place is closer to the jungle than to human society."
+  },
+  {
+   "line_start": 181,
+   "line_end": 193,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Derrick Berg"],
+   "setting": "City of Silver: 'losing control' Derrick is escorted to the spire's underground quarantine — where a shrill 'Help!' rings from a sealed room and cuts to silence",
+   "text_anchor": "“Help!” A sharp shrill voice suddenly sounded from a sealed room."
+  }
+ ]
+}

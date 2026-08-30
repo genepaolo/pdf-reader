@@ -1,0 +1,23 @@
+{
+ "chapter": 218,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 41,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav", "Edwards", "Grimm", "Zaratul"],
+   "setting": "Diary-reading interlude, final pages: Edwards counsels against courting the Eternal Blazing Sun, Grimm lies dead in the Sea of Fog, and Zaratul of the Secret Order pays Roselle a sudden incognito visit on the eve of the coup",
+   "text_anchor": "\"June 3rd. After discussing with Edwards and the others"
+  },
+  {
+   "line_start": 43,
+   "line_end": 119,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derek"],
+   "setting": "Tarot Club, reading over: The Fool dispenses free general knowledge — the Laws of Beyonder Characteristics Indestructibility and Similar-Sequence Conservation — and Audrey glimpses how dark the mystical world runs; explanations, of course, cost extra",
+   "text_anchor": "Putting down the six diary pages, Klein tapped his right index finger on the edge of the long bronze table"
+  }
+ ]
+}

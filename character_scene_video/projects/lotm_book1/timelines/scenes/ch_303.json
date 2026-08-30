@@ -1,0 +1,23 @@
+{
+ "chapter": 303,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Kapusky Reid"],
+   "setting": "Aulka Street: a hazy-faced intruder interrogates the pigeon-chested teacher — not Numinous Episcopate, not even a Beyonder, just a noob taught the Dance of Death by a dying vagabond who left a copper whistle that summons a three-eyed skull messenger Kapusky can't even see",
+   "text_anchor": "“He was a vagabond. He fainted in front of my house because of a serious illness."
+  },
+  {
+   "line_start": 135,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Kapusky Reid"],
+   "setting": "The withered back garden: Kapusky exhumes his teacher's grave — no corpse, no bones, only white feathers dyed in yellow oil",
+   "text_anchor": "The bottom layer was littered with white feathers, dyed in yellow oil!"
+  }
+ ]
+}

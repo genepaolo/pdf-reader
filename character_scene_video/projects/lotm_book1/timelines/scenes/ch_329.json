@@ -1,0 +1,32 @@
+{
+ "chapter": 329,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["[bartender]", "[gang member with protruding mouth]"],
+   "setting": "Bravehearts Bar under new management: Kaspars driven out by a gang Klein suspects is a Rose School trap — and the usurper boss is found hanging in billiard room 3 with a dead-knotted rope",
+   "text_anchor": "“Boss is dead!”"
+  },
+  {
+   "line_start": 91,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Behind the bar, a human slaughterhouse: scattered limbs, intestines on the wall, deep claw gouges — werewolf work; the trap-layers took their pound of flesh, confirming Sharron and Maric as Rose School defectors",
+   "text_anchor": "It was like a thick and sharp claw that forcefully scratched out a mark!"
+  },
+  {
+   "line_start": 137,
+   "line_end": 171,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": ["Maric", "Sharron"],
+   "setting": "A brown carriage halts before him: Maric and Sharron inside; asked for deep mysticism texts (Shaman King Klarman's Book of Secrets among them), Sharron names her price in two words — 'Help. We'll use your help as barter.'",
+   "text_anchor": "“We'll use your help as barter.”"
+  }
+ ]
+}

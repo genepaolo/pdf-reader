@@ -1,0 +1,41 @@
+{
+ "chapter": 439,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Edessak Augustus",
+    "[old butler]"
+   ],
+   "setting": "Walking the winter golf course: the prince talks of Roselle, of finally knowing what he truly wants (not Earl Hall's daughter), and hires Klein outright — Talim's hair and effects to be delivered, a rented house at 13 Minsk Street for messages, and a retirement-sized reward for the truth",
+   "text_anchor": "“I’ll give you a reward sufficient for your retirement.”"
+  },
+  {
+   "line_start": 75,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [],
+   "setting": "Watching the royal carriage leave from his oriel window: Sherlock Moriarty may not survive a deep investigation, so the Amon tomb is too slow to wait for — the Human-skinned Shadow must be bought another way, and quickly",
+   "text_anchor": "he was extremely eager to advance to Faceless"
+  },
+  {
+   "line_start": 87,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Fors Wall",
+    "Derrick Berg",
+    "[The World]"
+   ],
+   "setting": "The gathering opens with Audrey's cheerful greeting and her practiced reading of the table; three new pages of Roselle's diary — a copy from the Psychology Alchemists — are offered as payment for the answer already given, to the Hanged Man's visible suspicion",
+   "text_anchor": "“Good afternoon, Mr. Fool~"
+  }
+ ]
+}

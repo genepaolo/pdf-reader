@@ -1,0 +1,57 @@
+{
+ "chapter": 424,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 39,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "Ikanser Bernard",
+    "[Machinery Hivemind members]"
+   ],
+   "setting": "Klein's suggestion sends Ikanser off to ask the mirror about the Desire Apostle rather than about Jason — and Klein deliberately keeps himself out of the endgame, regretting the suitcase of gold he won't see but refusing to perform unprepared",
+   "text_anchor": "A Magician never performs unprepared!"
+  },
+  {
+   "line_start": 43,
+   "line_end": 117,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Leonard Mitchell",
+    "Soest",
+    "Ikanser Bernard",
+    "Isengard Stanton"
+   ],
+   "setting": "Armored in 1-42, Leonard asks Arrodes the right question: the Desire Apostle is in Backlund, in a villa with a rose greenhouse. The mirror's counter-question begins 'On your body, is there something attached…' — until his parasite warps the words in green and saves him",
+   "text_anchor": "“This is completely different from the answer when we asked about Jason Beria! We’ve been tricked!”"
+  },
+  {
+   "line_start": 121,
+   "line_end": 147,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "[woman under Jason's skin]"
+   ],
+   "setting": "On the riverboat, 'Patrick Jason Beria' peels off his skin and is a beautiful woman in her thirties; the skin is knotted around a stone figurine and dropped into the river, and she watches from a fresh cabin as the Cardinal's wind tears past",
+   "text_anchor": "Under the human skin was a beautiful woman in her early thirties"
+  },
+  {
+   "line_start": 151,
+   "line_end": 185,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Pallas Negan",
+    "[Wind-blessed guard]",
+    "[Negan's secretary]",
+    "[Negan's mistress]",
+    "[Desire Apostle]"
+   ],
+   "setting": "The rose-greenhouse villa near the Holy Wind Cathedral: the Duke carried into a swept and guarded bedroom — while in the attic the real Desire Apostle savors his desire, one suitcase lighter, murmuring that nobody imagined 'Patrick Jason Beria' was two people, and clenches his fist as though gripping a heart",
+   "text_anchor": "“It’s almost time… Right now!”"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "chapter": 145,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 39,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Roselle Gustav"],
+   "setting": "Diary-reading interlude continues: the Sequence-substitution secret sinks in, then the April pages — Roselle saw the second Blasphemy Slate and vows to create his own set",
+   "text_anchor": "Some pathways are interchangeable after Sequence 5?"
+  },
+  {
+   "line_start": 41,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick"],
+   "setting": "Tarot gathering resumes: Mr. A likely an Aurora Order Oracle; Alger asks help finding pirate admiral Qilangos in Backlund",
+   "text_anchor": "But he quickly reined in his thoughts."
+  }
+ ]
+}

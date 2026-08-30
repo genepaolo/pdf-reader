@@ -1,0 +1,32 @@
+{
+ "chapter": 87,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Elizabeth"],
+   "setting": "The upstairs corridor: Klein learns Hanass Vincent taught Selena, extracts a secrecy pact, and coin-flip divines that she is safe",
+   "text_anchor": "Has it really been resolved? Elizabeth asked in disbelief."
+  },
+  {
+   "line_start": 89,
+   "line_end": 125,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": ["Elizabeth", "Selena"],
+   "setting": "Selena's bedroom: Elizabeth's half-truth cover story, and the recovered incantation — 'the grace of the True Creator'",
+   "text_anchor": "Elizabeth was staring at Klein's back"
+  },
+  {
+   "line_start": 129,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein (Beginning)",
+   "other_characters": ["Chris", "Benson", "Melissa", "Elizabeth"],
+   "setting": "Back at the poker table: small wins, Benson's negotiation theory, and a detour planned to Zouteland Street",
+   "text_anchor": "Klein smoothed the creases and patted the dust"
+  }
+ ]
+}
