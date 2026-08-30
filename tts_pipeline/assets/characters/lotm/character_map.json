@@ -1,95 +1,499 @@
 {
-  "_status": "DRAFT — 35 characters have official portraits (wiki-wide scrape; see _manifest.json). Klein persona rules per DESIGN.md §3. Some anchors null (pin during Scene Timeline). Most non-Klein 'aliases' empty and to be verified; do not assume canon.",
-  "image_dir": "tts_pipeline/assets/characters/lotm",
-
-  "_adding_images": {
-    "_note": "This roster is OPEN — add a portrait for ANY character/name (even minor ones) whenever an image is found. The per-batch Scene Timeline tracks every named character present and lists which ones lack a portrait (see DESIGN.md §10).",
-    "how_to_add": [
-      "1. Put the image file in image_dir (prefer a tall, full-body or bust portrait on a clean/transparent background so it composes in a multi-character row).",
-      "2. Add an entry under 'characters': \"<Canonical Name>\": { \"image\": \"<file>\", \"aliases\": [\"...\"] }.",
-      "3. Re-run the affected batch's timeline; the character now resolves to that image.",
-      "Viability: landscape banners / very low-res images are flagged 'row_viable=false' in _manifest.json and are skipped in group (row) scenes."
-    ]
+ "_status": "DRAFT — 35 characters have official portraits (wiki-wide scrape; see _manifest.json). Klein persona rules per DESIGN.md §3. Some anchors null (pin during Scene Timeline). Most non-Klein 'aliases' empty and to be verified; do not assume canon.",
+ "image_dir": "tts_pipeline/assets/characters/lotm",
+ "_adding_images": {
+  "_note": "This roster is OPEN — add a portrait for ANY character/name (even minor ones) whenever an image is found. The per-batch Scene Timeline tracks every named character present and lists which ones lack a portrait (see DESIGN.md §10).",
+  "how_to_add": [
+   "1. Put the image file in image_dir (prefer a tall, full-body or bust portrait on a clean/transparent background so it composes in a multi-character row).",
+   "2. Add an entry under 'characters': \"<Canonical Name>\": { \"image\": \"<file>\", \"aliases\": [\"...\"] }.",
+   "3. Re-run the affected batch's timeline; the character now resolves to that image.",
+   "Viability: landscape banners / very low-res images are flagged 'row_viable=false' in _manifest.json and are skipped in group (row) scenes."
+  ]
+ },
+ "protagonist": {
+  "_note": "All portraits below depict the protagonist (Klein). Per-scene resolution order: (1) if the scene is a Tarot Club context -> context_override.tarot_club; (2) if the text uses an explicit alias -> alias_to_image; (3) otherwise the base_persona_timeline by chapter; (4) 'The World' identity uses the_world_identity rules.",
+  "base_persona_timeline": [
+   {
+    "order": 0,
+    "trigger": "very beginning, until the name 'Klein' is first mentioned",
+    "image": "Zhou Mingrui.jpg",
+    "anchor_chapter": 1,
+    "anchor_within_chapter": "ch 1 lines 3-92 (before the name 'Klein' appears)",
+    "_verified": "ch1 line 93 is first 'Klein Moretti' mention"
+   },
+   {
+    "order": 1,
+    "trigger": "the name 'Klein' is first mentioned (within ch 1)",
+    "image": "Klein Moretti (Beginning of the Series).jpg",
+    "anchor_chapter": 1,
+    "anchor_within_chapter": "from ch 1 line 93: 'Klein Moretti, a citizen of the Northern Continent's Loen Kingdom...'",
+    "_verified": true
+   },
+   {
+    "order": 2,
+    "trigger": "joins the Nighthawks",
+    "image": "Klein Moretti.jpg",
+    "anchor_chapter": null,
+    "_candidate": "ch 16 line 91 is Klein still only *contemplating* joining; actual induction not yet pinned (needs context read ~ch 13-20)"
+   },
+   {
+    "order": 3,
+    "trigger": "moves city / becomes Sherlock Moriarty",
+    "image": "Sherlock Moriarty.jpg",
+    "anchor_chapter": 215,
+    "_verified": "ch215 (Mrs. Sammer) line 79: 'Sherlock Moriarty. You can call me Sherlock.' Klein had long thought of a fake name."
+   }
+  ],
+  "context_override": {
+   "tarot_club": "The Fool.jpg",
+   "_note": "Any scene framed in the Tarot Club / above the gray fog -> The Fool, regardless of base persona.",
+   "_candidate_first_tarot_club": "ch 7"
   },
-
-  "protagonist": {
-    "_note": "All portraits below depict the protagonist (Klein). Per-scene resolution order: (1) if the scene is a Tarot Club context -> context_override.tarot_club; (2) if the text uses an explicit alias -> alias_to_image; (3) otherwise the base_persona_timeline by chapter; (4) 'The World' identity uses the_world_identity rules.",
-
-    "base_persona_timeline": [
-      { "order": 0, "trigger": "very beginning, until the name 'Klein' is first mentioned", "image": "Zhou Mingrui.jpg", "anchor_chapter": 1, "anchor_within_chapter": "ch 1 lines 3-92 (before the name 'Klein' appears)", "_verified": "ch1 line 93 is first 'Klein Moretti' mention" },
-      { "order": 1, "trigger": "the name 'Klein' is first mentioned (within ch 1)", "image": "Klein Moretti (Beginning of the Series).jpg", "anchor_chapter": 1, "anchor_within_chapter": "from ch 1 line 93: 'Klein Moretti, a citizen of the Northern Continent's Loen Kingdom...'", "_verified": true },
-      { "order": 2, "trigger": "joins the Nighthawks", "image": "Klein Moretti.jpg", "anchor_chapter": null, "_candidate": "ch 16 line 91 is Klein still only *contemplating* joining; actual induction not yet pinned (needs context read ~ch 13-20)" },
-      { "order": 3, "trigger": "moves city / becomes Sherlock Moriarty", "image": "Sherlock Moriarty.jpg", "anchor_chapter": 215, "_verified": "ch215 (Mrs. Sammer) line 79: 'Sherlock Moriarty. You can call me Sherlock.' Klein had long thought of a fake name." }
-    ],
-
-    "context_override": {
-      "tarot_club": "The Fool.jpg",
-      "_note": "Any scene framed in the Tarot Club / above the gray fog -> The Fool, regardless of base persona.",
-      "_candidate_first_tarot_club": "ch 7"
-    },
-
-    "alias_to_image": {
-      "The Fool": "The Fool.jpg",
-      "Sherlock Moriarty": "Sherlock Moriarty.jpg",
-      "Gehrman Sparrow": "Gehrman Sparrow.jpg",
-      "Dwayne Dantès": "Dwayne Dantès.jpg",
-      "Merlin Hermes": "Merlin Hermes.jpg"
-    },
-
-    "the_world_identity": {
-      "_note": "'The World' is an alternate identity of Klein introduced ~middle of Volume 2. Not keyword-findable; pin by context read.",
-      "image_before_gehrman_created": "Sherlock Moriarty.jpg",
-      "image_after_gehrman_created": "Gehrman Sparrow.jpg",
-      "introduced_anchor_chapter": null,
-      "gehrman_created_anchor_chapter": 483,
-      "_verified_gehrman_created": "ch483 (New Identity) line 47: '...In accordance with Klein's wishes, his name was Gehrman Sparrow.'",
-      "_introduced_note": "The World's introduction mid-Vol 2 still needs a context read to pin."
-    }
+  "alias_to_image": {
+   "The Fool": "The Fool.jpg",
+   "Sherlock Moriarty": "Sherlock Moriarty.jpg",
+   "Gehrman Sparrow": "Gehrman Sparrow.jpg",
+   "Dwayne Dantès": "Dwayne Dantès.jpg",
+   "Merlin Hermes": "Merlin Hermes.jpg"
   },
-
-  "characters": {
-    "Amon": { "image": "Amon.jpg", "aliases": [], "_note": "distinct entity, NOT Klein" },
-    "True Creator": { "image": "True Creator.jpg", "aliases": [], "_note": "distinct entity, NOT Klein" },
-    "Alger Wilson": { "image": "Alger Wilson.jpg", "aliases": ["The Hanged Man"], "_note": "Tarot Club; clean Official.jpg was gallery-only (not in category). Tarot seat alias to verify." },
-    "Audrey Hall": { "image": "Audrey Hall.jpg", "aliases": ["Justice"], "_note": "Tarot Club; clean Official.jpg was gallery-only (not in category). Tarot seat alias to verify." },
-    "Daly Simone": { "image": "Daly Simone.jpg", "aliases": [] },
-    "Roselle Gustav": { "image": "Roselle Gustav.jpg", "aliases": ["Emperor Roselle", "Roselle"], "_note": "historical transmigrator/Emperor; aliases to verify" },
-    "Benson Moretti": { "image": "Benson Moretti.jpg", "aliases": [], "_note": "Klein's older brother; donghua EP2 still (no Official.jpg). 588x765." },
-    "Bernadette Gustav": { "image": "Bernadette Gustav.jpg", "aliases": [] },
-    "Melissa Moretti": { "image": "Melissa Moretti.jpg", "aliases": [], "_note": "Klein's younger sister; donghua still (no Official.jpg). 485x700." },
-    "Old Neil": { "image": "Old Neil.jpg", "aliases": [], "_note": "Church archivist who shows Klein Roselle's notes; wiki character file (no Official.jpg). 2841x4223." },
-    "Rozanne": { "image": "Rozanne.png", "aliases": [], "_note": "Rozanne Adelaide, Blackthorn Security; donghua EP2 still (no Official.jpg). 695x815 PNG." },
-    "Angelica Barrehart": { "image": "Angelica Barrehart.jpg", "aliases": [], "_note": "Divination Club; donghua EP4 still (cropped, no Official.jpg)." },
-    "Frye": { "image": "Frye.jpg", "aliases": ["Corpse Collector Frye"], "_note": "Nighthawk; donghua EP3 still (cropped, no Official.jpg)." },
-    "Glacis": { "image": "Glacis.jpg", "aliases": [], "_note": "Divination Club seer; donghua EP4 still (cropped, no Official.jpg)." },
-    "Annie": { "image": "Annie.png", "aliases": [], "_note": "Audrey Hall's maidservant; wiki file Annie2.png (no Official.jpg)." },
-    "Earl Hall": { "image": "Earl Hall.png", "aliases": ["Count Hall"], "_note": "Audrey's father; manhua 2020 still (no Official.jpg)." },
-    "Azik Eggers": { "image": "Azik Eggers.jpg", "aliases": [], "_note": "manual crop of official full-body sheet -> top 1000x2224 (source: Azik_Eggers_Official_Full.webp 1000x5950). Not from fetch_named_portraits.py." },
-    "Quentin Cohen": { "image": "Quentin Cohen.jpg", "aliases": [], "_note": "Tingen University; manhua 2025 Ch20 still (no Official.jpg)." },
-    "Wendy Smyrin": { "image": "Wendy Smyrin.jpg", "aliases": [], "_note": "Smyrin Bakery owner (Mrs. Smyrin); manhua 2020 still (no Official.jpg)." },
-    "Aguesid Negan": { "image": "Aguesid Negan.jpg", "aliases": [], "_note": "Royal Navy ceremony; manhua still (File:Aguesid-manhua.jpeg, no Official.jpg)." },
-    "Hanass Vincent": { "image": "Hanass Vincent.jpg", "aliases": [], "_note": "Divination Club; donghua EP4 still (cropped, no Official.jpg)." },
-    "Susie": { "image": "Susie.jpg", "aliases": [], "_note": "Audrey Hall's dog (later a Beyonder); donghua EP4 still (cropped, no Official.jpg)." },
-    "Royale Reideen": { "image": "Royale Reideen.png", "aliases": ["Sleepless Royale Reideen"], "_note": "The Sleepless; donghua EP2 still (cropped, no Official.jpg)." },
-    "Elliott Vickroy": { "image": "Elliott Vickroy.jpg", "aliases": [], "_note": "rescued hostage; donghua EP2 still (cropped, no Official.jpg)." },
-    "Cattleya": { "image": "Cattleya.jpg", "aliases": [] },
-    "Colin Iliad": { "image": "Colin Iliad.jpg", "aliases": [] },
-    "Cynthia": { "image": "Cynthia.jpg", "aliases": [] },
-    "Danitz": { "image": "Danitz.jpg", "aliases": [] },
-    "Derrick Berg": { "image": "Derrick Berg.jpg", "aliases": [] },
-    "Dunn Smith": { "image": "Dunn Smith.jpg", "aliases": [] },
-    "Edwina Edwards": { "image": "Edwina Edwards.jpg", "aliases": [] },
-    "Emlyn White": { "image": "Emlyn White.jpg", "aliases": [] },
-    "Evernight Goddess": { "image": "Evernight Goddess.jpg", "aliases": [] },
-    "Fors Wall": { "image": "Fors Wall.jpg", "aliases": [] },
-    "Frank Lee": { "image": "Frank Lee.jpg", "aliases": [] },
-    "Ince Zangwill": { "image": "Ince Zangwill.jpg", "aliases": [] },
-    "Leonard Mitchell": { "image": "Leonard Mitchell.jpg", "aliases": [] },
-    "Ouroboros": { "image": "Ouroboros.jpg", "aliases": [] },
-    "Reinette Tinekerr": { "image": "Reinette Tinekerr.jpg", "aliases": [] },
-    "Sharron Cropped": { "image": "Sharron Cropped.jpg", "aliases": [], "_note": "filename literally contains 'Cropped' but is the only official image; kept as-is per decision" },
-    "Trissy": { "image": "Trissy.jpg", "aliases": [] },
-    "Wil Auceptin": { "image": "Wil Auceptin.jpg", "aliases": [] },
-    "Xio Derecha": { "image": "Xio Derecha.jpg", "aliases": [] }
+  "the_world_identity": {
+   "_note": "'The World' is an alternate identity of Klein introduced ~middle of Volume 2. Not keyword-findable; pin by context read.",
+   "image_before_gehrman_created": "Sherlock Moriarty.jpg",
+   "image_after_gehrman_created": "Gehrman Sparrow.jpg",
+   "introduced_anchor_chapter": null,
+   "gehrman_created_anchor_chapter": 483,
+   "_verified_gehrman_created": "ch483 (New Identity) line 47: '...In accordance with Klein's wishes, his name was Gehrman Sparrow.'",
+   "_introduced_note": "The World's introduction mid-Vol 2 still needs a context read to pin."
   }
+ },
+ "characters": {
+  "Amon": {
+   "image": "Amon.jpg",
+   "aliases": [],
+   "_note": "distinct entity, NOT Klein"
+  },
+  "True Creator": {
+   "image": "True Creator.jpg",
+   "aliases": [],
+   "_note": "distinct entity, NOT Klein"
+  },
+  "Alger Wilson": {
+   "image": "Alger Wilson.jpg",
+   "aliases": [
+    "The Hanged Man"
+   ],
+   "_note": "Tarot Club; clean Official.jpg was gallery-only (not in category). Tarot seat alias to verify."
+  },
+  "Audrey Hall": {
+   "image": "Audrey Hall.jpg",
+   "aliases": [
+    "Justice"
+   ],
+   "_note": "Tarot Club; clean Official.jpg was gallery-only (not in category). Tarot seat alias to verify."
+  },
+  "Daly Simone": {
+   "image": "Daly Simone.jpg",
+   "aliases": []
+  },
+  "Roselle Gustav": {
+   "image": "Roselle Gustav.jpg",
+   "aliases": [
+    "Emperor Roselle",
+    "Roselle"
+   ],
+   "_note": "historical transmigrator/Emperor; aliases to verify"
+  },
+  "Benson Moretti": {
+   "image": "Benson Moretti.jpg",
+   "aliases": [],
+   "_note": "Klein's older brother; donghua EP2 still (no Official.jpg). 588x765."
+  },
+  "Bernadette Gustav": {
+   "image": "Bernadette Gustav.jpg",
+   "aliases": []
+  },
+  "Melissa Moretti": {
+   "image": "Melissa Moretti.jpg",
+   "aliases": [],
+   "_note": "Klein's younger sister; donghua still (no Official.jpg). 485x700."
+  },
+  "Old Neil": {
+   "image": "Old Neil.jpg",
+   "aliases": [],
+   "_note": "Church archivist. USER-SUPPLIED donghua still (2026-08-26), replaces the Tencent-watermarked wiki poster. Manual file -- do NOT re-fetch from wiki."
+  },
+  "Rozanne": {
+   "image": "Rozanne.png",
+   "aliases": [],
+   "_note": "Rozanne Adelaide, Blackthorn Security; donghua EP2 still (no Official.jpg). 695x815 PNG."
+  },
+  "Angelica Barrehart": {
+   "image": "Angelica Barrehart.jpg",
+   "aliases": [],
+   "_note": "Divination Club; donghua EP4 still (cropped, no Official.jpg)."
+  },
+  "Frye": {
+   "image": "Frye.jpg",
+   "aliases": [
+    "Corpse Collector Frye"
+   ],
+   "_note": "Nighthawk; donghua EP3 still (cropped, no Official.jpg)."
+  },
+  "Glacis": {
+   "image": "Glacis.jpg",
+   "aliases": [],
+   "_note": "Divination Club seer; donghua EP4 still (cropped, no Official.jpg)."
+  },
+  "Annie": {
+   "image": "Annie.png",
+   "aliases": [],
+   "_note": "Audrey Hall's maidservant; wiki file Annie2.png (no Official.jpg)."
+  },
+  "Earl Hall": {
+   "image": "Earl Hall.png",
+   "aliases": [
+    "Count Hall"
+   ],
+   "_note": "Audrey's father; manhua 2020 still (no Official.jpg)."
+  },
+  "Azik Eggers": {
+   "image": "Azik Eggers.jpg",
+   "aliases": [],
+   "_note": "manual crop of official full-body sheet -> top 1000x2224 (source: Azik_Eggers_Official_Full.webp 1000x5950). Not from fetch_named_portraits.py."
+  },
+  "Quentin Cohen": {
+   "image": "Quentin Cohen.jpg",
+   "aliases": [],
+   "_note": "Tingen University; manhua 2025 Ch20 still (no Official.jpg)."
+  },
+  "Wendy Smyrin": {
+   "image": "Wendy Smyrin.jpg",
+   "aliases": [],
+   "_note": "Smyrin Bakery owner (Mrs. Smyrin); manhua 2020 still (no Official.jpg)."
+  },
+  "Aguesid Negan": {
+   "image": "Aguesid Negan.jpg",
+   "aliases": [],
+   "_note": "Royal Navy ceremony; manhua still (File:Aguesid-manhua.jpeg, no Official.jpg)."
+  },
+  "Hanass Vincent": {
+   "image": "Hanass Vincent.jpg",
+   "aliases": [],
+   "_note": "Divination Club; donghua EP4 still (cropped, no Official.jpg)."
+  },
+  "Susie": {
+   "image": "Susie.jpg",
+   "aliases": [],
+   "_note": "Audrey Hall's dog (later a Beyonder). USER-SUPPLIED fan art (2026-08-26, chess scene w/ Audrey in background), replaces the photo still. Manual file -- do NOT re-fetch from wiki."
+  },
+  "Royale Reideen": {
+   "image": "Royale Reideen.png",
+   "aliases": [
+    "Sleepless Royale Reideen"
+   ],
+   "_note": "The Sleepless; donghua EP2 still (cropped, no Official.jpg)."
+  },
+  "Elliott Vickroy": {
+   "image": "Elliott Vickroy.jpg",
+   "aliases": [],
+   "_note": "rescued hostage; donghua EP2 still (cropped, no Official.jpg)."
+  },
+  "Cattleya": {
+   "image": "Cattleya.jpg",
+   "aliases": []
+  },
+  "Colin Iliad": {
+   "image": "Colin Iliad.jpg",
+   "aliases": []
+  },
+  "Cynthia": {
+   "image": "Cynthia.jpg",
+   "aliases": []
+  },
+  "Danitz": {
+   "image": "Danitz.jpg",
+   "aliases": []
+  },
+  "Derrick Berg": {
+   "image": "Derrick Berg.jpg",
+   "aliases": []
+  },
+  "Dunn Smith": {
+   "image": "Dunn Smith.jpg",
+   "aliases": []
+  },
+  "Edwina Edwards": {
+   "image": "Edwina Edwards.jpg",
+   "aliases": []
+  },
+  "Emlyn White": {
+   "image": "Emlyn White.jpg",
+   "aliases": []
+  },
+  "Evernight Goddess": {
+   "image": "Evernight Goddess.jpg",
+   "aliases": []
+  },
+  "Fors Wall": {
+   "image": "Fors Wall.jpg",
+   "aliases": []
+  },
+  "Frank Lee": {
+   "image": "Frank Lee.jpg",
+   "aliases": []
+  },
+  "Ince Zangwill": {
+   "image": "Ince Zangwill.jpg",
+   "aliases": []
+  },
+  "Leonard Mitchell": {
+   "image": "Leonard Mitchell.jpg",
+   "aliases": []
+  },
+  "Ouroboros": {
+   "image": "Ouroboros.jpg",
+   "aliases": []
+  },
+  "Reinette Tinekerr": {
+   "image": "Reinette Tinekerr.jpg",
+   "aliases": []
+  },
+  "Sharron Cropped": {
+   "image": "Sharron Cropped.jpg",
+   "aliases": [],
+   "_note": "filename literally contains 'Cropped' but is the only official image; kept as-is per decision"
+  },
+  "Trissy": {
+   "image": "Trissy.jpg",
+   "aliases": []
+  },
+  "Xio Derecha": {
+   "image": "Xio Derecha.jpg",
+   "aliases": []
+  },
+  "Borgia": {
+   "image": "Borgia.jpg",
+   "aliases": [],
+   "_note": "Backlund Nighthawk (2-049 escort, ch71-78). USER-SUPPLIED donghua still (2026-08-27), captured via clipboard. Manual file -- do not re-fetch."
+  },
+  "Selena": {
+   "image": "Selena.jpg",
+   "aliases": [
+    "Selena Wood"
+   ],
+   "_note": "Melissa's wine-red-haired friend (banquet/mirror arc ch84-87). USER-SUPPLIED donghua still (2026-08-27) via clipboard. Manual file -- do not re-fetch."
+  },
+  "Elizabeth": {
+   "image": "Elizabeth.jpg",
+   "aliases": [],
+   "_note": "Melissa's public-school friend, the amulet girl (ch69, ch84-87). USER-SUPPLIED donghua still (2026-08-27) via clipboard. Manual file -- do not re-fetch."
+  },
+  "Daxter Guderian": {
+   "image": "Daxter Guderian.png",
+   "aliases": [],
+   "_note": "Spectator doctor at Greenhill Mental Asylum, Klein's informant (ch117, 141-142). USER-SUPPLIED manhua panel (2026-08-27) via clipboard, visually verified. Manual file -- do not re-fetch."
+  },
+  "Mr. A": {
+   "image": "Mr. A.png",
+   "aliases": [],
+   "_note": "Hooded leader of Backlund's secret Beyonder gathering, suspected Aurora Order Oracle (ch130-131). USER-SUPPLIED fan art (2026-08-27) via clipboard, visually verified. Manual file -- do not re-fetch."
+  },
+  "Megose": {
+   "image": "Megose.png",
+   "aliases": [],
+   "_note": "Lanevus's pregnant fiancee, Christina's niece (ch116). USER-SUPPLIED donghua still (2026-08-27) via clipboard, visually verified. Manual file -- do not re-fetch."
+  },
+  "Sirius Arapis": {
+   "image": "Sirius Arapis.png",
+   "aliases": [],
+   "_note": "Aurora Order Secrets Suppliant, 'cloth merchant' Klein shoots at Deweyville Library (ch103-105). USER-SUPPLIED donghua still (2026-08-27) via clipboard, visually verified. Manual file -- do not re-fetch."
+  },
+  "Glaint": {
+   "image": "Glaint.png",
+   "aliases": [
+    "Viscount Glaint"
+   ],
+   "_note": "Audrey's viscount friend (salon/secret-gathering arc ch102-131). USER-SUPPLIED art (2026-08-27) via clipboard, visually verified. Manual file -- do not re-fetch."
+  },
+  "Swain": {
+   "image": "Swain.png",
+   "aliases": [],
+   "_note": "Evil Dragon Bar boss, ex-Mandated Punisher captain (ch101-130). USER-SUPPLIED manhua panel (2026-08-27) via clipboard, visually verified. Manual file -- do not re-fetch."
+  },
+  "Crestet Cesimir": {
+   "image": "Crestet Cesimir.png",
+   "aliases": [],
+   "_note": "Nighthawk captain, Bansy Harbor (ch166-169). USER-SUPPLIED donghua still (2026-08-27) via clipboard, visually verified; used as-is at 588x818 (1:1.39) -- already portrait-framed, subject fills the frame, no crop or padding needed. Manual file -- do not re-fetch."
+  },
+  "Hood Eugen": {
+   "image": "Hood Eugen.png",
+   "aliases": [],
+   "_note": "Spectator-pathway psychiatrist, Sequence 7 (ch117, ch142, ch155-186). USER-SUPPLIED donghua still (2026-08-27) via clipboard, visually verified; crop (285,0)-(830,426) of 1000x426 -- excludes the 胡德·欧根 caption block -- padded with backdrop-dark (14,13,19) to 545x708 (1:1.3). Manual file -- do not re-fetch."
+  },
+  "Pallas Negan": {
+   "image": "Pallas Negan.png",
+   "aliases": [],
+   "_note": "Admiral of Stars, Loen navy (ch190-192). USER-SUPPLIED donghua still (2026-08-27) via clipboard, visually verified; crop (62,0)-(338,426) of 359x426 -- head through the medalled uniform, bystanders trimmed, no padding needed (1:1.54). Manual file -- do not re-fetch."
+  },
+  "Qilangos": {
+   "image": "Qilangos.png",
+   "aliases": [],
+   "_note": "Mandated Punisher / Church of Storms (ch145-146, ch152-194). USER-SUPPLIED donghua still (2026-08-27) via clipboard, visually verified; crop (25,0)-(570,510) of 585x510, padded with backdrop-dark (14,13,19) to 545x708 (1:1.3). Manual file -- do not re-fetch."
+  },
+  "Ace Snake": {
+   "image": "Ace Snake.png",
+   "aliases": [
+    "Archbishop Ace Snake"
+   ],
+   "_note": "Archbishop of the Church of Storms, Bansy Harbor (ch190-192). USER-SUPPLIED donghua still (2026-08-27) via clipboard, visually verified; crop (128,32)-(658,827) of 738x947 -- head, skullcap and vestment, bystanders trimmed out, no padding needed (1:1.5). Manual file -- do not re-fetch."
+  },
+  "Sharon": {
+   "image": "Sharon.png",
+   "aliases": [
+    "Madam Sharon"
+   ],
+   "_note": "Backlund madam / Zombie-pathway Beyonder (ch174, ch196-199). USER-SUPPLIED donghua still (2026-08-27) via clipboard, visually verified; crop (140,0)-(720,494) of 1000x494, padded with backdrop-dark (14,13,19) to 580x754. Manual file -- do not re-fetch."
+  },
+  "Isengard Stanton": {
+   "image": "Isengard Stanton.png",
+   "aliases": [],
+   "_note": "Backlund private detective with the vertical-eye bronze book (ch157). USER-SUPPLIED Thai vol-17 cover (2026-08-27) via clipboard, visually verified. Re-cropped 2026-08-27 to show the WHOLE figure: publisher logos + '17' badge inpainted out (feathered blur heal), crop (22,100)-(980,1305) of 1000x1433 -- full deerstalker down through both hands and the book -- padded with backdrop-dark (14,13,19) to 958x1389 (1:1.45). Manual file -- do not re-fetch."
+  },
+  "Zaratul": {
+   "image": "Zaratul.png",
+   "aliases": [
+    "Mr. Zaratul"
+   ],
+   "_note": "Secret Order leader, named in Roselle diary interludes (ch59, ch93). USER-SUPPLIED Thai vol-33 cover (2026-08-27) via clipboard, visually verified. Full figure (60,85)-(400,448) of 428x615, PADDED with backdrop-dark (14,13,19) to 340x510 (1:1.5) so nothing is cut and he doesn't render wide (user ruling: center, never crop through the subject; pad instead). Manual file -- do not re-fetch."
+  },
+  "Lorotta": {
+   "image": "Lorotta.jpg",
+   "aliases": [],
+   "_note": "Backlund Gravedigger, master sharpshooter (2-049 escort, ch71-78). USER-SUPPLIED manhua panel (2026-08-27) via clipboard. Manual file -- do not re-fetch."
+  },
+  "Aiur Harson": {
+   "image": "Aiur Harson.jpg",
+   "aliases": [],
+   "_note": "Backlund Nightmare (2-049 escort, ch71-78). USER-SUPPLIED donghua still (2026-08-27) via clipboard. Manual file -- do not re-fetch."
+  },
+  "Kenley White": {
+   "image": "Kenley White.jpg",
+   "aliases": [
+    "Kenley"
+   ],
+   "_note": "Sleepless Nighthawk, Chanis Gate keeper. USER-SUPPLIED donghua still (2026-08-27) via clipboard. Manual file -- do not re-fetch."
+  },
+  "Seeka Tron": {
+   "image": "Seeka Tron.jpg",
+   "aliases": [],
+   "_note": "Midnight Poet Nighthawk, the 'Miss Author' (induction dinner ch97). USER-SUPPLIED donghua still (2026-08-27) via clipboard. Manual file -- do not re-fetch."
+  },
+  "Ademisaul": {
+   "image": "Ademisaul.jpg",
+   "aliases": [],
+   "_note": "The 'monster' orphan with distorted spiritual perception (underground market, ch68). USER-SUPPLIED donghua still (2026-08-27) via clipboard. Manual file -- do not re-fetch."
+  },
+  "Ray Bieber": {
+   "image": "Ray Bieber.jpg",
+   "aliases": [],
+   "_note": "Antigonus descendant, becomes Monster Bieber (warehouse battle ch74). USER-SUPPLIED donghua still (2026-08-27) via clipboard. Manual file -- do not re-fetch."
+  },
+  "Sharron": {
+   "image": "Sharron Cropped.jpg",
+   "aliases": [
+    "Miss Bodyguard"
+   ],
+   "_note": "Wraith-state Beyonder, Klein's hired bodyguard (ch244-263, named ch278). Same official wiki card as the 'Sharron Cropped' manifest entry - mapped 2026-08-28 so the canonical name 'Sharron' resolves; distinct from 'Sharon' the Backlund madam (ch174/196-199)."
+  },
+  "Will Auceptin": {
+   "image": "Wil Auceptin.jpg",
+   "aliases": [
+    "Wil Auceptin"
+   ],
+   "_note": "Key renamed 'Wil Auceptin' -> 'Will Auceptin' 2026-08-28 to match the registry/book spelling (two Ls); wiki filename keeps one L. Image file unchanged."
+  },
+  "Aaron Ceres": {
+   "image": "Aaron Ceres.png",
+   "aliases": [],
+   "_note": "Machine Heart / Backlund arc side character. USER-SUPPLIED illustration (2026-08-28) via clipboard, visually verified; cropped 1412x2574 -> 1210x1730 to drop a second figure at the left edge. REPLACES the earlier vol.7-cover crop (superseded same day, better resolution + no cover typography). Manual file -- do not re-fetch."
+  },
+  "Jurgen Cooper": {
+   "image": "Jurgen Cooper.png",
+   "aliases": [],
+   "_note": "Backlund arc side character. USER-SUPPLIED cover art (2026-08-28) via clipboard, visually verified; manual head-and-shoulders crop of the Chinese vol.2 cover (450x632 source -> 190x267) to keep the cover typography out of frame. Low resolution -- replace if a larger source turns up. Manual file -- do not re-fetch."
+  },
+  "Stelyn Sammer": {
+   "image": "Stelyn Sammer.png",
+   "aliases": [],
+   "_note": "Sammer family, Backlund arc. USER-SUPPLIED art (2026-08-28) via clipboard, visually verified; cropped 544x800 -> 480x787 to remove a second character's hand at the right edge. Manual file -- do not re-fetch."
+  },
+  "Maric": {
+   "image": "Maric.png",
+   "aliases": [],
+   "_note": "Backlund arc. USER-SUPPLIED cover art (2026-08-28) via clipboard, visually verified; manual crop of the Thai vol.13 cover (1000x1431 -> 600x800) to keep the title/volume typography and publisher logos out of frame. Manual file -- do not re-fetch."
+  },
+  "Talim Dumont": {
+   "image": "Talim Dumont.png",
+   "aliases": [
+    "Talim"
+   ],
+   "_note": "Backlund arc. USER-SUPPLIED art (2026-08-28) via clipboard, visually verified; page photo, already portrait-framed at 492x629 -- used as-is, no crop. Manual file -- do not re-fetch."
+  },
+  "Utravsky": {
+   "image": "Utravsky.png",
+   "aliases": [],
+   "_note": "Harvest Church bishop, Backlund arc. USER-SUPPLIED cover art (2026-08-28) via clipboard, visually verified; manual crop of the Thai vol.14 cover (1000x1433 -> 640x900) to keep the title/volume typography and publisher logos out of frame. Manual file -- do not re-fetch."
+  },
+  "Mike Joseph": {
+   "image": "Mike Joseph.png",
+   "aliases": [
+    "Reporter Mike"
+   ],
+   "_note": "Backlund reporter (Daisy's case, ch482). USER-SUPPLIED art (2026-08-28) via clipboard, visually verified; already portrait-framed at 582x800 -- used as-is, no crop. Manual file -- do not re-fetch."
+  },
+  "Ikanser Bernard": {
+   "image": "Ikanser Bernard.png",
+   "aliases": [],
+   "_note": "Backlund arc (ch351, 416-449). USER-SUPPLIED cover art (2026-08-28) via clipboard, visually verified; manual crop of the Thai vol.18 cover (961x1386 -> 625x815) to keep the title/volume typography and publisher logos out of frame. Manual file -- do not re-fetch."
+  },
+  "Lanevus": {
+   "image": "Lanevus.png",
+   "aliases": [],
+   "_note": "Megose's fiance (ch116, ch283-287). USER-SUPPLIED donghua still (2026-08-28) via clipboard, visually verified; already portrait-framed at 654x818 -- used as-is, no crop. Manual file -- do not re-fetch."
+  },
+  "Edessak Augustus": {
+   "image": "Edessak Augustus.png",
+   "aliases": [],
+   "_note": "Prince of Loen, Vol 2 (ch438-479). USER-SUPPLIED art (2026-08-29) via clipboard, visually verified; page photo, already portrait-framed at 888x1527 -- used as-is, no crop. Manual file -- do not re-fetch."
+  },
+  "Old Kohler": {
+   "image": "Old Kohler.png",
+   "aliases": [
+    "Kohler"
+   ],
+   "_note": "Sherlock Moriarty's East Borough informant (ch282-476). USER-SUPPLIED art (2026-08-29) via clipboard, visually verified; cropped 515x1030 -> 439x783 to drop the 'INTERVIEW' banner and the film-strip edge. Second, larger source supplied by the user; the first smaller grab was superseded. Manual file -- do not re-fetch."
+  },
+  "Darkwill": {
+   "image": "Darkwill.png",
+   "aliases": [],
+   "_note": "The plump 'Apothecary' (actually a Sequence 8 Beast Tamer, ch304) from Eye of Wisdom's Beyonder gatherings; tagged '[fat-faced man]' until 2026-08-29 when the user identified him as Darkwill. USER-SUPPLIED art (2026-08-29) via clipboard, visually verified; already portrait-framed 648x900 (with his owl) -- used as-is. Manual file -- do not re-fetch."
+  },
+  "Steve": {
+   "image": "Steve.png",
+   "aliases": [
+    "Lord Steve"
+   ],
+   "_note": "Rose School of Thought, ch348-350. RESEMBLANCE ART (not official; disclosed in the video description credit line per user decision 2026-08-29): USER-SUPPLIED depiction via clipboard, visually verified -- black outfit + dark red cloak lining matching the wiki's 'black tuxedo, dark red cloak'. Used as-is 700x1376. Manual file -- do not re-fetch."
+  },
+  "Jason": {
+   "image": "Jason.png",
+   "aliases": [],
+   "_note": "Rose School of Thought Devil, ch347-348 (the duke's assassin). JOKE STAND-IN (user choice 2026-08-29, disclosed via the * corner mark + description credit line): the wiki says he 'looked more like a zombie craving fresh flesh than a human being', so the stand-in is a cartoon zombie. Manual file -- do not re-fetch."
+  },
+  "Tyre": {
+   "image": "Tyre.png",
+   "aliases": [],
+   "_note": "Rose School of Thought, ch347-350 (48 min -- the biggest single portrait gap in Vol 2). JOKE STAND-IN (user choice 2026-08-29, disclosed via the * corner mark + description credit line): wiki says spiked hair + dagger-long black fingernails, fighting under weak crimson moonlight -- stand-in is a werewolf under the full moon. Manual file -- do not re-fetch."
+  }
+ }
 }

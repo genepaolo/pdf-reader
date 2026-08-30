@@ -1,0 +1,327 @@
+{
+ "_note": "Human yes/no decisions on the ❌ wiki characters (the 'NEEDS decision' list in character_report_block01.md). 'yes' -> source a portrait and add an entry to character_map.json. 'no' -> do NOT source art; the character keeps appearing in scenes but is intentionally portrait-less. Once wired into build_character_report.py, 'no' characters drop out of the ❌ 'NEEDS decision' bucket so they aren't re-asked.",
+ "decisions": {
+  "Bredt": "no",
+  "Angelica Barrehart": "yes",
+  "Frye": "yes",
+  "Glacis": "yes",
+  "Annie": "yes",
+  "Earl Hall": "yes",
+  "Azik Eggers": "yes",
+  "Quentin Cohen": "yes",
+  "Wendy Smyrin": "yes",
+  "Aguesid Negan": "yes",
+  "Hanass Vincent": "yes",
+  "Susie": "yes",
+  "Royale Reideen": "yes",
+  "Mr. Franky": "no",
+  "Elliott Vickroy": "yes",
+  "Borgia": "yes",
+  "Lorotta": "yes",
+  "Aiur Harson": "yes",
+  "Selena": "yes",
+  "Elizabeth": "yes",
+  "Kenley White": "yes",
+  "Seeka Tron": "yes",
+  "Ademisaul": "yes",
+  "Ray Bieber": "yes",
+  "Gawain": "no",
+  "Naya": "no",
+  "Jack": "no",
+  "Daxter Guderian": "yes",
+  "Mr. A": "yes",
+  "Megose": "yes",
+  "Sirius Arapis": "yes",
+  "Glaint": "yes",
+  "Swain": "yes",
+  "Zaratul": "yes",
+  "Grimm": "no",
+  "Edwards": "no",
+  "Isengard Stanton": "yes",
+  "Sharon": "yes",
+  "Ace Snake": "yes",
+  "Qilangos": "yes",
+  "Pallas Negan": "yes",
+  "Hood Eugen": "yes",
+  "Crestet Cesimir": "yes",
+  "Aaron Ceres": "yes",
+  "Jurgen Cooper": "yes",
+  "Stelyn Sammer": "yes",
+  "Kaslana": "no",
+  "Kaspars Kalinin": "no",
+  "Maric": "yes",
+  "Talim Dumont": "yes",
+  "Utravsky": "yes",
+  "Mike Joseph": "yes",
+  "Ikanser Bernard": "yes",
+  "Lanevus": "yes",
+  "Luke Sammer": "no",
+  "Daisy": "no",
+  "Edessak Augustus": "yes",
+  "Leppard": "no",
+  "Millet Carter": "no",
+  "Soest": "no",
+  "Capim": "no",
+  "Harras": "no",
+  "Hibbert Hall": "no",
+  "Katy": "no",
+  "Nibbs Odora": "no",
+  "Parker": "no",
+  "Rafter Pound": "no",
+  "Horamick Haydn": "no",
+  "Lawrence Nord": "no",
+  "Tyre": "yes",
+  "Bakerland Jean Madan": "no",
+  "Darc Regence": "no",
+  "Doragu Gale": "no",
+  "Funkel": "no",
+  "Hilbert Alucard": "no",
+  "Kapusky Reid": "no",
+  "Stephen Hampres": "no",
+  "Steve": "yes",
+  "Black Snake": "no",
+  "Cosmi Odora": "no",
+  "Framis Cage": "no",
+  "Jason": "yes",
+  "Meursault": "no",
+  "Pacheco Dwayne": "no",
+  "Williams": "no",
+  "Aiflor": "no",
+  "Belize": "no",
+  "Lockhart Siakam": "no",
+  "Nast Solomon": "no",
+  "Rosago": "no",
+  "Savigny Solomon": "no",
+  "Tracy": "no",
+  "Old Kohler": "yes",
+  "Darkwill": "yes"
+ },
+ "_no_for_now": {
+  "_note": "Vol 2 (ch214-482) characters answered 'no' on 2026-08-28 for lack of art, NOT because they are unwanted. Physical descriptions from the LOTM wiki are in timelines/portrait_wanted_descriptions.md -- the user is looking for lookalike art. Flip a name back to 'yes' here when art is installed, then rerun build_block.py + compose_frames.py.",
+  "date": "2026-08-28",
+  "names": {
+   "Luke Sammer": {
+    "scenes": 8,
+    "blocks": [
+     5,
+     6,
+     7
+    ]
+   },
+   "Daisy": {
+    "scenes": 7,
+    "blocks": [
+     8,
+     9,
+     10
+    ]
+   },
+   "Leppard": {
+    "scenes": 6,
+    "blocks": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   "Millet Carter": {
+    "scenes": 6,
+    "blocks": [
+     5,
+     6
+    ]
+   },
+   "Soest": {
+    "scenes": 6,
+    "blocks": [
+     8,
+     9
+    ]
+   },
+   "Capim": {
+    "scenes": 5,
+    "blocks": [
+     8
+    ]
+   },
+   "Harras": {
+    "scenes": 5,
+    "blocks": [
+     8
+    ]
+   },
+   "Hibbert Hall": {
+    "scenes": 5,
+    "blocks": [
+     5,
+     6,
+     7,
+     8,
+     10
+    ]
+   },
+   "Katy": {
+    "scenes": 5,
+    "blocks": [
+     8
+    ]
+   },
+   "Nibbs Odora": {
+    "scenes": 5,
+    "blocks": [
+     9,
+     10
+    ]
+   },
+   "Parker": {
+    "scenes": 5,
+    "blocks": [
+     8
+    ]
+   },
+   "Rafter Pound": {
+    "scenes": 5,
+    "blocks": [
+     6,
+     9
+    ]
+   },
+   "Horamick Haydn": {
+    "scenes": 4,
+    "blocks": [
+     7,
+     9
+    ]
+   },
+   "Lawrence Nord": {
+    "scenes": 4,
+    "blocks": [
+     8
+    ]
+   },
+   "Bakerland Jean Madan": {
+    "scenes": 3,
+    "blocks": [
+     5
+    ]
+   },
+   "Darc Regence": {
+    "scenes": 3,
+    "blocks": [
+     8
+    ]
+   },
+   "Doragu Gale": {
+    "scenes": 3,
+    "blocks": [
+     5
+    ]
+   },
+   "Funkel": {
+    "scenes": 3,
+    "blocks": [
+     10
+    ]
+   },
+   "Hilbert Alucard": {
+    "scenes": 3,
+    "blocks": [
+     7,
+     9
+    ]
+   },
+   "Kapusky Reid": {
+    "scenes": 3,
+    "blocks": [
+     6
+    ]
+   },
+   "Stephen Hampres": {
+    "scenes": 3,
+    "blocks": [
+     8,
+     9
+    ]
+   },
+   "Black Snake": {
+    "scenes": 2,
+    "blocks": [
+     5
+    ]
+   },
+   "Cosmi Odora": {
+    "scenes": 2,
+    "blocks": [
+     9
+    ]
+   },
+   "Framis Cage": {
+    "scenes": 2,
+    "blocks": [
+     8
+    ]
+   },
+   "Meursault": {
+    "scenes": 2,
+    "blocks": [
+     5
+    ]
+   },
+   "Pacheco Dwayne": {
+    "scenes": 2,
+    "blocks": [
+     8
+    ]
+   },
+   "Williams": {
+    "scenes": 2,
+    "blocks": [
+     6
+    ]
+   },
+   "Aiflor": {
+    "scenes": 1,
+    "blocks": [
+     8
+    ]
+   },
+   "Belize": {
+    "scenes": 1,
+    "blocks": [
+     8
+    ]
+   },
+   "Lockhart Siakam": {
+    "scenes": 1,
+    "blocks": [
+     9
+    ]
+   },
+   "Nast Solomon": {
+    "scenes": 1,
+    "blocks": [
+     5
+    ]
+   },
+   "Rosago": {
+    "scenes": 1,
+    "blocks": [
+     5
+    ]
+   },
+   "Savigny Solomon": {
+    "scenes": 1,
+    "blocks": [
+     5
+    ]
+   },
+   "Tracy": {
+    "scenes": 1,
+    "blocks": [
+     6
+    ]
+   }
+  }
+ }
+}

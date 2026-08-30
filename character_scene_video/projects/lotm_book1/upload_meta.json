@@ -1,0 +1,71 @@
+{
+ "_comment": "Per-volume YouTube upload metadata consumed by make_upload_pack.py. Parts must each be under YouTube's 12-hour cap; part numbers come from list order.",
+ "search_title": "Lord of the Mysteries Audiobook",
+ "usp_line": "Every scene shows WHO IS PRESENT: the character portraits on screen change as people enter and leave each scene — follow along and never lose track of the cast.",
+ "bridge_line": "Watched the Lord of the Mysteries donghua? This is where the full story begins — Volume 1 covers far more than Season 1 adapts.",
+ "credit_line": "Narration: professional-grade neural TTS. Novel by Cuttlefish That Loves Diving. Portrait art from the official character cards, covers, manhua and donghua. Portraits marked with a small * are artist depictions or playful stand-ins for characters who never got official art.",
+ "also_line": "Circle of Inevitability (LOTM Book 2) is also on this channel.",
+ "hashtags": "#LordOfTheMysteries #Audiobook #LOTM #WebNovel #KleinMoretti",
+ "tags": "lord of the mysteries,lotm,lord of the mysteries audiobook,audiobook,full audiobook,web novel,light novel,klein moretti,the fool,tarot club,cuttlefish that loves diving,lord of mysteries donghua,fantasy audiobook,mystery audiobook,steampunk,victorian fantasy,beyonder,seer pathway,free audiobook,audiobook full length",
+ "volumes": {
+  "1": {
+   "name": "The Clown",
+   "next_teaser": "Volume 2: Faceless",
+   "extra_tags": "lotm volume 1,the clown",
+   "parts": [
+    {
+     "first": 1,
+     "last": 50,
+     "hook": "Crossing over into a world of steam, machinery, divination and hidden gods, Zhou Mingrui wakes as Klein Moretti — with a revolver on the desk and a mysterious crimson moon outside. So begins the Fool's ascent."
+    },
+    {
+     "first": 51,
+     "last": 100,
+     "hook": "The Tarot Club is growing, and Klein's life as a Nighthawk turns serious: séances, hidden sects, and a first real battle that leaves scars. Meanwhile, above the gray fog, the Fool quietly collects believers."
+    },
+    {
+     "first": 101,
+     "last": 157,
+     "hook": "Mr. Fool's name is spreading. Spirit channeling, Backlund's secret gathering, a three-way deal, and sealed artifacts that should never be studied — Klein walks the line between Seer and something far greater."
+    },
+    {
+     "first": 158,
+     "last": 213,
+     "hook": "Everything built since the crimson moon comes due: a new potion, an inverted mausoleum that should not be opened, and the funeral that closes Volume 1."
+    }
+   ]
+  },
+  "2": {
+   "name": "Faceless",
+   "next_teaser": "Volume 3: Traveler",
+   "extra_tags": "lotm volume 2,faceless,sherlock moriarty",
+   "parts": [
+    {
+     "first": 214,
+     "last": 266,
+     "hook": "Klein leaves Tingen behind and starts over in Backlund as the detective Sherlock Moriarty — a rented flat on Minsk Street, a shingle nobody trusts yet, and a sacrificial trial he has to survive alone. Above the gray fog, the Fool's Tarot Club keeps growing."
+    },
+    {
+     "first": 267,
+     "last": 320,
+     "hook": "A five-person gathering, Cards of Blasphemy, and a commission from The World. On the ground, Sherlock Moriarty takes real cases — the Psychology Alchemists, a golden rose, and a bell tower at midnight that answers back."
+    },
+    {
+     "first": 321,
+     "last": 374,
+     "hook": "The Adorer, a Sun Brooch, and an authority no Seer should be holding. Klein's cases pull him deeper into Backlund's cults and its aristocracy — while a psychiatrist, a tracker and a banquet all circle the same secret."
+    },
+    {
+     "first": 375,
+     "last": 428,
+     "hook": "Capim's dinner, and the show begins. Black armour, a black crown, and a curtain call that leaves the newspapers grasping for a name: the Hero Bandit Dark Emperor. By the end, a duke is dead and someone has to be the scapegoat."
+    },
+    {
+     "first": 429,
+     "last": 482,
+     "hook": "The Great Haze descends on Backlund and the dying start in the thousands. A prince's fall, an Aurora Order ritual, and a volume that closes on a train pulling into the Land of Hope. It was the best of times, it was the worst of times."
+    }
+   ]
+  }
+ }
+}
