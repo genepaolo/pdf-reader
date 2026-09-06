@@ -12,7 +12,7 @@ frames. This list, and all future work, is Volume 2 and later only.
 
 # Volume 2 — chapters to verify (regenerated 2026-09-03)
 
-Videos: `D:/PDFReader/lotm_book1_output/character_video/Volume_2_Faceless/Chapter_N.mp4`
+Videos: `D:/PDFReader/lotm_book1_output/character_video/Volume_2_Faceless/chapters/Chapter_N.mp4`
 Times are offsets INSIDE that chapter video. `Np` = portraits in frame, `+Nr` = gold-rimmed.
 
 
@@ -169,7 +169,7 @@ Emlyn's audience; the Lilith card rimmed through the revelation.
 
 # Volume 2 — human spot-check list before upload (2026-09-02)
 
-Per-chapter videos in `D:/PDFReader/lotm_book1_output/character_video/Volume_2_Faceless/Chapter_N.mp4`.
+Per-chapter videos in `D:/PDFReader/lotm_book1_output/character_video/Volume_2_Faceless/chapters/Chapter_N.mp4`.
 Timestamps are offsets within the chapter video. `+Nr` = N gold-rimmed (mentioned-only) portraits.
 Each entry names the rule/edge case it exercises — these are the 12 chapters that between them
 cover every convention added this volume.

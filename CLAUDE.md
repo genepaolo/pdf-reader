@@ -5,7 +5,7 @@
 - Unless explicitly stated otherwise, all commands and status updates for audio generation,
   video generation, and YouTube uploads refer only to `lom_book2_coi`.
 - **Second workstream:** `character_scene_video` (Book 1 per-scene portrait videos) — see its
-  section below. **Next session there: manual Studio upload of Volume 2's 5 parts (everything re-rendered/packed 2026-09-02).**
+  section below. **Next session there: manual Studio upload of Volume 2's 5 parts (output re-laid-out by part 2026-09-06; thumbnail picks in `THUMBNAIL_TEST_ANALYSIS.md`).**
 
 ## Agent context (how this file is loaded)
 - **Cursor:** `.cursor/rules/claude-context.mdc` (`alwaysApply: true`) requires reading `CLAUDE.md` before tools or substantive changes — re-read each message, don't rely on memory.
@@ -41,7 +41,7 @@
   P1 1.4K/1.7%/101/24 · P2 849/1.3%/33/12 · P3 207/1.0%/9/3 · P4 1.7K/0.9%/59/21; traffic
   ~50–89% Browse. **CTR test assets ready 2026-08-29 — see
   `character_scene_video/CTR_TEST_PLAN_VOL1.md`**: 3 thumbnail variants in
-  `<Volume_dir>/thumbnails/part_1/thumb_vol01_p1_var{A_row,B_faces,C_strip}.jpg` + paste-ready
+  `<Volume_dir>/parts/Part_1_ch001-050/thumbnails/thumb_vol01_p1_var{A_row,B_faces,C_strip}.jpg` + paste-ready
   description line-1s + title options. Sequencing: thumbnail Test & Compare on P1 first,
   description line 1 on all parts now, title change only after the thumbnail test. **Done
   2026-08-29:** thumbnail Test & Compare started + line-1 rewrites applied by user (verified via
@@ -117,10 +117,17 @@
   (template in `projects/_TEMPLATE/`). All scripts take `--project` (default `lotm_book1`).
   Per-project data (scene tags, align, timelines, aliases, continuity, portrait decisions, frames)
   lives in `character_scene_video/projects/<name>/`.
-- **Output is BY VOLUME:** everything renders/concats into `<video_out_dir>/<Volume_dir>/`
-  (e.g. `.../character_video/Volume_1_Clown/`); the volume folder is derived automatically from the
-  text layout by `charvid_project` helpers. `build_block_video.py` refuses ranges that cross a
-  volume boundary. Thumbnails go in `<Volume_dir>/thumbnails/part_<K>/` (per upload part, with that part's A/B variants; volume-level ones at the root — layout adopted 2026-09-02, `make_thumbnail.py` writes there itself).
+- **Output is BY VOLUME, then BY PART (layout adopted 2026-09-06):** under `<video_out_dir>/<Volume_dir>/`
+  (e.g. `.../character_video/Volume_2_Faceless/`; the volume folder is derived from the text layout by
+  `charvid_project` helpers):
+  `chapters/Chapter_N.mp4` (per-chapter masters) · `parts/Part_K_chAAA-BBB/` (one upload part:
+  `Part_K_chAAA-BBB.mp4` + `_description.txt` + `_description_YOUTUBE.txt` + `_pinned_comment.txt` +
+  `_tags.txt` + `thumbnails/` with that part's thumbnail and A/B variants) · `thumbnails/` (volume-level)
+  · `playlist_volNN.txt`. **K is the part's list position under its volume in `upload_meta.json`** —
+  `build_block_video.py` looks the range up there (or takes `--part K` for an ad-hoc range) and refuses
+  ranges that cross a volume boundary. Vol 1's abandoned 43 h single upload lives in
+  `Volume_1_Clown/_legacy/`. Helpers: `P.chapter_video(ch)`, `P.part_dir(K,a,b)`, `P.part_stem(K,a,b)`,
+  `P.thumbnails_dir(vol, part)`.
 - Upload-pack config (part ranges, story hooks, tags, pitch lines) lives per project in
   `projects/<name>/upload_meta.json` (template in `_TEMPLATE/`).
 - Alignment is NOT aeneas/WhisperX: Azure-TTS audio of known text, matched sentence-sequence ↔
@@ -157,13 +164,15 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
    six portrait installs looked rendered but weren't until a `--force` sweep. Verify with an
    ffmpeg frame grab, not the log.
 9. `py -3.12 character_scene_video/build_block_video.py A B --plan` then without `--plan`
-   → `<Volume_dir>/Block_NN_chAAA-BBB.mp4` + `_description.txt` (keep each upload part < 12 h;
+   → `<Volume_dir>/parts/Part_K_chAAA-BBB/Part_K_chAAA-BBB.mp4` + `_description.txt` (K from
+   `upload_meta.json`, so add the part range there FIRST; keep each upload part < 12 h;
    warns past 11.9 h; must not cross a volume boundary)
    ⚠ **re-concats MUST pass `--force` too** — same silent skip as step 8 (bit us 2026-09-02:
    packs regenerated while all 9 part MP4s stayed stale). Verify with file mtimes.
 10. Upload prep: add the volume's parts + hooks to `projects/<name>/upload_meta.json`, then
     `py -3.12 character_scene_video/make_upload_pack.py --volume V` and
-    `py -3.12 character_scene_video/make_thumbnail.py V --name "<Vol Name>" --part K --range "A-B" --hours H`
+    `py -3.12 character_scene_video/make_thumbnail.py V --name "<Vol Name>" --part K --of N --range "A-B" --hours H`
+    (both write into `parts/Part_K_chA-B/`)
 
 ---
 
@@ -315,7 +324,7 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
 ### character_scene_video (2026-08-29)
 - Volume 1 (ch1–213): rendered complete; **all 4 parts UPLOADED + PUBLIC 2026-08-28** (IDs and
   day-1 analytics in the "Current state" section above). Obsolete 43 h `Block_01_ch001-213.mp4`
-  still on disk (delete only with user approval).
+  still on disk, parked in `Volume_1_Clown/_legacy/` (delete only with user approval).
 - Optional leftover: user spot-check of the 29 block-3 Tarot-gathering scenes (list generated 2026-08-27).
 - **VOLUME 2 TAGGING COMPLETE 2026-08-28: Blocks 5–10 (ch214–482) TAGGED + VERIFIED**
   (176/145/125/159/143/68 scenes, ~54:11 total; verify_tags 208/208, 197/197, 182/182, 220/220,
@@ -363,7 +372,7 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   recommended default; art sources + test setup in `YOUTUBE_UPLOAD_PLAN_VOL2.md`): set varA at
   upload, then Test & Compare with B + C. **2026-09-02: variant trios (A bigface / B faces /
   C row) BUILT for every remaining part** — Vol1 p2-4 + Vol2 p2-5, part-specific casts, in
-  `thumbnails/part_<K>/` (generator: session scratchpad `make_all_variants.py`). Vol-2 upload
+  each part's `thumbnails/` folder (generator: session scratchpad `make_all_variants.py`). Vol-2 upload
   readiness AUDITED (5 MP4s fresh, durations match descriptions, packs/tags/pinned/playlist
   present); human spot-check list: `character_scene_video/VOL2_REVIEW_CHECKLIST.md`.
 - **2026-09-03 ch215 PERSONA FLIP FIXED** (user spotted it): Klein was rendering as Sherlock
@@ -435,6 +444,23 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   "frame newer than MP4" check flag **209 of 269 Vol-2 chapters as stale when none of them are**.
   The pixel comparison above is the real check; chapter-mtime-vs-part-mtime is still valid for
   catching un-re-concatenated parts.
-  ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts.** **Volume 1 will NOT be
+- **2026-09-06 THUMBNAIL TESTS READ + VOL-2 PACKS ADJUSTED + OUTPUT RE-LAID-OUT.** Full write-up in
+  `character_scene_video/THUMBNAIL_TEST_ANALYSIS.md`. Daily Studio numbers (Aug 27-Sep 5) for the 4 Vol-1
+  parts: launch-day CTR is noise (1000+ Browse impressions at 0.8-1.7%); post-launch the new concepts run
+  ~2x the template (P1 3.6% vs P2/P3/P4 1.5/0.3/2.0% in the same window); **P2 jumped 1.5% -> 5.3% when its
+  bigface test started while P3's dark bigface got 0 clicks on 180 impressions** -- face-panel brightness
+  (121 vs 49 /255) is the tell. All 4 tests are running (user started P2-P4 ~Sep 2/3) but the channel is
+  impression-starved (~60-100/day/part) so YouTube will likely end them "no clear winner" -- **pick the
+  winner manually when each ends, or Studio reverts P1 to the OLD template.** Applied to Vol 2: P4 (48) and
+  P5 (64) bigfaces are as dark as the failing Vol-1 P3, P2 mid (90) -> built `varD_bright` for P2/P4/P5
+  (lifted panel, tighter face, warm glow); upload P1/P3 with varA, P2/P4/P5 with varD, test the rest.
+  Packs regenerated (both volumes): `make_upload_pack.py` now writes the rewritten line 1 that Vol 1 has
+  used live since 08-29; Vol 2 overrides the bridge line ("Season 2 adapts THIS volume") and its pinned
+  comment cross-links the Vol-1 playlist (`upload_meta.json` -> `volumes.2.bridge_line` /
+  `pinned_extra_lines`). Titles/tags unchanged. **Output layout is now by part** (see Engine layout):
+  571 files moved by a scratchpad script, nothing deleted; 43 h Vol-1 single upload parked in `_legacy/`.
+  All four path-aware scripts verified on the new tree (`--plan`, pack, thumbnail, ad-hoc-range refusal).
+  ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts** (files in
+  `Volume_2_Faceless/parts/Part_K_chAAA-BBB/`; thumbnail choice per part in the analysis doc). **Volume 1 will NOT be
   re-uploaded (user decision 2026-09-03)** — it stays live with its original frames; its local
   masters carry the new layout but that is not shipping. All future changes are Vol 2+ only.

@@ -1,16 +1,19 @@
 # YouTube Upload Plan — LOTM Volume 2: Faceless (ch214–482, in FIVE PARTS)
 
+> **Output layout changed 2026-09-06:** chapter masters live in `<Volume_dir>/chapters/`, each upload part in its own `<Volume_dir>/parts/Part_K_chAAA-BBB/` folder (MP4 + pack files + `thumbnails/`), volume-level thumbnails in `<Volume_dir>/thumbnails/`. The old `Block_NN_` file stems are now `Part_K_`; the abandoned 43 h Vol-1 single upload sits in `Volume_1_Clown/_legacy/`. Older path mentions below were rewritten to match; anything still saying `Block_` is history.
+
+
 Built and packed **2026-08-29**. Same procedure as Volume 1 — read
 `YOUTUBE_UPLOAD_PLAN_VOL1.md` sections 6 and 7 for the step-by-step upload/verify/end-screen flow
 (it is volume-generic); this file records only what is specific to Volume 2.
 
 | Part | File | Chapters | Duration | Size |
 |---|---|---|---|---|
-| 1 | `Block_05_ch214-266.mp4` | 214–266 | 10:49:10 | 806 MB |
-| 2 | `Block_06_ch267-320.mp4` | 267–320 | 10:53:01 | 805 MB |
-| 3 | `Block_07_ch321-374.mp4` | 321–374 | 10:50:06 | 804 MB |
-| 4 | `Block_08_ch375-428.mp4` | 375–428 | 10:46:40 | 799 MB |
-| 5 | `Block_09_ch429-482.mp4` | 429–482 (finale) | 10:51:58 | 808 MB |
+| 1 | `parts/Part_1_ch214-266/Part_1_ch214-266.mp4` | 214–266 | 10:49:10 | 806 MB |
+| 2 | `parts/Part_2_ch267-320/Part_2_ch267-320.mp4` | 267–320 | 10:53:01 | 805 MB |
+| 3 | `parts/Part_3_ch321-374/Part_3_ch321-374.mp4` | 321–374 | 10:50:06 | 804 MB |
+| 4 | `parts/Part_4_ch375-428/Part_4_ch375-428.mp4` | 375–428 | 10:46:40 | 799 MB |
+| 5 | `parts/Part_5_ch429-482/Part_5_ch429-482.mp4` | 429–482 (finale) | 10:51:58 | 808 MB |
 
 All five sit **~1 h 10 m under YouTube's 12 h cap** (enforced on us 2026-08-28). Total 54:11.
 
@@ -28,15 +31,15 @@ Part 4 is the set piece: Capim's dinner, the black armour and black crown, and t
 the **Hero Bandit Dark Emperor**. That persona has its own portrait as of 2026-08-29, so Klein
 visibly changes form for those chapters.
 
-**Files** (all next to the MP4s in
-`D:/PDFReader/lotm_book1_output/character_video/Volume_2_Faceless/`):
+**Files** (each part's folder under
+`D:/PDFReader/lotm_book1_output/character_video/Volume_2_Faceless/parts/`):
 
-- `Block_NN_chAAA-BBB_description_YOUTUBE.txt` — 3,478–3,623 / 5,000 ✅ (full per-chapter marker
+- `Part_K_chAAA-BBB_description_YOUTUBE.txt` — 3,478–3,623 / 5,000 ✅ (full per-chapter marker
   list fits, so every chapter is a real in-player chapter)
-- `Block_NN_chAAA-BBB_pinned_comment.txt` — 2,367–2,521 / 10,000 ✅ (part links + full chapter list;
+- `Part_K_chAAA-BBB_pinned_comment.txt` — 2,367–2,521 / 10,000 ✅ (part links + full chapter list;
   fill the `[link]` placeholders once all five are up)
-- `Block_NN_chAAA-BBB_tags.txt` — 380 / 500 ✅
-- `thumbnails/thumb_vol02_pN.jpg` — series template, ~229 KB each ✅
+- `Part_K_chAAA-BBB_tags.txt` — 380 / 500 ✅
+- `parts/Part_N_.../thumbnails/thumb_vol02_pN.jpg` — series template, ~229 KB each ✅
 - `playlist_vol02.txt` — playlist title + description
 
 Titles (89 / 100 chars each):
@@ -72,7 +75,7 @@ rollout can't wait). Vol-1 evidence so far: P1's 7-day CTR rose to 2.4% (~3-3.5%
 while the control parts P2/P3/P4 (old thumbs, same line-1 rewrite) stayed at 1.4%/0.7%/1.1% —
 the new thumbnail concepts beat the old template; which concept is still unknown.
 
-Three new 1280x720 variants in `<Volume_dir>/thumbnails/part_1/` (generator: session scratchpad
+Three new 1280x720 variants in `<Volume_dir>/parts/Part_1_ch214-266/thumbnails/` (generator: session scratchpad
 `make_vol2_variants.py`; art: S2 concept poster + EP2 donghua still from the fandom wiki, saved in
 session scratchpad `thumbhunt/`, + local Amon/Sherlock/Sharron cards). Revised same day per user: varB's Klein is
 the EP 6 lamplit top-hat still (EP 2 profile read deadpan), and the info line is now just

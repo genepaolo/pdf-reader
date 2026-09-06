@@ -1,5 +1,8 @@
 # YouTube Upload Plan — LOTM Volume 1 (ch1–213, in FOUR PARTS)
 
+> **Output layout changed 2026-09-06:** chapter masters live in `<Volume_dir>/chapters/`, each upload part in its own `<Volume_dir>/parts/Part_K_chAAA-BBB/` folder (MP4 + pack files + `thumbnails/`), volume-level thumbnails in `<Volume_dir>/thumbnails/`. The old `Block_NN_` file stems are now `Part_K_`; the abandoned 43 h Vol-1 single upload sits in `Volume_1_Clown/_legacy/`. Older path mentions below were rewritten to match; anything still saying `Block_` is history.
+
+
 **2026-08-28: the single 43 h upload was REJECTED — YouTube enforces its documented 12 h / 256 GB
 cap** ("The maximum file size you can upload is 256 GB or 12 hours, whichever is less"). The
 AudioVerse-style >12 h videos are grandfathered older uploads, not a live loophole. Volume 1
@@ -7,26 +10,26 @@ therefore uploads as **four parts**, all built and packed 2026-08-28:
 
 | Part | File | Chapters | Duration | Size |
 |---|---|---|---|---|
-| 1 | `Block_01_ch001-050.mp4` | 1–50 | 10:52:07 | 0.85 GB |
-| 2 | `Block_02_ch051-100.mp4` | 51–100 | 10:07:56 | 0.79 GB |
-| 3 | `Block_03_ch101-157.mp4` | 101–157 | 11:08:29 | 0.88 GB |
-| 4 | `Block_04_ch158-213.mp4` | 158–213 (finale) | 11:10:03 | 0.88 GB |
+| 1 | `parts/Part_1_ch001-050/Part_1_ch001-050.mp4` | 1–50 | 10:52:07 | 0.85 GB |
+| 2 | `parts/Part_2_ch051-100/Part_2_ch051-100.mp4` | 51–100 | 10:07:56 | 0.79 GB |
+| 3 | `parts/Part_3_ch101-157/Part_3_ch101-157.mp4` | 101–157 | 11:08:29 | 0.88 GB |
+| 4 | `parts/Part_4_ch158-213/Part_4_ch158-213.mp4` | 158–213 (finale) | 11:10:03 | 0.88 GB |
 
 Why these boundaries: parts 1–2 keep the round 50-chapter blocks; the old fallback split
 (101–150 / 151–213) does NOT work — 151–213 runs **12:31:20**, over the cap — so the back half is
 rebalanced at ch157/158, giving two ~11:09 parts. All four sit ≥50 min under the limit.
 Part 1 was re-concatenated 2026-08-28 from the current chapter files so the ch20–21 diary-interlude
 re-renders are included. The 43 h `Block_01_ch001-213.mp4` + its pack files are obsolete for
-upload (kept on disk for now).
+upload (parked in `Volume_1_Clown/_legacy/`).
 
 **Per-part pack files** (all regenerable with `make_upload_pack.py`; live next to the MP4s in
-`D:/PDFReader/lotm_book1_output/character_video/Volume_1_Clown/` — output reorganized BY VOLUME
-2026-08-28, layout `<video_out>/<Volume_dir>/`):
+`D:/PDFReader/lotm_book1_output/character_video/Volume_1_Clown/parts/Part_K_chAAA-BBB/` — output
+reorganized BY VOLUME 2026-08-28 and BY PART 2026-09-06):
 
-- `Block_NN_chAAA-BBB_description_YOUTUBE.txt` — paste into the description (~3.1–3.5k / 5,000 ✅)
-- `Block_NN_chAAA-BBB_pinned_comment.txt` — part-navigation links; post + pin (283 / 10,000 ✅)
-- `Block_NN_chAAA-BBB_tags.txt` — Tags field (363 / 500 ✅)
-- `thumbnails/thumb_vol01_pN.jpg` — series-template thumbnail with part number (~227 KB ✅)
+- `Part_K_chAAA-BBB_description_YOUTUBE.txt` — paste into the description (~3.1–3.5k / 5,000 ✅)
+- `Part_K_chAAA-BBB_pinned_comment.txt` — part-navigation links; post + pin (283 / 10,000 ✅)
+- `Part_K_chAAA-BBB_tags.txt` — Tags field (363 / 500 ✅)
+- `parts/Part_N_.../thumbnails/thumb_vol01_pN.jpg` — series-template thumbnail with part number (~227 KB ✅)
 
 Regenerate packs: `py -3.12 character_scene_video/make_upload_pack.py --volume 1` (all parts;
 add `--part 3` for one). Part ranges, story hooks, tags, and pitch lines live in

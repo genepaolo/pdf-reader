@@ -1,15 +1,21 @@
 #!/usr/bin/env python3
-"""Stage 6: concatenate a block's per-chapter videos into one upload-ready MP4 + description.
+"""Stage 6: concatenate an upload PART's per-chapter videos into one MP4 + description.
 
 Chapter MP4s (from render_chapter.py) share codec/resolution/fps, so concatenation is a stream
 copy — no re-encode, runs in seconds. The `0:00 Chapter N: Title` description lines come from
 ffprobe durations of the ACTUAL chapter files, so YouTube's auto chapter markers land exactly on
 the cuts. (YouTube needs the first marker at 0:00 and 3+ increasing timestamps — a 50-chapter
-block clears that easily.)
+part clears that easily.)
 
-    py -3.12 character_scene_video/build_block_video.py 1 50 --plan   # readiness check, writes nothing
-    py -3.12 character_scene_video/build_block_video.py 1 50          # Block_01_ch001-050.mp4 + _description.txt
-    (add --project NAME for a non-default project)
+A part is a chapter range listed under its volume in projects/<name>/upload_meta.json; its
+number K is the list position there. Output goes to its own folder:
+
+    <video_out>/<Volume_dir>/parts/Part_K_chAAA-BBB/Part_K_chAAA-BBB.mp4  (+ _description.txt)
+
+    py -3.12 character_scene_video/build_block_video.py 214 266 --plan   # readiness check, writes nothing
+    py -3.12 character_scene_video/build_block_video.py 214 266          # Part_1_ch214-266.mp4 + _description.txt
+    py -3.12 character_scene_video/build_block_video.py 214 240 --part 9 # ad-hoc range not in upload_meta
+    (add --project NAME for a non-default project; --force to overwrite an existing part)
 """
 import argparse
 import json
@@ -49,19 +55,30 @@ def main():
     ap.add_argument("last", type=int)
     ap.add_argument("--project", default=None)
     ap.add_argument("--plan", action="store_true", help="report readiness, write nothing")
-    ap.add_argument("--force", action="store_true", help="overwrite an existing block MP4")
+    ap.add_argument("--force", action="store_true", help="overwrite an existing part MP4")
+    ap.add_argument("--part", type=int,
+                    help="part number (default: looked up by range in upload_meta.json)")
     a = ap.parse_args()
     P = charvid_project.load(a.project)
 
-    block_no = P.block_no(a.first)
-    stemname = f"Block_{block_no:02d}_ch{a.first:03d}-{a.last:03d}"
     chapters = list(range(a.first, a.last + 1))
 
-    # a block video is a per-volume upload artifact -- refuse ranges that cross a volume boundary
+    # a part is a per-volume upload artifact -- refuse ranges that cross a volume boundary
     vols = {P.volume_dir_of(ch) for ch in chapters}
     if len(vols) > 1:
-        sys.exit(f"{stemname}: range spans volumes {sorted(vols)} -- split at the volume boundary")
-    out_dir = P.video_dir(a.first)
+        sys.exit(f"ch{a.first}-{a.last}: range spans volumes {sorted(vols)} -- "
+                 "split at the volume boundary")
+
+    part_no = a.part
+    if part_no is None:
+        hit = P.part_for_range(a.first, a.last)
+        if not hit:
+            sys.exit(f"ch{a.first}-{a.last} is not a part of volume {P.volume_no_of(a.first)} in "
+                     f"upload_meta.json -- add it there (parts are numbered by list order) "
+                     f"or pass --part K for an ad-hoc range")
+        part_no = hit[0]
+    stemname = P.part_stem(part_no, a.first, a.last)
+    out_dir = P.part_dir(part_no, a.first, a.last)
 
     files = {ch: P.chapter_video(ch) for ch in chapters}
     missing = [ch for ch, f in files.items() if not f.exists()]
@@ -116,6 +133,7 @@ def main():
     if out_mp4.exists() and not a.force:
         print(f"  {out_mp4.name} exists -- use --force to overwrite")
         sys.exit(1)
+    out_dir.mkdir(parents=True, exist_ok=True)
     listing = out_dir / f"_concat_{stemname}.txt"
     listing.write_text("\n".join(f"file '{files[ch].as_posix()}'" for ch in chapters) + "\n",
                        encoding="utf-8")

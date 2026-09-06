@@ -8,7 +8,7 @@ title only if thumbnails alone don't move CTR (else you can't tell which change 
 ## 1. Thumbnail Test & Compare (do this FIRST, on Part 1)
 
 Three new 1280×720 variants generated 2026-08-29, in
-`D:/PDFReader/lotm_book1_output/character_video/Volume_1_Clown/thumbnails/part_1/`
+`D:/PDFReader/lotm_book1_output/character_video/Volume_1_Clown/parts/Part_1_ch001-050/thumbnails/`
 (regenerate: session scratchpad `make_variants2.py`; portraits from
 `tts_pipeline/assets/characters/lotm/`, same fonts/colors as `make_thumbnail.py`):
 

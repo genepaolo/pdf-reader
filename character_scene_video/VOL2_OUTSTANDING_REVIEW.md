@@ -3,7 +3,7 @@
 All five parts are rendered, concatenated and packed; a staleness check confirms no part
 is older than any chapter inside it. Volume 1 is NOT being re-uploaded.
 
-Videos: `D:/PDFReader/lotm_book1_output/character_video/Volume_2_Faceless/Chapter_N.mp4`
+Videos: `D:/PDFReader/lotm_book1_output/character_video/Volume_2_Faceless/chapters/Chapter_N.mp4`
 `Np` = portraits in frame, `+Nr` = gold-rimmed (mentioned-only).
 
 **Fast path — one chapter per distinct change:** ch216 (Mr. Door), ch240 (Eye of Wisdom),
@@ -141,4 +141,4 @@ ch463 (Edessak removal), ch408 (Soest).
 5. **Mr. Door + Zaratul are uncropped covers** — publisher logos, volume numbers and Thai
    title are in frame, unlike the clean character cards. User chose this deliberately.
 6. Then: **manual Studio upload of the 5 parts**; set Vol-2 P1 thumbnail to
-   `thumbnails/part_1/thumb_vol02_p1_varA_bigface.jpg` and start Test & Compare with B + C.
+   `parts/Part_1_ch214-266/thumbnails/thumb_vol02_p1_varA_bigface.jpg` and start Test & Compare with B + C.

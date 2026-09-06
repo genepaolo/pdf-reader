@@ -146,7 +146,7 @@ this map from the wiki for review; **we do not ship it unverified.**
 | 2 | Claude scene-tagging | Claude API | `scenes/Chapter_N.json` (`[{para_range, characters[]}]`) |
 | 3 | Join 1+2 → timed timeline | Python | `timeline/Chapter_N.json` (`[{start,end,characters[]}]`) |
 | 4 | Composite frames (row/grid of portraits), cached by character-set | Pillow | `frames/<set-hash>.png` |
-| 5 | Per-chapter video: image track switches at timestamps + mux audio | ffmpeg + NVENC | `video/.../Chapter_N.mp4` |
+| 5 | Per-chapter video: image track switches at timestamps + mux audio | ffmpeg + NVENC | `<Volume_dir>/chapters/Chapter_N.mp4` |
 | 6 | Concat 50 chapters → batch video + `0:00 Chapter N` description | ffmpeg concat | block `.mp4` + description |
 
 Stages 1–5 are per-chapter and idempotent: re-running only reprocesses missing/changed chapters.

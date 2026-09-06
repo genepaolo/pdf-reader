@@ -14,7 +14,8 @@ same template, red line gains the part number, info line carries the chapter ran
 
     py -3.12 character_scene_video/make_thumbnail.py 1 --name "The Clown" --part 3 --of 4 \
         --range "101-157" --hours 11
-    -> thumbnails/thumb_vol01_p3.jpg
+    -> <Volume_dir>/parts/Part_3_ch101-157/thumbnails/thumb_vol01_p3.jpg
+       (the part must be listed in upload_meta.json; A/B variants sit in the same folder)
 
 Layout rules (thumbnail meta): big blocked type, hard black strokes, everything kept out of the
 bottom-right corner where YouTube stamps the duration (the duration IS the selling point).
@@ -100,12 +101,10 @@ def main():
     canvas.paste(logo, (42, 22), logo)
 
     P = charvid_project.load(a.project)
-    # per-part subfolder (user decision 2026-09-02): each part's thumbnail lives with its own
-    # A/B variants in thumbnails/part_<K>/, so variant sets stay manageable per upload part.
-    # Volume-level (no --part) thumbnails stay at the thumbnails/ root.
-    out_dir = P.video_out / P.volume_dir_by_no(a.volume) / "thumbnails"
-    if a.part:
-        out_dir = out_dir / f"part_{a.part}"
+    # A part's thumbnail lives in that part's own folder with its A/B variants
+    # (<Volume_dir>/parts/Part_K_chAAA-BBB/thumbnails/, user decisions 2026-09-02 + 2026-09-06);
+    # volume-level (no --part) thumbnails go to <Volume_dir>/thumbnails/.
+    out_dir = P.thumbnails_dir(a.volume, a.part)
     out_dir.mkdir(parents=True, exist_ok=True)
     suffix = f"_p{a.part}" if a.part else ""
     out = out_dir / f"thumb_vol{a.volume:02d}{suffix}.jpg"

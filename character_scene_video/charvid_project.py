@@ -94,8 +94,65 @@ class Project:
         """Output directory for a chapter's volume (not created here)."""
         return self.video_out / self.volume_dir_of(ch)
 
+    # ---- inside a volume folder (layout adopted 2026-09-06) ----
+    #   <Volume_dir>/chapters/Chapter_N.mp4                       per-chapter masters
+    #   <Volume_dir>/parts/Part_K_chAAA-BBB/Part_K_chAAA-BBB.mp4  one upload part + its pack
+    #   <Volume_dir>/parts/Part_K_chAAA-BBB/*_description*.txt, *_pinned_comment.txt, *_tags.txt
+    #   <Volume_dir>/parts/Part_K_chAAA-BBB/thumbnails/           that part's thumbnail + A/B variants
+    #   <Volume_dir>/thumbnails/                                  volume-level thumbnails
+    #   <Volume_dir>/playlist_volNN.txt
+    # Part numbers K come from upload_meta.json (list order within the volume), so a part is
+    # addressed by its chapter range and named Part_K, never by the 50-chapter tagging block.
+    def chapters_dir(self, ch):
+        return self.video_dir(ch) / "chapters"
+
     def chapter_video(self, ch):
-        return self.video_dir(ch) / f"Chapter_{ch}.mp4"
+        return self.chapters_dir(ch) / f"Chapter_{ch}.mp4"
+
+    def volume_no_of(self, ch):
+        """Volume NUMBER for a chapter (from the Volume_<n>_* folder name)."""
+        m = re.match(r"Volume_(\d+)_", self.volume_dir_of(ch))
+        if not m:
+            raise SystemExit(f"ch{ch}: volume folder {self.volume_dir_of(ch)!r} is not Volume_<n>_*")
+        return int(m.group(1))
+
+    def upload_meta(self):
+        f = self.dir / "upload_meta.json"
+        if not f.exists():
+            raise SystemExit(f"{f} missing -- create it (template in projects/_TEMPLATE/)")
+        return json.loads(f.read_text(encoding="utf-8"))
+
+    def part_for_range(self, first, last):
+        """-> (part_no, total_parts) for a chapter range listed in upload_meta.json, else None."""
+        vol = self.upload_meta().get("volumes", {}).get(str(self.volume_no_of(first)))
+        if not vol:
+            return None
+        parts = vol.get("parts", [])
+        for k, p in enumerate(parts, 1):
+            if p["first"] == first and p["last"] == last:
+                return k, len(parts)
+        return None
+
+    @staticmethod
+    def part_stem(part_no, first, last):
+        return f"Part_{part_no}_ch{first:03d}-{last:03d}"
+
+    def part_dir(self, part_no, first, last):
+        """Folder holding one upload part's MP4, pack files and thumbnails (not created here)."""
+        return self.video_dir(first) / "parts" / self.part_stem(part_no, first, last)
+
+    def thumbnails_dir(self, vol_no, part_no=None):
+        """Volume-level thumbnails, or a part's own thumbnail folder when part_no is given."""
+        root = self.video_out / self.volume_dir_by_no(vol_no)
+        if part_no is None:
+            return root / "thumbnails"
+        vol = self.upload_meta().get("volumes", {}).get(str(vol_no))
+        parts = (vol or {}).get("parts", [])
+        if not 1 <= part_no <= len(parts):
+            raise SystemExit(f"volume {vol_no} part {part_no}: not in upload_meta.json "
+                             f"({len(parts)} parts listed) -- add its range first")
+        p = parts[part_no - 1]
+        return root / "parts" / self.part_stem(part_no, p["first"], p["last"]) / "thumbnails"
 
     def block_no(self, first):
         return (first - 1) // self.block_size + 1

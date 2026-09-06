@@ -136,7 +136,7 @@ def render(ch, P, force=False):
     for _, _, imgs, ment in steps:
         ensure(imgs, P, ment)
 
-    out = P.chapter_video(ch)          # <video_out>/<Volume_dir>/Chapter_N.mp4
+    out = P.chapter_video(ch)          # <video_out>/<Volume_dir>/chapters/Chapter_N.mp4
     out.parent.mkdir(parents=True, exist_ok=True)
     if out.exists() and not force:
         print(f"ch{ch}: exists, skipping ({out})")

@@ -1,5 +1,8 @@
 # Character-Scene Videos — STATUS / Session Handoff
 
+> **Output layout changed 2026-09-06:** chapter masters live in `<Volume_dir>/chapters/`, each upload part in its own `<Volume_dir>/parts/Part_K_chAAA-BBB/` folder (MP4 + pack files + `thumbnails/`), volume-level thumbnails in `<Volume_dir>/thumbnails/`. The old `Block_NN_` file stems are now `Part_K_`; the abandoned 43 h Vol-1 single upload sits in `Volume_1_Clown/_legacy/`. Older path mentions below were rewritten to match; anything still saying `Block_` is history.
+
+
 **Read this first to resume.** Last updated 2026-09-02 (**BOTH VOLUMES FULLY RE-RENDERED,
 RE-CONCATENATED AND RE-PACKED** with the 2026-08-31→09-02 upgrades: member-first portrait
 ordering, gold mentioned-rims, 7 deity cards, frame_focus, delayed-entrance splits, and the

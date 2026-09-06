@@ -4,11 +4,11 @@
 Volumes upload as PARTS (YouTube enforces its 12 h / 256 GB cap — the 43 h single file was
 rejected 2026-08-28). All series/volume copy lives in projects/<name>/upload_meta.json (part
 ranges + hooks per volume, tag/hashtag/pitch lines); this script is engine-generic. For each
-part it emits, next to the part's MP4 in <video_out>/<Volume_dir>/:
+part it emits, next to the part's MP4 in <video_out>/<Volume_dir>/parts/Part_K_chAAA-BBB/:
 
-    Block_NN_chAAA-BBB_description_YOUTUBE.txt   paste into the description (<= 5,000 chars)
-    Block_NN_chAAA-BBB_pinned_comment.txt        post + pin after publishing (<= 10,000 chars)
-    Block_NN_chAAA-BBB_tags.txt                  paste into the Tags field (<= 500 chars)
+    Part_K_chAAA-BBB_description_YOUTUBE.txt   paste into the description (<= 5,000 chars)
+    Part_K_chAAA-BBB_pinned_comment.txt        post + pin after publishing (<= 10,000 chars)
+    Part_K_chAAA-BBB_tags.txt                  paste into the Tags field (<= 500 chars)
 
 and prints the suggested title (<= 100 chars). Chapter timestamps come from the part's
 _description.txt written by build_block_video.py, so run that first. A ~50-chapter part's FULL
@@ -47,8 +47,8 @@ def build_part(P, meta, vol_no, vol, part_no):
     part = parts[part_no - 1]
     first, last = part["first"], part["last"]
 
-    out_dir = P.video_dir(first)
-    stem = f"Block_{P.block_no(first):02d}_ch{first:03d}-{last:03d}"
+    out_dir = P.part_dir(part_no, first, last)
+    stem = P.part_stem(part_no, first, last)
     src = out_dir / f"{stem}_description.txt"
     if not src.exists():
         sys.exit(f"{src} missing -- run build_block_video.py {first} {last} first")
@@ -72,16 +72,20 @@ def build_part(P, meta, vol_no, vol, part_no):
     next_up = (f"Part {part_no + 1} (Chapters {parts[part_no]['first']}–{parts[part_no]['last']})"
                if part_no < total else vol.get("next_teaser", "the next volume"))
 
+    # Line 1 is the only text that shows in search snippets / hover cards (~150 chars), so it
+    # carries the exact search phrase AND the portraits USP. This wording replaced the original
+    # "continuous audiobook" line on the live Vol-1 parts 2026-08-29 (CTR_TEST_PLAN_VOL1.md).
+    finale_l1 = " — the volume finale" if part_no == total else ""
     desc = "\n".join([
-        f"{P.series_title} — Volume {vol_no}: {vol['name']}, PART {part_no} of {total}"
-        f" (Chapters {first}–{last}){finale}. The hit web novel as a continuous audiobook"
-        f" — {hours} hours, every chapter timestamped.",
+        f"{P.series_title} full audiobook with the cast on screen — character portraits change"
+        f" with every scene. Volume {vol_no}: {vol['name']}, Part {part_no} of {total},"
+        f" Ch {first}–{last}, {hours} hours{finale_l1}.",
         "",
         part.get("hook", ""),
         "",
         meta["usp_line"],
         "",
-        meta["bridge_line"],
+        vol.get("bridge_line", meta["bridge_line"]),   # a volume may override the series bridge
         "",
         *nav,
         "",
@@ -95,10 +99,13 @@ def build_part(P, meta, vol_no, vol, part_no):
         meta["hashtags"],
     ])
 
+    # optional per-volume lines under the part links (e.g. "start at Volume 1" for later volumes)
+    extra = vol.get("pinned_extra_lines", [])
     pin = "\n".join([
         f"Volume {vol_no}: {vol['name']} — all {total} parts (tap to jump):",
         *[f"▶ Part {n} (Chapters {p['first']}–{p['last']}): "
           + ("you are here" if n == part_no else "[link]") for n, p in enumerate(parts, 1)],
+        *([""] + extra if extra else []),
         "",
         "Full chapter list (tap a timestamp to jump):",
         *[f"{st} {rest}" for st, rest in chapters],
