@@ -424,6 +424,17 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   Volume 1 ships as-is and is not being re-uploaded, so a Vol-1 staleness check is EXPECTED to
   report those parts as older than their chapters. If Volume 1 is ever revisited, decide first
   whether Dunn Smith should outrank Leonard in the Book-1 Nighthawks scenes.
+- **2026-09-05 VOLUME 2 PIXEL-AUDITED END TO END — 838/838 scenes correct, 0 mismatches.**
+  For every scene of ch214-482 the real frame was decoded out of `Chapter_N.mp4` and pixel-compared
+  against the frame the current block data resolves to (chapter-number overlay masked; worst
+  matching deviation 1.37/255 = encoder noise). All five concatenated parts spot-checked the same
+  way at a chapter marker deep inside each. **Volume 2 needs no further rendering.**
+  ⚠ **DO NOT trust frame-PNG mtimes as a staleness signal.** `compose_frames.ensure()` writes only
+  `if not out.exists()`, so a PNG's mtime is its CREATION time. After the 2026-09-03 cache clear the
+  frames were rebuilt at 14:38-14:41 from identical inputs, which makes a naive
+  "frame newer than MP4" check flag **209 of 269 Vol-2 chapters as stale when none of them are**.
+  The pixel comparison above is the real check; chapter-mtime-vs-part-mtime is still valid for
+  catching un-re-concatenated parts.
   ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts.** **Volume 1 will NOT be
   re-uploaded (user decision 2026-09-03)** — it stays live with its original frames; its local
   masters carry the new layout but that is not shipping. All future changes are Vol 2+ only.
