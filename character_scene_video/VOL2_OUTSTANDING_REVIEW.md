@@ -72,9 +72,9 @@ ch463 (Edessak removal), ch408 (Soest).
   `s1@0:00(1p)  s2@2:15(1p)  s3@3:45(1p)  s4@5:48(2p)  s5@11:35(2p)`
 - **ch401** — Colin + Lovia — s2 is the ONLY scene where they share a frame
   `s1@0:00(2p)  s2@1:50(2p)  s3@8:28(1p)`
-- **ch408** — Soest — NEW `*` reference — s2 is his first appearance ("the middle-aged man named Soest")
+- **ch408** — Soest + Leonard order — NEW `*` reference — s2 is his first appearance ("the middle-aged man named Soest")
   `s1@0:00(1p)  s2@4:21(2p)  s3@8:26(2p)`
-- **ch409** — Soest
+- **ch409** — Soest + Leonard order
   `s1@0:00(2p)  s2@2:29(2p)  s3@5:30(1p)  s4@11:05(1p)`
 - **ch421** — Soest — he leads the frame from s1
   `s1@0:00(2p)  s2@2:48(3p)  s3@12:11(1p)`
@@ -85,7 +85,7 @@ ch463 (Edessak removal), ch408 (Soest).
 
 ## Part 5
 
-- **ch429** — Soest — s3 Soest* + Leonard + Ace Snake
+- **ch429** — Soest + Leonard order — s3 Leonard + Soest* + Ace Snake
   `s1@0:00(1p)  s2@4:24(1p)  s3@8:56(3p)  s4@11:09(3p)`
 - **ch445** — Colin Iliad
   `s1@0:00(2p)  s2@4:26(2p)  s3@9:01(2p)  s4@10:28(2p)`
@@ -130,10 +130,12 @@ ch463 (Edessak removal), ch408 (Soest).
    ch447 tomb sequence). Kaslana + Kaspars Kalinin were hard-declined 2026-08-28.
 2. **`build_character_report.py` ranks by SCENE COUNT, not screen time** — which is why
    Colin Iliad (16 chapters) never surfaced. Switching it to screen time is the fix.
-3. **Portrait order is not consistent in the Leonard/Soest chapters** — Soest leads the
-   frame in ch408/409/429, Leonard leads in ch421/424/426, because the order follows the
-   tagging order rather than a priority list. Cosmetic; say the word and Leonard can be
-   pinned first throughout (he is the POV character in these).
+3. ~~Portrait order inconsistent in the Leonard/Soest chapters~~ **RESOLVED 2026-09-05** —
+   Leonard Mitchell appended last in `portrait_priority.members` (user ruling: POV lead of his
+   own chapters, and a future Tarot seat; last place is also his joining order). He now leads
+   ch408 s2, ch409 s2 and ch429 s3 ahead of Soest. ⚠ The same rule reorders **25 Volume-1
+   chapters** where he now outranks Dunn Smith — see CLAUDE.md; Vol-1 parts were left
+   un-concatenated on purpose.
 4. **Zaratul art carries an "Activate Windows" watermark** (bottom-right). Ships as-is
    unless re-captured.
 5. **Mr. Door + Zaratul are uncropped covers** — publisher logos, volume numbers and Thai
