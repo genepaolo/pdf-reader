@@ -3,17 +3,28 @@
  "scenes": [
   {
    "line_start": 3,
+   "line_end": 25,
+   "protagonist_present": true,
+   "protagonist_persona": "Sherlock Moriarty",
+   "other_characters": [
+    "[Eye of Wisdom’s attendant]"
+   ],
+   "setting": "Getting there in disguise as a bearded workman, worrying the whole way that Eye of Wisdom will see through it, until the door creaks open and the attendant hands over a hooded black robe",
+   "text_anchor": "It would be best if Eye of Wisdom and the Apothecary don’t recognize me."
+  },
+  {
+   "line_start": 27,
    "line_end": 115,
    "protagonist_present": true,
    "protagonist_persona": "Sherlock Moriarty",
    "other_characters": [
     "[hooded Beyonders]",
     "Eye of Wisdom",
-    "Darkwill",
+    "Apothecary",
     "[hooded woman weapon seller]"
    ],
-   "setting": "Wednesday's gathering, attended as a bearded workman stranger: Klein sells the Bard and Light Suppliant formulas for 600 pounds — notarized genuine by Eye of Wisdom's Sealed Artifact 2-081 ring — dodges the Apothecary's sedative delivery, and eyes the weapon seller's two new Beyonder arms for The Sun",
-   "text_anchor": "“They are Sequence 9 Bard and Sequence 8 Light Suppliant"
+   "setting": "Inside at last: one candle, hooded members all round, and Klein sells the Bard and Light Suppliant formulas for 600 pounds to the chubby Apothecary — notarized genuine by Eye of Wisdom's ring",
+   "text_anchor": "There was only one candle in the dark and silent room"
   }
  ]
 }

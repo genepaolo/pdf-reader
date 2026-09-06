@@ -10,11 +10,13 @@
     "Audrey Hall",
     "Alger Wilson",
     "Derrick",
-    "[The World]",
-    "True Creator"
+    "The World"
    ],
    "setting": "Gathering's close: Alger names the True Creator's pathways — and Derrick goes cold, realizing Elder Lovia of the six-member council is a Shepherd of an evil god; Mr. Fool adjourns",
-   "text_anchor": "Shepherd? The silent Derrick sat up straight, his eyes filled with horror."
+   "text_anchor": "Shepherd? The silent Derrick sat up straight, his eyes filled with horror.",
+   "mentioned_characters": [
+    "True Creator"
+   ]
   },
   {
    "line_start": 43,

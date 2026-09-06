@@ -6,11 +6,12 @@
    "line_end": 85,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
-   "other_characters": [
-    "Amon"
-   ],
+   "other_characters": [],
    "setting": "Above the fog (visions only: The Sun's prayer image with a monocled, python-coiled phantom riding his spirit): Amon is stowing away toward the gray fog itself — so Klein adapts the Book of Secrets' Blood Moon Sacrifice into a secret-deed ritual of the King of Yellow and Black, and tasks the unwitting Derrick with performing it",
-   "text_anchor": "By residing in the Spirit Body of The Sun, he is waiting for the next Tarot Gathering"
+   "text_anchor": "By residing in the Spirit Body of The Sun, he is waiting for the next Tarot Gathering",
+   "mentioned_characters": [
+    "Amon"
+   ]
   },
   {
    "line_start": 89,

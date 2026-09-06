@@ -21,6 +21,7 @@
           "missing_images": [
             "[pickpocket]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -47,6 +48,7 @@
           "missing_images": [
             "[cashier]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 71,
@@ -77,6 +79,7 @@
             "[black-coated pursuers]",
             "[train conductor]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 115,
@@ -102,17 +105,18 @@
           "end": "0:14:09",
           "duration": "0:02:05",
           "present_cast": [
-            "Klein (as Sherlock Moriarty)",
+            "Klein Moretti",
             "[highlander pursuers]",
             "[train conductor]"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Klein Moretti.jpg"
           ],
           "missing_images": [
             "[highlander pursuers]",
             "[train conductor]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -130,15 +134,16 @@
           "end": "0:15:32",
           "duration": "0:01:23",
           "present_cast": [
-            "Klein (as Sherlock Moriarty)",
+            "Klein Moretti",
             "[teenage boy fugitive]"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Klein Moretti.jpg"
           ],
           "missing_images": [
             "[teenage boy fugitive]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 23,
@@ -156,12 +161,13 @@
           "end": "0:16:18",
           "duration": "0:00:47",
           "present_cast": [
-            "Klein (as Sherlock Moriarty)"
+            "Klein Moretti"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 37,
@@ -179,15 +185,16 @@
           "end": "0:17:29",
           "duration": "0:01:10",
           "present_cast": [
-            "Klein (as Sherlock Moriarty)",
+            "Klein Moretti",
             "Julianne"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Klein Moretti.jpg"
           ],
           "missing_images": [
             "Julianne"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 47,
@@ -202,8 +209,37 @@
         },
         {
           "start": "0:17:29",
+          "end": "0:18:25",
+          "duration": "0:00:56",
+          "present_cast": [
+            "Klein Moretti",
+            "Stelyn Sammer",
+            "Julianne"
+          ],
+          "images": [
+            "Klein Moretti.jpg",
+            "Stelyn Sammer.png"
+          ],
+          "missing_images": [
+            "Julianne"
+          ],
+          "mentioned_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 63,
+          "line_end": 77,
+          "setting": "The Sammers' sitting room on Minsk Street: tea offered, the landlady sizing up her prospective tenant, and the question he has been preparing for all the way from Tingen -- how might I address you?",
+          "text_anchor": "“How might I address you?”",
+          "timing": "aligned",
+          "chapter_start": 324.692,
+          "chapter_end": 380.72,
+          "batch_start": 1048.672,
+          "batch_end": 1104.7
+        },
+        {
+          "start": "0:18:25",
           "end": "0:23:32",
-          "duration": "0:06:04",
+          "duration": "0:05:08",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
             "Stelyn Sammer",
@@ -216,16 +252,17 @@
           "missing_images": [
             "Julianne"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
-          "line_start": 63,
+          "line_start": 79,
           "line_end": 139,
-          "setting": "The Sammers' warm parlor: 'Sherlock Moriarty' is coined over Marquis Black Tea as Klein haggles the Unit 15 lease down to half a year, 25 pounds — plus Stelyn's lecture on Backlund living costs",
-          "text_anchor": "The maidservant brought Klein to the sofa and said to her mistress in a pale yellow dress",
+          "setting": "He gives the name he had long thought of -- Sherlock Moriarty -- and from this line on that is who he is: the pipes in the kitchen, the machinery-enthusiast husband, the rent, and a new life in Backlund",
+          "text_anchor": "“Sherlock Moriarty. You can call me Sherlock.”",
           "timing": "aligned",
-          "chapter_start": 324.692,
+          "chapter_start": 380.72,
           "chapter_end": 688.397,
-          "batch_start": 1048.672,
+          "batch_start": 1104.7,
           "batch_end": 1412.377
         },
         {
@@ -248,6 +285,7 @@
             "Julianne",
             "[male servant]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 141,
@@ -274,6 +312,7 @@
           "missing_images": [
             "Julianne"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 151,
@@ -297,6 +336,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 157,
@@ -328,6 +368,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -351,6 +392,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 43,
@@ -377,6 +419,7 @@
           "missing_images": [
             "[patrol squad]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 49,
@@ -400,6 +443,7 @@
             "Audrey Hall.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 79,
@@ -423,6 +467,7 @@
             "Alger Wilson.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 93,
@@ -441,17 +486,18 @@
           "duration": "0:01:51",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
             "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 107,
@@ -475,12 +521,12 @@
           ],
           "images": [
             "The Fool.jpg",
-            "Roselle Gustav.jpg"
+            "Roselle Gustav.jpg",
+            "Mr. Door.png"
           ],
-          "missing_images": [
-            "Mr. Door"
-          ],
-          "layout": "row(2)",
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 137,
           "line_end": 147,
@@ -511,12 +557,12 @@
           ],
           "images": [
             "The Fool.jpg",
-            "Roselle Gustav.jpg"
+            "Roselle Gustav.jpg",
+            "Mr. Door.png"
           ],
-          "missing_images": [
-            "Mr. Door"
-          ],
-          "layout": "row(2)",
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 111,
@@ -556,6 +602,7 @@
             "Edwards",
             "Grimm"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -574,17 +621,18 @@
           "duration": "0:08:00",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
             "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 43,
@@ -611,17 +659,18 @@
           "duration": "0:11:27",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
             "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
@@ -648,17 +697,18 @@
           "duration": "0:11:29",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
             "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
@@ -692,6 +742,7 @@
             "Alger Wilson.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 3,
@@ -715,6 +766,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 79,
@@ -740,6 +792,7 @@
             "Audrey Hall.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 87,
@@ -765,6 +818,7 @@
             "Susie.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 149,
@@ -788,6 +842,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 161,
@@ -824,6 +879,7 @@
             "Doris",
             "[her grandson]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -852,6 +908,7 @@
           "missing_images": [
             "Doris"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 49,
@@ -878,6 +935,7 @@
           "missing_images": [
             "Ian"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 93,
@@ -912,6 +970,7 @@
           "missing_images": [
             "Ian"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -935,6 +994,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 53,
@@ -961,6 +1021,7 @@
           "missing_images": [
             "[three ambushers]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 73,
@@ -995,6 +1056,7 @@
           "missing_images": [
             "[three ambushers]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1023,6 +1085,7 @@
             "[homeless crowds]",
             "[patrolling officer]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 69,
@@ -1046,6 +1109,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 107,
@@ -1077,6 +1141,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1103,6 +1168,7 @@
           "missing_images": [
             "Ian"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 19,
@@ -1129,6 +1195,7 @@
           "missing_images": [
             "Ian"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 51,
@@ -1155,6 +1222,7 @@
           "missing_images": [
             "Ian"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 103,
@@ -1173,17 +1241,18 @@
           "duration": "0:04:42",
           "present_cast": [
             "Audrey Hall",
-            "Xio Derecha",
             "Fors Wall",
+            "Xio Derecha",
             "Glaint"
           ],
           "images": [
             "Audrey Hall.jpg",
-            "Xio Derecha.jpg",
             "Fors Wall.jpg",
+            "Xio Derecha.jpg",
             "Glaint.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 117,
@@ -1207,6 +1276,7 @@
             "Xio Derecha.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 187,
@@ -1238,6 +1308,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -1261,6 +1332,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 15,
@@ -1284,6 +1356,7 @@
             "Xio Derecha.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 33,
@@ -1301,14 +1374,15 @@
           "end": "2:34:55",
           "duration": "0:05:10",
           "present_cast": [
-            "Xio Derecha",
-            "Fors Wall"
+            "Fors Wall",
+            "Xio Derecha"
           ],
           "images": [
-            "Xio Derecha.jpg",
-            "Fors Wall.jpg"
+            "Fors Wall.jpg",
+            "Xio Derecha.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 59,
@@ -1334,6 +1408,7 @@
             "Xio Derecha.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 131,
@@ -1351,14 +1426,15 @@
           "end": "2:38:03",
           "duration": "0:00:48",
           "present_cast": [
-            "Xio Derecha",
-            "Fors Wall"
+            "Fors Wall",
+            "Xio Derecha"
           ],
           "images": [
-            "Xio Derecha.jpg",
-            "Fors Wall.jpg"
+            "Fors Wall.jpg",
+            "Xio Derecha.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 163,
@@ -1390,6 +1466,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -1416,6 +1493,7 @@
           "missing_images": [
             "Meursault"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 17,
@@ -1442,6 +1520,7 @@
           "missing_images": [
             "Leppard"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 75,
@@ -1465,6 +1544,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 189,
@@ -1499,6 +1579,7 @@
           "missing_images": [
             "Meursault"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1530,6 +1611,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1558,6 +1640,7 @@
             "[two constables]",
             "[sergeant]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 81,
@@ -1583,19 +1666,20 @@
           "end": "3:19:47",
           "duration": "0:02:40",
           "present_cast": [
-            "Xio Derecha",
             "Fors Wall",
+            "Xio Derecha",
             "Mr. A",
             "[Mr. A's attendant]"
           ],
           "images": [
-            "Xio Derecha.jpg",
             "Fors Wall.jpg",
+            "Xio Derecha.jpg",
             "Mr. A.png"
           ],
           "missing_images": [
             "[Mr. A's attendant]"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 3,
@@ -1622,6 +1706,7 @@
           "missing_images": [
             "[hooded seller]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 23,
@@ -1639,16 +1724,17 @@
           "end": "3:21:23",
           "duration": "0:00:39",
           "present_cast": [
-            "Xio Derecha",
             "Fors Wall",
+            "Xio Derecha",
             "Mr. A"
           ],
           "images": [
-            "Xio Derecha.jpg",
             "Fors Wall.jpg",
+            "Xio Derecha.jpg",
             "Mr. A.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 41,
@@ -1666,17 +1752,18 @@
           "end": "3:23:56",
           "duration": "0:02:34",
           "present_cast": [
-            "Xio Derecha",
             "Fors Wall",
+            "Xio Derecha",
             "[white-masked Sun believer]"
           ],
           "images": [
-            "Xio Derecha.jpg",
-            "Fors Wall.jpg"
+            "Fors Wall.jpg",
+            "Xio Derecha.jpg"
           ],
           "missing_images": [
             "[white-masked Sun believer]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 49,
@@ -1705,6 +1792,7 @@
             "[thieves and drunkards]",
             "[sergeant]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 97,
@@ -1733,6 +1821,7 @@
             "[interrogator]",
             "[sergeant]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 121,
@@ -1766,6 +1855,7 @@
             "Jurgen Cooper.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -1792,6 +1882,7 @@
           "missing_images": [
             "Julianne"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 57,
@@ -1820,6 +1911,7 @@
           "missing_images": [
             "Luke Sammer"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 69,
@@ -1843,6 +1935,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 125,
@@ -1860,19 +1953,20 @@
           "end": "3:42:43",
           "duration": "0:00:53",
           "present_cast": [
-            "Xio Derecha",
             "Fors Wall",
+            "Xio Derecha",
             "[white-masked Sun believer]",
             "[Mr. A's attendant]"
           ],
           "images": [
-            "Xio Derecha.jpg",
-            "Fors Wall.jpg"
+            "Fors Wall.jpg",
+            "Xio Derecha.jpg"
           ],
           "missing_images": [
             "[white-masked Sun believer]",
             "[Mr. A's attendant]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 135,
@@ -1898,19 +1992,20 @@
           "end": "3:43:56",
           "duration": "0:01:13",
           "present_cast": [
-            "Xio Derecha",
             "Fors Wall",
+            "Xio Derecha",
             "Mr. A",
             "[Mr. A's attendant]"
           ],
           "images": [
-            "Xio Derecha.jpg",
             "Fors Wall.jpg",
+            "Xio Derecha.jpg",
             "Mr. A.png"
           ],
           "missing_images": [
             "[Mr. A's attendant]"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -1937,6 +2032,7 @@
           "missing_images": [
             "[golden-masked man]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 13,
@@ -1960,6 +2056,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 49,
@@ -1988,6 +2085,7 @@
             "[doorman]",
             "[bartender]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 59,
@@ -2014,6 +2112,7 @@
           "missing_images": [
             "Kaspars Kalinin"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 89,
@@ -2044,6 +2143,7 @@
             "[man in black vest]",
             "[zombie card players]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 145,
@@ -2082,6 +2182,7 @@
             "[zombie card players]",
             "Kaspars Kalinin"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -2105,6 +2206,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 67,
@@ -2128,6 +2230,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 107,
@@ -2159,6 +2262,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -2182,6 +2286,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 57,
@@ -2205,6 +2310,7 @@
             "Fors Wall.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 81,
@@ -2228,6 +2334,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 117,
@@ -2259,6 +2366,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -2287,6 +2395,7 @@
           "missing_images": [
             "Doris"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 17,
@@ -2313,6 +2422,7 @@
           "missing_images": [
             "Leppard"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 77,
@@ -2336,6 +2446,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 81,
@@ -2359,6 +2470,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 89,
@@ -2377,17 +2489,18 @@
           "duration": "0:03:12",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
             "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 121,
@@ -2414,17 +2527,18 @@
           "duration": "0:11:31",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
             "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
@@ -2454,7 +2568,7 @@
             "Roselle Gustav",
             "Zaratul",
             "Matilda",
-            "Fan Esti",
+            "Fan Estin",
             "Savigny Solomon",
             "Nast Solomon"
           ],
@@ -2465,10 +2579,11 @@
           ],
           "missing_images": [
             "Matilda",
-            "Fan Esti",
+            "Fan Estin",
             "Savigny Solomon",
             "Nast Solomon"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 3,
@@ -2487,17 +2602,18 @@
           "duration": "0:00:58",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
             "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 109,
@@ -2524,17 +2640,18 @@
           "duration": "0:10:43",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
             "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
@@ -2562,6 +2679,7 @@
             "Susie.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 105,
@@ -2597,6 +2715,7 @@
             "Susie.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -2623,6 +2742,7 @@
           "missing_images": [
             "[man with pirate headband]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 25,
@@ -2646,6 +2766,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 45,
@@ -2672,6 +2793,7 @@
           "missing_images": [
             "Kaspars Kalinin"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 85,
@@ -2692,7 +2814,7 @@
             "Klein (as Sherlock Moriarty)",
             "[iron-masked doorman]",
             "[hooded Beyonders]",
-            "Darkwill"
+            "Apothecary"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
@@ -2702,6 +2824,7 @@
             "[iron-masked doorman]",
             "[hooded Beyonders]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 117,
@@ -2729,22 +2852,21 @@
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
             "[hooded Beyonders]",
-            "Darkwill",
+            "Apothecary",
             "Eye of Wisdom",
-            "Black Snake",
-            "[fat-faced man]"
+            "Black Snake"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Darkwill.png"
+            "Darkwill.png",
+            "Eye of Wisdom.png"
           ],
           "missing_images": [
             "[hooded Beyonders]",
-            "Eye of Wisdom",
-            "Black Snake",
-            "[fat-faced man]"
+            "Black Snake"
           ],
-          "layout": "row(2)",
+          "mentioned_images": [],
+          "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 105,
@@ -2771,24 +2893,23 @@
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
             "[hooded Beyonders]",
-            "Darkwill",
+            "Apothecary",
             "Eye of Wisdom",
             "Black Snake",
-            "[attendant]",
-            "[fat-faced man]"
+            "[attendant]"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Darkwill.png"
+            "Darkwill.png",
+            "Eye of Wisdom.png"
           ],
           "missing_images": [
             "[hooded Beyonders]",
-            "Eye of Wisdom",
             "Black Snake",
-            "[attendant]",
-            "[fat-faced man]"
+            "[attendant]"
           ],
-          "layout": "row(2)",
+          "mentioned_images": [],
+          "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 55,
@@ -2814,6 +2935,7 @@
           "missing_images": [
             "Kaspars Kalinin"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 57,
@@ -2842,6 +2964,7 @@
             "[zombie card players]",
             "Kaspars Kalinin"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 75,
@@ -2859,13 +2982,18 @@
           "end": "5:41:34",
           "duration": "0:05:32",
           "present_cast": [
-            "Klein (as The Fool)"
+            "Klein (as The Fool)",
+            "True Creator"
           ],
           "images": [
-            "The Fool.jpg"
+            "The Fool.jpg",
+            "True Creator.jpg"
           ],
           "missing_images": [],
-          "layout": "single",
+          "mentioned_images": [
+            "True Creator.jpg"
+          ],
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 95,
           "line_end": 165,
@@ -2896,6 +3024,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -2924,6 +3053,7 @@
           "missing_images": [
             "Mary Gale"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 27,
@@ -2954,6 +3084,7 @@
             "Bakerland Jean Madan",
             "Kance Leerhsen"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 75,
@@ -2988,6 +3119,7 @@
           "missing_images": [
             "[tramp]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -3016,6 +3148,7 @@
             "Doragu Gale",
             "[carriage driver]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 27,
@@ -3042,6 +3175,7 @@
           "missing_images": [
             "[club doormen]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 65,
@@ -3065,6 +3199,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 85,
@@ -3083,17 +3218,18 @@
           "duration": "0:00:25",
           "present_cast": [
             "Audrey Hall",
-            "Xio Derecha",
             "Fors Wall",
+            "Xio Derecha",
             "Glaint"
           ],
           "images": [
             "Audrey Hall.jpg",
-            "Xio Derecha.jpg",
             "Fors Wall.jpg",
+            "Xio Derecha.jpg",
             "Glaint.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 141,
@@ -3120,17 +3256,18 @@
           "duration": "0:02:11",
           "present_cast": [
             "Audrey Hall",
-            "Xio Derecha",
             "Fors Wall",
+            "Xio Derecha",
             "Glaint"
           ],
           "images": [
             "Audrey Hall.jpg",
-            "Xio Derecha.jpg",
             "Fors Wall.jpg",
+            "Xio Derecha.jpg",
             "Glaint.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
@@ -3148,19 +3285,20 @@
           "end": "6:10:28",
           "duration": "0:03:26",
           "present_cast": [
-            "Xio Derecha",
             "Fors Wall",
+            "Xio Derecha",
             "Mr. A",
             "[Mr. A's attendant]"
           ],
           "images": [
-            "Xio Derecha.jpg",
             "Fors Wall.jpg",
+            "Xio Derecha.jpg",
             "Mr. A.png"
           ],
           "missing_images": [
             "[Mr. A's attendant]"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 35,
@@ -3178,16 +3316,17 @@
           "end": "6:10:38",
           "duration": "0:00:10",
           "present_cast": [
-            "Xio Derecha",
             "Fors Wall",
+            "Xio Derecha",
             "Susie"
           ],
           "images": [
-            "Xio Derecha.jpg",
             "Fors Wall.jpg",
+            "Xio Derecha.jpg",
             "Susie.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 77,
@@ -3211,6 +3350,7 @@
             "Audrey Hall.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 79,
@@ -3239,6 +3379,7 @@
           "missing_images": [
             "Mary Gale"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 89,
@@ -3257,8 +3398,8 @@
           "duration": "0:04:13",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Kaspars Kalinin",
-            "Maric"
+            "Maric",
+            "Kaspars Kalinin"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
@@ -3267,6 +3408,7 @@
           "missing_images": [
             "Kaspars Kalinin"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 111,
@@ -3298,6 +3440,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -3325,6 +3468,9 @@
             "Mr. A.png"
           ],
           "missing_images": [],
+          "mentioned_images": [
+            "Mr. A.png"
+          ],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 11,
@@ -3348,6 +3494,7 @@
             "Audrey Hall.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 105,
@@ -3378,6 +3525,7 @@
           "missing_images": [
             "Mary Gale"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 119,
@@ -3414,6 +3562,7 @@
             "[red-vested manservant]",
             "[maid]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -3437,6 +3586,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 51,
@@ -3460,6 +3610,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 67,
@@ -3478,8 +3629,8 @@
           "duration": "0:02:23",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Kaspars Kalinin",
-            "Maric"
+            "Maric",
+            "Kaspars Kalinin"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
@@ -3488,6 +3639,7 @@
           "missing_images": [
             "Kaspars Kalinin"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 97,
@@ -3513,6 +3665,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 123,
@@ -3544,6 +3697,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -3570,6 +3724,7 @@
           "missing_images": [
             "Ian"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 11,
@@ -3588,8 +3743,8 @@
           "duration": "0:12:33",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Ian",
-            "Sharron"
+            "Sharron",
+            "Ian"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
@@ -3598,6 +3753,7 @@
           "missing_images": [
             "Ian"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 43,
@@ -3631,6 +3787,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -3657,6 +3814,7 @@
           "missing_images": [
             "Faxine"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 35,
@@ -3684,6 +3842,7 @@
             "Bakerland Jean Madan",
             "Eileen"
           ],
+          "mentioned_images": [],
           "layout": "default",
           "continues_prev": false,
           "line_start": 49,
@@ -3720,6 +3879,7 @@
             "Bakerland Jean Madan",
             "Eileen"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -3746,6 +3906,7 @@
           "missing_images": [
             "Faxine"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 171,
@@ -3772,8 +3933,8 @@
           "duration": "0:10:19",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Rosago",
             "Sharron",
+            "Rosago",
             "Faxine"
           ],
           "images": [
@@ -3784,6 +3945,7 @@
             "Rosago",
             "Faxine"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -3807,6 +3969,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 143,
@@ -3838,6 +4001,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -3863,6 +4027,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 91,
@@ -3896,6 +4061,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -3919,6 +4085,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 63,
@@ -3944,6 +4111,7 @@
           "missing_images": [
             "[two Intis military officials]"
           ],
+          "mentioned_images": [],
           "layout": "default",
           "continues_prev": false,
           "line_start": 101,
@@ -3969,6 +4137,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 123,
@@ -4000,6 +4169,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -4025,6 +4195,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 87,
@@ -4048,6 +4219,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 111,
@@ -4086,6 +4258,7 @@
             "Hibbert Hall",
             "[dining maidservant]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 3,
@@ -4103,14 +4276,15 @@
           "end": "8:17:54",
           "duration": "0:01:54",
           "present_cast": [
-            "Xio Derecha",
-            "Fors Wall"
+            "Fors Wall",
+            "Xio Derecha"
           ],
           "images": [
-            "Xio Derecha.jpg",
-            "Fors Wall.jpg"
+            "Fors Wall.jpg",
+            "Xio Derecha.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 53,
@@ -4137,6 +4311,7 @@
           "missing_images": [
             "[black-robed man]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 83,
@@ -4165,6 +4340,7 @@
             "Erica Taylor",
             "[red-vested attendant]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 117,
@@ -4195,6 +4371,7 @@
             "Erica Taylor",
             "Doragu Gale"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 141,
@@ -4231,6 +4408,7 @@
             "Doragu Gale",
             "Erica Taylor"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -4256,6 +4434,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 59,
@@ -4281,6 +4460,7 @@
             "Aaron Ceres.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 81,
@@ -4306,6 +4486,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 137,
@@ -4339,6 +4520,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4367,6 +4549,7 @@
             "Kaspars Kalinin",
             "[bartender]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 27,
@@ -4385,21 +4568,22 @@
           "duration": "0:07:39",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
+            "Sharron",
             "[hooded Beyonders]",
-            "Darkwill",
-            "Eye of Wisdom",
-            "Sharron"
+            "Apothecary",
+            "Eye of Wisdom"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
+            "Sharron Cropped.jpg",
             "Darkwill.png",
-            "Sharron Cropped.jpg"
+            "Eye of Wisdom.png"
           ],
           "missing_images": [
-            "[hooded Beyonders]",
-            "Eye of Wisdom"
+            "[hooded Beyonders]"
           ],
-          "layout": "row(3)",
+          "mentioned_images": [],
+          "layout": "row(4)",
           "continues_prev": false,
           "line_start": 75,
           "line_end": 177,
@@ -4425,21 +4609,19 @@
           "duration": "0:12:15",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Eye of Wisdom",
-            "Darkwill",
             "Sharron",
-            "[fat-faced man]"
+            "Eye of Wisdom",
+            "Apothecary"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Darkwill.png",
-            "Sharron Cropped.jpg"
+            "Sharron Cropped.jpg",
+            "Eye of Wisdom.png",
+            "Darkwill.png"
           ],
-          "missing_images": [
-            "Eye of Wisdom",
-            "[fat-faced man]"
-          ],
-          "layout": "row(3)",
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 117,
@@ -4472,6 +4654,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 3,
@@ -4490,9 +4673,9 @@
           "duration": "0:01:17",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
+            "Sharron",
             "Stelyn",
-            "Faxine",
-            "Sharron"
+            "Faxine"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
@@ -4502,6 +4685,7 @@
             "Stelyn",
             "Faxine"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 73,
@@ -4520,8 +4704,8 @@
           "duration": "0:05:32",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Millet Carter",
-            "Sharron"
+            "Sharron",
+            "Millet Carter"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
@@ -4530,6 +4714,7 @@
           "missing_images": [
             "Millet Carter"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 87,
@@ -4564,6 +4749,7 @@
           "missing_images": [
             "Millet Carter"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -4592,6 +4778,7 @@
           "missing_images": [
             "Mary"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 11,
@@ -4615,6 +4802,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 31,
@@ -4643,6 +4831,7 @@
             "Millet Carter",
             "[manservant]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 39,
@@ -4668,6 +4857,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 105,
@@ -4701,6 +4891,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4734,6 +4925,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4759,6 +4951,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 89,
@@ -4792,6 +4985,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4818,6 +5012,7 @@
           "missing_images": [
             "Millet Carter"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 39,
@@ -4841,6 +5036,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 87,
@@ -4874,6 +5070,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4897,6 +5094,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 17,
@@ -4925,6 +5123,7 @@
           "missing_images": [
             "Bella"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 41,
@@ -4950,6 +5149,7 @@
             "Sharron Cropped.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 101,
@@ -4973,6 +5173,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 129,
@@ -4996,6 +5197,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 139,
@@ -5016,7 +5218,7 @@
   "characters_index": {
     "Klein Moretti (protagonist)": {
       "status": "have",
-      "scenes": 141
+      "scenes": 142
     },
     "[pickpocket]": {
       "status": "background",
@@ -5044,11 +5246,11 @@
     },
     "Julianne": {
       "status": "minor",
-      "scenes": 5
+      "scenes": 6
     },
     "Stelyn Sammer": {
       "status": "have",
-      "scenes": 6
+      "scenes": 7
     },
     "Luke Sammer": {
       "status": "declined",
@@ -5079,7 +5281,7 @@
       "scenes": 4
     },
     "Mr. Door": {
-      "status": "minor",
+      "status": "have",
       "scenes": 2
     },
     "Edwards": {
@@ -5126,13 +5328,13 @@
       "status": "background",
       "scenes": 1
     },
-    "Xio Derecha": {
-      "status": "have",
-      "scenes": 18
-    },
     "Fors Wall": {
       "status": "have",
       "scenes": 14
+    },
+    "Xio Derecha": {
+      "status": "have",
+      "scenes": 18
     },
     "Glaint": {
       "status": "have",
@@ -5210,8 +5412,8 @@
       "status": "minor",
       "scenes": 1
     },
-    "Fan Esti": {
-      "status": "minor",
+    "Fan Estin": {
+      "status": "need",
       "scenes": 1
     },
     "Savigny Solomon": {
@@ -5238,24 +5440,24 @@
       "status": "background",
       "scenes": 4
     },
-    "Darkwill": {
+    "Apothecary": {
       "status": "have",
       "scenes": 5
     },
     "Eye of Wisdom": {
-      "status": "minor",
+      "status": "have",
       "scenes": 4
     },
     "Black Snake": {
       "status": "declined",
       "scenes": 2
     },
-    "[fat-faced man]": {
-      "status": "background",
-      "scenes": 3
-    },
     "[attendant]": {
       "status": "background",
+      "scenes": 1
+    },
+    "True Creator": {
+      "status": "have",
       "scenes": 1
     },
     "Mary Gale": {

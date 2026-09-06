@@ -17,7 +17,11 @@
    "protagonist_persona": "The Fool",
    "other_characters": [],
    "setting": "Above the gray fog (visions only: the one-eyed statue-faced killer; a bridged, smoky city): the murderer is Ince Zangwill with Sealed Artifact 0-08, plotting from Backlund",
-   "text_anchor": "He became silent again and found a hidden spot nearby."
+   "text_anchor": "He became silent again and found a hidden spot nearby.",
+   "mentioned_characters": [
+    "Ince Zangwill",
+    "Selena"
+   ]
   }
  ]
 }

@@ -20,6 +20,7 @@
             "Angelica Barrehart.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 3,
@@ -45,6 +46,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 83,
@@ -70,6 +72,7 @@
             "Swain.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 113,
@@ -103,6 +106,7 @@
             "Swain.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -133,6 +137,7 @@
             "[girl in green dress]",
             "[vendor]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 37,
@@ -158,6 +163,7 @@
             "Glaint.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 95,
@@ -184,6 +190,7 @@
           "missing_images": [
             "[librarians]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 119,
@@ -218,6 +225,7 @@
           "missing_images": [
             "[librarians]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -246,6 +254,7 @@
           "missing_images": [
             "[librarians]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 55,
@@ -271,6 +280,7 @@
             "Sirius Arapis.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 119,
@@ -302,6 +312,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -328,6 +339,7 @@
           "missing_images": [
             "[onlookers]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 119,
@@ -359,6 +371,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -377,17 +390,18 @@
           "duration": "0:04:39",
           "present_cast": [
             "Klein Moretti",
-            "Dunn Smith",
             "Leonard Mitchell",
+            "Dunn Smith",
             "Kenley White"
           ],
           "images": [
             "Klein Moretti.jpg",
-            "Dunn Smith.jpg",
             "Leonard Mitchell.jpg",
+            "Dunn Smith.jpg",
             "Kenley White.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 109,
@@ -411,6 +425,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 167,
@@ -446,6 +461,7 @@
             "Melissa Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 3,
@@ -464,23 +480,24 @@
           "duration": "0:03:03",
           "present_cast": [
             "Klein Moretti",
+            "Leonard Mitchell",
             "Dunn Smith",
             "Frye",
             "Seeka Tron",
             "Royale Reideen",
-            "Leonard Mitchell",
             "Kenley White"
           ],
           "images": [
             "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg",
             "Dunn Smith.jpg",
             "Frye.jpg",
             "Seeka Tron.jpg",
             "Royale Reideen.png",
-            "Leonard Mitchell.jpg",
             "Kenley White.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "grid(7)",
           "continues_prev": false,
           "line_start": 65,
@@ -509,6 +526,7 @@
           "missing_images": [
             "Gawain"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 103,
@@ -535,6 +553,7 @@
           "missing_images": [
             "Henry"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 107,
@@ -563,6 +582,7 @@
           "missing_images": [
             "[maidservant]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 169,
@@ -589,17 +609,18 @@
           "duration": "0:06:19",
           "present_cast": [
             "Audrey Hall",
+            "Fors Wall",
             "Glaint",
-            "Annie",
-            "Fors Wall"
+            "Annie"
           ],
           "images": [
             "Audrey Hall.jpg",
+            "Fors Wall.jpg",
             "Glaint.png",
-            "Annie.png",
-            "Fors Wall.jpg"
+            "Annie.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
@@ -618,15 +639,16 @@
           "duration": "0:03:24",
           "present_cast": [
             "Audrey Hall",
-            "Glaint",
-            "Fors Wall"
+            "Fors Wall",
+            "Glaint"
           ],
           "images": [
             "Audrey Hall.jpg",
-            "Glaint.png",
-            "Fors Wall.jpg"
+            "Fors Wall.jpg",
+            "Glaint.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 89,
@@ -652,6 +674,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 143,
@@ -683,6 +706,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -709,6 +733,7 @@
           "missing_images": [
             "[Sleepless]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 163,
@@ -746,6 +771,7 @@
             "Royale Reideen.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
@@ -773,6 +799,7 @@
             "Royale Reideen.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 53,
@@ -791,17 +818,18 @@
           "duration": "0:00:22",
           "present_cast": [
             "Klein Moretti",
-            "Seeka Tron",
             "Leonard Mitchell",
+            "Seeka Tron",
             "Royale Reideen"
           ],
           "images": [
             "Klein Moretti.jpg",
-            "Seeka Tron.jpg",
             "Leonard Mitchell.jpg",
+            "Seeka Tron.jpg",
             "Royale Reideen.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 119,
@@ -827,6 +855,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 125,
@@ -850,6 +879,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 137,
@@ -883,6 +913,7 @@
             "Melissa Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -906,6 +937,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 43,
@@ -933,6 +965,7 @@
             "Benson Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 113,
@@ -960,6 +993,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 133,
@@ -985,6 +1019,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 147,
@@ -1012,6 +1047,7 @@
             "Elizabeth.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 163,
@@ -1052,6 +1088,7 @@
             "Xaviera Hedda",
             "Mrs. Shaud"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -1079,6 +1116,7 @@
             "Elizabeth.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 53,
@@ -1102,6 +1140,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 69,
@@ -1127,6 +1166,7 @@
             "Elizabeth.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 101,
@@ -1154,6 +1194,7 @@
             "Angelica Barrehart.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 127,
@@ -1187,6 +1228,7 @@
             "Susie.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 3,
@@ -1214,6 +1256,7 @@
             "Azik Eggers.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 65,
@@ -1239,6 +1282,7 @@
             "Azik Eggers.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 79,
@@ -1272,6 +1316,7 @@
             "Azik Eggers.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -1295,6 +1340,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 43,
@@ -1313,16 +1359,21 @@
           "duration": "0:04:46",
           "present_cast": [
             "Klein (as The Fool)",
+            "Alger Wilson",
             "Audrey Hall",
-            "Alger Wilson"
+            "Susie"
           ],
           "images": [
             "The Fool.jpg",
+            "Alger Wilson.jpg",
             "Audrey Hall.jpg",
-            "Alger Wilson.jpg"
+            "Susie.jpg"
           ],
           "missing_images": [],
-          "layout": "row(3)",
+          "mentioned_images": [
+            "Susie.jpg"
+          ],
+          "layout": "row(4)",
           "continues_prev": false,
           "line_start": 49,
           "line_end": 103,
@@ -1347,6 +1398,7 @@
             "Roselle Gustav.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 105,
@@ -1380,6 +1432,7 @@
             "Roselle Gustav.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -1398,15 +1451,16 @@
           "duration": "0:07:05",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
-            "Alger Wilson"
+            "Alger Wilson",
+            "Audrey Hall"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
-            "Alger Wilson.jpg"
+            "Alger Wilson.jpg",
+            "Audrey Hall.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 47,
@@ -1432,14 +1486,15 @@
           "end": "2:41:39",
           "duration": "0:00:49",
           "present_cast": [
-            "Audrey Hall",
-            "Alger Wilson"
+            "Alger Wilson",
+            "Audrey Hall"
           ],
           "images": [
-            "Audrey Hall.jpg",
-            "Alger Wilson.jpg"
+            "Alger Wilson.jpg",
+            "Audrey Hall.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 3,
@@ -1463,6 +1518,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 17,
@@ -1491,6 +1547,7 @@
           "missing_images": [
             "Christina"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 51,
@@ -1519,6 +1576,7 @@
           "missing_images": [
             "Christina"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 87,
@@ -1545,6 +1603,7 @@
           "missing_images": [
             "[customers]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 147,
@@ -1573,6 +1632,7 @@
             "Christina",
             "[young girl in sunhat]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 153,
@@ -1609,6 +1669,7 @@
           "missing_images": [
             "Christina"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -1634,6 +1695,7 @@
             "Rozanne.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 57,
@@ -1663,6 +1725,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 97,
@@ -1689,6 +1752,7 @@
           "missing_images": [
             "Henry"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 119,
@@ -1723,6 +1787,7 @@
           "missing_images": [
             "Henry"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1748,6 +1813,7 @@
             "Daxter Guderian.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 33,
@@ -1773,6 +1839,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 161,
@@ -1804,6 +1871,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -1832,6 +1900,7 @@
             "Gawain",
             "[maidservant]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 55,
@@ -1857,6 +1926,7 @@
             "Leonard Mitchell.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 81,
@@ -1890,6 +1960,7 @@
             "Leonard Mitchell.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -1917,6 +1988,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 51,
@@ -1951,6 +2023,7 @@
             "Lauwis",
             "[sleeping tenant]"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 81,
@@ -1989,6 +2062,7 @@
           "missing_images": [
             "Lauwis"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -2016,6 +2090,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 101,
@@ -2048,6 +2123,7 @@
             "[workhouse director]",
             "[pastor]"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 121,
@@ -2083,6 +2159,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -2108,6 +2185,7 @@
             "Leonard Mitchell.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 13,
@@ -2135,6 +2213,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 91,
@@ -2162,6 +2241,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 99,
@@ -2185,6 +2265,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 107,
@@ -2220,6 +2301,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -2250,6 +2332,7 @@
           "missing_images": [
             "[carriage driver]"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 57,
@@ -2275,6 +2358,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 119,
@@ -2293,17 +2377,18 @@
           "duration": "0:00:39",
           "present_cast": [
             "Klein Moretti",
-            "Dunn Smith",
             "Leonard Mitchell",
+            "Dunn Smith",
             "Frye"
           ],
           "images": [
             "Klein Moretti.jpg",
-            "Dunn Smith.jpg",
             "Leonard Mitchell.jpg",
+            "Dunn Smith.jpg",
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 149,
@@ -2327,6 +2412,7 @@
             "Trissy.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 163,
@@ -2352,18 +2438,19 @@
           "end": "4:24:28",
           "duration": "0:10:24",
           "present_cast": [
+            "Leonard Mitchell",
             "Trissy",
             "Dunn Smith",
-            "Leonard Mitchell",
             "Frye"
           ],
           "images": [
+            "Leonard Mitchell.jpg",
             "Trissy.jpg",
             "Dunn Smith.jpg",
-            "Leonard Mitchell.jpg",
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
@@ -2395,6 +2482,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -2413,17 +2501,18 @@
           "duration": "0:05:47",
           "present_cast": [
             "Klein Moretti",
+            "Leonard Mitchell",
             "Dunn Smith",
-            "Frye",
-            "Leonard Mitchell"
+            "Frye"
           ],
           "images": [
             "Klein Moretti.jpg",
+            "Leonard Mitchell.jpg",
             "Dunn Smith.jpg",
-            "Frye.jpg",
-            "Leonard Mitchell.jpg"
+            "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 63,
@@ -2442,17 +2531,18 @@
           "duration": "0:02:21",
           "present_cast": [
             "Klein Moretti",
-            "Dunn Smith",
             "Leonard Mitchell",
+            "Dunn Smith",
             "Frye"
           ],
           "images": [
             "Klein Moretti.jpg",
-            "Dunn Smith.jpg",
             "Leonard Mitchell.jpg",
+            "Dunn Smith.jpg",
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 143,
@@ -2479,17 +2569,18 @@
           "duration": "0:09:23",
           "present_cast": [
             "Klein Moretti",
-            "Dunn Smith",
             "Leonard Mitchell",
+            "Dunn Smith",
             "Frye"
           ],
           "images": [
             "Klein Moretti.jpg",
-            "Dunn Smith.jpg",
             "Leonard Mitchell.jpg",
+            "Dunn Smith.jpg",
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
@@ -2515,6 +2606,7 @@
             "Leonard Mitchell.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 129,
@@ -2542,6 +2634,7 @@
             "Benson Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 133,
@@ -2577,6 +2670,7 @@
             "Benson Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -2594,13 +2688,18 @@
           "end": "4:52:49",
           "duration": "0:03:30",
           "present_cast": [
-            "Klein (as The Fool)"
+            "Klein (as The Fool)",
+            "Trissy"
           ],
           "images": [
-            "The Fool.jpg"
+            "The Fool.jpg",
+            "Trissy.jpg"
           ],
           "missing_images": [],
-          "layout": "single",
+          "mentioned_images": [
+            "Trissy.jpg"
+          ],
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 11,
           "line_end": 51,
@@ -2625,6 +2724,7 @@
             "Rozanne.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 55,
@@ -2648,6 +2748,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 71,
@@ -2679,6 +2780,7 @@
             "Seeka Tron.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "grid(5)",
           "continues_prev": false,
           "line_start": 97,
@@ -2704,6 +2806,7 @@
             "Old Neil.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 117,
@@ -2727,6 +2830,7 @@
             "Trissy.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 151,
@@ -2752,6 +2856,7 @@
             "Old Neil.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 167,
@@ -2785,6 +2890,7 @@
             "Old Neil.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -2810,6 +2916,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 73,
@@ -2841,6 +2948,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -2867,6 +2975,7 @@
           "missing_images": [
             "Gawain"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 7,
@@ -2895,6 +3004,7 @@
             "[guard]",
             "[elderly vendor]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 63,
@@ -2922,6 +3032,7 @@
             "Swain.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 129,
@@ -2957,6 +3068,7 @@
             "Swain.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -2987,6 +3099,7 @@
           "missing_images": [
             "[Mandated Punishers]"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 59,
@@ -3008,6 +3121,7 @@
             "_default_scene.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "default",
           "continues_prev": false,
           "line_start": 161,
@@ -3043,6 +3157,7 @@
             "Swain.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -3070,6 +3185,7 @@
             "Benson Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 59,
@@ -3095,6 +3211,7 @@
             "Annie.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 105,
@@ -3120,6 +3237,7 @@
             "Glaint.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 127,
@@ -3138,19 +3256,20 @@
           "duration": "0:02:48",
           "present_cast": [
             "Audrey Hall",
-            "Glaint",
             "Fors Wall",
+            "Glaint",
             "Xio Derecha",
             "Mr. A"
           ],
           "images": [
             "Audrey Hall.jpg",
-            "Glaint.png",
             "Fors Wall.jpg",
+            "Glaint.png",
             "Xio Derecha.jpg",
             "Mr. A.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "grid(5)",
           "continues_prev": false,
           "line_start": 135,
@@ -3177,8 +3296,8 @@
           "duration": "0:11:48",
           "present_cast": [
             "Audrey Hall",
-            "Glaint",
             "Fors Wall",
+            "Glaint",
             "Xio Derecha",
             "Mr. A",
             "[facilitator]",
@@ -3186,8 +3305,8 @@
           ],
           "images": [
             "Audrey Hall.jpg",
-            "Glaint.png",
             "Fors Wall.jpg",
+            "Glaint.png",
             "Xio Derecha.jpg",
             "Mr. A.png"
           ],
@@ -3195,6 +3314,7 @@
             "[facilitator]",
             "[young man]"
           ],
+          "mentioned_images": [],
           "layout": "grid(5)",
           "continues_prev": true,
           "line_start": 3,
@@ -3220,6 +3340,7 @@
             "Susie.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 163,
@@ -3253,6 +3374,7 @@
             "Susie.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -3278,6 +3400,7 @@
             "Ademisaul.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 35,
@@ -3301,6 +3424,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 81,
@@ -3328,6 +3452,7 @@
             "Elizabeth.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 99,
@@ -3353,6 +3478,7 @@
             "Elizabeth.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 119,
@@ -3386,6 +3512,7 @@
             "Elizabeth.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -3411,6 +3538,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 115,
@@ -3444,6 +3572,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -3471,6 +3600,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 23,
@@ -3498,6 +3628,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 53,
@@ -3533,6 +3664,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -3558,6 +3690,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 53,
@@ -3585,6 +3718,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 115,
@@ -3611,6 +3745,7 @@
           "missing_images": [
             "[blond man]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 129,
@@ -3645,6 +3780,7 @@
           "missing_images": [
             "[blond man]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -3668,6 +3804,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 37,
@@ -3685,13 +3822,18 @@
           "end": "7:02:57",
           "duration": "0:04:44",
           "present_cast": [
-            "Klein (as The Fool)"
+            "Klein (as The Fool)",
+            "Azik Eggers"
           ],
           "images": [
-            "The Fool.jpg"
+            "The Fool.jpg",
+            "Azik Eggers.jpg"
           ],
           "missing_images": [],
-          "layout": "single",
+          "mentioned_images": [
+            "Azik Eggers.jpg"
+          ],
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 79,
           "line_end": 141,
@@ -3725,6 +3867,7 @@
           "missing_images": [
             "[elder]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -3748,6 +3891,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 53,
@@ -3773,6 +3917,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 77,
@@ -3806,6 +3951,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -3837,6 +3983,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -3860,6 +4007,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 27,
@@ -3886,6 +4034,7 @@
           "missing_images": [
             "[inn boss]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 35,
@@ -3913,6 +4062,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 49,
@@ -3938,6 +4088,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 89,
@@ -3961,6 +4112,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 95,
@@ -3984,6 +4136,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 125,
@@ -4009,13 +4162,18 @@
           "end": "7:51:12",
           "duration": "0:12:34",
           "present_cast": [
-            "Klein (as The Fool)"
+            "Klein (as The Fool)",
+            "Eternal Blazing Sun"
           ],
           "images": [
-            "The Fool.jpg"
+            "The Fool.jpg",
+            "Eternal Blazing Sun Card.png"
           ],
           "missing_images": [],
-          "layout": "single",
+          "mentioned_images": [
+            "Eternal Blazing Sun Card.png"
+          ],
+          "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 139,
@@ -4038,6 +4196,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 141,
@@ -4069,6 +4228,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -4094,6 +4254,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 21,
@@ -4119,6 +4280,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 35,
@@ -4146,6 +4308,7 @@
             "Frye.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 85,
@@ -4171,6 +4334,7 @@
             "Daxter Guderian.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 101,
@@ -4204,6 +4368,7 @@
             "Daxter Guderian.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4227,6 +4392,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 91,
@@ -4258,6 +4424,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -4283,6 +4450,7 @@
             "Elizabeth.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 29,
@@ -4308,6 +4476,7 @@
             "Wendy Smyrin.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 55,
@@ -4331,6 +4500,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 65,
@@ -4354,6 +4524,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 79,
@@ -4379,6 +4550,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 89,
@@ -4397,17 +4569,18 @@
           "duration": "0:01:36",
           "present_cast": [
             "Klein (as The Fool)",
-            "Derrick Berg",
+            "Alger Wilson",
             "Audrey Hall",
-            "Alger Wilson"
+            "Derrick Berg"
           ],
           "images": [
             "The Fool.jpg",
-            "Derrick Berg.jpg",
+            "Alger Wilson.jpg",
             "Audrey Hall.jpg",
-            "Alger Wilson.jpg"
+            "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 125,
@@ -4434,17 +4607,18 @@
           "duration": "0:10:47",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
             "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
@@ -4477,6 +4651,7 @@
             "Florais",
             "Fan Estin"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 109,
@@ -4510,6 +4685,7 @@
             "Roselle Gustav.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4528,18 +4704,23 @@
           "duration": "0:07:35",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
             "Alger Wilson",
-            "Derrick Berg"
+            "Audrey Hall",
+            "Derrick Berg",
+            "Mr. A"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
             "Alger Wilson.jpg",
-            "Derrick Berg.jpg"
+            "Audrey Hall.jpg",
+            "Derrick Berg.jpg",
+            "Mr. A.png"
           ],
           "missing_images": [],
-          "layout": "row(4)",
+          "mentioned_images": [
+            "Mr. A.png"
+          ],
+          "layout": "grid(5)",
           "continues_prev": false,
           "line_start": 41,
           "line_end": 117,
@@ -4565,18 +4746,23 @@
           "duration": "0:07:42",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
             "Alger Wilson",
-            "Derrick Berg"
+            "Audrey Hall",
+            "Derrick Berg",
+            "Qilangos"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
             "Alger Wilson.jpg",
-            "Derrick Berg.jpg"
+            "Audrey Hall.jpg",
+            "Derrick Berg.jpg",
+            "Qilangos.png"
           ],
           "missing_images": [],
-          "layout": "row(4)",
+          "mentioned_images": [
+            "Qilangos.png"
+          ],
+          "layout": "grid(5)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 75,
@@ -4599,6 +4785,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 79,
@@ -4622,6 +4809,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 107,
@@ -4645,6 +4833,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 119,
@@ -4679,6 +4868,7 @@
           "missing_images": [
             "Henry"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -4702,6 +4892,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 29,
@@ -4725,6 +4916,7 @@
             "Klein Moretti.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 55,
@@ -4750,6 +4942,7 @@
             "Daly Simone.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 65,
@@ -4783,6 +4976,7 @@
             "Daly Simone.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4808,6 +5002,7 @@
             "Rozanne.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 103,
@@ -4833,6 +5028,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 113,
@@ -4866,6 +5062,7 @@
             "Dunn Smith.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4891,6 +5088,7 @@
             "Old Neil.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 65,
@@ -4917,6 +5115,7 @@
           "missing_images": [
             "Gawain"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 91,
@@ -4942,6 +5141,7 @@
             "Azik Eggers.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 109,
@@ -4977,6 +5177,7 @@
             "Azik Eggers.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -5002,6 +5203,7 @@
             "Azik Eggers.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 17,
@@ -5027,6 +5229,7 @@
             "Azik Eggers.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 61,
@@ -5137,13 +5340,13 @@
       "status": "background",
       "scenes": 2
     },
-    "Annie": {
-      "status": "have",
-      "scenes": 2
-    },
     "Fors Wall": {
       "status": "have",
       "scenes": 4
+    },
+    "Annie": {
+      "status": "have",
+      "scenes": 2
     },
     "[Sleepless]": {
       "status": "background",
@@ -5171,7 +5374,7 @@
     },
     "Susie": {
       "status": "have",
-      "scenes": 3
+      "scenes": 4
     },
     "Quentin Cohen": {
       "status": "have",
@@ -5179,7 +5382,7 @@
     },
     "Azik Eggers": {
       "status": "have",
-      "scenes": 7
+      "scenes": 8
     },
     "Alger Wilson": {
       "status": "have",
@@ -5239,7 +5442,7 @@
     },
     "Trissy": {
       "status": "have",
-      "scenes": 3
+      "scenes": 4
     },
     "[guard]": {
       "status": "background",
@@ -5259,7 +5462,7 @@
     },
     "Mr. A": {
       "status": "have",
-      "scenes": 2
+      "scenes": 3
     },
     "[facilitator]": {
       "status": "background",
@@ -5285,6 +5488,10 @@
       "status": "background",
       "scenes": 1
     },
+    "Eternal Blazing Sun": {
+      "status": "have",
+      "scenes": 1
+    },
     "Wendy Smyrin": {
       "status": "have",
       "scenes": 1
@@ -5298,7 +5505,11 @@
       "scenes": 1
     },
     "Fan Estin": {
-      "status": "minor",
+      "status": "need",
+      "scenes": 1
+    },
+    "Qilangos": {
+      "status": "have",
       "scenes": 1
     },
     "Daly Simone": {

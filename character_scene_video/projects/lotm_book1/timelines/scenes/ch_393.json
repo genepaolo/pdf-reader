@@ -3,6 +3,24 @@
  "scenes": [
   {
    "line_start": 3,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Derrick Berg",
+    "Alger Wilson",
+    "Audrey Hall",
+    "Fors Wall",
+    "The World"
+   ],
+   "setting": "The word 'angel' reorders the table's understanding of Mr. Fool — you may not look directly at God — and the twelve-ringed worm is named for what it is: a Worm of Time, the vessel made for an avatar, and useful ritual material besides",
+   "text_anchor": "“It should be the vessel that Amon created for his avatar.",
+   "mentioned_characters": [
+    "Amon"
+   ]
+  },
+  {
+   "line_start": 85,
    "line_end": 129,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
@@ -11,11 +29,14 @@
     "Alger Wilson",
     "Audrey Hall",
     "Fors Wall",
-    "[The World]",
-    "True Creator"
+    "The World"
    ],
-   "setting": "The word 'angel' reorders the table's understanding of Mr. Fool ('You may not look directly at God'); the twelve-ringed worm is named a Worm of Time, Amon's avatar vessel, useful as ritual material — then Derrick's real fear: Lovia's returned expedition, corrupted by the Fallen Creator, and Alger's plan to provoke one member into exposing himself",
-   "text_anchor": "“It should be the vessel that Amon created for his avatar."
+   "setting": "The topic turns to the changed monsters and Alger names the cause without hesitating — corruption from the True Creator — which sends Audrey's eyes straight back to the end of the bronze table, remembering whose adorer foiled that descent on Backlund",
+   "text_anchor": "The True Creator? Audrey couldn't help but look at the end of the bronze table.",
+   "mentioned_characters": [
+    "True Creator",
+    "Amon"
+   ]
   }
  ]
 }

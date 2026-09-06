@@ -6,7 +6,9 @@
    "line_end": 29,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
-   "other_characters": ["Roselle Gustav"],
+   "other_characters": [
+    "Roselle Gustav"
+   ],
    "setting": "Diary-reading interlude: the Churches' strange potion policy hides a secret — and Roselle fears his Industrial Revolution creates 'the conditions necessary for the Evil God to descend'",
    "text_anchor": "Messy Chinese sentences were scribbled on the yellowish-brown goatskin."
   },
@@ -15,9 +17,16 @@
    "line_end": 117,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
-   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick"],
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick"
+   ],
    "setting": "Gathering resumes: Qilangos hunts an item that could crown a fifth Pirate King; his habits catalogued for Audrey's search; Klein ponders 'sacrificing' items to himself",
-   "text_anchor": "You can start your discussion freely now."
+   "text_anchor": "You can start your discussion freely now.",
+   "mentioned_characters": [
+    "Qilangos"
+   ]
   },
   {
    "line_start": 119,

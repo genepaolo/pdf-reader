@@ -42,11 +42,13 @@
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
    "other_characters": [
-    "Audrey Hall",
-    "Lanevus"
+    "Audrey Hall"
    ],
    "setting": "Above the gray fog from a club lounge (visions only: Lanevus's taunting face in the dream): divination seals it, and the answer goes to Justice — 'That is Lanevus. Tell the Church of the Evernight Goddess he has the godhood of the Fallen Creator.'",
-   "text_anchor": "“That is Lanevus."
+   "text_anchor": "“That is Lanevus.",
+   "mentioned_characters": [
+    "Lanevus"
+   ]
   },
   {
    "line_start": 145,

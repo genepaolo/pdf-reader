@@ -18,7 +18,10 @@
   "Mr. Gate": "Mr. Door",
   "Bakerland": "Bakerland Jean Madan",
   "Kance": "Kance Leerhsen",
-  "Kohler": "Old Kohler"
+  "Kohler": "Old Kohler",
+  "Earth Mother": "Lilith",
+  "Mother Earth": "Lilith",
+  "Fan Esti": "Fan Estin"
  },
  "_exclude_note": "Not people — dropped from casts/needs-image list (objects/non-character mistags). NOTE: Susie is a real recurring character (Audrey's dog, later a Beyonder) — NOT excluded.",
  "exclude": [],
@@ -659,6 +662,126 @@
    "scene": 1,
    "name": "Darkwill",
    "why": "the Apothecary as the gathering winds down — Darkwill"
+  },
+  {
+   "chapter": 311,
+   "scene": 3,
+   "name": "Fors Wall",
+   "why": "seated through Miss Magician's first gathering; introduced and named in s1 (L3+), still at the table for the Devil run-down (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 358,
+   "scene": 4,
+   "name": "Fors Wall",
+   "why": "seated through the whole gathering; named in the opening stretch, still present when The Sun gives up the City of Silver's secret (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 463,
+   "scene": 3,
+   "name": "Alger Wilson",
+   "why": "seated for the whole gathering; every member's eyes turn to Mr. Fool at L123 as the prince is named (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 464,
+   "scene": 2,
+   "name": "Derrick Berg",
+   "why": "seated for the whole gathering; the three Backlund members plus The Sun are still at the table when Klein closes with 'we shall meet next week' (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 290,
+   "scene": 2,
+   "name": "Derrick",
+   "why": "seated at the table for the whole gathering; named elsewhere in the chapter but not inside this sub-scene (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 292,
+   "scene": 3,
+   "name": "Derrick",
+   "why": "seated at the table for the whole gathering; named elsewhere in the chapter but not inside this sub-scene (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 311,
+   "scene": 2,
+   "name": "Alger Wilson",
+   "why": "seated at the table for the whole gathering; named elsewhere in the chapter but not inside this sub-scene (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 311,
+   "scene": 3,
+   "name": "Audrey Hall",
+   "why": "seated at the table for the whole gathering; named elsewhere in the chapter but not inside this sub-scene (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 311,
+   "scene": 3,
+   "name": "Alger Wilson",
+   "why": "seated at the table for the whole gathering; named elsewhere in the chapter but not inside this sub-scene (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 358,
+   "scene": 4,
+   "name": "Alger Wilson",
+   "why": "seated at the table for the whole gathering; named elsewhere in the chapter but not inside this sub-scene (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 463,
+   "scene": 3,
+   "name": "Audrey Hall",
+   "why": "seated at the table for the whole gathering; named elsewhere in the chapter but not inside this sub-scene (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 463,
+   "scene": 3,
+   "name": "Derrick Berg",
+   "why": "seated at the table for the whole gathering; named elsewhere in the chapter but not inside this sub-scene (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 464,
+   "scene": 2,
+   "name": "Fors Wall",
+   "why": "seated at the table for the whole gathering; named elsewhere in the chapter but not inside this sub-scene (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 464,
+   "scene": 2,
+   "name": "Alger Wilson",
+   "why": "seated at the table for the whole gathering; named elsewhere in the chapter but not inside this sub-scene (scene split 2026-08-30)"
+  },
+  {
+   "chapter": 264,
+   "scene": 5,
+   "name": "Derrick",
+   "why": "seated at the table for the whole gathering; greeted by name at line 57, which now falls in the first half of the split (scene split 2026-09-01)"
+  },
+  {
+   "chapter": 239,
+   "scene": 5,
+   "name": "Apothecary",
+   "why": "his FIRST appearance -- the text calls him only 'a fat-faced man' here; he is named the Apothecary from ch240 on, at the same Eye of Wisdom gathering series. Portrait carries no name, so showing it spoils nothing (2026-09-03)"
+  },
+  {
+   "chapter": 461,
+   "scene": 1,
+   "name": "Alger Wilson",
+   "why": "seated at the bronze table for the whole gathering; named from L19 on but not inside this opening sub-scene"
+  },
+  {
+   "chapter": 461,
+   "scene": 3,
+   "name": "Alger Wilson",
+   "why": "seated for the whole gathering; he is 'The Hanged Man' in these lines"
+  },
+  {
+   "chapter": 461,
+   "scene": 3,
+   "name": "Audrey Hall",
+   "why": "seated for the whole gathering; not named again inside this sub-scene"
+  },
+  {
+   "chapter": 461,
+   "scene": 2,
+   "name": "Earth Mother",
+   "why": "named on the page as 'Earth Mother' (L35, the three hardest to look at); canonicalises to the registry name Lilith, which the text never uses here"
   }
  ]
 }

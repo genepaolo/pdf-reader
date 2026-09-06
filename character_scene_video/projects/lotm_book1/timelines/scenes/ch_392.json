@@ -3,6 +3,21 @@
  "scenes": [
   {
    "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Derrick Berg",
+    "Alger Wilson",
+    "Audrey Hall",
+    "Fors Wall",
+    "The World"
+   ],
+   "setting": "The Sun's ghost story at the table: the split-headed captain standing behind him, the Chief's mystical item, and Alger picking the account apart until the six-member council's use of Derrick as bait is plain — a man who held for decades, losing control the week he came back",
+   "text_anchor": "“Are you looking for me?”"
+  },
+  {
+   "line_start": 53,
    "line_end": 129,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
@@ -11,11 +26,13 @@
     "Alger Wilson",
     "Audrey Hall",
     "Fors Wall",
-    "[The World]",
-    "Amon"
+    "The World"
    ],
-   "setting": "The Sun's ghost story at the table: the split-headed captain behind him, the Chief's mystical item, and Alger deducing the six-member council used Derrick as bait — then the shown image of Amon in pointed hat and crystal monocle, the python-phantom coiled on Derrick's spirit, and the revelation that Mr. Fool sent an angel to purify it",
-   "text_anchor": "“Are you looking for me?”"
+   "setting": "The name behind it: the Blasphemer family, the pointed hat and crystal monocle in the image Derrick shows, and the table working through why that person noticed him — the Sun pathway, the ancient sun god, and something that can sense the gray fog itself",
+   "text_anchor": "The Amon family is known as Blasphemers.",
+   "mentioned_characters": [
+    "Amon"
+   ]
   }
  ]
 }

@@ -71,7 +71,7 @@ def main():
         for si, s in enumerate(json.loads(sf.read_text(encoding="utf-8"))["scenes"], 1):
             txt = scene_text(lines, s["line_start"], s["line_end"])
             tagged = set()
-            for raw in s.get("other_characters", []):
+            for raw in list(s.get("other_characters", [])) + list(s.get("mentioned_characters", [])):
                 if raw.startswith("["):
                     skipped += 1
                     continue

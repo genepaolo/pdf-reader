@@ -5,8 +5,11 @@
    "line_start": 3,
    "line_end": 21,
    "protagonist_present": true,
-   "protagonist_persona": "Sherlock Moriarty",
-   "other_characters": ["[highlander pursuers]", "[train conductor]"],
+   "protagonist_persona": "Klein Moretti",
+   "other_characters": [
+    "[highlander pursuers]",
+    "[train conductor]"
+   ],
    "setting": "Second-class metro carriage: highlander toughs storm in demanding the boy's whereabouts; the conductor points them to third class",
    "text_anchor": "\"Did you see a teenage boy? He's wearing an old coat!\""
   },
@@ -14,8 +17,10 @@
    "line_start": 23,
    "line_end": 35,
    "protagonist_present": true,
-   "protagonist_persona": "Sherlock Moriarty",
-   "other_characters": ["[teenage boy fugitive]"],
+   "protagonist_persona": "Klein Moretti",
+   "other_characters": [
+    "[teenage boy fugitive]"
+   ],
    "setting": "As the metro pulls out, the red-eyed boy calmly re-enters from first class — Klein scans him with Spirit Vision, impressed by his maturity",
    "text_anchor": "The teenage boy walked slowly into the carriage wearing his old coat and round top hat"
   },
@@ -23,7 +28,7 @@
    "line_start": 37,
    "line_end": 45,
    "protagonist_present": true,
-   "protagonist_persona": "Sherlock Moriarty",
+   "protagonist_persona": "Klein Moretti",
    "other_characters": [],
    "setting": "Cherwood Borough: a rented carriage to Minsk Street; the doorbell of Unit 17 pops out a cuckooing mechanical bird",
    "text_anchor": "He took a rented carriage for nearly ten minutes before finding Minsk Street."
@@ -32,26 +37,48 @@
    "line_start": 47,
    "line_end": 61,
    "protagonist_present": true,
-   "protagonist_persona": "Sherlock Moriarty",
-   "other_characters": ["Julianne"],
+   "protagonist_persona": "Klein Moretti",
+   "other_characters": [
+    "Julianne"
+   ],
    "setting": "Unit 17 foyer: the young maidservant warily admits the caller about the Stelyn Sammer rental listing and takes his coat and cane",
    "text_anchor": "A young maidservant dressed in white and black looked warily at Klein"
   },
   {
    "line_start": 63,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein Moretti",
+   "other_characters": [
+    "Stelyn Sammer",
+    "Julianne"
+   ],
+   "setting": "The Sammers' sitting room on Minsk Street: tea offered, the landlady sizing up her prospective tenant, and the question he has been preparing for all the way from Tingen -- how might I address you?",
+   "text_anchor": "“How might I address you?”"
+  },
+  {
+   "line_start": 79,
    "line_end": 139,
    "protagonist_present": true,
    "protagonist_persona": "Sherlock Moriarty",
-   "other_characters": ["Stelyn Sammer", "Julianne"],
-   "setting": "The Sammers' warm parlor: 'Sherlock Moriarty' is coined over Marquis Black Tea as Klein haggles the Unit 15 lease down to half a year, 25 pounds — plus Stelyn's lecture on Backlund living costs",
-   "text_anchor": "The maidservant brought Klein to the sofa and said to her mistress in a pale yellow dress"
+   "other_characters": [
+    "Stelyn Sammer",
+    "Julianne"
+   ],
+   "setting": "He gives the name he had long thought of -- Sherlock Moriarty -- and from this line on that is who he is: the pipes in the kitchen, the machinery-enthusiast husband, the rent, and a new life in Backlund",
+   "text_anchor": "“Sherlock Moriarty. You can call me Sherlock.”"
   },
   {
    "line_start": 141,
    "line_end": 149,
    "protagonist_present": true,
    "protagonist_persona": "Sherlock Moriarty",
-   "other_characters": ["Luke Sammer", "Stelyn Sammer", "Julianne", "[male servant]"],
+   "other_characters": [
+    "Luke Sammer",
+    "Stelyn Sammer",
+    "Julianne",
+    "[male servant]"
+   ],
    "setting": "The master of the house returns: introductions with Luke Sammer, a dinner invitation politely declined",
    "text_anchor": "At that moment, the door suddenly opened. A stout man walked in"
   },
@@ -60,7 +87,9 @@
    "line_end": 155,
    "protagonist_present": true,
    "protagonist_persona": "Sherlock Moriarty",
-   "other_characters": ["Julianne"],
+   "other_characters": [
+    "Julianne"
+   ],
    "setting": "Unit 15: Julianne shows the empty terrace house — rent part of it out if you like, but not to workers",
    "text_anchor": "The layout was very similar to the unit next door."
   },

@@ -30,6 +30,21 @@
   },
   {
    "line_start": 33,
+   "line_end": 65,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "The World"
+   ],
+   "setting": "Tarot Club with a stranger at the table: 'a new member, Mr. World' -- Audrey reads what she can of him through the fog while the members trade greetings, and Mr. Fool sets the candidates' examination",
+   "text_anchor": "“This is a new member, Mr. World.”",
+   "mentioned_characters": []
+  },
+  {
+   "line_start": 67,
    "line_end": 95,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
@@ -37,11 +52,13 @@
     "Audrey Hall",
     "Alger Wilson",
     "Derrick",
-    "[The World]",
-    "Lanevus"
+    "The World"
    ],
-   "setting": "Tarot Club with a stranger at the table: 'a new member, Mr. World'; Justice receives the Lanevus portrait as her candidates' examination task, and Alger hands over six more diary pages",
-   "text_anchor": "“This is a new member, Mr. World.”"
+   "setting": "Klein places the colored oil painting on the table -- neat black hair, round glasses, taunting brown eyes, 'formerly known alias: Lanevus' -- as Justice's task; The World asks about issuing missions, and Alger hands over six more diary pages",
+   "text_anchor": "“Investigate the man in the painting. He’s in Backlund.”",
+   "mentioned_characters": [
+    "Lanevus"
+   ]
   },
   {
    "line_start": 97,

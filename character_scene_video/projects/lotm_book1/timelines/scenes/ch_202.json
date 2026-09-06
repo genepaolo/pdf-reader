@@ -17,14 +17,20 @@
    "protagonist_persona": "The Fool",
    "other_characters": [],
    "setting": "Above the gray fog: the pendulum confirms Dunn's abnormality WILL endanger Klein — but the divination on its cause returns only fog",
-   "text_anchor": "Klein felt much calmer after finishing everything"
+   "text_anchor": "Klein felt much calmer after finishing everything",
+   "mentioned_characters": [
+    "Dunn Smith"
+   ]
   },
   {
    "line_start": 57,
    "line_end": 99,
    "protagonist_present": true,
    "protagonist_persona": "Klein (Beginning)",
-   "other_characters": ["Dunn Smith", "Royale Reideen"],
+   "other_characters": [
+    "Dunn Smith",
+    "Royale Reideen"
+   ],
    "setting": "Morning at Blackthorn: a hollow-eyed Dunn relays the 4000-pound compensation for Kenley's family; shift change with Royale in silence",
    "text_anchor": "The next morning, Klein was on duty at Chanis Gate"
   },
@@ -42,7 +48,11 @@
    "line_end": 127,
    "protagonist_present": true,
    "protagonist_persona": "Klein (Beginning)",
-   "other_characters": ["Bella", "Melissa", "Benson"],
+   "other_characters": [
+    "Bella",
+    "Melissa",
+    "Benson"
+   ],
    "setting": "Home next morning: theater tickets go on sale today; the siblings head to Mass while Klein eats and retreats upstairs",
    "text_anchor": "Having just fished his keys to open the door to his house"
   },
@@ -60,7 +70,10 @@
    "line_end": 171,
    "protagonist_present": false,
    "protagonist_persona": null,
-   "other_characters": ["Derrick", "Lloydia"],
+   "other_characters": [
+    "Derrick",
+    "Lloydia"
+   ],
    "setting": "City of Silver training field: the cancellation reaches Derrick under the eyes of the increasingly strange Shepherd elder, Lloydia",
    "text_anchor": "City of Silver."
   },

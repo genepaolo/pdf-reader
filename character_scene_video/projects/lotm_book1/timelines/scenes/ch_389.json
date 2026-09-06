@@ -17,11 +17,12 @@
    "line_end": 91,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
-   "other_characters": [
-    "Will Auceptin"
-   ],
+   "other_characters": [],
    "setting": "Above the gray fog with the real paper crane (visions only: Will Auceptin propped at a dark window, tarot cards in both hands, wooden blocks laid out as a head-to-tail Ouroboros, running water outside): the Snake of Mercury means fate — and the officials can have this one",
-   "text_anchor": "That Ouroboros-like snake is indeed the Snake of Mercury?"
+   "text_anchor": "That Ouroboros-like snake is indeed the Snake of Mercury?",
+   "mentioned_characters": [
+    "Will Auceptin"
+   ]
   },
   {
    "line_start": 93,

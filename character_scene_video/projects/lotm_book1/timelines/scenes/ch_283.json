@@ -57,11 +57,13 @@
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
    "other_characters": [
-    "Audrey Hall",
-    "Lanevus"
+    "Audrey Hall"
    ],
    "setting": "Above the fog from the Sammers' bathroom: Justice reports the Giant and a suspected Lanevus at the Dock Union; every divination about going there fails — Lanevus may hold a True Creator shield — so Klein plans a reporter's visit with borrowed fake credentials",
-   "text_anchor": "“After tailing the Giant and figuring his in and outs, they discovered a person suspected to be Lanevus"
+   "text_anchor": "“After tailing the Giant and figuring his in and outs, they discovered a person suspected to be Lanevus",
+   "mentioned_characters": [
+    "Lanevus"
+   ]
   }
  ]
 }

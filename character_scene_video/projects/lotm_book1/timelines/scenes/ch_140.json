@@ -8,7 +8,10 @@
    "protagonist_persona": "The Fool",
    "other_characters": [],
    "setting": "Above the gray fog (visions only: a glaring golden sun — the Eternal Blazing Sun): the reckless divination chars Klein and cracks the palace, but yields Sun-pathway formulas and forbidden knowledge",
-   "text_anchor": "The origins of this drop of golden liquid."
+   "text_anchor": "The origins of this drop of golden liquid.",
+   "mentioned_characters": [
+    "Eternal Blazing Sun"
+   ]
   },
   {
    "line_start": 141,

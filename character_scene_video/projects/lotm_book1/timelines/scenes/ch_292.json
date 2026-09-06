@@ -3,6 +3,48 @@
  "scenes": [
   {
    "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "The World"
+   ],
+   "setting": "News exchange, first topic: Alger profiles the four Pirate Kings and seven Admirals for Justice — the hundred-year-old oldest pirate alive, Admiral of Stars Cattleya estranged from Queen Mystery, and the newcomer who took Qilangos's crew and ship and renamed herself Rear Admiral Ailment",
+   "text_anchor": "Admiral of Stars Cattleya was once a follower of Queen Mystery"
+  },
+  {
+   "line_start": 45,
+   "line_end": 81,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "The World"
+   ],
+   "setting": "Audrey switches topics to the eleven Backlund serial murders, and Derrick — who knows such rituals from the City of Silver's records — identifies them as a Devil's advancement ceremony of the Abyss pathway, thirteen victims minimum and forty-nine at most",
+   "text_anchor": "“The Abyss pathway's Sequence 6 is called Devil."
+  },
+  {
+   "line_start": 83,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "The World"
+   ],
+   "setting": "The serial killer set aside, Audrey asks why so few sell potion formulas at Beyonder gatherings — Alger explains the cost, the loss-of-control risk without the acting method, and the trust a formula sale demands",
+   "text_anchor": "“Mr. Hanged Man, there's something that I've been wondering about."
+  },
+  {
+   "line_start": 101,
    "line_end": 123,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
@@ -10,13 +52,13 @@
     "Audrey Hall",
     "Alger Wilson",
     "Derrick",
-    "[The World]",
-    "Cattleya",
-    "Qilangos",
-    "True Creator"
+    "The World"
    ],
-   "setting": "News exchange: Alger profiles the four Pirate Kings and seven Admirals (new Rear Admiral Ailment Tracy included); Derrick identifies the serial killings as a Devil's 13-to-49-victim advancement ritual of the Abyss pathway; and the upside-down crucified statue found near the City of Silver draws Mr. Fool's verdict — 'That's the Fallen Creator'",
-   "text_anchor": "“The Abyss pathway's Sequence 6 is called Devil."
+   "setting": "Audrey suggests sealing the deal with an oath, and Alger names the problem: no one swears in an underground gathering by one of the seven orthodox gods — which turns the table to the statue The Sun found in the Forsaken Land of the Gods, and to Mr. Fool's own naming of it",
+   "text_anchor": "“That's the Fallen Creator.”",
+   "mentioned_characters": [
+    "True Creator"
+   ]
   }
  ]
 }

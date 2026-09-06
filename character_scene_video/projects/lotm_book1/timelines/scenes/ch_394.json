@@ -3,6 +3,24 @@
  "scenes": [
   {
    "line_start": 3,
+   "line_end": 27,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Derrick Berg",
+    "Alger Wilson",
+    "Audrey Hall",
+    "Fors Wall",
+    "The World"
+   ],
+   "setting": "Justice looks to Mr. Fool because she knows whose conflicts these are: The World offers an item holding the True Creator's mental corruption, and Derrick weighs a one-time loan against a Human-skinned Shadow he can actually expect to meet",
+   "text_anchor": "“I have an item that contains the mental corruption of the True Creator.”",
+   "mentioned_characters": [
+    "True Creator"
+   ]
+  },
+  {
+   "line_start": 29,
    "line_end": 109,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
@@ -11,11 +29,10 @@
     "Alger Wilson",
     "Audrey Hall",
     "Fors Wall",
-    "[The World]",
-    "True Creator"
+    "The World"
    ],
-   "setting": "The World does what The Fool cannot: lends the All-Black Eye for a price and a return date, while Alger drills Derrick on staging the confrontation; then Fors buys her answer — the Apprentice pathway belongs to the Abraham family, who bear a bloodline curse — and the floor turns to gossip, where Audrey opens with the Hero Bandit Dark Emperor",
-   "text_anchor": "“I have an item that contains the mental corruption of the True Creator.”"
+   "setting": "The World does what The Fool cannot: the All-Black Eye lent for a price and a return date, Alger drilling Derrick on how to stage the confrontation, and Fors buying her own answer about the Apprentice pathway",
+   "text_anchor": "“Very good, I will ask for Mr. Fool's help to lend it to you.”"
   }
  ]
 }

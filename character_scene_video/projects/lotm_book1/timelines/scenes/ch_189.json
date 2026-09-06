@@ -6,7 +6,10 @@
    "line_end": 25,
    "protagonist_present": true,
    "protagonist_persona": "Klein (Beginning)",
-   "other_characters": ["Benson", "Melissa"],
+   "other_characters": [
+    "Benson",
+    "Melissa"
+   ],
    "setting": "Daffodil Street: planning a family outing to 'The Return of the Count' — until a buzz in Klein's ears announces a prayer",
    "text_anchor": "Tingen City, Daffodil Street."
   },
@@ -17,14 +20,19 @@
    "protagonist_persona": "The Fool",
    "other_characters": [],
    "setting": "Above the gray fog (visions only: Justice praying in a dark corner): Qilangos is at Duke Negan's ball as Baron Gramir — The Fool weighs his options",
-   "text_anchor": "Klein went to the second floor and locked the door to his room."
+   "text_anchor": "Klein went to the second floor and locked the door to his room.",
+   "mentioned_characters": [
+    "Qilangos"
+   ]
   },
   {
    "line_start": 65,
    "line_end": 83,
    "protagonist_present": false,
    "protagonist_persona": null,
-   "other_characters": ["Audrey Hall"],
+   "other_characters": [
+    "Audrey Hall"
+   ],
    "setting": "Leaving the prayer room: the fog rises around Audrey and Mr. Fool's deep voice answers 'I'm aware' — her unease melts away",
    "text_anchor": "In a small prayer room in Duke Negan's mansion."
   },
@@ -42,7 +50,9 @@
    "line_end": 129,
    "protagonist_present": false,
    "protagonist_persona": null,
-   "other_characters": ["Alger Wilson"],
+   "other_characters": [
+    "Alger Wilson"
+   ],
    "setting": "Holy Wind Cathedral: the fog descends even here — Alger sees the prayer replay and heads for Archbishop Ace Snake",
    "text_anchor": "Backlund, Cherwood Backlund. At the Holy Wind Cathedral."
   },

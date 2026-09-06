@@ -21,6 +21,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from align_chapter import load as align_load, scene_span  # noqa: E402
 from charvid_project import pop_project_arg               # noqa: E402
+from compose_frames import MAX_PER_FRAME                  # noqa: E402
 
 
 def load_images(P):
@@ -58,11 +59,13 @@ AVAIL = REGISTRY = ALIASES = EXCLUDE = CONT = DECISIONS = DUR = None
 PERSONA = FLIPS = None
 PROTAG_PREFIX = INDEX_LABEL = None
 DEFAULT_IMG = None
+PRIORITY = []
+ALLIES = []
 
 
 def init(project):
     global P, AVAIL, REGISTRY, ALIASES, EXCLUDE, CONT, DECISIONS, DUR
-    global PERSONA, FLIPS, PROTAG_PREFIX, INDEX_LABEL, DEFAULT_IMG
+    global PERSONA, FLIPS, PROTAG_PREFIX, INDEX_LABEL, DEFAULT_IMG, PRIORITY, ALLIES
     P = project
     AVAIL = load_images(P)
     REGISTRY = set(json.loads(P.registry_file.read_text(encoding="utf-8"))["characters"])
@@ -78,6 +81,8 @@ def init(project):
     PROTAG_PREFIX = P.persona.get("protagonist_prefix") or "\x00no-protagonist"
     INDEX_LABEL = P.persona.get("index_label", "(protagonist)")
     DEFAULT_IMG = P.cfg.get("default_image")
+    PRIORITY = list(P.cfg.get("portrait_priority", {}).get("members", []))
+    ALLIES = list(P.cfg.get("portrait_priority", {}).get("allies", []))
 
 
 def body_chars(n, ls, le):
@@ -97,30 +102,71 @@ def resolve(scene, chapter, carried=()):
         if persona == f["from"] and chapter >= f["at_chapter"]:
             persona = f["to"]
     cast, images, missing = [], [], []
+    protag_img = None
     if scene.get("protagonist_present") and persona:
         label, img = PERSONA[persona]
-        cast.append(label); images.append(img)
+        cast.append(label); protag_img = img
     others = list(scene.get("other_characters", []))
     for nm in carried:                           # carry cast across a continuing chapter boundary
         if nm not in others:
             others.append(nm)
     seen = set()
-    for name in others:
-        name = ALIASES.get(name, name)          # canonicalize (merge invented surnames/title prefixes)
-        if name in EXCLUDE or name in seen:      # drop non-people / dedupe
-            continue
-        seen.add(name)
+
+    def canon(seq):
+        """-> canonical names, deduped, EXCLUDE dropped, keeping the given order."""
+        out = []
+        for raw in seq:
+            nm = ALIASES.get(raw, raw)           # merge invented surnames / title prefixes
+            if nm in EXCLUDE or nm in seen:      # drop non-people / dedupe
+                continue
+            seen.add(nm)
+            out.append(nm)
+        return out
+
+    def rank(nm):
+        """Tarot Club members first (roster order), then recurring allies, then everyone else in
+        the scene's own order -- which is where antagonists land (user ruling 2026-09-03)."""
+        if nm in PRIORITY:
+            return PRIORITY.index(nm)
+        if nm in ALLIES:
+            return len(PRIORITY) + ALLIES.index(nm)
+        return len(PRIORITY) + len(ALLIES)
+
+    present = sorted(canon(others), key=rank)    # stable sort: only lifts members to the front
+    # mentioned-only: discussed above the gray fog but not in the room (TAGGING_GUIDE.md).
+    # Always last, so a frame reads "who is here, then who they are talking about".
+    talked = canon(scene.get("mentioned_characters", []))
+    # frame_focus="mentioned" (USER DECISION 2026-09-01): a "camera on the subject" frame. The
+    # scene shows ONLY who is being visualized and drops the room -- for beats where the table is
+    # staring at something rather than at each other (ch461's mural of the six gods). Everyone
+    # present stays in `cast`, so verify_tags still grounds every name and the report still counts
+    # their screen time; they simply aren't in the picture. No gold rims: the rim means "discussed,
+    # not here", which carries no information when the whole frame is discussed-only.
+    focus = scene.get("frame_focus")
+    shown = set(talked) if focus == "mentioned" else None
+    if protag_img and shown is None:
+        images.append(protag_img)
+    mentioned_images = []
+    for name in present + talked:
         cast.append(name)
-        (images.append(AVAIL[name]) if name in AVAIL else missing.append(name))
+        if name not in AVAIL:
+            missing.append(name)
+            continue
+        if shown is not None and name not in shown:
+            continue
+        images.append(AVAIL[name])
+        if name in talked and shown is None:
+            mentioned_images.append(AVAIL[name])
     if not images:
         # USER DECISION 2026-08-27: when nobody on screen has a portrait, show the project's
         # default image (book cover) instead of holding the previous frame -- holding falsely
         # implied the previous scene's cast (e.g. Alger lingering over the Jack scene in ch53).
         if DEFAULT_IMG:
-            return cast, [DEFAULT_IMG], missing, "default"
-        return cast, ["(hold previous frame)"], missing, "hold-previous"
+            return cast, [DEFAULT_IMG], missing, [], "default"
+        return cast, ["(hold previous frame)"], missing, [], "hold-previous"
     n = len(images)
-    return cast, images, missing, ("single" if n == 1 else (f"row({n})" if n <= 4 else f"grid({n})"))
+    return (cast, images, missing, mentioned_images,
+            "single" if n == 1 else (f"row({n})" if n <= 4 else f"grid({n})"))
 
 
 def classify(label):
@@ -187,7 +233,8 @@ def main():
         carried = cont.get("carried_others", []) if continues else []
         rows = []
         for idx, (s, cc) in enumerate(zip(specs, counts)):
-            cast, images, missing, layout = resolve(s, ch, carried if idx == 0 else ())
+            cast, images, missing, ment_imgs, layout = resolve(
+                s, ch, carried if idx == 0 else ())
             if layout == "hold-previous" and prev_images:   # carry the actual previous frame
                 images = list(prev_images)
             cont_prev = idx == 0 and continues
@@ -200,6 +247,7 @@ def main():
             ch_offset = ch_end
             rows.append({"start": hms(offset), "end": hms(offset + dur), "duration": hms(dur),
                          "present_cast": cast, "images": images, "missing_images": missing,
+                         "mentioned_images": ment_imgs,
                          "layout": layout, "continues_prev": cont_prev,
                          "line_start": s["line_start"], "line_end": s["line_end"],
                          "setting": s.get("setting", ""),
@@ -274,6 +322,20 @@ def main():
           f"{sum(len(c['scenes']) for c in chapters_out)} scenes, {hms(offset)}")
     print(f"  wiki chars needing images: {len(need)}")
     print(f"  -> {', '.join(need)}")
+
+    over = [(c["chapter"], i, len(r["images"]))
+            for c in chapters_out for i, r in enumerate(c["scenes"], 1)
+            if len(r["images"]) > MAX_PER_FRAME]
+    at_cap = [(c["chapter"], i) for c in chapters_out for i, r in enumerate(c["scenes"], 1)
+              if len(r["images"]) == MAX_PER_FRAME]
+    if over:
+        print(f"  !! OVER THE {MAX_PER_FRAME}-PORTRAIT FRAME CAP -- compose_frames DROPS the "
+              f"extras silently (they sort last, i.e. the mentioned-only names):")
+        for ch, i, n in over:
+            print(f"     ch{ch} s{i}: {n} portraits ({n - MAX_PER_FRAME} will not be shown)")
+    if at_cap:
+        print(f"  note: {len(at_cap)} scene(s) sit exactly at the {MAX_PER_FRAME}-portrait cap: "
+              + ", ".join(f"ch{ch} s{i}" for ch, i in at_cap))
 
 
 if __name__ == "__main__":

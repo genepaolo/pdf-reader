@@ -8,7 +8,11 @@
    "protagonist_persona": "The Fool",
    "other_characters": [],
    "setting": "Dream divination above the fog (visions only: Welch, Naya, Hanass Vincent selling the notebook): Clown clues lead to the third man at the trade",
-   "text_anchor": "Clues to the Clown potion."
+   "text_anchor": "Clues to the Clown potion.",
+   "mentioned_characters": [
+    "Hanass Vincent",
+    "Ray Bieber"
+   ]
   },
   {
    "line_start": 127,

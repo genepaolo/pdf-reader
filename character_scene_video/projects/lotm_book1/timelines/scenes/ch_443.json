@@ -17,11 +17,12 @@
    "line_end": 147,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
-   "other_characters": [
-    "Talim Dumont"
-   ],
+   "other_characters": [],
    "setting": "Midnight above the gray fog with the smuggled handkerchief (visions only: a blood-marked wooden puppet, a beautiful hand with a sapphire pinky ring, a black flame pressed to the puppet's heart): a curse indeed — and the repeat divination returns nothing at all, the same wall 0-08 once put up. The plan becomes: tell the prince he failed",
-   "text_anchor": "What did Talim get himself involved in?"
+   "text_anchor": "What did Talim get himself involved in?",
+   "mentioned_characters": [
+    "Talim Dumont"
+   ]
   },
   {
    "line_start": 151,

@@ -3,25 +3,39 @@
  "scenes": [
   {
    "line_start": 3,
-   "line_end": 53,
+   "line_end": 21,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
-   "other_characters": [
+   "other_characters": [],
+   "setting": "Above the gray fog, weighing whether to report the illegal gathering: Mr. A has surely planned his escape, and a report would only confirm for him that The Fool's believer sits in that room",
+   "text_anchor": "Report Mr. A! Report illegal gatherings!",
+   "mentioned_characters": [
     "Mr. A"
-   ],
-   "setting": "Above the gray fog, weighing whether to report Mr. A's gathering (and doom a room of innocents to Aurora corruption) — until the joyous, helpless truth lands: 'There's only one believer and adorer of The Fool! And that's me!' The answer sent down is two words: don't worry",
-   "text_anchor": "“There’s only one believer and adorer of The Fool! And that’s me!”"
+   ]
   },
   {
    "line_start": 57,
+   "line_end": 71,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Fors Wall"
+   ],
+   "setting": "Mr. Fool answers Fors with a name, and she understands at once why the Aurora Order came hunting his believers — the City of Silver business was god set against god, and she does not dare ask further",
+   "text_anchor": "Behind this incident is a confrontation and struggle between Mr. Fool and the True Creator",
+   "mentioned_characters": [
+    "True Creator"
+   ]
+  },
+  {
+   "line_start": 73,
    "line_end": 89,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
    "other_characters": [
-    "Fors Wall",
-    "True Creator"
+    "Fors Wall"
    ],
-   "setting": "Fors learns the Aurora Order serves the True Creator — so this is god against god — reports Lawrence's death, notebook and characteristic, is told to 'follow the true desires in your heart', and trades 600 pounds for the Sheriff characteristic",
+   "setting": "Fors asks what she should do and gets an answer she can take any way she likes — follow the true desires in your heart — while Klein privately envies how lucky Miss Magician is",
    "text_anchor": "“Follow the true desires in your heart.”"
   },
   {

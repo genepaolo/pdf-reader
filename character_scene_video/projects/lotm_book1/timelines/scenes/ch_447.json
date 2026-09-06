@@ -3,17 +3,33 @@
  "scenes": [
   {
    "line_start": 3,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Horamick Haydn",
+    "Ikanser Bernard",
+    "[Machinery Hivemind members]"
+   ],
+   "setting": "Watching through Arrodes: the Machinery Hivemind breaches the main tomb -- the Specter Portrait Frame bagged in black cloth by an archbishop who turns out to be an alchemical doll, rusted gears and springs dropping off him, the aged corpses, the empty coffin with its twelve-ringed worm cushion",
+   "text_anchor": "“This is likely to be the Specter Portrait Frame",
+   "mentioned_characters": []
+  },
+  {
+   "line_start": 143,
    "line_end": 157,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
    "other_characters": [
     "Horamick Haydn",
     "Ikanser Bernard",
-    "[Machinery Hivemind members]",
-    "Amon"
+    "[Machinery Hivemind members]"
    ],
-   "setting": "Deeper in: the Specter Portrait Frame bagged in black cloth by an archbishop who turns out to be an alchemical doll — rusted gears and springs dropping off him as the aging path to the dais strips him — past corpses withered to ninety years old, to an empty coffin cushioned with a twelve-ringed worm, and the upturned portrait he lifts: a smiling young man in a pointed hat with a crystal monocle. Amon",
-   "text_anchor": "Amon!"
+   "setting": "Horamick turns the picture frame around and its portrait is reflected in every eye: a smiling young man, black curls, a crystal monocle over one eye, a black pointed hat -- Amon",
+   "text_anchor": "Amon!",
+   "mentioned_characters": [
+    "Amon"
+   ]
   }
  ]
 }

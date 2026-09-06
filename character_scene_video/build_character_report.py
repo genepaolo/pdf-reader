@@ -70,7 +70,9 @@ def main():
             setting = s.get("setting", "")
             if s.get("protagonist_present"):
                 add("Klein (protagonist)", ch, setting)
-            others = list(s.get("other_characters", [])) + (carried if idx == 0 else [])
+            others = (list(s.get("other_characters", []))
+                      + list(s.get("mentioned_characters", []))
+                      + (carried if idx == 0 else []))
             seen = set()
             for raw in others:
                 nm = ALIASES.get(raw, raw)

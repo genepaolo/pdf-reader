@@ -1,9 +1,42 @@
 # Character-Scene Videos — STATUS / Session Handoff
 
-**Read this first to resume.** Last updated 2026-08-29 (**VOLUME 2 IS BUILT AND PACKED —
-ch214-482 tagged, verified, rendered, concatenated into 5 upload parts, packs + thumbnails
-written**; Volume 1 ch1-213 likewise done/packed. BOTH volumes are now waiting on the same thing:
-**manual Studio upload**, Volume 1 first).
+**Read this first to resume.** Last updated 2026-09-02 (**BOTH VOLUMES FULLY RE-RENDERED,
+RE-CONCATENATED AND RE-PACKED** with the 2026-08-31→09-02 upgrades: member-first portrait
+ordering, gold mentioned-rims, 7 deity cards, frame_focus, delayed-entrance splits, and the
+missing-tag sweep. Volume 1 is live on YouTube (old frames — re-upload optional); **Volume 2's 5
+parts await manual Studio upload**. P1 thumbnail A/B test runs until ~Sep 11).
+
+## Full re-render + re-pack 2026-09-02 (the deferred "render sweep")
+- All 482 chapters re-rendered with `--force` (log-verified 482/482, 0 failures) AND frame-grab
+  verified (ch196 Sharon, ch447 Amon reveal at 11:55 vs clean 5:00, ch461 six-god mural).
+- All 9 upload parts re-concatenated fresh (each 10:07–11:10, under the 12 h cap) + packs regenerated.
+  ⚠ `build_block_video.py` SKIPS existing part MP4s without `--force` — same trap as
+  `render_chapter.py`; the first concat run silently kept 9 stale files while the packs regenerated.
+- `render_chapter.py` bug fixed: my mentioned-images patch referenced `sc`/undefined vars and had
+  never run; steps now carry the mentioned list end to end.
+- ch447's +3 s "DURATION MISMATCH" is benign: the MP3 has ~3 s trailing silence beyond the
+  alignment total; `-shortest` extends the last frame to cover it.
+
+## frame_focus + delayed entrances + missing-tag sweep 2026-09-01→02 (user decisions)
+- **`frame_focus: "mentioned"`** (build_block): frame shows ONLY the mentioned names — reserved for
+  over-cap crowding; the sole instance is **ch461 s2** (six-god mural incl. True Creator; user kept
+  Him despite the style break). Cast/report/verify unaffected; no gold rims in a focus frame.
+- **Delayed entrances** (splits, nobody dropped): ch447 s1→s1+s2 (Amon's portrait lands only when
+  Horamick turns the frame — his face no longer spoils 11:44 of tomb crawl); ch264 s4→s4+s5
+  (Lanevus arrives with the painting; +1 verified_present for seated Derrick).
+- **Missing-tag sweep** (names substantially discussed in Fool scenes but untagged; 103 raw hits
+  judged): 22 scenes gained mentioned tags (Qilangos ×6 incl. his in-scene portrait ch146, Azik,
+  Trissy, Susie, Mr. A, Ince Zangwill+Selena, Dunn Smith, Hanass Vincent+Ray Bieber, True Creator
+  ×4, Amon ch393 both halves, EBS ch140, Lilith ch468). **ch460 s3: Derrick was MISSING from the
+  cast while speaking — presence fix.** ch447 s1's Amon ×8 stays deliberately untagged (spoiler).
+- **Sharon ≠ Sharron (user correction ×2):** Madam Sharon (Backlund madam, Demoness pathway,
+  ch174/195-199, own user-supplied donghua portrait `Sharon.png`) is NOT Sharron (Wraith bodyguard,
+  ch244+). A briefly-added alias wrongly overrode her portrait with Sharron's card — unwound, the
+  6 affected chapters re-rendered. Do NOT re-merge them.
+- Frame cap: `build_block.py` now imports MAX_PER_FRAME and prints over/at-cap warnings per build;
+  both volumes scan clean (largest frame: 8 portraits, ch461 s3).
+- All 11 blocks verify_tags: **0 to fix** (172/258/254/243/72/216/238/201/247/258/109).
+- New standing rules recorded in `TAGGING_GUIDE.md` (frame focus + delayed entrances).
 
 ## Volume 2 — BUILT 2026-08-29
 - Frames: `compose_frames.py --block --contact-sheet` composed the 83 new portrait sets (212

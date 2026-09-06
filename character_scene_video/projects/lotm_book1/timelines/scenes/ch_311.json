@@ -3,6 +3,39 @@
  "scenes": [
   {
    "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "Fors Wall",
+    "The World"
+   ],
+   "setting": "Miss Magician's first gathering: mutual profiling all around, Audrey nearly placing Fors by her voice alone, and The Sun asking for information he then realizes he requested before Mr. Fool agreed to it",
+   "text_anchor": "“This is Miss Magician, our new member.”"
+  },
+  {
+   "line_start": 45,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "Fors Wall",
+    "The World"
+   ],
+   "setting": "The World trades what he knows of the True Creator to The Sun — twisted, fallen, mad — and Derrick reads the goatskin again and again, because the creator of everything going mad is the only answer that fits what happened to the City of Silver",
+   "text_anchor": "the True Creator was known as the creator of everything!",
+   "mentioned_characters": [
+    "True Creator"
+   ]
+  },
+  {
+   "line_start": 87,
    "line_end": 125,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
@@ -11,11 +44,10 @@
     "Alger Wilson",
     "Derrick",
     "Fors Wall",
-    "[The World]",
-    "True Creator"
+    "The World"
    ],
-   "setting": "Miss Magician's first gathering: mutual profiling all around (Audrey nearly IDs Fors); The World trades True Creator impressions to The Sun for the full run-down on Devils — danger-sensing revenge instinct included, and animals can become them too — plus the near-impregnable Guardian",
-   "text_anchor": "“This is Miss Magician, our new member.”"
+   "setting": "The World collects his half of the bargain: the full run-down on Devils — the danger-sensing revenge instinct, animals that can become them too — and the near-impregnable Guardian",
+   "text_anchor": "“It's time for you to answer my question,”"
   }
  ]
 }

@@ -18,6 +18,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -39,11 +40,12 @@
             "[black shadow]"
           ],
           "images": [
-            "Colin Iliad.jpg"
+            "Colin Iliad.png"
           ],
           "missing_images": [
             "[black shadow]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 41,
@@ -67,6 +69,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 87,
@@ -92,6 +95,7 @@
             "Crestet Cesimir.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 105,
@@ -126,6 +130,7 @@
           "missing_images": [
             "[aged voice in Leonard's mind]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -154,6 +159,7 @@
             "[maid]",
             "[male house owner]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 71,
@@ -177,6 +183,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 137,
@@ -208,6 +215,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -231,6 +239,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 39,
@@ -254,6 +263,7 @@
             "Alger Wilson.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 67,
@@ -277,6 +287,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 125,
@@ -311,6 +322,7 @@
           "missing_images": [
             "Doris"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 3,
@@ -339,6 +351,7 @@
           "missing_images": [
             "Mary"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 45,
@@ -366,6 +379,7 @@
             "Mary",
             "Hibbert Hall"
           ],
+          "mentioned_images": [],
           "layout": "default",
           "continues_prev": false,
           "line_start": 121,
@@ -389,6 +403,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 141,
@@ -420,6 +435,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -448,6 +464,7 @@
           "missing_images": [
             "Escalante"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 53,
@@ -466,15 +483,16 @@
           "duration": "0:04:01",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Utravsky",
-            "Emlyn White"
+            "Emlyn White",
+            "Utravsky"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Utravsky.png",
-            "Emlyn White.jpg"
+            "Emlyn White.jpg",
+            "Utravsky.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 103,
@@ -510,6 +528,7 @@
             "Utravsky.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -535,6 +554,7 @@
             "Emlyn White.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 113,
@@ -568,6 +588,7 @@
             "Emlyn White.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -591,6 +612,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 41,
@@ -614,6 +636,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 95,
@@ -640,6 +663,7 @@
           "missing_images": [
             "Stuart"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 143,
@@ -674,6 +698,7 @@
           "missing_images": [
             "Stuart"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -697,6 +722,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 73,
@@ -722,6 +748,7 @@
             "Emlyn White.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 87,
@@ -752,6 +779,7 @@
           "missing_images": [
             "Doris"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 133,
@@ -785,6 +813,7 @@
             "Emlyn White.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -810,6 +839,7 @@
             "Old Kohler.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 43,
@@ -836,6 +866,7 @@
           "missing_images": [
             "[blue-eyed old man]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 91,
@@ -866,6 +897,7 @@
             "Liv",
             "[eldest daughter]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 139,
@@ -906,6 +938,7 @@
             "Freja",
             "[eldest daughter]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -931,6 +964,7 @@
             "Old Kohler.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 95,
@@ -957,6 +991,7 @@
           "missing_images": [
             "[carriage driver]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 111,
@@ -983,6 +1018,7 @@
           "missing_images": [
             "Lawrence Nord"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 149,
@@ -1016,6 +1052,7 @@
           "missing_images": [
             "Lawrence Nord"
           ],
+          "mentioned_images": [],
           "layout": "default",
           "continues_prev": true,
           "line_start": 3,
@@ -1039,6 +1076,7 @@
             "Fors Wall.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 39,
@@ -1062,6 +1100,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 57,
@@ -1087,6 +1126,7 @@
             "Fors Wall.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 75,
@@ -1118,6 +1158,7 @@
             "Fors Wall.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1141,6 +1182,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 15,
@@ -1167,6 +1209,7 @@
           "missing_images": [
             "[birthmarked henchman]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 113,
@@ -1201,6 +1244,7 @@
           "missing_images": [
             "[birthmarked henchman]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1227,6 +1271,7 @@
           "missing_images": [
             "[birthmarked henchman]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 131,
@@ -1255,6 +1300,7 @@
             "[birthmarked henchman]",
             "[Zmanger highlanders]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 141,
@@ -1278,6 +1324,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 159,
@@ -1309,6 +1356,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1342,6 +1390,7 @@
             "Katy",
             "Parker"
           ],
+          "mentioned_images": [],
           "layout": "default",
           "continues_prev": false,
           "line_start": 35,
@@ -1365,6 +1414,7 @@
             "Hero Bandit.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 137,
@@ -1405,6 +1455,7 @@
             "Parker",
             "Capim"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1437,6 +1488,7 @@
             "Parker",
             "Capim"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 45,
@@ -1477,6 +1529,7 @@
             "Parker",
             "Capim"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1517,6 +1570,7 @@
             "Parker",
             "Capim"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1540,14 +1594,15 @@
             "[captive girls]"
           ],
           "images": [
-            "Hero Bandit.png"
+            "Hero Bandit.png",
+            "Daisy.png"
           ],
           "missing_images": [
             "Belize",
-            "Daisy",
             "[captive girls]"
           ],
-          "layout": "single",
+          "mentioned_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 81,
           "line_end": 129,
@@ -1569,13 +1624,14 @@
             "[captive girls]"
           ],
           "images": [
-            "Hero Bandit.png"
+            "Hero Bandit.png",
+            "Daisy.png"
           ],
           "missing_images": [
-            "Daisy",
             "[captive girls]"
           ],
-          "layout": "single",
+          "mentioned_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 131,
           "line_end": 139,
@@ -1598,6 +1654,7 @@
             "Hero Bandit.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 141,
@@ -1626,6 +1683,7 @@
           "missing_images": [
             "[golden-eyed man]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 161,
@@ -1660,6 +1718,7 @@
           "missing_images": [
             "[golden-eyed man]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -1683,6 +1742,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 33,
@@ -1706,6 +1766,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 111,
@@ -1731,6 +1792,7 @@
             "Mr. A.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 127,
@@ -1764,6 +1826,7 @@
             "Xio Derecha.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -1785,12 +1848,12 @@
             "Eye of Wisdom"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Sherlock Moriarty.jpg",
+            "Eye of Wisdom.png"
           ],
-          "missing_images": [
-            "Eye of Wisdom"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 39,
           "line_end": 99,
@@ -1816,6 +1879,7 @@
           "missing_images": [
             "[Mandated Punisher captain]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 103,
@@ -1841,6 +1905,7 @@
             "Earl Hall.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 123,
@@ -1874,6 +1939,7 @@
             "Earl Hall.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -1897,6 +1963,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 21,
@@ -1920,15 +1987,15 @@
             "[police officer]"
           ],
           "images": [
-            "_default_scene.jpg"
+            "Daisy.png"
           ],
           "missing_images": [
-            "Daisy",
             "Freja",
             "Liv",
             "[police officer]"
           ],
-          "layout": "default",
+          "mentioned_images": [],
+          "layout": "single",
           "continues_prev": false,
           "line_start": 55,
           "line_end": 129,
@@ -1953,6 +2020,7 @@
           "missing_images": [
             "[secret chamber investigators]"
           ],
+          "mentioned_images": [],
           "layout": "default",
           "continues_prev": false,
           "line_start": 133,
@@ -1995,6 +2063,7 @@
             "Christine",
             "Jane"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 3,
@@ -2018,6 +2087,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 63,
@@ -2047,6 +2117,7 @@
             "Talim Dumont.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 89,
@@ -2070,6 +2141,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 127,
@@ -2100,13 +2172,14 @@
             "Lovia"
           ],
           "images": [
-            "Derrick Berg.jpg"
+            "Derrick Berg.jpg",
+            "Lovia.png"
           ],
           "missing_images": [
-            "Darc Regence",
-            "Lovia"
+            "Darc Regence"
           ],
-          "layout": "single",
+          "mentioned_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 31,
@@ -2135,6 +2208,7 @@
             "Talim Dumont.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 35,
@@ -2165,6 +2239,7 @@
             "[maid]",
             "[old gentleman tenant]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 97,
@@ -2196,10 +2271,11 @@
           ],
           "images": [
             "Derrick Berg.jpg",
-            "Colin Iliad.jpg",
+            "Colin Iliad.png",
             "Aaron Ceres.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -2223,6 +2299,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 67,
@@ -2248,6 +2325,7 @@
             "Aaron Ceres.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 81,
@@ -2279,6 +2357,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -2304,6 +2383,7 @@
             "Old Kohler.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 69,
@@ -2329,14 +2409,15 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Old Kohler.png"
+            "Old Kohler.png",
+            "Daisy.png"
           ],
           "missing_images": [
-            "Daisy",
             "Liv",
             "Freja"
           ],
-          "layout": "row(2)",
+          "mentioned_images": [],
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 95,
           "line_end": 127,
@@ -2369,6 +2450,7 @@
             "Old Kohler.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -2397,6 +2479,7 @@
           "missing_images": [
             "Escalante"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 31,
@@ -2427,6 +2510,7 @@
           "missing_images": [
             "[Aaron's wife]"
           ],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 69,
@@ -2460,6 +2544,7 @@
             "Aaron Ceres.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -2485,6 +2570,9 @@
             "Wil Auceptin.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [
+            "Wil Auceptin.jpg"
+          ],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 65,
@@ -2511,6 +2599,7 @@
           "missing_images": [
             "[Nighthawk captain]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 93,
@@ -2546,6 +2635,7 @@
             "Mike Joseph.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 3,
@@ -2571,6 +2661,7 @@
             "Mike Joseph.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 37,
@@ -2597,6 +2688,7 @@
           "missing_images": [
             "[black shadow]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 77,
@@ -2615,23 +2707,23 @@
           "duration": "0:03:20",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
-            "Fors Wall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg",
-            "[The World]"
+            "The World",
+            "Fors Wall"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
-            "Fors Wall.jpg",
             "Alger Wilson.jpg",
-            "Derrick Berg.jpg"
+            "Audrey Hall.jpg",
+            "Derrick Berg.jpg",
+            "The World.png",
+            "Fors Wall.jpg"
           ],
-          "missing_images": [
-            "[The World]"
-          ],
-          "layout": "grid(5)",
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "grid(6)",
           "continues_prev": false,
           "line_start": 107,
           "line_end": 147,
@@ -2657,23 +2749,26 @@
           "duration": "0:04:39",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
-            "Fors Wall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg",
+            "The World",
+            "Fors Wall",
             "[The World]"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
-            "Fors Wall.jpg",
             "Alger Wilson.jpg",
-            "Derrick Berg.jpg"
+            "Audrey Hall.jpg",
+            "Derrick Berg.jpg",
+            "The World.png",
+            "Fors Wall.jpg"
           ],
           "missing_images": [
             "[The World]"
           ],
-          "layout": "grid(5)",
+          "mentioned_images": [],
+          "layout": "grid(6)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 57,
@@ -2703,6 +2798,7 @@
             "Edwards",
             "Grimm"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 59,
@@ -2721,23 +2817,23 @@
           "duration": "0:00:14",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
-            "Fors Wall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg",
-            "[The World]"
+            "The World",
+            "Fors Wall"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
-            "Fors Wall.jpg",
             "Alger Wilson.jpg",
-            "Derrick Berg.jpg"
+            "Audrey Hall.jpg",
+            "Derrick Berg.jpg",
+            "The World.png",
+            "Fors Wall.jpg"
           ],
-          "missing_images": [
-            "[The World]"
-          ],
-          "layout": "grid(5)",
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "grid(6)",
           "continues_prev": false,
           "line_start": 123,
           "line_end": 125,
@@ -2759,38 +2855,77 @@
       "scenes": [
         {
           "start": "5:39:14",
-          "end": "5:49:44",
-          "duration": "0:10:29",
+          "end": "5:43:36",
+          "duration": "0:04:21",
           "present_cast": [
             "Klein (as The Fool)",
-            "Derrick Berg",
             "Alger Wilson",
             "Audrey Hall",
+            "Derrick Berg",
+            "The World",
             "Fors Wall",
-            "[The World]",
-            "Amon"
+            "[The World]"
           ],
           "images": [
             "The Fool.jpg",
-            "Derrick Berg.jpg",
             "Alger Wilson.jpg",
             "Audrey Hall.jpg",
-            "Fors Wall.jpg",
-            "Amon.jpg"
+            "Derrick Berg.jpg",
+            "The World.png",
+            "Fors Wall.jpg"
           ],
           "missing_images": [
             "[The World]"
           ],
+          "mentioned_images": [],
           "layout": "grid(6)",
           "continues_prev": true,
           "line_start": 3,
-          "line_end": 129,
-          "setting": "The Sun's ghost story at the table: the split-headed captain behind him, the Chief's mystical item, and Alger deducing the six-member council used Derrick as bait — then the shown image of Amon in pointed hat and crystal monocle, the python-phantom coiled on Derrick's spirit, and the revelation that Mr. Fool sent an angel to purify it",
+          "line_end": 51,
+          "setting": "The Sun's ghost story at the table: the split-headed captain standing behind him, the Chief's mystical item, and Alger picking the account apart until the six-member council's use of Derrick as bait is plain — a man who held for decades, losing control the week he came back",
           "text_anchor": "“Are you looking for me?”",
           "timing": "aligned",
           "chapter_start": 0.0,
-          "chapter_end": 629.04,
+          "chapter_end": 261.061,
           "batch_start": 20354.5,
+          "batch_end": 20615.561
+        },
+        {
+          "start": "5:43:36",
+          "end": "5:49:44",
+          "duration": "0:06:08",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Alger Wilson",
+            "Audrey Hall",
+            "Derrick Berg",
+            "The World",
+            "Fors Wall",
+            "Amon"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
+            "Derrick Berg.jpg",
+            "The World.png",
+            "Fors Wall.jpg",
+            "Amon.jpg"
+          ],
+          "missing_images": [],
+          "mentioned_images": [
+            "Amon.jpg"
+          ],
+          "layout": "grid(7)",
+          "continues_prev": false,
+          "line_start": 53,
+          "line_end": 129,
+          "setting": "The name behind it: the Blasphemer family, the pointed hat and crystal monocle in the image Derrick shows, and the table working through why that person noticed him — the Sun pathway, the ancient sun god, and something that can sense the gray fog itself",
+          "text_anchor": "The Amon family is known as Blasphemers.",
+          "timing": "aligned",
+          "chapter_start": 261.061,
+          "chapter_end": 629.04,
+          "batch_start": 20615.561,
           "batch_end": 20983.54
         }
       ],
@@ -2803,38 +2938,84 @@
       "scenes": [
         {
           "start": "5:49:44",
-          "end": "6:01:57",
-          "duration": "0:12:14",
+          "end": "5:57:44",
+          "duration": "0:08:00",
           "present_cast": [
             "Klein (as The Fool)",
-            "Derrick Berg",
             "Alger Wilson",
             "Audrey Hall",
+            "Derrick Berg",
+            "The World",
             "Fors Wall",
             "[The World]",
-            "True Creator"
+            "Amon"
           ],
           "images": [
             "The Fool.jpg",
-            "Derrick Berg.jpg",
             "Alger Wilson.jpg",
             "Audrey Hall.jpg",
+            "Derrick Berg.jpg",
+            "The World.png",
             "Fors Wall.jpg",
-            "True Creator.jpg"
+            "Amon.jpg"
           ],
           "missing_images": [
             "[The World]"
           ],
-          "layout": "grid(6)",
+          "mentioned_images": [
+            "Amon.jpg"
+          ],
+          "layout": "grid(7)",
           "continues_prev": true,
           "line_start": 3,
-          "line_end": 129,
-          "setting": "The word 'angel' reorders the table's understanding of Mr. Fool ('You may not look directly at God'); the twelve-ringed worm is named a Worm of Time, Amon's avatar vessel, useful as ritual material — then Derrick's real fear: Lovia's returned expedition, corrupted by the Fallen Creator, and Alger's plan to provoke one member into exposing himself",
+          "line_end": 83,
+          "setting": "The word 'angel' reorders the table's understanding of Mr. Fool — you may not look directly at God — and the twelve-ringed worm is named for what it is: a Worm of Time, the vessel made for an avatar, and useful ritual material besides",
           "text_anchor": "“It should be the vessel that Amon created for his avatar.",
           "timing": "aligned",
           "chapter_start": 0.0,
-          "chapter_end": 733.8,
+          "chapter_end": 480.053,
           "batch_start": 20983.54,
+          "batch_end": 21463.593
+        },
+        {
+          "start": "5:57:44",
+          "end": "6:01:57",
+          "duration": "0:04:14",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Alger Wilson",
+            "Audrey Hall",
+            "Derrick Berg",
+            "The World",
+            "Fors Wall",
+            "True Creator",
+            "Amon"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
+            "Derrick Berg.jpg",
+            "The World.png",
+            "Fors Wall.jpg",
+            "True Creator.jpg",
+            "Amon.jpg"
+          ],
+          "missing_images": [],
+          "mentioned_images": [
+            "True Creator.jpg",
+            "Amon.jpg"
+          ],
+          "layout": "grid(8)",
+          "continues_prev": false,
+          "line_start": 85,
+          "line_end": 129,
+          "setting": "The topic turns to the changed monsters and Alger names the cause without hesitating — corruption from the True Creator — which sends Audrey's eyes straight back to the end of the bronze table, remembering whose adorer foiled that descent on Backlund",
+          "text_anchor": "The True Creator? Audrey couldn't help but look at the end of the bronze table.",
+          "timing": "aligned",
+          "chapter_start": 480.053,
+          "chapter_end": 733.8,
+          "batch_start": 21463.593,
           "batch_end": 21717.34
         }
       ],
@@ -2847,38 +3028,77 @@
       "scenes": [
         {
           "start": "6:01:57",
-          "end": "6:13:14",
-          "duration": "0:11:17",
+          "end": "6:05:06",
+          "duration": "0:03:08",
           "present_cast": [
             "Klein (as The Fool)",
-            "Derrick Berg",
             "Alger Wilson",
             "Audrey Hall",
+            "Derrick Berg",
+            "The World",
             "Fors Wall",
             "[The World]",
             "True Creator"
           ],
           "images": [
             "The Fool.jpg",
-            "Derrick Berg.jpg",
             "Alger Wilson.jpg",
             "Audrey Hall.jpg",
+            "Derrick Berg.jpg",
+            "The World.png",
             "Fors Wall.jpg",
             "True Creator.jpg"
           ],
           "missing_images": [
             "[The World]"
           ],
-          "layout": "grid(6)",
+          "mentioned_images": [
+            "True Creator.jpg"
+          ],
+          "layout": "grid(7)",
           "continues_prev": true,
           "line_start": 3,
-          "line_end": 109,
-          "setting": "The World does what The Fool cannot: lends the All-Black Eye for a price and a return date, while Alger drills Derrick on staging the confrontation; then Fors buys her answer — the Apprentice pathway belongs to the Abraham family, who bear a bloodline curse — and the floor turns to gossip, where Audrey opens with the Hero Bandit Dark Emperor",
+          "line_end": 27,
+          "setting": "Justice looks to Mr. Fool because she knows whose conflicts these are: The World offers an item holding the True Creator's mental corruption, and Derrick weighs a one-time loan against a Human-skinned Shadow he can actually expect to meet",
           "text_anchor": "“I have an item that contains the mental corruption of the True Creator.”",
           "timing": "aligned",
           "chapter_start": 0.0,
-          "chapter_end": 676.85,
+          "chapter_end": 188.239,
           "batch_start": 21717.34,
+          "batch_end": 21905.579
+        },
+        {
+          "start": "6:05:06",
+          "end": "6:13:14",
+          "duration": "0:08:09",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Alger Wilson",
+            "Audrey Hall",
+            "Derrick Berg",
+            "The World",
+            "Fors Wall"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Alger Wilson.jpg",
+            "Audrey Hall.jpg",
+            "Derrick Berg.jpg",
+            "The World.png",
+            "Fors Wall.jpg"
+          ],
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "grid(6)",
+          "continues_prev": false,
+          "line_start": 29,
+          "line_end": 109,
+          "setting": "The World does what The Fool cannot: the All-Black Eye lent for a price and a return date, Alger drilling Derrick on how to stage the confrontation, and Fors buying her own answer about the Apprentice pathway",
+          "text_anchor": "“Very good, I will ask for Mr. Fool's help to lend it to you.”",
+          "timing": "aligned",
+          "chapter_start": 188.239,
+          "chapter_end": 676.85,
+          "batch_start": 21905.579,
           "batch_end": 22394.19
         }
       ],
@@ -2895,23 +3115,26 @@
           "duration": "0:11:14",
           "present_cast": [
             "Klein (as The Fool)",
-            "Audrey Hall",
-            "Fors Wall",
             "Alger Wilson",
+            "Audrey Hall",
             "Derrick Berg",
+            "The World",
+            "Fors Wall",
             "[The World]"
           ],
           "images": [
             "The Fool.jpg",
-            "Audrey Hall.jpg",
-            "Fors Wall.jpg",
             "Alger Wilson.jpg",
-            "Derrick Berg.jpg"
+            "Audrey Hall.jpg",
+            "Derrick Berg.jpg",
+            "The World.png",
+            "Fors Wall.jpg"
           ],
           "missing_images": [
             "[The World]"
           ],
-          "layout": "grid(5)",
+          "mentioned_images": [],
+          "layout": "grid(6)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 137,
@@ -2942,6 +3165,7 @@
             "Fors Wall.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -2965,6 +3189,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 13,
@@ -2988,6 +3213,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 41,
@@ -3011,6 +3237,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 67,
@@ -3032,11 +3259,12 @@
             "[black shadow]"
           ],
           "images": [
-            "Colin Iliad.jpg"
+            "Colin Iliad.png"
           ],
           "missing_images": [
             "[black shadow]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 93,
@@ -3060,6 +3288,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 115,
@@ -3091,6 +3320,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -3108,14 +3338,15 @@
           "end": "6:45:46",
           "duration": "0:01:57",
           "present_cast": [
-            "Xio Derecha",
-            "Fors Wall"
+            "Fors Wall",
+            "Xio Derecha"
           ],
           "images": [
-            "Xio Derecha.jpg",
-            "Fors Wall.jpg"
+            "Fors Wall.jpg",
+            "Xio Derecha.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 69,
@@ -3139,6 +3370,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 99,
@@ -3173,6 +3405,7 @@
           "missing_images": [
             "Darc Regence"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -3196,6 +3429,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 133,
@@ -3218,8 +3452,39 @@
       "scenes": [
         {
           "start": "7:00:29",
+          "end": "7:05:59",
+          "duration": "0:05:30",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Derrick Berg",
+            "Darc Regence",
+            "[black shadow]"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Derrick Berg.jpg"
+          ],
+          "missing_images": [
+            "Darc Regence",
+            "[black shadow]"
+          ],
+          "mentioned_images": [],
+          "layout": "row(2)",
+          "continues_prev": true,
+          "line_start": 3,
+          "line_end": 85,
+          "setting": "Darc bursts into a hedgehog of bloody flesh strands; a Bard's hymn, the Axe of Hurricane and a pillar of pure light hold him, while the candle's secret symbol opens The Fool's door a crack and the watching shadow feels the depth behind it",
+          "text_anchor": "“Stop! What are you trying to do!”",
+          "timing": "aligned",
+          "chapter_start": 0.0,
+          "chapter_end": 330.105,
+          "batch_start": 25228.55,
+          "batch_end": 25558.655
+        },
+        {
+          "start": "7:05:59",
           "end": "7:09:21",
-          "duration": "0:08:53",
+          "duration": "0:03:23",
           "present_cast": [
             "Klein (as The Fool)",
             "Derrick Berg",
@@ -3236,16 +3501,19 @@
             "Darc Regence",
             "[black shadow]"
           ],
+          "mentioned_images": [
+            "Amon.jpg"
+          ],
           "layout": "row(3)",
-          "continues_prev": true,
-          "line_start": 3,
+          "continues_prev": false,
+          "line_start": 87,
           "line_end": 123,
-          "setting": "Darc bursts into a hedgehog of bloody flesh strands; a Bard's hymn, the Axe of Hurricane and a pillar of pure light hold him while the candle's secret symbol opens The Fool's door a crack — the watching shadow panics at the majestic dark beyond, the iron box is thrown through, and Derrick collapses with the dead Worm of Time falling from his hand",
-          "text_anchor": "“Stop! What are you trying to do!”",
+          "setting": "The observer breaks cover to reach the possessed boy, and finds the translucent worm already dead in Derrick's body — the hidden avatar destroyed by something he never saw arrive",
+          "text_anchor": "the avatar that Amon hid in Derrick's body is dead?",
           "timing": "aligned",
-          "chapter_start": 0.0,
+          "chapter_start": 330.105,
           "chapter_end": 532.611,
-          "batch_start": 25228.55,
+          "batch_start": 25558.655,
           "batch_end": 25761.161
         },
         {
@@ -3257,11 +3525,12 @@
             "[black shadow]"
           ],
           "images": [
-            "Colin Iliad.jpg"
+            "Colin Iliad.png"
           ],
           "missing_images": [
             "[black shadow]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 127,
@@ -3293,6 +3562,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -3316,6 +3586,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 41,
@@ -3339,6 +3610,7 @@
             "Derrick Berg.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 63,
@@ -3362,11 +3634,12 @@
           ],
           "images": [
             "Derrick Berg.jpg",
-            "Colin Iliad.jpg"
+            "Colin Iliad.png"
           ],
           "missing_images": [
             "Aiflor"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 95,
@@ -3388,12 +3661,12 @@
             "Lovia"
           ],
           "images": [
-            "Derrick Berg.jpg"
+            "Derrick Berg.jpg",
+            "Lovia.png"
           ],
-          "missing_images": [
-            "Lovia"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 179,
           "line_end": 195,
@@ -3422,12 +3695,12 @@
             "Lovia"
           ],
           "images": [
-            "Mr. A.png"
+            "Mr. A.png",
+            "Lovia.png"
           ],
-          "missing_images": [
-            "Lovia"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 39,
@@ -3448,12 +3721,12 @@
             "Colin Iliad"
           ],
           "images": [
-            "Colin Iliad.jpg"
+            "Lovia.png",
+            "Colin Iliad.png"
           ],
-          "missing_images": [
-            "Lovia"
-          ],
-          "layout": "single",
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 43,
           "line_end": 135,
@@ -3476,6 +3749,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 139,
@@ -3509,6 +3783,7 @@
             "Aaron Ceres.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -3534,6 +3809,7 @@
             "Aaron Ceres.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 61,
@@ -3559,6 +3835,7 @@
             "Crestet Cesimir.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 97,
@@ -3587,6 +3864,7 @@
           "missing_images": [
             "[tomb keeper]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 119,
@@ -3623,6 +3901,7 @@
           "missing_images": [
             "[tomb keeper]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -3651,6 +3930,7 @@
           "missing_images": [
             "[Nighthawk captain]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 55,
@@ -3677,6 +3957,7 @@
           "missing_images": [
             "Lawrence Nord"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 93,
@@ -3711,6 +3992,7 @@
           "missing_images": [
             "Lawrence Nord"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -3736,6 +4018,9 @@
             "Wil Auceptin.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [
+            "Wil Auceptin.jpg"
+          ],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 79,
@@ -3765,6 +4050,7 @@
             "Mr. A.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": false,
           "line_start": 153,
@@ -3790,18 +4076,19 @@
           "end": "8:16:30",
           "duration": "0:04:12",
           "present_cast": [
-            "Mr. A",
             "Fors Wall",
+            "Mr. A",
             "Xio Derecha",
             "Glaint"
           ],
           "images": [
-            "Mr. A.png",
             "Fors Wall.jpg",
+            "Mr. A.png",
             "Xio Derecha.jpg",
             "Glaint.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
@@ -3832,6 +4119,7 @@
             "Escalante",
             "Stephen Hampres"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 55,
@@ -3859,6 +4147,10 @@
             "True Creator.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [
+            "Mr. A.png",
+            "True Creator.jpg"
+          ],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 121,
@@ -3892,12 +4184,15 @@
             "Mr. A.png"
           ],
           "missing_images": [],
+          "mentioned_images": [
+            "Mr. A.png"
+          ],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
-          "line_end": 53,
-          "setting": "Above the gray fog, weighing whether to report Mr. A's gathering (and doom a room of innocents to Aurora corruption) — until the joyous, helpless truth lands: 'There's only one believer and adorer of The Fool! And that's me!' The answer sent down is two words: don't worry",
-          "text_anchor": "“There’s only one believer and adorer of The Fool! And that’s me!”",
+          "line_end": 21,
+          "setting": "Above the gray fog, weighing whether to report the illegal gathering: Mr. A has surely planned his escape, and a report would only confirm for him that The Fool's believer sits in that room",
+          "text_anchor": "Report Mr. A! Report illegal gatherings!",
           "timing": "aligned",
           "chapter_start": 0.0,
           "chapter_end": 275.962,
@@ -3906,8 +4201,8 @@
         },
         {
           "start": "8:28:26",
-          "end": "8:31:25",
-          "duration": "0:02:59",
+          "end": "8:29:37",
+          "duration": "0:01:11",
           "present_cast": [
             "Klein (as The Fool)",
             "Fors Wall",
@@ -3919,16 +4214,45 @@
             "True Creator.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [
+            "True Creator.jpg"
+          ],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 57,
-          "line_end": 89,
-          "setting": "Fors learns the Aurora Order serves the True Creator — so this is god against god — reports Lawrence's death, notebook and characteristic, is told to 'follow the true desires in your heart', and trades 600 pounds for the Sheriff characteristic",
-          "text_anchor": "“Follow the true desires in your heart.”",
+          "line_end": 71,
+          "setting": "Mr. Fool answers Fors with a name, and she understands at once why the Aurora Order came hunting his believers — the City of Silver business was god set against god, and she does not dare ask further",
+          "text_anchor": "Behind this incident is a confrontation and struggle between Mr. Fool and the True Creator",
           "timing": "aligned",
           "chapter_start": 275.962,
-          "chapter_end": 454.956,
+          "chapter_end": 346.911,
           "batch_start": 30506.152,
+          "batch_end": 30577.101
+        },
+        {
+          "start": "8:29:37",
+          "end": "8:31:25",
+          "duration": "0:01:48",
+          "present_cast": [
+            "Klein (as The Fool)",
+            "Fors Wall"
+          ],
+          "images": [
+            "The Fool.jpg",
+            "Fors Wall.jpg"
+          ],
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "row(2)",
+          "continues_prev": false,
+          "line_start": 73,
+          "line_end": 89,
+          "setting": "Fors asks what she should do and gets an answer she can take any way she likes — follow the true desires in your heart — while Klein privately envies how lucky Miss Magician is",
+          "text_anchor": "“Follow the true desires in your heart.”",
+          "timing": "aligned",
+          "chapter_start": 346.911,
+          "chapter_end": 454.956,
+          "batch_start": 30577.101,
           "batch_end": 30685.146
         },
         {
@@ -3942,6 +4266,7 @@
             "The Fool.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 93,
@@ -3960,15 +4285,16 @@
           "duration": "0:02:32",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Utravsky",
-            "Emlyn White"
+            "Emlyn White",
+            "Utravsky"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Utravsky.png",
-            "Emlyn White.jpg"
+            "Emlyn White.jpg",
+            "Utravsky.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": false,
           "line_start": 113,
@@ -4004,6 +4330,7 @@
             "Utravsky.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
@@ -4030,6 +4357,7 @@
           "missing_images": [
             "Dorian Gray"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 123,
@@ -4055,8 +4383,8 @@
           "end": "8:51:00",
           "duration": "0:04:22",
           "present_cast": [
-            "Dorian Gray",
-            "Fors Wall"
+            "Fors Wall",
+            "Dorian Gray"
           ],
           "images": [
             "Fors Wall.jpg"
@@ -4064,6 +4392,7 @@
           "missing_images": [
             "Dorian Gray"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -4081,18 +4410,19 @@
           "end": "8:55:05",
           "duration": "0:04:04",
           "present_cast": [
-            "Soest",
-            "Daly",
-            "Leonard Mitchell"
-          ],
-          "images": [
-            "Leonard Mitchell.jpg"
-          ],
-          "missing_images": [
+            "Leonard Mitchell",
             "Soest",
             "Daly"
           ],
-          "layout": "single",
+          "images": [
+            "Leonard Mitchell.jpg",
+            "Soest.png"
+          ],
+          "missing_images": [
+            "Daly"
+          ],
+          "mentioned_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 51,
           "line_end": 103,
@@ -4117,6 +4447,7 @@
             "Talim Dumont.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 107,
@@ -4150,6 +4481,7 @@
             "Talim Dumont.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4167,16 +4499,16 @@
           "end": "9:03:53",
           "duration": "0:03:01",
           "present_cast": [
-            "Soest",
-            "Leonard Mitchell"
-          ],
-          "images": [
-            "Leonard Mitchell.jpg"
-          ],
-          "missing_images": [
+            "Leonard Mitchell",
             "Soest"
           ],
-          "layout": "single",
+          "images": [
+            "Leonard Mitchell.jpg",
+            "Soest.png"
+          ],
+          "missing_images": [],
+          "mentioned_images": [],
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 19,
           "line_end": 47,
@@ -4199,6 +4531,7 @@
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 51,
@@ -4225,6 +4558,7 @@
           "missing_images": [
             "Doris"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 97,
@@ -4267,6 +4601,7 @@
             "Leppard",
             "Doris"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4294,6 +4629,7 @@
             "Framis Cage",
             "Pacheco Dwayne"
           ],
+          "mentioned_images": [],
           "layout": "default",
           "continues_prev": false,
           "line_start": 105,
@@ -4319,6 +4655,7 @@
             "Old Kohler.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 119,
@@ -4352,6 +4689,7 @@
             "Old Kohler.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4378,6 +4716,7 @@
           "missing_images": [
             "[Stanton's assistant]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 43,
@@ -4406,6 +4745,7 @@
           "missing_images": [
             "[interrogating officer]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 139,
@@ -4442,6 +4782,7 @@
           "missing_images": [
             "[interrogating officers]"
           ],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
@@ -4467,6 +4808,7 @@
             "Jurgen Cooper.png"
           ],
           "missing_images": [],
+          "mentioned_images": [],
           "layout": "row(2)",
           "continues_prev": false,
           "line_start": 83,
@@ -4493,6 +4835,7 @@
           "missing_images": [
             "[shadow in a tailcoat]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 97,
@@ -4527,6 +4870,7 @@
           "missing_images": [
             "[police officer]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": true,
           "line_start": 3,
@@ -4553,6 +4897,7 @@
           "missing_images": [
             "Stuart"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 23,
@@ -4585,6 +4930,7 @@
             "Lydia",
             "[private detectives]"
           ],
+          "mentioned_images": [],
           "layout": "single",
           "continues_prev": false,
           "line_start": 75,
@@ -4605,7 +4951,7 @@
   "characters_index": {
     "Klein Moretti (protagonist)": {
       "status": "have",
-      "scenes": 107
+      "scenes": 112
     },
     "Colin Iliad": {
       "status": "have",
@@ -4613,11 +4959,11 @@
     },
     "[black shadow]": {
       "status": "background",
-      "scenes": 5
+      "scenes": 6
     },
     "Derrick Berg": {
       "status": "have",
-      "scenes": 21
+      "scenes": 25
     },
     "Leonard Mitchell": {
       "status": "have",
@@ -4641,7 +4987,7 @@
     },
     "Alger Wilson": {
       "status": "have",
-      "scenes": 8
+      "scenes": 11
     },
     "Doris": {
       "status": "minor",
@@ -4661,7 +5007,7 @@
     },
     "Audrey Hall": {
       "status": "have",
-      "scenes": 13
+      "scenes": 16
     },
     "Escalante": {
       "status": "minor",
@@ -4671,13 +5017,13 @@
       "status": "have",
       "scenes": 3
     },
-    "Utravsky": {
-      "status": "have",
-      "scenes": 4
-    },
     "Emlyn White": {
       "status": "have",
       "scenes": 9
+    },
+    "Utravsky": {
+      "status": "have",
+      "scenes": 4
     },
     "Stuart": {
       "status": "minor",
@@ -4693,7 +5039,7 @@
     },
     "Fors Wall": {
       "status": "have",
-      "scenes": 22
+      "scenes": 26
     },
     "[blue-eyed old man]": {
       "status": "background",
@@ -4752,7 +5098,7 @@
       "scenes": 1
     },
     "Daisy": {
-      "status": "declined",
+      "status": "have",
       "scenes": 4
     },
     "[captive girls]": {
@@ -4776,7 +5122,7 @@
       "scenes": 6
     },
     "Eye of Wisdom": {
-      "status": "minor",
+      "status": "have",
       "scenes": 1
     },
     "[Mandated Punisher captain]": {
@@ -4829,10 +5175,10 @@
     },
     "Darc Regence": {
       "status": "declined",
-      "scenes": 3
+      "scenes": 4
     },
     "Lovia": {
-      "status": "minor",
+      "status": "have",
       "scenes": 4
     },
     "[old gentleman tenant]": {
@@ -4851,9 +5197,13 @@
       "status": "background",
       "scenes": 2
     },
+    "The World": {
+      "status": "have",
+      "scenes": 10
+    },
     "[The World]": {
       "status": "background",
-      "scenes": 7
+      "scenes": 5
     },
     "Roselle Gustav": {
       "status": "have",
@@ -4869,7 +5219,7 @@
     },
     "Amon": {
       "status": "have",
-      "scenes": 2
+      "scenes": 4
     },
     "True Creator": {
       "status": "have",
@@ -4892,7 +5242,7 @@
       "scenes": 2
     },
     "Soest": {
-      "status": "declined",
+      "status": "have",
       "scenes": 2
     },
     "Daly": {

@@ -8,7 +8,7 @@
    "protagonist_persona": "Sherlock Moriarty",
    "other_characters": [
     "[hooded Beyonders]",
-    "Darkwill",
+    "Apothecary",
     "Eye of Wisdom",
     "Black Snake",
     "[attendant]"
@@ -47,7 +47,10 @@
    "protagonist_persona": "The Fool",
    "other_characters": [],
    "setting": "Above the gray fog (visions only: a Listener swelling and blackening in the divination): the black ear channels the True Creator's foul voice — tentacles burst from Klein's veins, the fog holds, and the stripped madness fuses into a sealed charm he names Language of Foulness",
-   "text_anchor": "he started to summon himself. He responded to himself and brought the wooden box containing the black ear"
+   "text_anchor": "he started to summon himself. He responded to himself and brought the wooden box containing the black ear",
+   "mentioned_characters": [
+    "True Creator"
+   ]
   }
  ]
 }

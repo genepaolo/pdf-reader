@@ -39,6 +39,21 @@
   },
   {
    "line_start": 105,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "Fors Wall",
+    "The World"
+   ],
+   "setting": "The gathering opens on Derrick's worry about being watched, and Mr. Fool confirms that some mystical items do carry such effects — relief enough for The Sun to give up one of the City of Silver's top secrets",
+   "text_anchor": "“It's one of the City of Silver's top secrets.”"
+  },
+  {
+   "line_start": 133,
    "line_end": 153,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
@@ -47,11 +62,13 @@
     "Alger Wilson",
     "Derrick",
     "Fors Wall",
-    "[The World]",
-    "Amon"
+    "The World"
    ],
-   "setting": "The gathering opens on Derrick's worry — then his question chills the table: 'Have any of you heard of a person named Amon?' Alger answers: a taboo-surnamed family of the Tudor Dynasty, 1500 years gone",
-   "text_anchor": "“Have any of you heard of a person named Amon?”"
+   "setting": "Then the question the former captain left him with, blurted out to the whole table — and Klein, who knows exactly where he has heard that name, says nothing and lets The Hanged Man answer instead",
+   "text_anchor": "“Have any of you heard of a person named Amon?”",
+   "mentioned_characters": [
+    "Amon"
+   ]
   }
  ]
 }

@@ -3,17 +3,32 @@
  "scenes": [
   {
    "line_start": 3,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Derrick Berg",
+    "Darc Regence",
+    "[black shadow]"
+   ],
+   "setting": "Darc bursts into a hedgehog of bloody flesh strands; a Bard's hymn, the Axe of Hurricane and a pillar of pure light hold him, while the candle's secret symbol opens The Fool's door a crack and the watching shadow feels the depth behind it",
+   "text_anchor": "“Stop! What are you trying to do!”"
+  },
+  {
+   "line_start": 87,
    "line_end": 123,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
    "other_characters": [
     "Derrick Berg",
     "Darc Regence",
-    "[black shadow]",
-    "Amon"
+    "[black shadow]"
    ],
-   "setting": "Darc bursts into a hedgehog of bloody flesh strands; a Bard's hymn, the Axe of Hurricane and a pillar of pure light hold him while the candle's secret symbol opens The Fool's door a crack — the watching shadow panics at the majestic dark beyond, the iron box is thrown through, and Derrick collapses with the dead Worm of Time falling from his hand",
-   "text_anchor": "“Stop! What are you trying to do!”"
+   "setting": "The observer breaks cover to reach the possessed boy, and finds the translucent worm already dead in Derrick's body — the hidden avatar destroyed by something he never saw arrive",
+   "text_anchor": "the avatar that Amon hid in Derrick's body is dead?",
+   "mentioned_characters": [
+    "Amon"
+   ]
   },
   {
    "line_start": 127,

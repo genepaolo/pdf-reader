@@ -11,11 +11,13 @@
     "Alger Wilson",
     "Derrick",
     "Fors Wall",
-    "[The World]",
-    "Amon"
+    "The World"
    ],
    "setting": "Alger unpacks the taboo: Amon — most mysterious of the five Tudor founding families, blasphemers who usurp gods' powers, self-styled descendants of an ancient Sun God; his advice to Derrick: probe the old captain, but that survivor himself is deeply wrong",
-   "text_anchor": "“The Amons are a family of blasphemers, and they wield the secrets to usurp the powers of deities!"
+   "text_anchor": "“The Amons are a family of blasphemers, and they wield the secrets to usurp the powers of deities!",
+   "mentioned_characters": [
+    "Amon"
+   ]
   },
   {
    "line_start": 51,

@@ -26,7 +26,10 @@
    "protagonist_persona": "The Fool",
    "other_characters": [],
    "setting": "Above the gray fog: interference stripped away, the pendulum flips both answers — Maynard's death WAS supernatural, and Madam Sharon IS a Beyonder",
-   "text_anchor": "He saw the Door of Summoning appear behind the seat of honor"
+   "text_anchor": "He saw the Door of Summoning appear behind the seat of honor",
+   "mentioned_characters": [
+    "Sharon"
+   ]
   },
   {
    "line_start": 125,

@@ -3,6 +3,24 @@
  "scenes": [
   {
    "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick",
+    "Fors Wall",
+    "The World"
+   ],
+   "setting": "The Sun describes the half-destroyed temple and the unique statue standing in it, and old fox Alger milks the description for free before giving his advice on the expedition: absolutely do not go, because a true evil god's temple stays dangerous long after it falls",
+   "text_anchor": "“The Fallen Creator is a true evil god.",
+   "mentioned_characters": [
+    "True Creator"
+   ]
+  },
+  {
+   "line_start": 45,
    "line_end": 121,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
@@ -11,10 +29,9 @@
     "Alger Wilson",
     "Derrick",
     "Fors Wall",
-    "[The World]",
-    "True Creator"
+    "The World"
    ],
-   "setting": "Old fox Alger milks the temple description for free, then coaches Derrick to fake near-loss-of-control to dodge Lovia's expedition — 'you are doing so to save the City of Silver!'; privately, The World learns the City can strip a Rampager's corruption from a characteristic — knowledge locked behind Sequence 7 captaincy",
+   "setting": "Klein notes sourly that Alger reached the same answer he would have, without paying for the description — then the Hanged Man coaches Derrick to fake the brink of losing control to dodge Lovia's compulsory expedition, 'you are doing so to save the City of Silver'",
    "text_anchor": "“You can always pretend to be on the brink of losing control."
   }
  ]

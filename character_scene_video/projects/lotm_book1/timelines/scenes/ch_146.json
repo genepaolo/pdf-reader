@@ -6,16 +6,25 @@
    "line_end": 75,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
-   "other_characters": ["Audrey Hall", "Alger Wilson", "Derrick"],
+   "other_characters": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick"
+   ],
    "setting": "Tarot Gathering: the man-eating Creeping Hunger and its Shepherd-like powers dissected; Audrey accepts the Qilangos search; the Gathering ends",
-   "text_anchor": "What's so special about Qilangos's magical item?"
+   "text_anchor": "What's so special about Qilangos's magical item?",
+   "mentioned_characters": [
+    "Qilangos"
+   ]
   },
   {
    "line_start": 79,
    "line_end": 103,
    "protagonist_present": false,
    "protagonist_persona": null,
-   "other_characters": ["Derrick"],
+   "other_characters": [
+    "Derrick"
+   ],
    "setting": "Berg household: Derrick writes down the Bard formula, then prays The Fool's three-line honorific name as instructed",
    "text_anchor": "In the Berg household in the City of Silver."
   },

@@ -6,7 +6,9 @@
    "line_end": 35,
    "protagonist_present": true,
    "protagonist_persona": "Klein (Beginning)",
-   "other_characters": ["[blond man]"],
+   "other_characters": [
+    "[blond man]"
+   ],
    "setting": "The doorstep interrogation: 'Scoundrel Gray' admits the painting is a forty-year-old copy of one his grandfather found in the collapsed castle wall",
    "text_anchor": "This can't be right"
   },
@@ -26,7 +28,10 @@
    "protagonist_persona": "The Fool",
    "other_characters": [],
    "setting": "Inn room, then above the gray fog (visions only: Azik pulling Klein from a blood sea; the Jotun-praying young man of the People of the Dark): divination says keep Azik's secret; Klein touches the crimson star",
-   "text_anchor": "Klein made the decision and returned to the hotel quickly."
+   "text_anchor": "Klein made the decision and returned to the hotel quickly.",
+   "mentioned_characters": [
+    "Azik Eggers"
+   ]
   }
  ]
 }

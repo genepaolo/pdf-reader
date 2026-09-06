@@ -1,76 +1,92 @@
 {
- "text_root": "formatted_text/lotm_book1",
- "audio_root": "D:/PDFReader/lotm_book1_output",
- "durations_csv": "D:/PDFReader/lotm_book1_output/_durations.csv",
- "portraits_dir": "tts_pipeline/assets/characters/lotm",
- "video_out_dir": "D:/PDFReader/lotm_book1_output/character_video",
- "block_size": 50,
- "series_title": "Lord of the Mysteries",
- "persona": {
-  "protagonist_prefix": "Klein",
-  "index_label": "Klein Moretti (protagonist)",
-  "map": {
-   "Zhou Mingrui": [
-    "Klein (as Zhou Mingrui)",
-    "Zhou Mingrui.jpg"
-   ],
-   "Klein (Beginning)": [
-    "Klein (Beginning)",
-    "Klein Moretti (Beginning of the Series).jpg"
-   ],
-   "Klein Moretti": [
-    "Klein Moretti",
-    "Klein Moretti.jpg"
-   ],
-   "The Fool": [
-    "Klein (as The Fool)",
-    "The Fool.jpg"
-   ],
-   "Sherlock Moriarty": [
-    "Klein (as Sherlock Moriarty)",
-    "Sherlock Moriarty.jpg"
-   ],
-   "Gehrman Sparrow": [
-    "Klein (as Gehrman Sparrow)",
-    "Gehrman Sparrow.jpg"
-   ],
-   "Hero Bandit": [
-    "Klein (as the Hero Bandit)",
-    "Hero Bandit.png"
-   ]
+  "text_root": "formatted_text/lotm_book1",
+  "audio_root": "D:/PDFReader/lotm_book1_output",
+  "durations_csv": "D:/PDFReader/lotm_book1_output/_durations.csv",
+  "portraits_dir": "tts_pipeline/assets/characters/lotm",
+  "video_out_dir": "D:/PDFReader/lotm_book1_output/character_video",
+  "block_size": 50,
+  "series_title": "Lord of the Mysteries",
+  "persona": {
+    "protagonist_prefix": "Klein",
+    "index_label": "Klein Moretti (protagonist)",
+    "map": {
+      "Zhou Mingrui": [
+        "Klein (as Zhou Mingrui)",
+        "Zhou Mingrui.jpg"
+      ],
+      "Klein (Beginning)": [
+        "Klein (Beginning)",
+        "Klein Moretti (Beginning of the Series).jpg"
+      ],
+      "Klein Moretti": [
+        "Klein Moretti",
+        "Klein Moretti.jpg"
+      ],
+      "The Fool": [
+        "Klein (as The Fool)",
+        "The Fool.jpg"
+      ],
+      "Sherlock Moriarty": [
+        "Klein (as Sherlock Moriarty)",
+        "Sherlock Moriarty.jpg"
+      ],
+      "Gehrman Sparrow": [
+        "Klein (as Gehrman Sparrow)",
+        "Gehrman Sparrow.jpg"
+      ],
+      "Hero Bandit": [
+        "Klein (as the Hero Bandit)",
+        "Hero Bandit.png"
+      ]
+    },
+    "image_names": [
+      "Zhou Mingrui",
+      "Klein Moretti",
+      "Klein Moretti (Beginning of the Series)",
+      "The Fool",
+      "Sherlock Moriarty",
+      "Gehrman Sparrow",
+      "Dwayne Dantès",
+      "Merlin Hermes",
+      "Hero Bandit"
+    ],
+    "base_flips": [
+      {
+        "at_chapter": 17,
+        "from": "Klein (Beginning)",
+        "to": "Klein Moretti",
+        "why": "ch17: Klein signs the Nighthawks contract"
+      },
+      {
+        "at_chapter": 216,
+        "from": "Klein Moretti",
+        "to": "Sherlock Moriarty",
+        "why": "he invents the name mid-ch215 (L79 'Sherlock Moriarty. You can call me Sherlock.'), so ch215 is tagged BY SCENE -- Klein Moretti through s5, Sherlock from s6 -- and this chapter-anchored flip starts at 216 so it cannot override that. Fixed 2026-09-03 after the identity was showing from line 3."
+      }
+    ]
   },
-  "image_names": [
-   "Zhou Mingrui",
-   "Klein Moretti",
-   "Klein Moretti (Beginning of the Series)",
-   "The Fool",
-   "Sherlock Moriarty",
-   "Gehrman Sparrow",
-   "Dwayne Dantès",
-   "Merlin Hermes",
-   "Hero Bandit"
-  ],
-  "base_flips": [
-   {
-    "at_chapter": 17,
-    "from": "Klein (Beginning)",
-    "to": "Klein Moretti",
-    "why": "ch17: Klein signs the Nighthawks contract"
-   },
-   {
-    "at_chapter": 215,
-    "from": "Klein Moretti",
-    "to": "Sherlock Moriarty",
-    "why": "ch215 L79: starts over in Backlund as Sherlock Moriarty (DESIGN 3A; Gehrman/The Fool stay scene-tagged)"
-   }
-  ]
- },
- "chapter_label": {
-  "enabled": true,
-  "template": "#{ch}",
-  "fontsize": 48,
-  "badge": "tts_pipeline/assets/channel/badge_circle.png",
-  "badge_size": 76
- },
- "default_image": "_default_scene.jpg"
+  "chapter_label": {
+    "enabled": true,
+    "template": "#{ch}",
+    "fontsize": 48,
+    "badge": "tts_pipeline/assets/channel/badge_circle.png",
+    "badge_size": 76
+  },
+  "default_image": "_default_scene.jpg",
+  "portrait_priority": {
+    "_note": "Frame order after the protagonist (who is always first / top-left): 'members' = the Tarot Club seats in joining order, then 'allies' = recurring characters who fight or work alongside Klein, then everyone else in scene order (antagonists land there naturally). USER RULING 2026-09-03: protagonists rank above antagonists, and Sharron is treated like a Tarot member because she carries an official card. USER RULING 2026-09-05: Leonard Mitchell is listed last in 'members' -- he is not seated yet in Volume 2, but he is the POV lead of his own chapters and a future member, so he must head his own frames (he shares no Vol-2 frame with a seated member, so this only orders him against Soest/Daly/Ikanser et al). When he actually takes a seat, leave him at this position -- it already IS his joining order.",
+    "members": [
+      "Alger Wilson",
+      "Audrey Hall",
+      "Derrick Berg",
+      "The World",
+      "Fors Wall",
+      "Emlyn White",
+      "Leonard Mitchell"
+    ],
+    "allies": [
+      "Sharron",
+      "Maric"
+    ]
+  }
 }

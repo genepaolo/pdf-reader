@@ -64,3 +64,29 @@ Regenerate anything: `py -3.12 character_scene_video/make_upload_pack.py --volum
   any of them and rerunning `build_block.py` → `compose_frames.py` → `render_chapter.py` →
   `build_block_video.py` for the affected part fixes it; the wiki's physical descriptions are
   collected in `projects/lotm_book1/timelines/portrait_wanted_descriptions.md`.
+
+
+## P1 thumbnail variants + test (added 2026-09-02)
+Decision (user, 2026-09-02): not waiting for the Vol-1 P1 test to conclude (views slowing; Vol 2
+rollout can't wait). Vol-1 evidence so far: P1's 7-day CTR rose to 2.4% (~3-3.5% post-test-start)
+while the control parts P2/P3/P4 (old thumbs, same line-1 rewrite) stayed at 1.4%/0.7%/1.1% —
+the new thumbnail concepts beat the old template; which concept is still unknown.
+
+Three new 1280x720 variants in `<Volume_dir>/thumbnails/part_1/` (generator: session scratchpad
+`make_vol2_variants.py`; art: S2 concept poster + EP2 donghua still from the fandom wiki, saved in
+session scratchpad `thumbhunt/`, + local Amon/Sherlock/Sharron cards). Revised same day per user: varB's Klein is
+the EP 6 lamplit top-hat still (EP 2 profile read deadpan), and the info line is now just
+'Ch 214-266 * 11 Hours' at a larger size -- VOLUME 2 is the anchor; the volume name only
+duplicated the title and was illegible at feed size:
+
+| File | Concept |
+|---|---|
+| `thumb_vol02_p1_varA_bigface.jpg` | **RECOMMENDED DEFAULT** — big painted Sherlock-Klein face (official Season 2 Faceless-arc concept poster, head-and-shoulders by the clock) |
+| `thumb_vol02_p1_varB_faces.jpg` | Hero vs villain — donghua Klein face panel + Amon card panel |
+| `thumb_vol02_p1_varC_row.jpg` | Portrait row (Sharron / Sherlock / Amon) — truth-in-advertising |
+
+Upload flow: set varA as P1's thumbnail at upload, then Studio -> Test & compare with varB + varC
+(3 slots) so Vol 2 P1 runs its own test on fresh impressions. Parts 2-5 launch with the existing
+`thumb_vol02_p2..p5.jpg` series template and get the winning concept rolled on once EITHER test
+(Vol-1 P1, ends ~Sep 11, or this one) declares. S2 of the donghua covers exactly this volume
+(announced for 2027) — the S2 poster art doubles as recognition bait for donghua viewers.

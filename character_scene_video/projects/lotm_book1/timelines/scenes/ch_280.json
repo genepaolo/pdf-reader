@@ -32,11 +32,14 @@
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
    "other_characters": [
-    "Audrey Hall",
-    "Lanevus"
+    "Audrey Hall"
    ],
    "setting": "Above the gray fog: Justice reports the killings around the Lanevus search; divination points to the Dharavi Street crime scene — where the killer likely still watches — and Klein resolves to hunt him using Rosago's All-Black Eye threads",
-   "text_anchor": "“Honorable Mr. Fool, there's been a problem with the investigation of Lanevus…”"
+   "text_anchor": "“Honorable Mr. Fool, there's been a problem with the investigation of Lanevus…”",
+   "mentioned_characters": [
+    "Lanevus",
+    "True Creator"
+   ]
   },
   {
    "line_start": 161,

@@ -3,6 +3,24 @@
  "scenes": [
   {
    "line_start": 3,
+   "line_end": 21,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "setting": "The prince's name lands on the table: Audrey recalls his sudden coldness and dreads a marriage proposal, and Alger — baselessly, deliberately — inflates the danger to spur the three members in Backlund into moving",
+   "text_anchor": "The last name implies that he's a member of the royal family.",
+   "mentioned_characters": [
+    "Edessak Augustus"
+   ]
+  },
+  {
+   "line_start": 23,
    "line_end": 37,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
@@ -11,12 +29,13 @@
     "Fors Wall",
     "Alger Wilson",
     "Derrick Berg",
-    "[The World]",
-    "Edessak Augustus",
-    "Ince Zangwill"
+    "The World"
    ],
-   "setting": "The prince's name lands: Audrey recalls his sudden coldness and dreads a marriage proposal, Alger inflates the danger to spur the Backlund three — while Klein deliberately withholds the sapphire ring and 0-08, planning to bow off the stage and slip back unseen. 'Ladies and gentlemen, we shall meet next week.'",
-   "text_anchor": "“Ladies and gentlemen, we shall meet next week.”"
+   "setting": "What Klein does not say: no word of the lady with the sapphire ring or Sealed Artifact 0-08, and no tip to the Machinery Hivemind — he is planning instead to bow off Backlund's stage as a side character, hoping the exit turns up Ince Zangwill",
+   "text_anchor": "“Ladies and gentlemen, we shall meet next week.”",
+   "mentioned_characters": [
+    "Ince Zangwill"
+   ]
   },
   {
    "line_start": 41,

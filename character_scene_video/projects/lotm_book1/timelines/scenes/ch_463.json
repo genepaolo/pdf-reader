@@ -6,14 +6,30 @@
    "line_end": 25,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
-   "other_characters": [
-    "Zaratul"
-   ],
+   "other_characters": [],
    "setting": "Zaratul's answer lands hard: a healed self-inflicted head wound, a crushed heart climbing out of a grave — Klein's own 'miracles', Sequence 2 of the Seer path being Miracle Invoker, and the fog perhaps being the Seer pathway's own Uniqueness. And Zaratul has been a Miracle Invoker for a very long time",
-   "text_anchor": "A miracle is to be resurrected from the dead?"
+   "text_anchor": "A miracle is to be resurrected from the dead?",
+   "mentioned_characters": [
+    "Zaratul"
+   ]
   },
   {
    "line_start": 27,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Derrick Berg",
+    "Alger Wilson",
+    "The World"
+   ],
+   "setting": "Trading: Mirror Dragon eyes at a padded 1,000 pounds accepted instantly by Audrey; Spirit Eater pouches from the City of Silver traded through Alger for the Solar High Priest formula; and The World warns that something major is brewing in Backlund",
+   "text_anchor": "“Where would the element of unrest and the possible tragedy come from?”"
+  },
+  {
+   "line_start": 113,
    "line_end": 125,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
@@ -22,10 +38,9 @@
     "Audrey Hall",
     "Derrick Berg",
     "Alger Wilson",
-    "[The World]",
-    "Edessak Augustus"
+    "The World"
    ],
-   "setting": "Trading: Mirror Dragon eyes at a padded 1,000 pounds accepted instantly by Audrey; Spirit Eater pouches from the City of Silver traded through Alger for the Solar High Priest formula; then The World warns of a major event brewing in Backlund and asks The Fool's adorer what he has found. 'Edessak Augustus.'",
+   "setting": "The Fool gives the table a name and nothing else -- the right to interpret it stays his; the portrait waits for ch464, where Audrey actually works out who he is",
    "text_anchor": "“Edessak Augustus.”"
   }
  ]

@@ -114,11 +114,11 @@ def plan(ch, P):
             else:
                 lead += dur                   # no frame yet: bill to the first real frame
             continue
-        fp = frame_path(imgs, P)
+        fp = frame_path(imgs, P, s.get("mentioned_images", []))
         if steps and steps[-1][0] == fp:
             steps[-1][1] += dur + lead        # same cast as previous scene -> one continuous shot
         else:
-            steps.append([fp, dur + lead, imgs])
+            steps.append([fp, dur + lead, imgs, s.get("mentioned_images", [])])
         lead = 0.0
     return steps, rec
 
@@ -133,8 +133,8 @@ def render(ch, P, force=False):
         print(f"ch{ch}: no audio")
         return None
 
-    for _, _, imgs in steps:
-        ensure(imgs, P)
+    for _, _, imgs, ment in steps:
+        ensure(imgs, P, ment)
 
     out = P.chapter_video(ch)          # <video_out>/<Volume_dir>/Chapter_N.mp4
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -144,7 +144,7 @@ def render(ch, P, force=False):
 
     listing = out.parent / f"_concat_ch{ch}.txt"
     lines = []
-    for fp, dur, _ in steps:
+    for fp, dur, _, _ in steps:
         lines.append(f"file '{fp.as_posix()}'")
         lines.append(f"duration {dur:.3f}")
     # concat demuxer ignores the final entry's duration unless the file is repeated
@@ -205,7 +205,7 @@ def main():
             print(f"ch{ch} '{rec['title']}'  audio={rec['audio_duration']:.1f}s  "
                   f"timing={rec['timing']}  cuts={len(steps)}")
             t = 0.0
-            for fp, dur, imgs in steps:
+            for fp, dur, imgs, _ in steps:
                 print(f"   {t:8.1f}s +{dur:7.1f}s  {', '.join(i.rsplit('.',1)[0] for i in imgs)}")
                 t += dur
             continue

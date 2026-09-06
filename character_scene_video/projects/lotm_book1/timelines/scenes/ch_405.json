@@ -34,12 +34,13 @@
    "line_end": 145,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
-   "other_characters": [
+   "other_characters": [],
+   "setting": "Jolted awake above the gray fog by Miss Magician's report: the Aurora Order has his honorific name. The leak traces to Little Sun's ritual and the All-Black Eye's corruption — so the Eye never leaves the fog again — and Mr. A's public bounty is either idiocy or fishing",
+   "text_anchor": "The Aurora Order knows of The Fool? They know of my honorific name?",
+   "mentioned_characters": [
     "Mr. A",
     "True Creator"
-   ],
-   "setting": "Jolted awake above the gray fog by Miss Magician's report: the Aurora Order has his honorific name. The leak traces to Little Sun's ritual and the All-Black Eye's corruption — so the Eye never leaves the fog again — and Mr. A's public bounty is either idiocy or fishing",
-   "text_anchor": "The Aurora Order knows of The Fool? They know of my honorific name?"
+   ]
   }
  ]
 }

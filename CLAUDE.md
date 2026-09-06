@@ -5,7 +5,7 @@
 - Unless explicitly stated otherwise, all commands and status updates for audio generation,
   video generation, and YouTube uploads refer only to `lom_book2_coi`.
 - **Second workstream:** `character_scene_video` (Book 1 per-scene portrait videos) — see its
-  section below. **Next session there: Volume 2 portrait decisions (tagging is done).**
+  section below. **Next session there: manual Studio upload of Volume 2's 5 parts (everything re-rendered/packed 2026-09-02).**
 
 ## Agent context (how this file is loaded)
 - **Cursor:** `.cursor/rules/claude-context.mdc` (`alwaysApply: true`) requires reading `CLAUDE.md` before tools or substantive changes — re-read each message, don't rely on memory.
@@ -41,7 +41,7 @@
   P1 1.4K/1.7%/101/24 · P2 849/1.3%/33/12 · P3 207/1.0%/9/3 · P4 1.7K/0.9%/59/21; traffic
   ~50–89% Browse. **CTR test assets ready 2026-08-29 — see
   `character_scene_video/CTR_TEST_PLAN_VOL1.md`**: 3 thumbnail variants in
-  `<Volume_dir>/thumbnails/thumb_vol01_p1_var{A_row,B_faces,C_strip}.jpg` + paste-ready
+  `<Volume_dir>/thumbnails/part_1/thumb_vol01_p1_var{A_row,B_faces,C_strip}.jpg` + paste-ready
   description line-1s + title options. Sequencing: thumbnail Test & Compare on P1 first,
   description line 1 on all parts now, title change only after the thumbnail test. **Done
   2026-08-29:** thumbnail Test & Compare started + line-1 rewrites applied by user (verified via
@@ -120,7 +120,7 @@
 - **Output is BY VOLUME:** everything renders/concats into `<video_out_dir>/<Volume_dir>/`
   (e.g. `.../character_video/Volume_1_Clown/`); the volume folder is derived automatically from the
   text layout by `charvid_project` helpers. `build_block_video.py` refuses ranges that cross a
-  volume boundary. Thumbnails go in `<Volume_dir>/thumbnails/`.
+  volume boundary. Thumbnails go in `<Volume_dir>/thumbnails/part_<K>/` (per upload part, with that part's A/B variants; volume-level ones at the root — layout adopted 2026-09-02, `make_thumbnail.py` writes there itself).
 - Upload-pack config (part ranges, story hooks, tags, pitch lines) lives per project in
   `projects/<name>/upload_meta.json` (template in `_TEMPLATE/`).
 - Alignment is NOT aeneas/WhisperX: Azure-TTS audio of known text, matched sentence-sequence ↔
@@ -149,6 +149,9 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
 6. `py -3.12 character_scene_video/verify_tags.py A B`          # must be 0 to fix
 7. `py -3.12 character_scene_video/compose_frames.py --block --contact-sheet`  # eyeball new frames
 8. `py -3.12 character_scene_video/render_chapter.py A B`       # `--preview` first; spot-check
+   ⚠ **Frames are cached by cast+order+rims and `LAYOUT_VERSION` (compose_frames.py). If you
+   change LAYOUT (rows_for/_fit_row/margins/rims) you MUST bump LAYOUT_VERSION, else every
+   cached PNG is reused and the re-render changes nothing.**
    ⚠ **re-renders MUST pass `--force`** — without it the script SKIPS existing MP4s while still
    printing a normal-looking per-chapter summary (timeline cuts, not the file). Bit us 2026-08-29:
    six portrait installs looked rendered but weren't until a `--force` sweep. Verify with an
@@ -156,6 +159,8 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
 9. `py -3.12 character_scene_video/build_block_video.py A B --plan` then without `--plan`
    → `<Volume_dir>/Block_NN_chAAA-BBB.mp4` + `_description.txt` (keep each upload part < 12 h;
    warns past 11.9 h; must not cross a volume boundary)
+   ⚠ **re-concats MUST pass `--force` too** — same silent skip as step 8 (bit us 2026-09-02:
+   packs regenerated while all 9 part MP4s stayed stale). Verify with file mtimes.
 10. Upload prep: add the volume's parts + hooks to `projects/<name>/upload_meta.json`, then
     `py -3.12 character_scene_video/make_upload_pack.py --volume V` and
     `py -3.12 character_scene_video/make_thumbnail.py V --name "<Vol Name>" --part K --range "A-B" --hours H`
@@ -245,22 +250,63 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
 - Channel account: **breadmoretti@gmail.com** (NOT paolo.gene).
 - Playlists (reused by ID from `youtube_config.json → playlists.playlist_ids`):
   V2 Lightseeker `PLV2gvMHy77hrYzC8lxYXCtEp4NArMkh7s` · V3 Conspirer `PLV2gvMHy77hpe3q8VvnIeXK1s-y8sNSpM`.
-- ⚠️ Old wrong playlist `PLV2gvMHy77hrh1HeiBECpJ61Smbgg5_S6`: 30 early uploads (incl. 236–240) still
-  need MANUAL moving in Studio; everything from 241 on is correct.
-- Old one-off issues: ch230–232 may have duplicate uploads; ch215 title may need a manual fix.
-
+- Old one-off issue: ch215 title may need a manual fix.
+- ✅ **PLAYLIST ROUTING IS RESOLVED — audited via API 2026-09-05, nothing to move.** The old warning about
+  `PLV2gvMHy77hrh1HeiBECpJ61Smbgg5_S6` ("30 early uploads incl. 236–240 need manual moving") was STALE:
+  that playlist **no longer exists** (404 `playlistNotFound`) and every chapter now sits in the right one.
+  Verified membership of all 390 uploaded chapters:
+  Vol 1 Nightmare `PLV2gvMHy77hpWltp0KalQNL8JPkqBKWQu` = ch1–109 · Vol 2 Lightseeker = ch110–263 ·
+  Vol 3 Conspirer = ch264–390. **Zero chapters outside a playlist.**
+  Root cause of the original mess (fixed by commit `c852902`, 2026-06-14): `get_or_create_playlist`
+  resolved playlists **by NAME** from `name_template`, which then read `LOTM 2 - Volume {n}` and did not
+  match the hand-made `LOM2 COI - Volume 2: Lightseeker`, so the uploader **auto-created its own**
+  playlist and filled it. The fix pins `playlists.playlist_ids` and short-circuits before the by-name
+  lookup. ⚠️ Volume **1** has no `playlist_ids` entry — harmless today (vol 1 is fully uploaded, and the
+  renamed template now matches by name), but pin it if vol-1 uploads ever resume.
+- ✅ **TRACKER REPAIRED 2026-09-05.** ch122 and ch230 had held **deleted** video IDs (`MKqJQyOKqJE`,
+  `7Ur5oGt7lt4`) — residue of the ch230–232 duplicate cleanup. Repointed to the live re-uploads
+  (ch122 = `M7f0V00TlYo`, ch230 = `sfmJd-_p69w`) with their real publish times + Lightseeker playlist id.
+  Backup: `youtube_progress.json.bak-2026-09-05`. Re-audited: **390/390 ids alive, 0 dead, no gaps.**
+  Worth re-running that audit occasionally (videos.list over every tracker id) — nothing else does it.
+- ✅ **END-SCREEN CHAIN VERIFIED INTACT around the repair (2026-09-05).** An earlier worry that ch121/ch229
+  pointed at the deleted videos was **WRONG** — checked and disproved: ch121 → live ch122, ch229 → live
+  ch230, and ch122 → 123, ch230 → 231 all present and correct (watch-page check: dead ids appear 0×, live
+  ids 56×). **Why it self-healed: `youtube_endscreen.py` picks the TARGET by searching Studio for the
+  chapter TITLE (`#search-yours`, `youtube_endscreen.py:262`), NOT by tracker video_id.** Only the SOURCE
+  video is addressed by tracker id. So a stale tracker id can break the source lookup for that chapter,
+  but can never mis-aim a target.
+- ⚠️ Vol 3 Conspirer playlist holds **2 `Deleted video` rows** (`OKRcFKOhBTE`, `IFa7FCbQ4Bs`) — dead
+  entries to remove in Studio (why its itemCount is 129 vs 127 real chapters).
 ## Current Progress Log
 
-### lom_book2_coi (uploads updated 2026-08-21)
+### lom_book2_coi (uploads updated 2026-09-04)
 | Stage | Done | Highest | Next action |
 |---|---|---|---|
 | Audio (`.mp3`) | 603 | 603 | generate ch. **604+** |
 | Video (`.mp4`) | 601 files (through 600, contiguous 1–600) | 600 | create ch. **601–603**, then wait for audio |
-| Upload | 360 (1–360, no gaps) | 360 | upload ch. **361** (240 pending; all vol-3+ ranges routed by ID) |
+| Upload | 390 (1–390, no gaps) | 390 | upload ch. **391+** (210 pending; all vol-3+ ranges routed by ID) |
 
-- Most recent upload: 2026-08-21, ch. **351–360** (10/10, → Conspirer; drifted-filename ch357 worked end to end).
-- End screens: done through **359→360** (2026-08-21). ⏭ **Dangling: ch360** — include as source in the
-  next batch (sources 360–369 after uploading 361–370).
+- Most recent upload: 2026-09-04, ch. **361–380** (20/20) then ch. **381–390** (10/10); both Failed: 0,
+  → Conspirer. Tracker verified 390 chapters, no gaps.
+  ⚠️ `upload_queue.py` stdout is BLOCK-BUFFERED when redirected to a file — a background run's log can sit
+  at 0 bytes for an hour while uploads succeed. Judge progress by `youtube_progress.json` (mtime + entry
+  count) or the process being alive, never by an empty log.
+- End screens: **DONE through 389→390 (2026-09-05).** Ran sources 360–389 with the public-guard override;
+  30 attempted / 30 `video element confirmed` / 30 saves / 0 WARN / 0 ERROR / 0 SKIP. **Independently
+  re-verified** by reopening all 31 editors: PRESENT on 360–389, MISSING only on ch390 (correct — the
+  newest chapter always waits for the next batch). ⏭ **Dangling: ch390.**
+  ⚠️ **THE UNLISTED-ONLY GUARD IS NOW PERMANENTLY IN THE WAY — always pass `--allow-public-chapters`.**
+  Uploads still go up unlisted (`upload_settings.privacy`) but flip public in **under a day**
+  (381–390 uploaded 2026-09-04 were public by 2026-09-05), so 'run end screens promptly while unlisted'
+  is dead. Without the override a run is a SILENT NO-OP: `--plan-only 360-389` said
+  `Eligible (unlisted): 0 / 30` and a normal run would print a plausible plan and edit nothing.
+  The flag takes an explicit comma list, so generate it: `seq -s, N M`. Working invocation:
+  `py -3.12 youtube_endscreen.py --project lom_book2_coi --chapters N-M --connect-port 9222 --yes \n   --allow-public-chapters $(seq -s, N M)`
+  Read-only presence audit (no edits): open `studio.youtube.com/video/<id>/editor` over CDP and count
+  `#add-endscreen-icon-button` — 1 = missing, 0 = present (same check the tool uses at
+  `youtube_endscreen.py:220`). Visual tell: End screen row shows `Edit` + a Subscribe/Video timeline
+  track when present, `+` and no track when missing.
+  ⚠️ Run the tool with `py -3.12 -u` — like the uploader, its stdout block-buffers when redirected.
 - Volume boundaries: ch264+ → vol 3 (Conspirer). Ch885+ needs background art before video creation.
 - Disk: ~1.17 TB free on D:; ~672 MB/video average.
 - EPUB source: 1180 formatted chapters in 8 volume folders under `formatted_text/lom_book2_coi`.
@@ -298,4 +344,86 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   --volume 2` + `make_thumbnail.py` wrote per-part description/pinned/tags files and
   `thumbnails/thumb_vol02_p1..5.jpg`; `playlist_vol02.txt` and
   `character_scene_video/YOUTUBE_UPLOAD_PLAN_VOL2.md` are written too.
-  ⏭ **NEXT ACTION: manual Studio upload of Volume 1's 4 parts, then Volume 2's 5 parts.**
+- **2026-09-01/02 — FULL RE-RENDER + RE-PACK (both volumes) with the new frame system.**
+  Portrait ordering (Klein first, Tarot members next, mentioned-only last), gold mentioned-rims,
+  7 deity cards, `frame_focus` (ch461 s2 six-god mural ONLY — reserved for over-cap crowding),
+  delayed-entrance splits (ch447 Amon reveal, ch264 Lanevus painting), missing-tag sweep
+  (22 scenes gained mentions; ch460 s3 Derrick presence fix; ch447 s1 Amon deliberately untagged
+  for the reveal). **Sharon ≠ Sharron (user, ×2): Madam Sharon = Backlund madam, Demoness pathway,
+  own portrait `Sharon.png` — never alias to the ch244+ bodyguard.** frame-cap warning now built
+  into `build_block.py` (both volumes clean; max 8 portraits, ch461 s3). All 482 chapters
+  re-rendered `--force` + frame-grab verified; **all 9 parts re-concatenated (`--force`!) 
+  2026-09-02 15:25–15:30, packs regenerated**; verify_tags 0-to-fix on all 11 blocks. Standing
+  rules added to `TAGGING_GUIDE.md`; session details in `STATUS.md`.
+- **Vol 1 P1 thumbnail A/B (checked 2026-09-02 via Studio/CDP):** running, ~10 days left, no
+  per-variant data yet; P1 7-day CTR 2.4% (up from 1.7% day-1, ~3–3.5% post-test-start estimate)
+  while control parts P2/P3/P4 stayed 1.4%/0.7%/1.1% — new thumbnail concepts are winning; which
+  variant unknown until ~Sep 11. Plan: hold P2–P4 + P1 title; **Vol 2 P1 variants BUILT 2026-09-02** —
+  `thumb_vol02_p1_var{A_bigface,B_faces,C_row}.jpg` (A = S2-poster Sherlock face, the
+  recommended default; art sources + test setup in `YOUTUBE_UPLOAD_PLAN_VOL2.md`): set varA at
+  upload, then Test & Compare with B + C. **2026-09-02: variant trios (A bigface / B faces /
+  C row) BUILT for every remaining part** — Vol1 p2-4 + Vol2 p2-5, part-specific casts, in
+  `thumbnails/part_<K>/` (generator: session scratchpad `make_all_variants.py`). Vol-2 upload
+  readiness AUDITED (5 MP4s fresh, durations match descriptions, packs/tags/pinned/playlist
+  present); human spot-check list: `character_scene_video/VOL2_REVIEW_CHECKLIST.md`.
+- **2026-09-03 ch215 PERSONA FLIP FIXED** (user spotted it): Klein was rendering as Sherlock
+  Moriarty from line 3, but he invents the name at **L79** ("Sherlock Moriarty. You can call
+  me Sherlock."). `base_flips` is CHAPTER-granular, so it overrode the scene tags. Flip moved
+  to **at_chapter 216**; ch215 is now tagged scene by scene (Klein Moretti s1-s5, Sherlock
+  s6-s9, split at L79). Lesson: for a mid-chapter identity change, set the scene personas AND
+  push the base_flip to the NEXT chapter, or the flip silently wins.
+- **2026-09-03 THREE-TIER MENTION RULE** (user): character / subject-of-conversation / passing
+  note — a simple mention warrants NO portrait. Recorded in `TAGGING_GUIDE.md`. Swept all 56
+  Vol-2 mention tags: removed 5 tier-3 tags (ch245 TC, ch265 EBS, ch292 Qilangos+Cattleya,
+  ch440 Evernight). Same sweep caught a STRUCTURAL bug: **ch406 had a duplicate scene**
+  (57-89 alongside its own split halves 57-71 + 73-89) and the halves had lost Fors Wall —
+  fixed; a 482-chapter overlap scan found no others. Chapters 245/265/292/406/440 re-rendered,
+  parts 1/2/4/5 re-concatenated, Vol-2 pack regenerated; all durations unchanged.
+- **2026-09-03 (late) PORTRAIT ROUND + REVIEW.** User reviewed all 5 Vol-2 parts; outstanding
+  re-check list (chapters that changed AFTER each part was signed off) is in
+  **`character_scene_video/VOL2_OUTSTANDING_REVIEW.md`** — read that first to resume.
+  New portraits: **Eye of Wisdom** (own art; NEVER Isengard Stanton.png, ch415 reveal),
+  **Mr. Door**, **Daisy** (`*` reference), **God of Combat** (Badheil), **Colin Iliad** (16
+  chapters!), **Lovia**, and **Zaratul** replaced. **`Apothecary` not `Darkwill` in Vol 2**
+  (the name Darkwill first appears Vol 3 ch585). ch461 merged to ONE 7-god focus frame.
+  ⚠ **85 Vol-2 characters are tagged-but-artless** (Kaslana 86 min, Stuart 53, Escalante 48,
+  Horamick Haydn 38…) — `build_character_report.py` ranks by SCENE COUNT so they never
+  surface; switching it to SCREEN TIME is the fix.
+  ⚠ **After installing ANY portrait, rebuild ALL 11 blocks** — a partial rebuild left ch216/217
+  rendering a stale cast with Mr. Door still missing, and the render log looked normal.
+- **2026-09-03 MR. WORLD IS A SEATED MEMBER, NOT A PERSONA** (user): `[The World]` (bracketed
+  background) -> **`The World`** with its own portrait across all 35 gathering chapters ch264-464.
+  Art = the official Gehrman Sparrow card as a pure SILHOUETTE (user-supplied; `The World.png`),
+  because members see 'a hooded black robe... illusory and hazy' and Gehrman Sparrow is not
+  created until **ch483** (Vol 3 ch1). Seated in `portrait_priority.members` by joining order
+  (after Derrick). Registered in `character_registry.json` so verify_tags accepts him.
+  ⏭ **Vol 3+: swap to the FULL `Gehrman Sparrow.jpg`** and keep him a separate row ONLY inside
+  gatherings (rule in `TAGGING_GUIDE.md`). All 35 chapters re-rendered + all 5 parts
+  re-concatenated 2026-09-03 (durations unchanged); ch461 s3 now sits AT the 9-portrait cap.
+- **2026-09-05 SOEST INSTALLED (`*` reference, user-supplied).** Leonard Mitchell's team leader
+  (ch408 L61 "The middle-aged man named Soest"); 22:38 of screen time across ch408, 409, 421,
+  424, 426, 429 -- another casualty of the scene-count ranking in `build_character_report.py`.
+  Non-official art, so `mark_depiction.py` stamped the white `*`; his `character_map.json` note
+  records that the text says middle-aged while the reference reads much younger. All 11 blocks
+  rebuilt, the 6 chapters re-rendered `--force`, parts 4 + 5 re-concatenated `--force`, Vol-2
+  pack regenerated. Verified 2026-09-05: frame grabs of ch424 s2 + ch429 s3 show the `*` portrait;
+  staleness check clean on all 5 parts; durations unchanged (10:49:10 / 10:53:01 / 10:50:06 /
+  10:46:40 / 10:51:58). **Nine portraits added over 2026-09-03/05** (The World, Eye of Wisdom,
+  Mr. Door, Zaratul replaced, Daisy, God of Combat, Colin Iliad, Lovia, Soest); the user's
+  outstanding re-check list is now **41 chapters** in `VOL2_OUTSTANDING_REVIEW.md`.
+- **2026-09-05 LEONARD MITCHELL PINNED TO `portrait_priority.members`** (user ruling: he is the POV
+  lead of his own chapters and a future Tarot seat). Appended LAST in `members`, which is also his
+  joining order, so nothing has to move when he is actually seated. He shares **no** Vol-2 frame
+  with a seated member, so in Volume 2 this only reorders him against Soest/Daly/Ikanser: exactly
+  **3 scenes** changed -- ch408 s2, ch409 s2, ch429 s3 (Soest had been leading). Re-rendered
+  `--force`, parts 4 + 5 re-concatenated `--force`, pack regenerated.
+  ⚠ **The same rule reorders 25 VOLUME-1 chapters** (17, 45, 46, 71-77, 97, 105, 106, 109, 122-125,
+  165, 204, 205, 207-209, 211) because Leonard now outranks **Dunn Smith** -- his own captain -- plus
+  Megose, Trissy and the Moretti siblings. Those chapter MP4s were re-rendered so the masters stay
+  truthful to the data, but **the four Volume-1 part files were deliberately NOT re-concatenated**:
+  Volume 1 ships as-is and is not being re-uploaded, so a Vol-1 staleness check is EXPECTED to
+  report those parts as older than their chapters. If Volume 1 is ever revisited, decide first
+  whether Dunn Smith should outrank Leonard in the Book-1 Nighthawks scenes.
+  ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts.** **Volume 1 will NOT be
+  re-uploaded (user decision 2026-09-03)** — it stays live with its original frames; its local
+  masters carry the new layout but that is not shipping. All future changes are Vol 2+ only.

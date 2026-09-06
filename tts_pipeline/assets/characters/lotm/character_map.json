@@ -203,8 +203,9 @@
    "aliases": []
   },
   "Colin Iliad": {
-   "image": "Colin Iliad.jpg",
-   "aliases": []
+   "image": "Colin Iliad.png",
+   "manual": true,
+   "_note": "USER-SUPPLIED 2026-09-03: official card art, name-labelled 科林·伊利亚特."
   },
   "Cynthia": {
    "image": "Cynthia.jpg",
@@ -231,8 +232,11 @@
    "aliases": []
   },
   "Evernight Goddess": {
-   "image": "Evernight Goddess.jpg",
-   "aliases": []
+   "image": "Evernight Goddess Card.png",
+   "aliases": [
+    "Amanises"
+   ],
+   "_note": "Deity. USER-SUPPLIED card art (2026-08-30) via clipboard, visually verified; used as-is at 751x1051, the name plate left in because the official character cards carry their own name plates too. REPLACES the manifest's 'Evernight Goddess.jpg' by override -- the old file is untouched on disk, so reverting is just deleting this entry. Manual file -- do not re-fetch."
   },
   "Fors Wall": {
    "image": "Fors Wall.jpg",
@@ -352,7 +356,7 @@
    "aliases": [
     "Madam Sharon"
    ],
-   "_note": "Backlund madam / Zombie-pathway Beyonder (ch174, ch196-199). USER-SUPPLIED donghua still (2026-08-27) via clipboard, visually verified; crop (140,0)-(720,494) of 1000x494, padded with backdrop-dark (14,13,19) to 580x754. Manual file -- do not re-fetch."
+   "_note": "Backlund madam / Demoness-pathway Beyonder (ch174, ch196-199). USER-SUPPLIED donghua still (2026-08-27) via clipboard, visually verified; crop (140,0)-(720,494) of 1000x494, padded with backdrop-dark (14,13,19) to 580x754. Manual file -- do not re-fetch."
   },
   "Isengard Stanton": {
    "image": "Isengard Stanton.png",
@@ -364,7 +368,8 @@
    "aliases": [
     "Mr. Zaratul"
    ],
-   "_note": "Secret Order leader, named in Roselle diary interludes (ch59, ch93). USER-SUPPLIED Thai vol-33 cover (2026-08-27) via clipboard, visually verified. Full figure (60,85)-(400,448) of 428x615, PADDED with backdrop-dark (14,13,19) to 340x510 (1:1.5) so nothing is cut and he doesn't render wide (user ruling: center, never crop through the subject; pad instead). Manual file -- do not re-fetch."
+   "_note": "Master of divination in Roselle diary entries. USER-SUPPLIED 2026-09-03: Thai edition vol 33 cover, used UNCROPPED at the user request. NOTE: the capture carries a faint Windows activation watermark in the lower-right corner; user accepted it.",
+   "manual": true
   },
   "Lorotta": {
    "image": "Lorotta.jpg",
@@ -494,6 +499,101 @@
    "image": "Tyre.png",
    "aliases": [],
    "_note": "Rose School of Thought, ch347-350 (48 min -- the biggest single portrait gap in Vol 2). JOKE STAND-IN (user choice 2026-08-29, disclosed via the * corner mark + description credit line): wiki says spiked hair + dagger-long black fingernails, fighting under weak crimson moonlight -- stand-in is a werewolf under the full moon. Manual file -- do not re-fetch."
+  },
+  "God of Steam and Machinery": {
+   "image": "God of Steam and Machinery Card.png",
+   "aliases": [
+    "God of Craftsmanship"
+   ],
+   "_note": "Deity. USER-SUPPLIED card art (2026-08-30) via clipboard, visually verified; used as-is at 751x1051, name plate kept (the official character cards carry name plates too). Part of the same card set as the Evernight Goddess. Manual file -- do not re-fetch."
+  },
+  "Primordial Demoness": {
+   "image": "Primordial Demoness.png",
+   "aliases": [],
+   "_note": "Deity. USER-SUPPLIED illustration (2026-08-30) via clipboard, visually verified; used as-is at 1000x2001 -- the shattered-mirror / black-snakes / blue-eyes iconography. NOT part of the Evernight Goddess card set (no frame, no name plate) and much taller in aspect, so it reads narrower in a portrait row. Distinct from Trissy, who has her own portrait -- do not alias them. Manual file -- do not re-fetch."
+  },
+  "Lilith": {
+   "image": "Lilith Card.png",
+   "aliases": [
+    "Earth Mother",
+    "Mother Earth"
+   ],
+   "_note": "Deity. USER-SUPPLIED card art (2026-08-30) via clipboard, visually verified; used as-is at 751x1051, same card set as the Evernight Goddess (card reads 'Lilith / Earth Mother'). KEYED 'Lilith' because that is the registry name -- the book calls her Mother Earth 45x, Lilith 17x and Earth Mother 14x, so both other forms are aliased in name_aliases.json or a text-literal tag would fall into the minor bucket (the Old Kohler trap). Manual file -- do not re-fetch."
+  },
+  "God of Knowledge and Wisdom": {
+   "image": "God of Knowledge and Wisdom Card.png",
+   "aliases": [
+    "Herabergen"
+   ],
+   "_note": "Deity. USER-SUPPLIED card art (2026-08-30) via clipboard, visually verified; used as-is at 751x1051, name plate kept (the official character cards carry name plates too). Part of the same card set as the Evernight Goddess. Manual file -- do not re-fetch."
+  },
+  "Eternal Blazing Sun": {
+   "image": "Eternal Blazing Sun Card.png",
+   "aliases": [
+    "Aucuses"
+   ],
+   "_note": "Deity. USER-SUPPLIED card art (2026-08-30) via clipboard, visually verified; used as-is at 751x1051, name plate kept (the official character cards carry name plates too). Part of the same card set as the Evernight Goddess. Manual file -- do not re-fetch."
+  },
+  "Lord of Storms": {
+   "image": "Lord of Storms Card.png",
+   "aliases": [
+    "Leodero"
+   ],
+   "_note": "Deity. USER-SUPPLIED card art (2026-08-30) via clipboard, visually verified; used as-is at 751x1051, name plate kept (the official character cards carry name plates too). Part of the same card set as the Evernight Goddess. Manual file -- do not re-fetch."
+  },
+  "The World": {
+   "image": "The World.png",
+   "aliases": [
+    "Mr. World"
+   ],
+   "manual": true,
+   "_note": "Klein's fake second Tarot seat, introduced ch264. USER-SUPPLIED 2026-09-03: the official Gehrman Sparrow card rendered as a pure SILHOUETTE, because the Tarot Club members perceive Mr. World as a separate, hooded, 'illusory and hazy' stranger and must not see a face. Gehrman Sparrow himself is not created until ch483 (Vol 3), where the club comes to view The World AS Gehrman Sparrow -- so the silhouette is deliberate foreshadowing, not a spoiler. Do NOT swap in the unsilhouetted card for Volume 2."
+  },
+  "Apothecary": {
+   "image": "Darkwill.png",
+   "manual": true,
+   "_note": "The chubby Apothecary of Eye of Wisdom's gatherings. SAME PERSON AND ART as 'Darkwill', but the name Darkwill does NOT appear anywhere in Volume 2 -- it is first used in Vol 3 ch585. So Volume 2 tags him 'Apothecary' (the text's own word from ch240 on) and Vol 3+ may switch to 'Darkwill'. USER RULING 2026-09-03."
+  },
+  "Eye of Wisdom": {
+   "image": "Eye of Wisdom.png",
+   "manual": true,
+   "_note": "Old Mister Eye of Wisdom, host of the Backlund Beyonder gatherings. USER-SUPPLIED 2026-09-03 -- elderly, top hat, monocle, cane, matching 'his ancient voice'. Kept as its own identity: he is revealed to be Isengard Stanton at ch415, so do NOT use `Isengard Stanton.png` for gathering scenes (see TAGGING_GUIDE code-name rule)."
+  },
+  "Mr. Door": {
+   "image": "Mr. Door.png",
+   "manual": true,
+   "_note": "The figure Roselle converses with across his diary. USER-SUPPLIED 2026-09-03: Thai edition vol 52 cover, used UNCROPPED at the user's instruction. Kept under the code name: Klein only SPECULATES he is Bethel Abraham (ch336 'Mr. Door being the ancestor of the Abraham family, Bethel, is quite possible') -- never confirmed in Book 1, so do not rename him."
+  },
+  "Daisy": {
+   "image": "Daisy.png",
+   "manual": true,
+   "depiction": true,
+   "_note": "Liv's younger daughter, the East Borough laundry girl abducted for Capim's dungeon (ch373-387). NO official art exists -- USER-SUPPLIED REFERENCE 2026-09-03, marked with the white * per the depiction convention. Text gives only: thirteen or fourteen, the younger of two sisters (Freja is 17-18), hands covered with burns from the laundry iron; loved school, slept holding her hand-copied vocabulary book."
+  },
+  "God of Combat": {
+   "image": "God of Combat Card.png",
+   "manual": true,
+   "aliases": [
+    "Badheil",
+    "Twilight Giant",
+    "Giant"
+   ],
+   "_note": "Badheil, God of Combat / the Twilight Giant -- the sixth of the orthodox gods in the ch461 mural, where the text names him only as 'Giant' in Klein's one-word list (L45 'Evernight, Sun, Storm, Wisdom, Earth, Giant'). USER-SUPPLIED 2026-09-03, same official card set as the other six deities."
+  },
+  "Lovia": {
+   "image": "Lovia.png",
+   "manual": true,
+   "aliases": [
+    "Elder Lovia",
+    "Lovia Tiffany"
+   ],
+   "_note": "Elder Lovia (Lovia Tiffany), of the City of Silver's six-member council; a Shepherd by ch293. USER-SUPPLIED 2026-09-03. Tagged `Lovia` because that is what the text uses -- 'Elder Lovia' 21x, 'Lovia' 13x; the surname Tiffany is a wiki name."
+  },
+  "Soest": {
+   "image": "Soest.png",
+   "manual": true,
+   "depiction": true,
+   "_note": "Team leader Leonard Mitchell serves under (ch408+). NO official art -- USER-SUPPLIED REFERENCE 2026-09-03, marked with the white * per the depiction convention. NOTE the text calls him 'the middle-aged man named Soest'; this reference reads considerably younger."
   }
  }
 }

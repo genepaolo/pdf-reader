@@ -1361,14 +1361,14 @@
    "continues": true,
    "carried_others": [
     "[hooded Beyonders]",
-    "[fat-faced man]"
+    "Apothecary"
    ]
   },
   "240": {
    "continues": true,
    "carried_others": [
     "[hooded Beyonders]",
-    "[fat-faced man]",
+    "Apothecary",
     "Eye of Wisdom",
     "Black Snake"
    ]
@@ -1452,7 +1452,7 @@
    "continues": true,
    "carried_others": [
     "Eye of Wisdom",
-    "[fat-faced man]",
+    "Apothecary",
     "Sharron"
    ]
   },
@@ -1548,7 +1548,7 @@
    "carried_others": [
     "[hooded Beyonders]",
     "Eye of Wisdom",
-    "[fat-faced man]",
+    "Apothecary",
     "[hooded woman weapon seller]"
    ]
   },
@@ -1856,7 +1856,7 @@
   "326": {
    "continues": true,
    "carried_others": [
-    "[fat-faced man]",
+    "[chubby heckler]",
     "[circus audience]"
    ]
   },
@@ -1901,7 +1901,7 @@
    "continues": true,
    "carried_others": [
     "Eye of Wisdom",
-    "[fat-faced man]",
+    "Apothecary",
     "[hooded Beyonders]"
    ]
   },

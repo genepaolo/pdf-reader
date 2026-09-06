@@ -3,6 +3,61 @@
  "scenes": [
   {
    "line_start": 3,
+   "line_end": 17,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Derrick Berg",
+    "Alger Wilson",
+    "Audrey Hall",
+    "Fors Wall",
+    "The World"
+   ],
+   "setting": "Derrick has learned to show rather than tell: with Mr. Fool's permission he conjures the expedition from memory above the bronze table — collapsed walls, ruined streets, the dark going on and on — and Klein watches, sighing at what the City of Silver endures",
+   "text_anchor": "It's more attractive than any novel I've ever read"
+  },
+  {
+   "line_start": 19,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Derrick Berg",
+    "Alger Wilson",
+    "Audrey Hall",
+    "Fors Wall",
+    "The World"
+   ],
+   "setting": "The mural and then the statues, held on screen together: nobody at the table can name the six, Klein recognises them from the Tudor ruin as “Evernight, Sun, Storm, Wisdom, Earth, Giant” corrupted, Audrey finds her own Goddess among them and understands who disfigured Her, and Alger names it — the orthodox six, distorted, beside the Fallen Creator who did it",
+   "text_anchor": "“Which evil gods are these?”",
+   "mentioned_characters": [
+    "Evernight Goddess",
+    "Eternal Blazing Sun",
+    "Lord of Storms",
+    "God of Knowledge and Wisdom",
+    "Earth Mother",
+    "God of Combat",
+    "True Creator"
+   ],
+   "frame_focus": "mentioned"
+  },
+  {
+   "line_start": 81,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Derrick Berg",
+    "Alger Wilson",
+    "Audrey Hall",
+    "Fors Wall",
+    "The World"
+   ],
+   "setting": "the table alone: Fors asks why there is no God of Steam and Machinery and learns He wasn't born until the late Fourth Epoch, then Derrick asks whether the mural is the key and thanks a Hanged Man nobody has ever called kind and enthusiastic",
+   "text_anchor": "“Why is there no God of Steam and Machinery?”"
+  },
+  {
+   "line_start": 105,
    "line_end": 127,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
@@ -11,11 +66,9 @@
     "Alger Wilson",
     "Audrey Hall",
     "Fors Wall",
-    "[The World]",
-    "Evernight Goddess",
-    "True Creator"
+    "The World"
    ],
-   "setting": "Derrick projects the whole expedition for the table, and the mural's six 'evil gods' turn out to be the orthodox six, distorted; The World shows the matching Fourth Epoch statues, prompting talk of the gods' lost human images and a God of Steam born only in the late Fourth Epoch — then The Fool drops two words as the key: 'Rose Redemption.'",
+   "setting": "the table alone: the discussion over, Klein gives them the name the City of Silver found in the abandoned temple -- an organization of fallen angels -- and keeps the right to interpret it",
    "text_anchor": "“Rose Redemption.”"
   }
  ]

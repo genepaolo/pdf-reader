@@ -100,7 +100,12 @@ def main():
     canvas.paste(logo, (42, 22), logo)
 
     P = charvid_project.load(a.project)
+    # per-part subfolder (user decision 2026-09-02): each part's thumbnail lives with its own
+    # A/B variants in thumbnails/part_<K>/, so variant sets stay manageable per upload part.
+    # Volume-level (no --part) thumbnails stay at the thumbnails/ root.
     out_dir = P.video_out / P.volume_dir_by_no(a.volume) / "thumbnails"
+    if a.part:
+        out_dir = out_dir / f"part_{a.part}"
     out_dir.mkdir(parents=True, exist_ok=True)
     suffix = f"_p{a.part}" if a.part else ""
     out = out_dir / f"thumb_vol{a.volume:02d}{suffix}.jpg"

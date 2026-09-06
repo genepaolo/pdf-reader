@@ -16,11 +16,13 @@
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
    "other_characters": [
-    "Audrey Hall",
-    "Mr. A"
+    "Audrey Hall"
    ],
    "setting": "Above the gray fog: Justice reports Mr. A's terms; Klein deduces Mr. A is an Aurora Order Oracle (never trade formulas with lunatics), divines that Maric's friend is low-risk and Mr. A will genuinely threaten Bakerland, then approves the plan and asks 1000 pounds 'for his adorer'",
-   "text_anchor": "Dressed in a white silk nightgown, Miss Justice appeared in front of him."
+   "text_anchor": "Dressed in a white silk nightgown, Miss Justice appeared in front of him.",
+   "mentioned_characters": [
+    "Mr. A"
+   ]
   },
   {
    "line_start": 105,

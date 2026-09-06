@@ -18,11 +18,12 @@
    "line_end": 149,
    "protagonist_present": true,
    "protagonist_persona": "The Fool",
-   "other_characters": [
-    "Will Auceptin"
-   ],
+   "other_characters": [],
    "setting": "Above the gray fog with the paper crane and spirit pendulum: the corpse is Will Auceptin's and will not resurrect — yet he is not completely dead. The theory that follows is one to run from: a second Snake of Mercury hunting the first, because a Sequence 0 leaves no Sequence 1s alive",
-   "text_anchor": "He suspected that Will Auceptin was another Snake of Mercury!"
+   "text_anchor": "He suspected that Will Auceptin was another Snake of Mercury!",
+   "mentioned_characters": [
+    "Will Auceptin"
+   ]
   },
   {
    "line_start": 153,

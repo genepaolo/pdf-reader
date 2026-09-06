@@ -9,11 +9,13 @@
    "other_characters": [
     "Horamick Haydn",
     "Ikanser Bernard",
-    "[Machinery Hivemind members]",
-    "Amon"
+    "[Machinery Hivemind members]"
    ],
    "setting": "The tomb's last secrets: a mural of a cross-crowned god attended by angels, two twelve-winged angels bearing black-haired and blond babies — 'Amon.' … 'Adam…' — destroyed by the archbishop's own hand; then a doorway that opens onto black mist and endless depth ('The Abyss…'), which his wrist-cannon reduces to powder",
-   "text_anchor": "“The Abyss…”"
+   "text_anchor": "“The Abyss…”",
+   "mentioned_characters": [
+    "Amon"
+   ]
   },
   {
    "line_start": 145,
