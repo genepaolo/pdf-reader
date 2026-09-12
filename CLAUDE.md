@@ -460,6 +460,14 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   `pinned_extra_lines`). Titles/tags unchanged. **Output layout is now by part** (see Engine layout):
   571 files moved by a scratchpad script, nothing deleted; 43 h Vol-1 single upload parked in `_legacy/`.
   All four path-aware scripts verified on the new tree (`--plan`, pack, thumbnail, ad-hoc-range refusal).
+- **2026-09-12 TESTS RE-READ (through Sep 10): still NO per-variant data on any of the 4; P1 ends ~Sep 13,
+  P2-P4 ~Sep 17, all will end "no clear winner".** Whole-test-window CTR vs template: P2 1.3% -> 3.4%
+  (real), P3 0.4% -> 3.3% but every click is Sep 7-10 with Playlists now 52.6% of its traffic (P2's
+  viewers binge-continuing, not thumbnail clicks), P4 too few impressions, P1 drifting 3.7% -> 2.2%.
+  Recommendation recorded in `THUMBNAIL_TEST_ANALYSIS.md` s6: stop waiting, set thumbnails by hand when
+  each test ends (P2-P4 varA bigface, P1 varB faces), let Vol 2's launch run the only resolvable test
+  (varD_bright vs varA on P2/P4/P5). **Volume 3 (ch483-732, `Volume_3_Traveler`) is staged upstream:**
+  250 chapters of text + 250 MP3s exist, nothing aligned or tagged — ready to start at recipe step 3.
   ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts** (files in
   `Volume_2_Faceless/parts/Part_K_chAAA-BBB/`; thumbnail choice per part in the analysis doc). **Volume 1 will NOT be
   re-uploaded (user decision 2026-09-03)** — it stays live with its original frames; its local

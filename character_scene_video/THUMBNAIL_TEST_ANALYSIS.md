@@ -120,3 +120,38 @@ folder (`parts/Part_K_chAAA-BBB/thumbnails/thumb_vol02_pK_varD_bright.jpg`).
 - **Tags** — unchanged (380/500).
 - **Still manual, after Vol 2 is live:** append a "Continue with Volume 2 →" line to the four live
   Vol-1 pinned comments, and give Vol-1 P4 its missing end screen pointing at Vol-2 P1.
+
+## 6. Re-read 2026-09-12 (Studio data through Sep 10/11)
+
+Still **no per-variant data on any of the four tests**. P1 ends in ~15 h, P2–P4 in ~5 days; all
+four will end "no clear winner" at this impression volume (50–90/day/part; P4 down to ~13/day).
+
+```
+PART 1   Aug 30 Aug 31  Sep 1  Sep 2  Sep 3  Sep 4  Sep 5  Sep 6  Sep 7  Sep 8  Sep 9 Sep 10
+  impr       341    379     91    111     98     72     62     75     78     78     86     89
+  ctr %      2.6    3.4    7.7    4.5    4.1    0.0    1.6    4.0    0.0    0.0    4.7    2.3
+PART 2
+  impr       137    107     63     94     82     76     68     73     77     69     60     53
+  ctr %      0.0    2.8    1.6    1.1    3.7    5.3    7.4    4.1    3.9    1.5    0.0    0.0
+PART 3
+  impr        80     69     54     92     65     53     60     58     67     66     60     54
+  ctr %      0.0    1.5    0.0    0.0    0.0    0.0    0.0    0.0    1.5    7.6   10.0    7.4
+PART 4
+  impr         0    244     28     46     33     31     28     17     10     14     12     13
+  ctr %      0.0    1.6    3.6    2.2    3.0    0.0    3.6    5.9    0.0    7.1    0.0    0.0
+```
+
+| Part | Pre-test (template) | Whole test window Sep 3–10 | Read |
+|---|---|---|---|
+| 2 | 1.3% (5/401) | **3.4%** (19/558) | real lift, p ≈ 0.03; the Sep 3–5 spike (5.4%) regressed to ~2% |
+| 3 | 0.4% (1/295) | **3.3%** (16/483) | ALL 16 clicks are Sep 7–10 and P3's traffic is now **52.6% Playlists** — this is P2's viewers binge-continuing, not thumbnail clicks. Doesn't overturn the "dark face = no clicks" read |
+| 4 | 1.9% (6/318) | 2.5% (4/158) | too few impressions to say anything |
+| 1 | 3.7% (34/922, test already running) | 2.2% (14/638) | drifting down; P1's three slots include the old template, so the aggregate can't say which slot is dragging |
+
+**Net:** the new thumbnail sets lift CTR over the series template on every part with a clean
+before/after (P2 ×2.6, P3 via the chain). Which concept wins will never come out of these tests.
+**Decision recommended: stop waiting.** When each test ends, set the thumbnail by hand —
+P2/P3/P4 → varA bigface (the primary during the lift), P1 → varB faces (no bigface exists for P1;
+build one if you want all four parts on the same concept). Then let Vol 2's launch — the biggest
+impression event the channel gets — carry the only test that can actually resolve: **varD_bright
+vs varA on the same concept** (P2, P4, P5).
