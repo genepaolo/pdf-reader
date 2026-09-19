@@ -5,7 +5,7 @@
 - Unless explicitly stated otherwise, all commands and status updates for audio generation,
   video generation, and YouTube uploads refer only to `lom_book2_coi`.
 - **Second workstream:** `character_scene_video` (Book 1 per-scene portrait videos) — see its
-  section below. **Next session there: manual Studio upload of Volume 2's 5 parts (output re-laid-out by part 2026-09-06; thumbnail picks in `THUMBNAIL_TEST_ANALYSIS.md`).**
+  section below. **Next session there: manual Studio upload of Volume 2's 5 parts (proof of readiness = `verify_render.py 214 482` CLEAN; thumbnail picks in `THUMBNAIL_TEST_ANALYSIS.md`), then Vol 3 block 11 portrait decisions -> render (STATUS.md top block).**
 
 ## Agent context (how this file is loaded)
 - **Cursor:** `.cursor/rules/claude-context.mdc` (`alwaysApply: true`) requires reading `CLAUDE.md` before tools or substantive changes — re-read each message, don't rely on memory.
@@ -162,7 +162,12 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
    ⚠ **re-renders MUST pass `--force`** — without it the script SKIPS existing MP4s while still
    printing a normal-looking per-chapter summary (timeline cuts, not the file). Bit us 2026-08-29:
    six portrait installs looked rendered but weren't until a `--force` sweep. Verify with an
-   ffmpeg frame grab, not the log.
+   ffmpeg frame grab, not the log — or better, **`py -3.12 character_scene_video/verify_render.py A B`**
+   (added 2026-09-18): pixel-compares every scene of every chapter MP4 against the frame the current
+   block data resolves to, checks the frame cache against a fresh recompose (in-place portrait swaps),
+   and flags parts older than their chapters. Exit 0 = CLEAN; otherwise it prints the exact
+   `chapters_to_rerender` / stale PNGs / stale parts (`--json PATH` for a machine-readable list;
+   `--frames` = cache-only, seconds). **This is the only accepted proof that a range is rendered.**
 9. `py -3.12 character_scene_video/build_block_video.py A B --plan` then without `--plan`
    → `<Volume_dir>/parts/Part_K_chAAA-BBB/Part_K_chAAA-BBB.mp4` + `_description.txt` (K from
    `upload_meta.json`, so add the part range there FIRST; keep each upload part < 12 h;
@@ -492,6 +497,9 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
 - **2026-09-18 HORAMICK HAYDN INSTALLED (`*` reference).** ch324,446,447,448 re-rendered, parts 3 + 5
   re-concatenated (part 5 now 10:52:01, +3 s from cut rounding; markers regenerated), ch447 s2 frame-grab
   verified (the Amon reveal now shows Horamick turning the frame), staleness 0. Vol 3 ch491/493 pick him up.
+- **2026-09-18 HANDOFF (pre-compaction).** `verify_render.py` added and run on Vol 2 -- see STATUS.md
+  top block for the result and for Vol 3 block 11 state (tagged, verified, NOT rendered; needs
+  `upload_meta.json` volume 3 entry + portrait decisions first). Six `*` references installed today.
   ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts** (files in
   `Volume_2_Faceless/parts/Part_K_chAAA-BBB/`; thumbnail choice per part in the analysis doc). **Volume 1 will NOT be
   re-uploaded (user decision 2026-09-03)** — it stays live with its original frames; its local

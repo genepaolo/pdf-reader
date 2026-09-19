@@ -3,7 +3,48 @@
 > **Output layout changed 2026-09-06:** chapter masters live in `<Volume_dir>/chapters/`, each upload part in its own `<Volume_dir>/parts/Part_K_chAAA-BBB/` folder (MP4 + pack files + `thumbnails/`), volume-level thumbnails in `<Volume_dir>/thumbnails/`. The old `Block_NN_` file stems are now `Part_K_`; the abandoned 43 h Vol-1 single upload sits in `Volume_1_Clown/_legacy/`. Older path mentions below were rewritten to match; anything still saying `Block_` is history.
 
 
-**Read this first to resume.** Last updated 2026-09-02 (**BOTH VOLUMES FULLY RE-RENDERED,
+**Read this first to resume.** Last updated 2026-09-18 (see the block right below; the 09-02
+paragraph after it is older context).
+
+## Session 2026-09-18 — six `*` references, Vol 3 block 11 tagged, verify_render.py added
+
+**Volume 2 state: every chapter proven correct against the CURRENT frame cache, packs fresh.**
+The proof is `py -3.12 character_scene_video/verify_render.py 214 482` (exit 0 = CLEAN). It runs two
+pixel checks — cached PNG vs fresh recompose (catches in-place portrait swaps), and decoded video
+frame vs cached PNG per scene (catches un-re-rendered chapters) — plus part-vs-chapter mtimes.
+**Run it BEFORE any claim that a range is rendered, and again AFTER re-rendering.** Findings are
+also written as JSON with `--json`; `chapters_to_rerender` and `stale_parts` are the work list.
+Frame-PNG mtimes are not a signal (see CLAUDE.md 09-05 note).
+
+Installed today (all user-supplied, all marked `*`, decisions flipped to yes): **Caitlyn Hall**
+(fan art of Audrey + mother, uncropped), **Kaslana** (hard-decline reversed; SQUARE art — ~2.5x the
+width of a card in a row, crop to portrait if it reads wrong), **Escalante** (reads older than the
+text's "baby-faced"), **Capim**, **Stuart** (transparent PNG composited on the backdrop), **Horamick
+Haydn** (low-res anime still). Chapters touched: 343,472,482 / 299,301,305,337,413-416,418-420 /
+339,356,368,388,405,417,418,444,449,450,471 / 377-380 / 299,300,301,305,337,338,370,371,413,414 /
+324,446-448. Every part was re-concatenated at least once; part 5 is now 10:52:01 (+3 s, cut
+rounding). Alias `Ian` -> `Ian Wright`. User's review list: `VOL2_OUTSTANDING_REVIEW.md` (71 ch).
+
+**Volume 3 block 11 (ch483-532): TAGGED + VERIFIED, NOT RENDERED.** Aligned 483-732 (all 250 at
+100%), verify_alignment PASS, 186 scenes, verify_tags 471/471. Ten parallel readers, brief in the
+session scratchpad `vol3_notes/READER_BRIEF.md` (worth copying into the repo before block 12).
+Engine changes: `base_flips` Sherlock -> **Gehrman Sparrow at ch484** (ch483 tagged by scene);
+`character_map.json` gained `image_from_chapter` — The World shows the FULL Gehrman Sparrow card
+from ch483 (`build_block.image_for()`); Vol 2 blocks rebuilt byte-identical afterwards.
+Judgment calls made during consolidation: throwaway Faceless guises (ch531 "Wendt") render as
+Gehrman Sparrow; ch523 s7 keeps The World for the staged prayer answer (ch336 precedent); the
+ch525-526 "beheaded Danitz" is tagged as Danitz for the reveal (ch447 precedent); `Cordoba Roye`
+is aliased DOWN to the page's `Cordoba` (not a wiki character). Boundary 503 took the fuller
+dining-room cast. Vol 3 durations: 50.12 h -> five parts (~483-531 / 532-581 / 582-632 / 633-683 /
+684-732), cut points not yet nudged to story beats; `upload_meta.json` has NO volume 3 entry yet
+(build_block_video refuses ranges not listed there).
+**Before rendering block 11:** portrait decisions — `build_character_report.py 483 532` says
+need:16 (Donna, Denton, Elland Kag, Urdi Branch, Maveti, Squall, Hendry, Hamilton, Logan, Hermes,
+Medici, Millet, Berg, Caitlyn Hall[now has art], Davy Raymond, Waymandy) plus non-registry names
+with heavy screen time (Cleves 2:22, Cecile 2:11, Teague 1:05, Harris, Timothy). The Branch-family
+voyage ch499-512 renders as Klein + Danitz alone until those get art.
+
+ (**BOTH VOLUMES FULLY RE-RENDERED,
 RE-CONCATENATED AND RE-PACKED** with the 2026-08-31→09-02 upgrades: member-first portrait
 ordering, gold mentioned-rims, 7 deity cards, frame_focus, delayed-entrance splits, and the
 missing-tag sweep. Volume 1 is live on YouTube (old frames — re-upload optional); **Volume 2's 5
