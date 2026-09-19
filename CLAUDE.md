@@ -483,6 +483,12 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   baby-faced. Review list now 66 chapters (`VOL2_OUTSTANDING_REVIEW.md`).
 - **2026-09-18 CAPIM INSTALLED (`*` reference).** ch377-380 (the Hero Bandit raid) re-rendered, part 4
   re-concatenated, pack regenerated, ch378 frame-grab verified, staleness 0. Harras/Katy/Parker still blank.
+- **2026-09-18 STUART INSTALLED (`*` reference, transparent PNG composited onto the frame backdrop).**
+  10 chapters (299,300,301,305,337,338,370,371,413,414) re-rendered, parts 2-4 re-concatenated, pack
+  regenerated, ch299 s1 frame-grab verified, staleness 0. Alias `Ian` -> `Ian Wright` added (page-literal
+  tag vs registry name). Six `*` references installed today: Caitlyn Hall, Kaslana, Escalante, Capim, Stuart.
+  ⚠ Kaslana's art is SQUARE (1200x1200): in a row with tall cards the aspect-aware layout gives her ~2.5x
+  their width. Crop to portrait aspect if that reads wrong.
   ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts** (files in
   `Volume_2_Faceless/parts/Part_K_chAAA-BBB/`; thumbnail choice per part in the analysis doc). **Volume 1 will NOT be
   re-uploaded (user decision 2026-09-03)** — it stays live with its original frames; its local

@@ -657,13 +657,12 @@
             "Stuart"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Sherlock Moriarty.jpg",
+            "Stuart.png"
           ],
-          "missing_images": [
-            "Stuart"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 143,
           "line_end": 153,
@@ -692,13 +691,12 @@
             "Stuart"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Sherlock Moriarty.jpg",
+            "Stuart.png"
           ],
-          "missing_images": [
-            "Stuart"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 69,
@@ -4889,13 +4887,12 @@
             "Stuart"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Sherlock Moriarty.jpg",
+            "Stuart.png"
           ],
-          "missing_images": [
-            "Stuart"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 23,
           "line_end": 73,
@@ -4920,15 +4917,15 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
+            "Stuart.png",
             "Kaslana.png"
           ],
           "missing_images": [
-            "Stuart",
             "Lydia",
             "[private detectives]"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 75,
           "line_end": 173,
@@ -5023,7 +5020,7 @@
       "scenes": 4
     },
     "Stuart": {
-      "status": "minor",
+      "status": "have",
       "scenes": 4
     },
     "Jurgen Cooper": {

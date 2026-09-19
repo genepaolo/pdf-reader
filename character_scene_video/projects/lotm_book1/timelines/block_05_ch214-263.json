@@ -927,13 +927,13 @@
           "duration": "0:03:37",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Ian"
+            "Ian Wright"
           ],
           "images": [
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [
-            "Ian"
+            "Ian Wright"
           ],
           "mentioned_images": [],
           "layout": "single",
@@ -962,13 +962,13 @@
           "duration": "0:05:08",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Ian"
+            "Ian Wright"
           ],
           "images": [
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [
-            "Ian"
+            "Ian Wright"
           ],
           "mentioned_images": [],
           "layout": "single",
@@ -1160,13 +1160,13 @@
           "duration": "0:02:03",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Ian"
+            "Ian Wright"
           ],
           "images": [
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [
-            "Ian"
+            "Ian Wright"
           ],
           "mentioned_images": [],
           "layout": "single",
@@ -1187,13 +1187,13 @@
           "duration": "0:03:02",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Ian"
+            "Ian Wright"
           ],
           "images": [
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [
-            "Ian"
+            "Ian Wright"
           ],
           "mentioned_images": [],
           "layout": "single",
@@ -1214,13 +1214,13 @@
           "duration": "0:00:45",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Ian"
+            "Ian Wright"
           ],
           "images": [
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [
-            "Ian"
+            "Ian Wright"
           ],
           "mentioned_images": [],
           "layout": "single",
@@ -3716,13 +3716,13 @@
           "duration": "0:02:00",
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
-            "Ian"
+            "Ian Wright"
           ],
           "images": [
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [
-            "Ian"
+            "Ian Wright"
           ],
           "mentioned_images": [],
           "layout": "single",
@@ -3744,14 +3744,14 @@
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
             "Sharron",
-            "Ian"
+            "Ian Wright"
           ],
           "images": [
             "Sherlock Moriarty.jpg",
             "Sharron Cropped.jpg"
           ],
           "missing_images": [
-            "Ian"
+            "Ian Wright"
           ],
           "mentioned_images": [],
           "layout": "row(2)",
@@ -5312,8 +5312,8 @@
       "status": "have",
       "scenes": 3
     },
-    "Ian": {
-      "status": "minor",
+    "Ian Wright": {
+      "status": "need",
       "scenes": 7
     },
     "[three ambushers]": {

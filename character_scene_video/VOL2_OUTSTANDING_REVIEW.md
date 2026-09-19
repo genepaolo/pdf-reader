@@ -34,11 +34,13 @@ ch463 (Edessak removal), ch408 (Soest).
 
 ## Part 2
 
-- **ch299** — Kaslana — NEW `*` reference (Detective Kaslana, black hair / blue eyes)
-  `s1@0:00`
-- **ch301** — Kaslana
+- **ch299** — Kaslana + Stuart — NEW `*` references; s1 is Sherlock + Kaslana* + Stuart* (Kaslana's square art is much wider than the cards)
+  `s1@0:00(3p)  s2@7:19  s3@8:44`
+- **ch300** — Stuart
+  `s2@8:14`
+- **ch301** — Kaslana + Stuart
   `s4@8:51`
-- **ch305** — Kaslana
+- **ch305** — Kaslana + Stuart (4p)
   `s2@6:09`
 
 - **ch273** — THE ONE YOU FOUND — s1 travelling alone, s2@2:23 the gathering: Sherlock + Eye of Wisdom + Apothecary
@@ -54,8 +56,10 @@ ch463 (Edessak removal), ch408 (Soest).
 
 ## Part 3
 
-- **ch337** — Kaslana
+- **ch337** — Kaslana + Stuart (4p)
   `s2@4:31`
+- **ch338** — Stuart
+  `s2@1:35`
 - **ch339** — Escalante — NEW `*` reference (Audrey's psychiatrist front; text says baby-faced, art reads older)
   `s3@4:35`
 - **ch356** — Escalante
@@ -76,9 +80,9 @@ ch463 (Edessak removal), ch408 (Soest).
   `s2@3:23`
 - **ch405** — Escalante
   `s2@4:12`
-- **ch413** — Kaslana
-  `s3@5:15`
-- **ch414** — Kaslana — s1 the 3-portrait shot (Sherlock, Kaslana*, Isengard Stanton)
+- **ch413** — Kaslana + Stuart
+  `s2@1:52 (Stuart)  s3@5:15 (both)`
+- **ch414** — Kaslana + Stuart — s1 now 4 portraits (Sherlock, Kaslana*, Stuart*, Isengard Stanton)
   `s1@0:00  s2@4:46`
 - **ch415** — Kaslana
   `s1@0:00  s2@9:41`
@@ -98,6 +102,10 @@ ch463 (Edessak removal), ch408 (Soest).
 - **ch378** — Capim
   `s1@0:00  s2@4:45`
 - **ch379** — Capim
+  `s1@0:00`
+- **ch370** — Stuart
+  `s4@11:25`
+- **ch371** — Stuart
   `s1@0:00`
 - **ch380** — Daisy — NEW * reference; also Capim s1
   `s1@0:00(1p)  s2@6:00(2p)  s3@9:31(2p)  s4@9:59(1p)  s5@11:28(2p)`
@@ -179,6 +187,7 @@ ch463 (Edessak removal), ch408 (Soest).
 | Colin Iliad | 361,364,386,396,399,400,401,445,454,455,457,458,464,465,466,467 | official card art |
 | Lovia | 315,385,400,401 | Elder Lovia of the City of Silver council |
 | Capim | 377,378,379,380 | `*` reference (2026-09-18); the raid now shows the host instead of Klein alone |
+| Stuart | 299,300,301,305,337,338,370,371,413,414 | `*` reference (2026-09-18), transparent PNG set on the dark backdrop |
 | Kaslana | 299,301,305,337,413–416,418–420 | `*` reference (hard-decline reversed 2026-09-18) |
 | Escalante | 339,356,368,388,405,417,418,444,449,450,471 | `*` reference (2026-09-18); text says baby-faced |
 | Caitlyn Hall | 343,472,482 (+513 Vol 3) | `*` fan art of Audrey with her mother, uncropped (2026-09-18) |

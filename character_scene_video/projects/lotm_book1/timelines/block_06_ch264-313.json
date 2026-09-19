@@ -3562,18 +3562,18 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Kaslana.png"
+            "Kaslana.png",
+            "Stuart.png"
           ],
           "missing_images": [
             "Rogo Colloman",
             "Adol",
             "Lydia",
-            "Stuart",
             "[bodyguards]",
             "[maidservant]"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 3,
           "line_end": 103,
@@ -3594,13 +3594,12 @@
             "Stuart"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Sherlock Moriarty.jpg",
+            "Stuart.png"
           ],
-          "missing_images": [
-            "Stuart"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 107,
           "line_end": 123,
@@ -3622,14 +3621,14 @@
             "Stuart"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Sherlock Moriarty.jpg",
+            "Stuart.png"
           ],
           "missing_images": [
-            "Adol",
-            "Stuart"
+            "Adol"
           ],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 127,
           "line_end": 189,
@@ -3685,13 +3684,12 @@
             "Stuart"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Sherlock Moriarty.jpg",
+            "Stuart.png"
           ],
-          "missing_images": [
-            "Stuart"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 101,
           "line_end": 125,
@@ -3832,15 +3830,15 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
+            "Stuart.png",
             "Kaslana.png"
           ],
           "missing_images": [
-            "Stuart",
             "Adol",
             "Rogo Colloman"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 143,
           "line_end": 197,
@@ -4192,16 +4190,16 @@
           "images": [
             "Sherlock Moriarty.jpg",
             "Isengard Stanton.png",
+            "Stuart.png",
             "Kaslana.png"
           ],
           "missing_images": [
-            "Stuart",
             "Lydia",
             "[private detectives]",
             "[Isengard's assistant]"
           ],
           "mentioned_images": [],
-          "layout": "row(3)",
+          "layout": "row(4)",
           "continues_prev": false,
           "line_start": 55,
           "line_end": 131,
@@ -5074,7 +5072,7 @@
       "scenes": 2
     },
     "Stuart": {
-      "status": "minor",
+      "status": "have",
       "scenes": 6
     },
     "[bodyguards]": {

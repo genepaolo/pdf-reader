@@ -21,16 +21,16 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
+            "Stuart.png",
             "Kaslana.png",
             "Isengard Stanton.png"
           ],
           "missing_images": [
-            "Stuart",
             "Lydia",
             "[private detectives]"
           ],
           "mentioned_images": [],
-          "layout": "row(3)",
+          "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 83,
@@ -1764,14 +1764,14 @@
           "present_cast": [
             "Klein (as Sherlock Moriarty)",
             "[bartender]",
-            "Ian"
+            "Ian Wright"
           ],
           "images": [
             "Sherlock Moriarty.jpg"
           ],
           "missing_images": [
             "[bartender]",
-            "Ian"
+            "Ian Wright"
           ],
           "mentioned_images": [],
           "layout": "single",
@@ -4597,7 +4597,7 @@
       "scenes": 106
     },
     "Stuart": {
-      "status": "minor",
+      "status": "have",
       "scenes": 1
     },
     "Kaslana": {
@@ -4772,8 +4772,8 @@
       "status": "background",
       "scenes": 1
     },
-    "Ian": {
-      "status": "minor",
+    "Ian Wright": {
+      "status": "need",
       "scenes": 1
     },
     "Sharron": {
