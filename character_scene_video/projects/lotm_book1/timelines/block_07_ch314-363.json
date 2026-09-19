@@ -817,15 +817,14 @@
             "[Machinery Hivemind members]"
           ],
           "images": [
-            "_default_scene.jpg"
+            "Horamick Haydn.png"
           ],
           "missing_images": [
             "Max Livermore",
-            "Horamick Haydn",
             "[Machinery Hivemind members]"
           ],
           "mentioned_images": [],
-          "layout": "default",
+          "layout": "single",
           "continues_prev": false,
           "line_start": 69,
           "line_end": 99,
@@ -4118,7 +4117,7 @@
       "scenes": 1
     },
     "Horamick Haydn": {
-      "status": "declined",
+      "status": "have",
       "scenes": 1
     },
     "Talim Dumont": {

@@ -56,6 +56,8 @@ ch463 (Edessak removal), ch408 (Soest).
 
 ## Part 3
 
+- **ch324** — Horamick Haydn — NEW `*` reference (anime still)
+  `s2@4:57`
 - **ch337** — Kaslana + Stuart (4p)
   `s2@4:31`
 - **ch338** — Stuart
@@ -139,6 +141,12 @@ ch463 (Edessak removal), ch408 (Soest).
 ## Part 5
 
 - **ch444** — Escalante
+- **ch446** — Horamick Haydn — tomb sequence, 3p
+  `s1@0:00`
+- **ch447** — Horamick Haydn — s2@11:44 the frame turns: Fool + Horamick* + Ikanser + Amon (rimmed)
+  `s1@0:00(3p)  s2@11:44(4p)`
+- **ch448** — Horamick Haydn
+  `s1@0:00(4p)`
   `s3@7:23`
 - **ch449** — Escalante — s1 4-portrait
   `s1@0:00`
@@ -187,6 +195,7 @@ ch463 (Edessak removal), ch408 (Soest).
 | Colin Iliad | 361,364,386,396,399,400,401,445,454,455,457,458,464,465,466,467 | official card art |
 | Lovia | 315,385,400,401 | Elder Lovia of the City of Silver council |
 | Capim | 377,378,379,380 | `*` reference (2026-09-18); the raid now shows the host instead of Klein alone |
+| Horamick Haydn | 324,446,447,448 (+491,493 Vol 3) | `*` reference (2026-09-18), low-res anime still |
 | Stuart | 299,300,301,305,337,338,370,371,413,414 | `*` reference (2026-09-18), transparent PNG set on the dark backdrop |
 | Kaslana | 299,301,305,337,413–416,418–420 | `*` reference (hard-decline reversed 2026-09-18) |
 | Escalante | 339,356,368,388,405,417,418,444,449,450,471 | `*` reference (2026-09-18); text says baby-faced |

@@ -489,6 +489,9 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   tag vs registry name). Six `*` references installed today: Caitlyn Hall, Kaslana, Escalante, Capim, Stuart.
   ⚠ Kaslana's art is SQUARE (1200x1200): in a row with tall cards the aspect-aware layout gives her ~2.5x
   their width. Crop to portrait aspect if that reads wrong.
+- **2026-09-18 HORAMICK HAYDN INSTALLED (`*` reference).** ch324,446,447,448 re-rendered, parts 3 + 5
+  re-concatenated (part 5 now 10:52:01, +3 s from cut rounding; markers regenerated), ch447 s2 frame-grab
+  verified (the Amon reveal now shows Horamick turning the frame), staleness 0. Vol 3 ch491/493 pick him up.
   ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts** (files in
   `Volume_2_Faceless/parts/Part_K_chAAA-BBB/`; thumbnail choice per part in the analysis doc). **Volume 1 will NOT be
   re-uploaded (user decision 2026-09-03)** — it stays live with its original frames; its local

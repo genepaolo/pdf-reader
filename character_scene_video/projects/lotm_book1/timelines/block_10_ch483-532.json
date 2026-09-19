@@ -750,14 +750,14 @@
             "[Machinery Hivemind members]"
           ],
           "images": [
-            "Ikanser Bernard.png"
+            "Ikanser Bernard.png",
+            "Horamick Haydn.png"
           ],
           "missing_images": [
-            "Horamick Haydn",
             "[Machinery Hivemind members]"
           ],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 29,
           "line_end": 115,
@@ -897,14 +897,14 @@
             "[Machinery Hivemind members]"
           ],
           "images": [
-            "Ikanser Bernard.png"
+            "Ikanser Bernard.png",
+            "Horamick Haydn.png"
           ],
           "missing_images": [
-            "Horamick Haydn",
             "[Machinery Hivemind members]"
           ],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 3,
           "line_end": 51,
@@ -6013,7 +6013,7 @@
       "scenes": 2
     },
     "Horamick Haydn": {
-      "status": "declined",
+      "status": "have",
       "scenes": 2
     },
     "[Machinery Hivemind members]": {

@@ -2948,14 +2948,14 @@
           ],
           "images": [
             "The Fool.jpg",
-            "Ikanser Bernard.png"
+            "Ikanser Bernard.png",
+            "Horamick Haydn.png"
           ],
           "missing_images": [
-            "Horamick Haydn",
             "[Machinery Hivemind members]"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 165,
@@ -2987,14 +2987,14 @@
           ],
           "images": [
             "The Fool.jpg",
+            "Horamick Haydn.png",
             "Ikanser Bernard.png"
           ],
           "missing_images": [
-            "Horamick Haydn",
             "[Machinery Hivemind members]"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 141,
@@ -3019,17 +3019,17 @@
           ],
           "images": [
             "The Fool.jpg",
+            "Horamick Haydn.png",
             "Ikanser Bernard.png",
             "Amon.jpg"
           ],
           "missing_images": [
-            "Horamick Haydn",
             "[Machinery Hivemind members]"
           ],
           "mentioned_images": [
             "Amon.jpg"
           ],
-          "layout": "row(3)",
+          "layout": "row(4)",
           "continues_prev": false,
           "line_start": 143,
           "line_end": 157,
@@ -3062,17 +3062,17 @@
           ],
           "images": [
             "The Fool.jpg",
+            "Horamick Haydn.png",
             "Ikanser Bernard.png",
             "Amon.jpg"
           ],
           "missing_images": [
-            "Horamick Haydn",
             "[Machinery Hivemind members]"
           ],
           "mentioned_images": [
             "Amon.jpg"
           ],
-          "layout": "row(3)",
+          "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 143,
@@ -4873,7 +4873,7 @@
       "scenes": 1
     },
     "Horamick Haydn": {
-      "status": "declined",
+      "status": "have",
       "scenes": 4
     },
     "Amon": {
