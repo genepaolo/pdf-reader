@@ -1,0 +1,14 @@
+{
+ "range": [
+  214,
+  482
+ ],
+ "checked_at": "2026-09-18 21:44",
+ "stale_frames": [],
+ "missing_frames": [],
+ "video_ok": 838,
+ "chapters_to_rerender": [],
+ "video_mismatches": [],
+ "stale_parts": [],
+ "verdict": "CLEAN"
+}

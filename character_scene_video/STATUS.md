@@ -15,6 +15,7 @@ frame vs cached PNG per scene (catches un-re-rendered chapters) — plus part-vs
 **Run it BEFORE any claim that a range is rendered, and again AFTER re-rendering.** Findings are
 also written as JSON with `--json`; `chapters_to_rerender` and `stale_parts` are the work list.
 Frame-PNG mtimes are not a signal (see CLAUDE.md 09-05 note).
+**Last full run 2026-09-18 (after the six installs): 183 distinct frames 0 stale / 0 missing, 838/838 scenes match, 0 stale parts — CLEAN (188 s).** Report kept at `projects/lotm_book1/verify_vol2_2026-09-18.json`. Anything that changes Vol 2 after this invalidates that verdict — re-run, don't reuse it.
 
 Installed today (all user-supplied, all marked `*`, decisions flipped to yes): **Caitlyn Hall**
 (fan art of Audrey + mother, uncropped), **Kaslana** (hard-decline reversed; SQUARE art — ~2.5x the

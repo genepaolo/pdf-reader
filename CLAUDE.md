@@ -497,8 +497,9 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
 - **2026-09-18 HORAMICK HAYDN INSTALLED (`*` reference).** ch324,446,447,448 re-rendered, parts 3 + 5
   re-concatenated (part 5 now 10:52:01, +3 s from cut rounding; markers regenerated), ch447 s2 frame-grab
   verified (the Amon reveal now shows Horamick turning the frame), staleness 0. Vol 3 ch491/493 pick him up.
-- **2026-09-18 HANDOFF (pre-compaction).** `verify_render.py` added and run on Vol 2 -- see STATUS.md
-  top block for the result and for Vol 3 block 11 state (tagged, verified, NOT rendered; needs
+- **2026-09-18 HANDOFF (pre-compaction).** `verify_render.py` added and run on Vol 2: **`214 482` -> 183 frames 0 stale, 838/838 scenes match,
+  0 stale parts, CLEAN** (report `projects/lotm_book1/verify_vol2_2026-09-18.json`) -- see STATUS.md
+  top block and for Vol 3 block 11 state (tagged, verified, NOT rendered; needs
   `upload_meta.json` volume 3 entry + portrait decisions first). Six `*` references installed today.
   ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts** (files in
   `Volume_2_Faceless/parts/Part_K_chAAA-BBB/`; thumbnail choice per part in the analysis doc). **Volume 1 will NOT be
