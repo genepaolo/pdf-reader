@@ -481,6 +481,8 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   re-concatenated. Both `--force`, durations unchanged, packs regenerated, frame-grabs verified (ch414 s1,
   ch339 s3), staleness 0 on all 5 parts. Note Escalante's reference reads adult; the text calls her
   baby-faced. Review list now 66 chapters (`VOL2_OUTSTANDING_REVIEW.md`).
+- **2026-09-18 CAPIM INSTALLED (`*` reference).** ch377-380 (the Hero Bandit raid) re-rendered, part 4
+  re-concatenated, pack regenerated, ch378 frame-grab verified, staleness 0. Harras/Katy/Parker still blank.
   ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts** (files in
   `Volume_2_Faceless/parts/Part_K_chAAA-BBB/`; thumbnail choice per part in the analysis doc). **Volume 1 will NOT be
   re-uploaded (user decision 2026-09-03)** — it stays live with its original frames; its local

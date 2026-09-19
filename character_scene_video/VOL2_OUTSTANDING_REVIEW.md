@@ -93,7 +93,13 @@ ch463 (Edessak removal), ch408 (Soest).
 - **ch420** — Kaslana
   `s1@0:00  s2@9:30`
 
-- **ch380** — Daisy — NEW * reference
+- **ch377** — Capim — NEW `*` reference; s2 the dinner host (Hero Bandit + Capim*)
+  `s2@3:29`
+- **ch378** — Capim
+  `s1@0:00  s2@4:45`
+- **ch379** — Capim
+  `s1@0:00`
+- **ch380** — Daisy — NEW * reference; also Capim s1
   `s1@0:00(1p)  s2@6:00(2p)  s3@9:31(2p)  s4@9:59(1p)  s5@11:28(2p)`
 - **ch383** — Daisy — s3 is her solo scene — best look at the new art
   `s1@0:00(2p)  s2@2:29(1p)  s3@6:16(1p)  s4@11:04(1p)`
@@ -172,6 +178,7 @@ ch463 (Edessak removal), ch408 (Soest).
 | God of Combat | 461 | Badheil, the sixth orthodox god |
 | Colin Iliad | 361,364,386,396,399,400,401,445,454,455,457,458,464,465,466,467 | official card art |
 | Lovia | 315,385,400,401 | Elder Lovia of the City of Silver council |
+| Capim | 377,378,379,380 | `*` reference (2026-09-18); the raid now shows the host instead of Klein alone |
 | Kaslana | 299,301,305,337,413–416,418–420 | `*` reference (hard-decline reversed 2026-09-18) |
 | Escalante | 339,356,368,388,405,417,418,444,449,450,471 | `*` reference (2026-09-18); text says baby-faced |
 | Caitlyn Hall | 343,472,482 (+513 Vol 3) | `*` fan art of Audrey with her mother, uncropped (2026-09-18) |

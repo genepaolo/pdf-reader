@@ -1380,17 +1380,16 @@
             "Parker"
           ],
           "images": [
-            "_default_scene.jpg"
+            "Capim.png"
           ],
           "missing_images": [
-            "Capim",
             "Odysseus",
             "Harras",
             "Katy",
             "Parker"
           ],
           "mentioned_images": [],
-          "layout": "default",
+          "layout": "single",
           "continues_prev": false,
           "line_start": 35,
           "line_end": 133,
@@ -1446,16 +1445,16 @@
             "Capim"
           ],
           "images": [
-            "Hero Bandit.png"
+            "Hero Bandit.png",
+            "Capim.png"
           ],
           "missing_images": [
             "Harras",
             "Katy",
-            "Parker",
-            "Capim"
+            "Parker"
           ],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 41,
@@ -1479,16 +1478,16 @@
             "Capim"
           ],
           "images": [
-            "Hero Bandit.png"
+            "Hero Bandit.png",
+            "Capim.png"
           ],
           "missing_images": [
             "Harras",
             "Katy",
-            "Parker",
-            "Capim"
+            "Parker"
           ],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 45,
           "line_end": 165,
@@ -1520,16 +1519,16 @@
             "Capim"
           ],
           "images": [
-            "Hero Bandit.png"
+            "Hero Bandit.png",
+            "Capim.png"
           ],
           "missing_images": [
             "Harras",
             "Katy",
-            "Parker",
-            "Capim"
+            "Parker"
           ],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 219,
@@ -1561,16 +1560,16 @@
             "Capim"
           ],
           "images": [
-            "Hero Bandit.png"
+            "Hero Bandit.png",
+            "Capim.png"
           ],
           "missing_images": [
             "Harras",
             "Katy",
-            "Parker",
-            "Capim"
+            "Parker"
           ],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 79,
@@ -5072,7 +5071,7 @@
       "scenes": 1
     },
     "Capim": {
-      "status": "declined",
+      "status": "have",
       "scenes": 5
     },
     "Odysseus": {
