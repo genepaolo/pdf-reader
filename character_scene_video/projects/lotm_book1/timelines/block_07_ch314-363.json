@@ -1759,16 +1759,16 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Isengard Stanton.png"
+            "Isengard Stanton.png",
+            "Kaslana.png"
           ],
           "missing_images": [
-            "Kaslana",
             "Stuart",
             "[private detectives]",
             "Leppard"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 51,
           "line_end": 131,
@@ -1994,15 +1994,15 @@
             "Escalante"
           ],
           "images": [
-            "Audrey Hall.jpg"
+            "Audrey Hall.jpg",
+            "Escalante.png"
           ],
           "missing_images": [
             "Norma",
-            "Hilbert Alucard",
-            "Escalante"
+            "Hilbert Alucard"
           ],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 63,
           "line_end": 119,
@@ -3259,13 +3259,12 @@
           ],
           "images": [
             "Audrey Hall.jpg",
+            "Escalante.png",
             "Susie.jpg"
           ],
-          "missing_images": [
-            "Escalante"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 109,
           "line_end": 139,
@@ -4200,7 +4199,7 @@
       "scenes": 2
     },
     "Kaslana": {
-      "status": "declined",
+      "status": "have",
       "scenes": 1
     },
     "Stuart": {
@@ -4228,7 +4227,7 @@
       "scenes": 1
     },
     "Escalante": {
-      "status": "minor",
+      "status": "have",
       "scenes": 2
     },
     "Mary": {

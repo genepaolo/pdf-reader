@@ -34,6 +34,13 @@ ch463 (Edessak removal), ch408 (Soest).
 
 ## Part 2
 
+- **ch299** — Kaslana — NEW `*` reference (Detective Kaslana, black hair / blue eyes)
+  `s1@0:00`
+- **ch301** — Kaslana
+  `s4@8:51`
+- **ch305** — Kaslana
+  `s2@6:09`
+
 - **ch273** — THE ONE YOU FOUND — s1 travelling alone, s2@2:23 the gathering: Sherlock + Eye of Wisdom + Apothecary
   `s1@0:00(1p)  s2@2:23(3p)`
 - **ch274** — Eye of Wisdom — gathering
@@ -47,6 +54,15 @@ ch463 (Edessak removal), ch408 (Soest).
 
 ## Part 3
 
+- **ch337** — Kaslana
+  `s2@4:31`
+- **ch339** — Escalante — NEW `*` reference (Audrey's psychiatrist front; text says baby-faced, art reads older)
+  `s3@4:35`
+- **ch356** — Escalante
+  `s2@8:26`
+- **ch368** — Escalante
+  `s2@4:27`
+
 - **ch343** — Caitlyn Hall — NEW `*` fan art (Audrey + her mother); s5 with Audrey + Annie
   `s5@9:46`
 - **ch361** — Colin Iliad — NEW portrait
@@ -55,6 +71,27 @@ ch463 (Edessak removal), ch408 (Soest).
   `s1@0:00(1p)  s2@3:44(1p)  s3@7:37(1p)  s4@8:33(2p)`
 
 ## Part 4
+
+- **ch388** — Escalante
+  `s2@3:23`
+- **ch405** — Escalante
+  `s2@4:12`
+- **ch413** — Kaslana
+  `s3@5:15`
+- **ch414** — Kaslana — s1 the 3-portrait shot (Sherlock, Kaslana*, Isengard Stanton)
+  `s1@0:00  s2@4:46`
+- **ch415** — Kaslana
+  `s1@0:00  s2@9:41`
+- **ch416** — Kaslana
+  `s1@0:00`
+- **ch417** — Escalante
+  `s3@9:24`
+- **ch418** — Kaslana + Escalante
+  `s1@0:00 (Escalante)  s3@11:11 (Kaslana)`
+- **ch419** — Kaslana
+  `s1@0:00  s2@8:12`
+- **ch420** — Kaslana
+  `s1@0:00  s2@9:30`
 
 - **ch380** — Daisy — NEW * reference
   `s1@0:00(1p)  s2@6:00(2p)  s3@9:31(2p)  s4@9:59(1p)  s5@11:28(2p)`
@@ -86,6 +123,15 @@ ch463 (Edessak removal), ch408 (Soest).
   `s1@0:00(3p)  s2@6:09(1p)  s3@7:06(1p)  s4@11:30(2p)`
 
 ## Part 5
+
+- **ch444** — Escalante
+  `s3@7:23`
+- **ch449** — Escalante — s1 4-portrait
+  `s1@0:00`
+- **ch450** — Escalante
+  `s3@6:13`
+- **ch471** — Escalante
+  `s4@9:03`
 
 - **ch429** — Soest + Leonard order — s3 Leonard + Soest* + Ace Snake
   `s1@0:00(1p)  s2@4:24(1p)  s3@8:56(3p)  s4@11:09(3p)`
@@ -126,6 +172,8 @@ ch463 (Edessak removal), ch408 (Soest).
 | God of Combat | 461 | Badheil, the sixth orthodox god |
 | Colin Iliad | 361,364,386,396,399,400,401,445,454,455,457,458,464,465,466,467 | official card art |
 | Lovia | 315,385,400,401 | Elder Lovia of the City of Silver council |
+| Kaslana | 299,301,305,337,413–416,418–420 | `*` reference (hard-decline reversed 2026-09-18) |
+| Escalante | 339,356,368,388,405,417,418,444,449,450,471 | `*` reference (2026-09-18); text says baby-faced |
 | Caitlyn Hall | 343,472,482 (+513 Vol 3) | `*` fan art of Audrey with her mother, uncropped (2026-09-18) |
 | Soest | 408,409,421,424,426,429 | `*` reference; Leonard's team leader — text calls him middle-aged, the art reads much younger |
 

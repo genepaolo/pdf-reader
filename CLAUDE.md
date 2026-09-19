@@ -475,6 +475,12 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   + ch513 (Vol 3, not rendered yet). The three Vol-2 chapters re-rendered `--force`, parts 3 + 5
   re-concatenated `--force` (durations unchanged 10:50:06 / 10:51:58), pack regenerated, ch482 frame-grab
   verified, staleness 0 on all 5 parts. Review list now 44 chapters.
+- **2026-09-18 KASLANA + ESCALANTE INSTALLED (`*` references, user-supplied; Kaslana's 2026-08-28
+  hard-decline reversed by the user).** Kaslana: 11 chapters (299,301,305,337,413-416,418-420), parts 2-4
+  re-concatenated. Escalante: 11 chapters (339,356,368,388,405,417,418,444,449,450,471), parts 3-5
+  re-concatenated. Both `--force`, durations unchanged, packs regenerated, frame-grabs verified (ch414 s1,
+  ch339 s3), staleness 0 on all 5 parts. Note Escalante's reference reads adult; the text calls her
+  baby-faced. Review list now 66 chapters (`VOL2_OUTSTANDING_REVIEW.md`).
   ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts** (files in
   `Volume_2_Faceless/parts/Part_K_chAAA-BBB/`; thumbnail choice per part in the analysis doc). **Volume 1 will NOT be
   re-uploaded (user decision 2026-09-03)** — it stays live with its original frames; its local

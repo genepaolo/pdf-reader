@@ -3561,19 +3561,19 @@
             "[maidservant]"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Sherlock Moriarty.jpg",
+            "Kaslana.png"
           ],
           "missing_images": [
             "Rogo Colloman",
             "Adol",
-            "Kaslana",
             "Lydia",
             "Stuart",
             "[bodyguards]",
             "[maidservant]"
           ],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 3,
           "line_end": 103,
@@ -3831,16 +3831,16 @@
             "Rogo Colloman"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Sherlock Moriarty.jpg",
+            "Kaslana.png"
           ],
           "missing_images": [
             "Stuart",
             "Adol",
-            "Kaslana",
             "Rogo Colloman"
           ],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 143,
           "line_end": 197,
@@ -4191,17 +4191,17 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Isengard Stanton.png"
+            "Isengard Stanton.png",
+            "Kaslana.png"
           ],
           "missing_images": [
             "Stuart",
-            "Kaslana",
             "Lydia",
             "[private detectives]",
             "[Isengard's assistant]"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 55,
           "line_end": 131,
@@ -5066,7 +5066,7 @@
       "scenes": 4
     },
     "Kaslana": {
-      "status": "declined",
+      "status": "have",
       "scenes": 3
     },
     "Lydia": {

@@ -811,13 +811,12 @@
           ],
           "images": [
             "Audrey Hall.jpg",
+            "Escalante.png",
             "Susie.jpg"
           ],
-          "missing_images": [
-            "Escalante"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 105,
           "line_end": 139,
@@ -2154,7 +2153,7 @@
       "scenes": 2
     },
     "Escalante": {
-      "status": "minor",
+      "status": "have",
       "scenes": 1
     },
     "Caitlyn Hall": {

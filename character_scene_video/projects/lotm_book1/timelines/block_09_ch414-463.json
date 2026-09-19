@@ -21,16 +21,16 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
+            "Kaslana.png",
             "Isengard Stanton.png"
           ],
           "missing_images": [
             "Stuart",
-            "Kaslana",
             "Lydia",
             "[private detectives]"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 83,
@@ -53,13 +53,12 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Isengard Stanton.png"
+            "Isengard Stanton.png",
+            "Kaslana.png"
           ],
-          "missing_images": [
-            "Kaslana"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 85,
           "line_end": 173,
@@ -90,13 +89,12 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Isengard Stanton.png"
+            "Isengard Stanton.png",
+            "Kaslana.png"
           ],
-          "missing_images": [
-            "Kaslana"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 113,
@@ -119,13 +117,12 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Isengard Stanton.png"
+            "Isengard Stanton.png",
+            "Kaslana.png"
           ],
-          "missing_images": [
-            "Kaslana"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 115,
           "line_end": 155,
@@ -157,14 +154,14 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Isengard Stanton.png"
+            "Isengard Stanton.png",
+            "Kaslana.png"
           ],
           "missing_images": [
-            "Kaslana",
             "[Desire Apostle]"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 123,
@@ -277,15 +274,15 @@
           ],
           "images": [
             "Audrey Hall.jpg",
-            "Susie.jpg"
+            "Susie.jpg",
+            "Escalante.png"
           ],
           "missing_images": [
-            "Escalante",
             "Hilbert Alucard",
             "Stephen Hampres"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 171,
           "line_end": 215,
@@ -318,15 +315,15 @@
           ],
           "images": [
             "Audrey Hall.jpg",
+            "Escalante.png",
             "Susie.jpg"
           ],
           "missing_images": [
             "Hilbert Alucard",
-            "Escalante",
             "Stephen Hampres"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 143,
@@ -375,13 +372,12 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Isengard Stanton.png"
+            "Isengard Stanton.png",
+            "Kaslana.png"
           ],
-          "missing_images": [
-            "Kaslana"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 157,
           "line_end": 165,
@@ -412,13 +408,12 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Isengard Stanton.png"
+            "Isengard Stanton.png",
+            "Kaslana.png"
           ],
-          "missing_images": [
-            "Kaslana"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 89,
@@ -443,13 +438,12 @@
           "images": [
             "Sherlock Moriarty.jpg",
             "Isengard Stanton.png",
+            "Kaslana.png",
             "Ikanser Bernard.png"
           ],
-          "missing_images": [
-            "Kaslana"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(3)",
+          "layout": "row(4)",
           "continues_prev": false,
           "line_start": 91,
           "line_end": 139,
@@ -483,14 +477,14 @@
           "images": [
             "Sherlock Moriarty.jpg",
             "Ikanser Bernard.png",
-            "Isengard Stanton.png"
+            "Isengard Stanton.png",
+            "Kaslana.png"
           ],
           "missing_images": [
-            "Kaslana",
             "Carlson"
           ],
           "mentioned_images": [],
-          "layout": "row(3)",
+          "layout": "row(4)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 99,
@@ -513,13 +507,12 @@
           ],
           "images": [
             "Sherlock Moriarty.jpg",
-            "Isengard Stanton.png"
+            "Isengard Stanton.png",
+            "Kaslana.png"
           ],
-          "missing_images": [
-            "Kaslana"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 101,
           "line_end": 129,
@@ -2773,13 +2766,12 @@
           ],
           "images": [
             "Audrey Hall.jpg",
+            "Escalante.png",
             "Susie.jpg"
           ],
-          "missing_images": [
-            "Escalante"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 91,
           "line_end": 105,
@@ -3136,14 +3128,13 @@
           ],
           "images": [
             "Audrey Hall.jpg",
+            "Escalante.png",
             "Annie.png",
             "Susie.jpg"
           ],
-          "missing_images": [
-            "Escalante"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(3)",
+          "layout": "row(4)",
           "continues_prev": false,
           "line_start": 3,
           "line_end": 67,
@@ -3303,13 +3294,12 @@
           ],
           "images": [
             "Audrey Hall.jpg",
+            "Escalante.png",
             "Susie.jpg"
           ],
-          "missing_images": [
-            "Escalante"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 93,
           "line_end": 145,
@@ -4611,7 +4601,7 @@
       "scenes": 1
     },
     "Kaslana": {
-      "status": "declined",
+      "status": "have",
       "scenes": 10
     },
     "Lydia": {
@@ -4643,7 +4633,7 @@
       "scenes": 7
     },
     "Escalante": {
-      "status": "minor",
+      "status": "have",
       "scenes": 5
     },
     "Hilbert Alucard": {

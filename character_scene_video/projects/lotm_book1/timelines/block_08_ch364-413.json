@@ -459,13 +459,12 @@
           ],
           "images": [
             "Audrey Hall.jpg",
+            "Escalante.png",
             "Susie.jpg"
           ],
-          "missing_images": [
-            "Escalante"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 53,
           "line_end": 99,
@@ -2474,13 +2473,12 @@
           ],
           "images": [
             "Audrey Hall.jpg",
+            "Escalante.png",
             "Susie.jpg"
           ],
-          "missing_images": [
-            "Escalante"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 31,
           "line_end": 65,
@@ -4113,14 +4111,14 @@
           ],
           "images": [
             "Audrey Hall.jpg",
-            "Susie.jpg"
+            "Susie.jpg",
+            "Escalante.png"
           ],
           "missing_images": [
-            "Escalante",
             "Stephen Hampres"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 55,
           "line_end": 117,
@@ -4922,16 +4920,16 @@
             "[private detectives]"
           ],
           "images": [
-            "Sherlock Moriarty.jpg"
+            "Sherlock Moriarty.jpg",
+            "Kaslana.png"
           ],
           "missing_images": [
             "Stuart",
-            "Kaslana",
             "Lydia",
             "[private detectives]"
           ],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": false,
           "line_start": 75,
           "line_end": 173,
@@ -5010,7 +5008,7 @@
       "scenes": 16
     },
     "Escalante": {
-      "status": "minor",
+      "status": "have",
       "scenes": 3
     },
     "Susie": {
@@ -5278,7 +5276,7 @@
       "scenes": 1
     },
     "Kaslana": {
-      "status": "declined",
+      "status": "have",
       "scenes": 1
     },
     "Lydia": {
