@@ -1,0 +1,59 @@
+{
+ "chapter": 526,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Cordoba Roye",
+    "[Mandated Punishers]"
+   ],
+   "setting": "The Church of Storms' side of the ambush: Deacon Cordoba Roye lies in wait with two Mandated Punisher teams and Sealed Artifacts 2-37 and 2-166, and runs the file on 2-37 'Dream of Eternity' through his head -- a black holed heart that traps all around it in an endless dream, its keepers confessing love to their gloves",
+   "text_anchor": "“Name: Dream of Eternity."
+  },
+  {
+   "line_start": 45,
+   "line_end": 71,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Cordoba Roye",
+    "Danitz",
+    "John Smith",
+    "[Mandated Punishers]"
+   ],
+   "setting": "Cordoba sees 'Blazing Danitz' reach the contact point and figures dash for the house; 2-37 is lifted from its boiling water and a flute note drowns 15 Amyris Avenue in darkness. Inside, Adventurer John Smith's crew 'capture' the black-cloaked Blazing in a dream while their bodies swim on the floor; 'Move out!' -- Cordoba rushes in as 2-166 fills the living room with sunlight and holy-water rain",
+   "text_anchor": "“Move out!”"
+  },
+  {
+   "line_start": 73,
+   "line_end": 127,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Maveti",
+    "Hendry",
+    "Squall",
+    "Danitz"
+   ],
+   "setting": "On the hovering carpet the pirates realise it is a Church trap -- 'he actually defected to the Church of Storms!' -- then spot 'Blazing' slipping away through the shadows. Squall leaves the two Beyonders with the zombies to make chaos, the carpet cuts ahead, Maveti freezes the shadow, Hendry's brambles bind it, and Squall's scalpel takes the head -- which shrinks into a tattered paper figurine",
+   "text_anchor": "he actually defected to the Church of Storms!"
+  },
+  {
+   "line_start": 129,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Maveti",
+    "Squall",
+    "Hendry",
+    "Danitz"
+   ],
+   "setting": "A hunger from the dark presses on Maveti -- 'No, it's not Blazing!' -- a compressed white-hot fireball comes off a rooftop (the real Danitz, at range), and out of the flames walks a figure in Danitz's black cloak with neatly combed black hair and cold, emotionless eyes: the 'Danitz' all along was Faceless Klein, Gehrman Sparrow",
+   "text_anchor": "No, it’s not Blazing!"
+  }
+ ]
+}

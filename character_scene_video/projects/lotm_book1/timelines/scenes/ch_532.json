@@ -1,0 +1,57 @@
+{
+ "chapter": 532,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 27,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Symeem Harbor's main street, native face on: Klein drops a forged police 'death notice' for Wendt into the green mailbox, weighs how cruel his staged dream was for Raine, and walks to the town's only inn thinking about the Faceless principle of disguise-and-feedback",
+   "text_anchor": "This was a “death notice” he had forged as an imitation of an official police document."
+  },
+  {
+   "line_start": 29,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "[inn boss]"
+   ],
+   "setting": "The inn counter: with an invented native face and no ID, Klein is refused a room; his soli note only frightens the thin boss -- 'Get out, get out, you dirty bastard with no proof of identity' -- and money loses its power for once",
+   "text_anchor": "“Then you cannot stay here. This is the rule of our town.”"
+  },
+  {
+   "line_start": 49,
+   "line_end": 77,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "[inn boss]"
+   ],
+   "setting": "Back as Gehrman Sparrow with a Backlund accent: the same boss now bows, forgets all about identification, and personally shows him to a clean quiet room upstairs at 1 soli 5 pence a night -- 'This really is a pragmatic world'",
+   "text_anchor": "turning back into Gehrman Sparrow with stark facial features."
+  },
+  {
+   "line_start": 79,
+   "line_end": 117,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "[black-haired lady adventurer]",
+    "[three adventurer companions]"
+   ],
+   "setting": "Dinner by the ground-floor fireplace: grilled skewers, spiced mushroom soup and Gurney Sap while Klein sizes up a greenish-gray-eyed woman adventurer and her three weathered companions -- fresh mud on their boots means they came from the island's forest; then early to bed",
+   "text_anchor": "Their boots have some fresh mud on them… Did they just come back from the forest?"
+  },
+  {
+   "line_start": 119,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Middle of the night, 8-9 degrees: Klein braves the cold with the Sun Brooch to use the washroom, his spiritual perception fires, a venomous snake drops from the vent -- 'Bang!' -- and he pulls out a gold coin to divine",
+   "text_anchor": "It was a venomous snake extending its forked tongue!"
+  }
+ ]
+}

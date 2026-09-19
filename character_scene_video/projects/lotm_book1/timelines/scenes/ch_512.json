@@ -1,0 +1,74 @@
+{
+ "chapter": 512,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "Teague",
+    "Timothy",
+    "[Timothy's wife]",
+    "Elland",
+    "Harris",
+    "Paavo Court",
+    "Melanie"
+   ],
+   "setting": "Aftermath: Klein pockets Millet's thumb-sized characteristic, reloads, burns a paper figurine to scrub the traces and walks the shaken party back past the cracked ground to the telegraph office; a MAN now answers -- Paavo Court, 'Melanie's colleague', with Melanie's voice agreeing she is 'doing very well' -- the telegram draft comes under the door smelling of blood, and Klein orders 'Return to the ship.'",
+   "text_anchor": "“I’m… Paavo Court, Melanie’s colleague."
+  },
+  {
+   "line_start": 105,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Elland",
+    "Danitz",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "Teague",
+    "Timothy",
+    "[Timothy's wife]",
+    "Harris"
+   ],
+   "setting": "Back aboard the White Agate: Elland rallies his officers and readies the cannons, Donna and Denton are sent to their room ('Shh!'), and once the families are in the cabin Klein hands Elland the bishop's characteristic for the Mandated Punishers; Elland offers to tell the Church that Gehrman is with him and gets a 'Guess.' out of Danitz",
+   "text_anchor": "“If there are still Mandated Punishers alive, return this to them.”"
+  },
+  {
+   "line_start": 149,
+   "line_end": 195,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Elland",
+    "Danitz",
+    "[three Mandated Punishers]"
+   ],
+   "setting": "The night watch on deck: the mountain flares with lightning and the fog lifts; three Mandated Punishers come to the dock, are divined genuine, take back Millet's characteristic and brief Elland -- Jayce found the cannibal cult, Millet was its fallen leader -- while Klein thinks of the voices behind the telegraph office door; dawn brings Bansy Harbor back to life",
+   "text_anchor": "“The matter has been resolved. There aren’t any problems.”"
+  },
+  {
+   "line_start": 197,
+   "line_end": 219,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Elland",
+    "Danitz"
+   ],
+   "setting": "Morning, heading into the cabin as the White Agate's whistle sounds: Elland's idle remark that old 'Binsy' overlapped with modern Bansy Harbor freezes Klein -- Binsy Town is where the Backlund evil spirit said to look for the descendants of Medici, the King of Angels of Rose Redemption",
+   "text_anchor": "“Binsy?”"
+  }
+ ]
+}

@@ -843,16 +843,15 @@
           "duration": "0:07:43",
           "present_cast": [
             "Audrey Hall",
-            "Caitlyn"
+            "Caitlyn Hall"
           ],
           "images": [
-            "Audrey Hall.jpg"
+            "Audrey Hall.jpg",
+            "Caitlyn Hall.jpg"
           ],
-          "missing_images": [
-            "Caitlyn"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "single",
+          "layout": "row(2)",
           "continues_prev": true,
           "line_start": 3,
           "line_end": 97,
@@ -1969,19 +1968,19 @@
           "present_cast": [
             "Audrey Hall",
             "Earl Hall",
-            "Caitlyn",
+            "Caitlyn Hall",
             "[the queen]"
           ],
           "images": [
             "Audrey Hall.jpg",
-            "Earl Hall.png"
+            "Earl Hall.png",
+            "Caitlyn Hall.jpg"
           ],
           "missing_images": [
-            "Caitlyn",
             "[the queen]"
           ],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 91,
           "line_end": 119,
@@ -2158,8 +2157,8 @@
       "status": "minor",
       "scenes": 1
     },
-    "Caitlyn": {
-      "status": "minor",
+    "Caitlyn Hall": {
+      "status": "have",
       "scenes": 2
     },
     "Azik Eggers": {

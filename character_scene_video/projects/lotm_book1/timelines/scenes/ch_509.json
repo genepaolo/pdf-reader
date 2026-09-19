@@ -1,0 +1,46 @@
+{
+ "chapter": 509,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 81,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "Teague",
+    "Timothy",
+    "[Timothy's wife]",
+    "Fox",
+    "[restaurant lodgers]"
+   ],
+   "setting": "Bansy Harbor at night, outside the Green Lemon Restaurant: Klein (as Gehrman Sparrow) knocks three times, gets silence, and kicks the door in; the pudgy owner Fox stands with a revolver while the lodgers watch from their doorways; the Timothy couple are brought down from upstairs and choose to join the Branch family outside",
+   "text_anchor": "“Where’s the Timothy family?”"
+  },
+  {
+   "line_start": 83,
+   "line_end": 217,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "Teague",
+    "Timothy",
+    "[Timothy's wife]",
+    "[telegraph office woman]"
+   ],
+   "setting": "The walk to the telegraph office with a party of 15: Klein does a headcount, fires Sun Halo to steady everyone, tosses Azik's copper whistle as bait so three flying heads burn in Fire of Light, then nails a headless cloaked monster to the street with his cane and dissolves it with 'Sun!'; at the office door a woman's voice says the captain went to the cathedral and asks them to look out for her colleague Paavo Court",
+   "text_anchor": "“His name… is Paavo Court.”"
+  }
+ ]
+}

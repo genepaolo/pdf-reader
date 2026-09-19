@@ -1,0 +1,104 @@
+{
+ "chapter": 507,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 25,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Donna",
+    "Cecile",
+    "Urdi Branch",
+    "Denton",
+    "Teague"
+   ],
+   "setting": "Green Lemon Restaurant, second floor: Donna stammers 'A headless zombie!'; Cecile rushes to the window and sees nothing, Urdi Branch bans her from 'Fonce's Horror Stories Anthology'",
+   "text_anchor": "“A headless zombie!”"
+  },
+  {
+   "line_start": 27,
+   "line_end": 57,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Cleves",
+    "Donna",
+    "Teague",
+    "Denton",
+    "Urdi Branch",
+    "Cecile"
+   ],
+   "setting": "Cleves comes up, takes Donna seriously ('It's okay, this shall pass'), and explains the Bansy custom of not going out or answering knocks on stormy nights; Donna notices the pale diners spooning dark red blood blocks with red-stained lips and prays to the Goddess for the gale to stop",
+   "text_anchor": "“It’s okay, this shall pass."
+  },
+  {
+   "line_start": 61,
+   "line_end": 81,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Elland",
+    "Harris",
+    "[telegraph clerk]"
+   ],
+   "setting": "Bansy Harbor Telegraph Office: Elland and First Mate Harris finish their report to the Navy as the wind howls; the slow-spoken curly-haired clerk warns them 'you'll lose your head' if they go out, and Elland decides on the cathedral next door",
+   "text_anchor": "Bansy Harbor Telegraph Office."
+  },
+  {
+   "line_start": 83,
+   "line_end": 109,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Elland",
+    "Harris"
+   ],
+   "setting": "Against the gale to the Storm cathedral: in the prayer hall a priest in dark blue sits before the Storm Sacred Emblem; Elland pats his shoulder -- 'Jayce, where's your bishop?' -- and the head wobbles, falls and rolls, blood fountaining from the neck to soak Elland's face (Jayce is a headless corpse, not tagged)",
+   "text_anchor": "“Jayce, where’s your bishop?”"
+  },
+  {
+   "line_start": 113,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "[crew member]"
+   ],
+   "setting": "7:15 p.m., leaving the first-class restaurant as the wind eases: Klein asks the crew who is still ashore -- the Branch and Timothy families at the Green Lemon, and the Captain and First Mate at the telegraph office",
+   "text_anchor": "“Who else isn’t back?”"
+  },
+  {
+   "line_start": 123,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Room 312: Klein watches the wind-stirred waves, his spiritual intuition warning that something bad is brewing; five more minutes, still no Elland or Branch family; a glance makes Danitz sit up straight before Klein goes into the washroom",
+   "text_anchor": "he still didn’t see Captain Elland and Donna’s family return."
+  },
+  {
+   "line_start": 131,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog: the pendulum on 'Bansy Harbor is dangerous' spins clockwise but slowly -- danger within acceptable limits, contradicting the earlier reading; Klein reasons the dormant danger is centuries old and only surfaces if something is triggered",
+   "text_anchor": "“Bansy Harbor is dangerous.”"
+  },
+  {
+   "line_start": 147,
+   "line_end": 199,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Room 312: after a long hesitation Klein buttons his frock coat, takes hat and cane and tells Danitz 'You're free' -- he is going out for the captain and the ordinary people because 'They kept my secret for me. He treated me to murloc meat.' Danitz, realizing the anchored ship is no safer, runs after him; lantern in hand, they walk into the dim port",
+   "text_anchor": "“You’re free.”"
+  }
+ ]
+}

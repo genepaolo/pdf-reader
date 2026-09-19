@@ -1,0 +1,28 @@
+{
+ "chapter": 519,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 93,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Susie"
+   ],
+   "setting": "Audrey's chemistry laboratory, Empress Borough: the Psychiatrist potion goes down like ice cream and champagne, then golden scales crawl over her skin and her eyes turn vertical — Susie's 'Don't be afraid, calm down' pulls her into a Spectator state until the scales recede. She inventories her new powers (Awe, Frenzy, Psychological Cue, Placate, Telepathy), reshapes the Hanged Man's silver mask into an earring and christens it 'Lie'",
+   "text_anchor": "“From today, your name is Lie. The most beautiful lie~”"
+  },
+  {
+   "line_start": 97,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "48 Acid Lemon Street, the Wind of Azure Inn, Bayam, rain lashing the windows: Danitz splints his shattered left arm with rags while Klein asks 'What treasure?' — the unrusted black iron key from a sunken ship that the pirates call Death's Key, why Admiral of Blood Senor is after Vice Admiral Edwina Edwards, a Second-Epoch relic that 'doesn't look like the kind used by humans'. Klein orders him to write down everything Admiral of Blood and Steel Maveti have done: 'If it's appropriate, I want to hunt them.'",
+   "text_anchor": "“If it’s appropriate, I want to hunt them.”"
+  }
+ ]
+}

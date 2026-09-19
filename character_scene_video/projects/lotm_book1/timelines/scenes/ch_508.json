@@ -1,0 +1,83 @@
+{
+ "chapter": 508,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 91,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Bansy Harbor's pitch-black streets in thin fog: a floating rotted head with sharpened teeth lunges at Klein's ear -- he bats it away with his cane and a pure ray of light from the sky vaporizes it; a second head shrugs off Danitz's bullet and fireball until he pops a small fireball inside its mouth, then he runs to catch up with the monster who didn't wait for him",
+   "text_anchor": "It was a head that had lost its body"
+  },
+  {
+   "line_start": 95,
+   "line_end": 123,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Donna",
+    "Urdi Branch",
+    "Cleves",
+    "Denton",
+    "Cecile",
+    "Teague"
+   ],
+   "setting": "Green Lemon Restaurant, second floor emptying out: Donna can't stomach the blood cakes; when the wind stops at 7:40 Cleves urges heading back at once and Urdi Branch pays and leads the family and bodyguards downstairs -- a creak from a side room makes Donna grab Denton's hand",
+   "text_anchor": "“The wind has stopped!”"
+  },
+  {
+   "line_start": 125,
+   "line_end": 171,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fox",
+    "Cleves",
+    "Donna",
+    "Urdi Branch",
+    "Denton",
+    "Cecile",
+    "Teague",
+    "[restaurant patrons]"
+   ],
+   "setting": "Ground floor: the round-faced owner Mr. Fox advises 'It's fogged up. It's best not to go out'; the gentlemen and ladies who 'chose to stay' watch from their doorways as knocking and distant screams begin; remembering Gehrman Sparrow's warning, Cleves insists on the ship's cannons and opens the door once the knocking stops",
+   "text_anchor": "“What are you trying to convey, Mr. Fox?”"
+  },
+  {
+   "line_start": 173,
+   "line_end": 189,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Cleves",
+    "Donna",
+    "Denton",
+    "Urdi Branch",
+    "Cecile",
+    "Teague"
+   ],
+   "setting": "Outside, the restaurant door slams shut behind them; a shriveled rotting head crashes to the ground before Cleves -- then light falls from the sky and melts it into nothing while Urdi and the others tremble",
+   "text_anchor": "It was a shriveled, rotting head!"
+  },
+  {
+   "line_start": 191,
+   "line_end": 201,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Cleves",
+    "Donna",
+    "Denton",
+    "Urdi Branch",
+    "Cecile",
+    "Teague"
+   ],
+   "setting": "A lantern approaches through the fog: 'Uncle Sparrow!' -- Klein tosses the lantern to Danitz and, as if nothing were out of the ordinary, tells Cleves 'Let's go to the telegraph office first. What about the Timothys?'",
+   "text_anchor": "“Uncle Sparrow!” Donna and Denton cried out."
+  }
+ ]
+}

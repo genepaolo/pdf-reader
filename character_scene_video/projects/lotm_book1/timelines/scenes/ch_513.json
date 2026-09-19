@@ -1,0 +1,66 @@
+{
+ "chapter": 513,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Elland",
+    "Danitz"
+   ],
+   "setting": "Klein sweats over how close he danced to Rose Redemption and a hidden Red Angel and resolves to report Bansy Harbor through The World at the coming gathering; Elland tosses him a small black box -- a murloc's bladder, 'Aren't we friends now?' -- then goes to sleep, and Klein leads Danitz to Room 312",
+   "text_anchor": "“The bladder of the murloc."
+  },
+  {
+   "line_start": 51,
+   "line_end": 113,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Donna",
+    "Denton"
+   ],
+   "setting": "Room 312: Donna and Denton wait at the door, hand over 150 pounds from their parents and the Timothys, and ask what Beyonders are and whether they can become 'Superman' like Emperor Roselle described -- Klein rolls up his sleeves to show a shriveled arm, a translucent one and a face of pale flesh granules: 'This is madness.'",
+   "text_anchor": "“This is madness.”"
+  },
+  {
+   "line_start": 115,
+   "line_end": 133,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Donna",
+    "Denton"
+   ],
+   "setting": "The corridor outside Room 312: the children stumble out and fall; the door clangs shut behind them; Donna suddenly cannot stop crying -- 'I j-just feel very, very sad all of a sudden.'",
+   "text_anchor": "“I j-just feel very, very sad all of a sudden.”"
+  },
+  {
+   "line_start": 135,
+   "line_end": 147,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Inside Room 312: Danitz says there was no need to scare the children like that -- and catches the blood-and-dirt-caked cane thrown at him: 'Wash it clean.'",
+   "text_anchor": "“Wash it clean.”"
+  },
+  {
+   "line_start": 149,
+   "line_end": 179,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Caitlyn",
+    "Susie"
+   ],
+   "setting": "Backlund, the Hall mansion: the household packs to leave for East Chester County a week after the New Year Ball; Lady Caitlyn asks Audrey her plans (the Church's charity organizations), and Audrey teases Susie about the green pastures before checking the clock -- almost time for the Tarot Gathering",
+   "text_anchor": "“Mother, I want to like to join the Church’s charity organizations.”"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "chapter": 497,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Elland Kag",
+    "Cleves",
+    "Cecile",
+    "Donna",
+    "Denton",
+    "[fat cook]",
+    "[waiter]"
+   ],
+   "setting": "Last course on deck: Desi grilled murloc belly, Klein's gourmet verdict and Donna's newspaper-column idea, a final toast, mermaid/Siren talk from Cleves, then Cecile sends the children to bed and Cleves tells Denton to train for five years before asking about adventuring",
+   "text_anchor": "“Desi grilled fish, it’s different from how you usually eat it.”"
+  },
+  {
+   "line_start": 65,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Cleves",
+    "Cecile",
+    "Donna",
+    "Denton"
+   ],
+   "setting": "Walking back into the cabin: Cleves hands Gehrman Sparrow two five-pound notes for 'taking care of the children'; Klein accepts so as not to look like a greedy madman, and the group goes inside",
+   "text_anchor": "“Your payment.”"
+  },
+  {
+   "line_start": 85,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Klein alone at the rail under the red moon, the gloom of Backlund's smog lifting off him; he wants to sing and can't remember the verses. 'What a beautiful night.'",
+   "text_anchor": "“What a beautiful night.”"
+  },
+  {
+   "line_start": 101,
+   "line_end": 111,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick",
+    "Colin",
+    "[exploration team members]"
+   ],
+   "setting": "The exploratory team returns to the City of Silver after getting lost; Derrick stares at the weed-cracked wall in a trance while Demon Hunter Colin presses his temple with a lost look before recovering",
+   "text_anchor": "the exploratory team returned to the City of Silver."
+  },
+  {
+   "line_start": 115,
+   "line_end": 135,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Emlyn White",
+    "[Emlyn's father]",
+    "[Emlyn's mother]"
+   ],
+   "setting": "Backlund, the White family home: Emlyn asks his parents who knows Sanguine history; his father (doctorate in medicine, gold-rimmed glasses) names the sleeping Lord Nibbs, then the self-styled historian Waymandy, whom Emlyn resolves to visit",
+   "text_anchor": "“No one in Backlund knows more than Lord Nibbs.”"
+  },
+  {
+   "line_start": 139,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "[Donna and Denton's parents]"
+   ],
+   "setting": "Two days later the White Agate docks at Damir Harbor; Klein arms himself with every mystical item and heads ashore for a bar, crossing Donna, Denton, Cleves and the family on their way to a cured-meat restaurant",
+   "text_anchor": "The whistle sounded and the White Agate sailed into Damir Harbor."
+  },
+  {
+   "line_start": 155,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Elland Kag",
+    "Logan",
+    "[Navy sailor]"
+   ],
+   "setting": "Flying Fish & Wine, its front plastered with bounty notices from 800,000 pounds down; inside it is abnormally quiet -- Captain Elland at the bar and two large men squared off in the middle of the room",
+   "text_anchor": "Flying Fish & Wine… Klein looked at the signboard"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "chapter": 530,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 59,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Davy Raymond"
+   ],
+   "setting": "Above the gray fog: the released Nightmare -- a black-haired, blue-eyed Red Glove from the Nighthawks -- tells how his team died hunting Death's chronicles in Qilangos's attack, names himself Davy Raymond and his daughter Neelu in Conant City, names the tycoon Jimmy Necker, and dissolves; Klein promises to visit the girl, then returns to the real world and recalls Creeping Hunger",
+   "text_anchor": "“My name is Davy Raymond."
+  },
+  {
+   "line_start": 61,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "The suite bedroom, too late for sleep: Klein reviews last night's lessons -- he overestimated the Mandated Punishers' patience; the Psychic Piercing + purification combo against the Lunatic-hardened Steel Maveti was the right call -- then checks his watch at nearly nine and opens the bedroom door",
+   "text_anchor": "The biggest lesson for Klein was that he had overestimated the patience of the Mandated Punishers."
+  },
+  {
+   "line_start": 87,
+   "line_end": 119,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "The suite's living room: Danitz snores in the reclining chair, wakes as Gehrman takes his hat, asks if he may leave -- 'You have always been free... But that ends now.' Gehrman wants to meet his Captain: 'I have some things to ask her.'",
+   "text_anchor": "“But that ends now.”"
+  }
+ ]
+}

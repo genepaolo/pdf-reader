@@ -288,22 +288,23 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   entries to remove in Studio (why its itemCount is 129 vs 127 real chapters).
 ## Current Progress Log
 
-### lom_book2_coi (uploads updated 2026-09-04)
+### lom_book2_coi (uploads updated 2026-09-16)
 | Stage | Done | Highest | Next action |
 |---|---|---|---|
 | Audio (`.mp3`) | 603 | 603 | generate ch. **604+** |
 | Video (`.mp4`) | 601 files (through 600, contiguous 1–600) | 600 | create ch. **601–603**, then wait for audio |
-| Upload | 390 (1–390, no gaps) | 390 | upload ch. **391+** (210 pending; all vol-3+ ranges routed by ID) |
+| Upload | 430 (1–430, no gaps) | 430 | upload ch. **431+** (170 pending; all vol-3+ ranges routed by ID) |
 
-- Most recent upload: 2026-09-04, ch. **361–380** (20/20) then ch. **381–390** (10/10); both Failed: 0,
-  → Conspirer. Tracker verified 390 chapters, no gaps.
+- Most recent upload: 2026-09-16, ch. **411–430** (20/20, Failed: 0, → Conspirer); tracker verified 430, no
+  gaps. Before that: 391–410 on 2026-09-10 (20/20); 361–390 on 2026-09-04 (30/30).
   ⚠️ `upload_queue.py` stdout is BLOCK-BUFFERED when redirected to a file — a background run's log can sit
   at 0 bytes for an hour while uploads succeed. Judge progress by `youtube_progress.json` (mtime + entry
   count) or the process being alive, never by an empty log.
-- End screens: **DONE through 389→390 (2026-09-05).** Ran sources 360–389 with the public-guard override;
-  30 attempted / 30 `video element confirmed` / 30 saves / 0 WARN / 0 ERROR / 0 SKIP. **Independently
-  re-verified** by reopening all 31 editors: PRESENT on 360–389, MISSING only on ch390 (correct — the
-  newest chapter always waits for the next batch). ⏭ **Dangling: ch390.**
+- End screens: **DONE through 429→430 (2026-09-16).** Sources 410–429: 20 attempted / 20 confirmed / 20
+  saved / 0 WARN / 0 ERROR / 0 SKIP. Before that: 390–409 (2026-09-10, 20/20); 360–389 (2026-09-05,
+  30/30, independently re-verified in Studio). ⏭ **Dangling: ch430** — run sources **430–(M-1)** after
+  the next batch lands. Pattern that now works every time: relaunch Chrome on 9222 → `--plan-only` →
+  run with `-u` and `--allow-public-chapters $(seq -s, N M)`.
   ⚠️ **THE UNLISTED-ONLY GUARD IS NOW PERMANENTLY IN THE WAY — always pass `--allow-public-chapters`.**
   Uploads still go up unlisted (`upload_settings.privacy`) but flip public in **under a day**
   (381–390 uploaded 2026-09-04 were public by 2026-09-05), so 'run end screens promptly while unlisted'
@@ -468,6 +469,12 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   each test ends (P2-P4 varA bigface, P1 varB faces), let Vol 2's launch run the only resolvable test
   (varD_bright vs varA on P2/P4/P5). **Volume 3 (ch483-732, `Volume_3_Traveler`) is staged upstream:**
   250 chapters of text + 250 MP3s exist, nothing aligned or tagged — ready to start at recipe step 3.
+- **2026-09-18 CAITLYN HALL INSTALLED (`*` fan art, user-supplied: Audrey with her mother on the ballroom
+  floor; uncropped per standing preference, so Audrey appears in the card too).** Alias `Caitlyn`/`Lady
+  Caitlyn`/`Countess Hall`. All 12 blocks rebuilt: 4 chapters changed -- ch343 s5, ch472 s1, ch482 s3 (Vol 2)
+  + ch513 (Vol 3, not rendered yet). The three Vol-2 chapters re-rendered `--force`, parts 3 + 5
+  re-concatenated `--force` (durations unchanged 10:50:06 / 10:51:58), pack regenerated, ch482 frame-grab
+  verified, staleness 0 on all 5 parts. Review list now 44 chapters.
   ⏭ **NEXT ACTION: manual Studio upload of Volume 2's 5 parts** (files in
   `Volume_2_Faceless/parts/Part_K_chAAA-BBB/`; thumbnail choice per part in the analysis doc). **Volume 1 will NOT be
   re-uploaded (user decision 2026-09-03)** — it stays live with its original frames; its local

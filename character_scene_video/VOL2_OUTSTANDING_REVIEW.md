@@ -47,6 +47,8 @@ ch463 (Edessak removal), ch408 (Soest).
 
 ## Part 3
 
+- **ch343** — Caitlyn Hall — NEW `*` fan art (Audrey + her mother); s5 with Audrey + Annie
+  `s5@9:46`
 - **ch361** — Colin Iliad — NEW portrait
   `s1@0:00(1p)  s2@3:49(2p)  s3@10:05(1p)`
 - **ch364** — Colin Iliad — NEW portrait
@@ -97,6 +99,8 @@ ch463 (Edessak removal), ch408 (Soest).
   `s1@0:00(2p)  s2@8:18(2p)  s3@10:39(2p)`
 - **ch458** — Colin Iliad
   `s1@0:00(2p)  s2@3:06(1p)  s3@4:54(2p)  s4@6:52(1p)`
+- **ch472** — Caitlyn Hall — s1 with Audrey
+  `s1@0:00`
 - **ch463** — Edessak removed — s2+s3 now one continuous table shot to the end
   `s1@0:00(2p+1r)  s2@2:43(6p)  s3@11:31(6p)`
 - **ch464** — Colin Iliad — s4 Derrick + Colin
@@ -107,6 +111,8 @@ ch463 (Edessak removal), ch408 (Soest).
   `s1@0:00(2p)  s2@1:58(2p)  s3@7:41(2p)  s4@10:43(1p)`
 - **ch467** — Colin Iliad
   `s1@0:00(2p)  s2@2:42(2p)  s3@7:18(2p)  s4@10:27(2p)`
+- **ch482** — Caitlyn Hall — s3 the dais: Audrey + Earl Hall + Caitlyn*
+  `s3@5:56`
 
 ## Portraits added this session
 
@@ -120,6 +126,7 @@ ch463 (Edessak removal), ch408 (Soest).
 | God of Combat | 461 | Badheil, the sixth orthodox god |
 | Colin Iliad | 361,364,386,396,399,400,401,445,454,455,457,458,464,465,466,467 | official card art |
 | Lovia | 315,385,400,401 | Elder Lovia of the City of Silver council |
+| Caitlyn Hall | 343,472,482 (+513 Vol 3) | `*` fan art of Audrey with her mother, uncropped (2026-09-18) |
 | Soest | 408,409,421,424,426,429 | `*` reference; Leonard's team leader — text calls him middle-aged, the art reads much younger |
 
 ## Open items

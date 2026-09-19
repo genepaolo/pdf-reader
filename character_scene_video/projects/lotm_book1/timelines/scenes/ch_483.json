@@ -1,0 +1,42 @@
+{
+ "chapter": 483,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Klein Moretti",
+   "other_characters": [],
+   "setting": "A hotel room over Pritz Harbor: Klein writes to Mr. Azik (the Card of Blasphemy, the copper whistle from the coffin elder, the Machinery Hivemind), hands the letter to a four-metre bone messenger, and pockets the papers of his new identity — a bounty hunter named Gehrman Sparrow. 'A hunter of evil…'",
+   "text_anchor": "his name was Gehrman Sparrow."
+  },
+  {
+   "line_start": 51,
+   "line_end": 105,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "[Faceless spirit]"
+   ],
+   "setting": "Above the gray fog before the gathering: Creeping Hunger releases the soul of the Faceless it ate — a middle-aged man with a blurry face — who answers about live mermaids, names the Secret Order, screams that Zaratul is 'an undying monster', and points at the Cathedral of Serenity before dissolving; the Faceless characteristic is left on the bronze table to sell through The World",
+   "text_anchor": "“The Secret Order. I belong to the Secret Order.”"
+  },
+  {
+   "line_start": 107,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "setting": "The Tarot Gathering opens from Fors's seat: three figures across the mottled table, the great smog and the plague still on her mind, Prince Edessak dead as foretold — then Justice's greeting, 'You saved Backlund again!', and a baffled Moon",
+   "text_anchor": "“You saved Backlund again!”",
+   "mentioned_characters": []
+  }
+ ]
+}

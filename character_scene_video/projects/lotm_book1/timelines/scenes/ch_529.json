@@ -1,0 +1,48 @@
+{
+ "chapter": 529,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 25,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Early morning outside the Wind of Azure Inn on Acid Lemon Street: Danitz clings to a wall corner, replaying last night's fight and concluding that Gehrman Sparrow is the current owner of Creeping Hunger -- then, unwilling to lose his Shadow Cloak, clenches his teeth and goes in",
+   "text_anchor": "Gehrman Sparrow is the current owner of Creeping Hunger!"
+  },
+  {
+   "line_start": 27,
+   "line_end": 81,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "The dark luxury suite: Gehrman sits with his back to the window while Danitz reports that he tipped off the news agencies; the heads 'weren't taken', so Danitz gets five seconds to choose 3,000 pounds or the Flying Carpet -- 'Counted inwardly.'",
+   "text_anchor": "“You have five seconds to consider. Exceeding that time will be considered as forfeiting.”"
+  },
+  {
+   "line_start": 85,
+   "line_end": 105,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson",
+    "Chogo"
+   ],
+   "setting": "Cathedral of Waves, morning prayers: Alger gives Bishop Chogo his edited account of the night (the Sanguine gas became a Slumber Charm) and is promised 6,000 pounds of the bounty; he plans how to launder The World's 3,000-pound share",
+   "text_anchor": "“Holy Lord of Storms!” An excited Alger pounded his left chest with his fist."
+  },
+  {
+   "line_start": 109,
+   "line_end": 129,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the gray fog in The Fool's high-back chair: Klein wrestles with keeping his promise to release a soul from Creeping Hunger, rejects selling the Psychiatrist (Justice is short of money) and, as a former Nighthawk, chooses the Nightmare",
+   "text_anchor": "Without any hesitation, he released the Nightmare."
+  }
+ ]
+}

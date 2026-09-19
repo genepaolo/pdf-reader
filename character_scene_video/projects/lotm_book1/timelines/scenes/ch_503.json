@@ -1,0 +1,58 @@
+{
+ "chapter": 503,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 63,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Donna",
+    "Denton",
+    "Cecile"
+   ],
+   "setting": "The White Agate's deck: 'I've got a friend' — Klein leaves the children and walks up to the disguised Danitz, who chooses not to bolt; a cold interrogation (Rorsted Archipelago, first-class Room 312, 'Is there a servant room?') ends with one word, 'Hostage', and Danitz agreeing to sleep in the servant's room of his own cabin",
+   "text_anchor": "Klein glanced at him and said one word in a faint voice, “Hostage.”"
+  },
+  {
+   "line_start": 65,
+   "line_end": 135,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Room 312 and back: Klein claims the master bedroom, marches Danitz down to the second-class cabin to pack Klein's things into the suitcase like a servant, and back upstairs gives him a name — 'Gehrman Sparrow' — before sitting on a hard chair and having the pirate list every famous pirate he knows, by bounty",
+   "text_anchor": "“Gehrman Sparrow,” Klein responded succinctly."
+  },
+  {
+   "line_start": 139,
+   "line_end": 171,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Denton",
+    "Donna",
+    "Cleves",
+    "Urdi Branch"
+   ],
+   "setting": "Noon on the open sea at 13 knots: a dry-mouthed Danitz leads Klein into the first-class restaurant, where Donna's family and Cleves are waiting at a large table — 'Uncle Sparrow!' from Denton, a puzzled Donna, a suspicious Cleves; 'He's treating,' says Klein, and Danitz grits out that Gehrman once saved him",
+   "text_anchor": "“Uncle Sparrow!” Because of their shared secret, the little boy, Denton, had changed the way he addressed him."
+  },
+  {
+   "line_start": 173,
+   "line_end": 203,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "[waiter]",
+    "Elland"
+   ],
+   "setting": "A window table: Danitz sighs over the fresh-food menu and a lobster anecdote, Klein draws a line by price — 'All of these' — greets Captain Elland as he passes through the dining room, and learns that Danitz once fought Elland's crew when he was boatswain of the Wilhelm V and still wonders why Just Elland, already an Arbiter, quit the Navy",
+   "text_anchor": "“I’ve always wondered why Just Elland would suddenly quit the Navy. By then, he was already an Arbiter.”"
+  }
+ ]
+}

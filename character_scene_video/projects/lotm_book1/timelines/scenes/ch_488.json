@@ -1,0 +1,60 @@
+{
+ "chapter": 488,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "setting": "Alger accepts Justice's preorder and marvels at her wealth; he asks for a way to put a whole ship's crew to sleep (Emlyn will ask the Sanguine); The World lists his needs -- ancient wraith spirituality and six-winged gargoyle eyes -- and Derrick promises the monster list once home; free discussion opens with Audrey asking Mr. Fool the truth behind the Great Smog and Prince Edessak",
+   "text_anchor": "which one of you has a way or item to make everyone on board a ship sleep at the same time?",
+   "mentioned_characters": []
+  },
+  {
+   "line_start": 85,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "setting": "The World tells The Hanged Man he has found Baelen -- reddish-brown skin, Southern Continent descent, Backlund accent, a fake third tooth -- seen meeting a masked MI9 man loyal to the royal family; Alger pays 100 pounds and connects it to Prince Edessak",
+   "text_anchor": "“Mr. Hanged Man, I discovered the Baelen person you mentioned.”",
+   "mentioned_characters": [
+    "Baelen"
+   ]
+  },
+  {
+   "line_start": 105,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "setting": "The World asks The Sun whether the City of Silver knows ancient Hermes; behind an isolation barrier Audrey reports the Psychology Alchemists were founded on the ruins of Hermes, and Mr. Fool warns her that Hermes is a member of the Twilight Hermit Order; the barrier lifts as the gathering winds toward its close",
+   "text_anchor": "“Kid, do you know ancient Hermes?”",
+   "mentioned_characters": [
+    "Hermes"
+   ]
+  }
+ ]
+}

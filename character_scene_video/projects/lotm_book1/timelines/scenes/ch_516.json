@@ -1,0 +1,41 @@
+{
+ "chapter": 516,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 59,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Alger Wilson",
+    "The World",
+    "Audrey Hall",
+    "Derrick Berg",
+    "Fors Wall",
+    "Emlyn White"
+   ],
+   "setting": "Alger's chain of guesses: Mr. Fool is warning the Church of Storms through him, The World must be Mr. Fool's adorer-representative, and the Tarot Club is built to interfere in events; Audrey senses The World's strangeness and asks Medici's pathway -- 'Red Priest' -- while Klein congratulates himself on having set The World up as Sherlock Moriarty",
+   "text_anchor": "“Red Priest.”",
+   "mentioned_characters": [
+    "Medici"
+   ]
+  },
+  {
+   "line_start": 61,
+   "line_end": 123,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Emlyn White",
+    "Audrey Hall",
+    "Fors Wall",
+    "Derrick Berg",
+    "Alger Wilson",
+    "The World"
+   ],
+   "setting": "Emlyn, broke, asks 'suppose a powerhouse arranged for you to investigate something...' and The Hanged Man tells him to display abnormalities and let himself be watched; Emlyn then sells Alger a can of anesthetic gas for the ghost-ship sailors; Mr. Fool foresees 'a new appearance of themselves next week' and closes the gathering",
+   "text_anchor": "“Let us end today’s gathering here.”",
+   "mentioned_characters": []
+  }
+ ]
+}

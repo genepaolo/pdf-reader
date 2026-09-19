@@ -1,0 +1,41 @@
+{
+ "chapter": 493,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Ikanser Bernard",
+    "Horamick Haydn",
+    "[Machinery Hivemind members]"
+   ],
+   "setting": "The Steam Cathedral basement, second question to Arrodes: the mirror replays Sherlock Moriarty's charge at the altar, the brass key, Mr. A knocked flat and the two of them floating in the Tussock River before Mr. A vanishes (visions only: Sherlock Moriarty, Mr. A). Arrodes is back on form -- 'Who was the person you gave your all to...' -- Ikanser chooses punishment and takes a greenish lightning bolt; Horamick sighs 'A Grade 0 Sealed Artifact?' and nobody volunteers for the third question",
+   "text_anchor": "I choose punishment."
+  },
+  {
+   "line_start": 55,
+   "line_end": 69,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Night at sea, the cabin ceiling veiled in crimson moonlight: Klein wakes to his spiritual intuition, hears unnatural sounds outside, pulls on gloves and coat, coin-divines no danger, pockets the revolver from under his pillow and slips out toward the upper deck",
+   "text_anchor": "Is someone having a rendezvous?"
+  },
+  {
+   "line_start": 71,
+   "line_end": 143,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Cleves",
+    "Cecile",
+    "Donna",
+    "Denton"
+   ],
+   "setting": "The upper deck under the crimson moon, a faint smell of blood: Cleves is rigging a private hunt for a murloc that tried to climb aboard -- pig organs, pepper granules, mint-cream poison on his blades, two borrowed rifles -- while the female bodyguard Cecile and the employer's children Donna and Denton squat in the cabin's shadow. 'Uncle, are you also an adventurer?' Klein agrees to mind the children so Cecile isn't distracted",
+   "text_anchor": "Cecile wasn’t careful enough and ended up waking Donna and Denton up."
+  }
+ ]
+}

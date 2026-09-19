@@ -1,0 +1,34 @@
+{
+ "chapter": 485,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Roselle Gustav",
+    "Hermes"
+   ],
+   "setting": "Diary-reading interlude continues: Klein reels at a living Hermes among the Twilight Hermit Order; the second page -- Roselle's Spectator-pathway suspicions (Discerner, Author, Visionary), the organization's dreamscape gatherings, Hermes's unrecorded answer about 'authority'; Audrey meanwhile notices the Dark Emperor card is missing from the table; the last page -- Roselle's first noble ball and the daughter of Viscount Derilose",
+   "text_anchor": "Hermes? That’s an ancient powerhouse…"
+  },
+  {
+   "line_start": 101,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "setting": "The pages vanish and Mr. Fool says 'You may begin': Audrey asks The Sun whether he has escaped the cycle; Derrick bows his thanks -- the 'Rose Redemption' key point on the mural and the Angel of Fate let the Chief break the repeated cycle of fate",
+   "text_anchor": "“You may begin.”",
+   "mentioned_characters": []
+  }
+ ]
+}

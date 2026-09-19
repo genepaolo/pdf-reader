@@ -1,0 +1,35 @@
+{
+ "chapter": 484,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 81,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "setting": "The gathering continues mid-session: Emlyn and Alger puzzle over how Mr. Fool 'saved Backlund'; Audrey bows to thank Mr. World for the advance warning and credits Mr. Fool's adorer with stopping the Demoness of Despair and the True Creator's descent, then explains the follow-up diary pages are delayed; Fors conjures three pages of Roselle's diary and passes them up the bronze table; Klein belatedly introduces 'a new member, Mr. Moon'",
+   "text_anchor": "Mr. World, if it wasn’t for your advance warning",
+   "mentioned_characters": []
+  },
+  {
+   "line_start": 83,
+   "line_end": 119,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Roselle Gustav",
+    "Floren",
+    "Hermes"
+   ],
+   "setting": "Diary-reading interlude: 11th February -- the Sauron family's Hunter pathway turns women into men at Sequence 4, Roselle wants to ridicule Floren; the modified artillery banquet; then 5th May, 'that unspeakable organization' gathers again and the old gentleman beside Roselle names himself Hermes -- the creator of ancient Hermes (reading continues into ch485)",
+   "text_anchor": "11th February. Today, I found out about a secret of the Sauron family."
+  }
+ ]
+}

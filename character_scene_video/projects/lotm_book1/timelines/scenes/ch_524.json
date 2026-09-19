@@ -1,0 +1,62 @@
+{
+ "chapter": 524,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 11,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson"
+   ],
+   "setting": "5 p.m., Pam's Divination Lodge on Olive Tree Avenue, Bayam: Alger, now in a dark classical robe and clergyman's biretta, orders Fermo coffee and lays The Hanged Man face-up on a fresh tarot deck, waiting without a trace of anxiety",
+   "text_anchor": "He ordered a cup of Fermo coffee"
+  },
+  {
+   "line_start": 13,
+   "line_end": 113,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Alger Wilson"
+   ],
+   "setting": "Klein arrives (glasses off, face slightly altered) and sits down opposite Alger 'for a divination': The World inverted, then Hierophant / Moon / Sun as a coded plan -- tip off the Church of Storms about Blazing and Steel Maveti, beware the dream Sealed Artifact -- Klein rights the World card to accept, they fix the Amyris Avenue contact point, trade 'Let us praise God', and Klein leaves with a jab at Alger's outfit. To Alger this is Mr. World in the flesh",
+   "text_anchor": "“I’d like to have a divination.”"
+  },
+  {
+   "line_start": 115,
+   "line_end": 119,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson"
+   ],
+   "setting": "Alone again in the cafe, Alger studies himself in the corner mirror and finally sees why a boorish, hardened sea-dog should not be wearing a warlock's classical robe",
+   "text_anchor": "took a good look at himself"
+  },
+  {
+   "line_start": 123,
+   "line_end": 145,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson",
+    "Chogo"
+   ],
+   "setting": "Cathedral of Waves: back in his own clothes, Alger uses a confession to reach Bishop Chogo and lays out the plan -- leak Blazing's contact point so Steel Maveti's gang walks into the Mandated Punishers; his reappearance at prayer will mean Steel is idle, his absence that the trap has sprung",
+   "text_anchor": "“Very good. The way you do things is better than I expected.”"
+  },
+  {
+   "line_start": 149,
+   "line_end": 173,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson",
+    "Oamaru"
+   ],
+   "setting": "7:15 p.m., Amyris Leaf Bar by the boxing ring: Alger, in baggy pants and a head towel, plants the bait on a swarthy thin man at the counter -- 'Blazing fooled me', Steel is in Bayam, met him at the Gold Coin Casino -- and the man leaves 'in a hurry' while Alger watches his back without a smile",
+   "text_anchor": "“I heard that Steel has arrived in Bayam.”"
+  }
+ ]
+}

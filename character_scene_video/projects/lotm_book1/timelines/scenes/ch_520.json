@@ -1,0 +1,39 @@
+{
+ "chapter": 520,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Same suite, same night: an excited Danitz scribbles the Admiral of Blood's crimes in Ancient Feysac and briefs Klein on Senor (a suspected evil spirit — Wraith — with a luck-granting mystical item, seven or eight ships, flagship Tree of Flesh and Blood, 42,000-pound bounty) and on Steel Maveti, the flagship's second mate who summons zombies and rears puppets. Danitz is put in charge of gathering information on Steel; Klein, at the rain-streaked window: 'Tonight, Gehrman joins the hunt.'",
+   "text_anchor": "“Tonight, Gehrman joins the hunt.”"
+  },
+  {
+   "line_start": 99,
+   "line_end": 119,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson",
+    "Chogo"
+   ],
+   "setting": "The Cathedral of Waves, Bayam, the morning after the storm: Alger, about to sail for a Wind-blessed ingredient, is summoned by the white-haired, bulging-muscled Diocese Bishop Chogo and ordered to investigate the rumor that Vice Admiral Iceberg has received Death's Key. Alger privately plans to go through the motions — 'May the Storm be with you!'",
+   "text_anchor": "“Investigate this matter.”"
+  },
+  {
+   "line_start": 121,
+   "line_end": 127,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson"
+   ],
+   "setting": "The square outside the cathedral, scattered leaves and puddles after the storm: Alger decides to tour the places where pirates roam to put on a show of working hard — and to pocket any bounty of a few hundred pounds he happens to meet",
+   "text_anchor": "liquid cash flow that could be added to his savings"
+  }
+ ]
+}

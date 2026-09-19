@@ -41,7 +41,23 @@ def load_images(P):
         for name, entry in json.loads(char_map.read_text(encoding="utf-8")).get("characters", {}).items():
             if entry.get("image") and entry.get("row_viable", True):
                 avail[name] = entry["image"]
+            # optional chapter-gated art: [{"at_chapter": N, "image": "..."}] -- from chapter N on,
+            # this character renders with a different file (The World: silhouette in Vol 2, the
+            # full Gehrman Sparrow card from ch483; user ruling 2026-09-03). Later entries win.
+            for sw in entry.get("image_from_chapter", []):
+                SWITCHES.setdefault(name, []).append((int(sw["at_chapter"]), sw["image"]))
+    for name in SWITCHES:
+        SWITCHES[name].sort()
     return avail
+
+
+def image_for(name, chapter):
+    """Portrait file for `name` in `chapter`, honouring image_from_chapter switches."""
+    img = AVAIL[name]
+    for at, alt in SWITCHES.get(name, []):
+        if chapter >= at:
+            img = alt
+    return img
 
 
 def load_durations(P):
@@ -56,6 +72,7 @@ def load_durations(P):
 # project-scoped state, set by init()
 P = None
 AVAIL = REGISTRY = ALIASES = EXCLUDE = CONT = DECISIONS = DUR = None
+SWITCHES = {}   # name -> [(at_chapter, image)], filled by load_images()
 PERSONA = FLIPS = None
 PROTAG_PREFIX = INDEX_LABEL = None
 DEFAULT_IMG = None
@@ -154,9 +171,9 @@ def resolve(scene, chapter, carried=()):
             continue
         if shown is not None and name not in shown:
             continue
-        images.append(AVAIL[name])
+        images.append(image_for(name, chapter))
         if name in talked and shown is None:
-            mentioned_images.append(AVAIL[name])
+            mentioned_images.append(image_for(name, chapter))
     if not images:
         # USER DECISION 2026-08-27: when nobody on screen has a portrait, show the project's
         # default image (book cover) instead of holding the previous frame -- holding falsely

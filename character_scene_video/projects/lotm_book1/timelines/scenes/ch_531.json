@@ -1,0 +1,47 @@
+{
+ "chapter": 531,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 5,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Direct continuation: Danitz frowns as he watches Gehrman Sparrow walk out of the suite, unsure what he really wants with the Captain",
+   "text_anchor": "Danitz frowned as he watched Gehrman Sparrow leave the room"
+  },
+  {
+   "line_start": 7,
+   "line_end": 37,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Alone in the suite, Danitz reasons his way to 'a powerful and secretive organization behind Gehrman Sparrow', fears for his Captain's 26,000-pound bounty, finds the Flying Carpet and Shadow Cloak untouched, and resolves to stay put rather than lead anyone to her",
+   "text_anchor": "I will not bring danger to Captain!"
+  },
+  {
+   "line_start": 41,
+   "line_end": 79,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Quarter past three, Symeem Island: Klein steps off the five-hour liner in cheap local pantaloons and a brown cap, wearing an unremarkable native face (no named guise), tallies his fortune at 7,110 pounds, and walks into the bronze-skinned port town thinking about the Nightmare characteristic and Little Sun",
+   "text_anchor": "A quarter past three in the afternoon, Symeem Island."
+  },
+  {
+   "line_start": 81,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Raine"
+   ],
+   "setting": "(Klein wearing the dead sailor Wendt's face) The winery at the town's edge: wearing the dead sailor Wendt's tall thin face, Klein 'acts' the confession Wendt never made -- Raine calls him a coward and chases him off with a broom; he puts her to sleep with a charm so it will feel like a dream, watches her wake and curse 'Wendt, you selfish bastard!', feels the potion digest a little, and changes his face again",
+   "text_anchor": "“Raine, I like you. I wish to marry you."
+  }
+ ]
+}

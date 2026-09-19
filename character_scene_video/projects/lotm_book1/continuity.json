@@ -2942,6 +2942,431 @@
    "continues": false,
    "carried_others": [],
    "_note": "ch481 ends at Sodela Palace; ch482 opens on 31 December at the Harvest Church"
+  },
+  "482": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch482 ends on the Backlund platform (end of Vol 2); ch483 opens days later in a Pritz Harbor hotel"
+  },
+  "483": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "_note": "gathering runs straight into ch484 (Emlyn's reaction to 'You saved Backlund again!')"
+  },
+  "484": {
+   "continues": true,
+   "carried_others": [
+    "Roselle Gustav",
+    "Hermes"
+   ],
+   "_note": "diary reading spans the break: ch484 ends mid-page ('Hermes? The Hermes who created the language of ancient Hermes?' L119) and ch485 L3 is Klein's next thought on it. Floren (named ch484 L87) is NOT carried -- he is not in the ch485 pages, and build_block feeds carried_others into the opening scene's resolve()."
+  },
+  "485": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "_note": "gathering resumed at ch485 L101 ('You may begin'); ch486 L3 opens with Emlyn's confusion at Derrick's 'Rose Redemption' answer -- same table, same moment"
+  },
+  "486": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "_note": "ch486 ends on every gaze landing on Emlyn (L109-119); ch487 L3 'The moment he was being stared at' continues it directly"
+  },
+  "487": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "_note": "ch487 ends with Audrey's preorder question (L133); ch488 L3 is Alger's reaction to it"
+  },
+  "488": {
+   "continues": true,
+   "carried_others": [
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "Alger Wilson",
+    "Derrick Berg",
+    "The World"
+   ],
+   "_note": "ch488 ends as Klein lifts the isolation barrier and waits for the end of the gathering (L133); ch489 L3 'After another round of conversations, Derrick suddenly asked' -- same session; it closes at ch489 L43-45 ('Let us end today's gathering here')"
+  },
+  "489": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch489 ends with Klein at the ticket company's door reading the notice board (L141-157); ch490 L3 opens inside the same lobby a moment later. Gehrman Sparrow alone."
+  },
+  "490": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch490 ends mid-divination above the fog ('Leonard Mitchell!', L133); ch491 L3 'Leonard?' is the same dream image shattering. The Fool alone; Leonard is a vision, not present."
+  },
+  "491": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch491 ends with Klein climbing the White Agate's ladder (L131-133); ch492 L3 'As soon he stepped onto the deck'. Gehrman Sparrow alone at the cut (Cleves approaches only in ch492)."
+  },
+  "492": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch492 ends with Klein alone at the ship's rail watching flying fish; ch493 opens back in the Steam Cathedral basement with Ikanser and Arrodes (the ch491 s2 meeting resumed)."
+  },
+  "493": {
+   "continues": true,
+   "carried_others": [
+    "Cleves",
+    "Cecile",
+    "Donna",
+    "Denton"
+   ],
+   "_note": "ch493 ends with Klein agreeing to mind the children on the upper deck (L143); ch494 L3 'The red moon hung high in the sky as Klein walked over to Donna and Denton' continues the murloc hunt with the same four."
+  },
+  "494": {
+   "continues": true,
+   "carried_others": [
+    "Elland Kag",
+    "Cleves",
+    "Cecile",
+    "Donna",
+    "Denton"
+   ],
+   "_note": "ch494 ends with Elland ordering the chef to cook the murloc; ch495 opens on the same deck the same night with the grill lit and the same six people at the table (a few minutes' skip, same place/cast). The [fat cook] first appears at ch495 L5."
+  },
+  "495": {
+   "continues": true,
+   "carried_others": [
+    "Elland Kag",
+    "Cleves",
+    "Cecile",
+    "Donna",
+    "Denton",
+    "[fat cook]"
+   ],
+   "_note": "ch495 ends mid-sentence on the Fountain of Unaging; ch496 L3 is Donna's reply to it. Same table, same moment."
+  },
+  "496": {
+   "continues": true,
+   "carried_others": [
+    "Elland Kag",
+    "Cleves",
+    "Cecile",
+    "Donna",
+    "Denton",
+    "[fat cook]"
+   ],
+   "_note": "ch497 L3 'After the talk about the legends of treasures ... came to an end, the cook had also finished roasting' -- direct continuation of the deck dinner."
+  },
+  "497": {
+   "continues": true,
+   "carried_others": [
+    "Elland Kag",
+    "Logan",
+    "[Navy sailor]"
+   ],
+   "_note": "ch497 ends at L163 with Klein inside Flying Fish & Wine seeing Captain Elland at the bar and 'two large men' facing off; ch498 L3 describes that standoff (the two men = the Navy sailor and Sea Eagle Logan, named ch498 L15)."
+  },
+  "498": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch498 ends at L165 with the gold coin weaving through Klein's fingers in a Damir Harbor street; ch499 L3-7 is the coin landing and Klein turning into an alley. Same moment, Klein alone. (The black-cloaked man who emerges at ch499 L15 is new, not carried.)"
+  },
+  "499": {
+   "continues": true,
+   "carried_others": [
+    "Hamilton",
+    "Elland",
+    "[bartender]"
+   ],
+   "_note": "ch499 ends with White Shark Hamilton slapping the bartender inside the bar; ch500 L3-5 is the bartender hitting the floor. Klein is present in the blond disguise (persona still tagged Gehrman Sparrow, see questions)."
+  },
+  "500": {
+   "continues": true,
+   "carried_others": [
+    "Hamilton"
+   ],
+   "_note": "ch500 ends with Klein slipping out of Hamilton's room; ch501 opens in the same room the same minute with Hamilton alone (protagonist_present=false from L3). Same place/moment, cast minus Klein."
+  },
+  "501": {
+   "continues": true,
+   "carried_others": [
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile"
+   ],
+   "_note": "ch501 ends on the deck with the skeleton messenger dropping a letter; ch502 L3 is Klein catching it, with Donna, Denton (L11), Cleves and Cecile (L19) still on deck. Urdi Branch and the Branch servants are not mentioned again after the farewell at ch501 L149, so not carried."
+  },
+  "502": {
+   "continues": true,
+   "carried_others": [
+    "Danitz",
+    "Donna",
+    "Denton",
+    "Cecile"
+   ],
+   "_note": "ch502 ends with Danitz spotting Klein at the bow; ch503 L3 continues it ('He smiled to Denton and Donna who were beside him'). Cecile is the bodyguard 'a few paces away' (ch502 L107) - carried by description only."
+  },
+  "503": {
+   "continues": true,
+   "carried_others": [
+    "Danitz Dubois",
+    "Elland Kag",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Urdi Branch"
+   ],
+   "_note": "ch504 opens in the same White Agate dining room (ch504 L3-27): Danitz + the Branch party still at the table, Elland seated elsewhere in the room"
+  },
+  "504": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch504 ends in Room 312 (Klein + Danitz); ch505 opens in the captain's quarters with Elland and a sailor -- new place and cast."
+  },
+  "505": {
+   "continues": true,
+   "carried_others": [
+    "Danitz Dubois"
+   ],
+   "_note": "ch505 ends at 6 p.m. in Room 312 with Danitz at the window talking about Bansy Harbor's 'nasty legends'; ch506 L3 continues the same beat (Klein in his chair, Danitz uninterrupted)."
+  },
+  "506": {
+   "continues": true,
+   "carried_others": [
+    "Donna",
+    "Urdi Branch",
+    "Denton",
+    "Cecile",
+    "Teague"
+   ],
+   "_note": "ch506 ends on the second floor of the Green Lemon Restaurant with Donna seeing the headless cloaked figure; ch507 L3 is her reaction. The family + both bodyguards are at the table (all named ch507 L13-41). Cleves has only just 'arrived hurriedly downstairs' (ch506 L159) and comes up at ch507 L27, so he is NOT carried."
+  },
+  "507": {
+   "continues": true,
+   "carried_others": [
+    "Danitz Dubois"
+   ],
+   "_note": "ch507 ends with Klein and Danitz walking off the boat into the dim port with a lantern; ch508 L3 is the same walk down Bansy Harbor's dark streets."
+  },
+  "508": {
+   "continues": true,
+   "carried_others": [
+    "Danitz Dubois",
+    "Cleves",
+    "Donna",
+    "Denton",
+    "Urdi Branch",
+    "Cecile",
+    "Teague"
+   ],
+   "_note": "ch508 ends outside the Green Lemon Restaurant with Klein asking 'What about the Timothys?'; ch509 L3 is the reply ('Timothys?' / Urdi Branch answers). Same spot, same cast: Klein, Danitz with the lantern, Cleves, Cecile and Teague (all three named ch509 L17), Urdi, Donna, Denton."
+  },
+  "509": {
+   "continues": true,
+   "carried_others": [
+    "Danitz Dubois",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "Teague",
+    "Timothy"
+   ],
+   "_note": "ch509 ends at the telegraph-office door with the woman's voice asking about Paavo Court; ch510 L3 is Cleves turning to Gehrman for a decision at that same door. Also carried (bracketed, no portrait): [Timothy's wife], [telegraph office woman] (she is named Melanie only at ch512 L59)."
+  },
+  "510": {
+   "continues": true,
+   "carried_others": [
+    "Millet",
+    "Danitz Dubois",
+    "Elland Kag",
+    "Harris",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "Teague",
+    "Timothy"
+   ],
+   "_note": "ch510 ends with the coin landing heads ('He has ill intentions') and Millet's eyes flashing red; ch511 L3 'Woosh!' is his hurricane -- same street, same second. Whole party of fifteen + Elland/Harris present."
+  },
+  "511": {
+   "continues": true,
+   "carried_others": [
+    "Danitz Dubois",
+    "Elland Kag",
+    "Harris",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "Teague",
+    "Timothy"
+   ],
+   "_note": "ch511 ends with Klein picking up his half top hat after the fight; ch512 L3 'After Klein retrieved his hat' continues on the spot. Millet is dead (devoured) -- do not carry him."
+  },
+  "512": {
+   "continues": true,
+   "carried_others": [
+    "Elland Kag",
+    "Danitz Dubois"
+   ],
+   "_note": "ch512 ends with Klein jerking his gaze back to the harbor on hearing 'Binsy'; ch513 L3 is his continued reaction with Elland still beside him ('What's wrong?' L11) and Danitz in tow (led to Room 312 at L49)."
+  },
+  "513": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch513 ends in the Hall mansion with Audrey glancing at the wall clock ('almost time for the Tarot Gathering'); ch514 L3 opens above the gray fog from Emlyn White's point of view -- a new place and cast, not a continuation."
+  },
+  "514": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "Fors Wall",
+    "Emlyn White",
+    "The World"
+   ],
+   "_note": "ch514 ends mid-gathering (Klein's 'Thank you, Miss Justice!' after the 5,500-pound mask deal); ch515 opens with Alger's thoughts on that same deal at the same table"
+  },
+  "515": {
+   "continues": true,
+   "carried_others": [
+    "Audrey Hall",
+    "Alger Wilson",
+    "Derrick Berg",
+    "Fors Wall",
+    "Emlyn White",
+    "The World"
+   ],
+   "_note": "ch515 ends with Alger's fear that Mr. Fool foresaw Medici; ch516 L3 'Amidst his shock, another doubt surfaced in Alger's mind' -- same gathering, same cast"
+  },
+  "516": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch516 ends with the gathering dissolved ('The area above the gray fog returned to its eternal silence'); ch517 opens with Fors back at her desk in Cherwood Borough"
+  },
+  "517": {
+   "continues": true,
+   "carried_others": [
+    "Danitz Dubois"
+   ],
+   "_note": "ch517 ends in the White Agate corridor with 'You're free.' / 'Ah?'; ch518 L3 'Without another word... Klein... carried his suitcase down the gangway' with Danitz standing on the deck"
+  },
+  "518": {
+   "continues": true,
+   "carried_others": [
+    "Susie"
+   ],
+   "_note": "ch518 ends as Audrey downs the Psychiatrist potion in her laboratory with Susie inside the room; ch519 L3 'The golden liquid was cool and refreshing' -- same moment, Susie speaks at L17-21"
+  },
+  "519": {
+   "continues": true,
+   "carried_others": [
+    "Danitz Dubois"
+   ],
+   "_note": "ch519 ends mid-conversation at the Wind of Azure Inn ('I want to hunt them.'); ch520 L3 opens with Danitz's reply 'Hunt them?' — same suite, same night. Klein is Gehrman Sparrow."
+  },
+  "520": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch520 ends with Alger alone in the square outside the Cathedral of Waves deciding to tour pirate haunts; ch521 L3 continues the same errand (he checks his watch and walks to the casino). Nobody carried; Alger is the only person. Protagonist absent on both sides."
+  },
+  "521": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch521 ends with Klein at Old John's Restaurant about to eat the grilled stickleback; ch522 L3 continues the same meal. The [waiter] who served him is not carried (he has left the table; unnamed anyway)."
+  },
+  "522": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch522 ends inside Wendt's room after the spirit channeling; ch523 L3 opens 'By the time he left 47 Blackhorn Street' after a time skip in which he questioned the neighbors disguised as a policeman — new moment/place (street, then a carriage)."
+  },
+  "523": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch523 ends above the gray fog (The Fool answering The Hanged Man's prayer via The World dummy); ch524 L3 opens at 5 p.m. in Pam's Divination Lodge with Alger waiting and Klein arriving with a modified face. No continuation."
+  },
+  "524": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch524 ends with Alger at the Amyris Leaf Bar counter watching the thin man (Oamaru) hurry out (L171-173); ch525 L3 is Alger at the same bar looking at the wall clock and leaving -- same place, moments later. Oamaru has already left, so nothing carries."
+  },
+  "525": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch525 ends from the pirates' carpet as adventurers storm 15 Amyris Avenue (L125); ch526 opens with diocese exposition and Deacon Cordoba Roye's ambush team -- same night but a different vantage and cast."
+  },
+  "526": {
+   "continues": true,
+   "carried_others": [
+    "Maveti",
+    "Squall",
+    "Hendry",
+    "Danitz"
+   ],
+   "_note": "ch526 L141-143 Klein walks out of the flames; ch527 L3 'Just as he leaped out of the flames' -- the same beat. Maveti (ch527 L5), Squall and Hendry (L35), and the real Danitz on a far rooftop (L111) all carry; protagonist carries as Gehrman Sparrow."
+  },
+  "527": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch527 ends with Cordoba Roye reaching the emptied battle site (L155); ch528 opens on Klein alone in the shadows carrying Maveti's corpse to a distant alley -- Klein's thread resumes but not the scene that closed ch527."
+  },
+  "528": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch528 ends with Alger walking out of Old Quinn's basement past the gassed guards (L149) plus an Author's Note; ch529 opens at 48 Acid Lemon Street with the real Danitz hesitating outside the Wind of Azure Inn, then Klein waiting in the suite -- new place and cast."
+  },
+  "529": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch529 ends above the gray fog (The Fool alone, L109-129, 'he released the Nightmare'); ch530 L3 opens the same moment in the same place with the Nightmare appearing by the bronze table. Same fog session, persona The Fool on both sides; no non-protagonist is carried (Davy Raymond only enters at ch530 L3)."
+  },
+  "530": {
+   "continues": true,
+   "carried_others": [
+    "Danitz Dubois"
+   ],
+   "_note": "ch530 ends in the suite living room with Gehrman telling Danitz 'I have some things to ask her' (L119); ch531 L3-5 is the same beat -- Danitz watches Gehrman Sparrow leave the room. ch531 s1 (L3-5) is a deliberate 3-line continuation with Klein still present; s2 (L7-37) is Danitz alone."
+  },
+  "531": {
+   "continues": false,
+   "carried_others": [],
+   "_note": "ch531 ends at the winery with Klein changing his face and leaving (L157-159); ch532 opens on a main street at the green mailbox, alone. Raine is NOT carried."
+  },
+  "532": {
+   "continues": true,
+   "carried_others": [],
+   "_note": "ch532 ends with Klein pulling a gold coin from his pocket after shooting the snake (L145); ch533 L3-31 is the divination with that coin in the same inn room, alone. Nobody to carry."
   }
  }
 }

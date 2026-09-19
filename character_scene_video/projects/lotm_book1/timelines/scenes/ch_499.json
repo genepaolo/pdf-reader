@@ -1,0 +1,60 @@
+{
+ "chapter": 499,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "A dark alley off the Damir Harbor seafront, minutes after Klein fled Flying Fish & Wine: the gold coin picks his turn, he calls out the tail — a black-cloaked man of about thirty who pitches him a pirate crew's creed, annual leave and treasure hunts (Sunken Laurel, Roselle's Treasure), then introduces himself as Rear Admiral Iceberg's fourth boatswain, Blazing Danitz; Klein's killing intent through Creeping Hunger makes him tremble and answer where White Shark lives",
+   "text_anchor": "“Rear Admiral Iceberg Edwina Edwards’s subordinate, fourth boatswain of the Golden Dream, Blazing Danitz.”"
+  },
+  {
+   "line_start": 87,
+   "line_end": 97,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Klein gone: Danitz straightens up in the alley, takes off his cloak — 'What a terrifying fellow' — and resolves to telegraph his Captain in the morning about a new terrifying person at sea; White Shark's fate is not his concern",
+   "text_anchor": "“What a terrifying fellow…”"
+  },
+  {
+   "line_start": 101,
+   "line_end": 121,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Another quiet street: Klein examines the black glove — Creeping Hunger's sealed hunger stirred when he wanted to kill Danitz — divines that Danitz did not lie and that White Shark cannot harm him, then reshapes his face into a blond, blue-eyed stranger, untucks his shirt and heads back to the bar",
+   "text_anchor": "He instantly changed his appearance—blond hair, blue eyes, and ordinary facial features!"
+  },
+  {
+   "line_start": 123,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "On the way back to Flying Fish & Wine the disguised Klein passes Blazing Danitz, who glances once without recognizing him and heads for the hotel opposite; Klein checks the bounty wall and pushes the bar door open less than ten minutes after escaping",
+   "text_anchor": "On the way, he met Blazing Danitz again."
+  },
+  {
+   "line_start": 129,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "[bartender]",
+    "Hamilton",
+    "Elland"
+   ],
+   "setting": "Inside the bar: the bandaged bartender stands beside his boss — a tall, fat, bald, fair-skinned man like a white shark come ashore — who is pressing Captain Elland about 'his passenger'; Elland pats his sword, answers with a proverb about wild dogs and rats, and White Shark Hamilton settles for half the damages before slapping the bartender's teeth out while the blond stranger watches from five metres away",
+   "text_anchor": "“… Just Elland, is this your answer?” White Shark Hamilton narrowed his eyes."
+  }
+ ]
+}

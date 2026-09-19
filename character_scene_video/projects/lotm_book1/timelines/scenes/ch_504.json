@@ -1,0 +1,72 @@
+{
+ "chapter": 504,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Elland",
+    "[crewman]",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Urdi Branch"
+   ],
+   "setting": "First-class dining room of the White Agate, noon: Klein eats through the whole menu at Danitz's expense while the pirate gossips about why Just Elland quit the Navy; a crewman stomps in with 'Captain, there's a pirate ship!' and Elland calmly sends the first-class passengers (Donna's family, Cleves) back to their cabins",
+   "text_anchor": "“Captain, there’s a pirate ship!”"
+  },
+  {
+   "line_start": 51,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Room 312: the Red Skull ship (Sea Wolf Johnson, One-Eyed Anderson) closes in; Klein makes Danitz remove his wig and makeup, then hang out of the window by his forearm so the pirates can see Rear Admiral Iceberg's fourth boatswain -- 'I'm a very easy person to get along with, really, as long as you do as I tell you.'",
+   "text_anchor": "“Take off your wig,” Klein calmly ordered."
+  },
+  {
+   "line_start": 139,
+   "line_end": 151,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Johnson",
+    "[pirate lookout]"
+   ],
+   "setting": "On the Red Skull: a lookout reports 'a weird guy hanging out the window'; Sea Wolf Johnson raises his binoculars, recognizes Blazing Danitz, concludes the White Agate is Rear Admiral Iceberg's prey and orders everyone to stay far away",
+   "text_anchor": "Isn’t that Blazing Danitz?"
+  },
+  {
+   "line_start": 155,
+   "line_end": 163,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Cleves",
+    "Donna",
+    "Denton",
+    "Urdi Branch",
+    "Cecile",
+    "Teague"
+   ],
+   "setting": "Room 305: Cleves at the window with his revolver, Donna's family huddled in the living room with the bodyguards Cecile and Teague on guard -- then, after a few minutes, 'The pirates have left,' to Urdi Branch's confusion",
+   "text_anchor": "“The pirates have left.”"
+  },
+  {
+   "line_start": 167,
+   "line_end": 177,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Room 312: Danitz crawls back in, snorting that Klein borrowed his captain's reputation and she hates that; Klein only asks whether her Loen bounty was 26,000 pounds",
+   "text_anchor": "“You’re borrowing my captain’s reputation!"
+  }
+ ]
+}

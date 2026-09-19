@@ -1,0 +1,56 @@
+{
+ "chapter": 517,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 29,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall"
+   ],
+   "setting": "Backlund, Cherwood Borough: Fors back at her desk after the gathering, two days from her Spirit Eater pouch and Trickmaster; Xio slams the door on her way out again (heard, not seen); Fors decides to write to Aville about Mr. World's radio transceiver rather than visit",
+   "text_anchor": "I’m not familiar with him, so I shouldn’t rashly pay him a visit."
+  },
+  {
+   "line_start": 33,
+   "line_end": 51,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg",
+    "Colin Iliad"
+   ],
+   "setting": "City of Silver, the Berg household then the steeple library: Derrick heeds The Hanged Man's caution, checks merit-point exchanges, and pulls out 'Giant King's Court -- Book of Blackrock, Hand-copied Edition' bound in monster hide, while Colin Iliad watches quietly from the upper level",
+   "text_anchor": "“Giant King’s Court—Book of Blackrock, Hand-copied Edition.”"
+  },
+  {
+   "line_start": 55,
+   "line_end": 89,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Wednesday 12 January, 5:40 p.m., Room 312 of the White Agate in a storm off Bayam: Danitz muses on the sea while Klein reflects on how playing Gehrman Sparrow teaches him who he really is; then 'You can tell me about the pirate point of contacts in Bayam'",
+   "text_anchor": "“You can tell me about the pirate point of contacts in Bayam.”"
+  },
+  {
+   "line_start": 91,
+   "line_end": 141,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Donna",
+    "Cleves",
+    "Urdi Branch",
+    "[Donna's mother]",
+    "[Donna's brother]",
+    "[Branch family bodyguards]"
+   ],
+   "setting": "6:15 p.m., the White Agate docks at Bayam, the City of Generosity: in the corridor Klein meets Donna's family, Cleves and the others; Urdi Branch asks how to hire Mr. Sparrow (an advert for Damir's cured meat in the Sonia Morning Post), Donna asks why he chose the power -- 'For my dream... And... protect' -- then Klein tells Danitz 'You're free'",
+   "text_anchor": "“Uncle Sparrow, s-since that kind of power definitely brings about threats and madness, w-why did you choose to have it?”"
+  }
+ ]
+}

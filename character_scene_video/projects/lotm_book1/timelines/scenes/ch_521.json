@@ -1,0 +1,61 @@
+{
+ "chapter": 521,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 21,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson"
+   ],
+   "setting": "Quarter past eleven, Bayam: Alger checks his pocket watch — only the gambling dens are open — and walks without a wrong turn to a gang-owned casino in a secluded alley where pirates fence their loot. Inside, scanning the few early gamblers, he instantly sees through someone's disguise",
+   "text_anchor": "he instantly recognized the identity of a disguised person"
+  },
+  {
+   "line_start": 23,
+   "line_end": 123,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson",
+    "Danitz"
+   ],
+   "setting": "The Texas Poker table: Alger pats the disguised Danitz on the shoulder and whispers 'Blazing'. Over the cards they trade — 'I heard that your captain obtained Death's Key?', the key 'might belong to the giants or devils', Iceberg's shipboard reading lessons, Danitz's splinted arm and his wish to be told where Steel Maveti is. From 'You wouldn't know' Alger makes his bold guess and asks 'Was Bansy Harbor fun?' — Danitz's 'How did you know?' confirms Mr. Fool's adorer is his helper. Dead-drop agreed at 15 Amyris Avenue; 'Don't forget my payment.'",
+   "text_anchor": "“Was Bansy Harbor fun?”"
+  },
+  {
+   "line_start": 125,
+   "line_end": 131,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Danitz alone at the table watching the captain of the ghost ship leave: 'This fellow isn't bad' — but he doesn't trust him enough to stay, in case Alger comes back with Steel Maveti's pirates",
+   "text_anchor": "“This fellow isn’t bad."
+  },
+  {
+   "line_start": 133,
+   "line_end": 139,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson"
+   ],
+   "setting": "A department store on the street outside the casino: Alger, in local baggy pantaloons, buys a deck of tarot cards with a handful of bronze pennies and idly wonders what the adorer of Mr. The Fool is doing right now",
+   "text_anchor": "“Give me a deck of tarot cards.”"
+  },
+  {
+   "line_start": 143,
+   "line_end": 163,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "[waiter]"
+   ],
+   "setting": "Old John's Restaurant, Bayam: a waiter sets down straw-wrapped, spice-crusted grilled stickleback — and two chopsticks, 'inspired by the customs of the elves' (Klein's suspect: Roselle Gustav). Klein recalls a fruitless morning of hospice visits at the church hospitals looking for a dead man to impersonate, and decides to try the adventurers' bar next",
+   "text_anchor": "Chopsticks? Klein was shocked."
+  }
+ ]
+}

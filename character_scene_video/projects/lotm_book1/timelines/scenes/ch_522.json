@@ -1,0 +1,46 @@
+{
+ "chapter": 522,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 9,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Old John's Restaurant, finishing the stickleback: Klein muses on natives opening a Rorsted-cuisine restaurant in Backlund and on how class limits vision, pays 2 soli 5 pence (his expenses lately covered by Danitz)",
+   "text_anchor": "his main expenses had been paid for by Danitz recently"
+  },
+  {
+   "line_start": 11,
+   "line_end": 51,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "[native policeman]"
+   ],
+   "setting": "The street outside Old John's: a native policeman driving off a tramp snaps to a salute at the sight of Klein's frock coat and civilized cane — 'You speak good Loenese' — while the narration lays out the Mid Sonia Company's corrupt rule, the Crown's takeover of the Rorsted Archipelago, and how natives and mixed-bloods dress differently from the black-clad Loenese",
+   "text_anchor": "“You speak good Loenese.”"
+  },
+  {
+   "line_start": 55,
+   "line_end": 91,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "[bartender]",
+    "[four adventurers]"
+   ],
+   "setting": "2 p.m., the Swordfish Bar, adventurers' notice boards by the counter: Klein nurses a three-pence Zarhar for nearly an hour, listening, until four men at a nearby table mourn a lone adventurer named Wendt found dead at home with white mushrooms growing on his body and a room full of insects. Klein learns the address — 47 Blackhorn Street — and heads out",
+   "text_anchor": "“A glass of Zarhar.”"
+  },
+  {
+   "line_start": 93,
+   "line_end": 127,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Wendt's rented room at 47 Blackhorn Street, found with the 'room that recently had someone die in' cane trick: Klein sets up a spirit-channeling ritual before the bed and, as a Faceless, sees the dead man's lingering spirituality (visions only: Wendt picking a green gem off a discarded corpse, Wendt dying under the mushrooms with the gem on a necklace, a flaxen-haired girl called Raine by the sea — 'I want you to marry me…'). Cause of death: an unrecognized Beyonder characteristic worn against the skin",
+   "text_anchor": "“The room that recently had someone die in.”"
+  }
+ ]
+}

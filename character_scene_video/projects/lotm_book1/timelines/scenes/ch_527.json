@@ -1,0 +1,31 @@
+{
+ "chapter": 527,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Maveti",
+    "Squall",
+    "Hendry",
+    "Danitz"
+   ],
+   "setting": "The ten-second hunt on Amyris Avenue: lightning eyes (Interrogator's Psychic Piercing) stagger Maveti, Light of Holiness melts the Zombie like a candle, Fire Ravens and Air Bullets, a bottle of Sun Holy Water stuffed into his wound; Squall's Shriek charm drops Hendry, whom Danitz -- on a far rooftop -- finishes with a fireball; Klein shoots the fleeing Squall in the head and Creeping Hunger eats him, then wraps Maveti's corpse in the Flying Carpet, salutes the approaching Punishers and vanishes in crimson fire",
+   "text_anchor": "Priest of Light, Light of Holiness!"
+  },
+  {
+   "line_start": 155,
+   "line_end": 155,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Cordoba Roye",
+    "[Mandated Punishers]"
+   ],
+   "setting": "Cordoba Roye arrives with the rest of the team to scattered corpses, scalpels and withered trees, a receding aura of the sun and an evil sensation from the depths of flesh and blood",
+   "text_anchor": "Cordoba Roye led the rest of the team and rushed over"
+  }
+ ]
+}

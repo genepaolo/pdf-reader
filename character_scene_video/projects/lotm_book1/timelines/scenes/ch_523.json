@@ -1,0 +1,82 @@
+{
+ "chapter": 523,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 13,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Leaving 47 Blackhorn Street after questioning Wendt's neighbors disguised as a policeman: Symeem Island, two liners a day, no relatives — only Raine, the girl he never told. Klein cringes at confessing on a dead man's behalf, sketches a plan from remembered novels and films, and boards a rental carriage hoping Miss Magician's radio transceiver comes soon",
+   "text_anchor": "By the time he left 47 Blackhorn Street"
+  },
+  {
+   "line_start": 17,
+   "line_end": 33,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Fors Wall"
+   ],
+   "setting": "Backlund, Cherwood Borough: Fors skims the letter from the science-fiction novelist Aville that Xio brought back — three radio transceivers, the dearest just twelve pounds — and, spoiled by the Tarot Club's hundreds-of-pounds deals, decides to bill Mr. World postage, transport and ritual materials on top. Drizzle outside; she waits on The Sun's Spirit Eater stomach pouch",
+   "text_anchor": "Fors opened a letter Xio had brought back."
+  },
+  {
+   "line_start": 37,
+   "line_end": 51,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Derrick Berg"
+   ],
+   "setting": "The Berg household, City of Silver: with the Spirit Eater's stomach pouch and Mr. Hanged Man's materials ready, Derrick decides to wait until the Chief is away on an expedition or a ritual before sacrificing them, and reads on in the hand-copied 'Giant King's Court — Book of Blackrock': a Court of God frozen in eternal dusk",
+   "text_anchor": "be careful, be cautious!"
+  },
+  {
+   "line_start": 55,
+   "line_end": 67,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Emlyn White",
+    "Waymandy"
+   ],
+   "setting": "Waymandy's house, Hillston Borough, Backlund: by the fireplace, Emlyn fishes for the City of Silver; the 200-year-old vampire baron (black hair combed back, dark red shirt, brown pipe) knows no such city before the Cataclysm — but a Kingdom of Silver under the Giant King's Court that worshipped the queen Omebella rather than the Giant King Aurmir",
+   "text_anchor": "But there was a Kingdom of Silver"
+  },
+  {
+   "line_start": 71,
+   "line_end": 131,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Wind of Azure Inn, 3:40 p.m.: Klein divines the street clear and finds Danitz already back in the reclining chair, drinking. Danitz's rounds included a ghost-ship captain named Alger who knew about Bansy Harbor — 'Very messy hair, dark blue in color?' — and Klein privately places The Hanged Man. Then the other way to find Steel Maveti without waiting: 'Use bait.' Danitz, realizing who the bait is, grabs his coat for the Red Theater",
+   "text_anchor": "“Use bait.”"
+  },
+  {
+   "line_start": 133,
+   "line_end": 137,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "About to tail Danitz, Klein hears layers of illusory prayer from a man and steps into the washroom instead",
+   "text_anchor": "he heard layers of illusory prayers"
+  },
+  {
+   "line_start": 139,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "The World"
+   ],
+   "setting": "Above the gray fog: The Hanged Man's crimson star pulses with his prayer — he met Blazing Danitz at a casino, learned he witnessed Bansy Harbor and is joining a powerful figure against Steel Maveti, and suspects Danitz is working with Mr. Fool's adorer; he offers help. Klein weighs it, then conjures the fog-shrouded World dummy in a praying stance and throws its 'Honorable Mr. Fool, I am in need of some assistance' into The Hanged Man's star",
+   "text_anchor": "“I suspect that Blazing Danitz is working with your adorer",
+   "mentioned_characters": [
+    "Danitz"
+   ]
+  }
+ ]
+}

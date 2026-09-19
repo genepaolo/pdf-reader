@@ -1,0 +1,68 @@
+{
+ "chapter": 510,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 35,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "Teague",
+    "Timothy",
+    "[Timothy's wife]",
+    "[telegraph office woman]"
+   ],
+   "setting": "Still at the telegraph office door: Klein asks what Paavo Court looks like and gets the chilling 'two eyes, two ears, a nose, and a mouth'; he refuses to probe further, states 'Storm cathedral', and leads the party through the thinning fog after another Sun Halo",
+   "text_anchor": "“He has two eyes, two ears, a nose, and a mouth.”"
+  },
+  {
+   "line_start": 37,
+   "line_end": 97,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "Teague",
+    "Timothy",
+    "[Timothy's wife]",
+    "Elland",
+    "Harris"
+   ],
+   "setting": "The Storm cathedral: Elland (sword and musket, boat-shaped hat) admits them after the White Shark password, first mate Harris unbars the door; the priest Jayce lies decapitated in the prayer hall, Bishop Millet and every servant are missing; Klein examines the corpse (no remnant spirit, a blue sapphire characteristic he leaves untouched) and decides to return to the ship",
+   "text_anchor": "“The priest I knew, Jayce, died in there."
+  },
+  {
+   "line_start": 99,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "Teague",
+    "Timothy",
+    "[Timothy's wife]",
+    "Elland",
+    "Harris",
+    "Millet"
+   ],
+   "setting": "Walking back past the telegraph office: a wheezing middle-aged man in a dark blue bishop robe staggers out of the fog -- Bishop Millet, claiming heathens revived the old sacrifice and that he was wounded in the fight; lightning flares on the mountain, but Klein's coin says 'He has ill intentions' and Millet's eyes flash dark red",
+   "text_anchor": "“Bishop Millet?”"
+  }
+ ]
+}

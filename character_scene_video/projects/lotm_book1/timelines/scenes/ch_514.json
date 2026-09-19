@@ -1,0 +1,50 @@
+{
+ "chapter": 514,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 49,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Emlyn White",
+    "Audrey Hall",
+    "Fors Wall",
+    "Derrick Berg",
+    "Alger Wilson",
+    "The World"
+   ],
+   "setting": "Tarot Gathering opens above the gray fog: Emlyn arrives to Audrey greeting everyone in tarot order from The Fool to The World; Justice and The Magician each offer three new Roselle diary pages, The Sun hands over copied legends of ancient gods plus a monster list for The Hanged Man",
+   "text_anchor": "“Honorable Mr. Fool, I’ve gotten another three Roselle diary pages~”",
+   "mentioned_characters": []
+  },
+  {
+   "line_start": 51,
+   "line_end": 57,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Roselle Gustav"
+   ],
+   "setting": "Diary-reading interlude: Klein skims the six pages -- two are repeats, the other four are Roselle's money-obsessed period ('What did I invent today', 'How many gold coins can it be sold for')",
+   "text_anchor": "Roselle’s diary and the legend of the ancient gods soon appeared in the palm of Klein’s hand."
+  },
+  {
+   "line_start": 59,
+   "line_end": 145,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Emlyn White",
+    "Audrey Hall",
+    "Fors Wall",
+    "Derrick Berg",
+    "Alger Wilson",
+    "The World"
+   ],
+   "setting": "Gathering continues: Audrey spots the Dark Emperor card back at Mr. Fool's hand; Klein reads the City of Silver's legends of the eight ancient gods (Lilith as a mountain of flesh, ruler of the crimson moon), then 'You may begin' -- Emlyn sells Justice the fruit of the Tree of Elders and Mirror Dragon blood for 750 pounds, balks at the 4,500-pound Sanguine inheritance, and The Hanged Man sells Justice the Artisan's silver mask for 5,500 pounds, 4,500 of it to The World",
+   "text_anchor": "“It costs 5,500 pounds.”",
+   "mentioned_characters": []
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "chapter": 506,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 69,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Room 312: Danitz recounts Bansy Harbor's legends -- 500 soldiers vanished in a fog 300 years ago, native cannibal rites to a self-made God of Weather, the custom of not opening doors on foggy nights, and blood cakes learned from elves; he suggests the Green Lemon Restaurant. Klein's coin divination says no dormant danger, but he still feels uneasy, shuts himself in the washroom and tells Danitz 'You can use this opportunity to escape' -- Danitz stays put",
+   "text_anchor": "“Legend has it that 300 years ago when the Loen army first occupied this island"
+  },
+  {
+   "line_start": 71,
+   "line_end": 83,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Washroom, then above the gray fog: the spirit pendulum on 'There is danger dormant in Bansy Harbor' spins clockwise hard and fast -- great danger for Klein lurks in the port, though a second divination rules out any pirate-related mishap",
+   "text_anchor": "“There is danger dormant in Bansy Harbor.”"
+  },
+  {
+   "line_start": 85,
+   "line_end": 93,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Back in the real world Klein resolves to stay hidden and safe: 'To the first-class dining room' -- Danitz, puzzled at the change of mind, doesn't argue",
+   "text_anchor": "“To the first-class dining room”"
+  },
+  {
+   "line_start": 97,
+   "line_end": 101,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Cleves",
+    "Donna",
+    "Urdi Branch",
+    "Denton",
+    "Cecile",
+    "Teague"
+   ],
+   "setting": "The gangway: Cleves sends Donna's family ahead to the Green Lemon Restaurant, saying he has a matter with Captain Elland first",
+   "text_anchor": "“Head to the Green Lemon Restaurant first."
+  },
+  {
+   "line_start": 103,
+   "line_end": 111,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Cleves",
+    "Elland",
+    "Harris"
+   ],
+   "setting": "Halfway back aboard Cleves meets Elland (straight sword at his waist) and announces 'I'm going to visit Gehrman Sparrow' -- Elland grasps the insurance behind the words and tells his first mate to wait fifteen minutes",
+   "text_anchor": "“I’m going to visit Gehrman Sparrow.”"
+  },
+  {
+   "line_start": 115,
+   "line_end": 155,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Cleves"
+   ],
+   "setting": "Room 312 doorway: Cleves confronts the re-disguised Danitz -- 'Blazing Danitz?' -- who denies being the pirate worth 3,000 pounds; Klein says only that he is 'Watching over him', declines help, then gives Cleves a solemn warning: return to the ship soon, 'There is danger dormant in Bansy Harbor.'",
+   "text_anchor": "“There is danger dormant in Bansy Harbor.”"
+  },
+  {
+   "line_start": 159,
+   "line_end": 171,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Donna",
+    "Urdi Branch",
+    "Denton",
+    "Cecile",
+    "Teague",
+    "[headless cloaked figure]"
+   ],
+   "setting": "Second floor of the Green Lemon Restaurant: Donna sees Uncle Cleves arrive downstairs as gales rise over the 'Weather Museum'; through the window a man in a black cloak with a lantern turns to look up at her -- inside the cloak there is no head, only a bare neck spurting bright red blood",
+   "text_anchor": "the area where the person’s head was supposed to be was empty inside the black cloak"
+  }
+ ]
+}

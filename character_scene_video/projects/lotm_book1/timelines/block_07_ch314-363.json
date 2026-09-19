@@ -2390,17 +2390,16 @@
           "present_cast": [
             "Audrey Hall",
             "Annie",
-            "Caitlyn"
+            "Caitlyn Hall"
           ],
           "images": [
             "Audrey Hall.jpg",
-            "Annie.png"
+            "Annie.png",
+            "Caitlyn Hall.jpg"
           ],
-          "missing_images": [
-            "Caitlyn"
-          ],
+          "missing_images": [],
           "mentioned_images": [],
-          "layout": "row(2)",
+          "layout": "row(3)",
           "continues_prev": false,
           "line_start": 131,
           "line_end": 155,
@@ -4256,8 +4255,8 @@
       "status": "background",
       "scenes": 1
     },
-    "Caitlyn": {
-      "status": "minor",
+    "Caitlyn Hall": {
+      "status": "have",
       "scenes": 1
     },
     "Mike Joseph": {

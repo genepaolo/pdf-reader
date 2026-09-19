@@ -1,0 +1,46 @@
+{
+ "chapter": 490,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 85,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "[guard]"
+   ],
+   "setting": "The ticket company lobby, seven windows and long queues: a bronze-skinned ex-navy guard talks Klein's ear off -- fifteen years at sea, night school, four children, the canned wolf-fish that emptied the hall -- then sells him on the White Agate (steam plus sail, 16 knots, Captain Elland his old boss) and its first-class cabins. Klein asks what advice he has for a maritime adventurer",
+   "text_anchor": "Do you know anything about the White Agate?"
+  },
+  {
+   "line_start": 87,
+   "line_end": 109,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "[guard]",
+    "Cleves"
+   ],
+   "setting": "'Adventurer?' -- heads turn in the queue; Klein traces a gaze to a boorish man in his thirties in a black top hat with pale blue eyes (the ex-adventurer he will meet on deck as Cleves). The guard's three pieces of advice: do not provoke pirates, do not provoke pirates, do not provoke pirates -- and don't be fooled by island girls; treasure legends are all fake",
+   "text_anchor": "First, do not provoke pirates. Second, do not provoke pirates. Third, do not provoke pirates!"
+  },
+  {
+   "line_start": 113,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Second-class ticket for the White Agate bought; back at the hotel Klein tries Pritz Harbor's famous fried fish and waits for night",
+   "text_anchor": "After buying a second-class ticket for the White Agate"
+  },
+  {
+   "line_start": 117,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Just before eight above the gray fog, Lanevus's badge in hand as the medium: 'The situation of the gathering this time.' The dream divination shows the Tussock River valley and about a dozen light-shrouded figures -- one of them black-haired, green-eyed, familiar: Leonard Mitchell! (visions only: the Babur Valley gathering, Leonard Mitchell)",
+   "text_anchor": "Leonard Mitchell!"
+  }
+ ]
+}

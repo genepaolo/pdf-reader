@@ -1,0 +1,21 @@
+{
+ "chapter": 496,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 119,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Elland Kag",
+    "Cleves",
+    "Cecile",
+    "Donna",
+    "Denton",
+    "[fat cook]"
+   ],
+   "setting": "The same deck dinner, continued: Elland remembers meeting Nast's ship in the Strait of Calamity, describes Agalito's corpse-pale bounty notice, and runs through the Solomon inheritance, the Specter Empire, the Lost City of Newins and the Sunken Laurel; everyone says what they would do with millions ('Return home'), Klein says 'Hurry up and wake up', and Cleves adds Roselle's last secret trove",
+   "text_anchor": "“Fountain of Unaging? Will you really gain eternal youth if you drink it?”"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "chapter": 489,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 47,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Derrick Berg",
+    "Audrey Hall",
+    "Alger Wilson",
+    "Emlyn White",
+    "Fors Wall",
+    "The World"
+   ],
+   "setting": "The Tarot Gathering winds down: The Sun asks what hand gesture should thank Mr. Fool, Justice proposes secret identification signals and The Hanged Man shoots the idea down (traitors could fish members out one by one); Derrick concludes 'He' never mentioned gestures to protect them. 'Let us end today's gathering here' -- everyone stands and bows, Emlyn a beat late",
+   "text_anchor": "Let us end today’s gathering here.",
+   "mentioned_characters": []
+  },
+  {
+   "line_start": 49,
+   "line_end": 77,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Emlyn White"
+   ],
+   "setting": "Back among the dolls in his room, Emlyn replays his first Tarot Gathering member by member -- The Sun only a Sequence 8, Justice very rich, Miss Magician quiet, the Hanged Man a mature gentleman, The World unlikeable but impressive -- then remembers the 4,000-5,000-pound relic and the barony hanging over him",
+   "text_anchor": "completely calm down as he recalled his first Tarot Gathering"
+  },
+  {
+   "line_start": 81,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Alone in the palace above the fog, Klein lays out Lanevus's badge ('January 4th, 1350, 8 p.m. in Babur Valley') and coin-divines whether attending the gathering is risky -- the coin stands on its edge (no information at all) -- so he decides not to go in person, but to get involved from a distance tomorrow at 8 p.m.",
+   "text_anchor": "It’s risky to attend the gathering in Babur Valley."
+  },
+  {
+   "line_start": 115,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "4th January, 10:35 a.m., the Pritz Harbor hotel room: The Hanged Man's 100 pounds has arrived; Klein dons Creeping Hunger as a black glove, boxes the Biological Poison Bottle, hides the Sun Brooch in his cigarette case, loads purifying, demon-hunting and exorcism bullets, and walks out fully armed with cane and suitcase",
+   "text_anchor": "he was fully armed."
+  },
+  {
+   "line_start": 141,
+   "line_end": 157,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "The Pritz Harbor Ticket Company in White Rose Borough: an old three-story building with a notice board at the door -- lines enforced, no spitting, find the guard if there's a dispute, and 'Do not open canned wolf-fish in any of the rooms!'",
+   "text_anchor": "Canned wolf-fish? What’s that?"
+  }
+ ]
+}

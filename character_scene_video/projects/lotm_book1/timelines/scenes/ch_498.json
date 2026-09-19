@@ -1,0 +1,56 @@
+{
+ "chapter": 498,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 43,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Elland Kag",
+    "Logan",
+    "[Navy sailor]",
+    "[bartender]",
+    "[bouncer]"
+   ],
+   "setting": "The standoff: a bare-armed Navy sailor with a dagger versus shaved, sea-eagle-tattooed Sea Eagle Logan with a museum-piece musket; Elland explains the Black Tulip rumour, Klein orders a Southville beer, the bouncer separates the pair, the sailor leaves, and Elland heads upstairs to play cards ('don't trust anyone here' -- 'Including you?')",
+   "text_anchor": "“One glass of Southville beer.”"
+  },
+  {
+   "line_start": 45,
+   "line_end": 67,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Woody",
+    "Logan",
+    "[bartender]"
+   ],
+   "setting": "A short, wretched-looking man sits down and pitches a Specter Empire treasure scheme (15 companions, 720 pounds raised) with a stack of brown letters -- until Sea Eagle Logan strides over and hurls 'Woody, you damn sewer rat' across the floor",
+   "text_anchor": "“Have you heard of the Specter Empire?”"
+  },
+  {
+   "line_start": 69,
+   "line_end": 159,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Logan",
+    "[bartender]",
+    "[bouncers]",
+    "[drinkers]"
+   ],
+   "setting": "Logan's cured-meat shakedown (five pounds, 'you offered to treat me'); Gehrman Sparrow answers 'Why don't you just rob me?', breaks Logan's jaw and teeth with fist, knee and revolver butt, pays with Logan's own money, learns from the bartender that Logan invented his Admiral Hell connection, collects two months of sea rumours over the meat, slams the bartender's head into the bar as 'today's lesson', throws Logan at the bouncers and slips out",
+   "text_anchor": "“Why don’t you just rob me?”"
+  },
+  {
+   "line_start": 161,
+   "line_end": 165,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Out in the streets of Damir Harbor, changing direction again and again, Klein slows and a gold coin starts weaving through his fingers as if scouting",
+   "text_anchor": "a gold coin appeared in his hand."
+  }
+ ]
+}

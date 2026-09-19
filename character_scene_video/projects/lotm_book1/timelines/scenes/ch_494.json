@@ -1,0 +1,34 @@
+{
+ "chapter": 494,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Cleves",
+    "Cecile",
+    "Donna",
+    "Denton"
+   ],
+   "setting": "The White Agate's deck under the red moon: Klein squats with Donna and Denton while Cleves baits the rail with peppered pig organs and he and Cecile take up rifles; the murloc climbs aboard, eats, is shot, hurls Cleves off its trident, and is nearly over the side when a shot from elsewhere takes its eye and the mint poison finishes it",
+   "text_anchor": "Cleves pulled the trigger, and a bullet flew out from the rifle."
+  },
+  {
+   "line_start": 105,
+   "line_end": 189,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Elland Kag",
+    "Cleves",
+    "Cecile",
+    "Donna",
+    "Denton"
+   ],
+   "setting": "Captain Elland Kag steps out of the shadows with a smoking antique musket, buys the murloc for a fair 150 pounds ('Just Elland'), slices the cheek meat raw for the children and Klein, and proposes a night of grilled murloc, wine and sea legends",
+   "text_anchor": "He was the captain of the White Agate, Elland Kag."
+  }
+ ]
+}

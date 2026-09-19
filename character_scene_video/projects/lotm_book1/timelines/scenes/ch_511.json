@@ -1,0 +1,27 @@
+{
+ "chapter": 511,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 191,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile",
+    "Teague",
+    "Timothy",
+    "[Timothy's wife]",
+    "Elland",
+    "Harris",
+    "Millet"
+   ],
+   "setting": "The battle with the fallen bishop on the fog-bound street: Millet's hurricane scatters the party and six headless men charge; Klein throws the copper whistle as bait and the Sun Brooch to Elland ('Inject your spirituality. Five seconds. Holy water.'), dodges wind blades with Paper Figurine Substitutes, breaks Millet with Psychiatrist's Frenzy and Interrogator, burns him as a Priest of Light and lets Creeping Hunger devour what is left; Danitz's Fire Ravens smash Elland's flask of holy water over the headless men",
+   "text_anchor": "“Inject your spirituality. Five seconds. Holy water.”"
+  }
+ ]
+}

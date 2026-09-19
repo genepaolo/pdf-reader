@@ -1,0 +1,66 @@
+{
+ "chapter": 502,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 31,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Cecile"
+   ],
+   "setting": "The White Agate's deck at night: the messenger collapses into a fountain of bones while Donna and Denton — their cured-meat Spirit Vision briefly open — stand agape; Klein hushes them with a finger, Cleves and Cecile sense something but see nothing, a coin toss says no harm done, and Klein lets himself into his second-class room",
+   "text_anchor": "she saw that her brother was still in a daze. She quickly grabbed his arm and pushed his hand against his mouth."
+  },
+  {
+   "line_start": 33,
+   "line_end": 73,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Alone in the cabin by a half-burnt candle: Klein opens Mr. Azik's reply — the Dark Emperor card and the copper whistle come back, and the letter recalls a mountain-tall Blood Emperor in a red cape and a revived Dark Emperor on a throne (memories only), warns him never to blow the whistle, mentions Feathermen, and teaches a sealing technique; Klein burns the letter, practises the seal, and rituals both items above the gray fog",
+   "text_anchor": "“… That card that depicts the Dark Emperor reminds me of certain scenes."
+  },
+  {
+   "line_start": 77,
+   "line_end": 103,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Elland"
+   ],
+   "setting": "Early morning: after toast and lemon tea in the second-class cafeteria Klein takes the deck air and meets a drunk Captain Elland coming back; Elland waves off White Shark — he tipped him the few soli from last night's winnings — and Klein returns to the bow with a 'Thank you', finding it too hard to force a persona",
+   "text_anchor": "“White Shark didn’t cause you any trouble, right?"
+  },
+  {
+   "line_start": 105,
+   "line_end": 149,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Donna",
+    "Denton",
+    "Cecile"
+   ],
+   "setting": "At the bow: puffy-eyed Donna and Denton, with Cecile a few paces off, ask 'who was that last-last night?'; Klein sells the four-metre messenger as a gentle postman, tells them they saw it because their hearts are pure, and the two solemnly promise to keep his secret",
+   "text_anchor": "“Uncle, who was that last-last night?”"
+  },
+  {
+   "line_start": 151,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Donna",
+    "Denton",
+    "Cecile"
+   ],
+   "setting": "A new Damir Harbor passenger walks onto the deck with a suitcase — Blazing Danitz in a wig with blackened eyebrows, holiday cut short to await orders at the Rorsted Archipelago — and freezes at the sight of the gentle, mad young adventurer beaming at him from the bow",
+   "text_anchor": "Suddenly, he saw a familiar figure."
+  }
+ ]
+}

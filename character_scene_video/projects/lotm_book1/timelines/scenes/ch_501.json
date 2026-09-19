@@ -1,0 +1,53 @@
+{
+ "chapter": 501,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 29,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Hamilton",
+    "[bouncers]"
+   ],
+   "setting": "White Shark's room, moments after Klein leaves: Hamilton flings the door open on his bouncers swapping jokes, who insist only 'Lardero' went in and that the boss let him in himself — then slams it shut, leaving them suspecting he is drunk",
+   "text_anchor": "“Yes, Lardero. He said that there was a situation downstairs.”"
+  },
+  {
+   "line_start": 31,
+   "line_end": 75,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Hamilton"
+   ],
+   "setting": "Hamilton alone, pacing: from Qilangos-style shapeshifting he reasons his way to 'that guy is a novice, his madness is a disguise, his strength is a mystical item', re-sets the radio transceiver and telegraphs a profile of the blond, blue-eyed, 'a little timid' target — pleased that greedy sharks will finish the young man for him",
+   "text_anchor": "That guy is a novice! His madness is a disguise!"
+  },
+  {
+   "line_start": 79,
+   "line_end": 95,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Night streets back toward the White Agate: sure nobody is following, Klein turns his face back into Gehrman Sparrow, tucks in his shirt, puts on the gold-rimmed glasses and chuckles — the whole clumsy-novice act was bait, and with the passcodes he can now monitor Old Quinn's traffic; he only needs Miss Justice or Miss Magician to buy him a receiver through The World",
+   "text_anchor": "he turned his face back to Gehrman Sparrow as he passed through the shadows"
+  },
+  {
+   "line_start": 97,
+   "line_end": 153,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Cleves",
+    "Cecile",
+    "Urdi Branch",
+    "Donna",
+    "Denton",
+    "[Branch servants]"
+   ],
+   "setting": "Outside the White Agate: Klein meets Donna's family and Cleves returning; Cleves has already heard of the trouble at Flying Fish & Wine, Donna's father introduces himself as Urdi Branch and shakes hands, Klein's Spirit Vision finds the family's gift boxes of Damir cured meat tinged with the spirit world, little Denton and Donna insist the moon is 'so very red' — then up the gangway to the deck, farewells, and a huge skeleton messenger drops a letter",
+   "text_anchor": "“A colleague, Gehrman Sparrow,” Cleves introduced in a very simple manner."
+  }
+ ]
+}

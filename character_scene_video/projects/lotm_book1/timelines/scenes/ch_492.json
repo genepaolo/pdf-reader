@@ -1,0 +1,36 @@
+{
+ "chapter": 492,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 51,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Cleves"
+   ],
+   "setting": "On the White Agate's deck a boorish man in a black half top hat and windbreaker comes straight to Klein -- 'Cleves, a former adventurer', now a bodyguard escorting his employer's family to the Rorsted Archipelago -- and points them out across the deck: a plump ruddy gentleman, a veiled lady, a boy under ten and a freckled girl of 15 or 16, three servants, two more bodyguards. 'Gehrman Sparrow.' Klein reads the greeting as a territorial warning between professionals",
+   "text_anchor": "Cleves, a former adventurer."
+  },
+  {
+   "line_start": 53,
+   "line_end": 111,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "Klein's small second-class cabin with a window: he unpacks, the ship sails, and he thinks through how to act as a Faceless -- 'you can disguise yourself as anyone, but you are ultimately yourself'; a superficial disguise like Ince Zangwill's face digested nothing, so the real acting may be replacing a person on a social level",
+   "text_anchor": "You can disguise yourself into anyone, but you are ultimately yourself."
+  },
+  {
+   "line_start": 113,
+   "line_end": 151,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Cleves"
+   ],
+   "setting": "A quiet corner of the deck after the first hour: Cleves oils his trident, dagger and short knife ('There are children in the cabin'), warns that at sea guns alone aren't enough, and approves when Klein says he wouldn't fight boarding pirates -- 'The bounty hunters who travel the earth are often unable to be adventurers at sea.' Flying fish leap in the sun; Klein wonders how they taste",
+   "text_anchor": "At sea, guns alone aren’t enough."
+  }
+ ]
+}

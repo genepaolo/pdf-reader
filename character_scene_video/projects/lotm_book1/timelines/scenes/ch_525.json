@@ -1,0 +1,81 @@
+{
+ "chapter": 525,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 7,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson"
+   ],
+   "setting": "Past eight o'clock: Alger leaves the Amyris Leaf Bar, walks Bayam's gas-lit streets and turns into a dead-end alley reeking of urine and alcohol, wondering whether his act needs more selling",
+   "text_anchor": "Alger pulled off his headscarf"
+  },
+  {
+   "line_start": 9,
+   "line_end": 47,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson",
+    "Squall"
+   ],
+   "setting": "Under the crimson moon a voice from behind -- 'Did you purposely leak the information about Blazing to us?' -- and Alger 'recognises' Calm Squall, Steel Maveti's chief helper (boat-shaped hat, scalpel spinning in his palm). They haggle the tip down to 300 pounds on condition Alger is detained until Blazing is caught, and Alger gives up 15 Amyris Avenue",
+   "text_anchor": "“Calm Squall?”"
+  },
+  {
+   "line_start": 49,
+   "line_end": 61,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Alger Wilson",
+    "Squall",
+    "Old Quinn"
+   ],
+   "setting": "A nondescript house: Old Quinn, the Admiral of Blood's intelligence man, greets 'the blue-haired captain of a ghost ship', leads them by candle lamp into a windowless basement and locks the heavy stone door on Alger -- without disarming him",
+   "text_anchor": "“Long time no see, blue-haired captain of a ghost ship.”"
+  },
+  {
+   "line_start": 63,
+   "line_end": 93,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Squall",
+    "Maveti",
+    "Hendry"
+   ],
+   "setting": "Squall shakes any tail, rides to a garden bungalow in Bayam's Loen enclave and reports to Steel Maveti (thick lips, swarthy, steel-ball curls, a dead man's chill) among puppets and zombies; Blood Brambles Hendry twirls a straw hat on the couch as Squall proposes leaking the date to John Smith's undercover man Mordor so the adventurers spring any trap first (the other pirates lounge around them unnamed)",
+   "text_anchor": "“Is the intel reliable?”"
+  },
+  {
+   "line_start": 97,
+   "line_end": 115,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Hendry",
+    "Maveti",
+    "Squall"
+   ],
+   "setting": "Early hours: Hendry unrolls the peacock-blue Flying Carpet, Maveti, Squall, two more Beyonders and eight zombies and puppets board, 'Flight!', and the night-sky handkerchief hides them as they hover above a tree crown across from 15 Amyris Avenue through the night, watching for dawn",
+   "text_anchor": "recited a single word in Elvish"
+  },
+  {
+   "line_start": 117,
+   "line_end": 125,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Hendry",
+    "Maveti",
+    "Squall",
+    "Danitz"
+   ],
+   "setting": "At first light a black-cloaked figure with yellow eyebrows and dark blue eyes crosses the rooftops and slides down the chimney of 15 Amyris Avenue -- 'none other than Blazing Danitz!' -- the pirates' spirits lift, and figures burst from Units 13, 14 and 17 to storm the house",
+   "text_anchor": "It was none other than Blazing Danitz!"
+  }
+ ]
+}

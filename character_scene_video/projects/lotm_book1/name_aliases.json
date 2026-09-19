@@ -21,7 +21,25 @@
   "Kohler": "Old Kohler",
   "Earth Mother": "Lilith",
   "Mother Earth": "Lilith",
-  "Fan Esti": "Fan Estin"
+  "Fan Esti": "Fan Estin",
+  "Danitz": "Danitz Dubois",
+  "Blazing Danitz": "Danitz Dubois",
+  "Elland": "Elland Kag",
+  "Captain Elland": "Elland Kag",
+  "Just Elland": "Elland Kag",
+  "Colin": "Colin Iliad",
+  "Collin": "Colin Iliad",
+  "Caitlyn": "Caitlyn Hall",
+  "Lady Caitlyn": "Caitlyn Hall",
+  "Bishop Millet": "Millet",
+  "Sea Eagle Logan": "Logan",
+  "Calm Squall": "Squall",
+  "Steel Maveti": "Maveti",
+  "Blood Brambles Hendry": "Hendry",
+  "White Shark": "Hamilton",
+  "White Shark Hamilton": "Hamilton",
+  "Urdi": "Urdi Branch",
+  "Cordoba Roye": "Cordoba"
  },
  "_exclude_note": "Not people — dropped from casts/needs-image list (objects/non-character mistags). NOTE: Susie is a real recurring character (Audrey's dog, later a Beyonder) — NOT excluded.",
  "exclude": [],
@@ -782,6 +800,498 @@
    "scene": 2,
    "name": "Earth Mother",
    "why": "named on the page as 'Earth Mother' (L35, the three hardest to look at); canonicalises to the registry name Lilith, which the text never uses here"
+  },
+  {
+   "chapter": 483,
+   "scene": 3,
+   "name": "Alger Wilson",
+   "why": "seated at the gathering that opens ch483 L107 ('three figures sitting across the long, mottled table'); named in ch484's opening lines (Alger L9, The Sun L9, The World L13)"
+  },
+  {
+   "chapter": 483,
+   "scene": 3,
+   "name": "Derrick Berg",
+   "why": "seated at the gathering that opens ch483 L107 ('three figures sitting across the long, mottled table'); named in ch484's opening lines (Alger L9, The Sun L9, The World L13)"
+  },
+  {
+   "chapter": 483,
+   "scene": 3,
+   "name": "The World",
+   "why": "seated at the gathering that opens ch483 L107 ('three figures sitting across the long, mottled table'); named in ch484's opening lines (Alger L9, The Sun L9, The World L13)"
+  },
+  {
+   "chapter": 483,
+   "scene": 3,
+   "name": "Audrey Hall",
+   "why": "on the page as 'Miss Justice' (L121-125, her greeting 'You saved Backlund again!'); named Audrey in ch484 L11"
+  },
+  {
+   "chapter": 484,
+   "scene": 1,
+   "name": "Derrick Berg",
+   "why": "seated at the gathering as 'The Sun' / 'Little Sun' (L11-13); named Derrick at ch485 L107 and ch486 L7"
+  },
+  {
+   "chapter": 484,
+   "scene": 2,
+   "name": "Roselle Gustav",
+   "why": "diary-reading interlude: the three pages Fors conjured at L63-71 are 'Roselle's diary'; inside the reading he is only 'the Emperor' (L91, L105)"
+  },
+  {
+   "chapter": 485,
+   "scene": 2,
+   "name": "Fors Wall",
+   "why": "seated at the bronze table for the whole gathering; not re-named inside this sub-scene (named at ch484 L43-71 and ch486 L19)"
+  },
+  {
+   "chapter": 485,
+   "scene": 2,
+   "name": "Emlyn White",
+   "why": "seated at the bronze table for the whole gathering; not re-named inside this sub-scene (introduced as Mr. Moon ch484 L73; named ch486 L3)"
+  },
+  {
+   "chapter": 485,
+   "scene": 2,
+   "name": "Alger Wilson",
+   "why": "seated at the bronze table for the whole gathering; not re-named inside this sub-scene (named ch484 L9 and ch486 L19)"
+  },
+  {
+   "chapter": 488,
+   "scene": 2,
+   "name": "Audrey Hall",
+   "why": "on the page as 'Miss Justice' (L85, L99); named Audrey at L35 and L113 of the same chapter"
+  },
+  {
+   "chapter": 488,
+   "scene": 2,
+   "name": "Fors Wall",
+   "why": "seated at the bronze table for the whole gathering; not re-named inside this sub-scene (named L35 and L83 of the same chapter)"
+  },
+  {
+   "chapter": 488,
+   "scene": 2,
+   "name": "Emlyn White",
+   "why": "seated at the bronze table for the whole gathering; not re-named inside this sub-scene (named L37 of the same chapter)"
+  },
+  {
+   "chapter": 488,
+   "scene": 2,
+   "name": "Derrick Berg",
+   "why": "seated at the bronze table for the whole gathering; not re-named inside this sub-scene (named L35 and L49; speaks again at L109)"
+  },
+  {
+   "chapter": 488,
+   "scene": 3,
+   "name": "Emlyn White",
+   "why": "on the page as 'the new member, Mr. Moon' (L115); named Emlyn at L37"
+  },
+  {
+   "chapter": 488,
+   "scene": 3,
+   "name": "Fors Wall",
+   "why": "seated at the bronze table for the whole gathering; not re-named inside this sub-scene (named L35 and L83)"
+  },
+  {
+   "chapter": 488,
+   "scene": 3,
+   "name": "Alger Wilson",
+   "why": "seated at the bronze table for the whole gathering; not re-named inside this sub-scene (named L3-23, L39, L91-103); the barrier isolates his senses but he stays at the table"
+  },
+  {
+   "chapter": 489,
+   "scene": 1,
+   "name": "Fors Wall",
+   "why": "seated for the whole gathering; addressed only as 'Miss Magician' and only in Emlyn's recollection at L63 (s2). She was at the table from the opening (ch483 L107 opens from Fors's seat) and Emlyn recalls her looking at him during the session."
+  },
+  {
+   "chapter": 490,
+   "scene": 2,
+   "name": "Cleves",
+   "why": "the 'man in his thirties wearing a black top hat... pale blue eyes' Klein locks eyes with in the queue (L91-93) is Cleves: ch492 L9 'he's that guy I noticed at the ticket office yesterday', named 'Cleves, a former adventurer' at ch492 L13. Scene split at L87 so his portrait enters only when Klein notices him."
+  },
+  {
+   "chapter": 497,
+   "scene": 2,
+   "name": "Denton",
+   "why": "L65-83 is the walk back into the cabin right after Cleves answered Denton at the table (L55-61); L83 'he followed Cecile, Donna, and company into the cabin' -- Denton is the 'company'. Not literally named inside L65-83."
+  },
+  {
+   "chapter": 497,
+   "scene": 6,
+   "name": "Cecile",
+   "why": "L149 'he met Donna, Cleves, and the others' on their way to the port restaurant -- Cecile is Cleves's comrade and the second bodyguard of the family (ch493 L99, ch494 L5); she is one of 'the others'. Not literally named in L139-153."
+  },
+  {
+   "chapter": 497,
+   "scene": 7,
+   "name": "Logan",
+   "why": "L163 'two large men in the middle of the room, facing each other' -- the one with the musket is Sea Eagle Logan, named at ch498 L15 when Elland explains the quarrel; the other is the [Navy sailor]."
+  },
+  {
+   "chapter": 501,
+   "scene": 4,
+   "name": "Cecile",
+   "why": "'Donna's family and Cleves were returning' (L97) - Cecile is the family's bodyguard and is on deck with them in the continuing scene at ch502 L19 ('Cleves and Cecile sensed that something was wrong'); never named inside ch501."
+  },
+  {
+   "chapter": 502,
+   "scene": 5,
+   "name": "Donna",
+   "why": "still beside Klein at the bow when Danitz boards: ch503 L3 'He smiled to Denton and Donna who were beside him'; last named in ch502 L145-147, the immediately preceding scene."
+  },
+  {
+   "chapter": 502,
+   "scene": 5,
+   "name": "Denton",
+   "why": "same as Donna: ch502 L149 (preceding scene) and ch503 L3 'Denton and Donna who were beside him'."
+  },
+  {
+   "chapter": 502,
+   "scene": 5,
+   "name": "Cecile",
+   "why": "'Cecile, who was in charge of protecting them, was a few paces away' (ch502 L107) during the bow conversation that runs straight into Danitz's arrival."
+  },
+  {
+   "chapter": 503,
+   "scene": 1,
+   "name": "Cecile",
+   "why": "carried from ch502 L107 ('a few paces away' guarding Donna and Denton, who are named at ch503 L3); never named in ch503."
+  },
+  {
+   "chapter": 503,
+   "scene": 3,
+   "name": "Urdi Branch",
+   "why": "'Klein met Donna's family and Cleves. They occupied a large table' (L147) - Donna's father, who introduced himself as Urdi Branch at ch501 L115; not named in ch503."
+  },
+  {
+   "chapter": 504,
+   "scene": 1,
+   "name": "Denton",
+   "why": "at the Branch family's large table in the dining room since ch503 L147-149 ('Uncle Sparrow!' the little boy, Denton); 'Donna and the others left the dining room' at L49"
+  },
+  {
+   "chapter": 504,
+   "scene": 1,
+   "name": "Cleves",
+   "why": "seated with Donna's family in the dining room (ch503 L147, L159 'Cleves put down his fork and knife'); leaves with them at L49"
+  },
+  {
+   "chapter": 504,
+   "scene": 1,
+   "name": "Urdi Branch",
+   "why": "'Donna's family' at the large table (ch503 L147); her father is named Urdi Branch at ch504 L163 / ch505 L27"
+  },
+  {
+   "chapter": 504,
+   "scene": 4,
+   "name": "Denton",
+   "why": "'Donna's family' sitting in the Room 305 living room (L157); the same scene continues into ch505 L35 'Donna and Denton finally relaxed'"
+  },
+  {
+   "chapter": 505,
+   "scene": 5,
+   "name": "Urdi Branch",
+   "why": "present as 'her father' still in discussion with Uncle Cleves (L171); named Urdi Branch at L27 of the same chapter"
+  },
+  {
+   "chapter": 506,
+   "scene": 4,
+   "name": "Denton",
+   "why": "'Cleves suddenly said to Donna and the others' on the gangway (L97) -- the whole Branch party walks to the Green Lemon; Denton is at the table there (ch507 L41)"
+  },
+  {
+   "chapter": 506,
+   "scene": 4,
+   "name": "Cecile",
+   "why": "'Donna and the others' (L97) -- the bodyguards go ashore with the family; Cecile is at the restaurant table at ch507 L13"
+  },
+  {
+   "chapter": 506,
+   "scene": 4,
+   "name": "Teague",
+   "why": "'Donna and the others' (L97) -- the bodyguards go ashore with the family; Teague is at the restaurant table at ch507 L29"
+  },
+  {
+   "chapter": 506,
+   "scene": 5,
+   "name": "Harris",
+   "why": "'the first mate beside him' (L111) whom Elland tells to wait fifteen minutes; Elland's first mate is named Harris at ch507 L67"
+  },
+  {
+   "chapter": 506,
+   "scene": 7,
+   "name": "Urdi Branch",
+   "why": "the family is at the Green Lemon table with Donna (she 'had just laid out her napkin', L159); her father Urdi Branch is at the table at ch507 L21 in the continuation"
+  },
+  {
+   "chapter": 506,
+   "scene": 7,
+   "name": "Denton",
+   "why": "at the Green Lemon table with his sister; named ch507 L41 ('having seen the messenger with his sister')"
+  },
+  {
+   "chapter": 506,
+   "scene": 7,
+   "name": "Cecile",
+   "why": "at the Green Lemon table; 'Cecile shot to her feet and rushed to Donna's side' ch507 L13"
+  },
+  {
+   "chapter": 506,
+   "scene": 7,
+   "name": "Teague",
+   "why": "at the Green Lemon table; 'the other bodyguard, Teague, explained' ch507 L29"
+  },
+  {
+   "chapter": 507,
+   "scene": 1,
+   "name": "Denton",
+   "why": "at the same restaurant table from the top of the chapter; named L41 when Cleves explains the custom"
+  },
+  {
+   "chapter": 507,
+   "scene": 1,
+   "name": "Teague",
+   "why": "at the same restaurant table; named L29 ('the other bodyguard, Teague') in the continuation"
+  },
+  {
+   "chapter": 507,
+   "scene": 2,
+   "name": "Cecile",
+   "why": "still at the table after rushing to Donna's side at L13; leaves with the family in ch508"
+  },
+  {
+   "chapter": 508,
+   "scene": 2,
+   "name": "Cecile",
+   "why": "'led his family and bodyguards down to the first floor' (L121); named at L171 in the continuation"
+  },
+  {
+   "chapter": 508,
+   "scene": 2,
+   "name": "Teague",
+   "why": "'his family and bodyguards' (L121); he is the 'another bodyguard' of L149 and is named with Cleves and Cecile at ch509 L17"
+  },
+  {
+   "chapter": 508,
+   "scene": 3,
+   "name": "Teague",
+   "why": "'another bodyguard agreed' (L149) -- the second bodyguard besides Cecile (L171); named Teague at ch507 L29 and ch509 L17"
+  },
+  {
+   "chapter": 508,
+   "scene": 4,
+   "name": "Denton",
+   "why": "'Donna held her younger brother, Denton' as they leave (L171, the line before this scene); 'Donna and Denton cried out' L195"
+  },
+  {
+   "chapter": 508,
+   "scene": 4,
+   "name": "Cecile",
+   "why": "Donna leaves 'hiding behind Cecile' (L171); the group outside is 'Donna and the others' / 'Urdi and the others'"
+  },
+  {
+   "chapter": 508,
+   "scene": 4,
+   "name": "Teague",
+   "why": "the third bodyguard walks out with the family (L121, L149); 'Cleves exchanged glances with Cecile and Teague' ch509 L17"
+  },
+  {
+   "chapter": 508,
+   "scene": 5,
+   "name": "Urdi Branch",
+   "why": "'Urdi and the others swallowed hard' (L189) two lines earlier; he answers Klein at ch509 L5"
+  },
+  {
+   "chapter": 508,
+   "scene": 5,
+   "name": "Cecile",
+   "why": "still in the group outside the restaurant (L171); named ch509 L17"
+  },
+  {
+   "chapter": 508,
+   "scene": 5,
+   "name": "Teague",
+   "why": "still in the group outside the restaurant; named ch509 L17"
+  },
+  {
+   "chapter": 509,
+   "scene": 1,
+   "name": "Denton",
+   "why": "with his sister in 'Donna's family' (L9) / 'the Branch family outside' (L75); holds Donna's hand and cries 'Uncle Sparrow!' at ch508 L15/L39 and is counted in 'Donna's family of four' at ch509 L87"
+  },
+  {
+   "chapter": 509,
+   "scene": 2,
+   "name": "Urdi Branch",
+   "why": "'Donna's family of four' in Klein's headcount (L87) and 'the protective circle of her parents' (L145); named Urdi Branch at L5 of this chapter and again ch510 L55"
+  },
+  {
+   "chapter": 510,
+   "scene": 1,
+   "name": "Urdi Branch",
+   "why": "the party of 'fifteen people' (L5) is still standing at the telegraph-office door where ch509 ended; named at L55 when he vouches for Gehrman at the cathedral"
+  },
+  {
+   "chapter": 510,
+   "scene": 1,
+   "name": "Denton",
+   "why": "part of the party of fifteen (L5) at the telegraph-office door; named in the ch511 L11 roll-call of who the hurricane throws"
+  },
+  {
+   "chapter": 510,
+   "scene": 1,
+   "name": "Cecile",
+   "why": "one of the three bodyguards flanking the party (ch509 L101); still at the door where ch509 ended; named ch511 L11"
+  },
+  {
+   "chapter": 510,
+   "scene": 1,
+   "name": "Teague",
+   "why": "one of the three bodyguards flanking the party (ch509 L101); still at the door where ch509 ended; named ch511 L11"
+  },
+  {
+   "chapter": 510,
+   "scene": 1,
+   "name": "Timothy",
+   "why": "the Timothy couple walked with the group to the telegraph office (ch509 L131-139); named ch511 L11"
+  },
+  {
+   "chapter": 510,
+   "scene": 2,
+   "name": "Danitz",
+   "why": "'the current pillar of support was Gehrman Sparrow and Blazing Danitz' (L5); enters the cathedral with the group and is named again at L107 as they leave"
+  },
+  {
+   "chapter": 510,
+   "scene": 2,
+   "name": "Denton",
+   "why": "'Elland stepped aside to let Donna and the others in' (L61) -- the whole party enters the cathedral; named ch511 L11"
+  },
+  {
+   "chapter": 510,
+   "scene": 2,
+   "name": "Cecile",
+   "why": "enters the cathedral with the party (L61); named ch511 L11/L71"
+  },
+  {
+   "chapter": 510,
+   "scene": 2,
+   "name": "Teague",
+   "why": "enters the cathedral with the party (L61); named ch511 L11/L71"
+  },
+  {
+   "chapter": 510,
+   "scene": 2,
+   "name": "Timothy",
+   "why": "enters the cathedral with the party (L61); named ch511 L11/L71"
+  },
+  {
+   "chapter": 510,
+   "scene": 3,
+   "name": "Donna",
+   "why": "'the group left the cathedral' (L97) and walks back together; named ch511 L9 when Millet's hurricane lifts her"
+  },
+  {
+   "chapter": 510,
+   "scene": 3,
+   "name": "Denton",
+   "why": "walks back with the group (L97); named ch511 L11"
+  },
+  {
+   "chapter": 510,
+   "scene": 3,
+   "name": "Cleves",
+   "why": "walks back with the group (L97); named ch511 L11"
+  },
+  {
+   "chapter": 510,
+   "scene": 3,
+   "name": "Cecile",
+   "why": "walks back with the group (L97); named ch511 L11"
+  },
+  {
+   "chapter": 510,
+   "scene": 3,
+   "name": "Teague",
+   "why": "walks back with the group (L97); named ch511 L11"
+  },
+  {
+   "chapter": 510,
+   "scene": 3,
+   "name": "Timothy",
+   "why": "walks back with the group (L97); named ch511 L11"
+  },
+  {
+   "chapter": 512,
+   "scene": 1,
+   "name": "Teague",
+   "why": "'Urdi and the others... followed quietly behind' (L25), 'Cleves, Cecile, and the others' (L33) -- the full party walks from the battle site to the telegraph office; named ch511 L11/L71"
+  },
+  {
+   "chapter": 512,
+   "scene": 1,
+   "name": "Timothy",
+   "why": "walks back with the full party (L25/L33/L97 'Donna and the others did the same'); named ch511 L11/L71 and 'the Timothy family' at ch512 L127"
+  },
+  {
+   "chapter": 512,
+   "scene": 1,
+   "name": "Harris",
+   "why": "Elland's first mate walks back with the group (joined at ch510 L55/L99); 'his first mate' is gathered on deck at L113"
+  },
+  {
+   "chapter": 512,
+   "scene": 2,
+   "name": "Cleves",
+   "why": "the three bodyguards board with their employers ('until everyone was on board', L111) and go into the cabin with the Branch and Timothy families (L127); named ch511 L71"
+  },
+  {
+   "chapter": 512,
+   "scene": 2,
+   "name": "Cecile",
+   "why": "boards and goes into the cabin with her employers (L111/L127); named ch511 L71"
+  },
+  {
+   "chapter": 512,
+   "scene": 2,
+   "name": "Teague",
+   "why": "boards and goes into the cabin with his employers (L111/L127); named ch511 L71"
+  },
+  {
+   "chapter": 512,
+   "scene": 2,
+   "name": "Harris",
+   "why": "Elland 'had already begun to gather his first mate, second mate...' (L113) -- Harris, named as the first mate at ch510 L55"
+  },
+  {
+   "chapter": 514,
+   "scene": 3,
+   "name": "Derrick Berg",
+   "why": "seated at the gathering for the whole session (named 'Derrick' at L43, s1); in s3 the text calls him only 'Little Sun' (L63) while Klein reads his legends"
+  },
+  {
+   "chapter": 515,
+   "scene": 2,
+   "name": "The World",
+   "why": "seated at the gathering for the whole session; named 'The World' at L35/L69-83 (s1) as the one who raised Bansy Harbor, still at the table when Mr. Fool names Medici (Alger's deduction about The World continues in ch516 L21-35)"
+  },
+  {
+   "chapter": 516,
+   "scene": 2,
+   "name": "The World",
+   "why": "seated at the gathering for the whole session; named 'The World' at L21-35 (s1); present through the closing at L123 ('one figure after another disappeared from the palace')"
+  },
+  {
+   "chapter": 524,
+   "scene": 5,
+   "name": "Oamaru",
+   "why": "the 'swarthy, thin man' at the Amyris Leaf Bar counter (L155-171) is Oamaru -- Squall names him at ch525 L29 ('you deliberately mentioned Blazing to Oamaru')"
+  },
+  {
+   "chapter": 485,
+   "scene": 2,
+   "name": "The World",
+   "why": "Klein's second seat, present for the whole gathering; not re-named inside this sub-scene (the verifier's token match on 'the' is not real grounding)"
   }
  ]
 }

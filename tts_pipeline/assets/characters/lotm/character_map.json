@@ -547,7 +547,14 @@
     "Mr. World"
    ],
    "manual": true,
-   "_note": "Klein's fake second Tarot seat, introduced ch264. USER-SUPPLIED 2026-09-03: the official Gehrman Sparrow card rendered as a pure SILHOUETTE, because the Tarot Club members perceive Mr. World as a separate, hooded, 'illusory and hazy' stranger and must not see a face. Gehrman Sparrow himself is not created until ch483 (Vol 3), where the club comes to view The World AS Gehrman Sparrow -- so the silhouette is deliberate foreshadowing, not a spoiler. Do NOT swap in the unsilhouetted card for Volume 2."
+   "_note": "Klein's fake second Tarot seat, introduced ch264. USER-SUPPLIED 2026-09-03: the official Gehrman Sparrow card rendered as a pure SILHOUETTE, because the Tarot Club members perceive Mr. World as a separate, hooded, 'illusory and hazy' stranger and must not see a face. Gehrman Sparrow himself is not created until ch483 (Vol 3), where the club comes to view The World AS Gehrman Sparrow -- so the silhouette is deliberate foreshadowing, not a spoiler. Do NOT swap in the unsilhouetted card for Volume 2.",
+   "image_from_chapter": [
+    {
+     "at_chapter": 483,
+     "image": "Gehrman Sparrow.jpg",
+     "why": "Volume 3 onward (user ruling 2026-09-03): the club comes to see Mr. World as Gehrman Sparrow, so the seat shows the FULL official card; Vol 2 keeps the silhouette because Gehrman Sparrow is not created until ch483"
+    }
+   ]
   },
   "Apothecary": {
    "image": "Darkwill.png",
@@ -594,6 +601,26 @@
    "manual": true,
    "depiction": true,
    "_note": "Team leader Leonard Mitchell serves under (ch408+). NO official art -- USER-SUPPLIED REFERENCE 2026-09-03, marked with the white * per the depiction convention. NOTE the text calls him 'the middle-aged man named Soest'; this reference reads considerably younger."
+  },
+  "Danitz Dubois": {
+   "image": "Danitz.jpg",
+   "aliases": [
+    "Danitz",
+    "Blazing Danitz"
+   ],
+   "manual": true,
+   "_note": "Registry name for the pirate 'Blazing Danitz' (Vol 3 ch499+, 56 scenes in block 11). Same official card the manifest lists as 'Danitz'; keyed here under the registry name so the alias Danitz -> Danitz Dubois resolves to art (2026-09-12)."
+  },
+  "Caitlyn Hall": {
+   "image": "Caitlyn Hall.jpg",
+   "aliases": [
+    "Caitlyn",
+    "Lady Caitlyn",
+    "Countess Hall"
+   ],
+   "manual": true,
+   "depiction": true,
+   "_note": "Audrey's mother. NO official art -- USER-SUPPLIED FAN ART 2026-09-18 (Audrey in green with her mother in the blue court cape, ballroom floor, LOTM logo at the foot), marked with the white * per the depiction convention; left uncropped per the user's standing no-crop preference, so Audrey also appears in this card. Tagged ch343, 472, 482 (Vol 2) and 513+ (Vol 3)."
   }
  }
 }

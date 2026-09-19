@@ -1,0 +1,63 @@
+{
+ "chapter": 518,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 11,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Bayam dock: Klein walks down the gangway and heads straight for Coastal Street without looking back, while Danitz stands on the deck unable to believe a 3,000-pound bounty is being let go",
+   "text_anchor": "Are you really going to let me go?"
+  },
+  {
+   "line_start": 13,
+   "line_end": 33,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Danitz doubles back through the streets to make sure he isn't followed, reaches the Golden Dream's contact house by the dock warehouses, knocks three long and three short, and gloats that he only gave Sparrow the hostile pirate contacts",
+   "text_anchor": "Danitz knocked happily on the door—three long and three short—rhythmically."
+  },
+  {
+   "line_start": 35,
+   "line_end": 53,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Danitz",
+    "Old Rinn",
+    "Maveti"
+   ],
+   "setting": "Old Rinn opens the door and coughs him in; Danitz smells Lanti Proof instead of Bayam Black Rand and a tall, dark, muscular man with marble-curled hair rises: 'Steel' Maveti, second mate of the Admiral of Blood, bounty 6,000 pounds",
+   "text_anchor": "“Steel” Maveti! Danitz’s pupils contracted sharply."
+  },
+  {
+   "line_start": 57,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Coastal Street as the storm breaks: Danitz staggers up gutted and dying, gasps his last words to Gehrman Sparrow -- Old Rinn is compromised, Steel Maveti did it for the treasure, his title deeds on Amyris Avenue, money to his parents in Elema Town -- and Klein heals him with a swipe of Damage Transfer, having waited 'for you to finish. That's basic courtesy.' They go to find a hotel; a pirate is richer than Klein",
+   "text_anchor": "“Waiting for you to finish."
+  },
+  {
+   "line_start": 143,
+   "line_end": 157,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Audrey Hall",
+    "Susie"
+   ],
+   "setting": "Empress Borough: Audrey, about to leave Backlund, concocts the Psychiatrist potion in her chemistry laboratory with Susie watching the whole process from inside the room ('Woof!'), then raises her head and downs it",
+   "text_anchor": "Converging her emotions, Audrey raised her head and downed the Psychiatrist potion bottle."
+  }
+ ]
+}

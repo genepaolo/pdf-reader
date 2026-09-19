@@ -1,0 +1,39 @@
+{
+ "chapter": 491,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 25,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [],
+   "setting": "Above the fog, the dream shatters: Klein flips a coin -- it really is Leonard Mitchell, his Tingen Nighthawks teammate, at the Babur Valley gathering. Investigator for the Church, or hunting his revenge target behind the Nighthawks' backs? No way to tell; he draws a crimson moon and wishes him luck",
+   "text_anchor": "Is it really Leonard, or a Faceless disguised as Leonard?",
+   "mentioned_characters": [
+    "Leonard Mitchell"
+   ]
+  },
+  {
+   "line_start": 29,
+   "line_end": 115,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Ikanser Bernard",
+    "Horamick Haydn",
+    "[Machinery Hivemind members]"
+   ],
+   "setting": "A secret room under Backlund's Steam Cathedral: Archbishop Horamick Haydn hears the Machinery Hivemind deacons and captains report. Ikanser's file clears Sherlock Moriarty as an innocent 'hero of Backlund' (fraudulent expense claims aside); Trissy Cheek, Funkel and the underground ruins remain open. Ikanser is ordered to ask Arrodes and the mirror shows how Sherlock met Azik Eggers (visions only: Sherlock Moriarty, Old Kohler, the budget-hotel owner in the mirror); Arrodes's question is oddly gentle and Ikanser answers 'Yes'",
+   "text_anchor": "In any case, Sherlock Moriarty is a hero of Backlund."
+  },
+  {
+   "line_start": 119,
+   "line_end": 133,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [],
+   "setting": "5th January, 9:00 a.m., Rose Wharf: the White Agate with its chimneys, sails and twelve cannons; armed sailors line the gangway under Captain Elland Kag's arrangement, and Klein climbs the hanging ladder with suitcase and cane. 'My travels begin...'",
+   "text_anchor": "My travels begin…"
+  }
+ ]
+}

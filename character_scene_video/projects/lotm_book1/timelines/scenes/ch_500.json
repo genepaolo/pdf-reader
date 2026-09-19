@@ -1,0 +1,40 @@
+{
+ "chapter": 500,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 13,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "[bartender]",
+    "Hamilton",
+    "Elland"
+   ],
+   "setting": "Still in the bar: the bartender writhes on the floor, White Shark Hamilton stamps up the creaking stairs, the drunkards drift off, Captain Elland and his men go back upstairs to their cards — and the disguised Klein follows, meaning to squeeze the pirate-connected owner for information to feed Creeping Hunger's replacement souls",
+   "text_anchor": "Klein took the opportunity to follow."
+  },
+  {
+   "line_start": 15,
+   "line_end": 33,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "[bouncers]"
+   ],
+   "setting": "The dark candle-lit second-floor corridor: Klein wipes his face into one of the downstairs bouncers, patches his clothes with Illusion Creation, walks past the card room and tells the corridor guards 'there's something going on downstairs again' before knocking on White Shark's door",
+   "text_anchor": "“There’s something going on downstairs again.”"
+  },
+  {
+   "line_start": 35,
+   "line_end": 161,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Hamilton"
+   ],
+   "setting": "White Shark Hamilton's room: 'Boss, it's me' gets Klein in; he drops the illusion back to the blond stranger and, radiating Creeping Hunger's starved-demon gaze, calls himself a hunter and offers two choices; Hamilton confesses he fences loot and gathers intelligence for the pirates via a 'radio transceiver' hidden behind a secret door, names Silver Coin Viper Oder and Admiral of Blood's intelligence officer Old Quinn as its source and Old Quinn as his potion-giver; Klein stages a fake exit, silently watches Hamilton tap out 'I was targeted!' — memorising the frequency and passcodes — and leaves for real",
+   "text_anchor": "“One is to answer frankly. The second is to be killed by me and then answer honestly.”"
+  }
+ ]
+}

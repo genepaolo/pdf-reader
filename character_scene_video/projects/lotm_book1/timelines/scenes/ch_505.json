@@ -1,0 +1,83 @@
+{
+ "chapter": 505,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 23,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Elland",
+    "[sailor]",
+    "[navigator]"
+   ],
+   "setting": "The captain's quarters: a sailor reports the Red Skull has fled; Elland watches it vanish over the horizon, cannot explain it, and orders the navigator to dock at Bansy Harbor tonight and report the encounter to the Navy and the Church",
+   "text_anchor": "“We shall dock at Bansy Harbor tonight."
+  },
+  {
+   "line_start": 27,
+   "line_end": 83,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Urdi Branch",
+    "Cleves",
+    "Donna",
+    "Denton",
+    "Teague",
+    "Cecile"
+   ],
+   "setting": "Room 305 after the all-clear: Teague and Cecile explain bounties to Donna and Denton (One-Eyed 500 pounds, Sea Wolf 900, 'nearly 1,000 pounds!'); the siblings privately decide Uncle Sparrow's house-tall messenger scared the pirates off and slip out into the corridor to go find him in Room 312",
+   "text_anchor": "“Are the Red Skull pirates that powerful?”"
+  },
+  {
+   "line_start": 87,
+   "line_end": 115,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "Room 312: Danitz, no longer mentioning Rear Admiral Iceberg, holds forth on why pirates will always survive the Navy's ironclads -- and Klein points at his suitcase: 'Wash the dirty clothes inside.'",
+   "text_anchor": "“Wash the dirty clothes inside.”"
+  },
+  {
+   "line_start": 117,
+   "line_end": 169,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz",
+    "Donna",
+    "Denton"
+   ],
+   "setting": "Donna and Denton visit Room 312 and find the famous pirate doing laundry; Klein tells them plainly he is 'my prisoner of war', a pirate -- Danitz blurts 'I'm Sieg!' and Klein overrides with 'Danitz.' The siblings leave, feeling the pirate's eyes are fierce",
+   "text_anchor": "“To be exact, he’s my prisoner of war.”"
+  },
+  {
+   "line_start": 171,
+   "line_end": 185,
+   "protagonist_present": false,
+   "protagonist_persona": null,
+   "other_characters": [
+    "Donna",
+    "Denton",
+    "Cleves",
+    "Urdi Branch"
+   ],
+   "setting": "Back in Room 305 the siblings innocently ask about 'Danitz'; Cleves identifies Blazing Danitz, Rear Admiral Iceberg's fourth boatswain of the Golden Dream, bounty 3,000 pounds -- more than three times the Red Skull captain -- and goes quiet in recall",
+   "text_anchor": "“3,000 pounds.”"
+  },
+  {
+   "line_start": 189,
+   "line_end": 193,
+   "protagonist_present": true,
+   "protagonist_persona": "Gehrman Sparrow",
+   "other_characters": [
+    "Danitz"
+   ],
+   "setting": "6 p.m., Room 312: the White Agate enters Bansy Harbor; Danitz eyes the darkened harbor and the tall lighthouse -- 'Elland is very cautious. It seems like there are some nasty legends here.'",
+   "text_anchor": "“Bansy Harbor? Elland is very cautious…”"
+  }
+ ]
+}

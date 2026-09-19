@@ -1,0 +1,41 @@
+{
+ "chapter": 515,
+ "scenes": [
+  {
+   "line_start": 3,
+   "line_end": 99,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Alger Wilson",
+    "Derrick Berg",
+    "Fors Wall",
+    "Audrey Hall",
+    "Emlyn White",
+    "The World"
+   ],
+   "setting": "Transactions wind up: Derrick's Spirit Eater stomach pouch for Fors, the Solar High Priest formula conjured for The Sun, Alger picks three City of Silver ingredients and asks Fors to ready the Dragon-Eyed Sea Condor eyeballs; free exchange -- Fors warns Backlund is still under pressure, The Hanged Man tells The Sun to check on the Chief before any ritual, and The World asks the ladies for a radio transceiver before mentioning the revived custom at Bansy Harbor and its corrupted Storms bishop",
+   "text_anchor": "“Miss Magician, your Spirit Eater’s stomach pouch is ready.”",
+   "mentioned_characters": []
+  },
+  {
+   "line_start": 101,
+   "line_end": 139,
+   "protagonist_present": true,
+   "protagonist_persona": "The Fool",
+   "other_characters": [
+    "Audrey Hall",
+    "Fors Wall",
+    "Emlyn White",
+    "Derrick Berg",
+    "Alger Wilson",
+    "The World"
+   ],
+   "setting": "Deep laughter from the end of the table: Mr. Fool says Bansy 'reminds me of a King of Angels' -- Medici, who established the Rose Redemption, whose descendants live in Binsy, the old name of Bansy; Fors despairs at the scale of it, Emlyn feels like a messiah, and Alger realizes Mr. Fool foresaw last week's promise about meeting the Kings of Angels",
+   "text_anchor": "“Medici, who established the Rose Redemption. ‘His’ descendants live in Binsy.”",
+   "mentioned_characters": [
+    "Medici"
+   ]
+  }
+ ]
+}
