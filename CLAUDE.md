@@ -293,22 +293,29 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   entries to remove in Studio (why its itemCount is 129 vs 127 real chapters).
 ## Current Progress Log
 
-### lom_book2_coi (uploads updated 2026-09-16)
+### lom_book2_coi (uploads updated 2026-09-30)
 | Stage | Done | Highest | Next action |
 |---|---|---|---|
 | Audio (`.mp3`) | 603 | 603 | generate ch. **604+** |
 | Video (`.mp4`) | 601 files (through 600, contiguous 1–600) | 600 | create ch. **601–603**, then wait for audio |
-| Upload | 430 (1–430, no gaps) | 430 | upload ch. **431+** (170 pending; all vol-3+ ranges routed by ID) |
+| Upload | 472 (1–472, no gaps) | 472 | upload ch. **473+** (128 pending). ⚠️ background jobs now get killed (see below) |
 
-- Most recent upload: 2026-09-16, ch. **411–430** (20/20, Failed: 0, → Conspirer); tracker verified 430, no
-  gaps. Before that: 391–410 on 2026-09-10 (20/20); 361–390 on 2026-09-04 (30/30).
+- Most recent upload: 2026-09-30, **ch471–472 only** (batch of 20 abandoned, see below). Before that: 451–470
+  (09-27), 431–450 (09-20), 411–430 (09-16) — all clean.
+  ⚠️ **2026-09-30: BACKGROUND JOBS ARE NOW KILLED AT A TIME LIMIT (~30 min, even with timeout=600000).** Two
+  `upload_queue.py` runs died after ~1 upload each (earlier sessions ran 3.5 h unattended). Second kill hit
+  AFTER ch472 finished uploading but BEFORE the uploader's playlist-add + tracker write, leaving a complete,
+  untracked video (`vaJim7ioOXY`, size identical to local MP4). Reconciled by hand: added to Conspirer
+  playlist + tracker entry (backup `youtube_progress.json.bak-2026-09-30`). **After ANY killed run: query the
+  channel's newest uploads for an UNTRACKED video before restarting, or you create a duplicate.**
+  473–490 NOT uploaded; needs a way to run >30 min (foreground/other host) or small `--limit` chunks.
   ⚠️ `upload_queue.py` stdout is BLOCK-BUFFERED when redirected to a file — a background run's log can sit
   at 0 bytes for an hour while uploads succeed. Judge progress by `youtube_progress.json` (mtime + entry
   count) or the process being alive, never by an empty log.
-- End screens: **DONE through 429→430 (2026-09-16).** Sources 410–429: 20 attempted / 20 confirmed / 20
-  saved / 0 WARN / 0 ERROR / 0 SKIP. Before that: 390–409 (2026-09-10, 20/20); 360–389 (2026-09-05,
-  30/30, independently re-verified in Studio). ⏭ **Dangling: ch430** — run sources **430–(M-1)** after
-  the next batch lands. Pattern that now works every time: relaunch Chrome on 9222 → `--plan-only` →
+- End screens: **DONE through 469→470 (2026-09-27); 470→471 and 471→472 NOT yet done.** Sources 450–469: 20/20 confirmed + saved, 0 WARN/ERROR/
+  SKIP (Chrome 153, still logged in). Before that: 430–449 (09-20), 410–429 (09-16), 390–409 (09-10,
+  independently re-verified in Studio). ⏭ **Dangling: ch470** — run sources **470–(M-1)** after the next
+  batch lands. Pattern that now works every time: relaunch Chrome on 9222 → `--plan-only` →
   run with `-u` and `--allow-public-chapters $(seq -s, N M)`.
   ⚠️ **THE UNLISTED-ONLY GUARD IS NOW PERMANENTLY IN THE WAY — always pass `--allow-public-chapters`.**
   Uploads still go up unlisted (`upload_settings.privacy`) but flip public in **under a day**
@@ -505,3 +512,9 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
   `Volume_2_Faceless/parts/Part_K_chAAA-BBB/`; thumbnail choice per part in the analysis doc). **Volume 1 will NOT be
   re-uploaded (user decision 2026-09-03)** — it stays live with its original frames; its local
   masters carry the new layout but that is not shipping. All future changes are Vol 2+ only.
+- **2026-10-02 PRE-UPLOAD PACK REVIEW (Vol 2).** Part 2's hook described ch264-266 (which are in Part 1)
+  -> rewritten in `upload_meta.json` + Part 2 pack regenerated. `playlist_vol02.txt` claimed the Fool's
+  identity is no secret to the gathering by vol end (false) -> fixed. Everything else checked OK: titles
+  89/100, descriptions 3.7k/5k, no `<>`, markers 0:00-first, tags 380/500. API snapshot: Vol-1 parts
+  433/107/63/186 views in 35 days; per-chapter Vol-2 playlist (`PLV2gvMHy77hrwY_XlTOU8dvcEM92uigRM`)
+  holds 43.3k views; Vol-1 parts sit at the BOTTOM (pos 214-217) of the per-chapter Vol-1 playlist.
