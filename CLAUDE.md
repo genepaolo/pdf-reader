@@ -7,6 +7,11 @@
 - **Second workstream:** `character_scene_video` (Book 1 per-scene portrait videos) — see its
   section below. **Next session there: manual Studio upload of Volume 2's 5 parts (proof of readiness = `verify_render.py 214 482` CLEAN; thumbnail picks in `THUMBNAIL_TEST_ANALYSIS.md`), then Vol 3 block 11 portrait decisions -> render (STATUS.md top block).**
 
+- **Third workstream (planned, not started): replace Azure TTS with local VoiceStudio** —
+  plan in `VOICESTUDIO_TTS_SWAP_PLAN.md` (written on the Mac 2026-10-02). Starts at Phase 0, a GPU
+  go/no-go benchmark on the RX 9070 XT; voice-clone of Steffan first, presets as fallback. Azure stays
+  the default (`tts_engine: azure`) until Phase 2d passes. Never commit clone weights or reference WAVs.
+
 ## Agent context (how this file is loaded)
 - **Cursor:** `.cursor/rules/claude-context.mdc` (`alwaysApply: true`) requires reading `CLAUDE.md` before tools or substantive changes — re-read each message, don't rely on memory.
 - **Claude Code / other tools:** if not auto-loaded, `@`-reference this file at session start.

@@ -36,9 +36,11 @@ The outcome we're after:
   end, so the sentence sequence in the text and the silence sequence in the
   audio are the same sequence" (`detect_silences()` via ffmpeg
   `silencedetect`). A local engine that varies pause length between runs or
-  swallows sentence breaks will **silently break Book-1 Vol-3 alignment** and
-  every future per-scene character video. This has to be validated BEFORE we
-  commit a voice.
+  swallows sentence breaks will break alignment for any audio it renders.
+  *(Checked 2026-10-02: all Book-1 audio — Vol 1–8, incl. Vol 3's 250 MP3s —
+  already exists from Azure, so the current per-scene work is safe. The risk
+  is any FUTURE re-render of Book-1 chapters, or per-scene videos for COI.)*
+  This still has to be validated BEFORE we commit a voice.
 - **AMD GPU on Windows.** The target host is the main PC with an RX 9070 XT.
   Most Python TTS stacks (incl. OmniVoice, VoiceStudio's default engine) are
   PyTorch; PyTorch on AMD Windows means ROCm (unofficial) or DirectML
