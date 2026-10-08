@@ -1,6 +1,6 @@
 > **HISTORICAL DESIGN DOC (2025).** The batch migration it plans is done —
 > the pipeline is batch-only now. Current architecture:
-> [ARCHITECTURE.md](ARCHITECTURE.md).
+> [ARCHITECTURE.md](../../tts_pipeline/ARCHITECTURE.md).
 
 # Batch Synthesis API Implementation Plan
 

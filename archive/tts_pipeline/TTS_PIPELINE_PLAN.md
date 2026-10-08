@@ -1,6 +1,6 @@
 > **HISTORICAL DESIGN DOC (2025).** Kept for context; parts no longer match
 > the code (e.g. the legacy progress tracker it describes was removed
-> 2026-08-10). Current architecture: [ARCHITECTURE.md](ARCHITECTURE.md).
+> 2026-08-10). Current architecture: [ARCHITECTURE.md](../../tts_pipeline/ARCHITECTURE.md).
 
 # TTS Pipeline: Project-Based Architecture
 
