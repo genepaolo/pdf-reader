@@ -1,3 +1,4 @@
 # name	kind	tab label	extra agent args (after --)
 ab-builder	claude	Claude Builder	--model sonnet
 ab-verifier	codex	Codex Verifier	-s workspace-write -C "C:\Users\paolo\Work\Projects\LOTM\pdf-reader\.team"
+ab-producer	claude	Claude Producer	--model sonnet

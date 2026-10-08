@@ -15,10 +15,22 @@ Names carry an `ab-` prefix because Herdr names are unique server-wide (Core EMR
 | `ab-chief` | Claude Opus | dispatch, plans, rulings, commits/pushes, YouTube/growth strategy |
 | `ab-builder` | Claude Sonnet | code, tests, doc edits in the repo; one feature branch at a time |
 | `ab-verifier` | Codex | reviews plans, diffs, docs; writes only into `.team/` |
-| `ab-producer` | Claude Sonnet | (started when needed) pipeline runs, uploads, end screens, thumbnails, metadata |
+| `ab-producer` | Claude Sonnet | pipeline ops: uploads, tracker, end screens, read-only YouTube API checks, thumbnails, metadata |
 | `jobs` tab | plain shell | long runs (`upload_queue.py`, renders) in the foreground: no agent, no 30-min kill |
 
 Chief reassigns roles by prompt; a new role is a new line here, not a new agent.
+
+### How each role works (from session 1, 2026-10-07)
+- **ab-chief:** writes a task file `.team/<date>-task-NN-<topic>.md` (goal, scope, rules, owner, reviewer), prompts one
+  line pointing at it, rules on findings in a `## Chief ruling` section. Spot-checks small/low-risk diffs itself instead
+  of a Codex round (save the $20 plan for real reviews). Cap 3 review rounds.
+- **ab-builder:** audits read-only first when asked; works on a branch; logs a moved-content/deviation ledger; runs
+  `cd tts_pipeline && py -3.12 -m pytest tests/ -q`; leaves a file in place (and logs why) when code still uses it.
+- **ab-verifier:** checks every claim against file:line; caught real defects twice (non-runnable command, wrong
+  repo-root paths, dropped guard). Says what it did not check.
+- **ab-producer:** YouTube checks via a scratchpad script reusing `tts_pipeline/api/youtube_uploader.py` auth (token
+  loaded by code, never opened); backs up the tracker before any edit and re-reads it after; verify-only queue check is
+  `upload_queue.py --project lom_book2_coi --limit=0`.
 
 ## Rules
 
@@ -48,6 +60,10 @@ bash .claude/skills/audiobook-team/start-team.sh [--brief]   # start missing age
 herdr agent prompt ab-builder "You are ab-builder. ..." --wait --timeout 600000
 herdr agent read ab-verifier --source recent-unwrapped --lines 40 | grep HANDOFF
 ```
+
+`herdr agent wait` can return on the PREVIOUS turn's state: wait by polling the task file for the agent's HANDOFF line.
+Shut down: Claude `/exit`, Codex `/quit` (Git Bash needs `MSYS_NO_PATHCONV=1`); work lives in `.team/`, nothing is lost.
+Session start: read `.team/session-handoff.md` first, then start the team.
 
 `blocked` = an approval dialog: read it before answering; Codex asks to append its verdict to `.team/` (approve that
 exact append only). Codex update prompt: "Skip". Codex cannot always run the Python toolchain in its sandbox; it judges
