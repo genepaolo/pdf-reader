@@ -33,7 +33,7 @@
 
 ### Engine layout (run everything with `py -3.12` from repo root)
 - Engine + per-project config: `character_scene_video/projects/<name>/project.json` (template `_TEMPLATE/`);
-  all scripts take `--project` (default `lotm_book1`); data (tags, align, timelines, decisions) in `projects/<name>/`.
+  all scripts take `--project` (default `lotm_book1`); data (tags, align, timelines, decisions) in `character_scene_video/projects/<name>/`.
 - **Output is BY VOLUME, then BY PART:** `<video_out_dir>/<Volume_dir>/chapters/Chapter_N.mp4` (masters) ·
   `parts/Part_K_chAAA-BBB/` (upload part: mp4 + descriptions + pinned comment + tags + `thumbnails/`).
   **K = the part's list position under its volume in `character_scene_video/projects/<name>/upload_meta.json`** (add the range there first);
@@ -64,7 +64,7 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
    **This is the only accepted proof that a range is rendered.**
 9. `py -3.12 character_scene_video/build_block_video.py A B --plan` then without `--plan`
    → `<Volume_dir>/parts/Part_K_chAAA-BBB/Part_K_chAAA-BBB.mp4` + `_description.txt` (K from
-   `upload_meta.json`, so add the part range there FIRST; keep each upload part < 12 h;
+   `character_scene_video/projects/<name>/upload_meta.json`, so add the part range there FIRST; keep each upload part < 12 h;
    warns past 11.9 h; must not cross a volume boundary)
    ⚠ **re-concats MUST pass `--force` too** — same silent skip as step 8 (bit us 2026-09-02:
    packs regenerated while all 9 part MP4s stayed stale). Verify with file mtimes.
