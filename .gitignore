@@ -106,3 +106,6 @@ youtube_upload_queue.txt
 
 # character_scene_video: composited frame cache (regenerable from portraits + timeline)
 character_scene_video/projects/*/frames/
+
+# Herdr agent team notes (local only)
+.team/
