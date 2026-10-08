@@ -15,19 +15,20 @@
 - After every run that affects outputs/uploads, update the progress table below immediately.
 - Use the YouTube API to verify recent uploads when status needs confirmation.
 - ⚠️ Run all scripts with `py -3.12`, not `python` (PATH `python` = 3.11, missing `dotenv`/`google-api-python-client`).
+- Shell: commands below are Git Bash from the repo root (`py -3.12`, `$(...)`); the Chrome relaunch line is PowerShell.
 
 ---
 
 ## character_scene_video (Book 1 — separate workstream)
 > Per-scene character-portrait videos for **Book 1 (LOTM)**. Design: `character_scene_video/DESIGN.md`.
-> Session handoff + full history: `character_scene_video/STATUS.md`. Tagging rules: `TAGGING_GUIDE.md`.
+> Session handoff + full history: `character_scene_video/STATUS.md`. Tagging rules: `character_scene_video/TAGGING_GUIDE.md`.
 
 ### Current state (2026-10-07)
 - **Vol 1 (ch1–213): uploaded, 4 parts public** (`sQ94crQVoAQ` / `AfBLteZ9nfU` / `Qi3hZkRr_j0` / `8lha69vkmCE`);
   YouTube caps uploads at 12 h. Not being re-uploaded.
 - **Vol 2 (ch214–482): rendered, packed, `verify_render.py 214 482` CLEAN.** 5 parts in `Volume_2_Faceless/parts/`.
-  ⏭ **Next: manual Studio upload** (thumbnail picks in `THUMBNAIL_TEST_ANALYSIS.md`).
-- **Vol 3 (ch483+): block 11 tagged + verified, NOT rendered**; needs `upload_meta.json` volume-3 entry + portrait decisions (STATUS.md top block).
+  ⏭ **Next: manual Studio upload** (thumbnail picks in `character_scene_video/THUMBNAIL_TEST_ANALYSIS.md`).
+- **Vol 3 (ch483+): block 11 tagged + verified, NOT rendered**; needs `character_scene_video/projects/lotm_book1/upload_meta.json` volume-3 entry + portrait decisions (`character_scene_video/STATUS.md` top block).
 - After ANY portrait install rebuild ALL blocks, then `compose_frames.py`. `*` = artist depiction. Sharon ≠ Sharron.
 
 ### Engine layout (run everything with `py -3.12` from repo root)
@@ -35,17 +36,17 @@
   all scripts take `--project` (default `lotm_book1`); data (tags, align, timelines, decisions) in `projects/<name>/`.
 - **Output is BY VOLUME, then BY PART:** `<video_out_dir>/<Volume_dir>/chapters/Chapter_N.mp4` (masters) ·
   `parts/Part_K_chAAA-BBB/` (upload part: mp4 + descriptions + pinned comment + tags + `thumbnails/`).
-  **K = the part's list position under its volume in `upload_meta.json`** (add the range there first);
+  **K = the part's list position under its volume in `character_scene_video/projects/<name>/upload_meta.json`** (add the range there first);
   ranges may not cross a volume boundary. Full layout/helpers: `docs/history.md`.
 - Alignment is NOT aeneas/WhisperX: Azure-TTS audio of known text matched to ffmpeg pauses with a DP.
 
 ### BLOCK RECIPE (replace A B with the chapter range, e.g. 214 263)
 Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
-1. **Tag scenes**: read each chapter, write `projects/lotm_book1/timelines/scenes/ch_N.json` per
-   `TAGGING_GUIDE.md` (text-literal names); add boundary entries to `continuity.json` (incl.
+1. **Tag scenes**: read each chapter, write `character_scene_video/projects/lotm_book1/timelines/scenes/ch_N.json` per
+   `character_scene_video/TAGGING_GUIDE.md` (text-literal names); add boundary entries to `continuity.json` (incl.
    boundary A-1); new aliases → `name_aliases.json`.
    ⚠️ Dream/vision/memory figures are NOT present, and Roselle diary-reading scenes are split around the
-   reading — both rules in `TAGGING_GUIDE.md` (read it before tagging).
+   reading — both rules in `character_scene_video/TAGGING_GUIDE.md` (read it before tagging).
 2. **Portrait decisions**: after step 5, `build_character_report.py A B` → record yes/no in
    `portrait_decisions.json`; source images (`fetch_named_portraits.py` or user-supplied). After
    ANY portrait change: rerun `build_block.py`, THEN `compose_frames.py`.
@@ -67,7 +68,7 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
    warns past 11.9 h; must not cross a volume boundary)
    ⚠ **re-concats MUST pass `--force` too** — same silent skip as step 8 (bit us 2026-09-02:
    packs regenerated while all 9 part MP4s stayed stale). Verify with file mtimes.
-10. Upload prep: add the volume's parts + hooks to `projects/<name>/upload_meta.json`, then
+10. Upload prep: add the volume's parts + hooks to `character_scene_video/projects/<name>/upload_meta.json`, then
     `py -3.12 character_scene_video/make_upload_pack.py --volume V` and
     `py -3.12 character_scene_video/make_thumbnail.py V --name "<Vol Name>" --part K --of N --range "A-B" --hours H`
     (both write into `parts/Part_K_chA-B/`)
@@ -88,7 +89,7 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
 
 ### Step 3 — UPLOAD → tracker `D:/PDFReader/lom_book2_coi_output/youtube_progress.json`
 > **ONE upload job at a time** (two = duplicates). Pace ≈ 6/hour (the script paces itself).
-- Tracker check: `py -3.12 upload_queue.py --project lom_book2_coi --limit=0` · upload: `... --yes --limit=1|10`
+- Tracker check: `py -3.12 upload_queue.py --project lom_book2_coi --limit=0` · upload: `... --yes --limit=1` (or `--limit=10`)
 - OAuth sign-in as **breadmoretti@gmail.com** if prompted (`token.json` in repo root). Titles come from the
   `Chapter N: <title>` line in the source text. Config: `tts_pipeline/config/projects/lom_book2_coi/youtube_config.json`.
 - ⚠️ NO retry: a failed chapter leaves a hole; fix in order before the next batch (delete out-of-order uploads only with approval).
@@ -96,6 +97,7 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
 - ⚠️ **After ANY killed/aborted upload run, check the channel's newest uploads for an UNTRACKED video before
   restarting, or you create a duplicate.** Background jobs are killed at ~30 min (2026-09-30): use small `--limit`
   chunks or a foreground shell. Stdout is block-buffered when redirected: judge progress by `youtube_progress.json`.
+- ⚠️ A pre-check discovery snapshot goes stale during a long batch — re-check discovery after the run.
 
 ### Step 4 — END SCREENS (run AFTER a fully successful upload batch; skip if ANY upload failed)
 > Tool: `youtube_endscreen.py` (Playwright over Studio; idempotent; `--replace` not implemented).
