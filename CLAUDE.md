@@ -143,8 +143,9 @@ Steps 1–2 are content work (new blocks only); 3–10 are mechanical.
 |---|---|---|---|
 | Audio (`.mp3`) | 603 | 603 | generate ch. **604+** |
 | Video (`.mp4`) | 601 files (1–600 contiguous) | 600 | create ch. **601–603** |
-| Upload | 472 (1–472, no gaps) | 472 | upload ch. **473+** |
-- End screens done through 469→470; **470→471 and 471→472 NOT done** — run sources **470–(M-1)** after the next batch.
+| Upload | 471 (1–471, no gaps) | 471 | upload ch. **472+** (472 is NOT uploaded) |
+- End screens done through 469→470; **470→471 NOT done** — run sources **470–(M-1)** after the next batch.
+- ⚠️ ch472: `vaJim7ioOXY` does not exist on the channel (verified 2026-10-07); it was a hand-added tracker entry, removed from the tracker. Vol 3 Conspirer playlist still has a dead "Deleted video" row for it — remove in Studio.
 - Volume boundaries: ch264+ → vol 3 (Conspirer). Ch885+ needs background art before video creation.
 - Disk: ~1.17 TB free on D:; ~672 MB/video. Per-batch history: `docs/history.md`, `youtube_progress.json`, git log.
 
